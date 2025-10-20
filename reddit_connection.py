@@ -1,5 +1,5 @@
-import requests
 import os
+import praw
 from dotenv import load_dotenv
 
 load_dotenv(dotenv_path='keyword.env')
@@ -8,19 +8,21 @@ secret_key = os.getenv('SECRET_KEY')
 password = os.getenv('PASSWORD')
 user_name = os.getenv('USER_REDDIT')
 
-auth = requests.auth.HTTPBasicAuth(client_id, secret_key)
-data = {
-  'grant_type': 'password',
-  'username': user_name,
-  'password': password
-}
+reddit = praw.Reddit(client_id = client_id,
+                     client_secret=secret_key,
+                     username=user_name,
+                     password=password,
+                     user_agent='TccTeste/0.0.1'
+                     )
 
-headers = {'User-Agent':'TccTeste/0.0.1'}
+sub_reddit = reddit.subreddit('apple+iphone+ios')
 
-res = requests.post('https://www.reddit.com/api/v1/access_token',
-                    auth=auth, data=data, headers=headers, verify=False)
+termos_busca = "iOS 26 OR (novo iOS) OR (atualização iOS)"
 
-TOKEN = res.json()['access_token']
-headers['Authorization'] = f'bearer {TOKEN}'
-
-requests.get('https://oauth.reddit.com/api/v1/me',headers=headers, verify=False).json()
+# Busca por posts (submissions) que contenham seus termos
+for post in sub_reddit.search(termos_busca, sort="new", limit=1000):
+    print(f"Post encontrado: {post.title}")
+    # Agora, você pode pegar os comentários desse post
+    post.comments.replace_more(limit=0) # Pega todos os comentários
+    for comment in post.comments.list():
+        print(f"--- Comentário: {comment.body}")
