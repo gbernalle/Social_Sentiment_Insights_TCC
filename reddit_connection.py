@@ -34,7 +34,7 @@ termos_busca = "iOS 26 OR (novo iOS) OR (atualização iOS)"
 all_data = []
 
 # Busca por posts (submissions) que contenham os termos
-for post in sub_reddit.search(termos_busca, sort="new", limit=1000):
+for post in sub_reddit.search(termos_busca, sort="hot", limit=1000):
     print(f"Post encontrado: {post.title}")
   
     post_data = {
