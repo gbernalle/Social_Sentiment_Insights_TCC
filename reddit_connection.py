@@ -1,66 +1,102 @@
 import os
 import json
 import praw
+import logging
+from dataclasses import dataclass
+from prawcore import exceptions as praw_exceptions
 from dotenv import load_dotenv
-#Teste Bypass empresa
-from requests import Session
-import warnings
-from urllib3.exceptions import InsecureRequestWarning
 
-warnings.simplefilter('ignore', InsecureRequestWarning)
-custom_session = Session()
-custom_session.verify = False
-#Até aqui pode apagar no código final
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
-load_dotenv(dotenv_path='keyword.env')
-client_id = os.getenv('CLIENT_ID')
-secret_key = os.getenv('SECRET_KEY')
-password = os.getenv('PASSWORD')
-username = os.getenv('USER_REDDIT')
 
-reddit = praw.Reddit(client_id = client_id,
-                     client_secret=secret_key,
-                     username=username,
-                     password=password,
-                     user_agent='TccTeste/0.0.1',
-                     #Remover depois: Isso é só para o pc da empresa
-                     requestor_kwargs={'session': custom_session}
-                     )
+@dataclass
+class Connection:
+    def __init__(self):
+        load_dotenv(dotenv_path="keyword.env")
+        self.client_id = os.getenv("CLIENT_ID")
+        self.secret_key = os.getenv("SECRET_KEY")
+        self.password = os.getenv("PASSWORD")
+        self.username = os.getenv("USER_REDDIT")
+        self.reddit = None
+        logging.info("Cliente inicializado, credenciais carregadas.")
 
-sub_reddit = reddit.subreddit('apple+iphone+ios')
+    def connect_to_api(self) -> bool:
+        try:
+            if not all([self.client_id, self.secret_key, self.password, self.username]):
+                logging.error("Variáveis de ambiente não foram carregadas corretamente")
+                return False
 
-termos_busca = "iOS 26 OR (novo iOS) OR (atualização iOS)"
+            # Objeto de conexão
+            self.reddit = praw.Reddit(
+                client_id=self.client_id,
+                client_secret=self.secret_key,
+                username=self.username,
+                password=self.password,
+                user_agent="TccTeste/0.0.1",
+            )
 
-all_data = []
+            user = self.reddit.user.me()
+            logging.info(f"Conexão bem-sucedida como: {user.name}")  # type: ignore
+            return True
 
-# Busca por posts (submissions) que contenham os termos
-for post in sub_reddit.search(termos_busca, sort="hot", limit=1000):
-    print(f"Post encontrado: {post.title}")
-  
-    post_data = {
-        "post_id": post.id,
-        "post_title": post.title,
-        "post_created_utc": post.created_utc,
-        "comments": []
-    }
-    
-    # Pega todos os comentários --Limit=0 faz isso--
-    post.comments.replace_more(limit=0) 
-    
-    for comment in post.comments.list():
-        if hasattr(comment,"body"):
-            comment_data = {
-                "comment_id": comment.id, # type: ignore
-                "comment_body": comment.body, # type: ignore
-                "comment_created_utc": comment.created_utc # type: ignore
-            }
-        post_data["comments"].append(comment_data) # type: ignore
+        except praw_exceptions.OAuthException as e:
+            logging.error(f"Ocorreu um erro de autenticação: {e}")
+            self.reddit = None
+            return False
+        except Exception as e:
+            logging.error(f"Erro inesperado ao conectar: {e}")
+            self.reddit = None
+            return False
 
-    
-    all_data.append(post_data)
+    def get_top_posts_and_comments(
+        self, subreddit_name: str, search: str, limit: int = 1000
+    ):
+        if not self.reddit:
+            logging.error("Não é possível obter posts. Conexão não estabelecida.")
+            return []
+        try:
+            sub_reddit = self.reddit.subreddit(subreddit_name)
+            all_data = []
+            termos_busca = search
 
-file_name = 'reddit_data.json'
-with open(file_name, 'w', encoding='utf-8') as f:
-    json.dump(all_data, f, ensure_ascii=False, indent=4)
+            # Busca por posts (submissions) que contenham os termos
+            for post in sub_reddit.search(termos_busca, sort="hot", limit=limit):
+                print(f"Post encontrado: {post.title}")
 
-print(f"Dados salvos com sucesso em '{file_name}'")
+                post_data = {
+                    "post_id": post.id,
+                    "post_title": post.title,
+                    "post_created_utc": post.created_utc,
+                    "comments": [],
+                }
+
+                # Pega todos os comentários --Limit=0 faz isso--
+                post.comments.replace_more(limit=0)
+
+                for comment in post.comments.list():
+                    if hasattr(comment, "body"):
+                        comment_data = {
+                            "comment_id": comment.id,  # type: ignore
+                            "comment_body": comment.body,  # type: ignore
+                            "comment_created_utc": comment.created_utc,  # type: ignore
+                        }
+                    post_data["comments"].append(comment_data)  # type: ignore
+
+                all_data.append(post_data)
+            return all_data
+
+        except Exception as e:
+            logging.error(f"Erro ao buscar posts: {e}")
+            return []
+
+
+client = Connection()
+
+if client.connect_to_api():
+    logging.info("Iniciando busca de posts...")
+    top_posts = client.get_top_posts_and_comments("python", "social sentiment")
+    print(top_posts)
+else:
+    logging.error("Falha ao conectar. Verificar credenciais ou conexão. Encerrando.")

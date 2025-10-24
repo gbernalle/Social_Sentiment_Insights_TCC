@@ -1,0 +1,28 @@
+import os
+import json
+import praw
+from dotenv import load_dotenv
+#Teste Bypass empresa
+from requests import Session
+import warnings
+from urllib3.exceptions import InsecureRequestWarning
+
+warnings.simplefilter('ignore', InsecureRequestWarning)
+custom_session = Session()
+custom_session.verify = False
+#Até aqui pode apagar no código final
+
+load_dotenv(dotenv_path='keyword.env')
+client_id = os.getenv('CLIENT_ID')
+secret_key = os.getenv('SECRET_KEY')
+password = os.getenv('PASSWORD')
+username = os.getenv('USER_REDDIT')
+
+reddit = praw.Reddit(client_id = client_id,
+                     client_secret=secret_key,
+                     username=username,
+                     password=password,
+                     user_agent='TccTeste/0.0.1',
+                     #Remover depois: Isso é só para o pc da empresa
+                     requestor_kwargs={'session': custom_session}
+                     )
