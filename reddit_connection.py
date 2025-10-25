@@ -4,6 +4,7 @@ import praw
 import logging
 from dataclasses import dataclass
 from prawcore import exceptions as praw_exceptions
+from pathlib import Path
 from dotenv import load_dotenv
 
 logging.basicConfig(
@@ -93,10 +94,14 @@ class Connection:
         
     def save_in_file(self, file_json, file_name) -> bool:
         try:
-            with open(file_name, "w", encoding="utf-8") as f:
+            destiny_file = Path("raw_data")
+            complete_path = destiny_file / file_name
+
+            with open(complete_path, "w", encoding="utf-8") as f:
                 json.dump(file_json, f, ensure_ascii=False, indent=4)
             print(f"Arquivo '{file_name}' salvo com sucesso!")
             return True
+        
         except Exception as e:
             logging.error(f"Ocorreu um erro: {e}")
             return False
