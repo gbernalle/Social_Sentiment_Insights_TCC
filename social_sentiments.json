@@ -1,0 +1,717 @@
+[
+    {
+        "post_id": "1li8id5",
+        "post_title": "Fenix: I built an algorithmic trading bot with CrewAI, Ollama, and Pandas.",
+        "post_created_utc": 1750656446.0,
+        "comments": [
+            {
+                "comment_id": "mzc9zyu",
+                "comment_body": "    import random\n    def get_ai_trade_advice():\n        return random.choice(['Buy', 'Sell', 'Outlook unclear, ask again later.'])",
+                "comment_created_utc": 1750691298.0
+            },
+            {
+                "comment_id": "mzb2wu7",
+                "comment_body": "Does adding a visual agent actually add value? Charts seem like great things for humans to consume info quickly but could a bot get that same reasoning just from the raw data alone?",
+                "comment_created_utc": 1750675766.0
+            },
+            {
+                "comment_id": "mzbacll",
+                "comment_body": "The owners of cryptocurrency trading platforms will be delighted.",
+                "comment_created_utc": 1750679227.0
+            },
+            {
+                "comment_id": "mzb6wr7",
+                "comment_body": "Started testing in paper or real time",
+                "comment_created_utc": 1750677673.0
+            },
+            {
+                "comment_id": "mzgt1pw",
+                "comment_body": "Will using this LLM affect the coffee machine connected to the same network and instead print chocolate coins?",
+                "comment_created_utc": 1750744679.0
+            },
+            {
+                "comment_id": "mzaa8mq",
+                "comment_body": "Hey, thank you for sharing.\nWhat's the minimal system specs recommended when trying out ? Couldn't find this information on the GitHub Readme.",
+                "comment_created_utc": 1750659210.0
+            },
+            {
+                "comment_id": "mzgs456",
+                "comment_body": "Well that's great. Have you tried testing this in real life?",
+                "comment_created_utc": 1750744188.0
+            },
+            {
+                "comment_id": "mzlqvw0",
+                "comment_body": "Do you know what a quant is?",
+                "comment_created_utc": 1750807551.0
+            },
+            {
+                "comment_id": "n0vqf5c",
+                "comment_body": "yao i just came across your project through a.i bro just wanna say i was working already on  that idea with my roommate  \n\nso i took deep research on gemini  linked to github and tadam you spawned , just wanted to say the idea is genius",
+                "comment_created_utc": 1751426681.0
+            },
+            {
+                "comment_id": "n3axpyi",
+                "comment_body": "Thank you for this!  I am a python dev and maker if AI tools that recently became aware of tools like these.  I would like to install in my dicker environment that already has ollama installed.  It looks like I could point to that in the environment files.  Anything else that I should be aware of if trying to containerize this?",
+                "comment_created_utc": 1752602764.0
+            },
+            {
+                "comment_id": "mzczfxj",
+                "comment_body": "Haha, you got me! That's pretty much the code for my `v0.1` strategy. The entire goal of Fenix is to build a system that can consistently beat `random.choice()`! Thanks for checking out the project, I'm a huge fan of your work. :D really thx.",
+                "comment_created_utc": 1750698472.0
+            },
+            {
+                "comment_id": "mzcwjux",
+                "comment_body": "Hello, great question, and if it improves the project's performance, all parts of the bot are made under exhaustive research on the latest in AI like this paper that explains why an agent looking at the graph can find visual patterns that are not found in classic technical analysis [https://arxiv.org/abs/2502.17967?utm\\_source=chatgpt.com](https://arxiv.org/abs/2502.17967?utm_source=chatgpt.com)  but the bot is modular try removing the visual agent and have tested, Thank you very much for commenting :D",
+                "comment_created_utc": 1750697677.0
+            },
+            {
+                "comment_id": "mzci8rt",
+                "comment_body": "And the power plants behind it all",
+                "comment_created_utc": 1750693640.0
+            },
+            {
+                "comment_id": "mzcxkeg",
+                "comment_body": "Yes, I had already thought about that, that's why the idea is that you use local LLM to have maximum privacy and so the trading platform only sees the orders arriving.",
+                "comment_created_utc": 1750697954.0
+            },
+            {
+                "comment_id": "mzcx5lg",
+                "comment_body": "Hi, thanks for commenting. I've only tried it with paper trading and backtester, but I haven't tried it with real money.",
+                "comment_created_utc": 1750697842.0
+            },
+            {
+                "comment_id": "mzjpt3p",
+                "comment_body": "yes absolutely",
+                "comment_created_utc": 1750785911.0
+            },
+            {
+                "comment_id": "mzaf8qt",
+                "comment_body": "    Hey, thank you for the great question and for checking out the project! You're right, that's a crucial piece of information that was missing. I've just updated the README to include it.\n    \n    The system was specifically designed and optimized to run on consumer-grade hardware. Here are the recommended specs:\n    \n    * **OS:** macOS (Apple Silicon recommended) or Linux.\n    * **CPU:** Apple Silicon (M1/M2/M3/M4) is ideal due to the optimizations. A modern Intel/AMD CPU should also work.\n    * **RAM:** **16GB is the recommended minimum.** The entire system, with its dynamic memory management, is engineered to run comfortably within this limit by loading and unloading models on demand. 8GB might struggle significantly.\n    * **Disk Space:** At least **25-30 GB of free space** to accommodate Ollama and the various language models.\n    \n    The primary development and testing machine was a Mac Mini with 16GB of RAM, so that's the sweet spot for the intended experience.\n    \n    The project is completely modular, you can choose which local LLM to use. You can use small models like QWEN3 of 0.6b or a little bigger, and the project is already configured with RAM efficiency, downloading each model for each agent. For the visual agent you can use a small model like Llava or the QWEN2.5V of 3b.\n    \n    Thanks again for pointing this out! :D",
+                "comment_created_utc": 1750662003.0
+            },
+            {
+                "comment_id": "mzjpo5r",
+                "comment_body": "no im just tried in paper trading thx for comment",
+                "comment_created_utc": 1750785875.0
+            },
+            {
+                "comment_id": "mzlzajv",
+                "comment_body": "yes why?",
+                "comment_created_utc": 1750810366.0
+            },
+            {
+                "comment_id": "n2amofb",
+                "comment_body": "I'm not surprised that great minds think alike. The Fenix ​​project is open source. I invite you to make a fork and use Fenix ​​as the base for your project and you could save time. I hope to see your version of Fenix. How exciting!",
+                "comment_created_utc": 1752114947.0
+            },
+            {
+                "comment_id": "n3knsp1",
+                "comment_body": "Hi, how great that you're dedicated to this and I'm glad you like my project. The truth is, I haven't tried to put the project in a docker but there shouldn't be any problems, could you tell me how it went if you were able to put it in docker? Could you make a commit on github or something? In a few days I'll upload version 1.5 and fix and improve many things. I'll see if I can include putting it in a docker. Thanks for commenting :D I hope my project is useful to you.",
+                "comment_created_utc": 1752726026.0
+            },
+            {
+                "comment_id": "mzfzxnx",
+                "comment_body": "What the hell.. are you really serious?",
+                "comment_created_utc": 1750732051.0
+            },
+            {
+                "comment_id": "mzn01ca",
+                "comment_body": "Like these? https://i.etsystatic.com/13357050/r/il/b55267/3551690705/il_1080xN.3551690705_hoos.jpg",
+                "comment_created_utc": 1750823461.0
+            },
+            {
+                "comment_id": "mzcxtyq",
+                "comment_body": "Thank you very much for commenting. Well, since the project uses local LLM, you could use a renewable energy source like a solar panel for your computer and use the local LLM you like, and that way you take care of the planet and maintain privacy with local LLM. :D",
+                "comment_created_utc": 1750698027.0
+            },
+            {
+                "comment_id": "mzd6660",
+                "comment_body": "And takes their cut, of course.  They just love people like you.",
+                "comment_created_utc": 1750700274.0
+            },
+            {
+                "comment_id": "mzcy5uf",
+                "comment_body": "What is win ratio till",
+                "comment_created_utc": 1750698119.0
+            },
+            {
+                "comment_id": "n3wc95y",
+                "comment_body": "I am just finishing up a holiday and will give it a look in the coming days.  I'll get it working in a single commit so you can see what I did.  Do you have a target date for the next release?  Either way, I'll be happy to help you out in any way that I can.  ",
+                "comment_created_utc": 1752877515.0
+            },
+            {
+                "comment_id": "mzjq1e4",
+                "comment_body": "no",
+                "comment_created_utc": 1750785973.0
+            },
+            {
+                "comment_id": "mzn3cx9",
+                "comment_body": "Delightful! :)",
+                "comment_created_utc": 1750824856.0
+            },
+            {
+                "comment_id": "mzn35i0",
+                "comment_body": "I was more being cheeky about the investment opportunity. Power plants and energy companies have been rallying alongside crypto and AI companies.\n\nGood work and good luck with the project!",
+                "comment_created_utc": 1750824766.0
+            },
+            {
+                "comment_id": "mzde78u",
+                "comment_body": "Hm, I really don't know what to tell you. I did this project just for the love of art. No one has paid me or pays me to do any of this. I don't get any benefits. The project is free. If you see that there are parts that you could improve, go ahead.",
+                "comment_created_utc": 1750702462.0
+            },
+            {
+                "comment_id": "mzhvfrb",
+                "comment_body": "You can have a low win ratio but still be profitable based on risk reward.",
+                "comment_created_utc": 1750765582.0
+            },
+            {
+                "comment_id": "mzd11o7",
+                "comment_body": "Well, I didn't test it like that with WR. It was in paper trading on the Binance testnet for a month and only managed to rise a little more than it started at. The project still needs refinement to become profitable. It's more for study and testing. It doesn't work yet.",
+                "comment_created_utc": 1750698906.0
+            },
+            {
+                "comment_id": "n43oc7t",
+                "comment_body": "Oh really that would be great I'm looking forward to your commit, and as for the update it's gotten a bit out of hand but I hope that by Monday the new version should be available which is much faster and more robust, I'm doing exhaustive tests in paper trading and in real trading, since that is one of the things that I've been asked for the most real tests that the bot can be profitable outside of paper trading",
+                "comment_created_utc": 1752979136.0
+            },
+            {
+                "comment_id": "nb7z7n0",
+                "comment_body": "I don't think I'll ever understand why some reddit users get so 🍑 hurt over sarcasmic jokes on the internet. 😂🤷🏻‍♂️",
+                "comment_created_utc": 1756422611.0
+            },
+            {
+                "comment_id": "mzr31kj",
+                "comment_body": "Yes, I certainly understand your point, thank you very much for your comment and thank you for taking the time to comment.",
+                "comment_created_utc": 1750879436.0
+            },
+            {
+                "comment_id": "mzhdk1w",
+                "comment_body": "Making a project for the love of art is fantastic.  Inspirational even.  \n\nBut in your case, when you were struck by the Muses, and felt the inexorable urge to Create, the great artist within you chose to make make a crypto currency trading bot (with AI features).\n\nI'll grant you one thing - the fact that it currently loses its users' money, could be seen as an artistic statement.",
+                "comment_created_utc": 1750756610.0
+            },
+            {
+                "comment_id": "mzgp7sd",
+                "comment_body": "Thats something you should write in the post, not here burried in the comments after someone asked. Why should I use your system over signal based one if it does not perform?\n\nWhat are the backttest results? For what time period have you tested it?",
+                "comment_created_utc": 1750742698.0
+            },
+            {
+                "comment_id": "n48gw13",
+                "comment_body": "I created an issue in the repo that contains the commit link and a summary of the changes.  This is probably a LOT more than you bargained for, but it might be the next logical step in making this app more user and developer friendly.",
+                "comment_created_utc": 1753047230.0
+            },
+            {
+                "comment_id": "mzjpwbl",
+                "comment_body": "hahah i like this dude.",
+                "comment_created_utc": 1750785936.0
+            },
+            {
+                "comment_id": "mzjrnt2",
+                "comment_body": "If you are right I should have been more specific in my publication is that in the github everything is better explained and with warnings that this is a project still in research is not ready, as for the tests if I have done many tests for a month, and I do not share the tests that I have done because the performance of this bot is based on two aspects in which LLM you use for each agent and how good your computer is to be able to use the LLM quickly also depends on what symbol and what time interval you put it that is why I continue that it is not profitable because I still do not have the exact formula of which LLM is better for each agent, symbol and what timeframe, I made this publication is in search of help that more people try it, experiment with different LLM in each agent, try it in large small currencies different timeframes, in the project docs there is all the information and more that you ask me I hope I have answered your question",
+                "comment_created_utc": 1750786406.0
+            },
+            {
+                "comment_id": "n4dw8lm",
+                "comment_body": "yes i already see it and its amazing thx i comment in the issue you make, really thx im so happy :D",
+                "comment_created_utc": 1753122385.0
+            },
+            {
+                "comment_id": "mzjsnpp",
+                "comment_body": "You really should read up on backtesting and run that for a few past years to see how it would have performed under unstable situations of the last years (corona, ukraine war, trumps tarif bingo).\n\nYou dont need to share your algo but at least the (theoretical) performance for the last 10 years, compared to a bemchmark like the msci world.",
+                "comment_created_utc": 1750786674.0
+            },
+            {
+                "comment_id": "mzjztqy",
+                "comment_body": "Yes, I have tried to do backtest tests like this but the problem is getting the news from the exact dates to pass them to the sentiment agent, giving the technical agent the indicators from that exact moment, for the visual one I would have to pass images of the graph from that exact moment, what I mean is that the bot is rather designed to work live which makes it difficult to do a normal backtest because everything depends on the information that the agents have, they have to be from the same moment so that their decisions are not contradictory, that is why I have only done tests in paper trading but they are slow, surely there is a way to do the backtest but I have not found it yet, thank you for your feedback, I really appreciate it, that is the reason why I published it, I would like to know what others think and give me ideas to be able to refine the project and make it viable.",
+                "comment_created_utc": 1750788632.0
+            },
+            {
+                "comment_id": "mzoodlc",
+                "comment_body": "Have you checked yfinance? Should have all the data you need.",
+                "comment_created_utc": 1750854111.0
+            },
+            {
+                "comment_id": "mzr39b9",
+                "comment_body": "No, I hadn't seen it, I'm going to take a look at it, thanks.",
+                "comment_created_utc": 1750879499.0
+            }
+        ]
+    },
+    {
+        "post_id": "1iegszm",
+        "post_title": "I made LLMs work like scikit-learn",
+        "post_created_utc": 1738335981.0,
+        "comments": [
+            {
+                "comment_id": "ma94ff0",
+                "comment_body": "I like the direction. I always thought that the other agentic frameworks are too abstract, when all you do is basically one kind of classification or regression. Also that skills are just JSON is very nice and transparent. Will have to dive deeper but I think there are a few great patterns.",
+                "comment_created_utc": 1738353673.0
+            },
+            {
+                "comment_id": "ma7f2xh",
+                "comment_body": "I'd post a picture of an entire stadium jumping to their feet and applauding but I'm lazy. This is really good!",
+                "comment_created_utc": 1738336364.0
+            },
+            {
+                "comment_id": "macs3l3",
+                "comment_body": "interesting...good work op well done👍🏽👍🏽",
+                "comment_created_utc": 1738404534.0
+            },
+            {
+                "comment_id": "macxo7f",
+                "comment_body": "Oooh that looks really cool. I could just have a need for it :)",
+                "comment_created_utc": 1738407897.0
+            },
+            {
+                "comment_id": "maeio0l",
+                "comment_body": "Good job!",
+                "comment_created_utc": 1738429667.0
+            },
+            {
+                "comment_id": "ma7fe01",
+                "comment_body": "Thank you, it's completely open-source so use it as you wish!",
+                "comment_created_utc": 1738336457.0
+            }
+        ]
+    },
+    {
+        "post_id": "1cdgodr",
+        "post_title": "How To Build a Social Media Sentiment Analysis Pipeline With FastAPI And Generative AI",
+        "post_created_utc": 1714122219.0,
+        "comments": [
+            {
+                "comment_id": "l1nanyq",
+                "comment_body": "Using AI to analyse sentiment takes to long, \njust use a good, neutral, negative word list.\nWhere each post gets a value;\n\n+1 for positive.\n0 for neutral.\n-1 for negative.\n\nEach post gets it's own score. Example:\n[Message id, score, datetime_data]\n\nTrack avarege score over dates to changes in sentiment represented by a number and weigths for how many posts on each day.\nMore work but hey, its a better solution.\n\nUsing ai to track sentiment feels like using a super computer to calculate 1+1.",
+                "comment_created_utc": 1714315419.0
+            },
+            {
+                "comment_id": "l1naxdn",
+                "comment_body": "Regex matching or string matching.",
+                "comment_created_utc": 1714315519.0
+            }
+        ]
+    },
+    {
+        "post_id": "qj8une",
+        "post_title": "I made a Python tool that helps you know what to say!",
+        "post_created_utc": 1635622633.0,
+        "comments": [
+            {
+                "comment_id": "hioy32g",
+                "comment_body": "I don't know what to say about this.",
+                "comment_created_utc": 1635630015.0
+            },
+            {
+                "comment_id": "hiphyxk",
+                "comment_body": "this man is living in 2031",
+                "comment_created_utc": 1635639728.0
+            },
+            {
+                "comment_id": "hip2bjc",
+                "comment_body": "Cool idea! You can make it even better by adding some examples of your program's responses to github, maybe some screenshots of UI",
+                "comment_created_utc": 1635631984.0
+            },
+            {
+                "comment_id": "hipw5ud",
+                "comment_body": "Cool project, but don't check your pycharm (.idea) files into github, exclude them in gitignore. You should do the same with pycache.",
+                "comment_created_utc": 1635646910.0
+            },
+            {
+                "comment_id": "hiq1vyl",
+                "comment_body": "you should post this in /r/totallynotrobots\n\nGood job!",
+                "comment_created_utc": 1635649987.0
+            },
+            {
+                "comment_id": "hir1jfy",
+                "comment_body": "What is the best way to run your code from github? I cloned it into a colab notebook. Trying to install win10toast  I get the errors: \" Could not find a version that satisfies the requirement pywin32 (from win10toast) (from versions: none), No matching distribution found for pywin32\". Pip install pywin32 doesn't resolve that issue.",
+                "comment_created_utc": 1635677265.0
+            },
+            {
+                "comment_id": "hiqhsf1",
+                "comment_body": "![img](emote|t5_2qh0y|604)",
+                "comment_created_utc": 1635660613.0
+            },
+            {
+                "comment_id": "hiozhzt",
+                "comment_body": "That made me crack up laughing",
+                "comment_created_utc": 1635630668.0
+            },
+            {
+                "comment_id": "hip2xao",
+                "comment_body": "Good idea! I'll do that.",
+                "comment_created_utc": 1635632271.0
+            },
+            {
+                "comment_id": "hir52uu",
+                "comment_body": "Thanks! Don't know why those folders don't show up in PyCharm...",
+                "comment_created_utc": 1635679984.0
+            },
+            {
+                "comment_id": "hir6lng",
+                "comment_body": "It might not work from a Notebook? I would recommend creating a virtual environment and running from the command line:\n\n    >pip install virtualenv\n    >virtualenv myenv\n\nThen activate the virtual environment. \n\n    > myenv\\Scripts\\activate.bat\n\nOnce the environment is activated navigate to the source directory (same dir as GUI.py)\n\n    (myenv)> pip install -r requirements.txt\n    (myenv)> python3 GUI.py",
+                "comment_created_utc": 1635681118.0
+            }
+        ]
+    },
+    {
+        "post_id": "oailc6",
+        "post_title": "UPDATE: I made an algo that tracks sentiment on Reddit (and trades those stocks). DOWN this week compared to the S&P and the benchmark sentiment ETF. Source code, what the algo does up front + behind the scenes, and how it all works.",
+        "post_created_utc": 1625004154.0,
+        "comments": [
+            {
+                "comment_id": "h3hqni4",
+                "comment_body": "What you’ve done is absolutely outstanding. Finished first year of computer science as an undergrad and it’s unbelievable what you guys can do. How did you become so knowledgeable with literally creating this?",
+                "comment_created_utc": 1625005171.0
+            },
+            {
+                "comment_id": "h3hshsd",
+                "comment_body": "CLNE is still looking good 😅",
+                "comment_created_utc": 1625006064.0
+            },
+            {
+                "comment_id": "h3hxlqn",
+                "comment_body": "Wkhs!",
+                "comment_created_utc": 1625008548.0
+            },
+            {
+                "comment_id": "h3jhlfq",
+                "comment_body": "Nice, just curious how accurate is VADER? compared to others like Textblob, Bert etc. Did you add your own word in the VADER lexicon to improve its accuracy ?",
+                "comment_created_utc": 1625043788.0
+            },
+            {
+                "comment_id": "h3hrteb",
+                "comment_body": "Hahah I wish I could accept the commendation but it’s not nearly as difficult as it might seem from a first glance. There’s a few tutorials out there that take you through a lot of the stuff, and from there I just optimized and added some of my own stuff to make it work in a way I was happy with!",
+                "comment_created_utc": 1625005727.0
+            },
+            {
+                "comment_id": "h3hu2ki",
+                "comment_body": "Very good from the likes of it! Although it’s not a strong on an absolute basis (bc I made the sentiment scoring guidelines more stringent) it’s on the comeup on a relative basis!",
+                "comment_created_utc": 1625006819.0
+            }
+        ]
+    },
+    {
+        "post_id": "o4ivrf",
+        "post_title": "UPDATE: I made an algo that tracks sentiment on Reddit (and trades those stocks). Up this week compared to the S&P and the benchmark sentiment ETF. Source code, what the algo does up front + behind the scenes, and how it all works.",
+        "post_created_utc": 1624235208.0,
+        "comments": [
+            {
+                "comment_id": "h2hy402",
+                "comment_body": "I am not sure the long term validity of this, but I’m curious. And regardless of that, it’s dope that you made something that can do this. It’s worthwhile to test, at the very least.",
+                "comment_created_utc": 1624244517.0
+            },
+            {
+                "comment_id": "h2ignej",
+                "comment_body": "Fun project. Most traders can beat S&P 500 here and there with short term trading. Reversion to the mean is a bitch though. Very few have beaten the index markets over time consistently.\n\nI believe some investment companies are trying to capture sentiment like this with varying degrees of success. They throw a lot of money at it and have pretty websites full of impressive looking bullet points but the practicality of it is pretty questionable imho.\n\nCould see it being fun with a small pool of money one could afford to lose. IMHO all short term trading is pure casino. As is individual stock picking. I do it for fun and leave bulk of assets indexed with dollar averaged investing. It's treated me very well..\n\nI'd say specifically to that sort of analysis, it's ripe for exploitation by bad actors. I would not be particularly surprised to find out 'AI' (term tossed around too much) systems auto generating content on various forums and sites intended to sway sentiment one way or another. Not so hard to spam \"HODL apes!\" or urge shifts to doge vs btc etc.",
+                "comment_created_utc": 1624257957.0
+            },
+            {
+                "comment_id": "h2hto20",
+                "comment_body": "How does your algo determine the difference between, for example, someone saying \"..WISH IS A GOOD STOCK\" and someone saying \"I WISH I COULD PICK A GOOD STOCK\"? \nSeems that could lead to accidentally collecting the wrong data.",
+                "comment_created_utc": 1624242189.0
+            },
+            {
+                "comment_id": "h2iisjf",
+                "comment_body": "These types of projects show up pretty regularly here. I can't help but think of [XKCD-1570](https://xkcd.com/1570/) every time.",
+                "comment_created_utc": 1624259928.0
+            },
+            {
+                "comment_id": "h2ic0kd",
+                "comment_body": "Ive done a lot of work in this space and Im sorry to say but Vader really isnt suitable for classifying financial data. Try for example the sentence \"there are going to be many downgrades\". Vader doesnt recognize that as negative. Ive switched al my algo's to a machine learning based model that is trained on financial texts, and it performs much better",
+                "comment_created_utc": 1624253912.0
+            },
+            {
+                "comment_id": "h2hr8g4",
+                "comment_body": "So basically you trade based on attitudes towards stock on Reddit\n\nEdit: rephrase",
+                "comment_created_utc": 1624240869.0
+            },
+            {
+                "comment_id": "h2hydpm",
+                "comment_body": "That's a pretty cool project you have there, I wonder how it'll perform under a longer period of time. Hopefully you can keep up the 2.18% weekly returns !",
+                "comment_created_utc": 1624244670.0
+            },
+            {
+                "comment_id": "h2i2lua",
+                "comment_body": "i have used this nltk package a lot and in my experience it couldnt differentiate between sarcasm and real thing. It can also does not understand slangs and memes properly and can sometimes interpret them as a positive effect.",
+                "comment_created_utc": 1624247199.0
+            },
+            {
+                "comment_id": "h2iqack",
+                "comment_body": "This is a cool project. I've looked at your source code, it looks like you produce a csv file with statistics about each ticker. Do you then feed the csv into another program to rebalance the portfolio based on the output? I may not have read far enough but how are you balancing the portfolio based on the sentiment score?\n\nAlso, what technology are you using for the hosted front end? It looks pretty clean.\n\nI've read a few papers (like [https://arxiv.org/pdf/1010.3003&](https://arxiv.org/pdf/1010.3003&)) that say there's a lot of potential in the area of sentiment analysis/social media/stocks but I'm not sure I buy it yet.\n\nCould be interesting to see the results of another model too, like GPT-3 or XLNet. Relatively new to the NLP space so I'm not sure what's standard for sentiment analysis.\n\nSorry for all the questions, overall really cool project and you've given me a lot of ideas for stuff I've been looking at doing. I'm pretty intimidated by the business side of things which is keeping me from getting started but nice to see other people having success in this area.",
+                "comment_created_utc": 1624267499.0
+            },
+            {
+                "comment_id": "h2j3n21",
+                "comment_body": "[deleted]",
+                "comment_created_utc": 1624278796.0
+            },
+            {
+                "comment_id": "h2j88iq",
+                "comment_body": "Bro I literally had this idea but no were near the skill level to actually code.",
+                "comment_created_utc": 1624281650.0
+            },
+            {
+                "comment_id": "h2i1b4t",
+                "comment_body": "nice project, I wouldn’t use real money with this though",
+                "comment_created_utc": 1624246404.0
+            },
+            {
+                "comment_id": "h2ib2dg",
+                "comment_body": "Google: Nigga you want a job?",
+                "comment_created_utc": 1624253138.0
+            },
+            {
+                "comment_id": "h2i0pc9",
+                "comment_body": "![img](emote|t5_2qh0y|598)",
+                "comment_created_utc": 1624246029.0
+            },
+            {
+                "comment_id": "h2iaqc2",
+                "comment_body": "Cool project. Which platform do you use to invest? And is the actual purchase also automated?",
+                "comment_created_utc": 1624252869.0
+            },
+            {
+                "comment_id": "h2ijrrz",
+                "comment_body": "Just started with python and sounds like a cool project. You mentioned that you data is 55 mb. How did you get it?",
+                "comment_created_utc": 1624260870.0
+            },
+            {
+                "comment_id": "h2j3r69",
+                "comment_body": "My smooth brain only needs to know when to buy… 💎 🙌",
+                "comment_created_utc": 1624278871.0
+            },
+            {
+                "comment_id": "h2jbp9c",
+                "comment_body": "Thanks for the share - love what you did!",
+                "comment_created_utc": 1624283496.0
+            },
+            {
+                "comment_id": "h2l112a",
+                "comment_body": "How do i run this",
+                "comment_created_utc": 1624311550.0
+            },
+            {
+                "comment_id": "h2hy64v",
+                "comment_body": "Thanks!",
+                "comment_created_utc": 1624244550.0
+            },
+            {
+                "comment_id": "h2iw8vj",
+                "comment_body": "Especially the latter part might already be true. Look at the GameStop situation, I wouldn't be surprised if a substantial amount of hype has been bot-generated.\n\n\nIt's really bizarre to see how much time, money and effort is spent on essentially nothing.",
+                "comment_created_utc": 1624273201.0
+            },
+            {
+                "comment_id": "h2hu6gy",
+                "comment_body": "This algorithm is also prone to getting capsized by the usual *pump-and-dump* scheme where attention is purposely drawn to a stock by people who immediately want to dump their shares once it picks up. Hence those seasons of abrupt loss from the bot.",
+                "comment_created_utc": 1624242463.0
+            },
+            {
+                "comment_id": "h2iu7i4",
+                "comment_body": "Or WISH IS SHIT",
+                "comment_created_utc": 1624271352.0
+            },
+            {
+                "comment_id": "h2icn75",
+                "comment_body": "That’s interesting - Vader gives me a compound score of 0 on that sentence which is in line with what you’re saying. I’ll mention though that Vader outperforms humans in rating social media sentiment, according to a study referenced by QuantInsti I just Googled. Could be worth looking into training my own model though, thanks for the feedback",
+                "comment_created_utc": 1624254443.0
+            },
+            {
+                "comment_id": "h2ivyf2",
+                "comment_body": "Did you hand-label those texts? I just finished a similar project and was wondering how to optimize it if I were to redo it.",
+                "comment_created_utc": 1624272937.0
+            },
+            {
+                "comment_id": "h2iy9kg",
+                "comment_body": "Even with ML your accuracy will be relatively laughable for reddit comments. There's just too much flavor of the month meme talk and sarcasm.",
+                "comment_created_utc": 1624274894.0
+            },
+            {
+                "comment_id": "h2htg0s",
+                "comment_body": "I think that a lot of times by the time mentions get high, the stock has already begun its climb and it's a bit late to get into options because IV spikes and they get expensive. \n\nI'd like to see a ranking of stocks that have increased the most compared to yesterday or last week.  That way you might be able to get into them a little earlier. Probably more risky, but that's a trade off I might consider making.",
+                "comment_created_utc": 1624242074.0
+            },
+            {
+                "comment_id": "h2htaap",
+                "comment_body": "Yes, the underlying idea is that people talking about ideas positively in a large and engaging enough community will generate more interest and more people talking about it.",
+                "comment_created_utc": 1624241993.0
+            },
+            {
+                "comment_id": "h2j7bsf",
+                "comment_body": ">in my experience it couldnt differentiate between sarcasm and real thing\n\nTo be fair, that's a hard task for humans too when all you have to go on is text.",
+                "comment_created_utc": 1624281108.0
+            },
+            {
+                "comment_id": "h2kw1k4",
+                "comment_body": "That's the literal paper that got me interested in sentiment analysis! I'm hosting the front end on a temporary low-code solution (Bubble) while I work on strategies, and I'm trying to train my own ML to replace VADER since, as someone else mentioned, it's not always the best at detecting sarcasm and other sentiment. Sentiment has a lot of potential, and don't take it just from me -- Bloomberg has been implementing it into their own terminal, but obviously that keeps out most retail investors. And lastly yes, I'm taking the CSV output, getting the top 15 scored stocks, and have a simple IB rebalancing script to invest in those per period.",
+                "comment_created_utc": 1624309204.0
+            },
+            {
+                "comment_id": "h2kvdyi",
+                "comment_body": "Absolutely -- that's exemplified by negative sentiment, which is a pretty large part of my data, but not something I posted here since I'm only looking at the top 15 stocks per week.",
+                "comment_created_utc": 1624308903.0
+            },
+            {
+                "comment_id": "h2ig7r0",
+                "comment_body": "It would be best leaving this on a paper trading account .",
+                "comment_created_utc": 1624257563.0
+            },
+            {
+                "comment_id": "h2kvfc3",
+                "comment_body": "I scraped WSB through the PushShift and PRAW APIs!",
+                "comment_created_utc": 1624308920.0
+            },
+            {
+                "comment_id": "h2k38v6",
+                "comment_body": "Thanks!",
+                "comment_created_utc": 1624296181.0
+            },
+            {
+                "comment_id": "h2iuhao",
+                "comment_body": "Wouldn't this algorithm pick up when the pump starts, ride the wave and sell when the dump starts?",
+                "comment_created_utc": 1624271608.0
+            },
+            {
+                "comment_id": "h2j0q1w",
+                "comment_body": "I'm all in on $SHIT",
+                "comment_created_utc": 1624276737.0
+            },
+            {
+                "comment_id": "h2inicb",
+                "comment_body": "It may do better on social media in a non-financial context but it probably will mess up on a of financial related messages which will be the majority of your data. Also try for example: 'the probability of a recession is small', it will probably be classified as negative while its positive. Anyhow, good luck with your project",
+                "comment_created_utc": 1624264621.0
+            },
+            {
+                "comment_id": "h2j2nhs",
+                "comment_body": "Yeah true. Personally I also don’t get why a majority of sentiment analyses focuses on reddit. Credible Twitter sources and website headline are much cleaner and reddit sentiment for the most part trails news outlets on Twitter en websites",
+                "comment_created_utc": 1624278123.0
+            },
+            {
+                "comment_id": "h2i3lkh",
+                "comment_body": "You could always try trading the inverse.  Short what is high and long what is low.  If it goes sideways then it's kind of worthless right now.  Still an interesting project.",
+                "comment_created_utc": 1624247828.0
+            },
+            {
+                "comment_id": "h2hv8q8",
+                "comment_body": "Interesting, I’ve seen a few people making different programmed ideas to see what stocks Reddit is talking about. I just wonder if it would actually lead you on to something or if it’s a fomo tool",
+                "comment_created_utc": 1624243002.0
+            },
+            {
+                "comment_id": "h2jiaux",
+                "comment_body": "i know, but point is that a lot of text would be mis classified. And given that the OP is using data from WSB, I am thinking a lot of the text has to be sarcasm right? I may be wrong, but just curious to know what others think.",
+                "comment_created_utc": 1624286723.0
+            },
+            {
+                "comment_id": "h3213hi",
+                "comment_body": "Awesome! thankyou for the info man. that sounds really cool. Good luck!",
+                "comment_created_utc": 1624667004.0
+            },
+            {
+                "comment_id": "h2imr3n",
+                "comment_body": "No question about that, but I was wondering which trading platforms support scripted buy/sell orders",
+                "comment_created_utc": 1624263854.0
+            },
+            {
+                "comment_id": "h2ivz4h",
+                "comment_body": "Not necessarily. The dump isn't announced and will only get mentioned, if it's obvious, the stock is being dumped, which means there's a lag between dump start and this app noticing the dump at which point it's probably too late.",
+                "comment_created_utc": 1624272954.0
+            },
+            {
+                "comment_id": "h2iwyet",
+                "comment_body": "No, because the hype wave often happens when it's time to dump. See BB stock.",
+                "comment_created_utc": 1624273806.0
+            },
+            {
+                "comment_id": "h2j1t4q",
+                "comment_body": "The dump would happen literally at the moment of the highest sentiment, to get the highest price.\n\nUnless the dumper goes on reddit and announces it, there's no warning.",
+                "comment_created_utc": 1624277528.0
+            },
+            {
+                "comment_id": "h2j368t",
+                "comment_body": "I think reddit sentiment could be more valuable because of the voting system - Twitter is often just filled withs spam and random noise.",
+                "comment_created_utc": 1624278479.0
+            },
+            {
+                "comment_id": "h2j47gj",
+                "comment_body": "Partly imo. In my experience there are some major drawbacks in Reddit over Twitter, namely:\n\n\\- In most cases it is an echo chamber on what people want to be true, rather than what they think will be true\n\n\\- Comments are really hard to classify. For example if someone posts a negative  comment on a negative post, its actually positive. If someone comments on it again you have to take in to consideration all top level comments in order to make a right classification as positive and negative.\n\nThat said if you can do all those things properly there is also definitely informational value in Reddit",
+                "comment_created_utc": 1624279169.0
+            }
+        ]
+    },
+    {
+        "post_id": "lewjmi",
+        "post_title": "Obsei: OBserve SEgment and Inform (NLP based workflow automation for social media)",
+        "post_created_utc": 1612734809.0,
+        "comments": [
+            {
+                "comment_id": "gmijpeq",
+                "comment_body": "Very cool!",
+                "comment_created_utc": 1612735282.0
+            },
+            {
+                "comment_id": "gmilbt0",
+                "comment_body": "Amazing dude!!",
+                "comment_created_utc": 1612736121.0
+            },
+            {
+                "comment_id": "gmim77o",
+                "comment_body": "Thanks. Please use it and give feedback",
+                "comment_created_utc": 1612736569.0
+            },
+            {
+                "comment_id": "gmim7fr",
+                "comment_body": "Thanks. Please use it and give feedback",
+                "comment_created_utc": 1612736573.0
+            }
+        ]
+    },
+    {
+        "post_id": "jz7yvq",
+        "post_title": "Learn Python Data Science for Media Bias Detection - Upcoming Course and Video Series",
+        "post_created_utc": 1606094552.0,
+        "comments": []
+    },
+    {
+        "post_id": "jude3g",
+        "post_title": "Use Python Data Science to Detect News Bias in the Media - Upcoming Video Series and Course!",
+        "post_created_utc": 1605403375.0,
+        "comments": []
+    },
+    {
+        "post_id": "j9yz3x",
+        "post_title": "Can we do Social Media Manger jobs in Python",
+        "post_created_utc": 1602534870.0,
+        "comments": [
+            {
+                "comment_id": "g8ml52j",
+                "comment_body": "Twitter in has a developer friendly API, but there's a lot of rules that came up because of the 2016 US election. I haven't done anything with Facebook's API recently, because they keep changing stuff which is annoying to me.",
+                "comment_created_utc": 1602535359.0
+            },
+            {
+                "comment_id": "g8mlud1",
+                "comment_body": "Does it mean what I am thinking is actually being done. And it's kind of getting obsolete now ? Cus I came across this just today while I started learning python. It seemed unrealistic at first but then I read on internet and at last though of askin experts.",
+                "comment_created_utc": 1602535718.0
+            },
+            {
+                "comment_id": "g8mo1go",
+                "comment_body": "If I understand your concept correctly, it is possible and people have done it. But there's still a lot of research potential and business opportunities in developing those tools IMHO. \nFor example, people know how to analyze the sentiment but more research on how sentiment impacts a platform is needed. \nAlso, there's a lot of companies willing to pay for custom social media automation. Just depends on the business case.",
+                "comment_created_utc": 1602536853.0
+            },
+            {
+                "comment_id": "g8p50f0",
+                "comment_body": "Awesome .. exactly something I wanted to hear",
+                "comment_created_utc": 1602601402.0
+            }
+        ]
+    },
+    {
+        "post_id": "a76atn",
+        "post_title": "Project Ideas - Scraping & Linear Forecasting",
+        "post_created_utc": 1545096795.0,
+        "comments": [
+            {
+                "comment_id": "ec1v5s5",
+                "comment_body": "For crypto you can try https://coinmarketcap.com",
+                "comment_created_utc": 1545150156.0
+            }
+        ]
+    }
+]

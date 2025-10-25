@@ -52,7 +52,7 @@ class Connection:
 
     def get_top_posts_and_comments(
         self, subreddit_name: str, search: str, limit: int = 1000
-    ):
+    ) -> list[dict]:
         if not self.reddit:
             logging.error("Não é possível obter posts. Conexão não estabelecida.")
             return []
@@ -90,13 +90,22 @@ class Connection:
         except Exception as e:
             logging.error(f"Erro ao buscar posts: {e}")
             return []
-
+        
+    def save_in_file(self, file_json, file_name) -> bool:
+        try:
+            with open(file_name, "w", encoding="utf-8") as f:
+                json.dump(file_json, f, ensure_ascii=False, indent=4)
+            print(f"Arquivo '{file_name}' salvo com sucesso!")
+            return True
+        except Exception as e:
+            logging.error(f"Ocorreu um erro: {e}")
+            return False
 
 client = Connection()
 
 if client.connect_to_api():
     logging.info("Iniciando busca de posts...")
     top_posts = client.get_top_posts_and_comments("python", "social sentiment")
-    print(top_posts)
+    client.save_in_file(top_posts,"social_sentiments.json")
 else:
     logging.error("Falha ao conectar. Verificar credenciais ou conexão. Encerrando.")
