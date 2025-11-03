@@ -16,13 +16,13 @@
             {
                 "comment_id": "nkp2v01",
                 "comment_body": "É o Uber das contabilidades. Todos os pontos positivos e negativos se aplicam. \n\nLarga essa porcaria, pague um bom escritório e não se incomode mais. É um dinheiro que vale a pena gastar.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1761092752.0
             },
             {
                 "comment_id": "nkpf6i1",
                 "comment_body": "Só vai ter débito tributário se você alertar os gansos. SIMPLES é muito pouco fiscalizado, salvo questões automáticas como limite de faturamento.\n\nNa maioria dos casos, ficando na sua não vai ter problema. Arrume daqui pra frente mas bote uma pedra daqui pra trás. Querer chafurdar nisso pode te gerar mais problema que solução.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1761097198.0
             },
             {
@@ -92,9 +92,15 @@
                 "comment_created_utc": 1761144614.0
             },
             {
+                "comment_id": "nlxsv0b",
+                "comment_body": "Eu tinha uma contadora muito boa, estudava muito e sabia bem de tudo. Pagava bem mais do que a Contabilizei,mas tudo funcionava muito bem, até que ela resolveu \"aposentar\" e deixar o escritório para ser administrativo pelo filho que nunca trabalhou e nora que até tentava, mas não entregava tudo corretamente.\n\nEntão eram recolhimentos não emitidos, enviados vencidos, etc.  Eu como literalmente terceirizei isso, não percebi o problema e dois anos depois entrei em dúvida ativa, perdi o simples e foi uma suíte de cabeça. \n\nFui para a Contabilizei , mas já com tudo direcionado, inclusive só migrei depois de fazer o parcelamento da dívida e ter o simples de volta.\n\nNesse cenário, para mim funcionou muito bem, pago bem menos, não pago 13° e esses penduricalhos e até consigo deixar em débito automático as guias(me cobram por isso), mas reconheço que é uma experiência rasa se precisar de algo mais complexo.",
+                "comment_score": 1,
+                "comment_created_utc": 1761703290.0
+            },
+            {
                 "comment_id": "nkq1z4e",
                 "comment_body": "O melhor contador é aquele que tem pelo menos uns 35 anos pra mais.",
-                "comment_score": 4,
+                "comment_score": 2,
                 "comment_created_utc": 1761106208.0
             },
             {
@@ -118,14 +124,7 @@
         "post_url": "https://www.reddit.com/r/empreendedorismo/comments/1n740re/importação_direta_de_peças_de_reposição_de/",
         "is_self_post": true,
         "post_created_utc": 1756869437.0,
-        "comments": [
-            {
-                "comment_id": "nc6j061",
-                "comment_body": "Sua planilha de cálculo tá bem pensada, mas acrescentaria alguns pontos:\n\n* **Tributação:** além do imposto de importação (\\~60%), pode ter ICMS estadual. Isso varia muito conforme a transportadora e o estado de destino.\n* **Custos invisíveis:** desembaraço aduaneiro, armazenagem e atrasos alfandegários podem pesar. Inclua margem extra pra não ter surpresa.\n* **MEI:** você pode começar assim sem problema, mas se o volume aumentar pode bater no teto do MEI e precisar migrar pra Simples.\n* **Estratégia:** começar com lotes pequenos é ideal, assim você testa se realmente tem giro rápido sem comprometer capital grande.\n* **Mercado:** peças de reposição têm demanda, mas concorrência também. Diferencial pode ser rapidez de entrega e confiabilidade.\n\nResumindo: vale a pena sim, mas faça os testes iniciais já considerando impostos + frete + possíveis atrasos. Melhor validar pequeno do que entrar pesado e travar em burocracia.",
-                "comment_score": 1,
-                "comment_created_utc": 1756902115.0
-            }
-        ]
+        "comments": []
     },
     {
         "post_id": "1mh3y5q",
@@ -198,7 +197,7 @@
             {
                 "comment_id": "n6us92r",
                 "comment_body": "Sim, Amazon. Mando estoque daqui pra lá, e assim tudo acontece.\n\nAgora com as tarifas estou readequando porque fui afetado diretamente, mas já estamos arrumando uma forma legal de reduzir o impacto. Trabalho com acessórios para casa.\n\nE respondendo a pergunta mais acima, ter empresa lá é completamente diferente de ter autorização pra morar ou trabalhar lá. Ter empresa inclusive não te garante direito moradia ou nada do tipo. Pode ate te ajudar em uma eventual busca ao visto, mas isso sozinho não te dará nenhum direito especial.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1754307977.0
             }
         ]
@@ -214,7 +213,7 @@
             {
                 "comment_id": "n17ikdt",
                 "comment_body": "Para simplificar: a nota vai ser o valor que você cobrar do cliente.ex: serviço fica 1000 reais podendo parcelar em 10 sem juros ou até 18 com juros, você Vai emitir a nota de 1000 reais.\n \nNo primeiro caso vai entrar menos dinheiro na sua conta mas isso é um problema seu (ninguém obrigou a aceitar cartão)\n\nAgora no segundo caso além de entrar menos dinheiro o cliente vai pagar mais que R$1000 mas isso é um problema dele com o emissor do cartão ( ninguém mandou não ter dinheiro para pagar a vista)",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1751581782.0
             },
             {
@@ -288,25 +287,25 @@
             {
                 "comment_id": "mkmuaxk",
                 "comment_body": "Poucas informações.\n\nVocê é indústria? Ou White Label?\n\nQuais canais de venda? Loja própria, marketplaces, televendas/vendas diretas?",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1743394330.0
             },
             {
                 "comment_id": "mkmhvir",
                 "comment_body": "Tudo aumentando, crise vindo ai.\nHoje fui fazer uma lasanha e ficou 74 reais, a um ano atras a mesma receita ficou em 48 reais, quem que aguenta?",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1743388849.0
             },
             {
                 "comment_id": "mkq9c28",
                 "comment_body": "Trabalho como especialista de SEO na Reserva há 3 anos e o que posso contribuir é:\n\n- busque diversificação na aquisição de clientes (Google pago e orgânico, meta, pinterest, rede de afiliados). Cada um com um peso de investimento diferente, mas faça.\n\nMonitore de perto métricas como Adcost e tx de conversão \n\n- pense em estratégias de retenção de clientes através de assinaturas e uma boa estratégia de CRM\n\nCaso queira bater um papo, chama na DM",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1743446336.0
             },
             {
                 "comment_id": "mko1c7j",
                 "comment_body": "ICMS normal de vestuário é pesado demais. Se teus fornecedores ainda forme SN fodeu.\n\nTentaria trabalhar com 2,3 CNPJs SN, mas uma hora ou outra vc vai acabar estourando tudo.\n\nAs vezes um planejamento tributário bom pode te ajudar. Por exemplo, vc tem créditos de PIS e COFINS sobre aluguel, mais despesa do lucro real. Se vc ta com aluguel frio, tente esquentar. Se o imóvel é seu, abre uma adm de bens e integraliza ele lá e paga aluguel pra vc mesmo. Obviamente vc precisa de um contador top pra isso. Se ficar olhando preço de contador, o imposto sai mais caro te garanto.",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1743419889.0
             },
             {
@@ -354,7 +353,7 @@
             {
                 "comment_id": "mknonn7",
                 "comment_body": "Sou industria, produção agora reduzida, porem ja cheguei a fabricar 7mil camisetas por mes. Meu canal de venda principal é o site próprio, poucas vendas em atacado, geralmente a proporção é de pra uma peça em atacado vendo sete no varejo, inclusive houve um mes que essa proporção foi de um pra quatro, nesse mes minha margem ficou expremida ao extremo.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1743412572.0
             },
             {
@@ -384,13 +383,13 @@
             {
                 "comment_id": "mko04w8",
                 "comment_body": "Nuvemshop, aguenta escala se fizer um trabalho bem feito dentro do que a plataforma te permite, com certo volume eles negociam taxas e te abrem para o next",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1743419282.0
             },
             {
                 "comment_id": "mksq5rk",
                 "comment_body": "Então, a precificação no mercado de moda é realmente complicado, principalmente para produtos mais complexo onde tem bem mais processos que uma camiseta.\n\nAno passo foquei em desenvolver uma boa tabela (daria pra até vender) que é quase um sistema no excel, onde incluo diversos fatores para chegar em uma margem desejável, muitos não tomam cuidado em trabalhar com markup pois não entendem o que compõe um markup.\n\nAh, eu vendo camiseta oversized no geral, mas vendo outros produtos também mas sempre focado no mercado streetwear.",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1743476163.0
             },
             {
@@ -438,7 +437,7 @@
             {
                 "comment_id": "mksnpqw",
                 "comment_body": "O gestor de tráfego foi algo que mudamos de inicio, e já sentimos a diferença. Suas sugestões são boas e tem sentido.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1743475194.0
             },
             {
@@ -450,7 +449,7 @@
             {
                 "comment_id": "mkvhhlp",
                 "comment_body": "Eu sou empreendedor que nem ele.\n\n\nE não tenho nenhuma afiliação com a Mercos.\n\n\nMas é a ferramenta que mais vejo os clientes de uma das minhas empresas usam para time comercial.\n\n\nNão entendi seu rage.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1743523198.0
             }
         ]
@@ -466,7 +465,7 @@
             {
                 "comment_id": "mequgx4",
                 "comment_body": "Acho que consigo te ajudar com a minha pesquisa e experiência no assunto. Vamos lá:\n\nQuando abri a minha MEI eu queria uma conta do jeito mais prático possível, logo, fui para os bancos digitais. O melhor na minha opinião é o Inter\n\nPorém quando surgiu a necessidade de criar um relacionamento para Linhas de Crédito futuras, inclusive nessa época saí do MEI e fui para ME no Simples, vi que nos bancos digitais eu não conseguiria construir esse relacionamento\n\nEntão eu tinha 2 opções: Bancões e Cooperativas\n\nAcabei optando por cooperativa porque no bancão tu é só mais um número no meio de uma multidão\n\nAcredito que na cooperativa tu consegue ter um relacionamento mais estreito, menos vertical digamos. Eles têm um interesse maior em te fomentar para que tu cresça e eles cresçam. Na minha visão é uma relação consideravelmente menos exploratória do que em um banco tradicional\n\nEspero que essa minha contribuição te ajude a traçar o caminho pras tuas necessidades",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1740508734.0
             },
             {
@@ -584,13 +583,13 @@
             {
                 "comment_id": "medi127",
                 "comment_body": "Até ano passado eu vendia um sistema de campainha com câmera de segurança. Importava as peças e montava. Lembra da taxa das blusinhas? Pois é. Deviam ter chamado de taxa dos eletrônicos, porque eu comprava todos os hardwares pra fazer o sistema funcionar no Aliexpress. Eu mesmo fiz todo o software em cima do OpenCV e tudo mais. Daí me vem esse imposto e dobra meu custo. Resultado: falência. Quase já não valia a pena, depois de dobrarem meu custo desisti. Fui trabalhar como assalariado pra fora mesmo.\n\nIsso é só pra ilustrar um pouco o porquê da indústria ser fraca. Na hora que você começa a fazer algo legal, te cortam.\nMas pelo menos a gente é muito bom de pirataria em software. E isso é bom, mas acho que também é consequência do meu relato, em partes.",
-                "comment_score": 20,
+                "comment_score": 21,
                 "comment_created_utc": 1740332707.0
             },
             {
                 "comment_id": "medohm5",
                 "comment_body": "Sou engenheiro mecânico e vou explicar: Da muito trabalho tu desenvolver algo ''físico'' do 0 no Brasil, você terá que importar muita coisa, comprar muita máquina, gastar MUITO dinheiro, pagar imposto pra krl, pra no final ter um produto caro (pq se for barato não vai nem pagar o custo) e TALVEZ alguém comprar. No fim, eu preferi só abrir uma empresa de prestação de serviços e projetos, menos risco e menos dor de cabeça.  \nAgora, mesmo se eu tivesse 1 milhão livre agora, ainda assim, eu não investiria em criar algo novo assim, simplesmente pq existem investimentos rentáveis com um risco bem menor.",
-                "comment_score": 13,
+                "comment_score": 12,
                 "comment_created_utc": 1740334562.0
             },
             {
@@ -602,7 +601,7 @@
             {
                 "comment_id": "medjiq2",
                 "comment_body": "Cara, tem vários fatores: temos um custo alto de produção, muito por uma estrutura tributária extremamente arcaica, temos umas bizarrices burras pra um caralho como a Zona Franca de Manaus, em que tu ao invés de buscar concentrar indústrias em regiões específicas do país em um pensamento de reduzir custos logísticos tu incentiva que indústrias se mudem para um dos locais mais isolados do país, o que gera um aumento grande no custo final do produto, aí tem nossos juros que são gigantescos e que tem 0 incentivo do governo porque o BNDES é uma grande piada que só empresta dinheiro para quem já tem muito dinheiro e não precisa do empréstimo e, querendo ou não, esse juro alto também faz com que valha mais a pena tu pegar teus 100k e colocar num CDB/CDI/LCA do que numa empresa que corre 450 riscos diferentes.\n\nPega a China como exemplo: cada cidade é um hub de produtos específicos tipo Shenzen que concentra as grandes produtoras de tecnologia, guangzou que concentra as texteis e por aí vai, aí tu tem bancos que tem como função exclusiva serem tipo um SEBRAE/SENAI com empréstimos em que tu chega lá com um plano de negócios e eles te dão um empréstimo com consultoria se teu plano parecer bom na avaliação deles, some-se a isso questões trabalhistas/brigas dos sindicatos (que em geral só incomodam os médios aqui no Brasil porque os pequenos não tem grana para dar e os grandes subornam para ter acordos coletivos como o do SINDEC com o Zaffari no RS) e tá explicado porque seguimos na mesma tocada ou pior há 20 anos.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1740333135.0
             },
             {
@@ -666,12 +665,6 @@
                 "comment_created_utc": 1740513719.0
             },
             {
-                "comment_id": "mf8k4ub",
-                "comment_body": "Se for software, você tem mais flexibilidade para evoluir. Mas, se for comprar componentes para montar e revender um produto, a situação se complica devido à insegurança jurídica e à tributação em cascata.",
-                "comment_score": 2,
-                "comment_created_utc": 1740743838.0
-            },
-            {
                 "comment_id": "mef1s1f",
                 "comment_body": "Imposto",
                 "comment_score": 1,
@@ -722,7 +715,7 @@
             {
                 "comment_id": "meeaxua",
                 "comment_body": "A pior parte é que isso é um acumulado de anos e anos e toda vez que fuçam fica pior.",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1740341022.0
             },
             {
@@ -730,12 +723,6 @@
                 "comment_body": "Irmão, tem sempre algum imposto aqui que você não tá pagando e deveria. Não tem lógica essa carga tributária não.\nE não, praticamente não faz diferença, na prática, importar como PJ ou PF na questão dos impostos. Eu até cheguei a olhar isso. Quando chegava em curitiba o produto, parecia que os fiscais estavam 100% nem aí, colocavam qualquer valor arbitrário lá e vida que segue.",
                 "comment_score": 1,
                 "comment_created_utc": 1740400412.0
-            },
-            {
-                "comment_id": "mf8jtqb",
-                "comment_body": "O certo seria somente o consumidor final pagar imposto. Agora uma pessoa que poderia gerar emprego desistiu e foi trabalhar pra fora.",
-                "comment_score": 1,
-                "comment_created_utc": 1740743687.0
             },
             {
                 "comment_id": "mefa8ho",
@@ -780,7 +767,7 @@
             {
                 "comment_id": "m8pq527",
                 "comment_body": "Tem algumas coisas que só podem ser feitas por contador com CRC: Declarações acessórias, assinatura de livros fiscais que precisam ser protocolados, alguns acessos e informações na receita Federal, Estadual e Municipal, somente podem ser feitos por contadores, e tem mais algumas coisas ai\n\nFora que se for fazer por conta, provavelmente vai esquecer de fazer algo em determinado mês e ter que pagar multa, além de que, o tempo todo as declarações estão mudando e ficando mais complexas e se você não está no meio, vai perder muito tempo tentando aprender, sendo que não vale o esforço para só 1 empresa.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1737636105.0
             },
             {
@@ -792,7 +779,7 @@
             {
                 "comment_id": "m8ppfwo",
                 "comment_body": "Não tem como fazer a própria contabilidade, você precisa de um CRC para assinar os papéis da empresa.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1737635805.0
             },
             {
@@ -1128,31 +1115,31 @@
             {
                 "comment_id": "lyzkajs",
                 "comment_body": ">e me parece que conseguir produzir algo mais barato do que os gringos fazem não é muito difícil\n\nBom, monte um plano de negócios e a matemática vai te dizer.  \nSe for viável é só procurar investidor.  \n(só lembra que muita coisa tem patente e desenvolver tecnologia é extremamente caro)",
-                "comment_score": 19,
+                "comment_score": 18,
                 "comment_created_utc": 1732576848.0
             },
             {
                 "comment_id": "lyzrc65",
                 "comment_body": "A maior parte da culpa não é do empresário, e sim das faculdades federais, que deveriam estar à frente desse tipo de desenvolvimento. Tudo que vou falar aqui vem da minha experiência de viver dentro de uma universidade e tentar empreender na área de robótica.\n\nA real é que pouquíssima gente — sério, quase ninguém — se interessa em criar um produto que realmente vai impactar a sociedade. A maioria das pesquisas segue o esquema de \"arte pela arte\": vamos estudar esse tema X, que tem pouca ou nenhuma aplicação prática, mas tem uma pauta social bonitinha e vai render um artigo.\n\nE quando as empresas tentam fazer parcerias, é um Deus nos acuda. Os professores e pesquisadores, na maioria das vezes, não têm preparo pra lidar com isso. Ainda vêm com aquele papo furado de \"Ah, mas a empresa vai explorar\", ou \"empresa privada não tem espaço na universidade pública\". Esse tipo de visão só cria barreira.\n\nA verdade é que inovação só acontece quando uma tecnologia sai do papel e vai pra sociedade. Não adianta nada ter uma pesquisa super legal e deixar ela mofando na gaveta. Pra fazer diferença de verdade, precisa de gente criando startups e botando essas ideias pra rodar no mundo real.\n\nAgora me diz: esse tipo de coisa é incentivado nas federais? Até é, mas bem pouco",
-                "comment_score": 16,
+                "comment_score": 17,
                 "comment_created_utc": 1732579343.0
             },
             {
                 "comment_id": "lz02i8w",
                 "comment_body": "Se vc criar um modelo de negocio que viabilize, mete bala, mas tenha ctz q mta empresa mundial gostaria de produzir aqui, alem das locais, mas simplesmente nosso custo Brasil torna qse tudo inviavel.",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1732583317.0
             },
             {
                 "comment_id": "lz08j6e",
                 "comment_body": "Presto serviços a uma empresa que faz justamente isso, cria/desenvolve prototipos de TRL 01 ate 09, mas através de subsídios governamentais. E a sua resposta é muito simples. Na maioria das vezes há um altíssimo investimento demandado, com riscos muito altos atrelados. Por conta disso poucas empresas brasileiras têm capital e estão dispostas a se arriscar. Não é muito difícil chegar a um protótipo  altamente funcional, mas impraticável pra produção por questões de custos no BR",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1732585440.0
             },
             {
                 "comment_id": "lyzqdye",
                 "comment_body": "Acho que um dos motivos é a alta carga tributária sobre indústrias desse tipo OP. Leia essa matéria que você irá entender[Imposto Industria](https://www.terra.com.br/economia/fiesp-juro-elevado-e-alta-carga-tributaria-afetam-industria-de-transformacao-diz-josue,71c1646368395d06317dd907b97b7478aqm1fwa1.html)",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1732579005.0
             },
             {
@@ -1170,7 +1157,7 @@
             {
                 "comment_id": "lz03cd1",
                 "comment_body": "Resposta simples: falta de incentivo dos governos para tal coisa, somado ao anti-capitalismo de muitas universidades públicas, você vê o baixíssimo nível de desenvolvimento científico por parte do empresariado brasileiro.",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1732583611.0
             },
             {
@@ -1230,7 +1217,7 @@
             {
                 "comment_id": "lz0kghw",
                 "comment_body": "Muitas respostas liberais por aqui então vou tentar uma resposta materialista.\nQual setor é mais bem sucedido no Brasil? Agro.\nEm qual temos investimentos billionários para pesquisa? Agro.\nQuem é o Agro? Borguesia.\nBorguesia está ótima? Está\nPara que mudar o que dá certo?\nPior, melhor fazer de tudo para que não mude.\nIndustria? Lobby contra.\nPesquisa em outras areas? Lobby contra.\nCiencia? Lobby contra.\nIgualidade das oportunidades? Lobby contra.",
-                "comment_score": -1,
+                "comment_score": 0,
                 "comment_created_utc": 1732589711.0
             },
             {
@@ -1278,7 +1265,7 @@
             {
                 "comment_id": "lz0bnae",
                 "comment_body": "Invez de tentar entender e replicar o sucesso do agro brasileiro, os caras querem é destruir e taxar, o sucesso  é  um problema pra eles, todos devem ser igualmente miseráveis.",
-                "comment_score": 6,
+                "comment_score": 8,
                 "comment_created_utc": 1732586534.0
             },
             {
@@ -1306,7 +1293,7 @@
             {
                 "comment_id": "lxfhfoa",
                 "comment_body": "Nova Thread do upgferreira merece até pipoca! Mal posso esperar pra ler todo o conteúdo",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1731764079.0
             },
             {

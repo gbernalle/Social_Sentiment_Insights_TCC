@@ -43,7 +43,10 @@ def transform_raw_reddit_data(data_from_loader, *args, **kwargs):
     Lê todos os JSONs da pasta raw, aplica filtro de idioma,
     limpa e retorna um DataFrame padronizado.
     """
-    
+    print("Passou")
+    print(data_from_loader)
+    print("Info atras")
+
     # --- VERIFICAÇÃO DE ROBUSTEZ ---
     if not data_from_loader or not isinstance(data_from_loader, list) or len(data_from_loader) == 0:
         logging.warning("O Bloco 1 (Data Loader) não retornou nenhum dado. O Bloco 1 foi executado primeiro?")
@@ -58,6 +61,7 @@ def transform_raw_reddit_data(data_from_loader, *args, **kwargs):
     # Acessa o primeiro (e único) item da lista
     raw_data_path = Path(data_from_loader[0]['raw_data_path'])
     
+
     all_data = [] 
     json_files = list(raw_data_path.glob("*.json"))
     logging.info(f"Encontrados {len(json_files)} arquivos JSON para processar.")

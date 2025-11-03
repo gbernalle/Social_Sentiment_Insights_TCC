@@ -1,5 +1,87 @@
 [
     {
+        "post_id": "1oiknvo",
+        "post_title": "MEI ou Simples Nacional?",
+        "post_body": "Resumindo recebi uma proposta de 7.5k PJ e vou aceitar. Não tenho CNPJ e a empresa já me pediu as documentações para contratação. Vi que o Simples demora um tempo pra sair e o MEI sai na hora, estou pensando em abrir um MEI e depois migrar para Simples Nacional, mas aparentemente os 7.5k já estouram o limite anual proporcional de MEI pelo que entendi.\n\nAlguém tem alguma recomendação? Vale a pena eu iniciar como MEI e já solicitar o desenquadramento em seguida? Quais seriam as alternativas viáveis? Estou com medo de que não te o CNPJ já aberto afete de alguma maneira a contratação.",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1oiknvo/mei_ou_simples_nacional/",
+        "is_self_post": true,
+        "post_created_utc": 1761683716.0,
+        "comments": [
+            {
+                "comment_id": "nlw6fhz",
+                "comment_body": "Cara, melhor falar com um contador. Mas algo a se considerar é fazer o simples so ano q vem pra vc nao ter q pagar uma nota de imposto nesses dois ultimos meses.\n\nSobre a empresa querer seus dados logo, ela que tem q esperar a burocracia do estado kkkkkk Voce pode comecar a trabalhar enquanto isso se resolve",
+                "comment_score": 6,
+                "comment_created_utc": 1761684282.0
+            },
+            {
+                "comment_id": "nlwab4y",
+                "comment_body": "Contador. Mas é MEI vc n se enquadra mais",
+                "comment_score": 4,
+                "comment_created_utc": 1761685414.0
+            },
+            {
+                "comment_id": "nlwnyud",
+                "comment_body": "Vai de MEI e seja feliz. Nós estamos no final do ano  praticamente, esse ano então praticamente você não terá nada a declarar e o \"super mei\" dessa vez eu creio que vai sair, vai elevar o faturamento para 140k, ou seja, você terá uma folga ainda caso seu salário aumente.",
+                "comment_score": 3,
+                "comment_created_utc": 1761689593.0
+            },
+            {
+                "comment_id": "nlw8ynf",
+                "comment_body": "Abre direto uma ME e pronto, vai ter que fazer de qualquer jeito e só vai precisar mexer com isso uma vez.",
+                "comment_score": 2,
+                "comment_created_utc": 1761685020.0
+            },
+            {
+                "comment_id": "nlyt3n3",
+                "comment_body": "Depende do quão certo você quer seguir...\nMei não tem nenhum CNAE que inclua desenvolvimento/programação, então a rigor, teria que ser ME independente do faturamento.\n\nEu tenho ME e presto serviço pro exterior. Em tese, deveria declarar isso como desenvolvimento web e pagar 13% de imposto, ou 4% se meu pro labore fosse 28% do faturamento, mas como o pagamento é intermediado por plataforma e eles não pedem invoice, o contador sugeriu cadastrar como suporte, que entra no anexo III, que paga 6%, mas como ISS é isento pro exterior, fica quase 4%.\n\nEu ficaria esses 2 meses como Mei mesmo, principalmente se você não tiver que emitir nota pra empresa que trabalha e veria como vai ser ano que vem a questão de limite. Você só tem que declarar o faturamento anual, lembrando que é proporcional, então é (81/6)*2. Arredonda pra baixo e vida que segue.",
+                "comment_score": 2,
+                "comment_created_utc": 1761720075.0
+            },
+            {
+                "comment_id": "nlwbsdn",
+                "comment_body": "MEI até ano q vem. Depois vc vê. Considerando o limite de 81k vc pode ficar 10 meses no MEI. Qdo chegar perto vc muda de regimento. So não deixa ficar mto perto pq isso demora um pouco.",
+                "comment_score": 3,
+                "comment_created_utc": 1761685848.0
+            },
+            {
+                "comment_id": "nlwtjvi",
+                "comment_body": "mei cara… da pra continuar como mei ganhando até 96k por ano…\nse passar disso tu abre o simples nacional…\nnão perca dinheiro por enquanto",
+                "comment_score": 1,
+                "comment_created_utc": 1761691424.0
+            },
+            {
+                "comment_id": "nlzngy5",
+                "comment_body": "Se for algo relacionado a área de desenvolvimento de software tem que ser PJ normal, MEI não é possível",
+                "comment_score": 1,
+                "comment_created_utc": 1761737367.0
+            },
+            {
+                "comment_id": "nlzyel9",
+                "comment_body": "Cuidado ao abrir o MEI ainda esse ano, o faturamento é proporcional ao mês que o MEI foi aberto.  \n[https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes/o-que-e-o-microempreendedor-individual-mei/qual-o-faturamento-anual-do](https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes/o-que-e-o-microempreendedor-individual-mei/qual-o-faturamento-anual-do)\n\nNo seu caso sugiro ir para ME direto.",
+                "comment_score": 1,
+                "comment_created_utc": 1761741716.0
+            },
+            {
+                "comment_id": "nm1eurq",
+                "comment_body": "Por causa do faturamento, abrir ME logo, agora se fosse menor iria depender se a empresa aceita como MEI. Quanto a abertura não considero que demora tanto, levando em conta se você tomasse a atitude de fazer a abertura hoje mesmo por exemplo, o que vejo de tempo é uns 2-3 dias para abertura",
+                "comment_score": 1,
+                "comment_created_utc": 1761757404.0
+            },
+            {
+                "comment_id": "nm1sbvm",
+                "comment_body": "MEI: teu faturamento fica na margem dos 20% de tolerância, então no primeiro ano você pode ficar como MEI, daí vai pagar a diferença (o que tiver passado dos 81 mil) e será enquadrado como ME no ano seguinte.\n\nSó fica esperto porque se você passar de R$ 97.200 aí sim paga multa e vai ter de lidar com uma série de burocracias (contratar contador, refazer declaração, etc).\n\nResumindo: fica 1 ano como MEI e migra pra ME. E por favor consulte um contador pra confirmar minha informação, pois sou de TI e não dá área.\n\nBoa sorte!",
+                "comment_score": 1,
+                "comment_created_utc": 1761761158.0
+            },
+            {
+                "comment_id": "nlwu7cc",
+                "comment_body": "Nao seriam 81k?",
+                "comment_score": 2,
+                "comment_created_utc": 1761691635.0
+            }
+        ]
+    },
+    {
         "post_id": "1octo01",
         "post_title": "CNAE ideal pra dev na gringa",
         "post_body": "Fala pessoal, consegui a famosa vaga na gringa semana passada e nisso comecei a ver o lance de abrir PJ pra receber as doletas.\n\nFalando com um contador da Adaflow, ele me disse que boa parte dos clientes costuma usar o CNAE 8599-6/03 (Treinamento em Informática), dado que a tributação é menor no Anexo III (ele me deixou ciente de que tem um risco remoto de fiscalização por parte da Receita)\n\nDai alternativa a isso seria pegar algum CNAE do artigo V pra botar um prolabore de 28% do faturamento e conseguir usar do Fator R pra pagar uma alíquota mais baixa, mas que ainda sim é maior do que no método anterior\n\nBasicamente, a quantidade de imposto pago entre os dois métodos é bem significativa (3,98% vs 7,7%), mas fiquei com um receio real de ir no método do Artigo III. Vocês que trabalham pra fora e tão no Simples Nacional usam qual?",
@@ -16,7 +98,7 @@
             {
                 "comment_id": "nkp5ve0",
                 "comment_body": "Sou QA na gringa e uso CNAE de suporte técnico (anexo 3) há mais de 10 anos. Zero problemas.\n\nNão tem como a receita ir fiscalizar a empresa lá no exterior pra ver o que vc realmente faz. \nOk, talvez até tenha mas não vale o esforço pra peixe pequeno como a gente.",
-                "comment_score": 11,
+                "comment_score": 12,
                 "comment_created_utc": 1761093833.0
             },
             {
@@ -92,19 +174,19 @@
             {
                 "comment_id": "nktztw9",
                 "comment_body": "pra mim OE é delirio e faz até empregos tetinhas ficarem extremamente irritantes\n\neu pessoalmente me fodi tentando fazer, nao conheço pessoalmente quem faça mas aqui no sub nego fala como se fosse trivial\n\nenfim. pegava o 5k pj e começava a construir essa carreira fora programar pro brasil n vale a pena financeiramente",
-                "comment_score": 37,
+                "comment_score": 41,
                 "comment_created_utc": 1761161546.0
             },
             {
                 "comment_id": "nktvp8g",
                 "comment_body": "Tem nem o que pensar, eu sairia desse CLT híbrido até pra ganhar menos em um 100% remoto.\n\nNo seu caso vc vai ganhar mais e sair do híbrido. Não perca essa chance. Pegue os 2 PJs, se ver que está muito pesado é só sair de um deles alguns dias depois.",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1761160346.0
             },
             {
                 "comment_id": "nkttn0e",
                 "comment_body": "Eu ficaria com o CLT e pegaria o PJ de 5K",
-                "comment_score": 18,
+                "comment_score": 20,
                 "comment_created_utc": 1761159735.0
             },
             {
@@ -116,19 +198,19 @@
             {
                 "comment_id": "nkuem8w",
                 "comment_body": "Cara CLT híbrido com OE? \n\n\nNunca vi ninguém que dure mais de um mês nisso. A não ser que você more do lado da empresa. \n\nEu pegaria o PJ de 5k e vida que segue, não pede conta do CLT mas já iria me preparando pra ser desligado.\n\n\nBurnout pode sair bem caro.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1761165767.0
             },
             {
                 "comment_id": "nkuis12",
                 "comment_body": "Eu mantenho 2 PJ pra gringa, é chato não conseguir férias e tals, perder alguns benefícios, mas to vendo de construir minha casa dos sonhos, num valor de uns 2M, jamais poderia ter isso de outra forma \n\nEu só acho BO vc começar em 2 novos simultâneos, eu ficaria no CLT e no de 5k usd, espera uns 6 meses, sente o clima, aprende a regra de negócio, e dai sim começaria a procurar um outro de uns 5k tbm, dai seriam 2 PJ de 5k, 10k USD/mês",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1761166960.0
             },
             {
                 "comment_id": "nkubqug",
                 "comment_body": "Receita pra Burnout com certeza é, se mantiver isso a longo prazo, mas tem algumas perguntas que precisariam ser respondidas (na tua cabeça): quantos anos você tem? Tem família? Possui um objetivo em mente, e um plano de saída? Eu não me prenderia a CLT, os “benefícios” não são relevantes comparado ao incremento salarial que vc terá.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1761164961.0
             },
             {
@@ -320,13 +402,13 @@
             {
                 "comment_id": "nku08of",
                 "comment_body": "Parece ser a melhor opção mesmo",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1761161667.0
             },
             {
                 "comment_id": "nkuq57b",
                 "comment_body": "considerando q ele fique 2 anos né? na gringa vc pode facilmente ser chutado com 3 meses, e mt instável",
-                "comment_score": -2,
+                "comment_score": 0,
                 "comment_created_utc": 1761169234.0
             },
             {
@@ -344,13 +426,13 @@
             {
                 "comment_id": "nkvp3d9",
                 "comment_body": "Mano, achava isso tb, mas tô há 5 meses em OE e zero a reclamar. Como sou muito rápida (não é pra me achar, só pra contexto) consigo fazer as tasks da semana do CLT em 2\\~3 dias e o resto da semana faço no outro emprego (trabalho seg-sab). Em 5 meses do emprego em dol tirei 55k, sendo que fiquei umas semanas sem trabalhar. Meu emprego clt é +- 8k/mes.\n\nMinha renda subiu mais de 100% e tô trabalhando umas 8 a 10h / semana a mais só. Antes só performava melhor que os outros e engolia tarefa de quem não fazia.\n\nMas como disseram, tem que ter as manhas em parecer ocupado e as vezes tankar muitas horas direto quando o CLT tem urgências.\n\nSinceramente, tá valendo a pena. Em 1 ano largo com 120k a mais na conta.",
-                "comment_score": 10,
+                "comment_score": 12,
                 "comment_created_utc": 1761181483.0
             },
             {
                 "comment_id": "nku0vs2",
                 "comment_body": "Parece um bom caminho",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1761161852.0
             },
             {
@@ -368,7 +450,7 @@
             {
                 "comment_id": "nku0bx5",
                 "comment_body": "O que complica é os dois dias no escritório do CLT",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1761161693.0
             },
             {
@@ -446,13 +528,13 @@
             {
                 "comment_id": "nkvgp55",
                 "comment_body": "No Brasil é bem mais estável, tipo no Itaú",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1761178460.0
             },
             {
                 "comment_id": "nkvgwei",
                 "comment_body": "São profissionais na arte da enrolação e pra fazer uma tarefa trivial parecer algo super complexo sem parecer que é um preguiçoso",
-                "comment_score": 7,
+                "comment_score": 5,
                 "comment_created_utc": 1761178532.0
             },
             {
@@ -464,7 +546,7 @@
             {
                 "comment_id": "nku6pf0",
                 "comment_body": "Negocia um tempo menor que seja. Os cara vão preferir que você saia semana que vem do que dar dois meses de full remoto ?\n\nSe não der, a sugestão é só pegar o maior PJ pra\nIr sentindo o clima da coisa. Pegar duas coisas novas ao mesmo tempo tem tudo pra dar\nErrado.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1761163520.0
             },
             {
@@ -500,13 +582,13 @@
             {
                 "comment_id": "nkvr8jt",
                 "comment_body": "corta pra galera do itaú recebendo 10 salários por terem sido demitidos",
-                "comment_score": 17,
+                "comment_score": 16,
                 "comment_created_utc": 1761182251.0
             },
             {
                 "comment_id": "nkwdlv2",
                 "comment_body": "Você sabe que a galera do layoff do Itaú tinha anos de casa, né? Além disso, eles foram demitidos com vários benefícios e ainda conseguiram recentemente o valor de mais dez salários mínimos.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1761190853.0
             },
             {
@@ -600,7 +682,7 @@
             {
                 "comment_id": "nhh4645",
                 "comment_body": "Fiz pela contabilizei (contabilidade online/digital), não tive nenhum problema com eles",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1759457332.0
             },
             {
@@ -646,7 +728,7 @@
             {
                 "comment_id": "n4idpmj",
                 "comment_body": "WordPress com Elementor ou Wix\n\nPega uma solução pronta que vai ter pouca dor de cabeça e algumas já vem com integração nativa do Mercado Pago ou PagSeguro.\n\nWix tem plano por R$ 32,00 mensais.",
-                "comment_score": 14,
+                "comment_score": 15,
                 "comment_created_utc": 1753185506.0
             },
             {
@@ -704,7 +786,7 @@
             {
                 "comment_id": "n28xwxo",
                 "comment_body": "Cara chato mds",
-                "comment_score": -18,
+                "comment_score": -16,
                 "comment_created_utc": 1752095005.0
             },
             {
@@ -754,7 +836,7 @@
             {
                 "comment_id": "mupz11h",
                 "comment_body": "Só toma cuidado para não ser a famosa contra proposta até te substituírem, é bem comum na área",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1748448319.0
             },
             {
@@ -888,13 +970,13 @@
             {
                 "comment_id": "mr4ftu9",
                 "comment_body": "Primeiro: em 90% dos casos vc vai ser contratado similar a um PJ no Brasil, obrigação de CLT, contrato de PJ sem os direitos. Então vc não tem tanta margem para negociar como vc deve imaginar\n\nSegundo: sim, vc vai querer ter um CNPJ para pagar menos impostos, pode trabalhar como PF também, mas se vc pode pagar 3% de imposto, pq pagar 27,5%?\n\nTerceiro: não é ilegal ser CLT e ter uma empresa, mas a depender do compliance da tua empresa, pode sim não ser permitido. Imagina que você trabalha numa empresa e é dono de uma empresa que é tecnicamente concorrente da empresa onde vc trabalha, entende o conflito?\n\nQuarto: em teoria, programador não pode ser MEI, mas todo mundo faz, e é como 90% do pessoal começou. Mas faça por sua conta e risco.\n\nQuinto: sim, passar nas entrevistas exige muito preparo, foque no inglês e em resolução dos testes técnicos.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1746647526.0
             },
             {
                 "comment_id": "mr4fz21",
                 "comment_body": "tem uns trezentos post sobre isso aqui no sub, acho até tem um fixo que tem tudo que você precisa",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1746647567.0
             },
             {
@@ -964,7 +1046,7 @@
             {
                 "comment_id": "mkskub5",
                 "comment_body": "Tu mora no Brasil, certo?\n\nEu preenchi esse formulário fazem alguns anos, mas na época pesquisei cada campo e vi como deveria preencher. No meu caso, eu não paguei nenhum real de imposto para os EUA. Pode ter mudado algo com essa eleição do Trump, ou alguma coisa nos últimos anos, mas acho mais provável que tu esteja preenchendo o formulário de forma errada do que realmente seja esse o caso.\n\nSegue a orientação do chatgpt.\n\nParte I – Identificação da Entidade\n\n1. Nome da organização que é o beneficiário efetivo:\nExemploTech Soluções Digitais LTDA\n\n\n2. País de constituição:\nBrazil\n\n\n3. Tipo de entidade:\nMarque Corporation\n(mesmo sendo LTDA no Brasil, para fins fiscais dos EUA, geralmente se classifica como Corporation)\n\n\n4. Capítulo 3 Status:\nMarque Corporation\n\n\n5. Capítulo 4 Status (FATCA):\nMarque Active NFFE\n\n\n6. Endereço permanente (não pode ser caixa postal):\nRua das Inovações, 123, Bairro Centro, São Paulo, SP, 01000-000, Brazil\n\n\n7. Endereço de correspondência (se diferente):\n(Deixe em branco ou repita, se for o mesmo do campo 6)\n\n\n8. U.S. TIN (opcional):\n(Deixe em branco, a menos que tenha)\n\n\n9. Foreign TIN (CNPJ):\n12.345.678/0001-99\n\n\n10. Número GIIN:\n(Deixe em branco se for Active NFFE)\n\n\n\n\n---\n\nParte III – Status FATCA: Active NFFE\n\nMarque a caixa que diz:\n\"The entity identified in Part I is an Active NFFE...\"\n\n\n\n---\n\nParte XXV – Benefícios de tratado tributário (opcional, se aplicável)\n\nSe quiser aplicar a redução de impostos (com base no tratado Brasil-EUA), preencha:\n\n14a. Marque a caixa\n14b. Escreva:\nBrazil\nE selecione o tipo de rendimento (por exemplo, “Services” ou “Other income”)\n\n15. Preencha a cláusula do tratado (por exemplo, Article 7 – Business Profits)\nE escreva:\n\"The beneficial owner has no permanent establishment in the United States.\"\n\n\n\n\n---\n\nParte XXX – Certificação\n\nAssine e coloque:\n\nNome do signatário (representante legal da empresa)\n\nCargo (por exemplo, Sócio Administrador)\n\nData\n\nE marque a caixa: \"I certify that I have the capacity to sign for the entity...\"",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1743474082.0
             },
             {
@@ -994,7 +1076,7 @@
             {
                 "comment_id": "mksm4y5",
                 "comment_body": "A retenção de 30% que aparece em muitos contextos com o formulário W-8BEN-E se refere ao imposto sobre renda fixa dos EUA paga a NRA (Nonresident Alien) ou entidades estrangeiras, quando esses rendimentos são classificados como:\n\nFDAP (Fixed or Determinable Annual or Periodical income), como:\n\nJuros\n\nAluguéis\n\nDividendos\n\nRoyalties (incluindo direitos autorais)\n\nServiços em alguns casos\n\n\n\nNo seu caso, como uma empresa brasileira de programação (LTDA) prestando serviços técnicos ou de desenvolvimento de software para uma empresa americana, essa retenção não se aplica automaticamente.\n\nPontos importantes:\n\n1. Você não está vendendo direitos autorais ou royalties:\n\nSe você apenas presta serviços de software (ex: desenvolvimento de sistemas sob demanda), isso se enquadra como \"serviços\", e não como \"royalties\".\n\nSe você licencia um software de forma contínua com cláusulas de propriedade intelectual específicas, aí sim poderia ser tratado como royalty, mas depende do contrato.\n\n\n\n2. O Artigo 7 do tratado Brasil-EUA (Business Profits) permite que:\n\nSe você não tem um \"estabelecimento permanente\" nos EUA, então os lucros da sua empresa não devem ser tributados lá.\n\nPara isso, é importante preencher a Parte XXV do W-8BEN-E, como mencionei acima, e declarar que você não tem presença física ou filial nos EUA.\n\n\n\n\n\n---\n\nConclusão:\n\nNão, a retenção de 30% não se aplica automaticamente ao seu caso, desde que:\n\nVocê presta serviços (e não vende ou licencia propriedade intelectual como \"royalty\");\n\nVocê não tem presença física nos EUA;\n\nVocê entrega o W-8BEN-E preenchido corretamente, invocando o benefício do tratado.",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1743474582.0
             },
             {
@@ -1028,7 +1110,7 @@
             {
                 "comment_id": "mh16ezi",
                 "comment_body": "A questão é simples: Fator R depende do quanto você aloca de pró-labore. Pra ser considerado no anexo III, você precisa que 28% do seu faturamento seja de massa salarial.\n\nQuanto mais dinheiro você ganha, menos vale a pena. Porque sua DARF do INSS vai vir cada vez maior, diretamente relacionada ao valor do seu pró-labore.\n\nDepos de determinada faixa, vale a pena você simplesmente alocar um salário mínimo como pró-labore, e distribuir o resto como lucro e pagar somente o IRPJ/CSLL/etc sobre o valor que entra na conta.\n\nFaça as contas junto ao contador, existe um range considerável onde Fator R vale a pena, acima de determinado valor, já não vale mais. E se o valor for ainda maior, existe também o universo de Simples Nacional versus Lucro Presumido. (Ou seja, como tudo na vida de um programador: depende)",
-                "comment_score": 46,
+                "comment_score": 45,
                 "comment_created_utc": 1741619275.0
             },
             {
@@ -1040,7 +1122,7 @@
             {
                 "comment_id": "mh0w223",
                 "comment_body": "Eu tenho empresa aberta no Simples Nacional desde 2020 e uso o anexo V atualmente, mas de 2020 a 2023 usei o anexo III. Porém o anexo III são para serviços mais \"manuais\" digamos assim, que no nosso caso seria manutenção de hardware, suporte técnico, essas coisas. Já o anexo V é para atividade intelectual que é o nosso caso.\n\nComecei usando o anexo III ciente disso, mas quando ia emitir a NF colocava que prestava serviços de manutenção. Troquei ideia com meu contador sobre e ele disse que o risco seria a receita vir me fiscalizar e perceber que na verdade eu faço atividade intelectual (risco baixo pois sou uma empresa com faturamento baixo em relação à grandes empresas) e eu ter que pagar uma multa e imposto sobre a diferença.\n\nQuando mudei de empresa, fiz o calculo para ver se valeria a pena usar o fator R, mas como eu já tinha empresa aberta há um tempo, teria que pagar quase 100k de imposto pra poder me enquadrar.\n\nHoje uso o anexo V pq não to a fim de ficar me arriscando mais não rs, mas se quiser assumir o risco pode usar o anexo III, só troca uma ideia com seu contador antes.\n\n  \nEDIT: Caso vc preste serviço pra gringa, vc vai emitir uma nota de exportação que é isento de ISS.",
-                "comment_score": 20,
+                "comment_score": 21,
                 "comment_created_utc": 1741615907.0
             },
             {
@@ -1058,7 +1140,7 @@
             {
                 "comment_id": "mh310be",
                 "comment_body": "Esse fio devia ser fixado, porque é utilidade publica e todos os contrapontos fazem sentido, esse que é o problema.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1741638232.0
             },
             {
@@ -1112,13 +1194,13 @@
             {
                 "comment_id": "mh1pxr5",
                 "comment_body": "Imposto é roubo e enquanto der pra meter o louco eu vou.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1741624893.0
             },
             {
                 "comment_id": "mh1cz01",
                 "comment_body": "O correto é ser anexo V, pois programação é considerado trabalho intelectual. As pessoas colocam anexo III porque paga menos imposto, mas está tecnicamente errado ",
-                "comment_score": 1,
+                "comment_score": 3,
                 "comment_created_utc": 1741621231.0
             },
             {
@@ -1148,7 +1230,7 @@
             {
                 "comment_id": "mh0voph",
                 "comment_body": "Anexo 3 é exportação de conhecimento, anexo 5 é nacional… até onde sei.",
-                "comment_score": -17,
+                "comment_score": -15,
                 "comment_created_utc": 1741615783.0
             },
             {
@@ -1184,7 +1266,7 @@
             {
                 "comment_id": "mh1da1s",
                 "comment_body": "Para o Lucro Presumido valer a pena tem que trabalhar na gringa e ganhar muito bem mesmo, tipo >30k.",
-                "comment_score": 7,
+                "comment_score": 5,
                 "comment_created_utc": 1741621321.0
             },
             {
@@ -1196,7 +1278,7 @@
             {
                 "comment_id": "mh19qkm",
                 "comment_body": "Seu contador é burro.\n\nAinda mais se for pra prestar serviço pra gringa.\n\nOu então tu é a fonte do meme eu amo pagar imposto.",
-                "comment_score": 1,
+                "comment_score": 0,
                 "comment_created_utc": 1741620304.0
             },
             {
@@ -1226,7 +1308,7 @@
             {
                 "comment_id": "mh1v52i",
                 "comment_body": "Simples nacional não é MEI\n\nEdit pra galera: \n\n> Nos casos de contribuinte que são MEIs, o contribuinte conta com os benefícios previdenciários, uma vez que a contribuição é realizada para o CPF do sócio. Mas, no caso das EPPs e microempresas, a empresa já possui porte para retirada de pró-labore. E para contribuição ao INSS INDIVIDUAL, na qual o contribuinte possui os benefícios da previdência, é necessário um pró-labore ativo de pelo menos o valor do mínimo nacional.\n\nhttps://www.contabilizei.com.br/contabilidade-online/inss-simples-nacional/",
-                "comment_score": -6,
+                "comment_score": -5,
                 "comment_created_utc": 1741626339.0
             },
             {
@@ -1280,7 +1362,7 @@
             {
                 "comment_id": "mh26q0j",
                 "comment_body": "Ninguem disse que era.",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1741629607.0
             },
             {
@@ -1353,7 +1435,7 @@
             {
                 "comment_id": "mbnouil",
                 "comment_body": "Alguns professores da federal onde me formei abandonaram a docência pra ganhar 3x ou 4x mais na indústria.",
-                "comment_score": 36,
+                "comment_score": 37,
                 "comment_created_utc": 1739022690.0
             },
             {
@@ -1365,13 +1447,13 @@
             {
                 "comment_id": "mbn54os",
                 "comment_body": "Geralmente é um salário bom para iniciantes o problema é a progressão de carreira inexistente.\nPessoa entra ganhando 8k +- e demora 20 anos pra chegar em 20k se chegar.\n\nIniciativa privada e gringa ainda é o caminho pra conseguir construir um patrimônio.\n\nSerpro mesmo era a única com possibilidade da pessoa chegar em uns 15k mais rápido. Mas aultima conversão matou completamente a carreira.",
-                "comment_score": 44,
+                "comment_score": 45,
                 "comment_created_utc": 1739013531.0
             },
             {
                 "comment_id": "mbpzjnd",
                 "comment_body": "E sabe como o governo vai resolver isso? Dificultando a vida de quem quer trabalhar remoto pra fora. Pode ter ctz ainda que vão usar os sindicatos de ti para dizer \"olha como essas empresas gringas exploram o trabalhador brasileiro sem dar nada em troca\"",
-                "comment_score": 13,
+                "comment_score": 12,
                 "comment_created_utc": 1739047587.0
             },
             {
@@ -1395,13 +1477,13 @@
             {
                 "comment_id": "mbp5k6f",
                 "comment_body": "Não entendi nada",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1739038909.0
             },
             {
                 "comment_id": "mbqcxdq",
                 "comment_body": "É bom que esnobem o serviço público mesmo. Assim dá tempo de eu terminar de me formar e conseguir meu cargo sem problemas. Daqui a 20-30 anos quem esnobou o serviço público vai estar chorando e quem escolheu a estabilidade vai estar na boa. Foi assim todas as vezes em que as pessoas preferiram o setor privado por qualquer motivo que fosse",
-                "comment_score": -5,
+                "comment_score": -4,
                 "comment_created_utc": 1739051577.0
             },
             {
@@ -1413,7 +1495,7 @@
             {
                 "comment_id": "mbo051y",
                 "comment_body": "Vi um que vai abandonar a academia por um cargo de 25k no CNU.",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1739026672.0
             },
             {
@@ -1425,7 +1507,7 @@
             {
                 "comment_id": "mbnzfuz",
                 "comment_body": "Banco Central deu uma piorada boa na carreira pra quem entrar no próximo concurso. 20 anos pra ir de 18k a 36k. Quem passou nesse vai começar com 25k em 2026. Aí sim, paizão.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1739026442.0
             },
             {
@@ -1437,7 +1519,7 @@
             {
                 "comment_id": "mbr00n5",
                 "comment_body": "Mas pra chegar em 20k na iniciativa privada vc tbm vai levar no mínimo 10 anos, isso se vc ganhar isso kkkkkk",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1739059025.0
             },
             {
@@ -1449,7 +1531,7 @@
             {
                 "comment_id": "mbqr3z9",
                 "comment_body": "comentario de gente que nao sabe de nada do que ta falando. se amanha o dolar cair pra 3 reais vc se fode. vai estudar e ver que estão planejando novos planos de carreira pra TI no setor publico.",
-                "comment_score": -7,
+                "comment_score": -6,
                 "comment_created_utc": 1739056052.0
             },
             {
@@ -1497,7 +1579,7 @@
             {
                 "comment_id": "mbnxuyl",
                 "comment_body": "Serpro é CLT igual a maioria de concursos em TI. Mais estabilidade que iniciativa privada mas bem menos que estatutário.\n\nFora o risco de privatização que vai vir forte no próximo governo",
-                "comment_score": 18,
+                "comment_score": 20,
                 "comment_created_utc": 1739025881.0
             },
             {
@@ -1515,7 +1597,7 @@
             {
                 "comment_id": "mbqqaia",
                 "comment_body": "o povo daki é completamente fora da realidade. 90% dos devs brasileiros devem ganhar menos que 10k.",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1739055782.0
             },
             {
@@ -1645,19 +1727,19 @@
             {
                 "comment_id": "m5ltemo",
                 "comment_body": "[deleted]",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1736118986.0
             },
             {
                 "comment_id": "m5m1969",
                 "comment_body": "procure uma contabilidade online elas são mais baratas, você vai ter que fazer um certificado digital que é tipo sua assinatura, o preço que eu paguei na minha foi 180 R$ e tem que ser renovada, tem a taxa de funcionamento anualmente da prefeitura da sua cidade eu pago 400 pau, mas varia para cada prefeitura eu uso o simples nacional e o que paga menos imposto o DAS é o simples nacional e INSS vai depender do seu pró-labore o meu e 155,32 e tambem tem gasto com contabilidade eu pago 169,90 e outra MEI não existe pra programador é ME no total sem contar assinatura digital e o alvará eu gasto 595,22 por mês, no seu caso você ta ganhando mais que eu então vai acabar pagando mais mesmo.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1736121558.0
             },
             {
                 "comment_id": "m5mjwby",
                 "comment_body": "MEI não é uma opção válida pra desenvolvedor. Você até pode criar a empresa assim, mas vai estar irregular e pode em algum momento levar multa por isso. Não sei dizer se a possibilidade de isso acontecer é alta ou baixa.\nO certo é abrir uma ME, só que aí você vai obrigatoriamente precisar de um contador. O mais barato é contratar o Contabilizei ou similares. Um contador tradicional vai te cobrar 300 reais ou mais por mês.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1736127747.0
             },
             {
@@ -1841,7 +1923,7 @@
             {
                 "comment_id": "lywe5m5",
                 "comment_body": "Sou contador, querendo virar DEV e indico abrir o MEI com o CNAE digitador, tenho uma MEI assim\nVocê pode deixar de declarar SONEGAR tranquilamente \nO que tem de empresa com mais de 150 - 180 mil sonegando e não pagando NADA de impostos “não está escrito no papel”",
-                "comment_score": -2,
+                "comment_score": -1,
                 "comment_created_utc": 1732539688.0
             },
             {
@@ -1965,25 +2047,25 @@
             {
                 "comment_id": "lfonp94",
                 "comment_body": "Você quer trabalhar no Brasil pra uma empresa de fora ou imigrar? Se for o primeiro caso, a sua cidadania não serve pra nada.",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1722362300.0
             },
             {
                 "comment_id": "lfp7ylc",
                 "comment_body": "disclaimer: tenho uma newsletter sobre esse assunto.\n\nTrabalho pra empresas americanas desde 2020.\n\nA realidade é que o mercado está apertado. Até 2 anos atrás (quando começaram essas mentorias, eu acho), era mais simples conseguir vagas pra fora. A demanda estava muito alta, e não havia pessoas suficientes para preencher.\n\nHoje em dia, após múltiplos layoffs, tem muita gente qualificada no mercado. Então as vagas passam a ficar muito mais competitivas.\n\nDá uma olhada nessa [seção desse artigo que escrevi](https://devnagringa.substack.com/i/146847859/como-eu-procuraria-por-vagas-se-estivesse-comecando-hoje) mostrando como eu faria se tivesse começando hoje. Acho que resume algumas das coisas que você quer saber.\n\nMas, respondendo suas perguntas:\n\n1 e 2: Sim, tem algo que você não está fazendo: procurando por vagas. Não adianta você otimizar o seu LinkedIn e adicionar recrutadores se você não está aplicando. Essa parte ajuda você a ser localizado por recrutadores, mas como te disse, o mercado está competitivo. Então você precisa aplicar diretamente para as vagas.\n\n3: Não tenho cidadania, mas acho que só faz sentido se você quiser mudar de país. Porque na maioria das vagas você vai ser um contractor.\n\n4: Ache jeitos diferentes de se destacar na fase de currículo. Mande mensagem direto pro CEO/founder se for uma empresa pequena/média. Sugira features ou reporte algum bug. Mostre que você quer o trabalho, e que sabe fazer ele.\n\n5: [Conheço a minha newsletter](https://devnagringa.substack.com/)😅 meu conteúdo é todo gratuito, mas tenho uma mentoria mensal em grupo de R$10 por mês pra quem tiver dúvidas mais específicas. Isso a parte, sempre tento responder todo mundo [no Discord também](https://discord.gg/n9m9ebfEnk).",
-                "comment_score": 12,
+                "comment_score": 13,
                 "comment_created_utc": 1722368643.0
             },
             {
                 "comment_id": "lfq3jqt",
                 "comment_body": "Cara, a dica que eu dou é não se desesperar, não ter pressa e criar ansiedade pra trabalhar na gringa que isso pode te desmotivar. O que você tem que fazer é o básico bem feito e não ter pressa, aproveita que você tem trampo estavel pra preparar bastante que ora ou outra a oportunidade chega eai você tem que estar pronto. \n\nEu comecei a me preparar pra trabalhar na gringa lá em 2021 depois que acabei a faculdade, já tinha uns 3 anos de exp. Eu foquei muito no inglês que era meu ponto mais fraco, fazendo 4 aulas por semana, depois um tempo de leet code. Aí em 2023 me senti confiante fiz entrevista com 3 empresas e passei em uma que estou trabalhando agora recebendo 7500$.\n\nVocê pode aplicar pra 1000 empresas fazer uma caralhada de entrevista, otimizar sei la oq se tiver pressa e tal, mas eu acho que isso gera uma ansiedade que não vale a pena, do tipo \"preciso disso e logo senão não vou ser feliz\", isso não faz bem pra mim, prefiro usar esse tempo pra me desenvolver que as oportunidades chegam. \nBoa sorte.\n\n\nEdit: acho que não fui muito objetivo, quando comecei a procurar trampo eu só ajeitei meu CV e linkedin (somente em inglês, sem a opção de página em português) e botei lá aquele open to work sem ser na foto e fui buscar vaga nos site de consultoria, tipo toptal e etc que a barra de entrada é mais baixa do que empresa mesmo, eu acho que as vagas do linkedin sao muito saturadas, mas é basicamente isso, e nao subestime o leetcode, é uma boca de funil que corta uma galera enorme.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1722378945.0
             },
             {
                 "comment_id": "lfpaxq9",
                 "comment_body": ">Pensando nisso, comecei a pesquisar sobre, e obviamente me deparei com os “vendedores de curso” (principalmente no linkedin), que atualmente chegam a cobrar reais fortunas (já vi gente cobrando até 10 mil reais por esse tipo de “mentoria”, rsrs).\n\nCarácoles! Já tem coach quantico sistêmico cobrando 10k pra falar o óbvio?   \n\n\n>Uma sugestão interessante foi: mudar a sua localização pra o país que você quer ir. Isso me pareceu estranho, afinal, eu não estou nos EUA, estou no Brasil.\n\nSe essa foi a dica de ouro do webinar, sinto muito mas você gastou dinheiro atoa. Só mude sua localização caso você está disposto a imigrar ou já imigrou. Do contrário você só vai perder tempo, pois os recrutadores estão buscando candidatos de acordo com perfil específico, e localização é um dos requisitos. \n\nO que você pode fazer é colocar o teu perfil como \"Open to Work\" e selecionar em \"Locations (remote)\" para os países ou continentes que você está disposto a trabalhar. Desta forma você será contactado por recrutadores com vagas específicas para teu perfil.\n\n>Além de tudo, minha cidadania espanhola está pra sair nos próximos meses, então reflito se deveria mudar o foco para algum país na Europa...\n\nCidadania espanhola só vai te ajudar se você pretende se mudar para algum país da comunidade européia. Infelizmente Inglaterra está fora, mas você pode tentar Irlanda. Se fosse eu, já estaria pensando nessa possibilidade.\n\nSe você pretende continuar no Brasil, a maneira mais fácil de conseguir emprego para fora é através de consultorias latinas que contratam mão de obra para empresas americanas ou européias.\n\nAcho que é isso, boa sorte!",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1722369575.0
             },
             {
@@ -2019,7 +2101,7 @@
             {
                 "comment_id": "lfop692",
                 "comment_body": "Aceito as duas! Se for uma proposta legal, qualquer das duas opções é valida!",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1722362756.0
             },
             {
@@ -2055,13 +2137,13 @@
             {
                 "comment_id": "lfr485y",
                 "comment_body": "Eu entendo e concordo plenamente! Mas não to buscando viver como um rei, to buscando dar esse proximo passo… se for aqui, ou lá, ótimo!",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1722392788.0
             },
             {
                 "comment_id": "lfr4abo",
                 "comment_body": "Não to buscando vida de rico!",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1722392812.0
             },
             {
@@ -2083,7 +2165,7 @@
             {
                 "comment_id": "leec6ki",
                 "comment_body": "Ótimo resumo.\n\nAdicionaria que atualmente alguns bancos fazem o canal bancario pra receber diretamente remessa de pagamento do exterior por eles (eu uso a conta PJ do banco Inter, mas o banco da propria Contabilizei agora tem essa funcionalidade, facilita pois a conciliacao bancaria usando ele eh automatica).",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1721663821.0
             },
             {
@@ -2279,7 +2361,7 @@
             {
                 "comment_id": "l84ojx1",
                 "comment_body": "Você precisa de uma conta PJ de qualquer forma (em reais), alguns bancos tem esse serviço de conversão de USD para BRL, mas na minha experiência as taxas deles são horríveis.\n\nBS2/Husky/Remessa Online te disponibilizam um código de conta USD, e quando você recebe dinheiro lá eles te avisam e vc faz a conversão para BRL que cai na sua conta PJ.\n\nA conta PJ em si não tem custo (pelo menos nos bancos digitais), então o que vc precisa ficar esperto é com a cotação/taxa de conversão desses serviços que deve ser em torno de 1%.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1718120327.0
             },
             {
@@ -2373,13 +2455,13 @@
             {
                 "comment_id": "l3uchfs",
                 "comment_body": "Não tem nada errado com a descrição. Na prática vai fazer isso mesmo.\n\nAssim como muitos de nós Devs acham que são algo de outra galáxia, quando na verdade são apenas digitador de codigo",
-                "comment_score": 78,
+                "comment_score": 82,
                 "comment_created_utc": 1715604134.0
             },
             {
                 "comment_id": "l3utzq9",
                 "comment_body": "Se eu falar pra vocês, que estou na vaga de suporte, porém não sei usar direito o pacote office...",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1715611149.0
             },
             {
@@ -2415,13 +2497,13 @@
             {
                 "comment_id": "l3unwg4",
                 "comment_body": "Me chamo de pedreiro digital",
-                "comment_score": 47,
+                "comment_score": 50,
                 "comment_created_utc": 1715608876.0
             },
             {
                 "comment_id": "l3vya31",
                 "comment_body": "garoto de programa",
-                "comment_score": 16,
+                "comment_score": 17,
                 "comment_created_utc": 1715625158.0
             },
             {
@@ -2439,7 +2521,7 @@
             {
                 "comment_id": "l3v1d7z",
                 "comment_body": "Se vc sabe centralizar no word, por em negrito e mudar a fonte já sabe muito mais que muita gente kkkkkk",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1715613797.0
             },
             {
@@ -2469,13 +2551,13 @@
             {
                 "comment_id": "l3ui4lc",
                 "comment_body": "A empresa não oferece dinheiro, mas oferece uma massagem no ego, e um currículo mais bonito.\n\nJá cansei de ver gente aqui se questionando se deveria mudar de empresa, porque na outra ele vai sofrer \"down grade\", saindo de sênior de 2 anos (4k PJ) para Junior bem pago.",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1715606595.0
             },
             {
                 "comment_id": "l3xbjf8",
                 "comment_body": "Caraca menó, tá tudo bem? kk",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1715642766.0
             },
             {
@@ -2575,7 +2657,7 @@
             {
                 "comment_id": "luq48r3",
                 "comment_body": "Então, pra ficar no Anexo III, a regra é ter folha de pagamento de pelo menos 28% da receita bruta (o famoso Fator R), senão vai pro Anexo V. Tem formas legais de otimizar isso, mas vale entender os prós e contras direitinho.\n\nSe quiser uma visão completa sobre o que dá pra fazer, a gente pode marcar uma consultoria pra te ajudar a explorar essas opções com segurança!",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1730394842.0
             },
             {
@@ -2657,19 +2739,19 @@
             {
                 "comment_id": "ku352b4",
                 "comment_body": "Cara o que cv está cansado não é de frontend, é do seu projeto atual. Tem muita coisa DIFÍCIL pra fazer em frontend. Puxa pra codar como hobby essas coisas e o trabalho é o que bota o pão na mesa.\n\nFaz um visualizador de projetos de arquitetura usando WebGL. Aposto que da pra vender por uma grana ainda.",
-                "comment_score": 10,
+                "comment_score": 9,
                 "comment_created_utc": 1710000726.0
             },
             {
                 "comment_id": "ku2v3fu",
                 "comment_body": "Eu vejo o backend como mais recompensador. Me sinto melhor desenvolvedor quando atuo no backend. Aos poucos fui pegando ranço do frontend. Muita gente ruim inflando o mercado. No backend a regua é mais alta, porem se você alcança-la o sucesso é progressivo. \n\nAtuo hoje como fullstack node, react, react native, mas to me especializando no backend com java.",
-                "comment_score": 17,
+                "comment_score": 18,
                 "comment_created_utc": 1709997176.0
             },
             {
                 "comment_id": "ku2tio3",
                 "comment_body": "Agradeça que vc tem um trabalho",
-                "comment_score": 44,
+                "comment_score": 42,
                 "comment_created_utc": 1709996583.0
             },
             {
@@ -2681,13 +2763,13 @@
             {
                 "comment_id": "ku2wx3j",
                 "comment_body": "Eu também to querendo pular fora de front-end React. O mercado tá saturando demais e eu sempre me sinto mais redundante e substituível na função do que se fosse back-end ou fullstack. Infelizmente, ainda não tive a oportunidade de migrar porque as empresas que eu trabalhei cagam pra front-end e preferem sobrecarregar poucos devs, então não sobra recursos pra me deixarem aprender e trabalhar com outra coisa.\n\n>o pessoal ficava bem feliz vendo alguns truques que aprendi no decorrer do caminho (era impagável ver estagiário e junior feliz por eu ter ensinando alguma coisa nova para eles\n\nDá um exemplo?",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1709997842.0
             },
             {
                 "comment_id": "ku2xsh3",
                 "comment_body": "Eu trabalhava muito com fullstack q bons anos atrás e nos últimos 3 foquei mais em backend. Nesse ano consegui uma vaga relativamente boa. A stack era react e Java, senti que fui melhor nas perguntas sobre Backend do que front por ter trabalhado mais, mesmo que com Node, e quando chegou a proposta foi para Full frontend. Fiquei pensando se era uma boa, e topei. A minha visão é:  eu tenho um bom conhecimento em backend , independente da linguagem pq é algo que se vc tiver uma boa base e com um pouco de estudo você consegue transportar conhecimentos de uma stack antiga para a nova. Então acho que é uma focar em Java. Sempre tem vaga e tem oferta. No meu caso eu tô focando mais em front agora para quem sabe ser tech lead fullstack. Vc já tendo uma boa carreira em fullstack, focou em bakc e depois front, com mais um tempo pode vim certeza focar em vagas sênior daqui pra frente. Continua estudando Java e tentando aos poucos entrar nos projetos. Não tenta migrar direto pra Java, como a minha stack é parecida, vai tentando pegar tarefas em Java enquanto trabalha no front. Como você diz o react é tranquilo então vc consegue terminar antes enquanto as tarefas de Java vc aproveita o tempo extra pra trampar.",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1709998161.0
             },
             {
@@ -2771,7 +2853,7 @@
             {
                 "comment_id": "ku3i3qp",
                 "comment_body": "Não, não estamos falando de desenvolvimento",
-                "comment_score": 15,
+                "comment_score": 16,
                 "comment_created_utc": 1710005133.0
             },
             {
@@ -2843,7 +2925,7 @@
             {
                 "comment_id": "ku364em",
                 "comment_body": "É complicado, ao mesmo tempo que está saturado. Está saturado de gente ruim. Alias fullstack já tem um tendencia foda de botarem um backend que derrete toda vez que tem que criar css. Enxe o código de useEffect inútil. Não componentiza o código. Cria 12 fontes da verdade diferentes nos estados. Enfia !important em todas as propriedades da classe css. Não sabe debugar performance, nem pensa nela.\n\n\nMas sei lá, eu trabalho em ferramenta interna, então meio que fdasse UX, UI, perf, responsividade. Mas me doi ver código assim.\n\n\nTemos um déficit brabo de frontend bom. E assim eu não sou. Sou Jr. Mas pelo menos eu busco ser.",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1710001090.0
             },
             {
@@ -2975,7 +3057,7 @@
             {
                 "comment_id": "ku38ydu",
                 "comment_body": "concordo, também agradeço por ter um, mas não deixa de ser uma dinâmica triste",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1710002063.0
             },
             {
@@ -3019,13 +3101,13 @@
             {
                 "comment_id": "kewwv12",
                 "comment_body": "Não, reforma não muda Simples nacional, nem MEI\n\n(E acho que não muda lucro presumido nem distribuição de dividendos)\n\n\"Ah mas médico vai pagar mais\" sim, porque a tributação deles é \"diferente\". E é nessas horas que os humilhados serão exaltados.\n\n(É diferente porque não quiseram que TI fosse tributado como Profissional Liberal (que no fim é como PF mais ou menos normal), pra evitar um tipo de PJtização, só que daí veio a MEI e agora o gov ganharia mais de quem trabalha PF mesmo então agora é assim que é",
-                "comment_score": 32,
+                "comment_score": 34,
                 "comment_created_utc": 1703543264.0
             },
             {
                 "comment_id": "kewiuhe",
                 "comment_body": "Ja falava isso em comentarios de varios posts desde o ano passado, e agora que o Taxxad quer dinheiro vai vir pior do que o planejado pelo o ultimo governo.\n\nAinda falta aguardar o % e a isenção proposta,  mas o papo do governo era que advogado e médico ganhava muito sem pagar imposto, mas isso vai afetar TI remoto gringo em cheio, preparem os bolsos pq eu duvido que eles vão deixar MEI ganhando muito escapar.\n\nO esquema é não trazer tudo e deixar investido fora, e usar em viagens internacionais e trazer por lá, mas é assunto pro sub de investimentos",
-                "comment_score": 35,
+                "comment_score": 37,
                 "comment_created_utc": 1703537069.0
             },
             {
@@ -3037,13 +3119,13 @@
             {
                 "comment_id": "kewpxqk",
                 "comment_body": "Feliz natal né\n\nA saída é o aeroporto, não consigo descrever minha decepção",
-                "comment_score": 15,
+                "comment_score": 14,
                 "comment_created_utc": 1703540141.0
             },
             {
                 "comment_id": "kewqxw7",
                 "comment_body": "Relaxa que é com amor",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1703540591.0
             },
             {
@@ -3055,13 +3137,13 @@
             {
                 "comment_id": "keyyd6e",
                 "comment_body": "Deus que me perdoe mas eu to é torcendo que taxem tudo, a cambada de doente no linkedIn apoiando isso é gigantesca, essa gente ai são os que mais vao se ferrar pq a maioria trabalha pra fora ganhando uma nota. Infelizmente eles vão ter que pagar na propria moeda pra aprender.",
-                "comment_score": 0,
+                "comment_score": 1,
                 "comment_created_utc": 1703584757.0
             },
             {
                 "comment_id": "kewlrue",
                 "comment_body": "> imposto de renda\n\n> \"tô lendo a redação da reforma\"\n\nTeu contador é maior caozeiro, pq a reforma não mudou nada sobre imposto de renda ou lucro",
-                "comment_score": -19,
+                "comment_score": -18,
                 "comment_created_utc": 1703538347.0
             },
             {
@@ -3079,7 +3161,7 @@
             {
                 "comment_id": "kex3kgy",
                 "comment_body": "Tomara, ae da pra aliviar consumo",
-                "comment_score": -15,
+                "comment_score": -16,
                 "comment_created_utc": 1703546342.0
             },
             {
@@ -3091,13 +3173,13 @@
             {
                 "comment_id": "kewjorh",
                 "comment_body": "Se aumentarem muito a % das alíquotas e eliminarem a isenção sobre lucros, offshore será uma alternativa? Acho que da pra abrir uma empresa LLC nos EUA por exemplo. Se receber PJ gringo e seu cliente estiver disposto a pagar pra conta bancária nos EUA via LLC, vc pode optar talvez deixar toda a grana lá e só trazer pra cá o necessário. Dessa forma você não paga imposto nem lá (por não morar lá) e nem aqui (por não emitir NF). Eu não sou contador e nem advogado, então não sei se isso que falei é viável e/ou legal.",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1703537440.0
             },
             {
                 "comment_id": "kexmhc6",
                 "comment_body": "Simplesmente o homem uma máquina de elisão fiscal, meus parabéns kkkkk\n\nSalvando suas respostas aqui para começar a avaliar as possibilidades e aplicabilidade",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1703555081.0
             },
             {
@@ -3109,7 +3191,7 @@
             {
                 "comment_id": "kextqeo",
                 "comment_body": "O grosso veio forte kkkk",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1703558503.0
             },
             {
@@ -3151,7 +3233,7 @@
             {
                 "comment_id": "kewn351",
                 "comment_body": "É viavel se a LLC for de um estado isento, mantenho minha empresa aberta no Canadá por esse motivo.\n\nMas no caso da minha, se eu fechar o ano fiscal com lucro pago 12% de imposto lá, mas geralmente eu emito uma invoice (NF) da minha empresa do Brasil cobrando todo o valor do Canadá quando a cotação está mais favoravel, e fecho o ano fiscal no Canadá com 0% de imposto pq não tive lucro e no Brasil pago os 10.67% normais.\n\nAlem disso, eu ainda tenho PR no Canadá e não dei baixa na residencia fiscal, então quando necessario eu transfiro dinheiro pra minha conta de banco PF lá e deixo o dinheiro investido em corretoras. Deixo pra usar esse dinheiro pra fazer compra internacional ou quando viajo pra fora usando a conta da Wise.\n\n&#x200B;\n\nDaria pra fazer a mesma coisa abrindo conta PJ em corretora nos EUA e manter o patrimonio diversificado em outras moedas como investimento a longo prazo que nunca vai precisar ser declarado no Brasil até o dia que vc decidir trazer o dinheiro. Pra PJ gringo tem algumas formas de contornar essa taxação extra que vai ocorrer, então é só saber o quanto do liquido vc vai ter que abrir mão se quiser continuar trazendo tudo.",
-                "comment_score": 18,
+                "comment_score": 20,
                 "comment_created_utc": 1703538904.0
             },
             {
@@ -3211,13 +3293,13 @@
             {
                 "comment_id": "kex53oc",
                 "comment_body": "Falei que dá, não que vai. De um jeito ou de outro, Brasil precisa deixar de ser paraíso fiscal",
-                "comment_score": -12,
+                "comment_score": -13,
                 "comment_created_utc": 1703547040.0
             },
             {
                 "comment_id": "kewsbes",
                 "comment_body": "Como é o processo de abrir e manter empresa fora? Ou se puder recomendar material mais aprofundado a respeito.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1703541212.0
             },
             {
@@ -3229,7 +3311,7 @@
             {
                 "comment_id": "kexf8sw",
                 "comment_body": "Não sei se entendi bem. A maioria dos devs que trabalham pra gringa estão no Simples Nacional. O Simples ficou de fora da reforma, não foi?",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1703551722.0
             },
             {
@@ -3283,7 +3365,7 @@
             {
                 "comment_id": "kex1mmk",
                 "comment_body": "Vc vai querer ter uma PJ no Brasil pagando entre 6\\~10% de imposto pq é a forma mais barata de trazer o dinheiro de forma legal, outra opção é como PF e vai pagar 27.5% no Carne-leão, não compensa.\n\nMas vc não é obrigado a ter empresa no Brasil, se quiser deixar o dinheiro lá fora pra sempre vc pode, e nunca ter que pagar imposto ou declarar a existencia dessa empresa pra Receita Federal.\n\nVamos supor que vc pretende um dia morar fora e já quer acumular capital e deixar nos EUA/Canadá, vc deixa na empresa, eventualmente sai do Brasil e faz a declaração de saida definitiva, saca todo o dinheiro como PF no EUA/Canadá (pagando o respectivo imposto de dividendos), e se um dia decidir voltar pro Brasil não tem qu e pagar nada pois vai ser considerado que todo o dinheiro foi ganho enquanto morava fora.\n\n&#x200B;\n\nNão sabia que a Australia tinha isso, mas isso não existe no Brasil, e por favor não de ideia pro Taxxad ou ele vai querer fazer igual.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1703545453.0
             },
             {
@@ -3314,13 +3396,13 @@
             {
                 "comment_id": "jq6hdjr",
                 "comment_body": "Que eu saiba, como MEI pelo Simples Nacional (pessoa jurídica) você só tem que pagar o DAS, que é por volta de 70 reais todo mês. Como pessoa física, você ainda tem que declarar Imposto de Renda se no ano-calendário o faturamento bruto da sua empresa subtraído do percentual não-tributável e das despesas dela ultrapassar R$28.559,70. Você pode ler mais sobre isso [aqui](https://www.contabilizei.com.br/contabilidade-online/como-declarar-imposto-de-renda-mei/).",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1688158095.0
             },
             {
                 "comment_id": "jq72z2v",
                 "comment_body": "Você tem que fazer a declaração anual do MEI, geralmente no mesmo período do Imposto de Renda",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1688167421.0
             }
         ]
@@ -3336,7 +3418,7 @@
             {
                 "comment_id": "jotpezj",
                 "comment_body": "Fala com um contador. Nesse valor ai, daria pra ter um MEI, só não dizer q eh dev.\n\nMas tbm nao vai perder mto se continuar como PF, eu acho q nao vale a burocracia de abrir um CNPJ.\n\nSe vc ganhar um salario de R$5700, vai pagar R$500 e pouco de IR com carnê leão. Só procurar no google “calculadora de IR” q vc vai ver.\n\nSó recomendo vc gerar o carnê leao todo mes referente ao q recebeu e pagar certinho.\n\nResumindo, com esse salário, eu não abriria um CNPJ, pq a soma Contador+imposto, vai ser maior e mais burocrático do que vc só gerar um carnê leao todo mês e pagar os 9% de imposto.",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1687265362.0
             },
             {
@@ -3414,7 +3496,7 @@
             {
                 "comment_id": "jotthfq",
                 "comment_body": "Eles condicionam a prestação do serviço ao fornecimento do certificado digital da empresa do OP (ou seja, para todos efeitos eles serão donos da empresa). Não faça isso, OP.\n\nProcure uma empresa de contabilidade séria que saiba fazer o trabalho.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1687267406.0
             },
             {
@@ -3480,7 +3562,7 @@
             {
                 "comment_id": "jotb8tm",
                 "comment_body": "Entao é mais interessante abrir um CNPJ mesmo, pois o imposto a ser pago deve girar entre 4%~8%. Essa renda PF vai taxar no mínimo 15%.",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1687256300.0
             },
             {
@@ -3504,7 +3586,7 @@
             {
                 "comment_id": "jouq2r2",
                 "comment_body": "Você cria uma procuração digital no site da RF autorizando a empresa a atuar como seu contador.\n\nEm momento algum eles precisam do certificado. Minha empresa existe há anos e nunca entreguei meu certificado pra ninguém.\n\nQuem tem o certificado é o dono da empresa, a partir do certificado você pode assinar qualquer documento e esse documento vai valer mais que qualquer documento em papel pelo simples fato da assinatura digital ser “irrefutável”.\n\nO papel do certificado digital é justamente dizer “esse documento foi assinado inequivocamente por Fulano em nome da empresa ACME”. No momento que você entrega o certificado a um terceiro, isso é pior que uma procuração de amplos poderes.\n\nEdit: e piora. Se eles fizerem alguma cagada, eles não terão qualquer responsabilidade pois fizeram tudo em seu nome, então tudo foi feito, inequivocamente, por você. Você não tem nem do que reclamar pois legalmente foi você quem fez.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1687280957.0
             },
             {
@@ -3568,13 +3650,13 @@
             {
                 "comment_id": "jos5760",
                 "comment_body": "3. O atual emorego é presencial? Tenta estudar uma forma de ficar nos dois, pelo menos no inicio, pra voce sentir como é o novo emprego e depois faz a transiçao.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1687226501.0
             },
             {
                 "comment_id": "jos7yaq",
                 "comment_body": "Abre uma PJ ltda sócio único, algo assim, abra conta no Inter, abra uma global account. Receba, emita a nota de prestação de serviço pro exterior. Se pague como pró-labore até o limite do fator R. Pegue o resto como distribuição de lucros. Win.\n\nMais importante de tudo. Não confie em conselhos de estranhos e pesquise você mesmo.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1687227932.0
             },
             {
@@ -3674,7 +3756,7 @@
             {
                 "comment_id": "jnf2077",
                 "comment_body": "se vc nao cancelar vc nao vai ter direito a seguro desemprego nem auxilio doença pelo CLT, o PJ prevalece sobre o CLT",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1686244148.0
             },
             {
@@ -3802,7 +3884,7 @@
             {
                 "comment_id": "j5u927p",
                 "comment_body": "Pode ficar tranquilo que não dá nada, experiência própria. Kkk",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1674664928.0
             },
             {
@@ -3844,7 +3926,7 @@
             {
                 "comment_id": "j5ualzy",
                 "comment_body": "Manda nada não ou troca de contabilidade. Se a tua não tá te ajudando a encontrar brechas legais no sistema, ela não tá fazendo um bom trabalho",
-                "comment_score": 26,
+                "comment_score": 25,
                 "comment_created_utc": 1674665508.0
             },
             {
@@ -3868,7 +3950,7 @@
             {
                 "comment_id": "j5uaxot",
                 "comment_body": "caralho hauhauahau ri alto",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1674665634.0
             },
             {
@@ -3908,7 +3990,7 @@
             {
                 "comment_id": "ivumgad",
                 "comment_body": "Se a empresa média fosse CLT eu até pensaria, mas sendo PJ eu vejo que você tem muito mais benefícios estando onde você está.\n\nAcredito que você pode receber oportunidades melhores no futuro.",
-                "comment_score": 40,
+                "comment_score": 39,
                 "comment_created_utc": 1668106516.0
             },
             {
@@ -3944,19 +4026,19 @@
             {
                 "comment_id": "ivvn0oz",
                 "comment_body": "cara, se ta perto de você virar senior, fica na sua empresa até virar senior e depois pensa em sair. Goldman Sachs tem um peso do caralho, principalmente para exterior.\n\nE claro, nada impede você ter projetos no git em outro linguagem que vai te ajudar a fazer a transição mais na frente.\n\nSe ta muito longe de virar sênior, fala com o seu chefe que recebeu uma proposta boa, mas gostaria de ficar e pede uma contra-proposta. (mas nesse caso esteja pronto para sair caso eles não queiram conversa)",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1668121402.0
             },
             {
                 "comment_id": "ivvqghb",
                 "comment_body": "Não sairia, se sua necessidade é ter experiência com outra linguagem procura algum side project e se mantém no emprego atual.\nNa minha filosofia sair sem um aumento de no mínimo 80% não compensa.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1668122933.0
             },
             {
                 "comment_id": "ivw7chf",
                 "comment_body": "Acredito que ficar na empresa que paga mais, tem mais benefícios e onde você já tem relevância é o ideal. Mesmo sendo uma stack de baixa demanda, é a stack que suporta um banco e isso brilha os olhos de qualquer RH.\n\nAo mesmo tempo, nada o impede de fazer projetinhos com stacks modernas no seu tempo livre e ir arredondando sua \"plenitude\" pra não virar o cara do Cobol.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1668130734.0
             },
             {
@@ -4064,13 +4146,13 @@
             {
                 "comment_id": "ivutmie",
                 "comment_body": "Achei interessante a sua perspectiva, eu entendo e vi como a Meta(Facebook) e outras big techs estavam instáveis. A empresa atual tem várias pessoas com 5\\~20 anos de carreira. Meu chefe tem 9 anos lá dentro. Eu percebi que a empresa é boa nessa parte e até disponibiliza previdência privada com match da empresa.",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1668109361.0
             },
             {
                 "comment_id": "ivuyu1n",
                 "comment_body": "É o Goldman Sachs. Eles usam Slang, uma linguagem proprietária.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1668111440.0
             },
             {
@@ -4226,13 +4308,13 @@
             {
                 "comment_id": "ivvfv7p",
                 "comment_body": "Não esqueça de colocar na conta: contador, não só para a empresa mas também pra você, pois há armadilhas na declaração de pessoa física, 13º, férias remuneradas e multa contratual.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1668118288.0
             },
             {
                 "comment_id": "ivvs9su",
                 "comment_body": "Mais um ponto para levar em conta, o peso da empresa no currículo.\nOutro ponto, como já foi dito em outros comentários, linguagem é o de menos, empresas que exigem tempo de experiência em linguagem específica são em maioria pequenas/médias, não deveria ser o seu alvo",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1668123744.0
             },
             {
@@ -4244,7 +4326,7 @@
             {
                 "comment_id": "ivvk1e4",
                 "comment_body": "Entendi, olha, na minha visão cripto não tem solidez, é aposta (posso errar daqui a 20 anos, mas essa é a minha visão atual).  \nUm banco consolidado tem mais segurança",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1668120088.0
             },
             {
@@ -4280,13 +4362,13 @@
             {
                 "comment_id": "ivwb2nc",
                 "comment_body": "Fala isso pros recruiters, se você não tem x experiência na linguagem y os caras não tão nem aí, vão te descartar pq o “cliente” quer alguém com esses x anos de experiência. O único jeito que eu vejo de se dar bem é com currículo direto pra empresa mas ainda tem chance do Rh mal preparado fazer a mesma coisa.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1668132484.0
             },
             {
                 "comment_id": "ivwrx2k",
                 "comment_body": "Errado /2 vai ser difícil sim. Não vem com esse papinho de Influencer Dev. No final do dia todo mundo quer profissional pronto.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1668140915.0
             },
             {
@@ -4334,13 +4416,13 @@
             {
                 "comment_id": "ivva438",
                 "comment_body": "Claro que a recolocação vai ser mais dificil se comparado com alguém saindo de uma empresa com uma stack X pra trampar em outra com a mesma stack, mas não é algo impossivel e eu não me preocuparia muito com isso não.",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1668115916.0
             },
             {
                 "comment_id": "ivvaafx",
                 "comment_body": "Tenho que discordar. \n\nEssa mentalidade só é válida se você vai ser um \"programador\" pra sempre. \n\nSou especialista, que é um nível acima de \"sênior\" aqui na empresa, e o conhecimento da tecnologia importa bem pouco. \n\nValem muito mais as experiências com problemas/soluções e as características de negócios com que você já trabalhou (no meu caso, finanças e tributário/impostos).\n\nTudo depende do que ele quer como carreira no longo prazo.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1668115988.0
             },
             {
@@ -4376,7 +4458,7 @@
             {
                 "comment_id": "ivvbfqe",
                 "comment_body": "Títulos não significam nada. Especialista pode ser um cargo extremamente dependente de tecnologia.",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1668116454.0
             },
             {
@@ -4428,7 +4510,7 @@
             {
                 "comment_id": "hr48i6m",
                 "comment_body": "ME e simples nacional, contate um contador pra evitar dor de cabeças na hora de abrir a empresa",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1641241165.0
             },
             {
