@@ -13,7 +13,7 @@ if 'transformer' not in globals():
 
 # --- Carregando o Modelo de NLP (NOVO MODELO) ---
 # Este é um modelo muito robusto e popular para sentimento em Português.
-MODEL_NAME = "cardiffnlp/twitter-xlm-roberta-base-sentiment-portuguese"
+MODEL_NAME = "cardiffnlp/xlm-roberta-base-tweet-sentiment-pt"
 
 try:
     logging.info(f"Carregando modelo de análise de sentimento: {MODEL_NAME}...")

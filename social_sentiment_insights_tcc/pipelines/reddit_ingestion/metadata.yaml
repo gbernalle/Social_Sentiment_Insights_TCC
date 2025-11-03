@@ -65,7 +65,7 @@ blocks:
   language: python
   name: sentiment_analysis
   retry_config: null
-  status: failed
+  status: executed
   timeout: null
   type: transformer
   upstream_blocks:
