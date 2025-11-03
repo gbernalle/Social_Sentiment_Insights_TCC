@@ -1,5 +1,93 @@
 [
     {
+        "post_id": "1ol7i6p",
+        "post_title": "Sair do MEI para ME",
+        "post_body": "Estou em uma situação chata aqui de transição de MEI para ME e meu contador disse que se eu virar ME mês que vem deverei pagar impostos de todas notas fiscais dos meses anteriores que vai dar mais de 10 mil.\n\nAchei estranho porque pelo que pesquisei só começo a pagar imposto de ME a partir do momento que faço a transição e começo a emitir nota, ele está tentando me passar a perna ou infelizmente é assim que funciona?",
+        "post_url": "https://www.reddit.com/r/empreendedorismo/comments/1ol7i6p/sair_do_mei_para_me/",
+        "is_self_post": true,
+        "post_created_utc": 1761947989.0,
+        "comments": [
+            {
+                "comment_id": "nmg0ptj",
+                "comment_body": "Qual sua área? Faturamento acumulado desse ano?",
+                "comment_score": 1,
+                "comment_created_utc": 1761948417.0
+            },
+            {
+                "comment_id": "nmg5nyr",
+                "comment_body": "É assim mesmo quando você desenquadra por opção. \n\n\nMuito contador declara que está desenquadrado por contratar mais empregado, adicionar atividade que não pode ser mei ou que agora é sócio de outro empresa, que aí é só do mês que desenquadra pra frente. \nAqui no escritório a gente não faz dessa forma por segurança, mas muitos não ligam.\n\n\nBasicamente você mente o fato gerador. O que obviamente é ilegal, mas como há pouca investigação fazem assim. \n\n\nContando que dev já não pode ser mei, não sei nem se seria mentira no seu caso. \nColocaria o cnae de desenvolvimento que não pode ser mei. \n\n\nAí vai da sua cabeça e do seu contador. Não contrate serviços pelo reddit\n\n\nFala pro seu contador que quer adicionar a atividade correta",
+                "comment_score": 1,
+                "comment_created_utc": 1761950332.0
+            },
+            {
+                "comment_id": "nmgc6ax",
+                "comment_body": "Desenquadre hoje por atividade",
+                "comment_score": 1,
+                "comment_created_utc": 1761952880.0
+            },
+            {
+                "comment_id": "nmj4qql",
+                "comment_body": "O contador com todos os números provavelmente viu que vai passar de 20% e nesse caso ele esta certo ,  tem que pagar o retroativo ou parcelar, O pagamento é só dos meses que estão retroagindo E vc tem direito a solicitar estorno dos valores que pagou como mei em imposto.\n\nOutra coisa que toda empresa que pejotiza Dev ta fazendo e não falam pro funcionário, Dev NÃO pode ser MEI,    o que eles fazem é te \"ajudar\" a abrir a empresa com uma fraude fiscal.\n\nSe vc ultrapassou o limite o melhor  é regularizar transformando em ME, pq aumenta a chance da receita prestar atenção no que vc faz e receber uma notificação  desagradavel no ECAC",
+                "comment_score": 1,
+                "comment_created_utc": 1762004094.0
+            },
+            {
+                "comment_id": "nmkm70q",
+                "comment_body": "Não vai lançar o Super MEI ano que vem ?",
+                "comment_score": 1,
+                "comment_created_utc": 1762021255.0
+            },
+            {
+                "comment_id": "nmo0bv2",
+                "comment_body": "Sobre o limite de faturamento funciona assim, se você estourar até 20% do limite (97.2k), é permitido ficar no mei até dezembro, porém em janeiro você já começa como simples nacional. \nSe você estourar o faturamento acima de 20%, você é desenquadrado na hora, e precisa pagar o imposto retroativo desde janeiro.\n\nComo já mencionaram acima, é possível informar outros motivos para o desenquadramento, assim ele começa a valer apenas no mês seguinte e você não precisa pagar o retroativo.",
+                "comment_score": 1,
+                "comment_created_utc": 1762066465.0
+            },
+            {
+                "comment_id": "nmg0sis",
+                "comment_body": "Faturei uns 78k e sou dev",
+                "comment_score": 1,
+                "comment_created_utc": 1761948445.0
+            },
+            {
+                "comment_id": "nmj530p",
+                "comment_body": "dev não pode ser mei",
+                "comment_score": 1,
+                "comment_created_utc": 1762004222.0
+            },
+            {
+                "comment_id": "nmpafxn",
+                "comment_body": "ta pra lançar o supermei a 5 anos",
+                "comment_score": 1,
+                "comment_created_utc": 1762091126.0
+            },
+            {
+                "comment_id": "nmg17il",
+                "comment_body": "Está errado então, vai precisar desenquadrar mas não é retroativo, e sim no mês que você fizer a migração. \n\nSou contador e é comum ocorrer isso, porém, de forma planejada pra que você não pague esses impostos retroativos que ele te falou. \n\nSe quiser, me chama no privado que analiso melhor sua situação.",
+                "comment_score": 2,
+                "comment_created_utc": 1761948603.0
+            },
+            {
+                "comment_id": "nmg1pmk",
+                "comment_body": "Se você presta serviço para o exterior, o imposto é menor ainda, tem alguns benefícios.",
+                "comment_score": 1,
+                "comment_created_utc": 1761948795.0
+            },
+            {
+                "comment_id": "nmj3o83",
+                "comment_body": "7800 no mês deve ficar na tampa do limite de 20% dai vc vai ter que pagar só o imposto dessa diferença.\n\nmas se vc ganhar 13 disso já vai passar dai vc vai ter que desenquadrar e pagar o retroativo",
+                "comment_score": 1,
+                "comment_created_utc": 1762003685.0
+            },
+            {
+                "comment_id": "nmjpvq6",
+                "comment_body": "Exatamente ",
+                "comment_score": 1,
+                "comment_created_utc": 1762011318.0
+            }
+        ]
+    },
+    {
         "post_id": "1o7qzd0",
         "post_title": "Começar um negócio ou continuar na minha área?",
         "post_body": "Fala galera, recentemente fui demitido do meu cargo como engenheiro de software em uma empresa do ramo financeiro.\n\nDurante este período comecei a pensar em alguma forma de empreender e não depender apenas do trabalho para empresas ou pelo menos ter uma outra fonte de renda.\n\nTenho 34 anos, sou pai, não pago aluguel, casa da familia, divido a casa com um amigo para diminuir os custos, estou com parcelas do apartamento para pagar que adquiri no inicio do ano e com entrega prevista para 2028. (Não fiz financiamento ainda, pretendo ter o dinheiro para quitar o valor a vista na entrega das chaves).\n\nAqui em casa tenho uma cozinha industrial grande (Mas não possuo nenhum equipamento industrial) pois uns anos atrás minha família tinha um negócio no ramo alimentício. Atualmente não a uso para nada além do uso cotidiano ou final de semana para fazer as marmitas da semana.\n\nEntão pensei em usar a cozinha e unir o útil ao agradável.\n\nAs idéias que surgiram estão entre venda de massas ou açaí. Inicialmente pelas plataformas tipo Ifood, 99Food etc.\n\nSobre as massas tenho um contato próximo que me forneceria a preço de atacado. As massas são pré cozidas, se eu fosse revender seria montar a porção, colocar o molho escolhido e esquentar (Forno ou microondas). \n\nJá a idéia de açaí, já tenho contatos de alguns fornecedores e o custo e complexidade não seria tão alto.\n\nEntre as duas idéias penso em ter uma margem de lucro de 20 a 30% de cada venda.\n\n\n\n# Simulando cenários para a venda de massas:\n\nExemplo: Canelone presunto e queijo, pré cozido, 1kg: R$ 25,50.  \n  \nPorções de 333g: 25,50÷3=R$8,50\n\nDemais custos (os custos aqui não tenho certeza absoluta é mais uma estimativa para ter idéia):\n\n|Item|Custo (R$)|Observações|\n|:-|:-|:-|\n|Molho (sugo, branco ou bolonhesa)|4,50|caseiro, 200g|\n|Queijo extra / cobertura|2,50|parmesão + mussarela|\n|Embalagem (alumínio + tampa + sacola)|3,00|embalagem reforçada|\n|Energia/gás (aquecimento)|1,00|forno/gás|\n|Mão de obra (você e namorada)|2,00|tempo, preparo, montagem|\n|Impostos médios|1,00|MEI ou Simples|\n|**Subtotal adicional**|**R$ 14,00**|—|\n\nSimulando com 25% de lucro:  \n\n\nPV= CustoTotal​ / 1−(TaxaApp+MargemLucro) ===> PV=22,50 / 0,48 ​= R$46,88  \nAlgo em torno de R$ 47,00 – R$ 49,90.\n\nSimulando algumas fases:\n\n|Fase|Tempo estimado|Pedidos/dia|Ticket médio|\n|:-|:-|:-|:-|\n|**Validação (1–2 meses)**|5–10 pedidos/dia|R$ 45|R$ 6.000 – R$ 12.000|\n|**Estabilização (3–6 meses)**|10–20 pedidos/dia|R$ 47|R$ 14.000 – R$ 28.000|\n|**Crescimento (6–12 meses)**|25–40 pedidos/dia|R$ 49|R$ 35.000 – R$ 60.000|\n\n  \nSimulando alguns cenários (com apenas um prato, mas imagino que com cardápio variado de 4 a 5 tipos o ticket e volume subiriam)\n\n|Cenário|Pedidos/dia|Preço médio (R$)|Receita bruta/mês|Lucro líquido (20%)|\n|:-|:-|:-|:-|:-|\n|Conservador|5|47|**R$ 7.050**|**R$ 1.410**|\n|Moderado|10|47|**R$ 14.100**|**R$ 2.820**|\n|Otimista|20|47|**R$ 28.200**|**R$ 5.640**|\n\nBem.. isso foi uma base pra ter uma noção. A dificuldade aqui, imagino que seja a adesão pelo alto preço. Eu apelaria agregando valor tanto em experiencia do usuário, qualidade do produto, embalagem, boas fotos, redes sociais, ADS, marketing etc. Entretanto não possuo experiência prática em empreender apesar de ja ter trabalhado no ramo alimentício.\n\n\n\n# Agora falando do profissional:\n\nEstou em processo de recolocação porém focando no mercado internacional no qual os salários para o cargo variam $45k a $200k anual. A média fica na casa dos $5500 USD mensal. Possuo inglês B2\\~C1. Já atuei uma vez trabalhando para fora então sei que a comunicação não seria um problema.\n\n  \nDai fica a dúvida entre empreender correr riscos, ou então focar na minha profissão.\n\nTalvez tentar conciliar os dois e depois delegar o trabalho mais simples?\n\nAlguém começou a empreender conciliando um trabalho fixo com um outro negócio próprio? Alguma dica?\n\nSe tiverem dicas de empreender, conteúdos para estudo, sugestões.. qualquer aprendizado será bem vindo.\n\nObrigado!",
@@ -56,7 +144,7 @@
             {
                 "comment_id": "ng4h47u",
                 "comment_body": "Tentou colocar o celular? Rs",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1758807014.0
             },
             {
@@ -114,7 +202,7 @@
             {
                 "comment_id": "nfaozvp",
                 "comment_body": "Nesse valor CLT está isento de imposto de renda. O valor recebido no MEI não contabiliza como renda se feito \"certo\". Quem vai gastar mais é a empresa com encargos trabalhistas e multa em caso de demissão. Mas essa conta a empresa já deve ter feito e jogado o salário para baixo como CLT, certo? Se eles deixarsm o mesmo salário, eles estão perdendo dinheiro, mas não você. \n\n\nObs: Não sou contador, então se algum contador discordar, acredite nele 😂",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1758396107.0
             },
             {
@@ -180,14 +268,7 @@
         "post_url": "https://www.reddit.com/r/empreendedorismo/comments/1n740re/importação_direta_de_peças_de_reposição_de/",
         "is_self_post": true,
         "post_created_utc": 1756869437.0,
-        "comments": [
-            {
-                "comment_id": "nc6j061",
-                "comment_body": "Sua planilha de cálculo tá bem pensada, mas acrescentaria alguns pontos:\n\n* **Tributação:** além do imposto de importação (\\~60%), pode ter ICMS estadual. Isso varia muito conforme a transportadora e o estado de destino.\n* **Custos invisíveis:** desembaraço aduaneiro, armazenagem e atrasos alfandegários podem pesar. Inclua margem extra pra não ter surpresa.\n* **MEI:** você pode começar assim sem problema, mas se o volume aumentar pode bater no teto do MEI e precisar migrar pra Simples.\n* **Estratégia:** começar com lotes pequenos é ideal, assim você testa se realmente tem giro rápido sem comprometer capital grande.\n* **Mercado:** peças de reposição têm demanda, mas concorrência também. Diferencial pode ser rapidez de entrega e confiabilidade.\n\nResumindo: vale a pena sim, mas faça os testes iniciais já considerando impostos + frete + possíveis atrasos. Melhor validar pequeno do que entrar pesado e travar em burocracia.",
-                "comment_score": 1,
-                "comment_created_utc": 1756902115.0
-            }
-        ]
+        "comments": []
     },
     {
         "post_id": "1lsgkll",
@@ -282,7 +363,7 @@
             {
                 "comment_id": "mt8q3vr",
                 "comment_body": "Pra simplificada não precisa Radar\n\nSe você for vender o que já tem muita gente vendendo realmente não vai conseguir achar nada com margem porque tu não tem capital pra brigar com quem já importa em container(s). Se pegar produto que chinês já traz nas importadoras, pode daí mesmo que não vai valer a pena\n\nTu vai usar a importação, principalmente no início, para buscar o que não tem aqui e/ou, se tem, tem com baixa concorrência (com no máximo outros vendedores que também fazem importação simplificada)",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1747714049.0
             },
             {
@@ -294,7 +375,7 @@
             {
                 "comment_id": "mt8jcdn",
                 "comment_body": "O \"valor\" do revendedor tá justamente em saber driblar as regras de importação pra pagar menos (ou nenhum) imposto, seja mentindo na declaração ou importando de maneiras alternativas (container, paraguai, mala...), não existe virtualmente nenhum produto (exceto raridades como edição limitada de algo, peça que não é mais fabricada ou lançamentos se você conseguir antes de outros revendedores) com margem de lucro seguindo a lei\n\nSim, praticamente todo revendedor de importados tá cometendo crime fiscal e sim, eles são burros de reclamar de imposto porque é em evitar o imposto de forma que um leigo não saberia que está a nossa margem de lucr\n\n\nEDIT: Eu já não faço mais isso porque tenho meios melhores, mas o \"comum\" é fazer uma declaração detalhada e com meias-verdades, por exemplo se você tá importando um mouse razer do mais caro você vai declarar um modelo mais barato da mesma marca e cor com o preço correto desse modelo mais barato. Quanto menos popular o produto (ou seja, não inventa de fazer com Iphone) melhor isso funciona",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1747711009.0
             },
             {
@@ -460,7 +541,7 @@
             {
                 "comment_id": "mqvhr7w",
                 "comment_body": "Segue fornecedores de cosméticos.\n\n\nMas seu problema não é fornecedor.\nPorque agora com a lista você terá que entrar em contato com cada um, passar o CNPJ, pegar tabela de preços e pesquisar no mercado quais produtos te trazem um margem e possuem demanda/volume.\n\n\nE é nessa hora que a maioria desiste.\n\n\nAs pessoas querem tudo mastigado.\n\n\n\n\nA\n\n\nA Botica Brasil\n\n\nAbelha Rainha\n\n\nAdcos\n\n\nAgilise Cosméticos\n\n\nAgradal\n\n\nAll Nature\n\n\nAlquimia\n\n\nAlquimia Cosméticos\n\n\nAludra Cosméticos\n\n\nAmei Cosméticos\n\n\nAmend\n\n\nAnabelle Cosméticos\n\n\nAnasol\n\n\nAnita Cosméticos\n\n\nAnuar Cosméticos\n\n\nÁpice\n\n\nApinil Cosméticos\n\n\nApse Cosméticos\n\n\nArvensis\n\n\nAvenca\n\n\nAvon\n\n\n\n\nB\n\n\nBalão Das Essências\n\n\nBanana Boat\n\n\nBarba Forte\n\n\nBauny Cosméticos\n\n\nBed Head\n\n\nBegônia Cosméticos\n\n\nBel Col Cosmeticos\n\n\nBellaphytus\n\n\nBepantol\n\n\nBepantriz\n\n\nBeyoung\n\n\nBig Boss\n\n\nBio Extratus\n\n\nBioage\n\n\nBiodermis\n\n\nBisyou Skin Care\n\n\nBM Beauty\n\n\nBoogie Oogie\n\n\nBorabella\n\n\nBothânico Cosméticos\n\n\nBothanico Hair\n\n\nBozzano\n\n\nBruna Malheiros\n\n\nBruna Tavares\n\n\n\n\nC\n\n\nCachos\n\n\nCadiveu Professional\n\n\nCarat\n\n\nCarefree\n\n\nCarmed\n\n\nCatharine Hill\n\n\nCavier Cosméticos\n\n\nChic & Fun\n\n\nCiclo\n\n\nCimed\n\n\nClasse A\n\n\nCoiffer\n\n\nCosmobeauty\n\n\nCreamy\n\n\nCuraprox\n\n\n\n\nD\n\n\nDama Hair\n\n\nDaymakeup\n\n\nDepil Bella\n\n\nDepilflax\n\n\nDepimiel\n\n\nDermatika\n\n\nDermytrat\n\n\nDestilaria Bauru\n\n\nDetra Hair Cosméticos\n\n\nDeva\n\n\nDeva Curl\n\n\nDexvitta\n\n\nDokmos Cosméticos\n\n\nDyusar Cosméticos\n\n\n\n\nE\n\n\nEaê Cosméticos\n\n\nEcco's\n\n\nEdel Solingen\n\n\nEico\n\n\nElseve\n\n\nEMS\n\n\nEpsilon\n\n\nEroika Cosméticos\n\n\nEstoril Cosméticos\n\n\nEvolution\n\n\nExposis\n\n\n\n\nF\n\n\nFacinatus Cosméticos\n\n\nFashion\n\n\nFashion Cosméticos\n\n\nFelps Professional\n\n\nFit Cosmetics\n\n\nFolipro\n\n\nFox For Men\n\n\nFox Gloss\n\n\nFQM\n\n\nFran by Franciny Ehlke\n\n\nFranciny Ehlke\n\n\nFusion Cosméticos\n\n\n\n\nG\n\n\nG10 Premium\n\n\nGarnier\n\n\nGelatina\n\n\nGino-Canesten\n\n\nGiovanna Baby\n\n\nGlance\n\n\nGlance Rare Way\n\n\nGold Spell Cosméticos\n\n\nGota Dourada\n\n\nGrandha\n\n\n\n\nH\n\n\nHaskell\n\n\nHidrabene\n\n\nHidran Cosméticos\n\n\nHomeomag\n\n\nHomme Marine\n\n\n\n\nI\n\n\nImecap\n\n\nImpala\n\n\nInfinity\n\n\nInfinity Looks Hair\n\n\nInnova\n\n\nInoar\n\n\nIntimus\n\n\nIntt\n\n\nIntt Cosméticos\n\n\nItallian Hairtech\n\n\n\n\nJ\n\n\nJapinha Cosméticos\n\n\nJiki\n\n\nJohnson & Johnson\n\n\nJohnson's\n\n\nJuca Cosmeticos\n\n\n\n\nK\n\n\nKaizen\n\n\nKaren Bachini\n\n\nKemei\n\n\nKert Cosméticos\n\n\nKeune\n\n\nKimera Cosméticos\n\n\nKiss\n\n\nKlass Vough\n\n\nKokeshi\n\n\nKoleston\n\n\nKorres\n\n\n\n\nL\n\n\nL'Oréal\n\n\nL'Oréal Paris\n\n\nLa Cosmeticos\n\n\nLabotrat\n\n\nLanbena\n\n\nLanossi\n\n\nLanza\n\n\nLca Cosméticos\n\n\nLeft\n\n\nLeft Cosméticos\n\n\nLet Me Be\n\n\nLion\n\n\nLissé\n\n\nLizz Professional\n\n\nLola\n\n\nLola Cosmetics\n\n\nLondon\n\n\nLowell\n\n\nLP Beauty\n\n\nLumi\n\n\nLumi Cosméticos\n\n\n\n\nM\n\n\nMacrilan\n\n\nMairibel\n\n\nMake More\n\n\nMalyks Cosméticos\n\n\nMantecorp\n\n\nMarco Boni\n\n\nMari Maria\n\n\nMari Maria Makeup\n\n\nMax Love\n\n\nMaycrene\n\n\nMega Bell\n\n\nMelu\n\n\nMenela\n\n\nMidori\n\n\nMoma\n\n\nMonamor Cosmético\n\n\nMuriel\n\n\nMutari\n\n\n\n\nN\n\n\nNagel\n\n\nNatubelly\n\n\nNatuMaxx\n\n\nNatura\n\n\nNatureza Cosméticos\n\n\nNeutrogena\n\n\nNeve\n\n\nNina Make up\n\n\nNivea\n\n\nNupill\n\n\nNutribelle\n\n\n\n\nO\n\n\nO Boticário\n\n\nOcéane\n\n\nOciplex\n\n\nOlya Cosmética\n\n\nOnixxbrasil\n\n\nOther\n\n\nOuribel Cosméticos\n\n\n\n\nP\n\n\nPaiolla Cosméticos\n\n\nPanta Cosmética\n\n\nParis Elysees\n\n\nPatrícia Lobo\n\n\nPaul Mitchell\n\n\nPayot\n\n\nPhállebeauty\n\n\nPharma\n\n\nPhebo\n\n\nPhytoervas\n\n\nPierry Lohan\n\n\nPlenitud\n\n\nPravda\n\n\nPrevent Pharma\n\n\nPrime Cosmetica\n\n\nPrincipia\n\n\nProArt\n\n\nProdapys\n\n\nProhall\n\n\nPrönatus do Amazonas\n\n\n\n\nQ\n\n\nQatar Hair\n\n\n\n\nR\n\n\nRaavi\n\n\nRacco\n\n\nRare Way Cosmeticos\n\n\nRefectoCil\n\n\nRenew\n\n\nRepós\n\n\nRetrô Cosméticos\n\n\nRhenuks Cosméticos\n\n\nRisqué\n\n\nRosa Selvagem\n\n\nRuby Kisses\n\n\nRuby Rose\n\n\nRugól\n\n\n\n\nS\n\n\nSafira Cosméticos\n\n\nSalon Line\n\n\nSamana\n\n\nSan Jully Cosméticos\n\n\nSaniskin\n\n\nSanta Clara\n\n\nSanto Cosméticos\n\n\nSchwarzkopf Professional\n\n\nSemina\n\n\nSKIN COSMETICOS\n\n\nSmart GR\n\n\nSoul Cosméticos\n\n\nSoupleliss\n\n\nSouthLiss Cosméticos\n\n\nSuperPoderes\n\n\nSurya Brasil\n\n\n\n\nT\n\n\nThera Cosméticos\n\n\nTío Nacho\n\n\nTorres\n\n\nTracta\n\n\nTriskle Cosméticos\n\n\nTrivitt\n\n\nTróia Hair\n\n\nTruss\n\n\nTulípia\n\n\nTulípia Cosméticos\n\n\n\n\nV\n\n\nVeet\n\n\nVeredas Cosméticos\n\n\nVichy\n\n\nVitaderm\n\n\nVizzela\n\n\nVizzela Cosméticos\n\n\n\n\nW\n\n\nWella\n\n\nWet Brush\n\n\nWf Cosméticos\n\n\nWind Mystery\n\n\n\n\nX\n\n\nXarmie\n\n\nXarmie Cosméticos\n\n\n\n\nY\n\n\nYamá Cosméticos\n\n\nYantra Cosmeticos\n\n\n\n\nZ\n\n\nZap Cosméticoso",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1746534959.0
             },
             {
@@ -516,13 +597,13 @@
             {
                 "comment_id": "mpxf9ej",
                 "comment_body": "Tem um macete muito bom, pouco gente conhece mas é extremamente eficiente. Chama declaração de imposto de renda, cara é coisa de doido você declara e ele serve como um comprovante de renda. E você tá com sorte porque dá para declarar até o fim de maio!!",
-                "comment_score": 16,
+                "comment_score": 17,
                 "comment_created_utc": 1746055206.0
             },
             {
                 "comment_id": "mpxrpka",
                 "comment_body": "Se fatura isso não pode estar enquadrado no Mei mas em um simples nacional, provavelmente vai cair na malha fina, e detalhe que demora uns cinco anos para o nabo vir, a recomendação é contratar uma contabilidade e se regularizar fiscalmente, ou vai descobrir da pior maneira que a única instituição que funciona no Brasil é o ir",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1746059447.0
             },
             {
@@ -588,7 +669,7 @@
             {
                 "comment_id": "mpxy2z6",
                 "comment_body": "5 anos pra pica entrar e quando entra vem Com multa e correção monetária dos 5 anos.  \nPá... 200k de divida com o governo",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1746061655.0
             },
             {
@@ -624,7 +705,7 @@
             {
                 "comment_id": "mpyqdt3",
                 "comment_body": "Ele nao roubou ninguem ficando com o dinheiro do proprio esforço dele, do que dar pra político corrupto que vai comprar lagosta.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1746072241.0
             },
             {
@@ -654,7 +735,7 @@
             {
                 "comment_id": "mq151l8",
                 "comment_body": "Tudo isso foi pago varias vezes já pela população... e entregue 1/3 do que foi pago. O restante tá no bolso do politico em licitação com camarada.\nIdiota é quem defende trabalhar quase meio ano pra pagar imposto, e quando precisa nao ter um atendimento digno no hospital.\n\ntem otario pra tudo.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1746112517.0
             },
             {
@@ -770,7 +851,7 @@
             {
                 "comment_id": "me27e3e",
                 "comment_body": "Quase nada. MEI você consegue abrir sozinho, não tem obrigatoriedade de pagar contador e só tem que pagar um valor fixo todo mês chamado DAS, que costuma girar entre 60-80 reais.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1740173420.0
             },
             {
@@ -830,7 +911,7 @@
             {
                 "comment_id": "me287k4",
                 "comment_body": "Então ai acredito que só um contador pra te dar uma resposta concreta, e varia dependendo de uma serie de fatores, como o regime tributário escolhido. Sem vender nada/faturar, não sei dizer se tem algum custo, além da contabilidade que é obrigatória.\n\n  \nEm uma das minhas empresas que sou ME, tem muitos custos, mas a maior parte deles pressupõe uma série de coisas como ter funcionário e, obviamente, faturar kkk\n\n  \nEntra nisso, além da contabilidade que eu já mencionei, o SIMPLES, o INSS e o FGTS, só pensando assim por cima mesmo.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1740173649.0
             },
             {
@@ -928,7 +1009,7 @@
             {
                 "comment_id": "m79yf8g",
                 "comment_body": "Bom dia OP,\n\nNão existe CLT abrindo mão de direitos trabalhistas. \n\nA empresa propor isso, é simplesmente fraude. \n\nEvita.\n\nSobre o ponto 2.\n\nProcure um contador.\n\nSucesso,\n\n👋🏼",
-                "comment_score": 15,
+                "comment_score": 16,
                 "comment_created_utc": 1736951502.0
             },
             {
@@ -940,7 +1021,7 @@
             {
                 "comment_id": "m79slw1",
                 "comment_body": "Mas na CLT é lei 13° e férias remuneradas, não dá pra abrir mão.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1736949430.0
             },
             {
@@ -1266,7 +1347,7 @@
             {
                 "comment_id": "lxdwauz",
                 "comment_body": "você é o mano das importações, c entende muito sobre essas parada. Tem o meu respeito 👍",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1731731785.0
             },
             {
@@ -1492,13 +1573,13 @@
             {
                 "comment_id": "m210zkb",
                 "comment_body": "excelente thread, muito completa! obrigado por se empenharem nela e por compartilharem o conhecimento 🙏🏼",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1734191126.0
             },
             {
                 "comment_id": "mruzi3f",
                 "comment_body": "Lindo post, obrigado. Agora irei destrinchar os passos, e somados a minhas leituras\n\nhttps://preview.redd.it/5177j801z90f1.jpeg?width=2252&format=pjpg&auto=webp&s=0ca1b939fc77985860a2483e2c0e513876182be6",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1747022563.0
             },
             {

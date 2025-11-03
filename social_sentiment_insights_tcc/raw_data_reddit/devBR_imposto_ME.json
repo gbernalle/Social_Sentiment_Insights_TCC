@@ -1,0 +1,706 @@
+[
+    {
+        "post_id": "1mj52ah",
+        "post_title": "DEV PJ: Abrir um MEI ou ME?",
+        "post_body": "Vi uma postagem sobre remunerações da área da tecnologia, e por mais que não tenhamos essa visão sobre o mercado CLT, diariamente atendemos devs/programadores com uma oferta PJ em mãos, analisando o melhor caminho a seguir, e em se tratando de remunerações menores a possibilidade do MEI é sempre é uma questão levantada.\n\n# O que vocês já sabem:\n\nAs atividades da área da tecnologia não são permitidas ao MEI, então seu CNPJ como MEI não conterá um CNAE vinculado a área de desenvolvimento/consultoria em T.I. O que muitos acabam fazendo é colocando uma atividade genérica, como preparação de documentos, instrutor de informática independente, enfim, mas neste cenário é importante avaliar alguns pontos.\n\n# O que vocês talvez ainda não saibam:\n\n**1. VALIDAÇÃO DA EMPRESA**\n\nÉ importante confirmar com a empresa contratante se eles possuem algum problema com relação a você ser contratado através de um MEI, pois a sua nota fiscal não será compatível com o serviço que você realmente executa, e algumas empresas possuem restrições quanto a essa formalização.\n\n**2. LIMITE DE FATURAMENTO**\n\nO MEI possui um limite anual de faturamento de 81K, ou seja, equivalente a uma remuneração mensal de aproximadamente R$ 6.750,00. Neste ponto é importante saberem de algumas informações:\n\n* Se a sua remuneração for superior a R$ 6.750,00/mês e estiver pensando em abrir o MEI de início e depois migrar para ME, precisa ficar muito atento ao faturamento, pois se você extrapolar o limite e for desequadrado pela Receita Federal de forma automática, precisará fazer a contabilidade retroativa e pagar impostos como ME desde os efeitos do desenquadramento.\n* Além disso, o teto de 81K é calculado considerando o período de 12 meses. Se o MEI for aberto na metade do ano, o teto será proporcional ao período, ex.: MEI aberto em 01/08, logo, o teto de faturamento será de R$ 33.750,00 neste ano.\n* O MEI está sendo cada vez mais monitorado, e não é somente o faturamento em notas fiscais emitidas que conta. É importante estar atento a toda movimentação que passa na sua conta (PJ e PF).\n\n**3. RISCOS DO ENQUADRAMENTO**\n\nPor último, é importante que esteja ciente dos riscos dessa manobra: por ser uma atividade não permitida ao MEI, se for identificado este enquadramento incorreto para minimizar os tributos, a Receita poderá **desconsiderar a existência dos seu MEI e te fazer tributar todos os recebimentos como pessoa física, o que pode fazer com que o imposto chegue a até 27,5%, sendo que como ME é de somente 6%.** Abrir um MEI de forma indevida é um risco, e é necessário estar ciente e analisar todos estes pontos para fazê-lo com consciência.\n\nDe qualquer modo, se optar pela abertura do MEI e depois o faturamento aumentar, sempre recomendamos a baixa do MEI e abertura de novo CNPJ, para deixar esse \"passado de irregularidades\" para trás e iniciar uma nova jornada. Mas se a abertura de uma ME for uma possibilidade, sem dúvidas é o caminho mais seguro, e que apresenta alternativas legais de diminuição de imposto.\n\nSe estiver nessa fase de escolha ou já passou por isso, comenta aqui. Tô por aqui pra responder o que puder — e sem empurrar serviço, juro. 😄",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1mj52ah/dev_pj_abrir_um_mei_ou_me/",
+        "is_self_post": true,
+        "post_created_utc": 1754487842.0,
+        "comments": [
+            {
+                "comment_id": "n78q8a3",
+                "comment_body": "Falou chát gpt",
+                "comment_score": 8,
+                "comment_created_utc": 1754492208.0
+            },
+            {
+                "comment_id": "n78j59j",
+                "comment_body": "Sempre abra ME, quem abre MEI sendo dev não pode reclamar de político safado",
+                "comment_score": 10,
+                "comment_created_utc": 1754490171.0
+            },
+            {
+                "comment_id": "n78urw9",
+                "comment_body": "Nunca MEI.\n\n\nConverse com um contador pra fazer da forma mais correta possível.",
+                "comment_score": 4,
+                "comment_created_utc": 1754493503.0
+            },
+            {
+                "comment_id": "n78rfr6",
+                "comment_body": "Um post informativo e alertando algo importante pra maioria de quem posta aqui e no brdev que comenta que faz MEI em vez de ME e já começa levando downvote?",
+                "comment_score": 2,
+                "comment_created_utc": 1754492553.0
+            },
+            {
+                "comment_id": "n78cusq",
+                "comment_body": "Se você ganha menos de 130 mil reais por ano (novo teto do MEI) abre MEI e bota qualquer coisa próxima das suas atividades\n\nSe ganha mais de 130 mil reais por ano abre ME\n\n\nEdit: 81 mil",
+                "comment_score": 3,
+                "comment_created_utc": 1754488275.0
+            },
+            {
+                "comment_id": "n78mqoy",
+                "comment_body": "Depende do faturamento",
+                "comment_score": 2,
+                "comment_created_utc": 1754491220.0
+            },
+            {
+                "comment_id": "n7j0fed",
+                "comment_body": "A sua dúvida é?",
+                "comment_score": 1,
+                "comment_created_utc": 1754618015.0
+            },
+            {
+                "comment_id": "n7vyva6",
+                "comment_body": "Migrar de mei para me, tem maior risco? Vi casos que deram baixa no mei e vieram cobrar anos depois.",
+                "comment_score": 1,
+                "comment_created_utc": 1754798686.0
+            },
+            {
+                "comment_id": "nb5vj14",
+                "comment_body": "Amore os centavos que o banco colocar na sua conta Do MEI coloca junto aos valores que recebe de venda ? Quando for fazer a declaração mensal, anual e um imposto de renda de pessoa física??\n\nhttps://preview.redd.it/d2kh2fzijslf1.jpeg?width=1024&format=pjpg&auto=webp&s=711a336871c0be2678bf66da40aad3bd5145058d",
+                "comment_score": 1,
+                "comment_created_utc": 1756400191.0
+            },
+            {
+                "comment_id": "n7ee2ag",
+                "comment_body": "MEI é coisa de muito pobre, pq se for pensar q a margem de lucro é no máximo 50% sobra nem 4k por mês, q em um ano é tipo ganhar um salário mínimo",
+                "comment_score": 0,
+                "comment_created_utc": 1754566567.0
+            },
+            {
+                "comment_id": "n78uwdj",
+                "comment_body": "Da preguiça, né?",
+                "comment_score": 2,
+                "comment_created_utc": 1754493539.0
+            },
+            {
+                "comment_id": "n79dzei",
+                "comment_body": "Que pena que você tenha interpretado como chat :( Escrevi cada etapa da explicação, com muita atenção para não deixar passar nada. Nosso intuito é trazer informação para vocês, e aqui trouxe mais do que a IA pode oferecer: trouxe experiências reais e nosso conhecimento técnico, mas entendo sua visão \n\nTrouxe o perfil da contabilidade recentemente para essa plataforma, justamente com o intuito de nos aproximarmos mais de vocês, e ainda estou aprendendo a melhor forma de colocar os conteúdos e como a plataforma funciona. Espero que em breve nos vejam como uma mão amiga, e saibam que tem uma pessoa real aqui cuidando de cada resposta/conteúdo, mesmo com erros e acertos :)",
+                "comment_score": 1,
+                "comment_created_utc": 1754498911.0
+            },
+            {
+                "comment_id": "n78jhua",
+                "comment_body": "Isso aqui",
+                "comment_score": 4,
+                "comment_created_utc": 1754490274.0
+            },
+            {
+                "comment_id": "n78z2l7",
+                "comment_body": "se os impostos fossem menores não ira precisar abrir 1 mei ou 2 para pagar menos",
+                "comment_score": 2,
+                "comment_created_utc": 1754494721.0
+            },
+            {
+                "comment_id": "n795d1r",
+                "comment_body": "Quê? Por quê? Reduzir custos com impostos é um dever cível, ainda mais nesse país. \n\nA propósito, tu gastou quanto e gasta quanto, com uma ME? O custo é sempre o percentual que vem do simples nacional, mais custos com contador, correto?",
+                "comment_score": -2,
+                "comment_created_utc": 1754496467.0
+            },
+            {
+                "comment_id": "n78z5nx",
+                "comment_body": "e pro cara que esta ganhando 3.5k ou menos como pj vai fazer o que?",
+                "comment_score": 3,
+                "comment_created_utc": 1754494745.0
+            },
+            {
+                "comment_id": "n78dctk",
+                "comment_body": "Cuidado! Tramita atualmente um projeto para aumentar o limite de faturamento do MEI para 130K, mas ainda não está em vigor! Atualmente o teto ainda é de 81K. Essa possibilidade de aumento do teto circula há algum tempo, mas ainda não há aprovação oficial dessa proposta",
+                "comment_score": 2,
+                "comment_created_utc": 1754488432.0
+            },
+            {
+                "comment_id": "n85xisr",
+                "comment_body": "Nós geralmente recomendamos a baixa do MEI justamente para já cessar o vínculo com esse CNPJ, e afastar ao máximo possível esse passado de irregularidades. Com o CNPJ permanecendo ativo, ele permanece no \"radar\" da Receita Federal, tendo maiores chances de existir uma fiscalização",
+                "comment_score": 1,
+                "comment_created_utc": 1754940994.0
+            },
+            {
+                "comment_id": "n7f78v9",
+                "comment_body": "MEI foi pensado pra isso mesmo, só pra começar, depois vai pra ME",
+                "comment_score": 1,
+                "comment_created_utc": 1754576069.0
+            },
+            {
+                "comment_id": "n79mrbr",
+                "comment_body": "Eu recomendo a todo mundo a contabilizei\n\n\nNem uso eles porque eu faço a minha própria contabilidade \n\n\nCoisa que nenhuma empresa de contabilidade do Brasil diz que é possível... \n\n\nMás esse negócio de sair fazendo spam em rede social?? Jogo de empresa pobre \n\n\nGoogle ads é super barato ",
+                "comment_score": 2,
+                "comment_created_utc": 1754501309.0
+            },
+            {
+                "comment_id": "n7958a1",
+                "comment_body": "Fazer o correto conforme o comentário do rapaz.",
+                "comment_score": 1,
+                "comment_created_utc": 1754496430.0
+            },
+            {
+                "comment_id": "n78elsr",
+                "comment_body": "www25.senado.leg.br/web/atividade/materias/-/materia/149107",
+                "comment_score": 2,
+                "comment_created_utc": 1754488816.0
+            },
+            {
+                "comment_id": "n78fm7d",
+                "comment_body": "Já foi aprovada pelo senado. Mas o trâmite não terminou, tem que ter aprovação do presidente da República, deve demorar algum tempo ainda. Então até pro ano que vem melhor considerar 81k mesmo",
+                "comment_score": 2,
+                "comment_created_utc": 1754489121.0
+            },
+            {
+                "comment_id": "n7f7x8d",
+                "comment_body": "Na vdd n, foi pra ter alguma formalidade em coisas q galera trabalhava por conta e pra ter vínculo com o INSS pq os q n tem MEI acabam por n ter direito nenhum pela falta de contribuição \n\nPor isso profissões intelectuais não estão no MEI, só está aquelas q tu pode começar sem especialização e eram informais antes disso. Muita gente usa errado o MEI e nós q usam certo muitos poucos evoluem pra ME infelizmente",
+                "comment_score": 1,
+                "comment_created_utc": 1754576273.0
+            },
+            {
+                "comment_id": "n7vz2iw",
+                "comment_body": "É muito complicado? Alem da nota o que eles fazem? Eu pago 400 pau por mês para emitem uma nota mês.",
+                "comment_score": 1,
+                "comment_created_utc": 1754798777.0
+            },
+            {
+                "comment_id": "n7a66b4",
+                "comment_body": "u/MaestroLizard “O correto” que você diz é passar necessidade com menos dinheiro para poder encher o bolso de burocratas?  \nSe for isso, que bela definição de “correto” você trouxe para a mesa, meus parabéns!",
+                "comment_score": 5,
+                "comment_created_utc": 1754506755.0
+            },
+            {
+                "comment_id": "n79teiy",
+                "comment_body": "O correto seria nunca MEI pra essa pessoa ganhando 3.5k então?",
+                "comment_score": 1,
+                "comment_created_utc": 1754503118.0
+            },
+            {
+                "comment_id": "n78fot2",
+                "comment_body": "Exatamente... parado desde 2021. Foi aprovado pelo Senado e tramita na Câmara dos Deputados.   Se alguém faturar 130K no MEI acreditando neste projeto, terá problemas de desenquadramento.",
+                "comment_score": 2,
+                "comment_created_utc": 1754489143.0
+            },
+            {
+                "comment_id": "n78vern",
+                "comment_body": "De uma forma ou de outra, ainda é pertinente o aviso sobre informar o CNAE errado e o eventual problema com a receita e ser multado retroativamente pelo tempo usado com esse CNAE.",
+                "comment_score": 2,
+                "comment_created_utc": 1754493682.0
+            },
+            {
+                "comment_id": "n7fd0r1",
+                "comment_body": ">Na vdd n, foi pra ter alguma formalidade em coisas q galera trabalhava por conta e pra ter vínculo com o INSS pq os q n tem MEI acabam por n ter direito nenhum pela falta de contribuição \n\n\nFoi exatamente isso que eu quis dizer.\n\n> MEI é coisa de muito pobre, pq se for pensar q a margem de lucro é no máximo 50% sobra nem 4k por mês, q em um ano é tipo ganhar um salário mínimo\n\n> MEI foi pensado pra isso mesmo, só pra começar, depois vai pra ME",
+                "comment_score": 1,
+                "comment_created_utc": 1754577754.0
+            },
+            {
+                "comment_id": "n7vzfe8",
+                "comment_body": "Se você vem aqui me perguntar ao invés de ir no Google buscar.... Bom significa que pra você é impossível fszer sozinho ",
+                "comment_score": 0,
+                "comment_created_utc": 1754798941.0
+            },
+            {
+                "comment_id": "n7a7mya",
+                "comment_body": "Não, o \"correto\", *ao meu ver*, é sim estar de acordo com o que a lei define e estabelece para a empresa se encaixar em algum processo. Se você pensa diferente, faça o que você considera correto.\n\nIndependente do ganho, se o CNAE ou outra condição se encaixa em um determinado parâmetro pra você se encaixar, independente de gostar ou não, é o que deve ser seguido, em tese, pra não ter nenhum problema. \n\nSobre encher bolso de burocrata, ao meu ver, não está errado e concordo com você no ponto de ser errado uma pessoa, sob essas condições, ter que se encaixar como ME. Mas como disse, independente de gostar ou não, a lei corrente define algo e, se for pra fazer algo, principalmente relacionado a trabalho, que seja feito com base nela e não em gosto pessoal.",
+                "comment_score": 1,
+                "comment_created_utc": 1754507166.0
+            },
+            {
+                "comment_id": "n7a6frf",
+                "comment_body": "o correto é vc conseguir ganhar dinheiro e pagar menos impostos",
+                "comment_score": 2,
+                "comment_created_utc": 1754506830.0
+            },
+            {
+                "comment_id": "n79tm1g",
+                "comment_body": "Prestador de serviço para os CNAES indicados pra desenvolvimento de software sob demanda?\n\nSim",
+                "comment_score": 0,
+                "comment_created_utc": 1754503176.0
+            },
+            {
+                "comment_id": "n78gb53",
+                "comment_body": "Não tá parado desde 2021, esse site é uma merda. Entra no \"tramitação bicameral\". Lá está atualizado! A última atualização foi em abril de 2025, dando um parecer favorável da câmera dos deputados (quem iniciou foi o senado). Mas a tramitação na Câmara dos deputados não terminou e ainda falta o presidente. Então vai levar um tempo ainda",
+                "comment_score": 2,
+                "comment_created_utc": 1754489330.0
+            },
+            {
+                "comment_id": "n7913we",
+                "comment_body": "A chance disso acontecer é mínima pra não dizer impossível. Como que eles vão provar que você não faz o que tá no CNAE? Você acha que vão despender uma equipe de investigação e fazer uma auditoria na empresa pra descobrir se o cara que fatura 3k por mês realmente atua como técnico de equipamentos informáticos ou se ele escreve código? Que delírio.\n\nO que realmente é um dilema é saber se vale a pena pagar contabilidade pra não pagar imposto de renda de pessoa física ou se você simplesmente declara tudo como não tributável e mete o louco, já que você provavelmente só vai ficar nessa situação por no máximo 2 anos, depois vai ter q abrir ME de qualquer jeito.",
+                "comment_score": 2,
+                "comment_created_utc": 1754495283.0
+            },
+            {
+                "comment_id": "n7vzmfs",
+                "comment_body": "Pesquisei já.\nDefis, dcft, você faz?",
+                "comment_score": 1,
+                "comment_created_utc": 1754799031.0
+            },
+            {
+                "comment_id": "n7a8qnn",
+                "comment_body": "Concordo que o caminho correto deva ser seguido, mas isso vale para quem está recebendo um valor adequado. Mandar alguém que ganha R$ 3,5 mil como PJ abrir uma ME é praticamente condená-lo a um suicídio financeiro. Uma empresa no modelo ME paga muito mais impostos do que um MEI, cuja taxa mensal é de cerca de R$ 80. É mais sábio começar como MEI e, quando a renda aumentar, migrar para ME, caso contrário, a pessoa vai trabalhar apenas para pagar impostos. Além disso as empresas não ligam se vc é MEI ou ME o que importa para elas e o trabalho ter sido feito e a nota ser enviada no dia correto",
+                "comment_score": 2,
+                "comment_created_utc": 1754507478.0
+            },
+            {
+                "comment_id": "n7a96qz",
+                "comment_body": "u/MaestroLizard Tentar ser 100% correto no Brasil é dar um tiro nos dois pés: os maus chegam ao topo, e os bonzinhos são condenados ao fundo do limbo.",
+                "comment_score": 1,
+                "comment_created_utc": 1754507605.0
+            },
+            {
+                "comment_id": "n78j0v5",
+                "comment_body": "Simm, entendi sua colocação! Foi equivocado o uso do termo \"parado\" queria dizer de ter tido essa aprovação do Senado há tanto tempo e ainda estar em trâmite na Câmara dos Deputados, pois é algo que se estende a muito tempo... 2021 foi a ultima aprovação oficial. Infelizmente ainda precisamos considerar o teto de 81K para não ter problemas - o que não extingue também os problemas de enquadramento incompatível com a função",
+                "comment_score": 3,
+                "comment_created_utc": 1754490135.0
+            },
+            {
+                "comment_id": "n796kq1",
+                "comment_body": "Cara, se eles quiserem, eles vão descobrir, mas realmente, CNAE serve só pra estatísticas e possivelmente alimentar modelos estatísticos de aprendizado de máquina (ML), e no fim, é tudo pra processar mais empresas e em um menor espaço de tempo, para garantir o dinheiro da receita federal, o órgão mais poderoso do país.",
+                "comment_score": 2,
+                "comment_created_utc": 1754496811.0
+            },
+            {
+                "comment_id": "n7ai17x",
+                "comment_body": "Só de contabilidade a pessoa vai pagar um salário do mês inteiro (para mais), não tem conta que fecha para fazer ME ganhando 3.5k.",
+                "comment_score": 2,
+                "comment_created_utc": 1754510143.0
+            },
+            {
+                "comment_id": "n7b4w67",
+                "comment_body": "É isso que estou tentando dizer, porém a galera não gosta da verdade prefere ser enganada pela mentira.",
+                "comment_score": 1,
+                "comment_created_utc": 1754516749.0
+            }
+        ]
+    },
+    {
+        "post_id": "1kc5y9c",
+        "post_title": "Macbook no Paraguai?",
+        "post_body": "Oi, pessoal! Trabalho remotamente para uma startup dos EUA (Califórnia) e eles decidiram me dar um MacBook (seria meu mesmo), já que vou precisar bastante no trabalho. A ideia inicial era eles me enviarem o computador diretamente, mas aí comentei sobre o problema das taxas e impostos no Brasil.\n\nNo site da Apple nos EUA, o modelo escolhido custa cerca de US$ 3.000, mas aqui no Brasil o mesmo modelo sai por quase US$ 7.000 na loja da Apple, o que é um absurdo.\n\nEles então perguntaram se haveria alguma forma de conseguirmos o mesmo MacBook por volta dos US$ 3.000, seja comprando de outra forma ou em outro lugar. Fiquei de ver a possibilidade de comprar no Paraguai ( não sei se seria melhor passar na fronteira de carro ou ir de avião direto trazendo notebook como item pessoal) até mesmo se eles me enviarem direto dos EUA de alguma forma mais viável.\n\nAlguém aqui tem experiência com isso? Comprar no Paraguai compensa mesmo? Ou existe alguma forma segura de receber dos EUA sem cair em taxas?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1kc5y9c/macbook_no_paraguai/",
+        "is_self_post": true,
+        "post_created_utc": 1746097336.0,
+        "comments": [
+            {
+                "comment_id": "mpzzhcj",
+                "comment_body": "Lá no Paraguai acho que não consegues o mesmo modelo pelos 3k. Talvez o melhor seja usar o serviço da Saspy Express, que é uma mistura de redirecionador com courier. A sua empresa manda o laptop pro depósito da Saspy nos EUA e você escolhe em qual agência do Paraguai retira. Outra empresa que eu conheço que faz o mesmo serviço é a Fixo Cargo. Na verdade existem várias empresas fazendo isso, mas as duas que tive referências são estas.",
+                "comment_score": 8,
+                "comment_created_utc": 1746097848.0
+            },
+            {
+                "comment_id": "mq016dq",
+                "comment_body": "Oq eu fiz foi usar a minha máquina por uns meses até a primeira reunião presencial, aí busquei o Mac lá fora",
+                "comment_score": 3,
+                "comment_created_utc": 1746098647.0
+            },
+            {
+                "comment_id": "mq0amzx",
+                "comment_body": "Conheço uma pessoa que fez esse role de ir pro Paraguai recentemente e deu certo, mas eu acho que o jeito mais fácil e barato seria arranjar alguém de confiança da tua cidade que seja especializado nisso. Por outro lado, se quiser NF da pra usar um site tipo a goimports pra comprar, é um pouco mais caro mas tudo regularizado (aparentemente), ja comprei um macbook la enquanto tava ma mesma situação que você e veio na velocidade da luz pelo sedex",
+                "comment_score": 3,
+                "comment_created_utc": 1746102624.0
+            },
+            {
+                "comment_id": "mq02k18",
+                "comment_body": "Para evitar caracterização de crime e a perda do equipamento na entrada do país é necessário seguir essas normativas: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel\n\nO ideal é que vc compre e a empresa te der reembolse. \n\nÉ preciso caracterizar que o bem adquirido é compatível com as circunstâncias da viagem (geralmente usado, fora da caixa, etc) daí fica fora da cota de 1.000U$. \n\nO mais seguro é vc declarar a entrada e pagar o imposto em cima dos 2k U$ que excede a cota normal.\n\nOs voos de Assunção e Foz são bem visado pra isso.",
+                "comment_score": 6,
+                "comment_created_utc": 1746099266.0
+            },
+            {
+                "comment_id": "mq0yjen",
+                "comment_body": "Se é o melhor eu não sei, mas falando sobre o que sei de apple no Paraguai é que uma das poucas marcas que realmente vale a pena pra notebook. Outras marcas tbm são baratas, mas se der BO, leva prejuízo. Ja a Apple, desde que vc compre um lacrado, ao ativar o icloud tem 1 ano de garantia GLOBAL apple, então se comprou lá e deu BO aqui a complicação e o preju é menor",
+                "comment_score": 2,
+                "comment_created_utc": 1746110594.0
+            },
+            {
+                "comment_id": "mq2nx65",
+                "comment_body": "Meu macbook atual foi comprado no Paraguai.\n\nPaguei metade do preço do que seria no Brasil",
+                "comment_score": 2,
+                "comment_created_utc": 1746128548.0
+            },
+            {
+                "comment_id": "mq2v25b",
+                "comment_body": "Paraguai acho limitado as ofertas de MacBook la, tipo não tem todos os modelos. Você pode entrar em contato com as lojas e vê se tem disponível. O preço lá é igual dos eua pelo menos dos modelos que eu vi, passei duas vezes pela fronteira e foi super tranquilo, pega um táxi pra voltar que eles se comunicam e sabem quando estão parando, além de ser bem mais rápido. Outra opção seria uma empresa de envio para Paraguai mas não sei como funciona o imposto lá",
+                "comment_score": 2,
+                "comment_created_utc": 1746130601.0
+            },
+            {
+                "comment_id": "mq7pllw",
+                "comment_body": "Na época que comprei o meu, paguei 12500 em um MacBook Pro m1 512gb, o cara trouxe do Paraguai. Zero km. Só que ele tava com o produto na loja, só fui buscar. Se você procurar, tem lojas hoje no mesmo esquema, mas cuidado com preços muito baixos ou ofertas tentadoras, pode ser golpe, na época que estava comprando vi muitos.",
+                "comment_score": 2,
+                "comment_created_utc": 1746200431.0
+            },
+            {
+                "comment_id": "mq112l4",
+                "comment_body": "Já viu no Monaco Mac?",
+                "comment_score": 1,
+                "comment_created_utc": 1746111345.0
+            },
+            {
+                "comment_id": "mq1by5v",
+                "comment_body": "Comprei vários MacBooks no Paraguai. Fui, atravessei a ponte a pé, ok! Só que se eles vão pagar veja se vale a pena o perrengue. Já pedi pra muambeiro trazer por 20% a mais do preço de lá e paguei felizao. Veja ofertas boas no Mercadolivre ou outros lugares que são muito mais baratos que os oficiais.",
+                "comment_score": 1,
+                "comment_created_utc": 1746114538.0
+            },
+            {
+                "comment_id": "mq2qt41",
+                "comment_body": "A compra envolve a sua empresa, melhor pagar um pouco a mais e garantir nota fiscal. Ano passado comprei um macbook pro m3 pagando 6k a menos no ML do que no site da Apple, pesquisando rapidamente vi que hoje vc consegue o m4 pro +- na mesma faixa de preço.\n\nJá que sua empresa está ajudando, melhor ir pela alternativa mais cara e segura, é improvável mas, vai que vc tá passando pela fronteira e a PF te para? Melhor não servir de exemplo e aproveitar que a moeda deles é forte e eles estão dispostos a te ajudar kk",
+                "comment_score": 1,
+                "comment_created_utc": 1746129373.0
+            },
+            {
+                "comment_id": "mq3rtqs",
+                "comment_body": "Se conseguir ir a Ponta Porã, no Mato Grosso do Sul, vale a pena. Faz fronteira seca com o Paraguai (você atravessa a rua e está lá). E no Shopping China vende a um preço muito mais acessível do que no Brasil.",
+                "comment_score": 1,
+                "comment_created_utc": 1746140921.0
+            },
+            {
+                "comment_id": "mqcug94",
+                "comment_body": "Compra e paga a entrada mesmo. Assim voce vai poder viajar pra fora com ele com tranquilidade. Não vale a pena evitar agora, acredito. Se você trabalha pra lá a tarifa não será tão relevante para você.",
+                "comment_score": 1,
+                "comment_created_utc": 1746272902.0
+            },
+            {
+                "comment_id": "mqdiw9x",
+                "comment_body": "Tenta achar um meio termo no modelo e pede para eles comprarem na Amazon da vida, 4-5k dolares da para pegar um muito bom e tem garantia, pode viajar sem risco de ser taxado etc",
+                "comment_score": 1,
+                "comment_created_utc": 1746282275.0
+            },
+            {
+                "comment_id": "mq3k9o6",
+                "comment_body": "Manda eles comprarem na Apple Brasil pelo valor que for e te darem pq se não ainda vai te dar trabalho ou BO depois.",
+                "comment_score": 1,
+                "comment_created_utc": 1746138346.0
+            },
+            {
+                "comment_id": "mq00mdn",
+                "comment_body": "Dos Estados Unidos para o Paraguai não há impostos? E de avião de Assunção para Sp por exemplo, será que corro algum risco se trouxer sem caixa, como uso pessoal?",
+                "comment_score": 2,
+                "comment_created_utc": 1746098388.0
+            },
+            {
+                "comment_id": "mq02djf",
+                "comment_body": "Boa! Eles até comentaram que vai ter uma reunião presencial, mas não vai ser nos EUA :(",
+                "comment_score": 2,
+                "comment_created_utc": 1746099186.0
+            },
+            {
+                "comment_id": "niffcpt",
+                "comment_body": "e conseguiu entrar de boa com ele sem pagar imposto?",
+                "comment_score": 1,
+                "comment_created_utc": 1759934057.0
+            },
+            {
+                "comment_id": "mq0bdfg",
+                "comment_body": "Mas existe como comprovar que de lá é original? (Desculpe pela pergunta, sempre fui usuária linux, não sei muito bem sobre essas particularidades da apple)",
+                "comment_score": 2,
+                "comment_created_utc": 1746102914.0
+            },
+            {
+                "comment_id": "mq05n0a",
+                "comment_body": "E de carro/ônibus, será que é mais tranquilo? É uso pessoal, pretendia trazer sem caixa, já com tudo da empresa instalado para mostrar caso seja parada....",
+                "comment_score": 2,
+                "comment_created_utc": 1746100598.0
+            },
+            {
+                "comment_id": "mvhpz93",
+                "comment_body": "se eu voltar da europa com 2 você acha que daria problema?",
+                "comment_score": 1,
+                "comment_created_utc": 1748816636.0
+            },
+            {
+                "comment_id": "niffw6w",
+                "comment_body": "tem alguma loja que eu consiga fazer uma pesquisa de preço online?",
+                "comment_score": 1,
+                "comment_created_utc": 1759934222.0
+            },
+            {
+                "comment_id": "mq2o8ia",
+                "comment_body": "👏 você passou pela fronteira de carro? Pegou avião depois?",
+                "comment_score": 2,
+                "comment_created_utc": 1746128637.0
+            },
+            {
+                "comment_id": "mq2vie7",
+                "comment_body": "Muito obrigada!!!",
+                "comment_score": 1,
+                "comment_created_utc": 1746130730.0
+            },
+            {
+                "comment_id": "n30rk7u",
+                "comment_body": "o taxista chega a comentar com o passageiro? tipo, \"olha, tão parando la, se quiser esperar um pouco e tal bla bla bla\"... eles são gente boa assim? kkk dúvida honesta mesmo. to pensando em comprar meu macbook la, instalar as parada do trampo (sou desenvolvedor) e colocar na mochila sem caixa. passar a pé era a minha opção, mas né... sei não.",
+                "comment_score": 1,
+                "comment_created_utc": 1752466823.0
+            },
+            {
+                "comment_id": "mq28uny",
+                "comment_body": "Você já veio de avião? Se sim, por onde?",
+                "comment_score": 1,
+                "comment_created_utc": 1746124123.0
+            },
+            {
+                "comment_id": "ni8juqk",
+                "comment_body": "em qual loja vc compra?",
+                "comment_score": 1,
+                "comment_created_utc": 1759841045.0
+            },
+            {
+                "comment_id": "njh5pzb",
+                "comment_body": "Aaaa, me ajuda! Tô precisando de um muambeiro, me chama no pv??",
+                "comment_score": 1,
+                "comment_created_utc": 1760461073.0
+            },
+            {
+                "comment_id": "nli1fyt",
+                "comment_body": "Pode me dizer onde conseguir um muambeiro desse? Tô querendo viajar pra foz e queria comprar um.\n\nValeu!",
+                "comment_score": 1,
+                "comment_created_utc": 1761496881.0
+            },
+            {
+                "comment_id": "mq46z1k",
+                "comment_body": "Já ouvi falar de Ponta Porã. Mas aí o pessoal dá esse rolezão até Ciudaded del Leste?",
+                "comment_score": 1,
+                "comment_created_utc": 1746146171.0
+            },
+            {
+                "comment_id": "mq4oxdc",
+                "comment_body": "É de boa comprar por lá? Já vi o preço, super vale a pena",
+                "comment_score": 1,
+                "comment_created_utc": 1746152604.0
+            },
+            {
+                "comment_id": "mq017gi",
+                "comment_body": "Sim, há impostos e no valor que a Saspy vai te cobrar eles estarão inclusos. Dificilmente vai dar problema na volta aérea. Faz duas semanas que voltei de Assunção por Viracopos. Como eu demorei muito pra passar pela Fiscalização (estava atendendo um chamado da empresa), acho que isso chamou a atenção da RF e me mandaram passar no raio-x. Fizeram duas ou 3 perguntas e me liberaram.",
+                "comment_score": 2,
+                "comment_created_utc": 1746098661.0
+            },
+            {
+                "comment_id": "mq4r7i5",
+                "comment_body": "Se não me engano paguei coisa de 100-150 dólares quando importei assim. Acho que já era com o frete. Foi por essa Saspsy",
+                "comment_score": 1,
+                "comment_created_utc": 1746153420.0
+            },
+            {
+                "comment_id": "mqmc5oq",
+                "comment_body": "Não existe isso de uso pessoal.\n\nOs únicos bens que não entram na cota são relógio e câmera fotográfica.\n\nEstando acima da cota de mil dólares, você poderá ser taxado. Principalmente por se tratar de um computador novinho em folha, que é facilmente identificado pela receita federal.",
+                "comment_score": 1,
+                "comment_created_utc": 1746401416.0
+            },
+            {
+                "comment_id": "mq036lo",
+                "comment_body": "Pede pra alguém levar ué. Eu tbm busquei em outro pais, o gerente levou na mala dele kk\n\nPelo menos onde eu trabalho eles preferiram economizar 3k USD e me deixar uns meses no Pc pessoal",
+                "comment_score": 2,
+                "comment_created_utc": 1746099545.0
+            },
+            {
+                "comment_id": "nilclxu",
+                "comment_body": "sim, voltei com ele na bagagem de mão e só roupa na bagagem despachada, ainda tava com um notebook pessoal na mesma mochila, nem deu nada",
+                "comment_score": 1,
+                "comment_created_utc": 1760016248.0
+            },
+            {
+                "comment_id": "mq0bwe1",
+                "comment_body": "Não é muito comum ter Macbook falso por aí, mas se você for pessoalmente, pesquisa as lojas mais confiáveis, geralmente abrem e testam na sua frente.",
+                "comment_score": 2,
+                "comment_created_utc": 1746103120.0
+            },
+            {
+                "comment_id": "mq0qq0p",
+                "comment_body": "É mais difícil de fiscalizaram só um notebook na mochila, mas se pararem e pagarem o rombo é maior pq a isenção é só de 500U$",
+                "comment_score": 3,
+                "comment_created_utc": 1746108221.0
+            },
+            {
+                "comment_id": "mq0c91z",
+                "comment_body": "Sempre tem a chance de te pararem e se pararem ai tem multa e td. Todo dia tem gente passando, mas tem o risco",
+                "comment_score": 2,
+                "comment_created_utc": 1746103254.0
+            },
+            {
+                "comment_id": "mq2oi4p",
+                "comment_body": "Isso.\nFiquei uns dias em foz do iguaçu, combinei com um cara para me levar la, fiz as compras, coloquei no porta-malas deles e voltei pro hotel com tudo\n\nFoi supee tranquilo",
+                "comment_score": 2,
+                "comment_created_utc": 1746128714.0
+            },
+            {
+                "comment_id": "mq42h34",
+                "comment_body": "Fui tem 3 semanas, nunca atravesse do Paraguai para o Brasil de ônibus ou Van, pegue um táxi, custa 45 reais pra ele atravessar. \n\nNunca fui parado mas cansei de ver bus e Van sendo parada",
+                "comment_score": 2,
+                "comment_created_utc": 1746144562.0
+            },
+            {
+                "comment_id": "n32apcn",
+                "comment_body": "o que eu peguei falou que tava tranquilo e quando passamos ele mandou msg para os outros falando que ainda não tinha ngm parando. Pelo o que percebi tem horas que não tem nenhum fiscal na área fiscalização e ai eles se comunicam nessas brechas, mas a chance de ser parada é muito baixa tanto andando quando de carro, vi muitas motos sendo parada",
+                "comment_score": 1,
+                "comment_created_utc": 1752495459.0
+            },
+            {
+                "comment_id": "mq2t6cg",
+                "comment_body": "Nao. Me hospedava em Foz, ou fazia bate-e-volta (moro no PR).",
+                "comment_score": 2,
+                "comment_created_utc": 1746130058.0
+            },
+            {
+                "comment_id": "ni90r11",
+                "comment_body": "Lojas grandes. Já comprei no Shopping China e na Nissei.",
+                "comment_score": 1,
+                "comment_created_utc": 1759846689.0
+            },
+            {
+                "comment_id": "nljcurd",
+                "comment_body": "Se você vai viajar pra Foz, é só ir lá e pegar. Eu arriscaria. Só não dar muita bandeira nem levantar suspeitas. Faz as contas quanto seria o imposto, para estar preparado psicologicamente caso seja pego. Tem algumas lojas que entregam do lado brasileiro por uma taxa a mais (20%, algo assim).",
+                "comment_score": 1,
+                "comment_created_utc": 1761510646.0
+            },
+            {
+                "comment_id": "mq4mky7",
+                "comment_body": "O Shopping China fica na cidade vizinha, chamada Pedro Juan Caballero (fronteira seca, como eu disse, você atravessa a rua e está em outra cidade). Não é em Ciudade del Leste (talvez tenha um Shopping China lá também, mas estou falando do de Pedro Juan Caballero mesmo).",
+                "comment_score": 2,
+                "comment_created_utc": 1746151752.0
+            },
+            {
+                "comment_id": "mq7em7e",
+                "comment_body": "De boa. O lugar é super arrumado, organizado, limpo, atendimento excelente. E é gigante, tem muita coisa boa pra comprar: brinquedos pra criança, coisas pra casa, roupas, eletrônicos, bicicleta, artigos de camping, bebidas (vinho, muito vinho). Tem de tudo.\n\nTem uma área onde você pode abrir o produto e testar antes de ir embora, pra ver se está funcionando.\n\nQuem mora ou já morou no Mato Grosso do Sul conhece. Dizem que existe uma pequena chance de você ser parado na rodovia saindo de Ponta Porã, mas eu já fui algumas vezes e nunca fui.",
+                "comment_score": 1,
+                "comment_created_utc": 1746197307.0
+            },
+            {
+                "comment_id": "mq7zum1",
+                "comment_body": "Isso. É relativamente baixo o custo de frete e imposto.",
+                "comment_score": 1,
+                "comment_created_utc": 1746203344.0
+            },
+            {
+                "comment_id": "mvhpr4p",
+                "comment_body": "então se eu tiver 2 mac mini voltando de um país da europa que morei por quase 2 anos não posso alegar que um é de uso pessoal e outro pra uso da empresa? ambos abaixo de mil dólares cada",
+                "comment_score": 1,
+                "comment_created_utc": 1748816556.0
+            },
+            {
+                "comment_id": "nimdydd",
+                "comment_body": "otimo, vou tentar isso com certeza...",
+                "comment_score": 1,
+                "comment_created_utc": 1760027676.0
+            },
+            {
+                "comment_id": "mq2s4gn",
+                "comment_body": "Legal! De Foz do Iguaçu para sua cidade você precisou pegar avião? Tenho receio nessa etapa",
+                "comment_score": 2,
+                "comment_created_utc": 1746129752.0
+            },
+            {
+                "comment_id": "ni8jhm4",
+                "comment_body": "se incomoda de falar qual foi a loja, campeão? eu já comprei um iphone lá numa loja bastante confiável, mas não vi macs por lá",
+                "comment_score": 1,
+                "comment_created_utc": 1759840913.0
+            },
+            {
+                "comment_id": "ni8jkan",
+                "comment_body": "e se for a pé com mochila?",
+                "comment_score": 1,
+                "comment_created_utc": 1759840940.0
+            },
+            {
+                "comment_id": "ni92175",
+                "comment_body": "fiquei com uma má impressão do Shopping China pq lá tem umas lojinhas fajutas vendendo aparelhos recondicionados sem deixar isso claro",
+                "comment_score": 1,
+                "comment_created_utc": 1759847080.0
+            },
+            {
+                "comment_id": "njj87tf",
+                "comment_body": "Na saída de Foz é bom evitar aeroporto né ? Tipo ir de ônibus ou alugar carro até o Curitiba e embarcar por lá.",
+                "comment_score": 1,
+                "comment_created_utc": 1760484327.0
+            },
+            {
+                "comment_id": "mvid340",
+                "comment_body": "Se você morou fora do Brasil por mais de um ano a regra é outra.\n\nMas, de modo geral, a cota é sobre o valor total que está sendo trazido, pouco importa que ambos custem menos de mil dólares. Se o somatório deu mais de mil, incide imposto.\n\nE, de novo, os únicos bens considerados de uso pessoal que cada pessoa pode trazer um são celular, câmera fotográfica e relógio. Se trouxer mais de um poderá ser taxado.",
+                "comment_score": 1,
+                "comment_created_utc": 1748824846.0
+            },
+            {
+                "comment_id": "mq2s9bj",
+                "comment_body": "Peguei sim\nMas dentro do Brasil ninguem olha nada",
+                "comment_score": 2,
+                "comment_created_utc": 1746129792.0
+            },
+            {
+                "comment_id": "ni8x2sg",
+                "comment_body": "Alfa Tech dentro do Shopping Paris",
+                "comment_score": 1,
+                "comment_created_utc": 1759845556.0
+            },
+            {
+                "comment_id": "nj74uhu",
+                "comment_body": "Ja fui, recomendo táxi, menor chance de ser parado",
+                "comment_score": 1,
+                "comment_created_utc": 1760317267.0
+            },
+            {
+                "comment_id": "ni931t5",
+                "comment_body": "A “Shopping China” que eu to dizendo é uma loja enorme que chama assim, não tem lojinhas dentro. Fica no shopping Paris.",
+                "comment_score": 2,
+                "comment_created_utc": 1759847384.0
+            },
+            {
+                "comment_id": "ni93xwm",
+                "comment_body": "Eu curtia que Shopping China te dá uns pontinhos e o valor de um MacBook já garantia algum brinde legal. Mas desta vez preferi economizar 10 dólares e comprar na Nissei.",
+                "comment_score": 2,
+                "comment_created_utc": 1759847655.0
+            },
+            {
+                "comment_id": "njjvjw3",
+                "comment_body": "Não sei dizer. Ouvi dicas diferentes. Uma dica é o canal do Math Terê, que ele fala de várias alternativas.",
+                "comment_score": 1,
+                "comment_created_utc": 1760492851.0
+            },
+            {
+                "comment_id": "mvjtwoo",
+                "comment_body": "estou morando na irlanda desde fevereiro/24, poderia me dizer onde consigo maiores informações sobre qual regra eu melhor me encaixaria? \n\npq parece piada q eu não possa levar um computador ou notebook como item pessoal... tipo??? se bem q escrevendo isso me toquei q se tratando de brasil nada é impossível com relação a impostos",
+                "comment_score": 1,
+                "comment_created_utc": 1748848796.0
+            },
+            {
+                "comment_id": "nifevzr",
+                "comment_body": "Então um morador do US vem passar ferias no Brasil e decide trazer um macbook de \"uso pessoal\" não vai passar?",
+                "comment_score": 1,
+                "comment_created_utc": 1759933913.0
+            },
+            {
+                "comment_id": "mq9dtw6",
+                "comment_body": "Dentro do Brasil há diversas operações. Claro que o foco não é um macbook mas não é livre de riscos.",
+                "comment_score": 1,
+                "comment_created_utc": 1746217840.0
+            },
+            {
+                "comment_id": "ni91ud3",
+                "comment_body": "obg o/",
+                "comment_score": 2,
+                "comment_created_utc": 1759847022.0
+            },
+            {
+                "comment_id": "ni9c2xt",
+                "comment_body": "Ahhhh ok",
+                "comment_score": 1,
+                "comment_created_utc": 1759850055.0
+            },
+            {
+                "comment_id": "njlm0dt",
+                "comment_body": "Entrei no canal vlw. Ele recomenda uso de real em espécie ou pagamento em dólar pela Nomad, pois dólar em espécie os caras implicam querendo achar defeito.",
+                "comment_score": 1,
+                "comment_created_utc": 1760525281.0
+            },
+            {
+                "comment_id": "nifnzpu",
+                "comment_body": "Se a receita achar que ele vai vender esse MACBOOK aqui, pode deixar registrado e checar, quando ele estiver indo embora, se está, de fato, levando o computador embora.",
+                "comment_score": 1,
+                "comment_created_utc": 1759936599.0
+            },
+            {
+                "comment_id": "myw2qh0",
+                "comment_body": "quem mais vai ai de floripa? aloooo meu povo kkk, bora marcar dee ir junto",
+                "comment_score": 1,
+                "comment_created_utc": 1750457806.0
+            },
+            {
+                "comment_id": "nigil6m",
+                "comment_body": "ai é foda viu, que pais maldito",
+                "comment_score": 1,
+                "comment_created_utc": 1759945476.0
+            }
+        ]
+    }
+]
