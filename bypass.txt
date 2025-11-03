@@ -26,3 +26,5 @@ reddit = praw.Reddit(client_id = client_id,
                      #Remover depois: Isso é só para o pc da empresa
                      requestor_kwargs={'session': custom_session}
                      )
+
+mage start social_sentiment_insights_tcc

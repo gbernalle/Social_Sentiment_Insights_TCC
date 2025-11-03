@@ -24,7 +24,8 @@ blocks:
     file_path: transformers/transform_raw_data.py
     file_source:
       path: transformers/transform_raw_data.py
-  downstream_blocks: []
+  downstream_blocks:
+  - semantic_cleaning
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -37,6 +38,39 @@ blocks:
   upstream_blocks:
   - get_reddit_data
   uuid: transform_raw_data
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - sentiment_analysis
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: semantic_cleaning
+  retry_config: null
+  status: updated
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - transform_raw_data
+  uuid: semantic_cleaning
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: sentiment_analysis
+  retry_config: null
+  status: failed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - semantic_cleaning
+  uuid: sentiment_analysis
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
