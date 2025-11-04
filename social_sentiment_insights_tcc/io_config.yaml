@@ -1,2 +1,2 @@
-default:
+mage-pipeline-robot:
   GOOGLE_SERVICE_ACCOUNT_CREDENTIALS: "{{ repo_path }}/desafio-estagio-concert-fc29362810a1.json"

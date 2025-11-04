@@ -102,7 +102,7 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
         return pd.DataFrame()
 
     df_portugues['created_at'] = pd.to_datetime(df_portugues['created_utc'], unit='s')
-    df_portugues['created_at'] = dt_series.dt.strftime('%d-%m-%Y')
+    df_portugues['created_at'] = df_portugues['created_at'].dt.strftime('%Y-%m-%d')
 
     df_portugues['text_clean'] = df_portugues['text_raw'].apply(clean_text)
 
