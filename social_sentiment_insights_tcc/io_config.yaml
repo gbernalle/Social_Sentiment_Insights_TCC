@@ -1,2 +1,2 @@
 default:
-  GOOGLE_SERVICE_ACCOUNT_CREDENTIALS: "{{ os.path.join(get_repo_path(), 'desafio-estagio-concert-fc29362810a1.json') }}"
+  GOOGLE_SERVICE_ACCOUNT_CREDENTIALS: "{{ repo_path }}/desafio-estagio-concert-fc29362810a1.json"

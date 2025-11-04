@@ -12,3 +12,5 @@ logs/
 mage-ai.db
 mage_data/
 secrets/
+raw_data_reddit/
+local_models/

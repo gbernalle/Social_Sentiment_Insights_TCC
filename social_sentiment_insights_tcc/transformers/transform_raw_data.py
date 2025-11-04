@@ -10,7 +10,6 @@ except ImportError:
     logging.error("Biblioteca 'langdetect' não encontrada. Por favor, instale com: pip install langdetect")
     raise
 
-# (As funções clean_text e detect_language continuam as mesmas)
 def clean_text(text):
     if not isinstance(text, str): return ""
     text = text.lower()
@@ -31,13 +30,12 @@ def detect_language(text):
 
 
 @transformer
-def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs): # Definido como dict
+def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
     """
     Lê todos os JSONs da pasta raw, aplica filtro de idioma,
     limpa e retorna um DataFrame padronizado.
     """
     
-    # --- VERIFICAÇÃO DE ROBUSTEZ ---
     if not data_from_loader or not isinstance(data_from_loader, dict):
         logging.warning("O Bloco 1 (Data Loader) não retornou um dicionário. O Bloco 1 foi executado primeiro?")
         return pd.DataFrame()
@@ -48,8 +46,6 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs): # Defini
     
     logging.info("Recebido com sucesso o dicionário do Bloco 1.")
     
-    # --- CORREÇÃO APLICADA AQUI ---
-    # Acessa o dicionário diretamente, sem o índice [0]
     raw_data_path = Path(data_from_loader['raw_data_path'])
     
     all_data = [] 
@@ -106,6 +102,8 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs): # Defini
         return pd.DataFrame()
 
     df_portugues['created_at'] = pd.to_datetime(df_portugues['created_utc'], unit='s')
+    df_portugues['created_at'] = dt_series.dt.strftime('%d-%m-%Y')
+
     df_portugues['text_clean'] = df_portugues['text_raw'].apply(clean_text)
 
     df_portugues_clean = df_portugues.dropna(subset=['text_clean'])

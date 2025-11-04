@@ -2,8 +2,5 @@
 keyword.env
 desafio-estagio-concert-fc29362810a1.json
 
-# Pasta de dados brutos (não precisa versionar)
-./social_sentiment_insights_tcc/raw_data_reddit/
-
 # Ambiente virtual
 env
