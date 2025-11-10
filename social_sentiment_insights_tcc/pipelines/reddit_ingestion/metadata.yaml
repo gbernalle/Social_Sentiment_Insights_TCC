@@ -55,7 +55,7 @@ blocks:
   upstream_blocks:
   - transform_raw_data
   uuid: semantic_cleaning
-- all_upstream_blocks_executed: true
+- all_upstream_blocks_executed: false
   color: null
   configuration: {}
   downstream_blocks:
