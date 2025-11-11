@@ -10,7 +10,7 @@ except ImportError:
     logging.error("Biblioteca 'langdetect' não encontrada. Por favor, instale com: pip install langdetect")
     raise
 
-def clean_text(text):
+def clean_text(text) -> str:
     if not isinstance(text, str): return ""
     text = text.lower()
     text = re.sub(r'http\S+', '', text)
@@ -20,7 +20,7 @@ def clean_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
-def detect_language(text):
+def detect_language(text) -> str:
     if not text or not isinstance(text, str) or len(text.strip()) < 25:
         return 'und'
     try:
@@ -29,7 +29,7 @@ def detect_language(text):
         return 'und'
 
 
-@transformer
+@transformer # type: ignore
 def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
     """
     Lê todos os JSONs da pasta raw, aplica filtro de idioma,
@@ -102,21 +102,33 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
         return pd.DataFrame()
 
     df_portugues['created_at'] = pd.to_datetime(df_portugues['created_utc'], unit='s')
-    df_portugues['created_at'] = df_portugues['created_at'].dt.strftime('%Y-%m-%d')
 
-    df_portugues['text_clean'] = df_portugues['text_raw'].apply(clean_text)
+    pandemic_end_date = pd.to_datetime("2022-05-22")
 
-    df_portugues_clean = df_portugues.dropna(subset=['text_clean'])
-    df_portugues_clean = df_portugues_clean[df_portugues_clean['text_clean'] != '']
-    df_portugues_clean = df_portugues_clean[df_portugues_clean['text_clean'] != 'deleted']
-    df_portugues_clean = df_portugues_clean[df_portugues_clean['text_clean'] != 'removed']
+    df_filtered_date = df_portugues[df_portugues['created_at'] >= pandemic_end_date].copy()
+
+    logging.info(f"Filtro temporal aplicado. Removidos {len(df_portugues) - len(df_filtered_date)} registros pré-pandemia")
+    logging.info(f"Registros restantes: {len(df_filtered_date)}")
+
+    if df_filtered_date.empty:
+        logging.warning("nenhum dado encontrado após o filtro temporal.")
+        return pd.DataFrame()
+    
+    df_filtered_date['created_at'] = df_filtered_date['created_at'].dt.strftime('%Y-%m-%d')
+    df_filtered_date['text_clean'] = df_filtered_date['text_raw'].apply(clean_text)
+
+    df_final_clean = df_filtered_date.dropna(subset=['text_clean']).copy()
+
+    unwanted_texts = ['', 'deleted', 'removed']
+    df_final_clean = df_filtered_date.dropna(subset=['text_clean'])
+    df_final_clean = df_final_clean[~df_final_clean['text_clean'].isin(unwanted_texts)]
 
     final_columns = [
         'id', 'parent_post_id', 'type', 'subreddit', 'created_at', 
         'text_raw', 'text_clean', 'language', 'url'
     ]
     
-    df_final = df_portugues_clean.reindex(columns=final_columns)
+    df_final = df_final_clean.reindex(columns=final_columns) 
     df_final = df_final.sort_values(by='created_at').reset_index(drop=True)
     
     logging.info(f"Processamento concluído. {len(df_final)} registros limpos e padronizados.")

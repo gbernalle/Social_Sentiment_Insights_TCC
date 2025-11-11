@@ -4,7 +4,6 @@ import os
 from mage_ai.settings.repo import get_repo_path
 
 try:
-    # Importamos AutoTokenizer
     from transformers import pipeline, AutoTokenizer
 except ImportError:
     logging.error("Biblioteca 'transformers', 'torch' ou 'AutoTokenizer' não encontrada. Por favor, instale com: pip install transformers torch")
@@ -15,8 +14,6 @@ if 'transformer' not in globals():
 
 MODEL_NAME = "ricardo-filho/bert-base-portuguese-cased-nli-assin-2"
 
-
-# --- Carregamento do Modelo e Tokenizer ---
 classifier = None
 tokenizer = None
 MODEL_MAX_LENGTH = 512 
@@ -27,7 +24,7 @@ try:
     classifier = pipeline(
         "zero-shot-classification",
         model=MODEL_NAME,
-        hypothesis_template="Este texto é sobre {}."
+        hypothesis_template="Este texto é sobre {}." 
     )
     logging.info("Modelo Zero-Shot carregado com sucesso.")
 
@@ -40,7 +37,25 @@ except Exception as e:
     classifier = None
     tokenizer = None
 
-@transformer
+candidate_labels = [
+    "dúvidas técnicas sobre burocracia (impostos, DAS, CNPJ, nota fiscal)",
+    "medo, insegurança, dívidas ou sobrecarga de trabalho",
+    "dúvidas ou queixas sobre direitos trabalhistas (férias, INSS, aposentadoria)",
+    "conflito entre o 'sonho' de ser chefe e a 'realidade' do trabalho",
+    "discussão sobre clientes, marketing e vendas"
+]
+
+labels_subject = [
+    "Burocracia e Dúvidas",
+    "Vulnerabilidade e Risco",
+    "Percepção de Direitos",
+    "Identidade e Conflito",
+    "Operação e Vendas"
+]
+
+label_map = dict(zip(candidate_labels, labels_subject))
+
+@transformer #type:ignore
 def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
     
     if data.empty:
@@ -55,27 +70,14 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         logging.error("DataFrame de entrada não contém a coluna 'text_clean'. Verifique o Bloco 2.")
         return data
 
-    logging.info(f"Iniciando filtro de contexto (Zero-Shot) em {len(data)} registros...")
-
-    # Etiquetas otimizadas
-    label_positiva = 'discussão sobre microempreendedorismo, impostos e negócios (MEI, CNPJ, DAS, Simples Nacional)'
-    label_negativa = 'outros tópicos (desabafos, relacionamentos, política, conversas gerais)'
+    logging.info(f"Iniciando CATEGORIZAÇÃO de contexto (Zero-Shot) em {len(data)} registros...")
+    logging.info(f"Calculando o comprimento máximo permitido (baseado nas {len(candidate_labels)} categorias)...")
     
-    candidate_labels = [label_positiva, label_negativa]
+    all_label_tokens = [len(tokenizer(label, add_special_tokens=False)['input_ids']) for label in candidate_labels]
     
-    # ==========================================================
-    # >>> CORREÇÃO (V17) - MARGEM DE SEGURANÇA <<<
+    max_label_len = max(all_label_tokens)
+    buffer_len = max_label_len + 3 
     
-    logging.info("Calculando o comprimento máximo permitido para os textos (com margem de segurança)...")
-    
-    pos_label_tokens = tokenizer(label_positiva, add_special_tokens=False)['input_ids']
-    neg_label_tokens = tokenizer(label_negativa, add_special_tokens=False)['input_ids']
-    
-    max_label_len = max(len(pos_label_tokens), len(neg_label_tokens))
-    buffer_len = max_label_len + 3 # 3 tokens: [CLS]...[SEP]...[SEP]
-    
-    # Esta é a correção: Adicionamos uma margem de 10 tokens
-    # para compensar qualquer token extra que o pipeline adicione.
     SAFETY_MARGIN = 10 
     
     max_text_len_allowed = MODEL_MAX_LENGTH - buffer_len - SAFETY_MARGIN
@@ -98,7 +100,6 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
     if data.empty:
         logging.warning("Nenhum registro restou após o filtro de comprimento.")
         return pd.DataFrame()
-    # ==========================================================
     
     texts_to_classify = data['text_clean'].dropna().tolist()
     
@@ -115,23 +116,28 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             multi_label=False, 
             batch_size=16
         )
-        logging.info("Classificação concluída.")
+                
+        logging.info("Classificação concluída. Mapeando resultados...")
 
         df_results = pd.DataFrame(results)
-        df_results['contexto'] = df_results['labels'].str[0]
-        df_results['contexto_score'] = df_results['scores'].str[0]
         
-        data['contexto'] = df_results['contexto'].values
-        data['contexto_score'] = df_results['contexto_score'].values
-
-        filtered_data = data[data['contexto'] == label_positiva].copy()
+        # Pega a label com maior score (ex: "dúvidas técnicas sobre burocracia...")
+        data['categoria_raw'] = df_results['labels'].str[0].values
         
-        num_removidos_contexto = len(data) - len(filtered_data)
-        logging.info(f"Filtro de contexto aplicado. {num_removidos_contexto} registros de 'outros tópicos' removidos.")
-        logging.info(f"Registros restantes: {len(filtered_data)}")
+        # Pega o score dessa label
+        data['categoria_score'] = df_results['scores'].str[0].values
 
-        return filtered_data
+        # Mapeia a label longa para o "apelido" curto (ex: "Burocracia e Dúvidas")
+        # Usando o 'label_map' definido fora da função
+        data['categoria_tcc'] = data['categoria_raw'].map(label_map)
+
+        data = data.drop(columns=['categoria_raw']) 
+
+        logging.info(f"Categorização por tópico concluída. {len(data)} registros foram categorizados.")
+        logging.info("Novas colunas adicionadas: 'categoria_tcc' e 'categoria_score'")
+
+        return data
 
     except Exception as e:
-        logging.error(f"Falha duringa a classificação Zero-Shot: {e}")
+        logging.error(f"Falha durante a classificação Zero-Shot: {e}")
         return data
