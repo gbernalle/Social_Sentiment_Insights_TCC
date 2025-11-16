@@ -42,7 +42,7 @@ candidate_labels = [
     "medo, insegurança, dívidas ou sobrecarga de trabalho",
     "dúvidas ou queixas sobre direitos trabalhistas (férias, INSS, aposentadoria)",
     "conflito entre o 'sonho' de ser chefe e a 'realidade' do trabalho",
-    "discussão sobre clientes, marketing e vendas"
+    "discussão sobre clientes, marketing e vendas",
 ]
 
 labels_subject = [
@@ -50,7 +50,7 @@ labels_subject = [
     "Vulnerabilidade e Risco",
     "Percepção de Direitos",
     "Identidade e Conflito",
-    "Operação e Vendas"
+    "Operação e Vendas",
 ]
 
 label_map = dict(zip(candidate_labels, labels_subject))
@@ -119,7 +119,7 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
                 
         logging.info("Classificação concluída. Mapeando resultados...")
 
-        df_results = pd.DataFrame(results)
+        df_results = pd.DataFrame(results) #type: ignore
         
         # Pega a label com maior score (ex: "dúvidas técnicas sobre burocracia...")
         data['categoria_raw'] = df_results['labels'].str[0].values

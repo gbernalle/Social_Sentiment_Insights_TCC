@@ -131,6 +131,46 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
     df_final = df_final_clean.reindex(columns=final_columns) 
     df_final = df_final.sort_values(by='created_at').reset_index(drop=True)
     
+    logging.info(f"DataFrame pré-filtro de keyword tem: {len(df_final)} linhas.")
+
+    safe_keywords = r'\b(?:cnpj|simples nacional)\b'
+    
+    # DAS (Contextualizado - do filtro anterior)
+    #    (o das, pagar das, guia das, etc.)
+    das_context = r'\b(?:o|do|no|pagar|guia|boleto|valor) das\b'
+    
+    # Imposto (Contextualizado - FORMA DE SUBSTANTIVO)
+    #    Queremos: (pagar imposto, o imposto, imposto de, imposto mei)
+    #    NÃO queremos: (me imposto, se imposto)
+    imposto_context = (
+        r'(?:\b(?:pagar|pago|paguei|o|do|no|um|qual|quanto) imposto\b'  # Contexto ANTES
+        r'|\b(imposto) (?:de|do|da|mei|simples|sobre)\b)'                 # Contexto DEPOIS
+    )
+    
+    # 4. MEI (Contextualizado - FORMA DE NEGÓCIO)
+    #    Queremos: (o mei, meu mei, sou mei, abrir mei, mei da, mei é)
+    #    NÃO queremos: (me deixou mei triste, fiquei mei assim)
+    mei_context = (
+        r'(?:\b(?:o|do|no|pro|meu|um|abrir|sou|virar|ser|pagar|guia|boleto) mei\b' # Contexto ANTES
+        r'|\b(mei) (?:ta|é|atrasado|da|de|pra|cnpj|me)\b)'                        # Contexto DEPOIS
+    )
+    
+    regex_pattern = f'(?:{safe_keywords}|{das_context}|{imposto_context}|{mei_context})'
+    
+    logging.info(f"Usando padrão de regex Super-Refinado: {regex_pattern}")
+
+    df_com_keywords = df_final[df_final['text_clean'].str.contains(regex_pattern, na=False, case=False)].copy()
+
+    num_removidos = len(df_final) - len(df_com_keywords)
+    logging.info(f"Filtro de Keyword (grosso) removeu {num_removidos} posts irrelevantes.")
+    logging.info(f"Registros restantes para a IA: {len(df_com_keywords)}")
+
+    if df_com_keywords.empty:
+        logging.warning("Nenhum post sobreviveu ao filtro de keywords.")
+        return pd.DataFrame()
+
+    df_final = df_com_keywords.reset_index(drop=True)
+
     logging.info(f"Processamento concluído. {len(df_final)} registros limpos e padronizados.")
     
     return df_final

@@ -16,7 +16,7 @@
             {
                 "comment_id": "n97lpwh",
                 "comment_body": "Opa, eu já trabalho na área a uns 15 anos mais ou menos, vou te dizer que na criação de coisas do zero vc vai sentir isso mesmo, mas a separação do projeto em camadas realmente compensa em projetos que evoluem com o tempo, porque é possível otimizar banco sem alterar API por exemplo.\nPara cruds você deveria ter classes abstratas pra implementar isso tudo de modo simples em casos repetitivos (que foi o que pareceu na explicação).",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1755452183.0
             },
             {
@@ -224,13 +224,13 @@
             {
                 "comment_id": "n78j59j",
                 "comment_body": "Sempre abra ME, quem abre MEI sendo dev não pode reclamar de político safado",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1754490171.0
             },
             {
                 "comment_id": "n78urw9",
                 "comment_body": "Nunca MEI.\n\n\nConverse com um contador pra fazer da forma mais correta possível.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1754493503.0
             },
             {
@@ -242,7 +242,7 @@
             {
                 "comment_id": "n78cusq",
                 "comment_body": "Se você ganha menos de 130 mil reais por ano (novo teto do MEI) abre MEI e bota qualquer coisa próxima das suas atividades\n\nSe ganha mais de 130 mil reais por ano abre ME\n\n\nEdit: 81 mil",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1754488275.0
             },
             {
@@ -290,7 +290,7 @@
             {
                 "comment_id": "n78jhua",
                 "comment_body": "Isso aqui",
-                "comment_score": 2,
+                "comment_score": 4,
                 "comment_created_utc": 1754490274.0
             },
             {
@@ -302,7 +302,7 @@
             {
                 "comment_id": "n795d1r",
                 "comment_body": "Quê? Por quê? Reduzir custos com impostos é um dever cível, ainda mais nesse país. \n\nA propósito, tu gastou quanto e gasta quanto, com uma ME? O custo é sempre o percentual que vem do simples nacional, mais custos com contador, correto?",
-                "comment_score": -1,
+                "comment_score": -2,
                 "comment_created_utc": 1754496467.0
             },
             {
@@ -338,7 +338,7 @@
             {
                 "comment_id": "n7958a1",
                 "comment_body": "Fazer o correto conforme o comentário do rapaz.",
-                "comment_score": 0,
+                "comment_score": 1,
                 "comment_created_utc": 1754496430.0
             },
             {
@@ -368,7 +368,7 @@
             {
                 "comment_id": "n7a66b4",
                 "comment_body": "u/MaestroLizard “O correto” que você diz é passar necessidade com menos dinheiro para poder encher o bolso de burocratas?  \nSe for isso, que bela definição de “correto” você trouxe para a mesa, meus parabéns!",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1754506755.0
             },
             {
@@ -486,7 +486,7 @@
             {
                 "comment_id": "n688vun",
                 "comment_body": "sim é possivel, no r/ContabilidadeAtual vc deve conseguir mais informações",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1753993137.0
             },
             {
@@ -544,13 +544,13 @@
             {
                 "comment_id": "n4xtwa3",
                 "comment_body": "Nao pode abrir MEI, ainda assim tem muita gente que faz isso.\n\nParticularmente, nao recomendo, vai de ME mesmo",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1753379141.0
             },
             {
                 "comment_id": "n4y8bf2",
                 "comment_body": "N compense abrir  ME nesse caso, só 3500.. vai ter gasto com contador e tal\n\nEu já fui MEI sendo dev, da nada, acho q os cara só vão atrás se você estourar o limite anual, q é 81k.",
-                "comment_score": 1,
+                "comment_score": 3,
                 "comment_created_utc": 1753383200.0
             },
             {
@@ -598,7 +598,7 @@
             {
                 "comment_id": "n4xtsye",
                 "comment_body": "tem que ser simples... mei nao pode fazer dev\n\n  \npode fechar o topico",
-                "comment_score": -2,
+                "comment_score": 0,
                 "comment_created_utc": 1753379117.0
             },
             {
@@ -634,7 +634,7 @@
             {
                 "comment_id": "n52l7ms",
                 "comment_body": "Programador nao pode ser MEI, nao se encaixa",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1753444855.0
             },
             {
@@ -646,7 +646,7 @@
             {
                 "comment_id": "n50hrsf",
                 "comment_body": "[removed]",
-                "comment_score": -6,
+                "comment_score": -8,
                 "comment_created_utc": 1753408804.0
             },
             {
@@ -670,7 +670,7 @@
             {
                 "comment_id": "n52z3bi",
                 "comment_body": "[removed]",
-                "comment_score": -3,
+                "comment_score": -6,
                 "comment_created_utc": 1753449746.0
             },
             {

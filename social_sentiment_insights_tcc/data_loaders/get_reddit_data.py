@@ -140,11 +140,10 @@ def load_reddit_data(*args, **kwargs):
     """
         
     topics = [
-        "investimentos", "brasil", "desabafos", "farialimabets", "empreendedorismo",
-        "MicroEmpresas","devBR", "brdev", "marketing", "Empreendedor",
-        "Liderança", "StartupsAjudaStartups", "Os Fundadores", "crescermeunegócio",
-        "capital de risco", "startups", "empreendedor avançado",
-        "produtividade", "mídias sociais", "MicroEmpresas", "MeuNegocio"
+        "investimentos", "brasil",  "farialimabets", "empreendedorismo", "MicroEmpresas","devBR",
+        "brdev", "Empreendedor", "Liderança", "StartupsAjudaStartups", "Os Fundadores",
+        "crescermeunegócio", "capital de risco", "empreendedor avançado", "produtividade", 
+        "mídias sociais", "MicroEmpresas", "MeuNegocio"
     ]
 
     keywords = [

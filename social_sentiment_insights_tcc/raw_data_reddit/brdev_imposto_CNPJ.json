@@ -1,5 +1,201 @@
 [
     {
+        "post_id": "1onx6bv",
+        "post_title": "3.500 EUROS/mês em LONDRES na Inglaterra via COOPERATIVA BR (5% taxa) – é golpe ou o futuro do nearshoring??",
+        "post_body": "Fala, galera!\n\nAcabei de receber uma proposta **insana** de uma empresa de **Londres (Inglaterra)**:\n\n**Cargo:** Analista de Dados (full remote)  \n**Salário:** **€3.500/mês** (\\~R$ 21.000)  \n**Modelo:** **Cooperativa de São Paulo** (sem precisar abrir CNPJ)\n\nA empresa oferece **PJ normal**, mas **recomenda fortemente o modelo cooperado**:\n\n* **Taxa administrativa: 5%**\n* **Vs. \\~15,5% de impostos no PJ + Contador**\n* **+ Seguro de vida + Plano de saúde com coparticipação**\n* **Zero burocracia:** não precisa CNPJ, nota fiscal, contador, Carnê-Leão, nada!\n\nEles dizem que a cooperativa cuida de **tudo**: invoice, câmbio, contratos, exportação de serviço e etc.\n\nAté então, eu só conhecia **CLT** e **PJ**. Nunca ouvi falar de **modelo cooperado.**\n\n**Alguém aqui já trabalhou assim?**\n\n* Funciona mesmo?\n* É regulado pelo BC?\n* Tem pegadinha fiscal ou risco de malha fina?\n* Vale mais que PJ com exportação (6-8% de imposto)?\n\n**Me contem tudo nos comentários!**  \nSe tiver alguém que já passou por isso, marca aí ou manda DM.\n\n(Se rolar interesse, posso até criar um grupo pra gente trocar ideia sobre isso – quem topa?)",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1onx6bv/3500_eurosmês_em_londres_na_inglaterra_via/",
+        "is_self_post": true,
+        "post_created_utc": 1762227452.0,
+        "comments": [
+            {
+                "comment_id": "nn1wkpe",
+                "comment_body": "Estamos construindo a página da wiki sobre **modalidades de contratação** no [r/brdev](https://www.reddit.com/r/brdev/) (veja aqui [https://www.reddit.com/r/brdev/wiki/index/modalidadescontratacao/](https://www.reddit.com/r/brdev/wiki/index/modalidadescontratacao/)) e precisamos da **ajuda de vocês** para torná-la mais completa e útil.\n\nSe você já trabalhou como CLT, PJ, autônomo ou em regime de freelance, ou conhece diferentes formas de contrato no Brasil, compartilhe:\n\n* experiências práticas (vantagens/desvantagens)\n* termos que aparecem nos contratos e seu significado\n* exemplos de situações reais no mercado de TI/desenvolvimento\n* dúvidas comuns que merecem explicação\n\nComo moderador, fico de olho nas contribuições e asseguro que tudo fique organizado, claro e acessível para a comunidade. Toda participação é bem-vinda, mesmo que seja apenas uma linha de comentário ou sugestão de tópico.\n\nObrigado desde já pelo apoio! Vamos juntos fazer uma wiki que serve de referência para todos.",
+                "comment_score": 1,
+                "comment_created_utc": 1762263694.0
+            },
+            {
+                "comment_id": "nn1a3sg",
+                "comment_body": "Não sei de onde tiraram que tu vai pagar 15% de imposto como PJ, esse salário aí tu deve pagar 4% no max.\nO seu salário tá LONGE de estourar a primeira faixa.\n\nQuerem te colocar como cooperado para morderem uma parte do seu lucro.",
+                "comment_score": 12,
+                "comment_created_utc": 1762250974.0
+            },
+            {
+                "comment_id": "nn06cr3",
+                "comment_body": "OP, recebi uma oferta no mesmo modelo que o seu, de cooperativa. Acabei de aceitar, então não sei como será rsrs\n\nPostei no grupo sub de contabilidade: [link](https://www.reddit.com/r/ContabilidadeAtual/s/MyxStVu84O)\n\nA princípio é isso mesmo, a única coisa que vai ser descontada é a taxa de administração... Pelo que explicaram, te pagam o valor (descontada a taxa de adm) sem nenhum desconto de IR, pois te pagam via \"sobras\" da cooperativa, que são isentas de IR. Com isso, vão te dar o informe de rendimentos constando que foram recebimentos isentos e não tributáveis...\n\nEstou com o mesmo receio, de depois tomar uma trolha do IR... Mas pelo que explicaram no tópico que abri, não deve dar problema para mim...\n\nEu entendo que isso seja uma manobra, sonegando imposto... E isso dá uma diferença absurda, porque só vão te descontar a taxa de adm (5%). Se vc fosse PJ, no todo teria quase 20% de descontos... e se fosse como clt acho que daria uns 22%... então a diferença é absurda e o salário líquido fica bem maior...\n\nBoa sorte para nós e que esse modelo cooperado não dê problema depois com o IR rsrsrs",
+                "comment_score": 10,
+                "comment_created_utc": 1762229245.0
+            },
+            {
+                "comment_id": "nn1l65z",
+                "comment_body": "Não é cooperativa que se quebrar ou entrar em dívida tu pega as dívidas junto? Toma cuidado na mão de quem tu tá colocando seu nome",
+                "comment_score": 8,
+                "comment_created_utc": 1762256932.0
+            },
+            {
+                "comment_id": "nn073c8",
+                "comment_body": "Se você tiver a opção de ser PJ escolha PJ.\n\nNa PJ você consegue pagar apenas 6% de imposto.\n\nContador tem online e você paga merreca.\n\nEssa cooperativa tá comendo algum dinheiro por fora já que pra CLT existe encargos, encargos estes que você não específicou ou eles omitiram e vai vir como surpresa lá na frente, se eles não cobrarem diretamente de você pode ter certeza que eles estão comendo parte do seu salário ou tão te vendendo por 5 e embolsando 1.5k. (ou seja, os caras ganhavam 7k pra fazer o trampo que um contador de 400 faz, plano de saúde não custa 5k nem aqui nem na China)\n\nSobre o sistema cooperado eu não gosto, eles pagam o mínimo e te dão o resto em benefício, o problema disto é que seu INSS, FGTS e aposentadoria vão ser ruins.\n\nHoras extras contam no valor da aposentadoria e é em cima da CLT, se o salário é baixo os valores contabilizam pouco no futuro.\n\n Um amigo entrou nessa, na época ofertaram 3k, ele aceitou, o cliente vazou que pagava 4.5k por ele, cooperativa comia 1.5k que ele nem sabia, no contrato da cooperativa tinha cláusula proibindo a empresa de contratar meu amigo mediante multa de 20 salários dele, a empresa obviamente não iria pagar.\n\nNo final meu amigo recebeu outra proposta e meteu o pé, 6 meses depois voltou pra empresa.\n\nSe não tiver opção melhor, o que resta é aceitar, pegar conhecimento, fluência e indicação e depois pular pra outra sendo PJ direto.",
+                "comment_score": 11,
+                "comment_created_utc": 1762229544.0
+            },
+            {
+                "comment_id": "nn02rhn",
+                "comment_body": "Pô eu topo essa vaga em, se não for seguir já me passa haha.\n3.5k euros da pra viver legal",
+                "comment_score": 4,
+                "comment_created_utc": 1762227822.0
+            },
+            {
+                "comment_id": "nn1whdz",
+                "comment_body": "Euros na Inglaterra?",
+                "comment_score": 3,
+                "comment_created_utc": 1762263662.0
+            },
+            {
+                "comment_id": "nn0s0uv",
+                "comment_body": "Se a contratação for via contractor de uma empresa gringa tu não vai pagar nem fodendo 15%+ de imposto, só se for aquelas furadas com escritório BR.\n\nNo mais modelo de cooperativa é sempre o pior que existe, soma o pior do PJ com o pior do CLT, e se tem alguém fazendo todo o serviço por trás, eles estão cobrando por isso.",
+                "comment_score": 3,
+                "comment_created_utc": 1762239942.0
+            },
+            {
+                "comment_id": "nn0la1i",
+                "comment_body": "Parabéns eu acho, se não der bom foca que tu consegue algo parecido ou melhor",
+                "comment_score": 1,
+                "comment_created_utc": 1762236209.0
+            },
+            {
+                "comment_id": "nn1ao09",
+                "comment_body": "Acompanhando",
+                "comment_score": 1,
+                "comment_created_utc": 1762251305.0
+            },
+            {
+                "comment_id": "nn1bvt6",
+                "comment_body": "Outside ir35 por umbrella ?",
+                "comment_score": 1,
+                "comment_created_utc": 1762252023.0
+            },
+            {
+                "comment_id": "nn1i9a8",
+                "comment_body": "Cooperado é um modelo bem comum no sul do Brasil, já trabalhei nesse modelo e teoricamente não há problema algum (desde que ngm esteja sonegando imposto ou fazendo outro tipo de falcatrua). \n\nPra você não muda muito, é só um intermediador na negociação. Como o nome já diz, é uma cooperativa de trabalho onde os gastos são divididos.\n\nCooperado paga menos imposto. Geralmente uma taxa fixa + o valor do inss. 5% eu achei um valor parecido com o que eu pagava há 5 anos atrás. Em relação a cnpj, é muito menos imposto. \n\nSupondo cnpj/simples anexo 3 vs anexo 5, é 6% e 15% a depender do fator R. E pra tu entrar no anexo que paga 6% tu vai ter que fazer maracutaia. Em 99% dos casos de cnpj p ti o certo seria o anexo que tu vai pagar 15%/mes, isso fora contador.\n\n br adora falar mal de bandido na mesma proporção que ama sonegar imposto. Ai vai da consciência de cada um.",
+                "comment_score": 1,
+                "comment_created_utc": 1762255518.0
+            },
+            {
+                "comment_id": "nn1mgnl",
+                "comment_body": "Para esse valor, eu conseguiria pagar menos q isso numa PJ normal pelo simples nacional, sem cair numa zona cinzenta desse tamanho. Pq seria o futuro?\n\nEdit: respondendo a tua pergunta sobre a legalidade: ao que parece é legal, só que é meio gambiarra, pelo que eu já li sobre. Enquanto da certo vai ser bom, o problema é como se justificar numa eventual fiscalização.",
+                "comment_score": 1,
+                "comment_created_utc": 1762257521.0
+            },
+            {
+                "comment_id": "nn1p7u3",
+                "comment_body": ">A empresa oferece PJ normal, mas recomenda fortemente o modelo cooperado:\n\n>Taxa administrativa: 5%  \nVs. \\~15,5% de impostos no PJ + Contador  \n\\+ Seguro de vida + Plano de saúde com coparticipação  \nZero burocracia: não precisa CNPJ, nota fiscal, contador, Carnê-Leão, nada!\n\nEssa lista ficou confusa. Esses \"15.5% de imposto + contador\" seria a alteranativa como PJ? Esse seguro e plano de saúde é válido para as duas modalidades?\n\nEstou achando esses 15.5% dpo PJ um pouco alto. Eu pago um pouco mais que a metade disso.\n\nPorque deveira ser regulado pelo BC?",
+                "comment_score": 1,
+                "comment_created_utc": 1762261016.0
+            },
+            {
+                "comment_id": "nn2m0yd",
+                "comment_body": "15% é mentira, vc vai pagar 6%",
+                "comment_score": 1,
+                "comment_created_utc": 1762271534.0
+            },
+            {
+                "comment_id": "nn36spx",
+                "comment_body": "trabalhei bons anos como cooperado e ai nao tinha realmente que pagar impostos mas tinha um limite do valor que eu pagava para cooperativa independente do meu salario. a partir dos 15k o limite era 1k de pagamento a cooperativa. Eu acho o melhor modelo do \"PJ\" o problema é que se a empresa te fuder vc n pode processar por pejotizacao pq é um modelo aceito de trabalho",
+                "comment_score": 1,
+                "comment_created_utc": 1762277443.0
+            },
+            {
+                "comment_id": "nn59u1r",
+                "comment_body": "Cara, assim, toma cuidado, UK é Pounds ou Libra esterlina. Se te ofeceram em euros desconfie, eles jamais cometeriam esse “erro”, são muito orgulhosos com tudo do “Reino” deles e eles não iram errar a moeda deles.",
+                "comment_score": 1,
+                "comment_created_utc": 1762299259.0
+            },
+            {
+                "comment_id": "nn5puoh",
+                "comment_body": "Foi no LinkedIn?",
+                "comment_score": 1,
+                "comment_created_utc": 1762304723.0
+            },
+            {
+                "comment_id": "nn11ht9",
+                "comment_body": "Vai pagar IR de 27,5% no ano que vem na declaração de ajuste.",
+                "comment_score": -2,
+                "comment_created_utc": 1762245651.0
+            },
+            {
+                "comment_id": "nn1en2i",
+                "comment_body": "Eu trabalhei com esse modelo durante 2 anos e foi tranquilo. Era só isso aí mesmo, coisa de 6% de imposto se eu não me engano. O único ruim é que pra fazer isso é basicamente uma manobra fiscal, eles declaram seu salário de verdade como um salário mínimo e vc paga imposto em cima disso, enquanto todo o resto vai como se fosse algum benefício ou reembolso se eu não me engano, e por conta disso o seu INSS vai ser pago igual o de alguém que recebe salário mínimo. De resto é isso mesmo, zero burocracia comparado ao PJ",
+                "comment_score": 2,
+                "comment_created_utc": 1762253588.0
+            },
+            {
+                "comment_id": "nn1h84b",
+                "comment_body": "Só se for pra sonegar.",
+                "comment_score": -2,
+                "comment_created_utc": 1762254988.0
+            },
+            {
+                "comment_id": "nn0fdzl",
+                "comment_body": "A cooperativa tem impostos e obrigações de gastos também que esse pessoal finge que não existem. Como os responsáveis são os próprios cooperados, bom já viu né.",
+                "comment_score": 7,
+                "comment_created_utc": 1762233246.0
+            },
+            {
+                "comment_id": "nn1rlrw",
+                "comment_body": "Você recebe dividendos que não são taxados no brasil até 600 mil por ano (regra nova que passou faz pouquíssimo tempo). É assim que gente rica ganha dinheiro sem pagar impostos. Funciona a décadas no Brasil e não dá problema",
+                "comment_score": 2,
+                "comment_created_utc": 1762261952.0
+            },
+            {
+                "comment_id": "nn1s348",
+                "comment_body": "Minha namorada recebeu uma proposta que a empresa ofereceu duas alternativas, PJ ou o que vc chama de \"cooperativa\". \n\nE nao tem nada de ilegal na segunda alternativa. Aliás, não sou dev mas sei que a maioria faz esquemas para pagar apenas 6% de imoposto como dev, isso sim é ilegal. O certo é cair na faixa de 15% e diminuir com fator R, mas ninguém faz isso. Maioria sonega mesmo e fala dos políticos e da corrupção sistêmica. \n\nA segunda alternativa é totalmente legal. Minha namorada trabalha assim como engenheira. E a empresa nem desconta nada dela. O salário bruto dela é 13k como engenharia e o líquido é exatamente os mesmos 13k. 0% de imposto e taxas. \n\nVarios advogados tambem trabalham nesse molde.",
+                "comment_score": 1,
+                "comment_created_utc": 1762262126.0
+            },
+            {
+                "comment_id": "nn23jb0",
+                "comment_body": "Exatamente, isso ninguém ta falando, já fui cooperado por falta de opção mas vivia com cagaço de dar alguma merda e ser corresponsável.\n\nNa época conversei com um adv e fiquei bastante desconfortável com.os exemplos.de coisas ruins que poderiam acontecer. Se tiver opção de ser pj direto eu diria que é a melhor opção, mas se for a única vai e tenta algo direto com a empresa depois.",
+                "comment_score": 1,
+                "comment_created_utc": 1762265989.0
+            },
+            {
+                "comment_id": "nn03zc7",
+                "comment_body": "A remuneração é alta, mas essa proposta ai do modelo cooperado que estou investigando...",
+                "comment_score": 2,
+                "comment_created_utc": 1762228297.0
+            },
+            {
+                "comment_id": "nn3ztzh",
+                "comment_body": "Tem isenção de ISS, PIS e COFINS pra prestação de serviço pro exterior, nenhum dev que trabalha pra fora do país paga 15%. Só se tiver a pior contabilidade do mundo.\n\nEu nem estou no simples e pago menos de 8%. Tudo legal, sem sonegar um centavo.",
+                "comment_score": 1,
+                "comment_created_utc": 1762285562.0
+            },
+            {
+                "comment_id": "nn1hm9t",
+                "comment_body": "E por que eu pagaria imposto total se eu posso pagar menos?",
+                "comment_score": 5,
+                "comment_created_utc": 1762255191.0
+            },
+            {
+                "comment_id": "nn3wx0t",
+                "comment_body": "\\>não sou dev mas sei que a maioria faz esquemas para pagar apenas 6% de imoposto como dev, isso sim é ilegal\n\n  \nNão tem absolutamente nada de ilegal, 6% quem paga é quem trabalha pra gringa, dado que tem isençao de alguns impostos e não tem lá o faturamento mais alto do planeta, que eu lembre a faixa de ME que seria por aí pegava faturamento anual <500k ou algo assim.",
+                "comment_score": 2,
+                "comment_created_utc": 1762284720.0
+            },
+            {
+                "comment_id": "nn582pe",
+                "comment_body": "Sim, até banco cooperativa tipo sicredi a galera tá sujeito a isso, é claro que o risco é baixo, mas tem que ser um fator a se levar em consideração",
+                "comment_score": 1,
+                "comment_created_utc": 1762298658.0
+            },
+            {
+                "comment_id": "nn3znqi",
+                "comment_body": "Eu conheço DEZENAS de devs que pagam 6% de imposto como PJ aqui no brasil. Colocando CNAEs falsos na empresa. \n\nPra um dev PJ pagar 6% é apenas com cnae que nao condiz com o emprego.",
+                "comment_score": 2,
+                "comment_created_utc": 1762285512.0
+            }
+        ]
+    },
+    {
         "post_id": "1kxkd5g",
         "post_title": "Minha experiência decidindo entre continuar na CLT, aceitar uma contraproposta CLT ou virar PJ: Fiz a escolha certa?",
         "post_body": "# Oi, pessoal! Quero compartilhar o processo que passei para decidir entre continuar no meu emprego CLT, aceitar uma contraproposta CLT ou mudar para uma oportunidade como PJ no último ano. Tive que escolher uma única opção, e ainda me pego pensando se fiz a escolha certa. Conto com as opiniões porque tá foda ficar remoendo isso sozinho haha\n\n# Contexto\n\nSou da área de tecnologia, com cerca de 5 anos de experiência, e já estava trabalhando como CLT em uma empresa, com salário fixo, benefícios (plano de saúde, vale-refeição, férias remuneradas, 13º, FGTS) e certa estabilidade. Recebi uma proposta para atuar como PJ, com um valor mensal quase dobro do meu salário CLT atual. Minha empresa soube da proposta e fez uma contraproposta CLT, com aumento de salário (mas ainda menor que a oferta PJ) e alguns benefícios extras. Tentei pensar se daria pra conciliar CLT e PJ, mas descartei essa ideia: além de não achar ético misturar os regimes, acho que seria estressante demais gerenciar ambos ao mesmo tempo.\n\nOutro ponto que pesei é que acredito que desenvolvedores que conhecem bem o negócio da empresa têm mais chances de se dar bem com o avanço da IA. Como eu já domino o contexto e os processos da minha empresa atual, vi isso como uma vantagem para continuar onde estou, especialmente em um mercado onde a IA está mudando as regras do jogo.\n\n# O que pesei na decisão\n\nAnalisei bastante os prós e contras de cada opção. Aqui vai um resumo:\n\n# Continuar na CLT atual\n\n**Prós:**\n\n* Estabilidade conhecida, com ambiente e rotina que já domino.\n* Benefícios como plano de saúde, vale-refeição e transporte.\n* Férias remuneradas, 13º salário e FGTS.\n* Menos burocracia, já que a empresa cuida de impostos e contribuições.\n* Conhecimento do negócio, que acho que me dá uma vantagem com a IA no mercado.\n\n**Contras:**\n\n* Salário líquido menor que a oferta PJ, mesmo com a contraproposta.\n* Menos flexibilidade no trabalho (horários mais rígidos, menos autonomia).\n* Crescimento financeiro limitado a curto prazo.\n\n# Contraproposta CLT\n\n**Prós:**\n\n* Aumento de salário em relação ao meu CLT atual, com benefícios extras.\n* Continuidade da estabilidade e benefícios padrão (férias, 13º, FGTS, plano de saúde).\n* Menos risco que mudar para PJ, continuando no regime CLT.\n* Mesma vantagem de conhecer o negócio da empresa, que pode me destacar com a IA.\n* Menos burocracia, com a empresa gerenciando impostos.\n\n**Contras:**\n\n* Salário ainda menor que a oferta PJ.\n* Mesma falta de flexibilidade do emprego CLT atual.\n* Aumento não acompanhava o potencial financeiro da PJ.\n\n# PJ\n\n**Prós:**\n\n* Salário bruto muito maior, mesmo descontando impostos e contabilidade.\n* Mais autonomia e flexibilidade (pelo menos na teoria, dependendo do contrato).\n* Possibilidade de deduzir despesas no imposto de renda (como equipamentos e cursos).\n* Potencial de crescimento financeiro mais rápido se eu gerenciar bem o dinheiro.\n\n**Contras:**\n\n* Zero benefícios: sem férias, 13º, plano de saúde ou FGTS.\n* Custo exorbitante do plano de saúde, que eu teria que pagar como PJ.\n* Burocracia: abrir CNPJ, pagar contador, calcular impostos (Simples Nacional ou lucro presumido).\n* Insegurança: contratos PJ podem acabar de repente, sem aviso.\n* Preciso reservar dinheiro para emergências, sem garantias trabalhistas.\n\n# Minha decisão\n\nDepois de muito refletir, escolhi aceitar a contraproposta CLT. O motivo principal foi o plano de saúde: ao pesquisar, vi que o custo de um plano de saúde como PJ seria exorbitante, e isso pesou muito, já que saúde é uma prioridade pra mim. O aumento da contraproposta, mesmo sendo menor que a oferta PJ, melhorava minha situação atual, e eu mantive benefícios como férias, 13º e FGTS. Além disso, acredito que conhecer o negócio da empresa onde já trabalho me dá uma vantagem competitiva, especialmente com o avanço da IA, que exige cada vez mais combinar conhecimento técnico com entendimento do negócio.\n\nDescartar a PJ foi difícil, porque o salário bruto era bem mais alto, mas o custo do plano de saúde e a burocracia (CNPJ, contador, impostos) me fizeram recuar. Também descartei conciliar CLT e PJ por achar que seria desgastante e por não me sentir confortável com a ideia. Faz 2 meses que estou na contraproposta CLT, e até agora tem sido ok: o aumento ajudou, os benefícios me dão segurança, e sinto que meu conhecimento do negócio está me destacando. Mas, no dia a dia, ainda me pego pensando se fiz a escolha certa, especialmente quando penso no potencial financeiro maior que a PJ poderia ter trazido.\n\nValeu!",
@@ -148,21 +344,21 @@
         "post_created_utc": 1736118634.0,
         "comments": [
             {
+                "comment_id": "m5m1969",
+                "comment_body": "procure uma contabilidade online elas são mais baratas, você vai ter que fazer um certificado digital que é tipo sua assinatura, o preço que eu paguei na minha foi 180 R$ e tem que ser renovada, tem a taxa de funcionamento anualmente da prefeitura da sua cidade eu pago 400 pau, mas varia para cada prefeitura eu uso o simples nacional e o que paga menos imposto o DAS é o simples nacional e INSS vai depender do seu pró-labore o meu e 155,32 e tambem tem gasto com contabilidade eu pago 169,90 e outra MEI não existe pra programador é ME no total sem contar assinatura digital e o alvará eu gasto 595,22 por mês, no seu caso você ta ganhando mais que eu então vai acabar pagando mais mesmo.",
+                "comment_score": 8,
+                "comment_created_utc": 1736121558.0
+            },
+            {
                 "comment_id": "m5ltemo",
                 "comment_body": "[deleted]",
                 "comment_score": 7,
                 "comment_created_utc": 1736118986.0
             },
             {
-                "comment_id": "m5m1969",
-                "comment_body": "procure uma contabilidade online elas são mais baratas, você vai ter que fazer um certificado digital que é tipo sua assinatura, o preço que eu paguei na minha foi 180 R$ e tem que ser renovada, tem a taxa de funcionamento anualmente da prefeitura da sua cidade eu pago 400 pau, mas varia para cada prefeitura eu uso o simples nacional e o que paga menos imposto o DAS é o simples nacional e INSS vai depender do seu pró-labore o meu e 155,32 e tambem tem gasto com contabilidade eu pago 169,90 e outra MEI não existe pra programador é ME no total sem contar assinatura digital e o alvará eu gasto 595,22 por mês, no seu caso você ta ganhando mais que eu então vai acabar pagando mais mesmo.",
-                "comment_score": 6,
-                "comment_created_utc": 1736121558.0
-            },
-            {
                 "comment_id": "m5mjwby",
                 "comment_body": "MEI não é uma opção válida pra desenvolvedor. Você até pode criar a empresa assim, mas vai estar irregular e pode em algum momento levar multa por isso. Não sei dizer se a possibilidade de isso acontecer é alta ou baixa.\nO certo é abrir uma ME, só que aí você vai obrigatoriamente precisar de um contador. O mais barato é contratar o Contabilizei ou similares. Um contador tradicional vai te cobrar 300 reais ou mais por mês.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1736127747.0
             },
             {
@@ -174,7 +370,7 @@
             {
                 "comment_id": "m5q32c6",
                 "comment_body": "Uso a contabilizei. Estou enquadrado como ME no simplesNacional.\n\n\n\n\nO único trabalho que tenho é gerar a nota. O resto a contabilizei faz automático, e já deixo também os pagamentos em débito automático. Zero preocupação. ",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1736183646.0
             },
             {
@@ -190,16 +386,16 @@
                 "comment_created_utc": 1756729599.0
             },
             {
-                "comment_id": "m5lu3wl",
-                "comment_body": "Boa, estou dando uma olhada na contabilizei e até então estou achando bem legal, só ouvi bons relatos. Muito obrigado pela resposta!!",
-                "comment_score": 2,
-                "comment_created_utc": 1736119215.0
-            },
-            {
                 "comment_id": "m5m4p8h",
                 "comment_body": "Caraca, tem essa taxa da prefeitura ainda kkkkkk  \nMas muito obrigado pela resposta, me mostrou outros pontos que preciso pesquisar. Valeu demais!!",
                 "comment_score": 1,
                 "comment_created_utc": 1736122688.0
+            },
+            {
+                "comment_id": "m5lu3wl",
+                "comment_body": "Boa, estou dando uma olhada na contabilizei e até então estou achando bem legal, só ouvi bons relatos. Muito obrigado pela resposta!!",
+                "comment_score": 2,
+                "comment_created_utc": 1736119215.0
             },
             {
                 "comment_id": "m64kx06",
@@ -212,6 +408,12 @@
                 "comment_body": "Cara blz, estou usando eles, comecei essa semana, estou preocupado com os custos mensais, vou receber 3 mil bruto por 20h (tenho outro trampo), e fico preocupado se vai passar alem do que eu perguntei saca...tipo 800 pra cima, ai me quebra total...a conta pj tu fez em qual banco ? o meu é simples nacional.",
                 "comment_score": 1,
                 "comment_created_utc": 1753910957.0
+            },
+            {
+                "comment_id": "nmypt56",
+                "comment_body": "Eu já usei a contabilizei e não gostei. Parece serviço do governo, tudo que você precisa é necessário abrir um ticket, sem contar que você fala com um robô, caso queira falar com um especialista no whatsapp, acaba pagando um valor maior. Você praticamente está sozinho, é como se não tivesse uma contabilidade, apenas um sistema. Eu particularmente não recomendo. \n\nMigrei pra um escritório de contabilidade que atendem de forma online mas sem essa de robô e que explicam tudo de forma clara. Eles assumem toda burocracia mas eu sei o que tá de fato rolando com meu CNPJ.",
+                "comment_score": 1,
+                "comment_created_utc": 1762210755.0
             },
             {
                 "comment_id": "m5lz8ow",
@@ -228,7 +430,7 @@
             {
                 "comment_id": "m5m7q4a",
                 "comment_body": "e lembre de perguntar qual categoria a empresa que você vai prestar serviço aceita",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1736123673.0
             },
             {
@@ -236,6 +438,12 @@
                 "comment_body": "Sobre o certificado digital eu consigo para você por 139,90, caso tenha interesse pode falar comigo na dm após abrir o CNPJ",
                 "comment_score": 1,
                 "comment_created_utc": 1736187400.0
+            },
+            {
+                "comment_id": "nmyp61d",
+                "comment_body": "Em relação a taxa da prefeitura, muitos escritório oferecem sede virtual e esse valor da taxa da prefeitura cai drasticamente.\n\nAqui na minha cidade a taxa é 1.200 por semestre. O escritório de contabilidade que me atende oferece o serviço de endereço fiscal e a taxa fica em 450 anual. Sem falar que eles possuem horário diferenciado e atendem depois das 18h\n\nCaso queiram, posso indicar aqui",
+                "comment_score": 1,
+                "comment_created_utc": 1762210546.0
             },
             {
                 "comment_id": "m9nhhjo",
@@ -346,7 +554,7 @@
             {
                 "comment_id": "lywe5m5",
                 "comment_body": "Sou contador, querendo virar DEV e indico abrir o MEI com o CNAE digitador, tenho uma MEI assim\nVocê pode deixar de declarar SONEGAR tranquilamente \nO que tem de empresa com mais de 150 - 180 mil sonegando e não pagando NADA de impostos “não está escrito no papel”",
-                "comment_score": -3,
+                "comment_score": -2,
                 "comment_created_utc": 1732539688.0
             },
             {
@@ -498,7 +706,7 @@
             {
                 "comment_id": "lhyupn7",
                 "comment_body": "Pago o plano Experts da Contabilizei, eles fazem tudo. Única coisa que preciso fazer é mandar a invoice por wpp pra eles faturarem (gerar NF) e dps entrar só pra pagar os boletos.\n\nJá no plano básico vc tem q  fazer muita coisa manual até onde sei.\n\nEdit 1: estou com eles desde que abri meu CNPJ há 2 anos, durmo tranquilo.\n\nEdit 2: não moro em SP mas nossa área permite abrir a empresa lá (pq lá o processo é bem mais célere caso esteja com pressa). Única coisa que você precisa é manter um endereço lá, para isso existem opções de escritório virtual, no meu caso, uso a Company Hero.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1723580972.0
             },
             {
@@ -730,7 +938,7 @@
             {
                 "comment_id": "leev2lj",
                 "comment_body": "Seu tesudo.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1721669849.0
             },
             {
@@ -1042,25 +1250,25 @@
             {
                 "comment_id": "k7jsmfj",
                 "comment_body": "Legalmente tu fez certo mas na prática a receita não vai atrás de alguém ganhando 3k/mês.",
-                "comment_score": 72,
+                "comment_score": 74,
                 "comment_created_utc": 1698953532.0
             },
             {
                 "comment_id": "k7khj4u",
                 "comment_body": "Legalmente nao há atividade pra mei, só ha a reparacao de perifericos ligado a ti pra mei, ou seja, hardware, mas em relacao ao faturamento só estoura se vc faturar mais que 6750,00 todos os meses do ano. Entao vc esta certo pela lei, mas nao pelo motivo que achou.\n\nLegalmente falando não existe pj exclusivo de uma empresa, isso é clt travestido, pra empresa pagar menos direitos e impostos, mas legalmente pouca coisa de fato está no Brasil.\n\nPessoal sou contador. Fico sempre aqui porque atendo bastante pj de ti e fico pra ajudar que eu posso. Vejo muita gente falando que pj jamais vale a pena, calma la, dependendo do valor tem muito dev que só aceita pj, exemplo, os caras que ganham de 15k pra cima e tem muito pj que hj presta servicos a mais de uma empresa, sem horarios, sem subordinacao e por demanda.Ou seja, se nao é exclusivo já da pra falar que é uma empresa. Não da pra generalizar, mas sim, cuidado, tem muita empresa que só pega pj pra se furtar de custo e obrigações.\n\nQuanto ao OP. Se for continuar ganhando menos que 6750,00 por mes e esta empresa tomadora de servicos seus aceita alguma atividade Mei, encerra esta ME e abre outro mei, uma semana vc faz isso.",
-                "comment_score": 26,
+                "comment_score": 24,
                 "comment_created_utc": 1698962624.0
             },
             {
                 "comment_id": "k7k3lxs",
                 "comment_body": "Como pode esse absurdo ser tão normalizado. Tem que ser muito merda pra contratar alguém como PJ e pagar menos de 5K. 2K PJ é um crime.\n\nPelo menos como ME você não está cometendo fraude. **Junte provas do seu vínculo trabalhista** e faça a empresa pagar tudo quando sair. Se você fosse MEI, estaria sonegando impostos e cometendo fraude, isso dificulta a sua vida.",
-                "comment_score": 44,
+                "comment_score": 46,
                 "comment_created_utc": 1698957476.0
             },
             {
                 "comment_id": "k7k94kh",
                 "comment_body": "Vai buscando outra coisa o mais rápido possível. Eu muito provavelmente processaria a empresa depois de sair também. 2k é menos do que a empresa pagaria pra um CLT com salário mínimo.",
-                "comment_score": 10,
+                "comment_score": 9,
                 "comment_created_utc": 1698959481.0
             },
             {
@@ -1072,13 +1280,13 @@
             {
                 "comment_id": "k7mtiqh",
                 "comment_body": "Cara eu atualmente ganho 5.3 k como junior PJ, e sério, eu sou MEI, sei que não está correto perante a lei mas sério, só mudo para ME quando eu exceder o faturamento anual, porque receber 5 k e ainda pagar os impostos de ME que são mais altos que MEI (que é só uns 80 $) simplesmente não vale a pena,\nMenos de 3k PJ, impossível, sério seu empregador é um tremendo filho da puta, na prática se ele te registrasse com um salário mínimo, ele já teria mais gasto que isso que tá te pagando, pqp.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1699008516.0
             },
             {
                 "comment_id": "k7mm1ge",
                 "comment_body": "Não sei onde foi que normalizaram PJ pra Jr ou Pleno. Antigamente era apenas pra sênior pra salários de 15K+ pq realmente fazia uma grande diferença.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1699002911.0
             },
             {
@@ -1090,7 +1298,7 @@
             {
                 "comment_id": "k7k17ry",
                 "comment_body": "3k por mês você não precisava sair do MEI. \n\nQuem te deu esse conselho pra ir pra ME? Esse aí merece uma surra pra deixar de ser FDP",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1698956621.0
             },
             {
@@ -1162,13 +1370,13 @@
             {
                 "comment_id": "k7k9kch",
                 "comment_body": "Não vai atrás até ir… o prazo pra cobrança é de 5 anos, então você basicamente está apostando que os sistemas e processos deles não vão melhorar o suficiente nesse período.",
-                "comment_score": 23,
+                "comment_score": 22,
                 "comment_created_utc": 1698959642.0
             },
             {
                 "comment_id": "k7k3zsl",
                 "comment_body": "Pois é, fiquei como MEI por uns 3 anos, troquei de MEI para ME recentemente mas só porque meu salario anual ia ultrapassar o limite do MEI. E também combinei com meu empregador para cobrir os impostos que aumentaram.",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1698957618.0
             },
             {
@@ -1192,7 +1400,7 @@
             {
                 "comment_id": "k7lzgyk",
                 "comment_body": "> Junte provas do seu vínculo trabalhista e faça a empresa pagar tudo quando sair.\n\ncredo",
-                "comment_score": -18,
+                "comment_score": -20,
                 "comment_created_utc": 1698985520.0
             },
             {
@@ -1246,13 +1454,13 @@
             {
                 "comment_id": "k7l99z0",
                 "comment_body": "A multa que ele ia receber por usar um CNAE errado sendo Jr recebendo só 3k é ridícula e da pra parcelar a perder de vista.",
-                "comment_score": 17,
+                "comment_score": 15,
                 "comment_created_utc": 1698973625.0
             },
             {
                 "comment_id": "k7k5m7f",
                 "comment_body": "Ah, se o salário vai passar do teto do MEI então é outra história. A chance de dar merda é quase garantida e você toma uma bela multa. \n\nQuando um dev PJ fica como MEI ao invés de ME ele “só” tá burlando o CNAE, porque não tem registro de dev pra MEI. Mas se tu faz isso e ainda passa do teto do MEI aí você corre muito risco.\n\nMelhor chamar um contador pra ele ver sua situação atual e ver qual a melhor forma de organizar suas finanças pra reduzir os impostos.",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1698958208.0
             },
             {
@@ -1282,13 +1490,13 @@
             {
                 "comment_id": "k7mxx9c",
                 "comment_body": "O OP ganha 2K PJ, isso fica abaixo do salário mínimo. Deveria ser crime. Se uma empresa não tem condições de pagar um salário decente a um engenheiro de software, está mais do que claro que é uma empresa fracassada que nunca vai dar lucro. Na prática, a gente sabe que a empresa pode pagar, mas prefere precarizar o funcionário.\n\nUm PJ que ganha menos de um salário mínimo (tipo o OP) precisa documentar tudo e processar a empresa ao sair. Causa ganha. OP vai receber como se ganhasse 2K CLT, e ainda assim a empresa ainda vai sair no lucro.",
-                "comment_score": 7,
+                "comment_score": 9,
                 "comment_created_utc": 1699011296.0
             },
             {
                 "comment_id": "k7mz82s",
                 "comment_body": "2K PJ é menos de um salário mínimo. Não precisa se doer pela empresa, ela ainda vai sair no lucro quando indenizar o OP.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1699012045.0
             },
             {
@@ -1354,7 +1562,7 @@
             {
                 "comment_id": "k7jzemv",
                 "comment_body": "A Dura realidade, mas na cabeça deles tá pegando os 2k limpo, o pior de tudo é ficar desempregado",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1698955974.0
             },
             {
@@ -1522,7 +1730,7 @@
             {
                 "comment_id": "jotpezj",
                 "comment_body": "Fala com um contador. Nesse valor ai, daria pra ter um MEI, só não dizer q eh dev.\n\nMas tbm nao vai perder mto se continuar como PF, eu acho q nao vale a burocracia de abrir um CNPJ.\n\nSe vc ganhar um salario de R$5700, vai pagar R$500 e pouco de IR com carnê leão. Só procurar no google “calculadora de IR” q vc vai ver.\n\nSó recomendo vc gerar o carnê leao todo mes referente ao q recebeu e pagar certinho.\n\nResumindo, com esse salário, eu não abriria um CNPJ, pq a soma Contador+imposto, vai ser maior e mais burocrático do que vc só gerar um carnê leao todo mês e pagar os 9% de imposto.",
-                "comment_score": 10,
+                "comment_score": 9,
                 "comment_created_utc": 1687265362.0
             },
             {
@@ -1600,7 +1808,7 @@
             {
                 "comment_id": "jotthfq",
                 "comment_body": "Eles condicionam a prestação do serviço ao fornecimento do certificado digital da empresa do OP (ou seja, para todos efeitos eles serão donos da empresa). Não faça isso, OP.\n\nProcure uma empresa de contabilidade séria que saiba fazer o trabalho.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1687267406.0
             },
             {
@@ -1690,7 +1898,7 @@
             {
                 "comment_id": "jouq2r2",
                 "comment_body": "Você cria uma procuração digital no site da RF autorizando a empresa a atuar como seu contador.\n\nEm momento algum eles precisam do certificado. Minha empresa existe há anos e nunca entreguei meu certificado pra ninguém.\n\nQuem tem o certificado é o dono da empresa, a partir do certificado você pode assinar qualquer documento e esse documento vai valer mais que qualquer documento em papel pelo simples fato da assinatura digital ser “irrefutável”.\n\nO papel do certificado digital é justamente dizer “esse documento foi assinado inequivocamente por Fulano em nome da empresa ACME”. No momento que você entrega o certificado a um terceiro, isso é pior que uma procuração de amplos poderes.\n\nEdit: e piora. Se eles fizerem alguma cagada, eles não terão qualquer responsabilidade pois fizeram tudo em seu nome, então tudo foi feito, inequivocamente, por você. Você não tem nem do que reclamar pois legalmente foi você quem fez.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1687280957.0
             },
             {
@@ -1702,7 +1910,7 @@
             {
                 "comment_id": "jotpqp8",
                 "comment_body": "se ele receber R$5700 por mês (U$1200), vai pagar 8.9% de imposto como pessoa física. Cada faixa de IR tem uma alíquota, mas a % efetiva da 8.96%.\n\nSe abrir CNPJ vai pagar contador + imposto, e vai sair tudo elas por elas.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1687265530.0
             },
             {
@@ -1742,13 +1950,13 @@
             {
                 "comment_id": "jos5vlq",
                 "comment_body": "Acabei de iniciar num trabalho para o exterior, então tô com isso fresco na mente.\n\n1. Com toda certeza vale a pena receber como PJ. Recebendo como PF você vai pagar uma carga de impostos que imagino ser em torno de 27%, sendo PJ você consegue algo em torno de 5/7.5%, mas fale com um contador que ele vai te dar o racional de como chegar nesse valor sendo PJ.\n\n2. Conta americana não considero ser uma opção, melhor opção é utilizar plataformas na qual eles recebem o valor e fazem a transferência pra você já em BRL. Tem a Husky, Deel, Payoneer e é bom consultar a empresa pra ver se ela já não tem algum contrato com essas plataformas, eu mesmo estou usando a Husky e o fluxo é empresa paga husky > husky te paga e cai na sua conta em BRL.\n\n3. É pessoal, mas eu no seu lugar iria com certeza. Você ganha atualmente um salário já bom, provável que tenha uma reserva de dinheiro então caso rolasse algum problema você conseguiria se segurar até arrumar outro emprego. Fora que 5500 dólares por 6 meses já vão te dar uma boa segurança.\n\n4. Um contador consegue te auxiliar, mas, resumindo - Sua empresa transfere para a Husky por exemplo > Husky te transfere (com uma taxa que varia entre 1/2%) > Você recebe o dinheiro em BRL > emite sua nota fiscal com o valor que caiu > paga os impostos referentes a nota > o que sobrar é seu e você pode transferir pra sua conta de pessoa física e utilizar normalmente.\n\nRecomendo que nesse processo procure por um contador que já tenha trabalhado com devs pro exterior ou utilize plataformas online que façam esse serviço! Acho mais válido do que tentar fazer tudo sozinho :)\n\nAbraços e boa sorte!",
-                "comment_score": 14,
+                "comment_score": 13,
                 "comment_created_utc": 1687226853.0
             },
             {
                 "comment_id": "jot5y5d",
                 "comment_body": "O pessoal já deu boas respostas, só queria deixar claro: **jamais** receba via PayPal a menos que seja uma grana que você esteja disposto a perder.\n\nJá ouvi muita história de terror onde o PayPal simplesmente roubou uma galera porque desconfiou que eles estivessem fazendo algo errado, mas não possibilitaram nenhuma oportunidade para recurso.\n\nRecentemente quando precisei entrar em contato com eles, o suporte foi extremamente despreparado e a segurança deles em si é péssima. Eles sequer entendem como security keys devem ser usadas e queriam me forçar a desabilitar 2FA e passar a usar SMS para receber OTP.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1687251817.0
             },
             {
@@ -1820,7 +2028,7 @@
             {
                 "comment_id": "josbatk",
                 "comment_body": "Eu sou dev golang e a stack deles é golang também. Atualmente estou focando nessa linguagem por achar ela boa de se trabalhar por ser fortemente tipada e compilada.\n\nDe infra, já trabalhei com GCP, AWS, k8s e obviamente docker. e de BD, já usei PG, Mysql, MSSQL, redis, gcp bigtable, spanner, elasticsearch, que eu lembro de cabeça.\n\nTenho 8 anos de experiência e 5 com essa linguagem",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1687229678.0
             },
             {
@@ -1924,7 +2132,7 @@
             {
                 "comment_id": "jcwiu0f",
                 "comment_body": "Bom, não existe uma fórmula pronta pra estimar valores, mas vamos lá. Por favor, tenha em mente que estou estimando os valores se você for seguir o caminho de abrir uma LTDA no Simples, o MEI pode pular uma ou outra etapa porém desenvolvimento não se enquadra e sempre tem risco de dar algum problema.\n\nTendo dito isso, você vai precisar de um escritório de contabilidade pra assinar os documentos da empresa todo mês, o que pode variar entre uns R$100 até uns R$500 mensais, dependendo do escritório. Alguns também fazem a abertura da empresa sem custo, se você fechar um tempo pré-determinado. Você também paga +- 15% de imposto sobre a prestação dos serviços e +- 11% de INSS/FGTS em cima do valor do seu pró-labore. Tem como baixar isso em alguns casos, mas para fins de estimar um valor melhor, vamos manter em 15%. Em alguns casos, algumas cidades também cobram um valor anual para manter o registro da empresa, pelo menos aqui na cidade eu pago uns R$300 por ano.\n\nVamos lá. Primeira coisa, você precisa definir quantas horas pretende trabalhar num mês (não só nesse cliente) e qual seria o salário ideal para você, que você gostaria de tirar \"limpo\". Esse salário PRECISA cobrir todas suas contas, etc. Vamos supor que você tenha um gasto mensal de R$3000 com todas contas, aluguel, etc, e defina uma \"meta\" de R$4500 mensal em \"salário\", trabalhando 8h diárias, 22 dias úteis no mês, 176h mensais.\n\nAgora, vamos calcular +- quanto você vai precisar cobrar para receber essa quantia:\n\n1. R$4500 de salário\n2. R$500 de escritório\n3. R$132 de INSS (11% de R$1200 de pró-labore)\n4. R$25 de registro municipal (1/12 de R$300)\n5. R$5156 total sem levar imposto em consideração\n6. R$6065 valor final se considerar os 15% de imposto\n\nAgora, pegamos esses R$6065 e dividimos por 176h mensais, chegando a um valor aproximado de R$35.50/h de trabalho. Podemos parar aí e tudo mais, porém tem algumas coisas que vale considerar:\n\n1. Esse valor cobre apenas o salário em si\n2. Esse valor seria considerando que você conseguisse alocar todas 8h diárias\n3. Esse valor não cobre férias, feriados, emergências médicas, etc\n\nPrimeira coisa que podemos fazer aqui é considerar férias e emergências médicas. Vamos supor que você queira garantir 4 semanas de férias por ano (estilo CLT) e garantir mais duas semanas para eventuais emergências:\n\n1. Pega o valor hora e multiplica pelas horas semanais (40h), um total de R$1420 semanal\n2. Agora, pega esse valor e multiplica por 52 semanas num ano, totalizando R$73840\n3. Pronto, sabemos a nossa \"meta\" de salário anual para atingir os R$4500 \"limpos\" por mês, agora temos que saber quantas semanas vamos trabalhar, então pegamos as 52 semanas e subtraimos as 6 semanas de férias + emergências, totalizando 46 semanas\n4. Por fim, fazemos o processo inverso, dividimos os R$73840 por 46 semanas, totalizando R$1605 semanal e dividimos esse valor pelas 40 horas semanais, chegando ao valor final de aproximadamente R$40/hora\n\nEsses R$40/h te dá um pouco de margem para negociar com a empresa, se eles oferecerem benefícios da CLT como férias pagas, etc, aí você consegue ir ajustando até chegar nos R$35.50.\n\nOutra coisa que você pode fazer, depois de chegar ao valor desejado, é negociar com a empresa quantas horas eles vão querer você alocado lá. Por exemplo, se a empresa diz que só precisam de 4h diárias, as outras 4h podem ser mais difíceis de você preencher, já que a maioria das empresas pede 8h, nesse caso você pode colocar uma pequena margem no seu valor-hora (10-20%, que subiria para R$45 ou R$50) para esse tipo de situação, e oferecer um \"desconto\" para o valor anterior caso a empresa queira fechar 8h diárias.\n\nO lance de valor-hora muita empresa pede mesmo, só pra ter uma noção, mas o ideal é sempre negociar um valor fixo de horas com a empresa, assim evita surpresas no final do mês.\n\nE por favor, antes que alguém venha me pregar na cruz aqui, os valores que eu usei são apenas EXEMPLOS. Se você acha que seu trabalho vale mais ou menos, cabe a você ajustar a conta.\n\nDo mais, boa sorte!",
-                "comment_score": 85,
+                "comment_score": 86,
                 "comment_created_utc": 1679279260.0
             },
             {
@@ -1942,13 +2150,13 @@
             {
                 "comment_id": "jcvnsoh",
                 "comment_body": "Vc corre exatamente o mesmo risco de ser demitido em uma empresa como CLT ou como PJ. Nenhuma empresa vai deixar de te mandar embora só pq vc é CLT.\nSobre os seus direitos, todos eles são negociáveis em contrato. Seu contrato PJ pode incluir férias, licença saúde, 13°/Bônus, plano de saúde, etc. Eu por exemplo sou PJ e tenho mais dias de férias remuneradas por ano do que eu tinha quando era CLT, tudo foi negociado em contrato.\n\nE sobre o famigerado FGTS, basta vc mesmo fazer uma aplicação todo mês na renda fixa e vai ter seu próprio FGTS com um rendimento muito maior, para ficar tranquilo caso vc seja mandado embora.",
-                "comment_score": 18,
+                "comment_score": 19,
                 "comment_created_utc": 1679264529.0
             },
             {
                 "comment_id": "jcvcnx8",
                 "comment_body": "Cara, tudo depende da tua renda esperada por ano. Se tu vais ganhar mais de 81 mil por ano, tu não pode ter MEI, precisaria abrir uma empresa ME e ter obrigatoriamente um contador.\n\nSe teu faturamento for menor, é só olhar no Google como abrir um MEI, e usar o aplicativo pra gerar uma Nota fiscal por mês com o valor que tu recebe da empresa que te contratou. No próprio aplicativo se não me engano tem a opção de gerar a guia do \"simples\" que é a forma de tributação onde tudo já tá incluso e é fácil de fazer.\n\nSe o faturamento for maior, vais precisar de um contador e aí joga pra ele fazer todas as burocracias, já que vais estar pagando pelo serviço.\n\nCom relação a salário, o cálculo é o seguinte: \nPega o salário CLT, divide por 4.5 (semana em um mês) e divide por 40 (horas por semana). Isso vai te dar teu salário atual por hora, aí tu calcula quanto tu quer ganhar PJ.\n\nA conta que se faz, em média, é que a equivalência entre PJ e CLT é 60%, ou seja, se tu ganha 10 reais por hora CLT, equivale a 16 por hora PJ. Só que trocar 6 por meia dúzia não te serve, então já aumenta o valor pra algo que te agrade.\n\nOutra coisa é ver as cláusulas do contrato, por exemplo 30 dias de aviso prévio (caso eles queiram encerrar o contrato ou tu queira sair), se tem algum tempo de férias (não é obrigatório mas costuma ter), se tem algum tipo de benefício (de novo não é obrigatório já que é PJ).",
-                "comment_score": 18,
+                "comment_score": 19,
                 "comment_created_utc": 1679259943.0
             },
             {
@@ -1960,7 +2168,7 @@
             {
                 "comment_id": "jcxpwm3",
                 "comment_body": "O valor PJ seja fixo mensal ou por hora, é bom sempre considerar o que você recebe atualmente, com um aumento, não creio que você irá mudar de emprego para receber menos.\n\nNormalmente o valor PJ fica entre 1.5 a 2x o valor CLT.\n\nComo PJ, você tem mais flexibilidade, e não é recomendado para quem tem pouca experiência no mercado, pela instabilidade.\n\nSe o valor for por hora, fique atento para que seja confirmado que q demanda será integral, para você estar atuando as 8 horas por dia. É bom também deixar bem claro que qualquer excedente de horas ou urgência, o valor deve ser mais que o dobro.\n\nPJ você realmente precisa negocia, tem mais liberdade e poder de negociação, é a melhor alternativa e modalidade para quem experiência na área, logo ganhando melhor, e tendo inúmeras ofertas de trabalho.\n\nQuem não tem convencimento ou não é experiência, melhor deixar o papai estado controlar sua vida impondo as regras de como você deve trabalhar e ser tratado ao vender um terço da sua vida para uma empresa.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1679310730.0
             },
             {
@@ -1978,7 +2186,7 @@
             {
                 "comment_id": "jcvi7is",
                 "comment_body": "No atual momento eu não iria, foca em aumentar sua senioridade aprende inglês e trabalhar pra gringa, esses salários aqui do Brasil abaixo de 20k é só pra sobreviver mesmo, se tiver que pagar um AP, pagar a fatura de um carro, já tá lascado isso se não tiver família",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1679262236.0
             },
             {
@@ -2014,7 +2222,7 @@
             {
                 "comment_id": "jd0jzwi",
                 "comment_body": "de graça tá... há esperança na sociedade. HAIL !",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1679354454.0
             },
             {
@@ -2026,13 +2234,13 @@
             {
                 "comment_id": "jcvfwmi",
                 "comment_body": "Muito obrigado pelo comentário.\n\nIihh rapaz. Bom saber, obrigado pela dica. \n\nVou ver se consigo negociar um valor fixo.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1679261286.0
             },
             {
                 "comment_id": "jcwj9rp",
                 "comment_body": "Na real que é uma prática \"comum\", e é tão ilegal quanto qualquer outro contrato PJ que fazem por aí com funcionário (mesmo se contratar por um valor fixo e você desempenhar o papel de funcionário tá fora da lei).\nNão tô defendendo pq é só jeito de empresa lucrar mais ainda, mas que é comum é",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1679279474.0
             },
             {
@@ -2074,7 +2282,7 @@
             {
                 "comment_id": "jcw5xlr",
                 "comment_body": "Infelizmente é verdade.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1679273182.0
             },
             {
@@ -2092,7 +2300,7 @@
             {
                 "comment_id": "jcwq1j4",
                 "comment_body": "Todo mundo faz isso desde sempre não tem nenhum problema. Ninguem vai correr atrás da merreca de imposto do mei",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1679282964.0
             },
             {
@@ -2116,7 +2324,7 @@
             {
                 "comment_id": "jcvnafe",
                 "comment_body": "Programador não entra na lista de profissões de MEI.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1679264321.0
             },
             {
@@ -2134,7 +2342,7 @@
             {
                 "comment_id": "jcxe730",
                 "comment_body": "Só porque todo mundo faz, se é que isso é verdade, não significa que não é ilegal e que no futuro não pode ter consequências e o OP tem que estar ciente disso, os comentários anteriores poderiam facilmente induzir o OP a achar que uma coisa é legal sendo que não é, agora ele sabe, se ele quiser seguir esse caminho ou não é escolha dele.\n\nEdit: Eu não vou nem comentar sobre a deficiência de caráter em \"fazer algo porque todo mundo faz e não dá nada\" porque vocês são bem grandinhos para saber que isso é errado.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1679300934.0
             },
             {
@@ -2152,7 +2360,7 @@
             {
                 "comment_id": "jcyd3xl",
                 "comment_body": "Pra mim isso dá quase nada, minha contabilidade faz tudo.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1679322942.0
             },
             {
@@ -2186,13 +2394,13 @@
             {
                 "comment_id": "jaenx6x",
                 "comment_body": "Fica com os dois. Problema resolvido.",
-                "comment_score": 14,
+                "comment_score": 15,
                 "comment_created_utc": 1677621561.0
             },
             {
                 "comment_id": "jaea9wg",
                 "comment_body": "Eu moro na Alemanha e pra mim deu tudo certo e sei que vários outros membros aqui desse subreddit também tiveram uma experiência positiva. Antes de vir já tinha experiência de trabalhar remoto pra os Estados Unidos.\n\nFaria tudo do mesmo jeito, valeu muito a pena. Aprendi muito, fiz amigos pelo mundo.\n\nMas nem sempre da certo.\n\nNa primeira empresa que trabalhei aqui vi duas pessoas sendo demitidas no período de experiência. Um cara era um desenvolvedor sênior da Romenia muito bom e não se deu bem no time pois um dos desenvolvedores antigos da firma não gostou dele.\n\nTenho um outro amigo que aceitou uma vaga em portugal, se mudou pra lá, comprou a passagem da família. Uma semana antes da mudança da esposa e filho, foi demitido. Não conseguiu outro emprego, voltou pro Brasil com um prejuízo enorme.\n\nO que eu quero te dizer com essas histórias é que nem sempre da certo.\n\nEntão, caso você queira fazer essa tentativa, tenha um plano de contingência. Pense no que você vai fazer caso de errado e qual seria o risco disso na sua situação de vida atual.",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1677616270.0
             },
             {
@@ -2334,7 +2542,7 @@
             {
                 "comment_id": "iyevsr6",
                 "comment_body": "Acho que a maioria não espera salário igual dos nativos. Sendo que até nos EUA rola salário dependendo da localização.\n\nPra mim o ponto é, tu querer pagar um salário de 50k USD pra alguém com dez anos de experiência é uma pica. Meu salário é tipo 60 e alguma coisa USD por ano, mas eu tenho três anos de experiência. Então tá suave.\n\nMas quando meu próximo salto é tentar ir perto dos 100k/ano. Eu sei que a maioria não paga isso. Mas eu não tô nem aí pra consultoria fudida. Só que tipo, um cara com 5-6 anos de experiência nos EUA, consegue muito mais que isso e tá tudo bem.\n\nEu tô de boa em ser \"explorado\" pelos gringos e ser mão de obra barata. Mas na real, é só os EUA que tem uns salários absurdos, na Europa não é tão comum nego receber 100k não, e ainda sim, lá nego toma um IR de 50% no lombo.",
-                "comment_score": 16,
+                "comment_score": 17,
                 "comment_created_utc": 1669844631.0
             },
             {
@@ -2346,7 +2554,7 @@
             {
                 "comment_id": "iyhdhq1",
                 "comment_body": "Cara esse é o caminho mesmo! Eu tbm desisti completamente de querer morar fora atualmente. Morar no Brasil recebendo em dólar de fora é o melhor combo pra quem quer economizar muito pra aposentar cedo (entre 30 e 40 anos). O combo de moradia barata, comida barata e pouco imposto de renda é oq faz a conta fechar muito vantajosa. Além disso, com o tempo trabalhando remotamente pra fora vc consegue negociar melhores salários. O meu primeiro foi na faixa de 75k, mas agora já consegui um de 100k por ano. O próximo já consigo negociar acima disso até.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1669897376.0
             },
             {
@@ -2364,7 +2572,7 @@
             {
                 "comment_id": "iyex5ra",
                 "comment_body": ">Eu tô de boa em ser \"explorado\" pelos gringos e ser mão de obra barata. Mas na real, é só os EUA que tem uns salários absurdos\n\nEuropa em sua maioria, só Alemanha paga bem.  A maioria dos países não permite terceirização ou alocação externa com facilidade. \n\nE quando permitem, os salários são péssimos (vide Portugal).\n\nEUA e Canadá são os bons mercados no geral, se conseguir algo na Alemanha também é interessante, não sei como são os impostos lá.\n\nMas sua ideia é a mesma que a minha.",
-                "comment_score": 7,
+                "comment_score": 5,
                 "comment_created_utc": 1669845177.0
             },
             {
@@ -2412,13 +2620,13 @@
             {
                 "comment_id": "iyfhpoo",
                 "comment_body": "Imposto alto é foda demais e super desmotivador, quando a empresa da bonus fixo em USD pra todo mundo, eles convertem o valor em USD pra BRL e me pagam.\n\nEu pago 27.5% e o pessoal de lá paga 50%, e nesses casos eu recebo mais que eles.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1669854223.0
             },
             {
                 "comment_id": "iyfwn21",
                 "comment_body": "44.800 clt + bonus + beneficios",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1669861226.0
             },
             {
@@ -2448,7 +2656,7 @@
             {
                 "comment_id": "iyg3rbz",
                 "comment_body": "Então vai ter um orgasmo quando eu falar que um dos beneficios da empresa é ferias ilimitadas, e outro é 2 viagens por ano com tudo pago pra gringa com o time/empresa.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1669864530.0
             },
             {
@@ -2470,7 +2678,7 @@
             {
                 "comment_id": "itzm9u0",
                 "comment_body": "Cara, eu to abrindo o meu CNPJ também. Tô fazendo com a Agilize, mas sei lá.. ando meio com um pé atrás com eles. Primeiro pediram que eu entregasse os certificados digitais para eles (arquivo e senha), o que eu já recusei de cara - fiz até um post aqui perguntando sobre isso. Tive que ficar discutindo com eles sobre a questão das procurações que podem ser feitas, etc. Segundo que no 1º mês já tive problemas com o valor das mensalidades, foi falado um valor pra mim e no contrato veio outro. Tive que perder tempo brigando por isso também.\n\nAté pensei em conversar com a adaflow mas eu já tinha questionado e eles solicitam os certificados digitais também e não usam procuração.\n\nEu nem sabia dessa parada ai de vistoria, é obrigatório isso? Tô abrindo uma empresa na cidade dos meus pais pq moro em outro lugar de aluguel e não queria associar a empresa com endereço temporário. Se tiver essa vistoria ai, só vai me encher o saco.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1666878924.0
             },
             {
@@ -2500,7 +2708,7 @@
             {
                 "comment_id": "itzq4wd",
                 "comment_body": "Todo mundo usa esse CNAE de manutenção de computador, inclusive eu. Cara, Cnae só serve para calcular o impostos, não faz diferença para quem contrata e não tem como a policia te fiscalizar, a menos que você esteja ganhando um salário milhonário... Se não for o caso eles nem fiscalizam. \n\nAté empresas grande vivem trocando de CNAE para conseguirem pagar menos impostos. Eu não acho que seu contador está errado.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1666880538.0
             },
             {
