@@ -41,7 +41,7 @@ class Reddit_Connection:
                 user_agent="TccTeste/0.0.1",
             )
             user = self.reddit.user.me()
-            logging.info(f"Conexão bem-sucedida como: {user.name}")
+            logging.info(f"Conexão bem-sucedida como: {user.name}") #type: ignore
             return True
         except praw_exceptions.OAuthException as e:
             logging.error(f"Ocorreu um erro de autenticação: {e}")
@@ -133,7 +133,7 @@ def scrape_and_save_task(task_params):
         logging.error(f"[TASK FALHOU] - Erro durante execução {top} / {word}: {e}")
         return f"FALHA (Erro): {top} / {word}"
 
-@data_loader
+@data_loader #type: ignore
 def load_reddit_data(*args, **kwargs):
     """
     Este bloco executa o script de scraping completo.
@@ -148,7 +148,7 @@ def load_reddit_data(*args, **kwargs):
 
     keywords = [
         "ME", "CNPJ", "MEI", "Simples Nacional", "abrir empresa", "imposto MEI", "imposto"
-        "imposto ME", "imposto CNPJ", "DAS", "INSS MEI", "governo+empresa",
+        "imposto ME", "imposto CNPJ", "DAS", "INSS MEI", "governo+empresa", "IRPF",
     ]
 
     logging.info("Verificando conexão principal antes de iniciar threads...")
