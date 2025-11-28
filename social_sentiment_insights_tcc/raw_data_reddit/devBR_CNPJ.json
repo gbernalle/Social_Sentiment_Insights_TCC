@@ -1,5 +1,111 @@
 [
     {
+        "post_id": "1p7lrr0",
+        "post_title": "Ideias de ferramentas dev online para criar. Do que vocês sentem falta?",
+        "post_body": "E aí, pessoal.\n\nEstou querendo incrementar um projeto pessoal para resolver dores reais do dia a dia da nossa área. \n\nJá tenho algumas ideias de ferramentas, mas quero saber de vocês: **Qual ferramenta/utilitário vocês usam hoje que é pag0, cheio de ads, lento ou simplesmente não existe?**\n\n### Pode ser qualquer coisa:\n- Um conversor de formatos específico (ex: SQL para Mongo).\n- Geradores de massa de dados (CPF/CNPJ/Endereços).\n- Algo de visualização de logs ou JSON.\n- Ferramentas de produtividade para terminal.\n\nMe ajudem com esse \"brainstorm\" 🙏",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1p7lrr0/ideias_de_ferramentas_dev_online_para_criar_do/",
+        "is_self_post": true,
+        "post_created_utc": 1764196666.0,
+        "comments": [
+            {
+                "comment_id": "nqz4n28",
+                "comment_body": "Mano se tu fizesse um teams-cli tu ia ser meu heroi viu, nao conheço um usuario de linux que gosta de teams",
+                "comment_score": 7,
+                "comment_created_utc": 1764204029.0
+            },
+            {
+                "comment_id": "nqz493g",
+                "comment_body": "Tá perguntando onde tem peixe no meio de tubarões famintos",
+                "comment_score": 9,
+                "comment_created_utc": 1764203887.0
+            },
+            {
+                "comment_id": "nqzcn5o",
+                "comment_body": "Eu sinto falta de uma CLT que me permita tirar 90 dias de ferias REMUNERADAS por ano, além de proibir PLR baseada em rendimento do time / da empresa. Sem papo de \"até  tantos salários\", é \"X salários\" e pronto! Consegue fazer um saas disso?",
+                "comment_score": 6,
+                "comment_created_utc": 1764207075.0
+            },
+            {
+                "comment_id": "nr0j7mj",
+                "comment_body": "Uma coisa que se tornou um problema recente é fornecer para a LLM a documentação de uma biblioteca ou projeto de forma mais compactada. A maioria dos projetos tem a documentação separada em paginas e em HTML. Se fizer um projeto que junta toda a documentação em um markdown único e contínuo e deixar na pasta raiz do projeto para os agentes consultarem, já seria um grande avanço.\n\nImagino que bastaria fazer uma varredura profunda   da página principal a as sub páginas e pedir para uma LLM classificar se é documentação ou não. E depois voltar nessas páginas, renderizar o conteúdo e de alguma forma converter em markdown.",
+                "comment_score": 3,
+                "comment_created_utc": 1764225284.0
+            },
+            {
+                "comment_id": "nqyti1a",
+                "comment_body": "todo conversor de tempo em dinheiro que eu conheço ou é golpe, ou traz uma puta burocracia por tras, uma dor de cabeça terrivel pra conseguir converter e quando converto, eles ainda cobram taxa no meu tempo   \nse vc conseguir solucionar isso ia ajudar batante",
+                "comment_score": 4,
+                "comment_created_utc": 1764199929.0
+            },
+            {
+                "comment_id": "nr1fkql",
+                "comment_body": "Cara o vscode é mt ruim de teste unitário, eu animaria começar um projeto pra resolver isso, testes unitários, com debugs na jetbrains é sensacional",
+                "comment_score": 2,
+                "comment_created_utc": 1764243709.0
+            },
+            {
+                "comment_id": "nqz9kuy",
+                "comment_body": "A real eh q se eu sinto falta de alguma coisa n eh so criar?\n\nVc tem q procurar gente q não eh dev e descobrir o q eles sentem falta. Abre qualquer sistema fedido desses q a maioria das empresas usa e vc ja descobriu o q vc tem q superar\n\nSe a interface eh porca, o programa trava e o usuário vive cansado do \"sistema\" achamos um projeto",
+                "comment_score": 3,
+                "comment_created_utc": 1764205885.0
+            },
+            {
+                "comment_id": "nr0398v",
+                "comment_body": "Juntar vários PDF em um só arquivo",
+                "comment_score": 3,
+                "comment_created_utc": 1764217787.0
+            },
+            {
+                "comment_id": "nqzh2r8",
+                "comment_body": "Já existe, não? O teams-cli?",
+                "comment_score": 3,
+                "comment_created_utc": 1764208835.0
+            },
+            {
+                "comment_id": "nr23vor",
+                "comment_body": "Juntar toda a documentação num unico arquivo iria fazer o custo de token disparar, pra lidar com esse tipo de coisa alem de reunir e sistetizar a info precisa fazer um RAG",
+                "comment_score": 3,
+                "comment_created_utc": 1764253864.0
+            },
+            {
+                "comment_id": "nr4v69e",
+                "comment_body": "Te apresento ilovepdf, melhor webapp pra arquivos namoral",
+                "comment_score": 1,
+                "comment_created_utc": 1764287242.0
+            },
+            {
+                "comment_id": "nr18n6u",
+                "comment_body": "Acho que tem um mas foi descontinuado, e nao funciona nada, vou checar",
+                "comment_score": 1,
+                "comment_created_utc": 1764239816.0
+            },
+            {
+                "comment_id": "nr2m5ue",
+                "comment_body": "Você já viu como os agentes funcionam, eles usam regex para achar o conteúdo relevante dentro dos arquivos e mesmo que use toda a documentação , ainda será uma fração do conteúdo se comparado ao código de um projeto de médio porte.",
+                "comment_score": 2,
+                "comment_created_utc": 1764259790.0
+            },
+            {
+                "comment_id": "nr46n4g",
+                "comment_body": "Não, nao usam regex, eu nao tenho ideia de onde voce tirou isso, LLMs pesquisam por proximidade lexica, se foi feito algum regex é pq foi implementada uma forma de RAG.\n\nMesmo que usassem regex voce ainda paga por token enviado.\n\nSe voce usa um metodo menos primitivo de inserir contexto num LLM você melhora inclusive a resposta, entao alem de mais caro quando voce nao filtra o contexto a resposta é muito pior.",
+                "comment_score": 1,
+                "comment_created_utc": 1764278074.0
+            },
+            {
+                "comment_id": "nr4uxsn",
+                "comment_body": "Estou falando de agentes, agentes de edição de código, e eles usam regex de tal forma que até dizem durante  fase de raciocínio qual é a padrão que estão pesquisando, onde encontraram, quais linhas estão usando no contexto. Pelo visto você nunca usou um agente.\n\nSe não acredita, abre lá o VSCode como copilot e ativa o modo agente em um repositório e pede para alterar uma variável e vai ver ele buscando a variável via regex.",
+                "comment_score": 1,
+                "comment_created_utc": 1764287149.0
+            },
+            {
+                "comment_id": "nr676gp",
+                "comment_body": "Então filtrar dados pra passar a janela de contexto correta é o pre-tratamento de dados para a execução do metodo conhecido como RAG (Retrieval-Augmented Generation), usar regex é um dos metodos mais rusticos de fazer isso, se vc ja sabe que precisa tratar a porcaria dos dados antes, mas prefere ficar gastando token de um modo estupido fique a vontade",
+                "comment_score": 1,
+                "comment_created_utc": 1764307059.0
+            }
+        ]
+    },
+    {
         "post_id": "1onx906",
         "post_title": "3.500 EUROS/mês em LONDRES na Inglaterra via COOPERATIVA BR (5% taxa) – é golpe ou o futuro do nearshoring??",
         "post_body": "Fala, galera!\n\nAcabei de receber uma proposta **insana** de uma empresa de **Londres (Inglaterra)**:\n\n**Cargo:** Analista de Dados (full remote)  \n**Salário:** **€3.500/mês** (\\~R$ 21.000)  \n**Modelo:** **Cooperativa de São Paulo** (sem precisar abrir CNPJ)\n\nA empresa oferece **PJ normal**, mas **recomenda fortemente o modelo cooperado**:\n\n* **Taxa administrativa: 5%**\n* **Vs. \\~15,5% de impostos no PJ**\n* **+ Seguro de vida + Plano de saúde com coparticipação**\n* **Zero burocracia:** não precisa CNPJ, nota fiscal, contador, Carnê-Leão, nada!\n\nEles dizem que a cooperativa cuida de **tudo**: invoice, câmbio, contratos, exportação de serviço e etc.\n\nAté então, eu só conhecia **CLT** e **PJ**. Nunca ouvi falar de **modelo cooperado.**\n\n**Alguém aqui já trabalhou assim?**\n\n* Funciona mesmo?\n* É regulado pelo BC?\n* Tem pegadinha fiscal ou risco de malha fina?\n* Vale mais que PJ com exportação (6-8% de imposto)?\n\n**Me contem tudo nos comentários!**  \nSe tiver alguém que já passou por isso, marca aí ou manda DM.\n\n*(Se rolar interesse, posso até criar um grupo pra gente trocar ideia sobre isso – quem topa?)*",
@@ -10,19 +116,19 @@
             {
                 "comment_id": "nn117xh",
                 "comment_body": "Euro em Londres? Tá no mínimo estranho isso ai.",
-                "comment_score": 13,
+                "comment_score": 12,
                 "comment_created_utc": 1762245477.0
             },
             {
                 "comment_id": "nn04qb7",
                 "comment_body": "Só toma cuidado para não fazer a besteira que eu fiz: entrei de \"sócio\" em uma empresa com mais umas 30 pessoas. Dessa forma a gente podia prestar serviços para uma grande empresa sem criar vínculo empregatício.\nPara fechar essa empresa foi um parto, até achar essas 30 pessoas e pedir para assinar o distrato, foram anos. Chegamos a pensar em entrar na Justiça para fechar a empresa, mas era tudo muito caro.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1762228596.0
             },
             {
                 "comment_id": "nn0zr50",
                 "comment_body": "Cooperativa? Cagada.\n\n1828499219 sócios nessa porra. Você vai colocar seu nome em risco com um monte de gente.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1762244548.0
             },
             {
@@ -34,7 +140,7 @@
             {
                 "comment_id": "nn1ed2f",
                 "comment_body": "Vc sabe que Inglaterra não usa euros, né? \n\n\nO que vc acharia se uma empresa do México de pagasse em kwanzas?",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1762253437.0
             },
             {
@@ -150,7 +256,7 @@
             {
                 "comment_id": "ncxa9i7",
                 "comment_body": "Ta barato. É um sistema grande, o pessoal esquece que voce tambem tem que pagar impostos etc. Tem que conversar com o cliente, as vezes o projeto não fecha mesmo",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1757260867.0
             },
             {
@@ -162,7 +268,7 @@
             {
                 "comment_id": "ncvwgi3",
                 "comment_body": "Amigo, quantas horas por semana estão contabilizadas nisso? Se for 1 semana = 40h, o preco ta bom, mas dai achei alguns prazo muito grandes.\n\nTirando isso. Tem trabalho pra caramba ai, claro que vai ficar caro. Mas as vezes a cifra alta assusta o cara. Melhor mandar aos poucos.\n\nUm problema por vez",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1757243102.0
             },
             {
@@ -220,7 +326,7 @@
             {
                 "comment_id": "nbxuzfv",
                 "comment_body": "Cara, que doido kkkkkkk\n\nJá trabalhei na Vivo. O cara do número 9999-9999 sempre ligava pra reclamar que estavam colocando pacotes na linha dele sem autorização. Ele chegou a fazer portabilidade, inclusive. \n\nE, sim, a turma botava lá pra bater meta. Descaradamente.",
-                "comment_score": 41,
+                "comment_score": 39,
                 "comment_created_utc": 1756776825.0
             },
             {
@@ -232,7 +338,7 @@
             {
                 "comment_id": "nc03gs9",
                 "comment_body": "Tem o 123.456.789-09 também. E é de uma pessoa que nasceu em 2000 kkkkk\n\nDeve sofrer com isso, assim como quem tem e-mail nome(arroba)gmail.com",
-                "comment_score": 15,
+                "comment_score": 16,
                 "comment_created_utc": 1756815747.0
             },
             {
@@ -250,7 +356,7 @@
             {
                 "comment_id": "ncafvy3",
                 "comment_body": "Um certo órgão do poder judiciário resolveu converter  seu acervo de processos para formato digital. Havia processos antigos em que faltava dados das partes (nome completo, CPF, coisas do tipo), mas o novo sistema digital exigia esses dados para cadastrar os processos. Um gestor, preocupado em bater logo o prazo pra terminar tudo, decidiu “onde tiver que colocar um CPF, mete 111.111.111-11” (não precisava ser um número válido pois não havia validação pela SRF). Imagina quando descobriram que era uma pessoa real…",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1756945311.0
             },
             {
@@ -286,13 +392,13 @@
             {
                 "comment_id": "nc09vcp",
                 "comment_body": "Tenho Gmail assim. É spam intensificado, todos os dias. Consegui quando era apenas por convite - lá por 2004, um dia depois da data de launch.",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1756818068.0
             },
             {
                 "comment_id": "nc1il55",
                 "comment_body": "Daiana Lassolli é a dona, foi cancelado tbm, ela recebeu outro CPF.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1756831814.0
             },
             {
@@ -316,7 +422,7 @@
             {
                 "comment_id": "nc2k6oa",
                 "comment_body": "Pior que tem um que está ativo: 987.654.321-00.",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1756842941.0
             },
             {
@@ -512,7 +618,7 @@
             {
                 "comment_id": "n78j59j",
                 "comment_body": "Sempre abra ME, quem abre MEI sendo dev não pode reclamar de político safado",
-                "comment_score": 9,
+                "comment_score": 11,
                 "comment_created_utc": 1754490171.0
             },
             {
@@ -530,7 +636,7 @@
             {
                 "comment_id": "n78cusq",
                 "comment_body": "Se você ganha menos de 130 mil reais por ano (novo teto do MEI) abre MEI e bota qualquer coisa próxima das suas atividades\n\nSe ganha mais de 130 mil reais por ano abre ME\n\n\nEdit: 81 mil",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1754488275.0
             },
             {
@@ -578,7 +684,7 @@
             {
                 "comment_id": "n78jhua",
                 "comment_body": "Isso aqui",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1754490274.0
             },
             {
@@ -626,7 +732,7 @@
             {
                 "comment_id": "n7958a1",
                 "comment_body": "Fazer o correto conforme o comentário do rapaz.",
-                "comment_score": 1,
+                "comment_score": 0,
                 "comment_created_utc": 1754496430.0
             },
             {
@@ -656,7 +762,7 @@
             {
                 "comment_id": "n7a66b4",
                 "comment_body": "u/MaestroLizard “O correto” que você diz é passar necessidade com menos dinheiro para poder encher o bolso de burocratas?  \nSe for isso, que bela definição de “correto” você trouxe para a mesa, meus parabéns!",
-                "comment_score": 5,
+                "comment_score": 2,
                 "comment_created_utc": 1754506755.0
             },
             {
@@ -760,130 +866,6 @@
                 "comment_body": "É isso que estou tentando dizer, porém a galera não gosta da verdade prefere ser enganada pela mentira.",
                 "comment_score": 1,
                 "comment_created_utc": 1754516749.0
-            }
-        ]
-    },
-    {
-        "post_id": "1m6104b",
-        "post_title": "Please do not accept ARROMBADA VAGA",
-        "post_body": "\nO próprio recrutador corrigiu a estimativa: US$12–14/hora, ou seja, R$11k a R$13k por mês, bruto (mais ou menos US$ 2.3K).\n\nAgora vamos aos fatos:\n\nPra começar, nos EUA, um Senior Tech Project Manager ganha em média US$8.500/mês (Glassdoor, Payscale, Levels.fyi);\n\nUm freelancer júnior nos EUA cobra US$35–50/hora, enquanto aqui estão oferecendo US$12–14/hora >>> WTF?? <<<\n\n>> No Brasil, o mesmo cargo paga:\n • CLT => R$16k–22k/mês, com 13º, férias, FGTS e benefícios;\n • PJ => R$130–180/hora, ou, entre R$21k–29k/mês.\n\nEnquanto isso essa proposta internacional oferece o equivalente a R$70–90/hora, bruto, PJ, sem férias, sem 13º, sem plano de saúde, e com toda a responsabilidade jurídica e tributária nas costas do candidato 🤡 \n\nOu seja, querem alguém nível sênior, bilíngue, especializado, experiente, pra ganhar menos que um pleno CLT no Brasil. Os gringos estão achando que Brasil é bagunça! \n\nLógico que 13k reais é uma boa grana, mas veja bem, pra essa mesma posição e formato PJ pagam muito mais aqui no Brasil. Sem falar que se eles dobrassem o valor por hora ainda estariam economizando pra c@r4lho!!\n\nPronto, desabafei 🤬 ~ 😌\n\nNão aceitem vagas arrombadas, seja aqui ou na Disney.\n\nObrigado, por nada!",
-        "post_url": "https://i.redd.it/egfdekofvbef1.jpeg",
-        "is_self_post": false,
-        "post_created_utc": 1753147449.0,
-        "comments": [
-            {
-                "comment_id": "n4gbum6",
-                "comment_body": "Quando comento como você publicou, me dão downvote e só faltam me crucificar dizendo: \"Mas cara, é 13K por mês! Tu acha que dinheiro dá em árvore? Melhor 13K na mão que 29K voando\". Literalmente galera mais inocente que existe, onde acham que estão levando vantagem, mas apenas estão sendo explorados. Sem contar na contribuição da normalização em pagarem valores baixos para cargos altos. Se existe uma vaga assim, é pq existe otário aceitando. Infelizmente, mas a realidade é essa. Depois não reclamem por não ter mais vagas pagando salários altos kkkkk",
-                "comment_score": 13,
-                "comment_created_utc": 1753149862.0
-            },
-            {
-                "comment_id": "n4g8we8",
-                "comment_body": "Já consigo ouvir o pessoal do salário mínimo digitando",
-                "comment_score": 6,
-                "comment_created_utc": 1753148838.0
-            },
-            {
-                "comment_id": "n4la4na",
-                "comment_body": "As pessoas gostam muito de encher o peito pra falar que ganham em dólar, que trabalham pros EUA sem sair de casa, e esse tipo de coisa.\n\nA real é que as próprias empresas americanas, às vezes nem americanas são, vêem esse tipo de gente como mão de obra barata que fazem muito mais por muito menos. \n\nNo começo, pré-pandemia tinha bastante gente ganhando bem. Mas o tempo foi passando e as empresas descobriram que tem bastante gente que aceita receber menos. A situação foi avançando até chegar nesse ponto.\n\nO fato é que tá cheio de gente que aceita fazer o trabalho por R$15k PJ, e eu já te adianto que não vai faltar profissional pra aceitar. \n\nTalvez sejam pessoas com um nível profissional mais baixo que o seu, não conheço vc, mas o fato é que eles existem.",
-                "comment_score": 3,
-                "comment_created_utc": 1753216007.0
-            },
-            {
-                "comment_id": "n4rvi7q",
-                "comment_body": "Gringo aprendeu a converter USD->BRL, buscou a média salarial do BR e só aplicou. Culpa da merda de Real que é desvalorizado. Pergunta na Europa se eles aceitam 2.1k€(2.5k$) hahaha",
-                "comment_score": 1,
-                "comment_created_utc": 1753300721.0
-            },
-            {
-                "comment_id": "n4qjppo",
-                "comment_body": "Tá virando bagunça. Dia desses eu vi uma vaga entry-level com orçamento de $1000/mês.",
-                "comment_score": 0,
-                "comment_created_utc": 1753287526.0
-            },
-            {
-                "comment_id": "n4gbkns",
-                "comment_body": "Tá pagando mal a vera, mas isso aí salva a vida de muita gente aqui. Não julgo quem aceita não. Hoje mesmo li post do maluco recebendo 5k PJ",
-                "comment_score": -5,
-                "comment_created_utc": 1753149764.0
-            },
-            {
-                "comment_id": "n4io9ln",
-                "comment_body": "Ué fí, qual o problema?  \nVocês não são imaculados não, isso vai acontecer, esse trabalho aí nem é difícil, é só fazer OE.",
-                "comment_score": -6,
-                "comment_created_utc": 1753189349.0
-            },
-            {
-                "comment_id": "n4hzwk7",
-                "comment_body": "Exatamente! E o maior plot twist dessa história é que o recrutador é brasileiro. Estamos voltando aos tempos da senzala e capataz.",
-                "comment_score": 3,
-                "comment_created_utc": 1753179229.0
-            },
-            {
-                "comment_id": "n4i0i73",
-                "comment_body": "Sem falar que 13K é no meu ovo esquerdo, né. Isso aí é o valor bruto, ou seja, antes de impostos, contador e por aí vai.",
-                "comment_score": 2,
-                "comment_created_utc": 1753179546.0
-            },
-            {
-                "comment_id": "n4suwkw",
-                "comment_body": "Não aceitam. Informe-se.",
-                "comment_score": 1,
-                "comment_created_utc": 1753311218.0
-            },
-            {
-                "comment_id": "n4gcyxh",
-                "comment_body": "Sênior?",
-                "comment_score": 3,
-                "comment_created_utc": 1753150262.0
-            },
-            {
-                "comment_id": "n4hzrfo",
-                "comment_body": "Depois não venham reclamar que o mercado está sendo nivelado por baixo e que vcs não conseguem salários decentes pras posições que ocupam. Aceitar esse tipo de oferta é validar a exploração.",
-                "comment_score": 3,
-                "comment_created_utc": 1753179154.0
-            },
-            {
-                "comment_id": "n4iotc0",
-                "comment_body": "Vai lá e se candidata então, fí.",
-                "comment_score": 3,
-                "comment_created_utc": 1753189533.0
-            },
-            {
-                "comment_id": "n4i3o0r",
-                "comment_body": "Os br dando pernada em outros br 🤣",
-                "comment_score": 3,
-                "comment_created_utc": 1753181164.0
-            },
-            {
-                "comment_id": "n4t0xbs",
-                "comment_body": "Não foi uma pergunta, foi uma afirmação!",
-                "comment_score": 1,
-                "comment_created_utc": 1753313158.0
-            },
-            {
-                "comment_id": "n4mh029",
-                "comment_body": "Beleza, falta de empatia é isso mesmo, prefere o maluco desempregado pra tu não ter uma suposta ameaça no teu salário.",
-                "comment_score": 0,
-                "comment_created_utc": 1753229153.0
-            },
-            {
-                "comment_id": "n4iozvx",
-                "comment_body": "blz, aí vou te avisano",
-                "comment_score": -5,
-                "comment_created_utc": 1753189595.0
-            },
-            {
-                "comment_id": "n4iqya9",
-                "comment_body": "Isso, avisa o tamanho da chibata ou da pika 👍",
-                "comment_score": 4,
-                "comment_created_utc": 1753190250.0
-            },
-            {
-                "comment_id": "n4jzdfc",
-                "comment_body": "\\>chibata, literal todo dev vem com papo de que a classe tem que se unir, mas fulano fala isso com 3 OE nas costas pegando vaga dos \"JR\" ou dos \"coleguinhas.\"\n\nTorço muito pra que esse valor seja o normal, ou até mais baixo.",
-                "comment_score": -7,
-                "comment_created_utc": 1753203023.0
             }
         ]
     },
@@ -1040,13 +1022,13 @@
             {
                 "comment_id": "n0muz6b",
                 "comment_body": "Contabilizei tá uma titica. Tinha suporte rápido agora colocaram um chatgpt da vida q não resolve nada e vc tem q repetir tudo pro atendente. Outro problema é q caiu bastante a qualidade dos atendentes, se tu der azar pega umas pessoas bem tapadas q não resolvem nada.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1751313045.0
             },
             {
                 "comment_id": "n0oupo6",
                 "comment_body": "Pega um escritório de verdade (hoje em dia tem muitos que atendem 100% remoto), que você consegue falar com o contador quando precisa. É o que eu uso há 10 anos. \n\nEsses sites de contabilidade em massa saem um pouco mais barato, mas te deixam na mão quando você precisa de algo diferente ou acontece algum B.O.\n\nQualquer coisa dá uma passada no r/ContabilidadeAtual que sempre tem um pessoal que pode te ajudar com isso lá.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1751336361.0
             },
             {
@@ -1204,7 +1186,7 @@
             {
                 "comment_id": "m5f98ka",
                 "comment_body": "Uma dica: seu \"M\"VP tá gigante.\n\nVc pode até contratar alguém pra fazer tudo isso, mas vai gastar muito tempo e dinheiro sem nem saber se a ideia funciona.\n\nVê o que é realmente essencial para validar a sua ideia e corta o que está fora.",
-                "comment_score": 10,
+                "comment_score": 8,
                 "comment_created_utc": 1736029007.0
             },
             {

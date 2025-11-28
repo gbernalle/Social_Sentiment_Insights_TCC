@@ -1,2 +1,8 @@
+version: 0.1.1
+default:
+  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS') }}"
+  GOOGLE_LOCATION: "US"
+
 mage-pipeline-robot:
-  GOOGLE_SERVICE_ACCOUNT_CREDENTIALS: "{{ repo_path }}/desafio-estagio-concert-fc29362810a1.json"
+  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS') }}"
+  GOOGLE_LOCATION: "US"

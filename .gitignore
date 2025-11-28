@@ -1,6 +1,47 @@
-# Arquivos de Segredo (Chaves de API)
-keyword.env
-desafio-estagio-concert-fc29362810a1.json
+# Ignore environment variable files containing passwords.
+.env
 
-# Ambiente virtual
-env
+# Ignore the folder containing the Google key.
+secrets/
+
+# Ignore loose credential JSON files (as a precaution).
+*service_account*.json
+*credentials*.json
+gcp_key.json
+desafio-estagio-concert-*.json
+
+# Ignore the folder where Mage stores logs.
+mage_data/
+.mage_data/
+
+# Ignore the raw data downloaded from Reddit (Json and CSV).
+raw_data_reddit/
+# Ignore any temporary data files.
+*.parquet
+*.csv
+
+# Compiled files and cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+
+# IDE and System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# GENERAL LOGS
+*.log
+
+# MAGE INTERNS
+.file_versions/
+.variables/
+.logs/
+logs/
+pipelines/*/.variables/
+
+# Local NLP Models
+local_models/

@@ -1,0 +1,30 @@
+services:
+  mage:
+    build: .
+    container_name: mage_tcc_gpu
+    # Enables the NVIDIA GPU within the container.
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command: mage start social_sentiment_insights_tcc
+    env_file:
+      - .env  # Load Reddit keys
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: /home/src/secrets/desafio-estagio-concert-fc29362810a1.json
+      
+      # Tell Mage where the project code is located.
+      USER_CODE_PATH: /home/src/social_sentiment_insights_tcc
+      
+      # Forces PyTorch to use the GPU if available.
+      CUDA_VISIBLE_DEVICES: 0
+    ports:
+      - "6789:6789"
+    volumes:
+      - ./:/home/src
+      # The internal Mage data (logs, metadata) persists.
+      - ./mage_data:/home/src/mage_data
+    restart: on-failure

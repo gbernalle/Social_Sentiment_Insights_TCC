@@ -1,56 +1,73 @@
 import pandas as pd
 import logging
 import os
+import torch
 from mage_ai.settings.repo import get_repo_path
 
 try:
     from transformers import pipeline, AutoTokenizer
 except ImportError:
-    logging.error("Biblioteca 'transformers', 'torch' ou 'AutoTokenizer' não encontrada. Por favor, instale com: pip install transformers torch")
+    logging.error("Libraries 'transformers', 'torch' or 'AutoTokenizer' not found. Please install them.")
     raise
 
 if 'transformer' not in globals():
     from mage_ai.data_preparation.decorators import transformer
 
-MODEL_NAME = "ricardo-filho/bert-base-portuguese-cased-nli-assin-2"
+# --- GPU Configuration ---
+device_id = 0 if torch.cuda.is_available() else -1
+device_name = torch.cuda.get_device_name(0) if device_id == 0 else "CPU"
+logging.info(f"Zero-Shot NLP running on: {device_name}")
 
-classifier = None
-tokenizer = None
+MODEL_NAME = "ricardo-filho/bert-base-portuguese-cased-nli-assin-2"
 MODEL_MAX_LENGTH = 512 
 
-try:
-    logging.info(f"Carregando modelo Zero-Shot (da Internet): {MODEL_NAME}...")
-    
-    classifier = pipeline(
-        "zero-shot-classification",
-        model=MODEL_NAME,
-        hypothesis_template="Este texto é sobre {}." 
-    )
-    logging.info("Modelo Zero-Shot carregado com sucesso.")
+# Global variables for model caching in memory
+classifier = None
+tokenizer = None
 
-    logging.info(f"Carregando Tokenizer (da Internet): {MODEL_NAME}...")
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-    logging.info("Tokenizer carregado com sucesso.")
-    
-except Exception as e:
-    logging.error(f"Erro ao carregar modelo/tokenizer da Internet: {e}")
-    classifier = None
-    tokenizer = None
+def load_models():
+    """Loads the model into VRAM if not already loaded."""
+    global classifier, tokenizer
+    if classifier is None:
+        logging.info(f"Loading Zero-Shot model on {device_name}...")
+        try:
+            # The 'device' parameter sends the model directly to the GPU
+            classifier = pipeline(
+                "zero-shot-classification",
+                model=MODEL_NAME,
+                hypothesis_template="Este texto é sobre {}.", # Hypothesis remains in PT because the model is PT
+                device=device_id 
+            )
+            tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+            logging.info("Models loaded into VRAM.")
+        except Exception as e:
+            logging.error(f"Error loading model: {e}")
+            raise e
+    return classifier, tokenizer
 
 candidate_labels = [
-    "dúvidas técnicas sobre burocracia (impostos, DAS, CNPJ, nota fiscal)",
-    "medo, insegurança, dívidas ou sobrecarga de trabalho",
-    "dúvidas ou queixas sobre direitos trabalhistas (férias, INSS, aposentadoria)",
-    "conflito entre o 'sonho' de ser chefe e a 'realidade' do trabalho",
-    "discussão sobre clientes, marketing e vendas",
+    # Capturing "Pejotização" (Lima & Oliveira): Disguised subordination
+    "vaga de emprego mascarada de pessoa jurídica com cumprimento de horário e subordinação a chefe",
+    
+    # Captures "Precarization" (Antunes): The lack of social protection
+    "ausência de direitos trabalhistas, férias remuneradas, décimo terceiro ou segurança social",
+    
+    # Capture the "Fiscal Risk" (Alert from the Attorney General's Office/Government): The fear of debt.
+    "problemas com dívidas de impostos, DAS atrasado, nome sujo ou medo da Receita Federal",
+    
+    # It captures "Survival Entrepreneurship" (Post-pandemic reality)
+    "trabalho por necessidade imediata, bicos, entregas ou luta para pagar contas básicas",
+    
+    # Capture the "Opportunity Entrepreneurship" (Official/Liberal discourse - for contrast)
+    "estratégias de crescimento do negócio, investimentos, marketing e expansão de clientes",
 ]
 
 labels_subject = [
-    "Burocracia e Dúvidas",
-    "Vulnerabilidade e Risco",
-    "Percepção de Direitos",
-    "Identidade e Conflito",
-    "Operação e Vendas",
+    "Pejotização e Subordinação",    # The False Self-Employed
+    "Precarização de Direitos",      # The loss of the CLT (Consolidation of Labor Laws)
+    "Risco Fiscal e Dívida",         # The weight of the State
+    "Sobrevivência e Necessidade",   # The reality of the crisis
+    "Gestão e Oportunidade",         # The "success" (Control group)
 ]
 
 label_map = dict(zip(candidate_labels, labels_subject))
@@ -59,85 +76,46 @@ label_map = dict(zip(candidate_labels, labels_subject))
 def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
     
     if data.empty:
-        logging.warning("O Bloco 2 (Transform) retornou um DataFrame vazio. Pulando o filtro.")
-        return pd.DataFrame() 
-
-    if not classifier or not tokenizer:
-        logging.error("Modelo de NLP 'Zero-Shot' ou Tokenizer não foi carregado. Abortando.")
-        raise Exception("Modelo de NLP 'Zero-Shot' ou Tokenizer não carregado.")
-
-    if 'text_clean' not in data.columns:
-        logging.error("DataFrame de entrada não contém a coluna 'text_clean'. Verifique o Bloco 2.")
-        return data
-
-    logging.info(f"Iniciando CATEGORIZAÇÃO de contexto (Zero-Shot) em {len(data)} registros...")
-    logging.info(f"Calculando o comprimento máximo permitido (baseado nas {len(candidate_labels)} categorias)...")
-    
-    all_label_tokens = [len(tokenizer(label, add_special_tokens=False)['input_ids']) for label in candidate_labels]
-    
-    max_label_len = max(all_label_tokens)
-    buffer_len = max_label_len + 3 
-    
-    SAFETY_MARGIN = 10 
-    
-    max_text_len_allowed = MODEL_MAX_LENGTH - buffer_len - SAFETY_MARGIN
-    
-    logging.info(f"Etiqueta mais longa: {max_label_len} tokens. Buffer: {buffer_len} tokens. Margem: {SAFETY_MARGIN} tokens.")
-    logging.info(f"Comprimento máximo permitido para um TEXTO: {max_text_len_allowed} tokens.")
-    
-    texts_series = data['text_clean'].fillna('')
-    token_lengths = [len(ids) for ids in tokenizer(texts_series.tolist(), add_special_tokens=False)['input_ids']]
-    
-    is_too_long = pd.Series(token_lengths, index=texts_series.index) > max_text_len_allowed
-    num_removed = is_too_long.sum()
-    
-    if num_removed > 0:
-        logging.info(f"REMOVENDO {num_removed} registros por excederem o limite (com margem de segurança).")
-        data = data[~is_too_long].copy()
-    else:
-        logging.info("Nenhum texto excedeu o limite do modelo.")
-        
-    if data.empty:
-        logging.warning("Nenhum registro restou após o filtro de comprimento.")
-        return pd.DataFrame()
-    
-    texts_to_classify = data['text_clean'].dropna().tolist()
-    
-    if not texts_to_classify:
-        logging.warning("Não há textos limpos para classificar após os filtros.")
+        logging.warning("Previous block returned empty DataFrame. Skipping.")
         return pd.DataFrame()
 
+    classifier, tokenizer = load_models()
+
+    logging.info(f"Starting Zero-Shot Classification on {len(data)} records...")
+    
+    texts_to_classify = data['text_clean'].fillna('').tolist()
+    
     try:
-        logging.info(f"Classificando {len(texts_to_classify)} textos válidos (curtos)...")
-        
+        # GPU Magic: batch_size > 1
+        # With 6GB VRAM, batch_size=32 is generally safe for BERT Base.
         results = classifier(
             texts_to_classify, 
             candidate_labels, 
             multi_label=False, 
-            batch_size=16
+            batch_size=32,
+            truncation=True 
         )
-                
-        logging.info("Classificação concluída. Mapeando resultados...")
-
-        df_results = pd.DataFrame(results) #type: ignore
         
-        # Pega a label com maior score (ex: "dúvidas técnicas sobre burocracia...")
-        data['categoria_raw'] = df_results['labels'].str[0].values
+        df_results = pd.DataFrame(results) #type:ignore
         
-        # Pega o score dessa label
-        data['categoria_score'] = df_results['scores'].str[0].values
+        # Get the label with the highest score
+        data['category_raw'] = df_results['labels'].str[0].values
+        data['category_score'] = df_results['scores'].str[0].values
+        
+        # Map to English labels
+        data['category_tcc'] = data['category_raw'].map(label_map)
+        
+        # Drop the raw Portuguese label column to keep it clean
+        data = data.drop(columns=['category_raw'])
 
-        # Mapeia a label longa para o "apelido" curto (ex: "Burocracia e Dúvidas")
-        # Usando o 'label_map' definido fora da função
-        data['categoria_tcc'] = data['categoria_raw'].map(label_map)
-
-        data = data.drop(columns=['categoria_raw']) 
-
-        logging.info(f"Categorização por tópico concluída. {len(data)} registros foram categorizados.")
-        logging.info("Novas colunas adicionadas: 'categoria_tcc' e 'categoria_score'")
+        # Save local checkpoint (safety measure)
+        cache_path = os.path.join(get_repo_path(), "cache_semantic.parquet")
+        data.to_parquet(cache_path)
+        logging.info(f"Checkpoint saved at: {cache_path}")
 
         return data
 
     except Exception as e:
-        logging.error(f"Falha durante a classificação Zero-Shot: {e}")
-        return data
+        logging.error(f"Error during GPU processing: {e}")
+        # Hint: Try reducing batch_size if Out Of Memory (OOM) occurs
+        raise e

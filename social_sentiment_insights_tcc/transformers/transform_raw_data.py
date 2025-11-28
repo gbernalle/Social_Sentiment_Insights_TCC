@@ -2,25 +2,34 @@ import pandas as pd
 import json
 import re
 import logging
+import os
 from pathlib import Path
+from mage_ai.settings.repo import get_repo_path
 
 try:
     from langdetect import detect, LangDetectException
 except ImportError:
-    logging.error("Biblioteca 'langdetect' não encontrada. Por favor, instale com: pip install langdetect")
+    logging.error("Library 'langdetect' not found. Please install with: pip install langdetect")
     raise
 
 def clean_text(text) -> str:
+
+    """Standardizes text: lowercase, removes links, special characters, and extra spaces."""
+
     if not isinstance(text, str): return ""
     text = text.lower()
     text = re.sub(r'http\S+', '', text)
     text = re.sub(r'\[.*?\]', '', text)
     text = re.sub(r'\n', ' ', text)
+    # Keeps common Portuguese accented characters
     text = re.sub(r'[^a-z0-9à-ú\s]', '', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 def detect_language(text) -> str:
+
+    """Detects the language of the text. Returns 'und' if undetectable or too short."""
+
     if not text or not isinstance(text, str) or len(text.strip()) < 25:
         return 'und'
     try:
@@ -28,39 +37,34 @@ def detect_language(text) -> str:
     except LangDetectException:
         return 'und'
 
-
 @transformer # type: ignore
 def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
     """
-    Lê todos os JSONs da pasta raw, aplica filtro de idioma,
-    limpa e retorna um DataFrame padronizado.
+    Reads all JSON files, filters by language, applies Regex for keywords, 
+    and returns a standardized DataFrame.
     """
     
     if not data_from_loader or not isinstance(data_from_loader, dict):
-        logging.warning("O Bloco 1 (Data Loader) não retornou um dicionário. O Bloco 1 foi executado primeiro?")
+        logging.warning("Block 1 did not return a valid dictionary.")
         return pd.DataFrame()
 
     if 'raw_data_path' not in data_from_loader:
-        logging.warning("Dicionário do Bloco 1 não contém a chave 'raw_data_path'.")
+        logging.warning("Key 'raw_data_path' not found in loader output.")
         return pd.DataFrame()
     
-    logging.info("Recebido com sucesso o dicionário do Bloco 1.")
-    
     raw_data_path = Path(data_from_loader['raw_data_path'])
-    
     all_data = [] 
     json_files = list(raw_data_path.glob("*.json"))
-    logging.info(f"Encontrados {len(json_files)} arquivos JSON para processar em {raw_data_path}")
+    logging.info(f"Found {len(json_files)} JSON files in {raw_data_path}")
 
     for file_path in json_files:
         subreddit_name = file_path.stem.split('_')[0]
-        logging.info(f"Processando arquivo: {file_path.name}")
-        
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 posts = json.load(f) 
                 for post in posts:
-                    post_text = post.get('post_title', '') + ' ' + post.get('post_body', '')
+                    # Concatenates title and body
+                    post_text = (post.get('post_title', '') or '') + ' ' + (post.get('post_body', '') or '')
                     all_data.append({
                         'id': post.get('post_id'), 'parent_post_id': post.get('post_id'),
                         'type': 'post', 'text_raw': post_text,
@@ -76,101 +80,56 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
                             'subreddit': subreddit_name
                         })
         except Exception as e:
-            logging.error(f"Erro ao processar o arquivo {file_path.name}: {e}")
+            logging.error(f"Error processing file {file_path.name}: {e}")
             continue 
 
-    logging.info(f"Total de {len(all_data)} registros (posts + comentários) extraídos.")
-
     if not all_data:
-        logging.warning("Nenhum dado foi extraído dos arquivos JSON. Retornando DataFrame vazio.")
+        logging.warning("No data extracted.")
         return pd.DataFrame()
 
     df = pd.DataFrame(all_data)
     df = df.drop_duplicates(subset=['id'])
 
-    logging.info("Iniciando detecção de idioma...")
+    logging.info("Starting language detection...")
     df['language'] = df['text_raw'].apply(detect_language)
-    logging.info("Detecção de idioma concluída.")
-
-    df_portugues = df[df['language'] == 'pt'].copy()
     
-    num_removidos = len(df) - len(df_portugues)
-    logging.info(f"Filtro de idioma aplicado. {num_removidos} registros (provavelmente em inglês) removidos.")
+    # Filter for Portuguese content
+    df_portuguese = df[df['language'] == 'pt'].copy()
+    logging.info(f"Language filter: {len(df)} -> {len(df_portuguese)} records.")
 
-    if df_portugues.empty:
-        logging.warning("Nenhum dado em português encontrado após o filtro.")
+    if df_portuguese.empty:
         return pd.DataFrame()
 
-    df_portugues['created_at'] = pd.to_datetime(df_portugues['created_utc'], unit='s')
-
-    pandemic_end_date = pd.to_datetime("2022-05-22")
-
-    df_filtered_date = df_portugues[df_portugues['created_at'] >= pandemic_end_date].copy()
-
-    logging.info(f"Filtro temporal aplicado. Removidos {len(df_portugues) - len(df_filtered_date)} registros pré-pandemia")
-    logging.info(f"Registros restantes: {len(df_filtered_date)}")
-
-    if df_filtered_date.empty:
-        logging.warning("nenhum dado encontrado após o filtro temporal.")
-        return pd.DataFrame()
+    # Date Conversion
+    df_portuguese['created_at'] = pd.to_datetime(df_portuguese['created_utc'], unit='s')
     
-    df_filtered_date['created_at'] = df_filtered_date['created_at'].dt.strftime('%Y-%m-%d')
-    df_filtered_date['text_clean'] = df_filtered_date['text_raw'].apply(clean_text)
+    # NOTE: Date filter removed to allow full historical analysis (Pandemic vs Post-Pandemic)
+    
+    df_portuguese['created_at'] = df_portuguese['created_at'].dt.strftime('%Y-%m-%d')
+    df_portuguese['text_clean'] = df_portuguese['text_raw'].apply(clean_text)
 
-    df_final_clean = df_filtered_date.dropna(subset=['text_clean']).copy()
-
+    # Remove empty or deleted posts
     unwanted_texts = ['', 'deleted', 'removed']
-    df_final_clean = df_filtered_date.dropna(subset=['text_clean'])
+    df_final_clean = df_portuguese.dropna(subset=['text_clean'])
     df_final_clean = df_final_clean[~df_final_clean['text_clean'].isin(unwanted_texts)]
 
-    final_columns = [
-        'id', 'parent_post_id', 'type', 'subreddit', 'created_at', 
-        'text_raw', 'text_clean', 'language', 'url'
-    ]
-    
-    df_final = df_final_clean.reindex(columns=final_columns) 
-    df_final = df_final.sort_values(by='created_at').reset_index(drop=True)
-    
-    logging.info(f"DataFrame pré-filtro de keyword tem: {len(df_final)} linhas.")
+    # Contextual Regex
+    safe_keywords = r'\b(?:cnpj|simples nacional|inss|previdência|mei)\b'
+    das_context = r'\b(?:o|do|no|pagar|guia|boleto|valor|atrasado) das\b'
+    tax_context = r'(?:\b(?:pagar|pago|paguei|o|do|no|um|qual|quanto|sonegar) imposto\b|\b(imposto) (?:de|do|da|mei|simples|sobre|renda)\b)'
+    contractor_context = r'(?:\b(?:vaga|contrato|regime|trabalhar|sou|virar|ser|clt|versus|vs|híbrido) pj\b|\b(pj) (?:ou|vs|versus|clt|sem|com|pagar|receber)\b)'
+    gig_economy_context = r'\b(?:uber|99|indriver|ifood|rappi|loggi|entregador|motoboy|motorista de aplicativo)\b'
+    precarious_context = r'\b(?:sem férias|sem décimo|sem 13º|sem fgts|sem direitos|falso autônomo|pejotização|uberização)\b'
+    mei_context = r'(?:\b(?:o|do|no|pro|meu|um|abrir|sou|virar|ser|pagar|guia|boleto) mei\b|\b(mei) (?:ta|é|atrasado|da|de|pra|cnpj|me)\b)'
 
-    safe_keywords = r'\b(?:cnpj|simples nacional)\b'
+    regex_pattern = f'(?:{safe_keywords}|{das_context}|{tax_context}|{contractor_context}|{gig_economy_context}|{precarious_context}|{mei_context})'
     
-    # DAS (Contextualizado - do filtro anterior)
-    #    (o das, pagar das, guia das, etc.)
-    das_context = r'\b(?:o|do|no|pagar|guia|boleto|valor) das\b'
-    
-    # Imposto (Contextualizado - FORMA DE SUBSTANTIVO)
-    #    Queremos: (pagar imposto, o imposto, imposto de, imposto mei)
-    #    NÃO queremos: (me imposto, se imposto)
-    imposto_context = (
-        r'(?:\b(?:pagar|pago|paguei|o|do|no|um|qual|quanto) imposto\b'  # Contexto ANTES
-        r'|\b(imposto) (?:de|do|da|mei|simples|sobre)\b)'                 # Contexto DEPOIS
-    )
-    
-    # 4. MEI (Contextualizado - FORMA DE NEGÓCIO)
-    #    Queremos: (o mei, meu mei, sou mei, abrir mei, mei da, mei é)
-    #    NÃO queremos: (me deixou mei triste, fiquei mei assim)
-    mei_context = (
-        r'(?:\b(?:o|do|no|pro|meu|um|abrir|sou|virar|ser|pagar|guia|boleto) mei\b' # Contexto ANTES
-        r'|\b(mei) (?:ta|é|atrasado|da|de|pra|cnpj|me)\b)'                        # Contexto DEPOIS
-    )
-    
-    regex_pattern = f'(?:{safe_keywords}|{das_context}|{imposto_context}|{mei_context})'
-    
-    logging.info(f"Usando padrão de regex Super-Refinado: {regex_pattern}")
+    logging.info(f"Applying refined Regex filtering...")
+    df_with_keywords = df_final_clean[df_final_clean['text_clean'].str.contains(regex_pattern, na=False, case=False)].copy()
 
-    df_com_keywords = df_final[df_final['text_clean'].str.contains(regex_pattern, na=False, case=False)].copy()
+    logging.info(f"Keyword Filtering: {len(df_final_clean)} -> {len(df_with_keywords)} relevant records.")
 
-    num_removidos = len(df_final) - len(df_com_keywords)
-    logging.info(f"Filtro de Keyword (grosso) removeu {num_removidos} posts irrelevantes.")
-    logging.info(f"Registros restantes para a IA: {len(df_com_keywords)}")
-
-    if df_com_keywords.empty:
-        logging.warning("Nenhum post sobreviveu ao filtro de keywords.")
-        return pd.DataFrame()
-
-    df_final = df_com_keywords.reset_index(drop=True)
-
-    logging.info(f"Processamento concluído. {len(df_final)} registros limpos e padronizados.")
+    final_columns = ['id', 'parent_post_id', 'type', 'subreddit', 'created_at', 'text_raw', 'text_clean', 'language', 'url']
+    df_final = df_with_keywords.reindex(columns=final_columns).reset_index(drop=True)
     
     return df_final

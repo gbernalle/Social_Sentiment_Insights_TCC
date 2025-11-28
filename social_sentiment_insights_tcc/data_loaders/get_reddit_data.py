@@ -8,7 +8,6 @@ from dataclasses import dataclass
 from prawcore import exceptions as praw_exceptions
 from praw.models import Comment
 from pathlib import Path
-from dotenv import load_dotenv
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -17,8 +16,6 @@ logging.basicConfig(
 @dataclass
 class Reddit_Connection:
     def __init__(self):
-        env_path = os.path.join(get_repo_path(), 'keyword.env')
-        load_dotenv(dotenv_path=env_path) 
         self.client_id = os.getenv("CLIENT_ID")
         self.secret_key = os.getenv("SECRET_KEY")
         self.password = os.getenv("PASSWORD")
@@ -135,12 +132,13 @@ def load_reddit_data(*args, **kwargs):
         "investimentos", "brasil",  "farialimabets", "empreendedorismo", "MicroEmpresas","devBR",
         "brdev", "Empreendedor", "Liderança", "StartupsAjudaStartups", "Os Fundadores",
         "crescermeunegócio", "capital de risco", "empreendedor avançado", "produtividade", 
-        "mídias sociais", "MicroEmpresas", "MeuNegocio"
+        "mídias sociais", "MicroEmpresas", "MeuNegocio","antitrampo"
     ]
 
     keywords = [
         "ME", "CNPJ", "MEI", "Simples Nacional", "abrir empresa", "imposto MEI", "imposto"
         "imposto ME", "imposto CNPJ", "DAS", "INSS MEI", "governo+empresa", "IRPF",
+        "Uber", "iFood", "pj", "emprego","Uberização"
     ]
 
     check_client = Reddit_Connection()
@@ -156,10 +154,16 @@ def load_reddit_data(*args, **kwargs):
         results = list(executor.map(scrape_and_save_task, tasks))
 
     logging.info("All tasks have been processed.")
+    
+    for r in results:
+        if "FAILURE" in r:
+            logging.error(f"Final result: {r}")
+        else:
+            logging.info(f"Final result: {r}")
             
     base_path = get_repo_path()
     raw_data_path = os.path.join(base_path, "raw_data_reddit")
 
-    logging.info(f"Raw data saved in: {raw_data_path}")
+    logging.info(f"Dados brutos salvos em: {raw_data_path}")
     
     return {"raw_data_path": raw_data_path}

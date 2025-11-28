@@ -1,0 +1,13 @@
+mage-ai
+google-cloud-bigquery
+pandas-gbq
+db-dtypes
+praw
+python-dotenv
+transformers
+# Baixa o PyTorch compatível com CUDA 11.8
+torch --index-url https://download.pytorch.org/whl/cu118
+bertopic
+sentence-transformers
+langdetect
+spacy

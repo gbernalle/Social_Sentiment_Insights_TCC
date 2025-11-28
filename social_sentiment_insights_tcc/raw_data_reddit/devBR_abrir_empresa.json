@@ -1,5 +1,127 @@
 [
     {
+        "post_id": "1p85sm8",
+        "post_title": "Dúvida sobre precificação projeto de inovação em dados e supply chain com IAweb apps e ML - Pessoal, atualmente, estou atuando como full cycle de dados por 4000 R$ PJ sem nem um caroço de feijão a mais, pedi 7100 para 24M de contrato e a empresa recusou, eu vou sair e pensei nessa proposta. Avaliem",
+        "post_body": "Estou há 6 meses em uma empresa de revenda de peças agricolas, 12 milhoes faturamento ano, 3 estoques, 3 filiais, importação e fábrica própria, quando cheguei eles faziam planejamento de compra na mão com media simples total ano /12 \\*3 e comprava, sobrava peça e faltava peça, entrei e em 2 meses reformulei a empresa, mas os donos não tem cultura de resultado, mapeei mais de 34 milhões em orçamento nao fechado, montei plano de ação, etc.\n\n\n\nAempresa não consegue executar, não contrata ninguém, não contrata um CS, um revops, quando planejo compra eles tiram pro que dizem que \"está gastando demais\", removem itens do planejamento que uma semana depois falta, e agora, começaram a me pedir coisa operacional, como abrir ordem de compra, por que não querem contratar compradores pra atuar nas preventivas que estou mapeando, além de falarem que querem que eu ensine alguém fazer o meu serviço, ou transfira conhecimento ou ferramentas. \n\n\n\nTudo que eu fiz até agora está no meu pendrive e ambiente próprio, eu fiz isso acreditando que a empresa abraçaria, pois no começo, eles falaram que queriam crescer 30 % em um ano e eu acho até simples, por que já tem o potenical, mas não tem planejamento, ação, execução. Ao passar do tempo fui ficando desanimado, ainda mais depois dessa, essa semana eu mapeei o estoque e tem 99,5 % de precisão pra 3500 sku de alta sazonalidade, tem pipeline com ML montado com o prophet que está acertando com 3,5 % de erro compras de 500 mil reais, ou seja, os cara ta achando que eu sou idiota, eu já fiz entrevista em empresa grande, ibm, accenture, mas não consigo entrar por que eu sou do interior, etc, e eu nem ligo pra isso, eu sei que sou bom, mas ninuém abre a porta pra mim. \n\n\n\nDe todo modo, estou fazendo algo pra eles que não tem 3 empresa na cidade que tem, crédito, risco, compras, coisa de time de 10 pessoa, sendo só eu, eles não precisaram desde que entrei investir 1 real em sistema ou plataforma, estou fazendo tudo por eu mesmo e agora inventaram que querem que eu ensine alguém, isso eu jamais vou fazer. \n\n\n\nHá 3 meses eu fiz uma proposta, 7100 sendo  o piso e o mínimo para em 24 meses dar autonomia pra eles, por que segundo eles, eu atuar como pj e não entregar as ferraementas ( eu executo os relatorios, dou link a sistemas, mas eu não implantei absolutamente nada na infra deles ainda, nem scripts nem código fonte, nada, tem mais de 1 milhão de linha de código fonte em produção) e os 7100 eles falaram que era irreal para realide deles, 12 milhoes ano e 34 solto em orçamento nao fechados, para cada 7 cliente que entra 1 fica e 6 sai, também fiz trabalho revops, ou seja, sei que o negócio é abandonar, mas eu ainda queria ficar se houvesse algo justo.\n\n\n\nEntão fiz esse estudo, transferir toda a IP, ao custo e prazo que está no print, na análise, nenhum projeto passou de 100 reais a hora, quando tem coisa ai de 250 a 500 reais a hora, especialmente as redes neurais, a de recompra pega 400 cliente e acerta 60 % que compram validado sobre dados dos últimos 36 meses, os 40 % se eles ligarem pro cliente, vão comprar também, ou seja, os caras tem uma mina de ouro, são cegos e ainda querem explorar achando que explorar um coitado vai fazer o negócio deles crescerem. \n\n\n\nPodem avaliar e me dar ideias, se é melhor abandonar logo, se mando essa proposta, etc, 7100 não quiseram pagar por 24 m de projeto, ou podem pagar 81 e dou o código fonte + treinamento e alguém assume, ou o valor por projeto todo estimado em 560 dias, 18 mese e 1,5 anos ( a contagem do prazo está errado) tudo isso ao custo de 382 mil fechado ou 270 no contrato pj aberto. \n\n  \nMe ajudem! Abandono ou ainda perco tempo tentando convencer burro que ouro é ouro?",
+        "post_url": "https://i.redd.it/rfmdwjcjmt3g1.png",
+        "is_self_post": false,
+        "post_created_utc": 1764259324.0,
+        "comments": [
+            {
+                "comment_id": "nr3a8sx",
+                "comment_body": "Ué pelo que entendi tu faz tudo. \nAbre uma concorrente e pega os 5 clientes que largam. \n\nDe resto, abandona. 7100 Pouca grana pelo trampo. \n\nBoa sorte.",
+                "comment_score": 3,
+                "comment_created_utc": 1764267416.0
+            },
+            {
+                "comment_id": "nr2qo1q",
+                "comment_body": "Amigo desculpa, acho que perdeu tempo. Se em 1,5 anos não convenceu eles, o que te faz pensar que agora vai dar certo?\nMinha opinião é que deveria ter mapeado antes o que eles aceitariam, e não tentar convencê-los já mostrando um produto pronto.\nFosse você já saia fora e levava tudo e ia atrás de monetizar esse desenvolvimento já feito em outros lugares. Se esses donos vierem atrás você cobra esse valor da planilha ou até mais...\n\n Tempo já foi 'perdido', importante é não seguir perdendo...",
+                "comment_score": 2,
+                "comment_created_utc": 1764261185.0
+            },
+            {
+                "comment_id": "nr3wi1s",
+                "comment_body": "Obrigado amigo, isso ai, sim, está pouco, até os 7100 era pouco, imagina 4000.",
+                "comment_score": 2,
+                "comment_created_utc": 1764274583.0
+            },
+            {
+                "comment_id": "nr34kpr",
+                "comment_body": "Obrigado! ótima dica :-) Realmente, não vou nem apresentar, vou só sinalizar a saída, como eles já estão em extrema dependência, se vierem atrás, ai nem os 7100 via estar disponível, a única proposta será essa. Valeu pela dica.",
+                "comment_score": 2,
+                "comment_created_utc": 1764265629.0
+            },
+            {
+                "comment_id": "nr3east",
+                "comment_body": "Como vocês calculam o valor de um projeto ou serviço que vocês fazem ? \n\n(Tô iniciando agora nisso tudo)",
+                "comment_score": 1,
+                "comment_created_utc": 1764268675.0
+            },
+            {
+                "comment_id": "nr3wfc6",
+                "comment_body": "Seria bom medir o ROI, quanto a empresa vai ganhar ou economizar, ai é mais fácil.",
+                "comment_score": 2,
+                "comment_created_utc": 1764274557.0
+            }
+        ]
+    },
+    {
+        "post_id": "1p2mryi",
+        "post_title": "como é a rotatividade na area de ti hoje em dia?",
+        "post_body": "Olá mestres, sou jovem e to entrando agora nessa vida sofrida de clt e queria dicas do povo ja experiente, eu tava vendo um video de um cara q aos 24 anos ganhava 18K por mes sendo clt dev java senior, obviamente fora da curva e a maioria n vai ser assim, muito menos eu. Esse cara aos 24 anos rodou em 4 empresas e desde sempre vi q isso é comum em todos as areas (engenhaia, medicina, design, publicidade, ti e etc), eu to em um estagio e ja quero tentar o primeiro emprego clt, mas uma coisa q me preocupa agora q to entrando nessa vida de clt é essa rotatividade, de eu ficar 1 ano e 2 meses em uma empresa e ja ter q caçar outra vaga no linkedin, e passar meses de sufoco toda vez q vou passar por essa transicao de empresas.\n\nVc q ja trabalha nessa area de ti ha alguns anos, nas empresas q tu trabalhou realmente era assim? q um cara ficava menos de 2 anos na media e ja era mandado embora? isso acontece mais com jr ou ate com senior, ou senior geralmente fica mais tempo? tem areas dentro de ti q geralmente esse fluxo é menor (tipo redes, cloud, dev front, dev back, dev de legado etc)\n\nPq senao vou tentar abrir uma empresa (como se fosse facil ne) e tentar essa vida de empresario de solucoes de ti, ou um cargo publico (como se fosse facil tb)",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1p2mryi/como_é_a_rotatividade_na_area_de_ti_hoje_em_dia/",
+        "is_self_post": true,
+        "post_created_utc": 1763692224.0,
+        "comments": [
+            {
+                "comment_id": "npzy0yx",
+                "comment_body": "Progressão salarial de TI é péssima então é melhor trocar de empresa do que ficar esperando anos por um aumento salarial.",
+                "comment_score": 13,
+                "comment_created_utc": 1763719495.0
+            },
+            {
+                "comment_id": "npygvzq",
+                "comment_body": "Na maioria dos casos a pessoa troca de empresa não porque foi demitida, mas porque em TI a forma mais rápida de subir na carreira é trocando de empresa. Você entra em uma empresa ganhando x e um ano depois chega uma outra empresa oferecendo 1.5 ou 2x. As chances da sua empresa original topar aumentar seu salário nesse nível são baixas, então você pula para a outra. Esse processo se repete a cada 1-2 anos até você chegar em um nível senior. Por isso que tem tanta gente de TI que em 5 anos sobe o salário de tipo 2k para 20k. \n\nSe o cara ficasse na mesma empresa dificilmente conseguiria a mesma coisa.",
+                "comment_score": 8,
+                "comment_created_utc": 1763693408.0
+            },
+            {
+                "comment_id": "nq06y9u",
+                "comment_body": "1- não existe meritocracia \n\n2- 1.5 a 2 anos é um bom tempo pra mudar. Mas pense em projetos, quando entregar algo de valor tu migra. isso te ajuda a vender teu CV depois. (Mas claro se em dois anos tu não fez nada útil pula fora logo)\n\n3 - quando for vender seu currículo, pense em projetos que trabalhou, soluções q desenvolveu, e insira as tecnologias envolvidas.",
+                "comment_score": 3,
+                "comment_created_utc": 1763724497.0
+            },
+            {
+                "comment_id": "nq0250x",
+                "comment_body": "Direto e reto, a empresa q tu estiver dificilmente vai subir teu cargo ou salário, quando se sentir pronto pra subir de senioridade, peça aumento e já vai procurando outra que contrate de acordo com suas expectativas pq internamente só vão te enrolar",
+                "comment_score": 2,
+                "comment_created_utc": 1763721882.0
+            },
+            {
+                "comment_id": "nq0ffsb",
+                "comment_body": "É pq compensa muito para ganhar mais. \n\n Eu não melhorei nada tecnicamente no último 1 ano e meio, mas fui de 15k reais para 5k dolar para 6,5k dolar simplesmente trocando de empresas.",
+                "comment_score": 2,
+                "comment_created_utc": 1763728438.0
+            },
+            {
+                "comment_id": "nq076bk",
+                "comment_body": "Acho que qualquer área é assim",
+                "comment_score": 5,
+                "comment_created_utc": 1763724614.0
+            },
+            {
+                "comment_id": "nq0gbm8",
+                "comment_body": "No caso de mudar de empresa pq ja tem outra engatilhada, o aviso previo não é um problema? ou as empresas deixam as vagas \"reservadas\" até o dev terminar de cumprir aviso. Sempre tive essa dúvida",
+                "comment_score": 2,
+                "comment_created_utc": 1763728802.0
+            },
+            {
+                "comment_id": "npyn1kh",
+                "comment_body": "saquei, entao quando trocam geralmente é pq tem outra empresa ja esperando, menos mal. Mas pra isso o cara precisa continuar com o linkedin e o portfolio constantemente ativo ne? senao as empresas n conseguiriam encontrar esse tal funcionario pra contratar em um cargo maior, pelo q entendi",
+                "comment_score": 1,
+                "comment_created_utc": 1763695627.0
+            },
+            {
+                "comment_id": "nq0pnv7",
+                "comment_body": "Cara, geralmente voce cumpre 1 semana ate 15 dias e paga o resto, onde pagar = nao receber. \nVocê vai receber no outro trampo de qualquer forma, entao a pancada é de boa",
+                "comment_score": 3,
+                "comment_created_utc": 1763732298.0
+            },
+            {
+                "comment_id": "npzlgui",
+                "comment_body": "Na verdade, portfólio é mais coisa de quem está começando, já que a pessoa ainda não tem experiência. Para quem já passou do primeiro emprego, o que vale mesmo é o histórico profissional e os projetos e empresas por onde passou. \n\nMas sim, manter perfil no LinkedIn mais ou menos atualizado (nada exagerado, é só não ser aquele caso que a última atualização foi há 3 anos) e de preferência em inglês é fundamental para quem está na área. \n\nAs melhores oportunidades não são aquelas anunciadas publicamente, mas sim as que o recrutador te convida para participar do processo seletivo, e obviamente para te achar, seu perfil precisa estar lá para ele pesquisar.",
+                "comment_score": 2,
+                "comment_created_utc": 1763711924.0
+            },
+            {
+                "comment_id": "nq0qaz8",
+                "comment_body": "saquei, vlw",
+                "comment_score": 1,
+                "comment_created_utc": 1763732518.0
+            }
+        ]
+    },
+    {
         "post_id": "1onx906",
         "post_title": "3.500 EUROS/mês em LONDRES na Inglaterra via COOPERATIVA BR (5% taxa) – é golpe ou o futuro do nearshoring??",
         "post_body": "Fala, galera!\n\nAcabei de receber uma proposta **insana** de uma empresa de **Londres (Inglaterra)**:\n\n**Cargo:** Analista de Dados (full remote)  \n**Salário:** **€3.500/mês** (\\~R$ 21.000)  \n**Modelo:** **Cooperativa de São Paulo** (sem precisar abrir CNPJ)\n\nA empresa oferece **PJ normal**, mas **recomenda fortemente o modelo cooperado**:\n\n* **Taxa administrativa: 5%**\n* **Vs. \\~15,5% de impostos no PJ**\n* **+ Seguro de vida + Plano de saúde com coparticipação**\n* **Zero burocracia:** não precisa CNPJ, nota fiscal, contador, Carnê-Leão, nada!\n\nEles dizem que a cooperativa cuida de **tudo**: invoice, câmbio, contratos, exportação de serviço e etc.\n\nAté então, eu só conhecia **CLT** e **PJ**. Nunca ouvi falar de **modelo cooperado.**\n\n**Alguém aqui já trabalhou assim?**\n\n* Funciona mesmo?\n* É regulado pelo BC?\n* Tem pegadinha fiscal ou risco de malha fina?\n* Vale mais que PJ com exportação (6-8% de imposto)?\n\n**Me contem tudo nos comentários!**  \nSe tiver alguém que já passou por isso, marca aí ou manda DM.\n\n*(Se rolar interesse, posso até criar um grupo pra gente trocar ideia sobre isso – quem topa?)*",
@@ -10,7 +132,7 @@
             {
                 "comment_id": "nn117xh",
                 "comment_body": "Euro em Londres? Tá no mínimo estranho isso ai.",
-                "comment_score": 13,
+                "comment_score": 12,
                 "comment_created_utc": 1762245477.0
             },
             {
@@ -22,7 +144,7 @@
             {
                 "comment_id": "nn0zr50",
                 "comment_body": "Cooperativa? Cagada.\n\n1828499219 sócios nessa porra. Você vai colocar seu nome em risco com um monte de gente.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1762244548.0
             },
             {
@@ -34,7 +156,7 @@
             {
                 "comment_id": "nn1ed2f",
                 "comment_body": "Vc sabe que Inglaterra não usa euros, né? \n\n\nO que vc acharia se uma empresa do México de pagasse em kwanzas?",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1762253437.0
             },
             {
@@ -246,7 +368,7 @@
             {
                 "comment_id": "ncfimn3",
                 "comment_body": "Convenhamos q é bem mais fácil passar pra gringa doq um concurso assim, não?",
-                "comment_score": 13,
+                "comment_score": 11,
                 "comment_created_utc": 1757015098.0
             },
             {
@@ -280,19 +402,19 @@
             {
                 "comment_id": "n78q8a3",
                 "comment_body": "Falou chát gpt",
-                "comment_score": 7,
+                "comment_score": 9,
                 "comment_created_utc": 1754492208.0
             },
             {
                 "comment_id": "n78j59j",
                 "comment_body": "Sempre abra ME, quem abre MEI sendo dev não pode reclamar de político safado",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1754490171.0
             },
             {
                 "comment_id": "n78urw9",
                 "comment_body": "Nunca MEI.\n\n\nConverse com um contador pra fazer da forma mais correta possível.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1754493503.0
             },
             {
@@ -304,7 +426,7 @@
             {
                 "comment_id": "n78cusq",
                 "comment_body": "Se você ganha menos de 130 mil reais por ano (novo teto do MEI) abre MEI e bota qualquer coisa próxima das suas atividades\n\nSe ganha mais de 130 mil reais por ano abre ME\n\n\nEdit: 81 mil",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1754488275.0
             },
             {
@@ -352,7 +474,7 @@
             {
                 "comment_id": "n78jhua",
                 "comment_body": "Isso aqui",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1754490274.0
             },
             {
@@ -364,13 +486,13 @@
             {
                 "comment_id": "n795d1r",
                 "comment_body": "Quê? Por quê? Reduzir custos com impostos é um dever cível, ainda mais nesse país. \n\nA propósito, tu gastou quanto e gasta quanto, com uma ME? O custo é sempre o percentual que vem do simples nacional, mais custos com contador, correto?",
-                "comment_score": -3,
+                "comment_score": -1,
                 "comment_created_utc": 1754496467.0
             },
             {
                 "comment_id": "n78z5nx",
                 "comment_body": "e pro cara que esta ganhando 3.5k ou menos como pj vai fazer o que?",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1754494745.0
             },
             {
@@ -400,7 +522,7 @@
             {
                 "comment_id": "n7958a1",
                 "comment_body": "Fazer o correto conforme o comentário do rapaz.",
-                "comment_score": 2,
+                "comment_score": 1,
                 "comment_created_utc": 1754496430.0
             },
             {
@@ -430,7 +552,7 @@
             {
                 "comment_id": "n7a66b4",
                 "comment_body": "u/MaestroLizard “O correto” que você diz é passar necessidade com menos dinheiro para poder encher o bolso de burocratas?  \nSe for isso, que bela definição de “correto” você trouxe para a mesa, meus parabéns!",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1754506755.0
             },
             {
@@ -560,25 +682,25 @@
             {
                 "comment_id": "n5fz689",
                 "comment_body": "Suporte sempre recebe o equipamento que sobrou do resto da empresa porque “eles sabem consertar e vão se virar”.",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1753628769.0
             },
             {
                 "comment_id": "n5g31gb",
                 "comment_body": "tem empresas que o suporte ganha macbook, como um certo banco roxo\n\nprocure vagas de suporte em grandes empresas, nao em pequenas empresas",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1753629956.0
             },
             {
                 "comment_id": "n5ha5fj",
                 "comment_body": "Na empresa que eu trabalhava basicamente recebiamos o resto do usuários, era bizarro configurar os notebooks novos com processador de última geração e depois de dois anos voltar para o pessoal do suporte todo fudido para nós utilizarmos, nessa troca adivinha só? O usuário recebia outro notebook novo.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1753642608.0
             },
             {
                 "comment_id": "n5jnwnp",
                 "comment_body": "Dev também ganha, não consigo rodar teste unitário na minha máquina sem ela travar :))",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1753671943.0
             },
             {
@@ -678,7 +800,7 @@
             {
                 "comment_id": "n4zp1sf",
                 "comment_body": "Cara só abre a MEI e paga a taxa. Quem ta falando q não pode ta vivendo numa bolha. Brasil não pode muitas coisas e essa seria só mais uma. Vai na fé q tu nunca vai ter problema com isso (se fizer direito óbvio, nao abuse de regalias)",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1753398815.0
             },
             {
@@ -696,13 +818,13 @@
             {
                 "comment_id": "n4xtwa3",
                 "comment_body": "Nao pode abrir MEI, ainda assim tem muita gente que faz isso.\n\nParticularmente, nao recomendo, vai de ME mesmo",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1753379141.0
             },
             {
                 "comment_id": "n4y8bf2",
                 "comment_body": "N compense abrir  ME nesse caso, só 3500.. vai ter gasto com contador e tal\n\nEu já fui MEI sendo dev, da nada, acho q os cara só vão atrás se você estourar o limite anual, q é 81k.",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1753383200.0
             },
             {
@@ -750,7 +872,7 @@
             {
                 "comment_id": "n4xtsye",
                 "comment_body": "tem que ser simples... mei nao pode fazer dev\n\n  \npode fechar o topico",
-                "comment_score": -2,
+                "comment_score": -3,
                 "comment_created_utc": 1753379117.0
             },
             {
@@ -774,7 +896,7 @@
             {
                 "comment_id": "n5019qy",
                 "comment_body": "recebendo 3.5k pj vai sobrar menos de 2k, se for assim e melhor procurar emprego em outra area",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1753402942.0
             },
             {
@@ -786,7 +908,7 @@
             {
                 "comment_id": "n52l7ms",
                 "comment_body": "Programador nao pode ser MEI, nao se encaixa",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1753444855.0
             },
             {
@@ -798,7 +920,7 @@
             {
                 "comment_id": "n50hrsf",
                 "comment_body": "[removed]",
-                "comment_score": -8,
+                "comment_score": -7,
                 "comment_created_utc": 1753408804.0
             },
             {
@@ -862,13 +984,13 @@
             {
                 "comment_id": "mr164l3",
                 "comment_body": "Bem, exigir faculdade para jr. não é absurdo. É o padrão, na verdade..\n\nAgora, querer pagar salário mínimo pra dev é muita cara de pau. Dev, se for para pagar mal, é no mínimo 3k.",
-                "comment_score": 43,
+                "comment_score": 44,
                 "comment_created_utc": 1746605985.0
             },
             {
                 "comment_id": "mr1gxor",
                 "comment_body": "nao fala mal do java, java nao tem nada haver com o nordeste",
-                "comment_score": 17,
+                "comment_score": 15,
                 "comment_created_utc": 1746612760.0
             },
             {
@@ -892,7 +1014,7 @@
             {
                 "comment_id": "mr1gl5b",
                 "comment_body": "Na minha área (SAP) as consultorias do país como um todo são, quase que, a mesma coisa. Independente da região sempre terão equipes de implementação boa e outras ruins. Mais que a região da consultoria ou a consultoria em si - 1o escalão, 2o escalão etc. - o que mais importa é ter referências de um bom 'set' de consultores funcionais e técnicos para fazer seu projeto rodar. Por exemplo, já vi consultoria big fourt sendo demitida de projeto milionário em multinacional gringa porque botou júnior para fazer trabalho de sênior, da mesma forma que já vi consultoria pequena do Ceará dar aula em gestão de projeto, metodologia de implementação, dentre outros pontos simplesmente porque para aquele cenário específico e naquele momento tinham uma equipe muito boa. Eu sou do nordeste e moro atualmente em São Paulo pelo simples fato de que o mercado, como um todo, está migrando para o modelo híbrido e pagando um \"passe\" para vários profissionais se realocarem. Mas honestamente, com 100% de home office e o salário que ganho hoje não pensaria duas vezes em voltar para região porque estrapolando sua analogia, o que tem de bom no Sul/Sudeste em termos de mercado é só para equilibrar o quão ruim é a qualidade de vida.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1746612561.0
             },
             {
@@ -1108,19 +1230,19 @@
             {
                 "comment_id": "mr0vl29",
                 "comment_body": "fora a quantidade de empresa q deve só se manter em pé por tar envolvida com político pra conseguir licitação superfaturada ou lavar dinheiro.",
-                "comment_score": 13,
+                "comment_score": 12,
                 "comment_created_utc": 1746599513.0
             },
             {
                 "comment_id": "mr1gsj4",
                 "comment_body": "Achei estranho essa pesquisa dele. Todo nordestino dev sabe q o polo de programação do Nordeste fica em Recife.\n\nOutras capitais até tem alguma coisa. Agora cidade do interior esquece, é salário mínimo mesmo.",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1746612679.0
             },
             {
                 "comment_id": "mr2atui",
                 "comment_body": "Depois de Recife, Campina Grande também tem um pólo bom de tecnologia. Com filiais da Accenture, Stefanini, entre outros outsourcing.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1746625073.0
             },
             {
@@ -1132,13 +1254,13 @@
             {
                 "comment_id": "mr6dgqz",
                 "comment_body": "É foda meu irmão, o cara faz uma pesquisa na cidade dele e enche a boca pra falar \"o nordeste\". Pqp viu.\n\nSe alguém falar q no sul só tem nazi ele com certeza vai achar ruim (pra deixar claro, não penso isso, mas é algo tão estúpido quanto a opinião do OP).\n\nSou de Recife, e na empresa q trabalho (q tbm é daq) uns 2/3 dos funcionarios são de outros estados, alguns da Bahia, mas a grande maioria de MG pra baixo. No mínimo isso significa q a empresa é competitiva o suficiente pra disputar esse pessoal (e todos home office, não é mercado local).",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1746670060.0
             },
             {
                 "comment_id": "mr1pjig",
                 "comment_body": "Eu que sou a generalista, sendo que olhei empresas do 9 estados, ou vc que quer dar uma opinião baseada em 1 cidade ? (q como falaram nos comentários, é a exceção).",
-                "comment_score": 4,
+                "comment_score": 1,
                 "comment_created_utc": 1746617039.0
             },
             {
@@ -1216,19 +1338,19 @@
             {
                 "comment_id": "mr394ys",
                 "comment_body": "UFCG eh top",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1746635274.0
             },
             {
                 "comment_id": "mr2j7ej",
                 "comment_body": " Meu ponto é que eu tive experiências em Recife que não foram da forma que você falou.\n\nTalvez teria sido melhor falar sobre as cidades e empresas também, se eram startups, pequenos negócios com departamento de TI ou fábricas de software.\n\nConheci empresas maduras com processos bem definidos e profissionais excelentes.\n\nAcho que em Campina Grande na PB também tem umas empresas boas pra trabalhar.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1746627709.0
             },
             {
                 "comment_id": "mr4j3ly",
                 "comment_body": "Cita estatística e mais tarde no texto fala “de acordo com a minha vivência”, é de uma inteligência oculta que puta que pariu.",
-                "comment_score": 3,
+                "comment_score": 6,
                 "comment_created_utc": 1746648481.0
             },
             {
@@ -1264,7 +1386,7 @@
             {
                 "comment_id": "mr2brzj",
                 "comment_body": "Curioso, a empresa que trabalho tem filial em Recife, o nosso concorrente tem filial em Recife também. Acho que todo mundo aqui do sudeste concorda que recife é a capital tecnológica do nordeste",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1746625381.0
             },
             {
@@ -1276,7 +1398,7 @@
             {
                 "comment_id": "mr33vov",
                 "comment_body": "Só comprovou como eu estava certa. Quando falo Mercado me refiro a média, e a média foi o que eu vi nesses tempos e muita gente confirmou nos comentários. Que bom que existe exceção, mas ai o alecrim dourado que vive a exceção vai sentar lá no cantinho enquanto os adultos conversam sobre o parâmetro geral. Se a gente quiser saber de exceção a gente te chama. Pq não sei se consegue compreender, mas o problema não é a exceção, é a esmagadora maioria que não consegue fazer o mínimo. Esperava que qualquer um que conseguisse minimamente interpretar um texto entendesse isso quando se discute dos problemas GERAIS encontrados na grande maioria do mercado.",
-                "comment_score": -5,
+                "comment_score": -3,
                 "comment_created_utc": 1746633738.0
             },
             {
@@ -1376,7 +1498,7 @@
             {
                 "comment_id": "mpzb2uz",
                 "comment_body": "instalar windão, e tratar arquivos sensíveis nele, e como comprar picanha pra fazer carne de panela!!!",
-                "comment_score": 11,
+                "comment_score": 12,
                 "comment_created_utc": 1746082996.0
             },
             {
@@ -1616,13 +1738,13 @@
             {
                 "comment_id": "mek38eo",
                 "comment_body": "Você é fera! Obrigado 💾💪💪",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1740420862.0
             },
             {
                 "comment_id": "mekseit",
                 "comment_body": "Alguém curte aí pra eu ler depois pfvr?",
-                "comment_score": 13,
+                "comment_score": 12,
                 "comment_created_utc": 1740427983.0
             },
             {
@@ -1832,7 +1954,7 @@
             {
                 "comment_id": "mekvlz5",
                 "comment_body": "so salvar o post paizao",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1740428879.0
             },
             {

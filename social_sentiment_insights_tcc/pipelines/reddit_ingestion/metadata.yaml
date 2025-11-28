@@ -59,7 +59,7 @@ blocks:
   color: null
   configuration: {}
   downstream_blocks:
-  - export_to_bigquery
+  - topic_analysis
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -75,6 +75,23 @@ blocks:
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
+  downstream_blocks:
+  - export_to_bigquery
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: topic_analysis
+  retry_config: null
+  status: updated
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - sentiment_analysis
+  uuid: topic_analysis
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
@@ -86,7 +103,7 @@ blocks:
   timeout: null
   type: data_exporter
   upstream_blocks:
-  - sentiment_analysis
+  - topic_analysis
   uuid: export_to_bigquery
 cache_block_output_in_memory: false
 callbacks: []
@@ -111,5 +128,5 @@ tags:
 - raw_data
 type: python
 uuid: reddit_ingestion
-variables_dir: /home/gbernalle/.mage_data/social_sentiment_insights_tcc
+variables_dir: /home/src/mage_data/social_sentiment_insights_tcc
 widgets: []
