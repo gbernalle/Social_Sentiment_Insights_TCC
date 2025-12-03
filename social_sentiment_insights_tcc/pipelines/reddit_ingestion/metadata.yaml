@@ -66,24 +66,26 @@ blocks:
   language: python
   name: sentiment_analysis
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: transformer
   upstream_blocks:
   - semantic_cleaning
   uuid: sentiment_analysis
-- all_upstream_blocks_executed: true
+- all_upstream_blocks_executed: false
   color: null
-  configuration: {}
+  configuration:
+    file_path: transformers/topic_analysis.py
   downstream_blocks:
   - export_to_bigquery
+  - export_topics_metrics
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
   name: topic_analysis
   retry_config: null
-  status: updated
+  status: executed
   timeout: null
   type: transformer
   upstream_blocks:
@@ -97,9 +99,25 @@ blocks:
   executor_type: local_python
   has_callback: false
   language: python
+  name: export_topics_metrics
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - topic_analysis
+  uuid: export_topics_metrics
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
   name: export_to_bigquery
   retry_config: null
-  status: failed
+  status: executed
   timeout: null
   type: data_exporter
   upstream_blocks:

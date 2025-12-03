@@ -5,7 +5,7 @@ import torch
 from mage_ai.settings.repo import get_repo_path
 
 try:
-    from transformers import pipeline, AutoTokenizer
+    from transformers import pipeline, AutoTokenizer, BatchEncoding
 except ImportError:
     logging.error("Libraries 'transformers', 'torch' or 'AutoTokenizer' not found. Please install them.")
     raise
@@ -13,7 +13,6 @@ except ImportError:
 if 'transformer' not in globals():
     from mage_ai.data_preparation.decorators import transformer
 
-# --- GPU Configuration ---
 device_id = 0 if torch.cuda.is_available() else -1
 device_name = torch.cuda.get_device_name(0) if device_id == 0 else "CPU"
 logging.info(f"Zero-Shot NLP running on: {device_name}")
@@ -21,7 +20,6 @@ logging.info(f"Zero-Shot NLP running on: {device_name}")
 MODEL_NAME = "ricardo-filho/bert-base-portuguese-cased-nli-assin-2"
 MODEL_MAX_LENGTH = 512 
 
-# Global variables for model caching in memory
 classifier = None
 tokenizer = None
 
@@ -31,11 +29,10 @@ def load_models():
     if classifier is None:
         logging.info(f"Loading Zero-Shot model on {device_name}...")
         try:
-            # The 'device' parameter sends the model directly to the GPU
             classifier = pipeline(
                 "zero-shot-classification",
                 model=MODEL_NAME,
-                hypothesis_template="Este texto é sobre {}.", # Hypothesis remains in PT because the model is PT
+                hypothesis_template="Este texto é sobre {}.",
                 device=device_id 
             )
             tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -72,7 +69,7 @@ labels_subject = [
 
 label_map = dict(zip(candidate_labels, labels_subject))
 
-@transformer #type:ignore
+@transformer
 def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
     
     if data.empty:
@@ -80,42 +77,85 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         return pd.DataFrame()
 
     classifier, tokenizer = load_models()
+    
+    logging.info(f"Calculando limites de tokens para Zero-Shot...")
+    
+    reported_max_len = getattr(tokenizer, 'model_max_length', 512)
+    if reported_max_len > 512:
+        MODEL_MAX_LENGTH = 512
+        logging.warning(f"Tokenizer reported max_len={reported_max_len}. Forcing manual limit to 512 to avoid RuntimeError.")
+    else:
+        MODEL_MAX_LENGTH = reported_max_len
+    
+    all_label_tokens = [len(tokenizer(label, add_special_tokens=False)['input_ids']) for label in candidate_labels]
+    max_label_len = max(all_label_tokens) if all_label_tokens else 0
+    
+    HYPOTHESIS_TEMPLATE_BUFFER = 12 
+    SPECIAL_TOKENS_BUFFER = 3       
+    SAFETY_MARGIN = 5               
+    
+    reserved_tokens = max_label_len + HYPOTHESIS_TEMPLATE_BUFFER + SPECIAL_TOKENS_BUFFER + SAFETY_MARGIN
+    max_text_tokens_allowed = MODEL_MAX_LENGTH - reserved_tokens
+    
+    if max_text_tokens_allowed < 10:
+        raise ValueError("Labels too long for this model context.")
+
+    logging.info(f"Hard Limit: {MODEL_MAX_LENGTH} | Reserved: {reserved_tokens} | Max Input Text: {max_text_tokens_allowed} tokens")
+
+    def truncate_text_by_tokens(text: str) -> str:
+        if not text or pd.isna(text):
+            return ""
+        
+        tokens = tokenizer.encode(text, add_special_tokens=False)
+        
+        if len(tokens) <= max_text_tokens_allowed:
+            return text
+            
+        truncated_ids = tokens[:max_text_tokens_allowed]
+        
+        return tokenizer.decode(truncated_ids, skip_special_tokens=True)
 
     logging.info(f"Starting Zero-Shot Classification on {len(data)} records...")
     
-    texts_to_classify = data['text_clean'].fillna('').tolist()
-    
     try:
-        # GPU Magic: batch_size > 1
-        # With 6GB VRAM, batch_size=32 is generally safe for BERT Base.
+        texts_raw = data['text_clean'].fillna('').astype(str).tolist()
+        texts_to_classify = [truncate_text_by_tokens(t) for t in texts_raw]
+
+        if len(texts_to_classify) > 0:
+            len_first = len(tokenizer.encode(texts_to_classify[0], add_special_tokens=False))
+            logging.info(f"Sample truncated length (tokens): {len_first} (Limit: {max_text_tokens_allowed})")
+
         results = classifier(
             texts_to_classify, 
             candidate_labels, 
             multi_label=False, 
             batch_size=32,
-            truncation=True 
+            truncation=True
         )
         
-        df_results = pd.DataFrame(results) #type:ignore
+        df_results = pd.DataFrame(results)
         
-        # Get the label with the highest score
         data['category_raw'] = df_results['labels'].str[0].values
         data['category_score'] = df_results['scores'].str[0].values
         
-        # Map to English labels
-        data['category_tcc'] = data['category_raw'].map(label_map)
+        if 'label_map' in globals():
+            data['category_tcc'] = data['category_raw'].map(label_map)
+        else:
+             data['category_tcc'] = data['category_raw']
         
-        # Drop the raw Portuguese label column to keep it clean
-        data = data.drop(columns=['category_raw'])
+        if 'category_raw' in data.columns:
+            data = data.drop(columns=['category_raw'])
 
-        # Save local checkpoint (safety measure)
-        cache_path = os.path.join(get_repo_path(), "cache_semantic.parquet")
+        base_path = get_repo_path() if 'get_repo_path' in globals() else "."
+        cache_path = os.path.join(base_path, "cache_semantic.parquet")
         data.to_parquet(cache_path)
         logging.info(f"Checkpoint saved at: {cache_path}")
 
         return data
 
+    except RuntimeError as re:
+        logging.error(f"RuntimeError (likely CUDA OOM or Shape Mismatch): {re}")
+        raise re
     except Exception as e:
-        logging.error(f"Error during GPU processing: {e}")
-        # Hint: Try reducing batch_size if Out Of Memory (OOM) occurs
+        logging.error(f"Generic Error during Zero-Shot: {str(e)}")
         raise e

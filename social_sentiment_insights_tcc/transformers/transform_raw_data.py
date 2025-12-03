@@ -21,7 +21,6 @@ def clean_text(text) -> str:
     text = re.sub(r'http\S+', '', text)
     text = re.sub(r'\[.*?\]', '', text)
     text = re.sub(r'\n', ' ', text)
-    # Keeps common Portuguese accented characters
     text = re.sub(r'[^a-z0-9à-ú\s]', '', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
@@ -37,7 +36,7 @@ def detect_language(text) -> str:
     except LangDetectException:
         return 'und'
 
-@transformer # type: ignore
+@transformer
 def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
     """
     Reads all JSON files, filters by language, applies Regex for keywords, 
@@ -63,7 +62,6 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
             with open(file_path, 'r', encoding='utf-8') as f:
                 posts = json.load(f) 
                 for post in posts:
-                    # Concatenates title and body
                     post_text = (post.get('post_title', '') or '') + ' ' + (post.get('post_body', '') or '')
                     all_data.append({
                         'id': post.get('post_id'), 'parent_post_id': post.get('post_id'),
@@ -93,27 +91,21 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
     logging.info("Starting language detection...")
     df['language'] = df['text_raw'].apply(detect_language)
     
-    # Filter for Portuguese content
     df_portuguese = df[df['language'] == 'pt'].copy()
     logging.info(f"Language filter: {len(df)} -> {len(df_portuguese)} records.")
 
     if df_portuguese.empty:
         return pd.DataFrame()
 
-    # Date Conversion
     df_portuguese['created_at'] = pd.to_datetime(df_portuguese['created_utc'], unit='s')
-    
-    # NOTE: Date filter removed to allow full historical analysis (Pandemic vs Post-Pandemic)
-    
+        
     df_portuguese['created_at'] = df_portuguese['created_at'].dt.strftime('%Y-%m-%d')
     df_portuguese['text_clean'] = df_portuguese['text_raw'].apply(clean_text)
 
-    # Remove empty or deleted posts
     unwanted_texts = ['', 'deleted', 'removed']
     df_final_clean = df_portuguese.dropna(subset=['text_clean'])
     df_final_clean = df_final_clean[~df_final_clean['text_clean'].isin(unwanted_texts)]
 
-    # Contextual Regex
     safe_keywords = r'\b(?:cnpj|simples nacional|inss|previdência|mei)\b'
     das_context = r'\b(?:o|do|no|pagar|guia|boleto|valor|atrasado) das\b'
     tax_context = r'(?:\b(?:pagar|pago|paguei|o|do|no|um|qual|quanto|sonegar) imposto\b|\b(imposto) (?:de|do|da|mei|simples|sobre|renda)\b)'
