@@ -1,5 +1,123 @@
 [
     {
+        "post_id": "1regz8t",
+        "post_title": "Side project BR: app de pelada com fila e times automáticos — feedbacks?",
+        "post_body": "Galera, sou dev e queria compartilhar um side project que foi pra production: organizar pelada de grupo fixo no WhatsApp (fila, mensalidade, time, lista de confirmado). Feito em reactnative\n\n\n\nO que ele resolve hoje:\n\n1. Presença com vagas, fila e prioridade (ex: mensalistas têm preferência).\n2. Times automáticos por nota + posição, com ajuste manual.\n3. Caixa/mensalidade com registro de entradas e saídas.\n4. Stats do jogo: gols, assistências, cartões, rankings e histórico.\n5. Eventos organizados por partida.\n6. Android em breve\n\n\n\nQueria feedback do sub em 4 pontos:\n\n1) Onboarding: O que faria você entender o valor do app em 30 segundos?\n\n2) Viral loop: quais features fariam users compartilharem o app? (tipo aqueles cards do Hevy)\n\n3) Produto: O que aqui é supérfluo? O que é realmente essencial?\n\n4) Guardrails: Que regras/limites o  app deveria ter para evitar treta no grupo? Exemplo: regras claras de prioridade, bloqueio de edição após horário X, etc\n\n\n\n\n\nSe alguém topar, posso responder perguntas de produto/decisões e o que vocês acharem ruim eu levo pro backlog.\n\ntive que repostar nunca usei reddit na vida",
+        "post_url": "https://i.redd.it/v34txyz3xnlg1.png",
+        "is_self_post": false,
+        "post_created_utc": 1772034837.0,
+        "comments": []
+    },
+    {
+        "post_id": "1qsjr4d",
+        "post_title": "MEI vira atalho para sonegação: as fraudes mais comuns e como a Receita identificou milhares de casos",
+        "post_body": "",
+        "post_url": "/r/brdev/comments/1qs8q0p/mei_vira_atalho_para_sonegação_as_fraudes_mais/",
+        "is_self_post": false,
+        "post_created_utc": 1769907022.0,
+        "comments": []
+    },
+    {
+        "post_id": "1pjzasy",
+        "post_title": "Diferença entre MEI e EI, ambos servem para ser dev PJ?",
+        "post_body": "duvida cruel:\n\n* Posso criar quantos EL eu quiser?\n* Para dev pj é melhor ser MEI ou EL?\n* Para as empresas isso faz alguma diferença?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1pjzasy/diferença_entre_mei_e_ei_ambos_servem_para_ser/",
+        "is_self_post": true,
+        "post_created_utc": 1765464426.0,
+        "comments": [
+            {
+                "comment_id": "ntharii",
+                "comment_body": "Dev não pode ser mei já começa por aí",
+                "comment_score": 9,
+                "comment_created_utc": 1765467171.0
+            },
+            {
+                "comment_id": "nu169g8",
+                "comment_body": "MEI eh para vendedor de cachorro quente, foi o geito do governo meter imposto neles sem eles reclamarem muito.\n\nvoce e um vendedor de cachorro quente estao muito diferentes em servico vendido. Vai te que abrir um simples nacional, o resto eh jeitinho brasileiro/gato imposto.",
+                "comment_score": 0,
+                "comment_created_utc": 1765741963.0
+            },
+            {
+                "comment_id": "ntic679",
+                "comment_body": "qual o recomendado? de acordo com as leis e profissão, de início pra quem não tem dinheiro? ",
+                "comment_score": 2,
+                "comment_created_utc": 1765478106.0
+            },
+            {
+                "comment_id": "nthjaoo",
+                "comment_body": "[deleted]",
+                "comment_score": -2,
+                "comment_created_utc": 1765469677.0
+            },
+            {
+                "comment_id": "ntiyxs8",
+                "comment_body": "Bom eu abri ME desde o começo, o CNAE eu não lembro de cabeça, independente o certo seria começar com ele e caso um dia fosse trampar pra gringa e o faturamento anual fosse maior que 360k mudar pra um EPP",
+                "comment_score": 3,
+                "comment_created_utc": 1765484924.0
+            },
+            {
+                "comment_id": "nu16s8g",
+                "comment_body": "olha, se voce tem zero zero dinheiro, junta o basico do basico, trampa no mcdonalds, mercado,... depois que juntar uma grana minima ai parte pra pj (que vai levar no minimo 1 mes para ser aberto).\n\nEu arriscaria mais ser dev clt como junior, e mais para depois tentar um pj.",
+                "comment_score": 1,
+                "comment_created_utc": 1765742120.0
+            },
+            {
+                "comment_id": "nthxxcv",
+                "comment_body": "Não não pode, o que vc pode fazer é jeitinho brasileiro pra escolher outro CNAE",
+                "comment_score": 7,
+                "comment_created_utc": 1765473948.0
+            },
+            {
+                "comment_id": "nthqwat",
+                "comment_body": "um amigo meu é mei e trabalhou pj. mas eu vi isso aqui: Para ser contratado como desenvolvedor PJ (Pessoa Jurídica) por empresas gringas, geralmente o tipo mais recomendado é a Sociedade Limitada Unipessoal (SLU) ou, dependendo do faturamento, um Empresário Individual (EI) enquadrado como Empresa de Pequeno Porte (EPP) ou Microempresa (ME).\nO MEI não é recomendado, pois a atividade de desenvolvimento de software não está na lista de atividades permitidas para MEI e o limite de faturamento é muito baixo para contratos internacionais típicos.",
+                "comment_score": 2,
+                "comment_created_utc": 1765471875.0
+            },
+            {
+                "comment_id": "nthy2ak",
+                "comment_body": "[deleted]",
+                "comment_score": -1,
+                "comment_created_utc": 1765473988.0
+            },
+            {
+                "comment_id": "nthy5hg",
+                "comment_body": "Aí vai do caráter de cada um",
+                "comment_score": 5,
+                "comment_created_utc": 1765474014.0
+            },
+            {
+                "comment_id": "nthzdo3",
+                "comment_body": "[deleted]",
+                "comment_score": -2,
+                "comment_created_utc": 1765474374.0
+            },
+            {
+                "comment_id": "nti29fr",
+                "comment_body": "E eu com isso irmão? A regra é essa e vc tem que seguir ela, não quer seguir? Problema não é meu e sim no final do dia é tão mau-caráter quanto um político qualquer",
+                "comment_score": 6,
+                "comment_created_utc": 1765475226.0
+            },
+            {
+                "comment_id": "nti2fzd",
+                "comment_body": "[deleted]",
+                "comment_score": 2,
+                "comment_created_utc": 1765475280.0
+            },
+            {
+                "comment_id": "nti2up0",
+                "comment_body": "Levanta a bunda da cadeira e se mobilize, ficar chorando em Reddit pq o estado é malvado certamente não vai mudar as coisas\n\nE adeus já tô perdendo tempo d+ em discussão que não vai levar a lugar algum",
+                "comment_score": 2,
+                "comment_created_utc": 1765475399.0
+            },
+            {
+                "comment_id": "nti3ol7",
+                "comment_body": "Eu tive coragem de levantar da cadeira e fazer as coisas do meu jeito sem deixar uma regra injusta me prejudicar.\nNo mais, Tchau 👋",
+                "comment_score": 2,
+                "comment_created_utc": 1765475636.0
+            }
+        ]
+    },
+    {
         "post_id": "1mswrz6",
         "post_title": "Quantas vezes vc usou Clean Architecture na vida?",
         "post_body": "Estou cursando ADS e desenvolvendo um projeto extensão (gratuito para alguma empresa ou MEI). Nesse semestre devemos refatorar todo o backend (Java Springboot) para atender conceitos do Uncle Bob sobre \"Clean Architecture\".\n\nInicialmente achei maneiro a ideai de separar o core da aplicação de frameworks e libs. O problema é que são **10 endpoints de CRUDs** e apenas CRUDs, criar 50 gateways para cada método é uma merda, são quase 2h para construir cada endpoint e não me parece nada eficaz essa arquitetura numa **geração de projetos de CRUDs**.\n\nNão estou criticando a faculdade pela grade, apenas questionando a relevância dessa arquitetura e tentando entender se realmente vale a pena gastar tempo e energia estudando isso ou outras coisas \"mais relevantes\" para o mercado de trabalho.",
@@ -10,7 +128,7 @@
             {
                 "comment_id": "n97jmw8",
                 "comment_body": "Faz a faculdade, e aprende o barato maluco\n\nhoje os frameworks modernos implementam essas arquiteturas de forma elegante, no futuro veja sobre como funciona o java spring boot, aprenda a porra do fundamento, por mais chato que seja no futuro vc não vai implementar isso na  unha como tais fazendo na graduação mas vai ajudar a entender como os frameworks funcionam",
-                "comment_score": 24,
+                "comment_score": 26,
                 "comment_created_utc": 1755451596.0
             },
             {
@@ -218,7 +336,7 @@
             {
                 "comment_id": "n78q8a3",
                 "comment_body": "Falou chát gpt",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1754492208.0
             },
             {
@@ -230,7 +348,7 @@
             {
                 "comment_id": "n78urw9",
                 "comment_body": "Nunca MEI.\n\n\nConverse com um contador pra fazer da forma mais correta possível.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1754493503.0
             },
             {
@@ -290,7 +408,7 @@
             {
                 "comment_id": "n78jhua",
                 "comment_body": "Isso aqui",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1754490274.0
             },
             {
@@ -302,13 +420,13 @@
             {
                 "comment_id": "n795d1r",
                 "comment_body": "Quê? Por quê? Reduzir custos com impostos é um dever cível, ainda mais nesse país. \n\nA propósito, tu gastou quanto e gasta quanto, com uma ME? O custo é sempre o percentual que vem do simples nacional, mais custos com contador, correto?",
-                "comment_score": -3,
+                "comment_score": -2,
                 "comment_created_utc": 1754496467.0
             },
             {
                 "comment_id": "n78z5nx",
                 "comment_body": "e pro cara que esta ganhando 3.5k ou menos como pj vai fazer o que?",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1754494745.0
             },
             {
@@ -338,7 +456,7 @@
             {
                 "comment_id": "n7958a1",
                 "comment_body": "Fazer o correto conforme o comentário do rapaz.",
-                "comment_score": 2,
+                "comment_score": 1,
                 "comment_created_utc": 1754496430.0
             },
             {
@@ -526,7 +644,7 @@
             {
                 "comment_id": "n4zp1sf",
                 "comment_body": "Cara só abre a MEI e paga a taxa. Quem ta falando q não pode ta vivendo numa bolha. Brasil não pode muitas coisas e essa seria só mais uma. Vai na fé q tu nunca vai ter problema com isso (se fizer direito óbvio, nao abuse de regalias)",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1753398815.0
             },
             {
@@ -544,13 +662,13 @@
             {
                 "comment_id": "n4xtwa3",
                 "comment_body": "Nao pode abrir MEI, ainda assim tem muita gente que faz isso.\n\nParticularmente, nao recomendo, vai de ME mesmo",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1753379141.0
             },
             {
                 "comment_id": "n4y8bf2",
                 "comment_body": "N compense abrir  ME nesse caso, só 3500.. vai ter gasto com contador e tal\n\nEu já fui MEI sendo dev, da nada, acho q os cara só vão atrás se você estourar o limite anual, q é 81k.",
-                "comment_score": 2,
+                "comment_score": 1,
                 "comment_created_utc": 1753383200.0
             },
             {
@@ -596,9 +714,15 @@
                 "comment_created_utc": 1753722493.0
             },
             {
+                "comment_id": "o2gdhn6",
+                "comment_body": "Profissionais que prestam serviço de natureza intelectual em geral enquadram-se no anexo V do Simples Nacional. Nesse anexo (V) a aliquota de impostos sobre o faturamento começa em 15,5%. Porém se o Fator R, a relação (nos últimos 12 meses) entre gastos com folha de pagamento (pró-labore e outros) e faturamento for maior ou igual a 28%, a pessoa jurídica é enquadrada no anexo III do Simples (pagando aliquotas iniciais de 6%).\n\nNa maioria das vezes há economia considerável em impostos, mesmo recolhendo INSS e IR.\n\nPS.: tenho um Saas que faz esse cálculo e acompanhamento do fator R todo mês, otimizando a retirada de pró-labore, pagando o mínimo de imposto que a lei permite.",
+                "comment_score": 1,
+                "comment_created_utc": 1769710657.0
+            },
+            {
                 "comment_id": "n4xtsye",
                 "comment_body": "tem que ser simples... mei nao pode fazer dev\n\n  \npode fechar o topico",
-                "comment_score": -2,
+                "comment_score": -3,
                 "comment_created_utc": 1753379117.0
             },
             {
@@ -634,7 +758,7 @@
             {
                 "comment_id": "n52l7ms",
                 "comment_body": "Programador nao pode ser MEI, nao se encaixa",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1753444855.0
             },
             {
@@ -646,7 +770,7 @@
             {
                 "comment_id": "n50hrsf",
                 "comment_body": "[removed]",
-                "comment_score": -7,
+                "comment_score": -8,
                 "comment_created_utc": 1753408804.0
             },
             {
@@ -658,7 +782,7 @@
             {
                 "comment_id": "n52q5xr",
                 "comment_body": "cara repositor ou qualquer chão de fabrica ganha mais de 2k, porque diabos o cara vai se matar de estudar abrir empresa para ganhar 2k mes?",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1753446718.0
             },
             {
@@ -670,7 +794,7 @@
             {
                 "comment_id": "n52z3bi",
                 "comment_body": "[removed]",
-                "comment_score": -4,
+                "comment_score": -5,
                 "comment_created_utc": 1753449746.0
             },
             {

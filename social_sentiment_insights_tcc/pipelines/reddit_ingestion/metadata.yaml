@@ -32,13 +32,13 @@ blocks:
   language: python
   name: transform_raw_data
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: transformer
   upstream_blocks:
   - get_reddit_data
   uuid: transform_raw_data
-- all_upstream_blocks_executed: true
+- all_upstream_blocks_executed: false
   color: null
   configuration: {}
   downstream_blocks:
@@ -49,13 +49,13 @@ blocks:
   language: python
   name: semantic_cleaning
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: transformer
   upstream_blocks:
   - transform_raw_data
   uuid: semantic_cleaning
-- all_upstream_blocks_executed: true
+- all_upstream_blocks_executed: false
   color: null
   configuration: {}
   downstream_blocks:
@@ -66,7 +66,7 @@ blocks:
   language: python
   name: sentiment_analysis
   retry_config: null
-  status: updated
+  status: executed
   timeout: null
   type: transformer
   upstream_blocks:

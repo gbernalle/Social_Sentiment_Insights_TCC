@@ -2,6 +2,8 @@ import os
 import json
 import praw
 import logging
+import time
+import random
 import concurrent.futures
 from mage_ai.settings.repo import get_repo_path
 from dataclasses import dataclass
@@ -35,7 +37,7 @@ class Reddit_Connection:
                 password=self.password,
                 user_agent="TccTeste/0.0.1",
             )
-            user = self.reddit.user.me()
+            self.reddit.user.me()
             return True
         except praw_exceptions.OAuthException as e:
             logging.error(f"An authentication error occurred: {e}")
@@ -66,7 +68,7 @@ class Reddit_Connection:
                     "comments": [],
                 }
                 try:
-                    post.comments.replace_more(limit=None)
+                    post.comments.replace_more(limit=0)
                 except Exception as e:
                     logging.error(
                         f"Error loading more comments for the post {post.id}: {e}"
@@ -105,22 +107,28 @@ class Reddit_Connection:
 def scrape_and_save_task(task_params):
     top, word = task_params
     logging.info(f"[TASK STARTED] - Subreddit: {top}, Word: {word}")
+    
+    time.sleep(random.uniform(2.0, 5.0)) 
+    
     thread_client = Reddit_Connection()
     if not thread_client.connect_to_api_reddit():
         logging.error(f"[TASK FAILED] - Connection: {top} / {word}")
         return f"FAILURE (Connection): {top} / {word}"
+        
     try:
         top_posts = thread_client.get_top_posts_and_comments(top, word)
+        
         if not top_posts:
-            logging.warning(
-                f"[TASK EMPTY] - No posts found for: {top} / {word}"
-            )
+            logging.warning(f"[TASK EMPTY] - No posts found for: {top} / {word}")
             return f"OK (Empty): {top} / {word}"
+            
         safe_palavra = word.replace(" ", "_")
         filename = f"{top}_{safe_palavra}.json"
         thread_client.save_in_file(top_posts, filename)
+        
         logging.info(f"[TASK COMPLETED] - Saved:{filename} ({len(top_posts)} posts)")
         return f"OK (Saved): {filename}"
+        
     except Exception as e:
         logging.error(f"[TASK FAILED] - Error during execution {top} / {word}: {e}")
         return f"FAILURE (Error): {top} / {word}"
@@ -136,7 +144,7 @@ def load_reddit_data(*args, **kwargs):
     ]
 
     keywords = [
-        "ME", "CNPJ", "MEI", "Simples Nacional", "abrir empresa", "imposto MEI", "imposto"
+        "ME", "CNPJ", "MEI", "Simples Nacional", "abrir empresa", "imposto MEI", "imposto",
         "imposto ME", "imposto CNPJ", "DAS", "INSS MEI", "governo+empresa", "IRPF",
         "Uber", "iFood", "pj", "emprego","Uberização"
     ]
@@ -148,7 +156,7 @@ def load_reddit_data(*args, **kwargs):
 
     tasks = [(top, word) for top in topics for word in keywords]
     
-    MAX_WORKERS = 5
+    MAX_WORKERS = 3
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         results = list(executor.map(scrape_and_save_task, tasks))

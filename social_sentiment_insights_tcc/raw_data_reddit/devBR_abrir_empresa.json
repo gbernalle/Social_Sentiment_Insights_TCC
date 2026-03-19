@@ -1,5 +1,511 @@
 [
     {
+        "post_id": "1rjss9x",
+        "post_title": "IA deixou de ser opcional e virou requisito obrigado nas vagas que tenho visto. Como vocês estão organizando o workflow (specs, contexto, agentes, Spec-Driven Development)?",
+        "post_body": "Fala galera, tudo certo?\n\nSou desenvolvedor, recentemente promovido a pleno, e com o boom da IA eu tenho observado uma mudança forte nas práticas de desenvolvimento: o mercado não só **exige conhecimento de IA**, como também espera que a gente saiba como integrá-la de forma eficaz no workflow, e as vezes até gerencias múltiplos projetos e agentes de forma eficaz.\n\nAlém das discussões sobre bolha ou hype, acredito que a forma de desenvolver software mudou de verdade. E quero entender como times (especialmente em empresas maiores) estão lidando com isso **de forma estruturada e técnica**, especialmente em torno de abordagem *spec-driven* e *context engineering*.\n\nQueria abrir esse tópico pra trocar experiência sobre uso prático dessas ferramentas no dia a dia de desenvolvimento, não só “como vocês usam pra gerar código”, mas **como vocês organizam processos verdadeiros** com elas.\n\n# Principais dúvidas que eu gostaria de discutir\n\n1. **Spec-Driven Workflows**\n   * Como vocês estruturam *specs* antes de mandar código pra IA implementar?\n   * Utilizam algum padrão de arquivos (ex.: [`requirements.md`](http://requirements.md/), [`design.md`](http://design.md/), [`claude.md`](http://claude.md/), `agents.md`)?\n   * O que consideram *bom* em um spec para IA, e o que evita erros de contexto depois?\n2. **Context Windows & Token Efficiency**\n   * Como lidam com o problema de contexto explodir?\n   * Vocês fazem RAG (retrieval augmented generation), pruning, compressão de contexto ou divisão de um spec grande em partes menores?\n   * Alguma estratégia prática de manter *contexto ativo* limitado ao que importa pra tarefa atual?\n3. **Subagents & Model Specialization**\n   * Vocês usam *subagents* ou *modos customizados* para cada tipo de tarefa? Como configuram (ex.: planejamento, implementação, revisão)?\n   * Separar agentes por tarefas específicas ajudou a reduzir token usage ou melhorou consistência?\n4. **Model Context Protocol (MCP) & Tool Integration**\n   * Alguém usando MCP pra integrar IA com Jira, repositório de specs, banco de dados, ferramentas de busca etc?\n   * Como vocês configuram esses fluxos pra que o agente *puxe contexto relevante* sem explodir tokens?\n5. **Boas Práticas & Automação**\n   * Vocês têm *checkpoints*, *acceptance criteria* ou validações formais (ex.: BDD / Gherkin) antes do agente gerar código?\n   * Fazem testes automatizados integrados com as specs?\n   * Como evitam que código gerado por IA desvie da arquitetura definida?\n   * Existe algum mecanismo formal para garantir alinhamento com o spec?\n   * Vocês utilizam IA para code review?\n      * Review automatizado ou híbrido?\n      * Apenas lint/estilo ou também lógica e arquitetura?\n      * Trabalham com agentes separados para implementação e revisão?\n6. **Onde estão buscando conteúdo e atualizações técnicas?**\n   * Blogs, newsletters, repositórios de templates/specs, posts de profissionais, cursos, eventos, youtubers?\n   * O que foi mais útil pra vocês até agora?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1rjss9x/ia_deixou_de_ser_opcional_e_virou_requisito/",
+        "is_self_post": true,
+        "post_created_utc": 1772552917.0,
+        "comments": [
+            {
+                "comment_id": "o8flecm",
+                "comment_body": "Não sou dev, sou designer, embora já tenha trabalhado por anos como front end.\n\nJá testei vários modelos e IDEs e atualmente encontrei um fluxo extremamente confiável e confortável pro meu trabalho. 90% das entregas vem estruturada e testada, sem nenhum tipo de erro.\n\nUso o VIsualStudio com a extensão do Codex. Uso o modelo 5.3 High. E geralmente estouro o limite de tokens semanais em dois ou três dias. Mas o desenvolvimento fica robusto.\n\nHoje tenho um arquivo [agents.md](http://agents.md) na raiz do servidor de dev no qual trabalho (conecto por SSH). Não faço nada local, faço direto no servidor de teste e já testo. Esse arquivo possue várias informações e parâmetros que escrevi sobre o comportamento que a IA tem que ter. Desde o idioma de comunicação até comportamentos de erro.\n\nNesse [agents.md](http://agents.md) também link outros 15 arquivos .md, cada um com os parâmetros de cada característica do projeto. Um arquivo para os padrões, um para a segurança, um para interface, um para privacidade, um para bugs, um para governança, um pra arquitetura, um para testes, etc...\n\nCada um desses arquivos foi feito baseado nas dificuldades e problemas que enfrentei com a IA enquanto desenvolvia ao longo dos meses. Neles há dezenas de instruções e regras sobre cada uma das coisas sobre o que o arquivo trata. Por exemplo o arquivo de testes, diz os parâmetros, critérios de aceite, regressões, etc dos testes que a IA tem que fazer antes de me dizer que o trabalho está pronto.\n\nEmbora isso consuma muitos tokens pois o tempo todo a IA lê todos esses arquivos, ao mesmo tempo tem evitado dores de cabeça e erros que meses atrás eram frequentes. Por isso hoje, no meu fluxo, a IA entrega tudo redondinho e testado. Até mesmo regras pra UX e usabilidade tenho e ela segue perfeitamente.\n\nTambém tenho um arquivo que dá instrução sobre a documentação e logs. Quando. IA termina uma etapa do projeto, ela testa, documenta, tira print e atualiza o log com as evidências de que está funcionando. Ela faz teste de carga, desempenho, e2e, regressivo, etc. Eu uso e abuso disso.\n\nAntes de começar qualquer projeto, fico o dia todo conversando e perguntando e discutindo sobre com a IA. Ao final, peço pra ela documentar tudo (ela segue as regras que falei anteriormente e já documenta na pasta e com a estrutura correta) e separar o desenvolvimento em etapas planejadas.\n\nGeralmente ela divide entre 15 e 20 etapas de desenvolvimento. A cada etapa ela me explica oq ue fará e o que está contido na etapa. Então apenas dou o comendo pra ela executar. Ela faz, testa, documenta e me avisa que terminou aquela etapa e pergunta se eu quero que ela prossiga.\n\nAlém desses arquivos todos com os parâmetros definidos (e que deu um trabalhão pra fazer), ela é instruída a atualizar sozinha esses arquivos com novas coisas que valham a pena serem inseridas pra evitar erros futuros. Também é instruída a usar MCPs e até instalar se for necessário.\n\nPor fim, separei um arquivo .secrets com vários tokens de APIs que criei pra ela ter acesso aos outros sistemas secundários. Hä também um arquivo de instruções só sobre os acessos de API com as regras.\n\nNão uso subagentes. A cada X etapas do desenvolvimento troco o modelo da IA pra um MAX ou outro diferente e peço pra fazer uma auditoria de segurança e desempenho e salvo o relatório. Depois volto pra IA original e converso com ela sobre o relatório.\n\nAssim desenvolvendo aos poucos e auditando a cada X etapas, com essa série de parâmetros pre-estabelecidos e acessos as APIs com escopo definido, o desenvolvimento fica muito abertivo e tranquilo. Queima bem mais token do que da forma como eu fazia antes, mas é muito mais robusta e precisa.",
+                "comment_score": 15,
+                "comment_created_utc": 1772554926.0
+            },
+            {
+                "comment_id": "o8fvdjm",
+                "comment_body": "Eu não estou acompanhando nada disso, se um dia eu for demitido da empresa que estou vou abandonar essa área",
+                "comment_score": 15,
+                "comment_created_utc": 1772557758.0
+            },
+            {
+                "comment_id": "o8gihma",
+                "comment_body": "Eu uso o gpt no browser e não faço a menor ideia dessa onda inteira de agentes. Muita coisa eu mesmo programo e tá ótimo. Ainda produzo bem mais que qualquer outro dev da minha equipe.\n\nSabe, quando eu vou fazer um café, eu esquento a água, preparo o pó no filtro e faço o café. É simples. A minha impressão com toda essa baboseira de agentes é que a coisa simplesmente não presta mesmo. Metaforicamente, esse café ia usar 4 modelos, um pra água, um pro filtro, um pro pó do café e outro pra orquestrar essa epopéica tarefa",
+                "comment_score": 10,
+                "comment_created_utc": 1772564220.0
+            },
+            {
+                "comment_id": "o8gmmig",
+                "comment_body": "Mano fiz um post no r/brdev esses dias, tenho usado um workflow no claude code com varios agents ao msm tempo, um planeja o outro executa em paralelo e um revisa no final. Tenho um para bug fix que olha logs e chama apis porém esse ainda estou no começo de deixar bom honestamente.  \nQuanto a context magment, nao precisa ir muito longe nao, criar sub-agents já é mais oq suficente (cada sub-agent tem seu proprio context) só se tiver fazendo algo mt gigantesco ai vc pode usar a idea de ralph loop, maaaas honestmanete prefiro quebrar em mais sessoes do claude (q podem ser paralalos tbm pq n) do que fazer esse while loop gigante.\n\naqui meu setup é facil de usar tem um one-liner setup: [https://github.com/nickmaglowsch/claude-setup](https://github.com/nickmaglowsch/claude-setup)",
+                "comment_score": 6,
+                "comment_created_utc": 1772565392.0
+            },
+            {
+                "comment_id": "o8grv7r",
+                "comment_body": "Tu é tão preguiçoso que não se deu ao trabalho de escrever o post e pegou do ChatGPT",
+                "comment_score": 5,
+                "comment_created_utc": 1772566894.0
+            },
+            {
+                "comment_id": "o8k9lex",
+                "comment_body": "Alguém realmente lê esses posts verborrágicos gerados por IA?",
+                "comment_score": 4,
+                "comment_created_utc": 1772613221.0
+            },
+            {
+                "comment_id": "o8gcd4w",
+                "comment_body": "Cara, tá uma loucura... mas sim, estou usando e tem me ajudado bastante, 1 mês atrás eu estava na \"resistência\" de implantar no meu fluxo de trabalho, mas era pura preguiça de pesquisar e me aprofundar.  \nSó que, ainda estou engatinhando nesse mundo, até porque é aquele meme \"estamos com 10 minutos sem lançamento de uma ferramenta IA nova\", rsrs.  \nVamos lá, vou ser breve porque enquanto estou escrevendo aqui, a IA tá fazendo uma plano de implementação pra mim (sem zoeira, kkkkk).\n\nUso Antigravity (modelos variados - opus, gemini pro, etc. - vai depender do quero fazer) e quando meu tokens tão acabando, pulo pro Codex.  \n\\- [GEMINI.md](http://GEMINI.md) (Aqui tem um escopo geral de onde ele buscar o quê, tecnologias do projeto, arquitetura, etc.)  \n\\- Skills (Eu deixo elas configuradas globalmente), e sempre que eu quero que ela utilize determinada skill, eu falo explicitamente no chat  \n\\- MCP (A galera do banco da minha empresa configurou um MCP e ficou bala toda), mas tem context7 que uso também  \n\\- Tem uma galera do youtube produzindo vídeos legais, de BR posso recomendar (Rafael Quintanilha, Waldemar Neto), como falei, estou no começo ainda, então conheço poucos influenciadores, pode ter um bem mais famoso por aí.\n\nDepois eu tento colocar o meu fluxo, mas com base no que falei já dá para ter uma ideia de alguma coisa, rsrs. ",
+                "comment_score": 3,
+                "comment_created_utc": 1772562520.0
+            },
+            {
+                "comment_id": "o8ffcyp",
+                "comment_body": "AC",
+                "comment_score": 2,
+                "comment_created_utc": 1772553194.0
+            },
+            {
+                "comment_id": "o8gxe8t",
+                "comment_body": "Excelente discussão. Não consigo agregar agora, mas volto mais a noite para colocar meus comentários! A minha principal missão, na empresa onde estou agora é exatamente essa, implementar um framework para adoção de GenAI - principalmente no time de Dev - para acelerar entregas e melhorar a nossa rentabilidade. Estou estando bastante, estou testando muito e vai ser legal trocar figurinhas.  \n",
+                "comment_score": 2,
+                "comment_created_utc": 1772568477.0
+            },
+            {
+                "comment_id": "o8jllqv",
+                "comment_body": "Muito boa a discussão. \n\nDependendo do projeto, eu faço a documentação sempre que termino a conversa (só uso os gratuitos, somente agora comecei a usar o OpenCode). Não cheguei ao seu ponto ainda, mas estou caminhando. Não crio nada na pasta do código, e realmente estou interessado em conhecer mais e saber sobre como criar. Meus documentos são basicamente como os seus, mais simples, claro. \n\nPoderia disponibilizar algum template desses arquivos que você cria? Para testar dentro de um dos meus projetos? Uso apenas o Craft Docs para salvar meus documentos, mas quero começar a implementar dentro da pasta do projeto.",
+                "comment_score": 1,
+                "comment_created_utc": 1772600795.0
+            },
+            {
+                "comment_id": "o8gx3mv",
+                "comment_body": "Você tem o caminho…. a procura são por profissionais como\ndescrito",
+                "comment_score": 3,
+                "comment_created_utc": 1772568389.0
+            },
+            {
+                "comment_id": "o8g77z8",
+                "comment_body": "Metade do que ele citou ali tá mais pra doença mental do que realidade.\n",
+                "comment_score": 6,
+                "comment_created_utc": 1772561095.0
+            },
+            {
+                "comment_id": "o8h93qp",
+                "comment_body": "Algo que era simples, virou isso:\n\n-- aqui está as 50 versões do café. Você escolhe a melhor e lide com as consequências.\n\nVocê não participou passo a passo da criação do café. Você mal sabe o que é um café. Você é um espectador que precisa analisar criticamente o chute em escala industrial da máquina.\n\nÉ daí que surge todo esse desespero do op: como é que eu faço pra ela errar menos?",
+                "comment_score": 8,
+                "comment_created_utc": 1772571812.0
+            },
+            {
+                "comment_id": "o8gqhll",
+                "comment_body": "\"Ainda produzo bem mais que qualquer outro dev da minha equipe\"\n\n\nSeu relato está de acordo com as pesquisas (https://exame.com/inteligencia-artificial/ao-contrario-do-esperado-estudo-revela-queda-na-produtividade-de-desenvolvedores-experientes-com-ia/)\n\n\nNão sou dev, só entusiasta mesmo hehe mas tenho achado interessante isso de uma galera dizendo mil maravilhas, outros falando que não muda nada na prática.",
+                "comment_score": 4,
+                "comment_created_utc": 1772566496.0
+            },
+            {
+                "comment_id": "o97c6l0",
+                "comment_body": "claramente ele nunca usou o Claude Code",
+                "comment_score": 0,
+                "comment_created_utc": 1772915926.0
+            },
+            {
+                "comment_id": "o8mkvnf",
+                "comment_body": "Remindme! 6 hours",
+                "comment_score": 1,
+                "comment_created_utc": 1772644904.0
+            },
+            {
+                "comment_id": "o8k22l3",
+                "comment_body": "É a realidade, principalmente em empresas grandes e modernas",
+                "comment_score": 2,
+                "comment_created_utc": 1772608957.0
+            },
+            {
+                "comment_id": "o8gojl1",
+                "comment_body": "Se tu realmente acha isso, tenho mas notícias. O mercado tá sim assim",
+                "comment_score": 4,
+                "comment_created_utc": 1772565938.0
+            },
+            {
+                "comment_id": "o98u97o",
+                "comment_body": "Esse eh exatamente o perfil que eu contrataria",
+                "comment_score": 1,
+                "comment_created_utc": 1772934906.0
+            },
+            {
+                "comment_id": "o8hf0m0",
+                "comment_body": "É como eu falei prum colega uma vez, é tipo uma sala cheia de virgens discutindo qual a melhor posição sexual para transar",
+                "comment_score": 3,
+                "comment_created_utc": 1772573483.0
+            },
+            {
+                "comment_id": "o8hevg3",
+                "comment_body": "sabe o que muda pra mim? me permite programar no celular qnd eu não tou em casa. Hj é mais fácil fugir do trabalho remoto pra, por exemplo, uma consulta médica, e enquanto espero a minha vez ir adiantando algumas coisas pra dps terminar. Mas note que isso é no chat normal, não é essas ondas de IDE AI first",
+                "comment_score": 2,
+                "comment_created_utc": 1772573442.0
+            },
+            {
+                "comment_id": "o8k274x",
+                "comment_body": "Muda tudo, eu produzo umas 100x mais",
+                "comment_score": 1,
+                "comment_created_utc": 1772609027.0
+            },
+            {
+                "comment_id": "o939iiz",
+                "comment_body": "Hoje mesmo eu estava tentando fazer a IA me cupir um código funcional mesmo descrevendo a funcionalidade no front da melhor forma, vendo o que ela errava, refinando a descrição, as regras etc.\n\nO melhor código que ela me deu eu tive que começar a mexer para tentar entender e acabei reduzindo para 1/10 dos if-elses que cobriam todos os casos. Aí quando mandei para ela verificar: “You’re absolutely right!”.",
+                "comment_score": 1,
+                "comment_created_utc": 1772856576.0
+            },
+            {
+                "comment_id": "o8ml2ac",
+                "comment_body": "**Defaulted to one day.**\n\nI will be messaging you on [**2026-03-05 17:21:44 UTC**](http://www.wolframalpha.com/input/?i=2026-03-05%2017:21:44%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/devBR/comments/1rjss9x/ia_deixou_de_ser_opcional_e_virou_requisito/o8mkvnf/?context=3)\n\n[**CLICK THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2FdevBR%2Fcomments%2F1rjss9x%2Fia_deixou_de_ser_opcional_e_virou_requisito%2Fo8mkvnf%2F%5D%0A%0ARemindMe%21%202026-03-05%2017%3A21%3A44%20UTC) to send a PM to also be reminded and to reduce spam.\n\n^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%201rjss9x)\n\n*****\n\n|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|\n|-|-|-|-|",
+                "comment_score": 1,
+                "comment_created_utc": 1772644955.0
+            },
+            {
+                "comment_id": "o8ko9yb",
+                "comment_body": "Bom que seu salário continua o mesmo e sua carga horária também.",
+                "comment_score": 4,
+                "comment_created_utc": 1772621558.0
+            },
+            {
+                "comment_id": "o93df0d",
+                "comment_body": "Eu achei interessante essa pesquisa que eu mencionei por causa desse ponto específico que ela cita \"programadores experientes\"\n\n\nEu não sei nada de programação, só o básico do básico (\"hello world\"), então pra mim esse negócio de IA é mágico mesmo haha porque qualquer coisa que eu queira fazer, ela copia de bilhões de projetos parecidos (pokedex, to-dos etc) \n\n\nMas você que vive disso, trabalha com isso, acaba tendo tarefas específicas que não existem, então não tem de onde copiar... Aí parece que chega nessa situação aí que você narrou e fica nisso, andando em círculos... Isso já vi gente escrevendo nos subs gringos que \"teria feito mais rápido no final das contas\". \n\n\nAí minhas dúvidas e ponderações:\n\n\n1) Por que alguns programadores experientes dizem que rendem muito mais com IA? É um efeito psicológico? Uma pessoa reportou render \"100 vezes mais\" (e isso provavelmente não corresponde à realidade, se não, ele daria conta de todos os projetos da empresa dele sozinho e ainda conseguiria fazer uns 10 overemployment) \n\n\n2) A tendência do negócio é evoluir, talvez por isso a adoção em massa? Pra já ir acostumando? Em alguns casos a IA já é bem satisfatória, tipo para criar músicas.\n\n\n3) Nessa situação específica que você narrou, você achou mais prático a IA fazer um código assim mais ou menos e ir tentando consertar ou acharia mais prático fazer logo do zero? (olhando agora de trás pra frente, depois da tarefa concluída) ",
+                "comment_score": 1,
+                "comment_created_utc": 1772858200.0
+            },
+            {
+                "comment_id": "o95k2gr",
+                "comment_body": "A recompensa de um bom trabalho é mais trabalho. Quem ganha produtividade com IA deveria estar é decansando mais",
+                "comment_score": 2,
+                "comment_created_utc": 1772895975.0
+            },
+            {
+                "comment_id": "o93nbo9",
+                "comment_body": "Respondendo 1 e 3:\n\n1 - pura balela. Literalmente papo de vendedor. A pessoa não utilizou métrica nenhuma pra falar que produz 100x +. Até um aumento de produção de 2x já é duvidoso\n\n3 - antes dessa putaria toda de LLM - que não é IA propriamente dita, é estatística pura - qualquer dev que programava lendo doc vai ter confirmar que é bem mais complicado debugar código dos outros do que debugar código próprio. Idem para debugar código de LLM. Se o que tu estiver pedindo for complexo demais, e acabar tendo que revisar maior parte do código gerado, mais fácil fazer você mesmo do zero. Obviamente isso se tu sabe codar.\n\nTenho vários conhecidos que são da área tech, inclusive gringos. E o único ser que venera essas porras de agents é um Product Manager que não sabe fazer um CRUD básico.\n\nE a pergunta 2 - a tendência sempre é de evolução, mas também a indícios de que isso tá virando uma puta bolha prestes a estourar, aí o regresso vai vir com força, para aí sim evoluir de forma sustentável.\n\nA quantidade de demanda hipotética que os executivos estão utilizando pra justificar investimentos bilionários nessas empresas tá absurdo.",
+                "comment_score": 3,
+                "comment_created_utc": 1772862626.0
+            },
+            {
+                "comment_id": "o94nju3",
+                "comment_body": "Entendi\n\n\nE uma última dúvida: hoje, no ponto em que estamos agora, você vê alguma grande serventia para os LLMs nesse contexto de programação? Tipo, algo que já está bem bom e consolidado \n\n\nNão sei, fazer a documentação? Comentar? De repente se você chegasse numa empresa hoje com um código velho largado, and você talvez passaria o LLM não pra ele modificar alguma coisa, mas pra analisar o que foi feito e explicar o código? \n\n\nOu acha que ainda não faz nada de forma muito confiável? Haha",
+                "comment_score": 2,
+                "comment_created_utc": 1772882643.0
+            },
+            {
+                "comment_id": "o95lctw",
+                "comment_body": "Só complementando. Quanto ao 1), muito programador infelizmente programa \"na cabeçada\", eles não realmente entendem 100% do que tá rolando e vão copiando e colando códigos que vão encontrando \"até dar certo\" e \"quando dá certo\" eles decidem \"não mexe mais se não quebra\". Isso parece zoeira mas é incrivelmente comum. Esse tipo de programador tá realmente muito mais produtivo com a IA, pois a IA entende melhor que ele. Contudo, quando dá pau, dá pau nele também pq ele não faz a menor ideia de nada do que tá ali pq ele não é o autor de quase nada.\n\nJá sêniors de verdade entendem as paradas e tão antenados a 10 questões não-funcionais ao mesmo tempo. Não é só \"estar correto\", é também não ser pesado, não ser uma macarronada, ser seguro, ser modular, etc. Esse casa fica com raiva da IA pq a IA faz exatamente o que vc pediu, mas ela também não tá nem ai para essas 10 coisas implicitas que você não pediu. E ficar explicitamente lembrando ela de tudo é muito pertubador. É tipo vc pedir pra um amigo pegar teu filho na escola e ter que lembrar ele de não bater seu carro, de ir na escola certa, e que é pra trazer vivo\n\nSobre o ponto 2, apesar de eu discordar da afirmação que \"LLM não é IA\". Eu queria complementar aqui que a maior dificuldade de programação séria é debuggar, pq 99% dos bugs dificeis não tão \"no código\", eles tão na interação desordenada de várias coisas e que as vezes esbarram de forma ruim. A LLM não pega isso de jeito nenhum, ela vai é encher teu código de guards que vão mais atrapalhar que resolver",
+                "comment_score": 1,
+                "comment_created_utc": 1772896400.0
+            },
+            {
+                "comment_id": "o94t86i",
+                "comment_body": "Elas são mt boas nesse lance de gwrar documentação, gerar testes, de te resumir o que um trecho ou módulo faz etc. Elas leem mais rápido que a gentr pra responder perguntas. No entanto, na hr de escrever vc precisa vc msm ler pelo menos alguns trechos",
+                "comment_score": 2,
+                "comment_created_utc": 1772885570.0
+            }
+        ]
+    },
+    {
+        "post_id": "1qu6ioz",
+        "post_title": "Como um PROGRAMADOR SENIOR usa IA no dia a dia - Cursor, MCP, sub-agents",
+        "post_body": "Hoje em dia usar ferramentas de IA no trabalho e pra desenvolvimento ja virou quase que obrigatório. Eu consegui boas oportunidades trabalhando pra gringa por ter mexido com essas ferramentas desde o começo, com vagas de 5 a 10k USD / mes.\n\nAchei que seria uma boa compartilhar como eu uso essas ferramentas no dia a dia, pra ajudar quem ta perdido e também pra trocar informações com quem ja ta inserido no mundo da IA.\n\nEu já usei Claude Code e Cursor, mas atualmente to mais focado no Cursor que é o que a empresa paga pra gente. Meus modelos favoritos são o Opus 4.5 (tasks médias/complexas) e o Composer 1 (tasks simples). O Opus é mt bom pra planejamento, discussoes, tasks mais complicadas. Pra mim, o modelo mais inteligente até agora. O Composer 1 é mt rapido, mas ainda peca em algumas decisoes, por isso uso ele pra coisas mais simples.\n\nQuando eu vou mexer em algo que ja existe, eu gosto de sempre começar adicionando ao contexto do agente o fluxo de execucao daquela feature. Normalmente, pedindo pra ele me explicar como aquilo funciona ja ajuda bem. Depois peço pra fazer as alteracoes que preciso.\n\nSe vou implementar uma feature nova, gosto de começar pelo Plan Mode, discutindo com o Opus, passando o objetivo da tarefa e discutindo a parte técnica até chegar em uma que me agrade. Aqui é bom tbm pq ele te faz perguntas pra esclarecer dúvidas e te ajuda a detalhar melhor a solução. Depois de finalizado o plano, da pra clicar em Build e ele sai implementando, mas eu gosto de pedir pra ele usar sub-agents pra trabalharem em parelelo e entregar mais rapido. Esses dias na empresa alterei 7 serviços ao mesmo tempo com 7 sub-agentes, e foi bem mais rapido do que se fosse linearmente.\n\nAlgumas ferramentas interessantes que uso do cursor são as Docs, em que vc pode passar uma URL da web e ele vai indexar e te responder de acordo com o que ta la, Skills/Comandos pra deixar prompts pré feitos pra coisas como revisar um PR. Uso bastante as Rules tbm, tanto pessoais quanto de projeto. Úteis pra documentar padroes, decisoes, etc. E claro, nao da pra deixar de falar dos MCPs, que pra mim sao importantissimos. Tenho conectado MCP do banco de dados, do notion, do github e do Jira. Consigo conversar com o Cursor e perguntar sobre coisas do banco de dados que ele roda as queries e me traz detalhado informacoes, abrir PRs com o github MCP, escrever/ler anotacoes do meu notion, ler tasks do meu Jira, etc. Recomendo fortemente\n\nPor último, acho que um ponto interessante a comentar, é que a melhor arquitetura que eu vi ate agora pra IA é a de Monorepo. Se todos os seus servicos estiverem numa mesma pasta, vai ficar mt mais facil pra IA navegar entre elas, entender como eles se comunicam entre si, entender payloads, etc. Na empresa que eu to a gnt tem um repositorio no github que é o Monorepo, e nele tem documentado os outros repositorios (separados) e as urls/branchs pra eles. Aí é só clonar na pasta /services e ta tudo dentro do monorepo, sem efetivamente estar la no github.\n\nÉ isso! Espero que essas dicas tenham ajudado, e se ajudou da uma olhada no video que eu postei mostrando na prática tudo isso em um projeto real: [https://www.youtube.com/watch?v=lC85jFCG\\_ho](https://www.youtube.com/watch?v=lC85jFCG_ho)\n\nComenta aí também como voce usa essas ferramentas no dia a dia, se eu esqueci de alguma coisa importante, se vc ja viu diferenca na sua produtividade usando IA pra trabalhar.",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1qu6ioz/como_um_programador_senior_usa_ia_no_dia_a_dia/",
+        "is_self_post": true,
+        "post_created_utc": 1770063861.0,
+        "comments": [
+            {
+                "comment_id": "o396qtm",
+                "comment_body": "Excelente post, irmão. Tô entrando agora nesse mundo com o Claude, vou estudar mais sobre essas dicas pra aplicar num projeto novo que tô iniciando hj no trabalho",
+                "comment_score": 4,
+                "comment_created_utc": 1770078059.0
+            },
+            {
+                "comment_id": "o397w0d",
+                "comment_body": "Comentando pra lembrar de ver amanhã, muito top",
+                "comment_score": 2,
+                "comment_created_utc": 1770078432.0
+            },
+            {
+                "comment_id": "o3heoee",
+                "comment_body": "Legal. \n\nA ideia do monorepo é legal mas nem sempre dá pra usar. Pra isso acho interessantes usar os workspaces das IDEs, assim vc abre todos os repos envolvidos e o modelo consegue transitar por eles facilmente",
+                "comment_score": 2,
+                "comment_created_utc": 1770184023.0
+            },
+            {
+                "comment_id": "o383tu2",
+                "comment_body": "Tem vídeo ou algo q tu viu pra conectar os mcps?",
+                "comment_score": 1,
+                "comment_created_utc": 1770066167.0
+            },
+            {
+                "comment_id": "o38qbbu",
+                "comment_body": "A empresa paga o Opus pra você também? Eu acho que tem pouco limite de tokens no plano de 20 dólares😓.",
+                "comment_score": 1,
+                "comment_created_utc": 1770072708.0
+            },
+            {
+                "comment_id": "o399qom",
+                "comment_body": "O que a empresa desenvolve? Como é a gestão- se você entrega 7x mais rapido, eles te dão 7x mais trabalho?",
+                "comment_score": 1,
+                "comment_created_utc": 1770079037.0
+            },
+            {
+                "comment_id": "o39rmeo",
+                "comment_body": "Hehehe, aqui eh Vanilla CC, chefe. Meu próprio workflow e comandos, e sub agentes so pra exploração e resumo - ainda não funcionam bem pra justificar os tokens e esforço de revisão. Context7 mcp as vezes, documentação centralizada em um mcp que criei  pra não poluir contexto, codebase indexada em tool próprio pra planejar com mais visão projetos grandes, ferramentas ts-morph para investigação e debug e comandos diversos. Menos é mais. Cuidado com o hype! Linters, linters e linters e CI, o diabo a 4 pra pegar os safados. Knip eh essencial pra higiene, já comece com ele. Valeu por compartilhar!",
+                "comment_score": 1,
+                "comment_created_utc": 1770085101.0
+            },
+            {
+                "comment_id": "o3bvqwy",
+                "comment_body": "Um problema atual é o acesso as ferramentas, isso muda todo o workflow e a galera anti-IA /documentação. No trampo pagam o gh copilot, meu uso fica  em plan mode + arquivos de contexto é o que temos, alguns colegam assinam o claude code de $200 por fora para facilitar a vida em freelas. As metologias de spec não encaixam no trampo ainda, mas em freela funciona ok. Vejo essa parada de escalar o uso de IA para o time como desafio atual.",
+                "comment_score": 1,
+                "comment_created_utc": 1770121142.0
+            },
+            {
+                "comment_id": "o3caplq",
+                "comment_body": "Como vc se apresenta no Linkedin com seu atual perfil de uso pra IAs? Como foram as exigências das empresas que contactaram pra falar do uso das IAs? Tô querendo super \"migrar\" pra IA e aprender a fundo mesmo (langchain, MCPs, langGraph e etc..)",
+                "comment_score": 1,
+                "comment_created_utc": 1770126695.0
+            },
+            {
+                "comment_id": "o3qw58r",
+                "comment_body": ">Por último, acho que um ponto interessante a comentar, é que a melhor arquitetura que eu vi ate agora pra IA é a de Monorepo. Se todos os seus servicos estiverem numa mesma pasta, vai ficar mt mais facil pra IA navegar entre elas, entender como eles se comunicam entre si, entender payloads, etc. Na empresa que eu to a gnt tem um repositorio no github que é o Monorepo, e nele tem documentado os outros repositorios (separados) e as urls/branchs pra eles. Aí é só clonar na pasta /services e ta tudo dentro do monorepo, sem efetivamente estar la no github.\n\nqualquer dev do time faz clone/fork da base de codigo inteiro da empresa? c é doido.",
+                "comment_score": 1,
+                "comment_created_utc": 1770311134.0
+            },
+            {
+                "comment_id": "o37wyuv",
+                "comment_body": "cara obrigado pelas dicas!! o esquema do plan é bem real mesmo, eu uso assim e é bem mais eficiente.\n\nnunca usei mcp, já vou testar isso e ver qualé que é",
+                "comment_score": 0,
+                "comment_created_utc": 1770064225.0
+            },
+            {
+                "comment_id": "o39ajjh",
+                "comment_body": "muito obrigado mano! Dps q entra é um caminho sem volta ahahaha mas é importante por em pratica",
+                "comment_score": 1,
+                "comment_created_utc": 1770079297.0
+            },
+            {
+                "comment_id": "o3bcx0o",
+                "comment_body": "valeu mano! E ai, ja viu?",
+                "comment_score": 1,
+                "comment_created_utc": 1770111343.0
+            },
+            {
+                "comment_id": "o383zbb",
+                "comment_body": "eu li documentacoes mesmo, achando repositório no github ou no proprio site do q eu quero conectar",
+                "comment_score": 1,
+                "comment_created_utc": 1770066211.0
+            },
+            {
+                "comment_id": "o38qr95",
+                "comment_body": "sim, eles pagam o plano de 200$ pra mim",
+                "comment_score": 2,
+                "comment_created_utc": 1770072843.0
+            },
+            {
+                "comment_id": "o39ae0c",
+                "comment_body": "um SaaS pra restaurantes. E sim, o foco é desenvolver rapido pq o time sou eu (dev senior), o CTO e o TL. A filosofia é escalar AI first",
+                "comment_score": 1,
+                "comment_created_utc": 1770079247.0
+            },
+            {
+                "comment_id": "o3bd151",
+                "comment_body": "o cara é o chuck norris das IAs ahahaah context7 é bom tbm, ja usei",
+                "comment_score": 1,
+                "comment_created_utc": 1770111411.0
+            },
+            {
+                "comment_id": "o3qwap1",
+                "comment_body": "sim. O time só tem 3 devs e n tem nem 15 repos",
+                "comment_score": 1,
+                "comment_created_utc": 1770311177.0
+            },
+            {
+                "comment_id": "o37zqpj",
+                "comment_body": "valeu mano!\nMCPs ajudam demaisss, recomendo fortemente",
+                "comment_score": 1,
+                "comment_created_utc": 1770065017.0
+            },
+            {
+                "comment_id": "o3cbyon",
+                "comment_body": "Um ano dormindo as 5h da manhã, hoje já consigo dormir e filtrar as coisas e a hype. Só se aprende errando e errando e errando… mas uma hora sai. Boa sorte!",
+                "comment_score": 1,
+                "comment_created_utc": 1770127112.0
+            },
+            {
+                "comment_id": "o3r3ijd",
+                "comment_body": "nao, entao um deveria tem acesso ao main branch e avalia pull request pra tarefas com scopo de acesso a base de codigo condicional(scoped api key) os outros clonam/avaliam apenas o que seja relevante pra trabalhar na tarefa.",
+                "comment_score": 1,
+                "comment_created_utc": 1770313208.0
+            },
+            {
+                "comment_id": "o3r4c0n",
+                "comment_body": "tudo é relevante e todo mundo mexe em tudo",
+                "comment_score": 1,
+                "comment_created_utc": 1770313432.0
+            }
+        ]
+    },
+    {
+        "post_id": "1psq97m",
+        "post_title": "Como empresas de TI sobrevivem? Que negócio abrir?",
+        "post_body": "Estou cursando ADS e sempre tive dúvida de como começar um negócio. As primeiras coisas que sempre me vem em mente são: desenvolvimento de software e internet, mas quais outras opções existem? Uma empresa de TI geralmente oferecem quais serviços?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1psq97m/como_empresas_de_ti_sobrevivem_que_negócio_abrir/",
+        "is_self_post": true,
+        "post_created_utc": 1766377178.0,
+        "comments": [
+            {
+                "comment_id": "nvcasjj",
+                "comment_body": "De forma super resumida, elas sobrevivem vendendo.\n\nVocê falou sobre empresas de TI e isso é muito amplo, pois além de serviços, podem oferecer produtos, soluções e etc. E isso é uma área enorme. A Positivo, por exemplo, fabrica peças e periféricos, vende software e presta servicos.\n\nPensando especificamente na mecânica de oferecer serviços, as coisas precisam se encaixar em um modelo mais ou menos assim:\n\nComercial: precisa ter gente comprando, ou seja, precisa vender.\nMarketing: precisa ter identidade, marca e propaganda.\nProduto: O que é vendido? Por exemplo: hora de trabalho, serviço por demanda, contratos mensais.\nProcessos: como o serviço é feito, por quem, como é faturado e etc.\n\nTudo é feito a partir da venda (seja para pessoas, empresas, parceiros, sócios, investidores...), porém, para se vender é preciso de marketing, bom produto e processos bem definidos.",
+                "comment_score": 5,
+                "comment_created_utc": 1766393231.0
+            },
+            {
+                "comment_id": "nvlc3xt",
+                "comment_body": "Vendem coisas, tipo software",
+                "comment_score": 1,
+                "comment_created_utc": 1766517073.0
+            },
+            {
+                "comment_id": "nvr2w3o",
+                "comment_body": "vish… vc tem algum apoio ou quer tentar na coragem?",
+                "comment_score": 1,
+                "comment_created_utc": 1766599431.0
+            },
+            {
+                "comment_id": "nvdny6d",
+                "comment_body": "Muito obrigado! Sempre tive essa dúvida!",
+                "comment_score": 2,
+                "comment_created_utc": 1766415970.0
+            },
+            {
+                "comment_id": "nvr5kco",
+                "comment_body": "Sobre apoio você diz em que sentido?",
+                "comment_score": 1,
+                "comment_created_utc": 1766600290.0
+            },
+            {
+                "comment_id": "nvri4if",
+                "comment_body": "em começar um negócio. Vc tem orientação? Já entendi que não.",
+                "comment_score": 1,
+                "comment_created_utc": 1766604409.0
+            },
+            {
+                "comment_id": "nvrll7n",
+                "comment_body": "Se for o que entendi (receber ajuda ou literalmente orientação de alguém que já possui empresa), não tenho orientação não, seria por conta própria mesmo, pesquisa e talvez um Sebrae da vida.",
+                "comment_score": 1,
+                "comment_created_utc": 1766605602.0
+            }
+        ]
+    },
+    {
+        "post_id": "1po752l",
+        "post_title": "(Dúvida Meta) Quais são as regras desse sub sobre post de vagas?",
+        "post_body": "A empresa na qual um colega trabalha está para abrir algumas vagas de desenvolvedor em Janeiro.\n\nConversando, ficamos curiosos se posts ou mais engajamento com comunidades como essa gerariam perfis melhores e mais rápido do que o caminho padrão do LinkedIn (onde vai vir 500+ CVs e vira loteria quase).\n\n  \nSem quebrar as regras do sub, como isso pode ser feito? O job no LinkedIn deve abrir dia 5 de Janeiro apenas, mas se desse pra ter uma pré-seleção via comunidades seria interessante.\n\n  \n\n\nO post é o famoso \"um amigo meu pediu\" porque não é interessante expor dados pessoais nessa rede, nem dele nem meus.",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1po752l/dúvida_meta_quais_são_as_regras_desse_sub_sobre/",
+        "is_self_post": true,
+        "post_created_utc": 1765904315.0,
+        "comments": [
+            {
+                "comment_id": "nud2d05",
+                "comment_body": "Não tem especificamente regras sobre post de vagas, pelo o que sei. \n\nPoste com a stack que usam, cargo, senioridade, se possível já com a faixa salarial inclusa, regime de trabalho (CLT/PJ), modalidade (híbrido/presencial/remoto) e endereço de contato para mais informações... \n\nAcho que daí já dá para filtrar logo na postagem",
+                "comment_score": 4,
+                "comment_created_utc": 1765904988.0
+            },
+            {
+                "comment_id": "nuf78v9",
+                "comment_body": "manda o salário e faz a vaga ser home office de cara pra não perder tempo de ninguém que todo mundo vai gostar do post",
+                "comment_score": 1,
+                "comment_created_utc": 1765928218.0
+            },
+            {
+                "comment_id": "nulepw4",
+                "comment_body": "Vish, se der liberdade de mais aos mods eles vão se achar deuses",
+                "comment_score": 1,
+                "comment_created_utc": 1766012160.0
+            },
+            {
+                "comment_id": "nuf8bb1",
+                "comment_body": "Muito pouco lugar que eu conheço ta com vaga nova de home office.\n\n  \nFiz o post lá, mas é hibrido, o pessoal ta dando o hate e downvote como se isso fosse forçar algo na empresa lol\n\n  \nAnyway, segue o jogo, em Janeiro abrem a vaga no LinkedIn e vem um monte de candidato. Pessoalmente eu não contrataria alguém do reddit, a cultura de muita gente aqui é fazer o mínimo o possível, mentir para os colegas pra pegar 2 trampos, sai de mim trabalhar com alguém assim. Mas tem gente, como esse amigo, que ainda acredita.",
+                "comment_score": 1,
+                "comment_created_utc": 1765928593.0
+            },
+            {
+                "comment_id": "nuoi7o6",
+                "comment_body": "True. E tudo gente com 2 a 4 emprego querendo fazer o mínimo e ganhar ao máximo, e depois postar no conquistas que comia rato e agora ganha 20k dólares por semana",
+                "comment_score": 2,
+                "comment_created_utc": 1766063627.0
+            }
+        ]
+    },
+    {
+        "post_id": "1pgxq2x",
+        "post_title": "Stripe para pagamento em USD",
+        "post_body": "Alguém aqui já usou Stripe para uma empresa brasileira receber pagamento cobrando em USD?\n\nAparentemente, por alguma lei daqui, o Brasil é o UNICO pais do mundo no qual a cobrança do Stripe precisa ser feita na moeda local.\n\nComo nosso público alvo é internacional, nosso preço está em USD. Clientes brasileiros só estão conseguindo pagar com cartão internacional. Caso contrário, recebem um erro de \"moeda não suportada\" ou algo assim. Achei esse link deles falando que é isso mesmo: https://share.google/7RwKNBnv8VH316Cxk\n\nPelo que entendi eu tenho duas alternativas:\n1 - Abrir a empresa fora do BR e fazer os pagamentos irem para ela.\n2 - Cadastrar um preço em BRL no Stripe e botar vários `if IsBrazil` no código para exibir o preço e fazer o pedido em BRL.\n\nAlguém já passou por isso? Tem alguma outra solução?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1pgxq2x/stripe_para_pagamento_em_usd/",
+        "is_self_post": true,
+        "post_created_utc": 1765152148.0,
+        "comments": [
+            {
+                "comment_id": "nsuwkpt",
+                "comment_body": "Que estranho não sabia disso, porque a stripe tem uma opção chamada adaptive price que faz a conversão pra outras moedas.\n\nEu criei um produto e botei o preço em BRL e outro em USD então o pessoal de fora não vai conseguir comprar assinatura do meu saas?",
+                "comment_score": 2,
+                "comment_created_utc": 1765155025.0
+            },
+            {
+                "comment_id": "nsvacdg",
+                "comment_body": "cara, eu já trabalhei com a Stripe e pelo que lembro o problema é o país da conta em questão. Se a empresa está no Exterior, sim, os pagamentos não serão em BRL mas USD. Mas se a conta Stripe é brasileira, ou eles criam uma empresa BR. Pelo que me lembro é comum as empresas terem mais de uma conta: EU, USA, BR por exemplo.  \nUma opção que há realmente é criar uma conta em outro payment provider que permita cartão BR e colocar um if-else de Brasil :D",
+                "comment_score": 2,
+                "comment_created_utc": 1765160029.0
+            },
+            {
+                "comment_id": "nsupkgo",
+                "comment_body": "Up",
+                "comment_score": 1,
+                "comment_created_utc": 1765152655.0
+            },
+            {
+                "comment_id": "nsupoyz",
+                "comment_body": "Eu tinha uma loja que usava Stripe. Meus preços eram em dólar e a conversão era feita para reais apenas pra mim no painel de administração.",
+                "comment_score": 1,
+                "comment_created_utc": 1765152696.0
+            },
+            {
+                "comment_id": "nsv0dvu",
+                "comment_body": "Então, não sei agora kkkk. Um comentário ali em cima disse que funcionava pra ele, mas meus clientes que tentam pagar recebem um erro se o cartão não for internacional e o suporte me disse que algo na legislação brasileira não permite a conversão.",
+                "comment_score": 1,
+                "comment_created_utc": 1765156410.0
+            },
+            {
+                "comment_id": "nsvazy0",
+                "comment_body": "Btw, na minha sandbox eu tenho conta BR, FR e US, por conta disso.\nQuando você cria a conta vc escolhe o país e a moeda.",
+                "comment_score": 2,
+                "comment_created_utc": 1765160259.0
+            },
+            {
+                "comment_id": "nsutjqe",
+                "comment_body": "A empresa que você recebia era CNPJ brasileiro mesmo? Isso faz tempo?",
+                "comment_score": 1,
+                "comment_created_utc": 1765153974.0
+            },
+            {
+                "comment_id": "nsuwg1o",
+                "comment_body": "Era cobrado mensalmente?",
+                "comment_score": 1,
+                "comment_created_utc": 1765154979.0
+            },
+            {
+                "comment_id": "nsuvirs",
+                "comment_body": "Sim, a conta era no meu CNPJ. Fechei essa loja ano passado.",
+                "comment_score": 2,
+                "comment_created_utc": 1765154651.0
+            },
+            {
+                "comment_id": "nsuwrhp",
+                "comment_body": "Não. Eu vendia produtos.",
+                "comment_score": 1,
+                "comment_created_utc": 1765155091.0
+            },
+            {
+                "comment_id": "nsuzu0b",
+                "comment_body": "Que estranho... O suporte me disse que isso não era possível.\n\nNão sei se alguma outra configuração minha está diferente",
+                "comment_score": 1,
+                "comment_created_utc": 1765156206.0
+            }
+        ]
+    },
+    {
         "post_id": "1p85sm8",
         "post_title": "Dúvida sobre precificação projeto de inovação em dados e supply chain com IAweb apps e ML - Pessoal, atualmente, estou atuando como full cycle de dados por 4000 R$ PJ sem nem um caroço de feijão a mais, pedi 7100 para 24M de contrato e a empresa recusou, eu vou sair e pensei nessa proposta. Avaliem",
         "post_body": "Estou há 6 meses em uma empresa de revenda de peças agricolas, 12 milhoes faturamento ano, 3 estoques, 3 filiais, importação e fábrica própria, quando cheguei eles faziam planejamento de compra na mão com media simples total ano /12 \\*3 e comprava, sobrava peça e faltava peça, entrei e em 2 meses reformulei a empresa, mas os donos não tem cultura de resultado, mapeei mais de 34 milhões em orçamento nao fechado, montei plano de ação, etc.\n\n\n\nAempresa não consegue executar, não contrata ninguém, não contrata um CS, um revops, quando planejo compra eles tiram pro que dizem que \"está gastando demais\", removem itens do planejamento que uma semana depois falta, e agora, começaram a me pedir coisa operacional, como abrir ordem de compra, por que não querem contratar compradores pra atuar nas preventivas que estou mapeando, além de falarem que querem que eu ensine alguém fazer o meu serviço, ou transfira conhecimento ou ferramentas. \n\n\n\nTudo que eu fiz até agora está no meu pendrive e ambiente próprio, eu fiz isso acreditando que a empresa abraçaria, pois no começo, eles falaram que queriam crescer 30 % em um ano e eu acho até simples, por que já tem o potenical, mas não tem planejamento, ação, execução. Ao passar do tempo fui ficando desanimado, ainda mais depois dessa, essa semana eu mapeei o estoque e tem 99,5 % de precisão pra 3500 sku de alta sazonalidade, tem pipeline com ML montado com o prophet que está acertando com 3,5 % de erro compras de 500 mil reais, ou seja, os cara ta achando que eu sou idiota, eu já fiz entrevista em empresa grande, ibm, accenture, mas não consigo entrar por que eu sou do interior, etc, e eu nem ligo pra isso, eu sei que sou bom, mas ninuém abre a porta pra mim. \n\n\n\nDe todo modo, estou fazendo algo pra eles que não tem 3 empresa na cidade que tem, crédito, risco, compras, coisa de time de 10 pessoa, sendo só eu, eles não precisaram desde que entrei investir 1 real em sistema ou plataforma, estou fazendo tudo por eu mesmo e agora inventaram que querem que eu ensine alguém, isso eu jamais vou fazer. \n\n\n\nHá 3 meses eu fiz uma proposta, 7100 sendo  o piso e o mínimo para em 24 meses dar autonomia pra eles, por que segundo eles, eu atuar como pj e não entregar as ferraementas ( eu executo os relatorios, dou link a sistemas, mas eu não implantei absolutamente nada na infra deles ainda, nem scripts nem código fonte, nada, tem mais de 1 milhão de linha de código fonte em produção) e os 7100 eles falaram que era irreal para realide deles, 12 milhoes ano e 34 solto em orçamento nao fechados, para cada 7 cliente que entra 1 fica e 6 sai, também fiz trabalho revops, ou seja, sei que o negócio é abandonar, mas eu ainda queria ficar se houvesse algo justo.\n\n\n\nEntão fiz esse estudo, transferir toda a IP, ao custo e prazo que está no print, na análise, nenhum projeto passou de 100 reais a hora, quando tem coisa ai de 250 a 500 reais a hora, especialmente as redes neurais, a de recompra pega 400 cliente e acerta 60 % que compram validado sobre dados dos últimos 36 meses, os 40 % se eles ligarem pro cliente, vão comprar também, ou seja, os caras tem uma mina de ouro, são cegos e ainda querem explorar achando que explorar um coitado vai fazer o negócio deles crescerem. \n\n\n\nPodem avaliar e me dar ideias, se é melhor abandonar logo, se mando essa proposta, etc, 7100 não quiseram pagar por 24 m de projeto, ou podem pagar 81 e dou o código fonte + treinamento e alguém assume, ou o valor por projeto todo estimado em 560 dias, 18 mese e 1,5 anos ( a contagem do prazo está errado) tudo isso ao custo de 382 mil fechado ou 270 no contrato pj aberto. \n\n  \nMe ajudem! Abandono ou ainda perco tempo tentando convencer burro que ouro é ouro?",
@@ -20,6 +526,12 @@
                 "comment_created_utc": 1764261185.0
             },
             {
+                "comment_id": "nragqaf",
+                "comment_body": "Amigo pula fora, com ia e ingles na mão é todo dia mandar curriculum nessas consultorias gringas, a pedrada vai ser igual, mas a grana vai entrar.",
+                "comment_score": 1,
+                "comment_created_utc": 1764369844.0
+            },
+            {
                 "comment_id": "nr3wi1s",
                 "comment_body": "Obrigado amigo, isso ai, sim, está pouco, até os 7100 era pouco, imagina 4000.",
                 "comment_score": 2,
@@ -36,6 +548,18 @@
                 "comment_body": "Como vocês calculam o valor de um projeto ou serviço que vocês fazem ? \n\n(Tô iniciando agora nisso tudo)",
                 "comment_score": 1,
                 "comment_created_utc": 1764268675.0
+            },
+            {
+                "comment_id": "nrjawqd",
+                "comment_body": "Valeu, vou focar nisso, de vez em quando vem vaga mas meu inglês é um lixo, talvez eu deva aperfeiçoar nisso.",
+                "comment_score": 1,
+                "comment_created_utc": 1764509336.0
+            },
+            {
+                "comment_id": "nrcphto",
+                "comment_body": "Só não esqueça que o código é da empresa. Então deixe eles com acesso a tudo para não ter dor de cabeça depois.",
+                "comment_score": 1,
+                "comment_created_utc": 1764405623.0
             },
             {
                 "comment_id": "nr3wfc6",
@@ -62,7 +586,7 @@
             {
                 "comment_id": "npygvzq",
                 "comment_body": "Na maioria dos casos a pessoa troca de empresa não porque foi demitida, mas porque em TI a forma mais rápida de subir na carreira é trocando de empresa. Você entra em uma empresa ganhando x e um ano depois chega uma outra empresa oferecendo 1.5 ou 2x. As chances da sua empresa original topar aumentar seu salário nesse nível são baixas, então você pula para a outra. Esse processo se repete a cada 1-2 anos até você chegar em um nível senior. Por isso que tem tanta gente de TI que em 5 anos sobe o salário de tipo 2k para 20k. \n\nSe o cara ficasse na mesma empresa dificilmente conseguiria a mesma coisa.",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1763693408.0
             },
             {
@@ -132,7 +656,7 @@
             {
                 "comment_id": "nn117xh",
                 "comment_body": "Euro em Londres? Tá no mínimo estranho isso ai.",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1762245477.0
             },
             {
@@ -144,7 +668,7 @@
             {
                 "comment_id": "nn0zr50",
                 "comment_body": "Cooperativa? Cagada.\n\n1828499219 sócios nessa porra. Você vai colocar seu nome em risco com um monte de gente.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1762244548.0
             },
             {
@@ -325,7 +849,7 @@
             },
             {
                 "comment_id": "nch0gi1",
-                "comment_body": "Sei lá, mas vc mexeu num monte de coisa no projeto inicial, antes do desafio, só pq não gostou ou queria mostrar mais serviço.\n\nMas isso parece ser aqueles caras que acabam de chegar na empresa, e querem mudar um monólito que funciona a 15 anos pra micro serviço XYZ sem agregar valor nenhum(valor real pra área de negócio, não área de TI). Disparou uma redflag neles",
+                "comment_body": "[deleted]",
                 "comment_score": 3,
                 "comment_created_utc": 1757032370.0
             },
@@ -368,7 +892,7 @@
             {
                 "comment_id": "ncfimn3",
                 "comment_body": "Convenhamos q é bem mais fácil passar pra gringa doq um concurso assim, não?",
-                "comment_score": 11,
+                "comment_score": 13,
                 "comment_created_utc": 1757015098.0
             },
             {
@@ -402,7 +926,7 @@
             {
                 "comment_id": "n78q8a3",
                 "comment_body": "Falou chát gpt",
-                "comment_score": 9,
+                "comment_score": 7,
                 "comment_created_utc": 1754492208.0
             },
             {
@@ -486,13 +1010,13 @@
             {
                 "comment_id": "n795d1r",
                 "comment_body": "Quê? Por quê? Reduzir custos com impostos é um dever cível, ainda mais nesse país. \n\nA propósito, tu gastou quanto e gasta quanto, com uma ME? O custo é sempre o percentual que vem do simples nacional, mais custos com contador, correto?",
-                "comment_score": -1,
+                "comment_score": -3,
                 "comment_created_utc": 1754496467.0
             },
             {
                 "comment_id": "n78z5nx",
                 "comment_body": "e pro cara que esta ganhando 3.5k ou menos como pj vai fazer o que?",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1754494745.0
             },
             {
@@ -660,136 +1184,6 @@
         ]
     },
     {
-        "post_id": "1mant0t",
-        "post_title": "Todo suporte ganha equipamento podre?",
-        "post_body": "Então rapaziada, to nessa vida de suporte faz uns 2 anos. Moro no interior do sul do país, empresa de  pequeno/médio porte e aqui vai minha seguinte dúvida.\nVocês conhecem alguma empresa que realmente disponibiliza pc “usável” para o setor de suporte? Trabalhei em duas empresa de “tecnologia” e nas duas me deram notebook de entrada lançados em 2010 para trabalhar. Negócio travava para abrir o notepad.\nNão estou querendo um i9 de última geração, mas cara, empresa de tecnologia que trabalham com hardware da guerra fria é tenso.",
-        "post_url": "https://www.reddit.com/r/devBR/comments/1mant0t/todo_suporte_ganha_equipamento_podre/",
-        "is_self_post": true,
-        "post_created_utc": 1753626815.0,
-        "comments": [
-            {
-                "comment_id": "n5fvk5o",
-                "comment_body": "Vai descobrir que toda parte que envolve informática recebe pouco ou nenhum investimento.",
-                "comment_score": 5,
-                "comment_created_utc": 1753627636.0
-            },
-            {
-                "comment_id": "n5fvfzn",
-                "comment_body": "Minha empresa tbm é assim, não trabalho com suporte mas ainda assim com tecnologia. É bizarra a qualidade dos hardwares de lá, não roda sequer o windows, só de ligar já trava.\nMe cai o cu da bunda de saber que essas empresas ganham rios de dinheiro com coisas sem qualidade..",
-                "comment_score": 4,
-                "comment_created_utc": 1753627600.0
-            },
-            {
-                "comment_id": "n5fz689",
-                "comment_body": "Suporte sempre recebe o equipamento que sobrou do resto da empresa porque “eles sabem consertar e vão se virar”.",
-                "comment_score": 5,
-                "comment_created_utc": 1753628769.0
-            },
-            {
-                "comment_id": "n5g31gb",
-                "comment_body": "tem empresas que o suporte ganha macbook, como um certo banco roxo\n\nprocure vagas de suporte em grandes empresas, nao em pequenas empresas",
-                "comment_score": 3,
-                "comment_created_utc": 1753629956.0
-            },
-            {
-                "comment_id": "n5ha5fj",
-                "comment_body": "Na empresa que eu trabalhava basicamente recebiamos o resto do usuários, era bizarro configurar os notebooks novos com processador de última geração e depois de dois anos voltar para o pessoal do suporte todo fudido para nós utilizarmos, nessa troca adivinha só? O usuário recebia outro notebook novo.",
-                "comment_score": 3,
-                "comment_created_utc": 1753642608.0
-            },
-            {
-                "comment_id": "n5jnwnp",
-                "comment_body": "Dev também ganha, não consigo rodar teste unitário na minha máquina sem ela travar :))",
-                "comment_score": 3,
-                "comment_created_utc": 1753671943.0
-            },
-            {
-                "comment_id": "n5jp9e9",
-                "comment_body": "Estamos na mesma aqui, todo novo PC de alto desempenho primeiro vai pra TI, nós fazemos questão de testar hardware por hardware e nunca testamos com usuários, eles usam pra coisa básica, então os recursos de melhor desempenho são pra TI, os PCs mais usados ou mais cansados da empresa vão pra área operacional apanhar, e isso são PCs com até 5 anos, não mantemos hardware algum com mais de 60 meses em produção em nenhum setor, isso foi uma premissa de TI uns anos atrás para que mantivessemos competitividade como empresa e a diretoria abraçou.\n\nSinto pelos que não conseguem a mesma coisa, usar máquina velha ou canibalizada simplesmente não entrega o mínimo de performance.",
-                "comment_score": 3,
-                "comment_created_utc": 1753672499.0
-            },
-            {
-                "comment_id": "n5j0o1d",
-                "comment_body": "Não. Aqui somos os primeiros a receber os novos. Depois o Business. 🤣\nPelo menos i7+32gb ram+480 ssd. Máximo dois anos de uso.",
-                "comment_score": 2,
-                "comment_created_utc": 1753663084.0
-            },
-            {
-                "comment_id": "n5o7z5w",
-                "comment_body": "Se for uma média/grande empresa é sucesso. Trabalhei em uma start up que prestava serviço para a Bayer.. Todos notebook eram I7 para cima, 8GB de RAM.. Eu não lembro o modelo, mas não travava nada ! Tinha até biometria para desbloquear as máquinas",
-                "comment_score": 2,
-                "comment_created_utc": 1753734250.0
-            },
-            {
-                "comment_id": "n5rgu3i",
-                "comment_body": "Onde trabalho (com suporte) é Mac dos bons. Nem sei qual modelo específico mas é desses top de linha. Acho exagero pq dou suporte cloud, então basicamente só uso pra mandar email.",
-                "comment_score": 1,
-                "comment_created_utc": 1753780480.0
-            },
-            {
-                "comment_id": "n7atkmz",
-                "comment_body": "Suporte é bom pra começar, pra aprender como funciona uma rede, computadores, necessidade de usuários. você pode começar a ganhar melhor quando for pra analista de suporte 1, 2 ou 3, dependendo da empresa.\n\n  \nMas foque em infraestrutura, redes, servidores, cloud e demais caso quiser a área de infra. Senão é banco ou dev.....",
-                "comment_score": 1,
-                "comment_created_utc": 1754513390.0
-            },
-            {
-                "comment_id": "n5i0tg7",
-                "comment_body": "O seu equipamento terá o valor relacionado ao que você produz com ele.",
-                "comment_score": 0,
-                "comment_created_utc": 1753650769.0
-            },
-            {
-                "comment_id": "n5rw6jd",
-                "comment_body": "[removed]",
-                "comment_score": -1,
-                "comment_created_utc": 1753788409.0
-            },
-            {
-                "comment_id": "n5hc38z",
-                "comment_body": "Bom, eu estou colocando a culpa de qualquer atraso em demandas nisso. Isso é um desrespeito com o funcionário",
-                "comment_score": 2,
-                "comment_created_utc": 1753643197.0
-            },
-            {
-                "comment_id": "n5jnzv2",
-                "comment_body": "Foda",
-                "comment_score": 1,
-                "comment_created_utc": 1753671979.0
-            },
-            {
-                "comment_id": "n5jphjx",
-                "comment_body": "Exato, usar máquinas de 20 anos atrás passa uma vibe de empresa de fundo de quintal…",
-                "comment_score": 2,
-                "comment_created_utc": 1753672592.0
-            },
-            {
-                "comment_id": "n5jo3zf",
-                "comment_body": "Empresa abençoada",
-                "comment_score": 1,
-                "comment_created_utc": 1753672025.0
-            },
-            {
-                "comment_id": "n5sic5h",
-                "comment_body": "Que massa",
-                "comment_score": 1,
-                "comment_created_utc": 1753796504.0
-            },
-            {
-                "comment_id": "n5shxra",
-                "comment_body": "Bah que sonho… aqui as vezes tenho que mexer em código e é impossível abrir o vscode ou algo parecido…",
-                "comment_score": 1,
-                "comment_created_utc": 1753796377.0
-            },
-            {
-                "comment_id": "n5shp6q",
-                "comment_body": "KKKKKKK calma Cleiton",
-                "comment_score": 1,
-                "comment_created_utc": 1753796301.0
-            }
-        ]
-    },
-    {
         "post_id": "1m8b173",
         "post_title": "Sou dev backend e vou prestar serviço como PJ por R$ 3.500/mês, posso abrir MEI ou tem que ser Simples Nacional?",
         "post_body": "Boa tarde, pessoal!\n\nSou desenvolvedor backend e vou começar a prestar serviços como PJ para uma empresa com quem já trabalhei antes como CLT. O valor mensal será de aproximadamente **R$ 3.500,00**, e será um trabalho remoto, com emissão de nota fiscal.\n\nMinha dúvida é a seguinte:\n\n* Posso abrir um **MEI** e emitir nota nessa faixa?\n* Ou preciso abrir um **ME (Simples Nacional)** mesmo ganhando “só” isso?\n* Se eu abrir MEI com um CNAE inadequado, tipo suporte técnico, e lançar nota como se fosse dev, isso **pode dar problema depois?**\n\nJá vi gente dizendo que é tranquilo “dar uma disfarçada”, mas tenho medo de levar multa ou cair na malha fina. Vale mesmo o risco?\n\nSe alguém aqui já passou por isso ou tem contador que explicou certinho, agradeço demais se puder compartilhar a experiência.\n\nValeu!",
@@ -818,7 +1212,7 @@
             {
                 "comment_id": "n4xtwa3",
                 "comment_body": "Nao pode abrir MEI, ainda assim tem muita gente que faz isso.\n\nParticularmente, nao recomendo, vai de ME mesmo",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1753379141.0
             },
             {
@@ -870,9 +1264,15 @@
                 "comment_created_utc": 1753722493.0
             },
             {
+                "comment_id": "o2gdhn6",
+                "comment_body": "Profissionais que prestam serviço de natureza intelectual em geral enquadram-se no anexo V do Simples Nacional. Nesse anexo (V) a aliquota de impostos sobre o faturamento começa em 15,5%. Porém se o Fator R, a relação (nos últimos 12 meses) entre gastos com folha de pagamento (pró-labore e outros) e faturamento for maior ou igual a 28%, a pessoa jurídica é enquadrada no anexo III do Simples (pagando aliquotas iniciais de 6%).\n\nNa maioria das vezes há economia considerável em impostos, mesmo recolhendo INSS e IR.\n\nPS.: tenho um Saas que faz esse cálculo e acompanhamento do fator R todo mês, otimizando a retirada de pró-labore, pagando o mínimo de imposto que a lei permite.",
+                "comment_score": 1,
+                "comment_created_utc": 1769710657.0
+            },
+            {
                 "comment_id": "n4xtsye",
                 "comment_body": "tem que ser simples... mei nao pode fazer dev\n\n  \npode fechar o topico",
-                "comment_score": -3,
+                "comment_score": 0,
                 "comment_created_utc": 1753379117.0
             },
             {
@@ -896,7 +1296,7 @@
             {
                 "comment_id": "n5019qy",
                 "comment_body": "recebendo 3.5k pj vai sobrar menos de 2k, se for assim e melhor procurar emprego em outra area",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1753402942.0
             },
             {
@@ -932,7 +1332,7 @@
             {
                 "comment_id": "n52q5xr",
                 "comment_body": "cara repositor ou qualquer chão de fabrica ganha mais de 2k, porque diabos o cara vai se matar de estudar abrir empresa para ganhar 2k mes?",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1753446718.0
             },
             {
@@ -984,25 +1384,25 @@
             {
                 "comment_id": "mr164l3",
                 "comment_body": "Bem, exigir faculdade para jr. não é absurdo. É o padrão, na verdade..\n\nAgora, querer pagar salário mínimo pra dev é muita cara de pau. Dev, se for para pagar mal, é no mínimo 3k.",
-                "comment_score": 44,
+                "comment_score": 40,
                 "comment_created_utc": 1746605985.0
             },
             {
                 "comment_id": "mr1gxor",
                 "comment_body": "nao fala mal do java, java nao tem nada haver com o nordeste",
-                "comment_score": 15,
+                "comment_score": 16,
                 "comment_created_utc": 1746612760.0
             },
             {
                 "comment_id": "mr0t6xy",
                 "comment_body": "Você não quebra eles em segundos porque uma empresa com nível de profissionalismo “normal” vai parecer alienígena pros clientes daí, a comunicação com eles vai ser quase impossível e você provavelmente vai cobrar mais caro e dar prazos mais longos (pra fazer o trampo direito) do que essas empresas mais amadoras.",
-                "comment_score": 18,
+                "comment_score": 19,
                 "comment_created_utc": 1746598135.0
             },
             {
                 "comment_id": "mr1c2ns",
                 "comment_body": "O Nordeste tem 9 estados, amigão. Acho que você está sendo um tanto generalista nas suas colocações. \n\nEu trabalhei pra empresas em Recife e não vi nada disso que você falou.",
-                "comment_score": 21,
+                "comment_score": 19,
                 "comment_created_utc": 1746609819.0
             },
             {
@@ -1014,7 +1414,7 @@
             {
                 "comment_id": "mr1gl5b",
                 "comment_body": "Na minha área (SAP) as consultorias do país como um todo são, quase que, a mesma coisa. Independente da região sempre terão equipes de implementação boa e outras ruins. Mais que a região da consultoria ou a consultoria em si - 1o escalão, 2o escalão etc. - o que mais importa é ter referências de um bom 'set' de consultores funcionais e técnicos para fazer seu projeto rodar. Por exemplo, já vi consultoria big fourt sendo demitida de projeto milionário em multinacional gringa porque botou júnior para fazer trabalho de sênior, da mesma forma que já vi consultoria pequena do Ceará dar aula em gestão de projeto, metodologia de implementação, dentre outros pontos simplesmente porque para aquele cenário específico e naquele momento tinham uma equipe muito boa. Eu sou do nordeste e moro atualmente em São Paulo pelo simples fato de que o mercado, como um todo, está migrando para o modelo híbrido e pagando um \"passe\" para vários profissionais se realocarem. Mas honestamente, com 100% de home office e o salário que ganho hoje não pensaria duas vezes em voltar para região porque estrapolando sua analogia, o que tem de bom no Sul/Sudeste em termos de mercado é só para equilibrar o quão ruim é a qualidade de vida.",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1746612561.0
             },
             {
@@ -1026,13 +1426,13 @@
             {
                 "comment_id": "mr1eao8",
                 "comment_body": "Você diz que mora no nordeste, mas assim como boa parte das pessoas que moram fora, se refere ao nordeste como se fosse um único estado... de qual estado ou cidade em específico você é? Sou de Recife e aqui tem várias empresas que foram e ainda são referências no Brasil. Já trabalhei em algumas aqui, na época presencial, mas hj trabalho pra uma de BH. Mas obviamente vão existir empresas de TI lixo, assim como no resto do Brasil inteiro.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1746611214.0
             },
             {
                 "comment_id": "mr2ugpj",
                 "comment_body": "Me chamaram pra uma vaga híbrida no LinkedIn, na minha cidade (tô em minas, mas vale o relato).\nPleno, PJ, 4-5k. \nDe cair o cu da bunda.\nTirei a minha cidade do LinkedIn.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1746631024.0
             },
             {
@@ -1068,7 +1468,7 @@
             {
                 "comment_id": "mr1fe5t",
                 "comment_body": "Não só dev, praticamente qualquer posição na área de tecnologia aqui no nordeste paga salários irrisórios (com exceção das empresas maiores), altas exigências e ambiente de trabalho amador. Trabalhei por 6 meses numa pequena consultoria do Porto Digital e o amadorismo dos caras era assustador. E olha que essa consultoria tinha acabado de ganhar um cliente grande (Grande Operadora de Telecom). Os funcionários eram basicamente ex-estagiários promovidos + estagiários que pouco faziam. A gestão não tinha o mínimo de noção de processos, por mais que os líderes técnicos/gestores/sócios fossem bons tecnicamente. Só aceitei a \"proposta\" deles, porque na época tinha passado por um layoff e a grana tava começando a acabar.  \nEu entendo que a função desse tipo de empresa é capacitar e dar experiência pros profissionais recém formados, um trabalho até necessário. Mas vejo que podiam ser minimamente mais organizados quanto a processos e ao menos esboço de plano de carreira e salário decente.",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1746611861.0
             },
             {
@@ -1217,7 +1617,7 @@
             },
             {
                 "comment_id": "neu9zvq",
-                "comment_body": "3k é um salário alto, na engenharia fora de sp no início pagam 1.500-2500",
+                "comment_body": "*The content of this post has been wiped. [Redact](https://redact.dev/home) was used to delete it, potentially for privacy protection, limiting data exposure, or security considerations.*\n\ngroovy command plucky provide aromatic vase stupendous jellyfish head elderly",
                 "comment_score": 1,
                 "comment_created_utc": 1758174758.0
             },
@@ -1230,13 +1630,13 @@
             {
                 "comment_id": "mr0vl29",
                 "comment_body": "fora a quantidade de empresa q deve só se manter em pé por tar envolvida com político pra conseguir licitação superfaturada ou lavar dinheiro.",
-                "comment_score": 12,
+                "comment_score": 13,
                 "comment_created_utc": 1746599513.0
             },
             {
                 "comment_id": "mr1gsj4",
                 "comment_body": "Achei estranho essa pesquisa dele. Todo nordestino dev sabe q o polo de programação do Nordeste fica em Recife.\n\nOutras capitais até tem alguma coisa. Agora cidade do interior esquece, é salário mínimo mesmo.",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1746612679.0
             },
             {
@@ -1260,7 +1660,7 @@
             {
                 "comment_id": "mr1pjig",
                 "comment_body": "Eu que sou a generalista, sendo que olhei empresas do 9 estados, ou vc que quer dar uma opinião baseada em 1 cidade ? (q como falaram nos comentários, é a exceção).",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1746617039.0
             },
             {
@@ -1284,7 +1684,7 @@
             {
                 "comment_id": "mr1fwru",
                 "comment_body": "Acho que o OP está se referindo a pequenas consultorias e/ou pequenas fábricas de software, bem numerosas e com estrutura duvidosa. Também sou de Recife, todas as consultorias pequenas daqui que trabalhei se encaixam no perfil que o OP descreveu. Não só elas, mas provedores até medianos também se encaixam nesse perfil de empresa gangorra. Só servem pra preparar recém formados para o mercado.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1746612164.0
             },
             {
@@ -1338,19 +1738,19 @@
             {
                 "comment_id": "mr394ys",
                 "comment_body": "UFCG eh top",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1746635274.0
             },
             {
                 "comment_id": "mr2j7ej",
                 "comment_body": " Meu ponto é que eu tive experiências em Recife que não foram da forma que você falou.\n\nTalvez teria sido melhor falar sobre as cidades e empresas também, se eram startups, pequenos negócios com departamento de TI ou fábricas de software.\n\nConheci empresas maduras com processos bem definidos e profissionais excelentes.\n\nAcho que em Campina Grande na PB também tem umas empresas boas pra trabalhar.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1746627709.0
             },
             {
                 "comment_id": "mr4j3ly",
                 "comment_body": "Cita estatística e mais tarde no texto fala “de acordo com a minha vivência”, é de uma inteligência oculta que puta que pariu.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1746648481.0
             },
             {
@@ -1386,7 +1786,7 @@
             {
                 "comment_id": "mr2brzj",
                 "comment_body": "Curioso, a empresa que trabalho tem filial em Recife, o nosso concorrente tem filial em Recife também. Acho que todo mundo aqui do sudeste concorda que recife é a capital tecnológica do nordeste",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1746625381.0
             },
             {
@@ -1398,7 +1798,7 @@
             {
                 "comment_id": "mr33vov",
                 "comment_body": "Só comprovou como eu estava certa. Quando falo Mercado me refiro a média, e a média foi o que eu vi nesses tempos e muita gente confirmou nos comentários. Que bom que existe exceção, mas ai o alecrim dourado que vive a exceção vai sentar lá no cantinho enquanto os adultos conversam sobre o parâmetro geral. Se a gente quiser saber de exceção a gente te chama. Pq não sei se consegue compreender, mas o problema não é a exceção, é a esmagadora maioria que não consegue fazer o mínimo. Esperava que qualquer um que conseguisse minimamente interpretar um texto entendesse isso quando se discute dos problemas GERAIS encontrados na grande maioria do mercado.",
-                "comment_score": -3,
+                "comment_score": -1,
                 "comment_created_utc": 1746633738.0
             },
             {
@@ -1738,13 +2138,13 @@
             {
                 "comment_id": "mek38eo",
                 "comment_body": "Você é fera! Obrigado 💾💪💪",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1740420862.0
             },
             {
                 "comment_id": "mekseit",
                 "comment_body": "Alguém curte aí pra eu ler depois pfvr?",
-                "comment_score": 12,
+                "comment_score": 13,
                 "comment_created_utc": 1740427983.0
             },
             {
@@ -1920,6 +2320,12 @@
                 "comment_body": "!remindme 1000 days",
                 "comment_score": 1,
                 "comment_created_utc": 1756125222.0
+            },
+            {
+                "comment_id": "nvsaoyi",
+                "comment_body": "Ótimo post. Qual estilo de CV usou? Outra questão, vi que no projeto exemplo colocou K8s e RabbitMQ, você já usava no trabalho anteriormente? Caso não, você falar para o entrevistador que sabia mas que não tinha usado em produção antes, como era isso?",
+                "comment_score": 1,
+                "comment_created_utc": 1766614600.0
             },
             {
                 "comment_id": "mekzyr1",
@@ -2254,7 +2660,7 @@
     {
         "post_id": "19e3tt0",
         "post_title": "Trabalho freelance pro exterior - o que preciso?",
-        "post_body": "Olá pessoal!\nApareceu um trampo freelance pra mim nos EUA, mas tô meio perdido de como fazer formalizar as coisas e queria umas dicas. Pra quem já trampou pra fora, vocês tiveram que firmar um contrato? Abrir empresa? Como fizeram pra receber? Etc\n\nQualquer ajuda é bem vinda",
+        "post_body": "Olá pessoal! Apareceu um trampo freelance pra mim nos EUA, mas tô meio perdida de como fazer formalizar as coisas e queria umas dicas. Pra quem já trampou pra fora, vocês tiveram que firmar um contrato? Abrir empresa? Como fizeram pra receber? Etc\n\nQualquer ajuda é bem vinda",
         "post_url": "https://www.reddit.com/r/devBR/comments/19e3tt0/trabalho_freelance_pro_exterior_o_que_preciso/",
         "is_self_post": true,
         "post_created_utc": 1706056383.0,
@@ -2268,7 +2674,7 @@
             {
                 "comment_id": "kjd51pd",
                 "comment_body": "Valeu pelas dicas, isso vai ajudar pra caramba.\nA propósito tu acha que o contrato é mesmo necessário? Além da burocracia de achar um advogado pra fazer um contrato que funcione internacionalmente, provavelmente não teria condições pra reforçar os termos dele caso tenha que entrar na justiça americana :/",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1706111942.0
             },
             {

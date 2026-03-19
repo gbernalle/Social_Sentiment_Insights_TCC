@@ -14,7 +14,7 @@ def export_data_to_big_query(data: DataFrame, *args, **kwargs) -> None:
 
     project_id = "desafio-estagio-concert"
     dataset_id = "First_Test_Sentiment_Analysis"
-    table_id = 'analise_reddit_v1'
+    table_id = 'tabela_completa_vFinal'
     config_profile = 'default' 
     table_full_id = f'{project_id}.{dataset_id}.{table_id}'
 

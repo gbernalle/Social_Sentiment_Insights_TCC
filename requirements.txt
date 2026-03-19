@@ -11,3 +11,10 @@ sentence-transformers
 langdetect
 spacy
 nltk
+matplotlib
+seaborn
+scikit-learn
+nltk
+plotly
+kaleido
+sidrapy

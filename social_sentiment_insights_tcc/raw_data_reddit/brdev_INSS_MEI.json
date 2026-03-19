@@ -1,5 +1,661 @@
 [
     {
+        "post_id": "1rrxybt",
+        "post_title": "Fiz a conta do meu valor/hora real como freelancer e quase caí da cadeira. Alguém mais já fez esse exercício?",
+        "post_body": "Sou freelancer há um tempo e finalmente sentei pra calcular quanto eu realmente preciso cobrar por hora pra não sair no prejuízo.\n\nA conta que a maioria faz:\n\n\"Quero ganhar R$8.000/mês ÷ 160 horas = R$50/hora\"\n\nA conta real:\n\n\\- R$8.000 de renda desejada\n\n\\- + R$1.200 de impostos (MEI/Simples/INSS)\n\n\\- + R$800 de ferramentas e assinaturas\n\n\\- + R$600 de reserva pra férias e emergência\n\n= R$10.600 que você precisa faturar\n\nMas das 160h do mês, quantas são realmente faturáveis? Tira reunião, e-mail, prospecção, admin, proposta que não vira nada... sobram umas 96h faturáveis sendo otimista.\n\nR$10.600 ÷ 96h = R$110/hora\n\nEu estava cobrando R$55.\n\nQuando vi esse número quase desisti de fazer a conta. Mas pelo menos explica por que no fim do mês eu tinha a sensação de trabalhar muito e sobrar pouco.\n\nAlguém mais aqui já fez essa conta de verdade? Qual foi o susto? E como vocês lidaram com reajustar o preço pra clientes antigos que já estavam acostumados com o valor anterior?",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1rrxybt/fiz_a_conta_do_meu_valorhora_real_como_freelancer/",
+        "is_self_post": true,
+        "post_created_utc": 1773338162.0,
+        "comments": [
+            {
+                "comment_id": "oa2xyib",
+                "comment_body": "O que mais me assusta é o primeiro parágrafo, o cara está fazendo freelance há algum tempo e só agora parou pra fazer essas contas kkkkkkkkkk",
+                "comment_score": 174,
+                "comment_created_utc": 1773339058.0
+            },
+            {
+                "comment_id": "oa2wnxl",
+                "comment_body": "Eu sempre faturo 8h por dia não importa se é reunião, alinhamento etc ",
+                "comment_score": 71,
+                "comment_created_utc": 1773338705.0
+            },
+            {
+                "comment_id": "oa2x1cg",
+                "comment_body": "Na época que tava fazendo mais freelancing eu nunca aceitava projeto por hora, se você acaba rapido muito cliente ia querer desconto/não pagar o valor cheio, se você pegava alguma bucha porque na prospectou direito o cliente vai reclamar e não vai querer pagar o adicional do previsto muitas vezes.\n\nEu só tava pegando projeto com valor fechado, quem aceitava eram sempre os melhores clientes que davam menos dor de cabeça.",
+                "comment_score": 29,
+                "comment_created_utc": 1773338806.0
+            },
+            {
+                "comment_id": "oa2zsco",
+                "comment_body": "Peguei meu primeiro freela para fazer um tempo atrás, até coloquei aqui no reddit. E cobrei 4k por um saas multi-tenancy inteiro, e sem definir escopo fechado de MVP, ai o cara já lançou que vai coletar feedbacks ainda e tals... Só de assinatura do claude já morrei 500 pila, mas ta bom, vivendo e aprendendo.",
+                "comment_score": 6,
+                "comment_created_utc": 1773339563.0
+            },
+            {
+                "comment_id": "oa2xckd",
+                "comment_body": "Entendeu porque as reuniões são tão \"proibidas\" no mundo corporativo ?  São um custo que desaparece e não traz retorno nenhum.\n\nPor isso todos buscam tanto a produtividade máxima, pra tentar chegar o mais próximo possível do valor de R$55 que chegou.\n\nNo seu caso, se conseguisse aumentar pra umas 130 horas, chegava perto dos 80 reais. ",
+                "comment_score": 10,
+                "comment_created_utc": 1773338892.0
+            },
+            {
+                "comment_id": "oa320g5",
+                "comment_body": "Com quais ferramentas e assinaturas você tá contando nesses 800 R$?",
+                "comment_score": 6,
+                "comment_created_utc": 1773340179.0
+            },
+            {
+                "comment_id": "oa31fby",
+                "comment_body": "1.2k de imposto? Qual CNAE vc está usando eu recebo acima de 10k e não chego nem em 1k de imposto ",
+                "comment_score": 4,
+                "comment_created_utc": 1773340015.0
+            },
+            {
+                "comment_id": "oa3evhv",
+                "comment_body": "Se te consola, 60% (96h/160h) tá dentro do padrão da indústria pra profissional services pra quem trabalha com muitos projetos ao mesmo tempo.",
+                "comment_score": 3,
+                "comment_created_utc": 1773343772.0
+            },
+            {
+                "comment_id": "oa72f7d",
+                "comment_body": "Vale a pena você calcular o valor da hora pra entender o quanto cobrar por um projeto fechado.\n\n\nMas pro cliente, jamais cobrar por hora. Sempre projeto fechado.\n\n\nEscopo bem definido, inclusive quantidade de reuniões por semana e de quanto tempo.\n\n\nComo dito por outros no post - se demora menos, cliente quer desconto; se demora mais, cliente quer o preço original.",
+                "comment_score": 3,
+                "comment_created_utc": 1773394486.0
+            },
+            {
+                "comment_id": "oa73wpi",
+                "comment_body": "Essa conta de hora trabalho é bem importante, mas como muitos já discutiram aqui o esquema é negociar preço fechado por projeto. Mas algo que você pode, e deve, usar a conta de hora trabalho é para ajudar a estimar o custo de um projeto.\n\nSe você sabe que um projeto vai demandar 100 horas de serviço, você calcula fácil o valor mínimo para cobrar e não sair no prejuízo. Também é importante colocar uma margem de negociação no valor.\n\nA maioria dos clientes sempre vai tentar negociar, então se você já apresenta o seu menor valor logo de cara você não tem como negociar com o cliente quando ele te pedir um desconto.\n\nAgora uma sugestão sobre como você está calculando esses valores, você deveria repensar eles e considerar um ciclo anual em vez de mês. Como freela você sabe melhor que ninguém que tem períodos do ano que quase não trabalha, mas também tem períodos que você morre de trabalhar e ainda assim não entrega tudo. Calcular e monitorar essas valores considerando metas anuais pode te ajudar a tomar melhores decisões sobre que projetos pegar e como eles vão afetar a sua meta do ano. ",
+                "comment_score": 5,
+                "comment_created_utc": 1773395311.0
+            },
+            {
+                "comment_id": "oa7arun",
+                "comment_body": "Bom, faz muito tempo que eu aprendi que pra trampar de freela tu tinha que cobrar o dobro do que tu ganhava de salário no momento, por conta justamente desses custos, hoje eu já sei incluir os impostos e tal, mas a base era isso, Seu salário almejado * 2 / 220 (carga horária padrão CLT). Aí chegava em um número e sempre me funcionou, hoje voltei a ser CLT, mas sempre que aparece algum bico eu vou nessa base...",
+                "comment_score": 4,
+                "comment_created_utc": 1773398817.0
+            },
+            {
+                "comment_id": "oa3kmou",
+                "comment_body": "Freelancer aqui. Já pensou em procurar clientes em outro país? \n\nR$110/h dá uns $20 USD, pra maioria das empresas lá fora isso é um erro de arredondamento.\n\nTambém parei de trabalhar por hora recentemente. É brutal. Sou punido por ser eficiente. Cobro uma \"assinatura\" mensal (retainer) e o cliente que tem que se virar pra usar meu tempo ou não.\n\nNunca tive problema em reajustar minha hora. Subia $5 dólares por ano. Tenho um cliente que me paga $25 a mais do que quando comecei. Já coloca esse reajuste nos contratos daqui pra frente. Se estiver com muita demanda, aumenta mais.\n\nSe o dinheiro que paga você e o dinheiro do pão vêm do mesmo bolso, vai ter resistência. Recomendo evitar esse tipo de cliente ao máximo.",
+                "comment_score": 3,
+                "comment_created_utc": 1773345411.0
+            },
+            {
+                "comment_id": "oa4hmms",
+                "comment_body": "Mas 55 é muito baixo sem nem fazer conta.\nNunca fui muito de freela, fiz um pouco uns anos atras e era 90 reais\n\n\n\n",
+                "comment_score": 2,
+                "comment_created_utc": 1773355049.0
+            },
+            {
+                "comment_id": "oa79t0s",
+                "comment_body": "Eu contrato trabalhos que inerentemente sao free-lance o tempo todo, a praxe é calcular mao de obra entre 200 e 300 reais dependendo da complexidade e da duração. Trabalhos muito longos geralmente sao mais baratos por hora. Nao é regra mas serve pra te dar um norte.\n\nDito isso, free-lance por hora é um modelo de negócios ruim. Vc tem incentivo a enrolar o trabalho pra ganhar mais e eu tenho incentivo a te dar o mínimo possível pra te pagar menos. Inverte sua lógica e cobra pelo serviço em si; se ficar bem feito, vc ganha mais rapido entregando mais rapido, eu vou receber o mesmo produto em prazo menor e sem gastar mais. Todo mundo sai ganhando se o preço ficar bem acordado",
+                "comment_score": 2,
+                "comment_created_utc": 1773398350.0
+            },
+            {
+                "comment_id": "oaa0kcc",
+                "comment_body": "Aproveitando o post, como vcs pegam free-lance? Nao tenho experiência de dev mas tenho projetos e tenho conhecimento técnico para tal, mas nunca apareceu uma oportunidade ",
+                "comment_score": 2,
+                "comment_created_utc": 1773429690.0
+            },
+            {
+                "comment_id": "oagrvqh",
+                "comment_body": "jklgit, esse susto é necessário! O erro de muitos é não considerar as horas não-faturáveis. Sobre reajustar com clientes antigos: a melhor forma é basear em dados de mercado e na evolução do valor que você entrega. Se você provar que o \"preço justo\" para o nível de entrega atual é X, a conversa fica menos emocional e mais profissional. Já pensou em usar uma pesquisa rápida de mercado para mostrar que seu novo valor ainda é competitivo?",
+                "comment_score": 2,
+                "comment_created_utc": 1773522487.0
+            },
+            {
+                "comment_id": "oa3a39w",
+                "comment_body": "Cara, se vc tá falando com o cara existe o custo de oportunidade de não estar trabalhando então vc está trabalhando pra ele.\n\nVc tem primeiro que aumentar as horas possíveis de faturar. E provavelmente o preço também.",
+                "comment_score": 1,
+                "comment_created_utc": 1773342424.0
+            },
+            {
+                "comment_id": "oa3aj53",
+                "comment_body": "Tem dicas pra como ser freelancer? ",
+                "comment_score": 1,
+                "comment_created_utc": 1773342546.0
+            },
+            {
+                "comment_id": "oa3iek7",
+                "comment_body": "não entendi porquê tirar e-mail e esse tipo de atividade. isso faz parte do trabalho, ué",
+                "comment_score": 1,
+                "comment_created_utc": 1773344781.0
+            },
+            {
+                "comment_id": "oa3r15y",
+                "comment_body": "Ué nao é a primeira coisa q se faz pra precificar o serviço? Eu to ganhando mais no meu freela doq no trampo",
+                "comment_score": 1,
+                "comment_created_utc": 1773347166.0
+            },
+            {
+                "comment_id": "oa40h2l",
+                "comment_body": "800 reais de ferramenta e assinatura. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773349826.0
+            },
+            {
+                "comment_id": "oab4cbg",
+                "comment_body": "I was in the same spot with prospecting eating all my billable hours. Just started using gigup to automate the job hunting and proposals, and it basically gave me those lost hours back. It might help you actually charge your real rate.",
+                "comment_score": 0,
+                "comment_created_utc": 1773441905.0
+            },
+            {
+                "comment_id": "oa34o9c",
+                "comment_body": "Explica pq eh desvalorizado trabalho de frella tbm kkk",
+                "comment_score": 25,
+                "comment_created_utc": 1773340918.0
+            },
+            {
+                "comment_id": "oa3bx5h",
+                "comment_body": "realidade da maioria, infelizmente, qual tem sido a experiencia por ai?",
+                "comment_score": 6,
+                "comment_created_utc": 1773342934.0
+            },
+            {
+                "comment_id": "oa3i6qc",
+                "comment_body": "perfeito. pensei a mesma coisa",
+                "comment_score": 1,
+                "comment_created_utc": 1773344719.0
+            },
+            {
+                "comment_id": "oa3ctof",
+                "comment_body": "até pq qualquer reuniao que tenha a ver com o trabalho é trabalho e é produtivo (ou deveria ser kkkk)",
+                "comment_score": 36,
+                "comment_created_utc": 1773343190.0
+            },
+            {
+                "comment_id": "oa3yr2u",
+                "comment_body": "é uma boa prática, e o calculo dessa hora/homem tem uma tabela fixa?",
+                "comment_score": 3,
+                "comment_created_utc": 1773349328.0
+            },
+            {
+                "comment_id": "oa3zic9",
+                "comment_body": "estabelecer esse limite parece um bom caminho mesmo, principalmente depois de certa experiencia",
+                "comment_score": 5,
+                "comment_created_utc": 1773349548.0
+            },
+            {
+                "comment_id": "oa8113k",
+                "comment_body": "Poderia por favor compartilhar como vc fazia a precificação para chegar no valor do projeto fechado?",
+                "comment_score": 2,
+                "comment_created_utc": 1773408963.0
+            },
+            {
+                "comment_id": "oa3191e",
+                "comment_body": "Primeiro serviço sempre tem que se foder hahahahah… o meu primeiro foi um app completo pra iPhone e Android a preço de banana",
+                "comment_score": 4,
+                "comment_created_utc": 1773339966.0
+            },
+            {
+                "comment_id": "oa3zpe3",
+                "comment_body": "sempre tem aquele custo de aprendizado inicial, e hoje como tem feito?",
+                "comment_score": 1,
+                "comment_created_utc": 1773349604.0
+            },
+            {
+                "comment_id": "oa476b4",
+                "comment_body": "Meu primeiro foi um site que \"nunca acabava\" pq eu não defini escopo o cara sempre tinha uma ideia nova.",
+                "comment_score": 1,
+                "comment_created_utc": 1773351814.0
+            },
+            {
+                "comment_id": "oa40kug",
+                "comment_body": "estou tentando automatizar alguns processos e maximizar fechamento de negócio por reunião para chegar nessa conta. Por ai como tem sido a experiencia?",
+                "comment_score": 1,
+                "comment_created_utc": 1773349857.0
+            },
+            {
+                "comment_id": "oa3anxl",
+                "comment_body": "Depende muito do nicho, no meu caso: Adobe Creative Cloud, Contabilidade online, hospedagem + domínio, Google Workspace, Internet dedicada, Celular e CRM",
+                "comment_score": 3,
+                "comment_created_utc": 1773342583.0
+            },
+            {
+                "comment_id": "oa3b2xl",
+                "comment_body": "Pro estágiário que ele repassa as demandas kkkkk brincadeira op, também fiquei curioso",
+                "comment_score": 3,
+                "comment_created_utc": 1773342698.0
+            },
+            {
+                "comment_id": "oa34poj",
+                "comment_body": "Por aqui 10k sempre bate 600 de Das, 200 de inss e 150 da contabilidade ",
+                "comment_score": 2,
+                "comment_created_utc": 1773340930.0
+            },
+            {
+                "comment_id": "oa39fs7",
+                "comment_body": "varia bastante, mas R$1.200 acontece fácil em alguns cenários:   \n\\- Simples Anexo V sem fator R: \\~15% sobre R$8k = R$1.200   \n\\- Pessoa física com carnê-leão: faixa de 27,5% come uma boa parte   \n\\- Simples Anexo III na segunda faixa (\\~11%): já dá \\~R$880, soma INSS e passa fácil \n\nMenos de R$1k recebendo R$10k+, provavelmente tá no Anexo III com fator R ou num CNAE bem enquadrado. Qual CNAE tu usa?",
+                "comment_score": 1,
+                "comment_created_utc": 1773342240.0
+            },
+            {
+                "comment_id": "oa41soi",
+                "comment_body": "É a realidade, qual experiencia já teve nessa parte de precificarão?",
+                "comment_score": 1,
+                "comment_created_utc": 1773350210.0
+            },
+            {
+                "comment_id": "oagwhlg",
+                "comment_body": "Concordo 100%. valor/hora é um cálculo individual, não o que você apresenta pro cliente. Limitar reuniões no escopo salva muito dinheiro. Você define isso em contrato?\n",
+                "comment_score": 1,
+                "comment_created_utc": 1773523968.0
+            },
+            {
+                "comment_id": "oagxsg8",
+                "comment_body": "Anualizar iria ajudar bastante a reduzir a sazonalidade e como critério de quais projetos priorizar. Você usa alguma ferramenta pra acompanhar essa meta anual ou faz na planilha?\n",
+                "comment_score": 1,
+                "comment_created_utc": 1773524390.0
+            },
+            {
+                "comment_id": "oagz1xu",
+                "comment_body": "A regra do 2x é um atalho bom pra quem tá começando. Na prática chega perto do cálculo detalhado mesmo — os impostos, custos e horas não-faturáveis costumam comer entre 40-50% do bruto. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773524800.0
+            },
+            {
+                "comment_id": "oa42oc8",
+                "comment_body": "É uma ótima dica, o custo de aquisição e precificacao la fora mudou muito em relancao aqui? como foi essa virada no modelo de negócio?",
+                "comment_score": 2,
+                "comment_created_utc": 1773350467.0
+            },
+            {
+                "comment_id": "oacp2ip",
+                "comment_body": "Através de quais plataformas você começou a pegar freela? Sou CLT e estou precisando de uma renda extra.",
+                "comment_score": 2,
+                "comment_created_utc": 1773463311.0
+            },
+            {
+                "comment_id": "oagvyln",
+                "comment_body": "R$55 tava abaixo do mercado mesmo. O problema foi justamente não ter feito a conta antes. Qual nicho você trabalhava nos R$90?\n",
+                "comment_score": 1,
+                "comment_created_utc": 1773523799.0
+            },
+            {
+                "comment_id": "oagykro",
+                "comment_body": "R$200-300/hora como referência de mão \nde obra é um bom benchmark. E o ponto sobre \nincentivos desalinhados no modelo por hora é \ncerteiro — projeto fechado alinha os dois lados. Tem alguma plataforma que usa mais para ofertar serviço?\n",
+                "comment_score": 1,
+                "comment_created_utc": 1773524649.0
+            },
+            {
+                "comment_id": "oa41abf",
+                "comment_body": "excelente ponto, mesmo automatizando o que dá, alguma ineficiência sempre vai entrar na conta. Como tem sido a experiencia por ai?",
+                "comment_score": 1,
+                "comment_created_utc": 1773350063.0
+            },
+            {
+                "comment_id": "oa41kox",
+                "comment_body": "começa com uma busca simples do assunto pelo youtube e busca partir para a ação mesmo sem estar 100% pronto",
+                "comment_score": 1,
+                "comment_created_utc": 1773350145.0
+            },
+            {
+                "comment_id": "oa4218t",
+                "comment_body": "é um bom ponto. Por aqui tento automatizar o que dá. Qual tem sido a experiencia por ai na precificacão dos projetos?",
+                "comment_score": 2,
+                "comment_created_utc": 1773350280.0
+            },
+            {
+                "comment_id": "oa42sxh",
+                "comment_body": "como foi esse caminho de fazer uma jornada dupla?",
+                "comment_score": 1,
+                "comment_created_utc": 1773350504.0
+            },
+            {
+                "comment_id": "oa4g2fj",
+                "comment_body": "achou adequado? como tem sido a experiencia por ai?",
+                "comment_score": 1,
+                "comment_created_utc": 1773354550.0
+            },
+            {
+                "comment_id": "oa3y7ev",
+                "comment_body": "Verdade, mas nao é assim com todo o tipo de trabalho? \n\nAcho que para os quem tem a orientação e disciplina certa pode ser um ótimo caminho  ",
+                "comment_score": 7,
+                "comment_created_utc": 1773349172.0
+            },
+            {
+                "comment_id": "oa3yicb",
+                "comment_body": "custo de entrada as vezes é alto para quem está aprendendo. Por ai, qual tem sido a experiencia?",
+                "comment_score": 1,
+                "comment_created_utc": 1773349259.0
+            },
+            {
+                "comment_id": "oa3yzgt",
+                "comment_body": "é um velho dilema, vale o que for combinado na fase negocial",
+                "comment_score": 6,
+                "comment_created_utc": 1773349396.0
+            },
+            {
+                "comment_id": "oadybox",
+                "comment_body": "Irmão, na única vez que me pagaram de free-lancer (um trabalho antigo precisava que resolvesse um esquema pra eles), eu chegava e tirava foto do horário no relógio de ponto do lugar e mandava por e-mail pra eles, na entrada e na saída, duas vezes por dia (eu saíapra almoçar). No final ainda tentaram fazer uma conta torta pra não contar os minutos no final dos dias e economizar uma hora, eu corrigi e não teve mais briga. Se você ganha por hora trabalhada, você deveria ser super rígido com o registro dessas horas. Mantenha um diário com provas e fature todo o tempo que você gastar com o trabalho. Não existe hora grátis.",
+                "comment_score": 3,
+                "comment_created_utc": 1773489009.0
+            },
+            {
+                "comment_id": "oa9shy1",
+                "comment_body": "O racional que uso hoje:\n\n1. Estimo as horas do projeto (sempre adiciono 20-30% de margem pra imprevistos e scope creep)\n\n2. Multiplico pelo meu rate mínimo real — aquele que já inclui impostos, custos e horas não faturáveis\n\n3. Comparo com o que o mercado cobra pra projetos semelhantes no mesmo nicho\n\n4. Ajusto pra cima se o cliente tem budget maior ou o projeto é urgente\n\nSe estimo 80h de trabalho, com margem vira ~100h. A R$110/hora, o projeto fechado sai R$11.000. Pro cliente é mais previsível, pra mim é mais lucrativo se entrego antes.\n\nO passo 2 é o que a maioria pula — usam o rate “chutado\" em vez do calculado. Tô montando uma \ncalculadora que faz essa conta em poucos minutos, já com impostos por CNAE e benchmark por nicho.",
+                "comment_score": 2,
+                "comment_created_utc": 1773427351.0
+            },
+            {
+                "comment_id": "oa3zunz",
+                "comment_body": "projeto grande logo de cara, e hoje como tem feito a precificacão?",
+                "comment_score": 1,
+                "comment_created_utc": 1773349646.0
+            },
+            {
+                "comment_id": "oa4ddbc",
+                "comment_body": "Muito comum. Apesar de parecer bom essa continuidade, dificilmente vira um cliente recorrente lá na frente. Hoje em dia, qual racional usa para precificar as horas? ",
+                "comment_score": 1,
+                "comment_created_utc": 1773353704.0
+            },
+            {
+                "comment_id": "oa403lz",
+                "comment_body": "por enquanto é tudo em carreira solo, aumentar equipe as vezes é mais complexo que precificar projeto",
+                "comment_score": 1,
+                "comment_created_utc": 1773349718.0
+            },
+            {
+                "comment_id": "oa3a8kv",
+                "comment_body": "rapaz por aqui nem se somar tudo que eu pago da isso ai, porém o contador é R$ 250",
+                "comment_score": 6,
+                "comment_created_utc": 1773342465.0
+            },
+            {
+                "comment_id": "oa3a0vm",
+                "comment_body": ">Qual CNAE tu usa?\n\né segredo so posso dizer que a lista e grande, to fugindo do imposto igual ao diabo foge da cruz",
+                "comment_score": 3,
+                "comment_created_utc": 1773342405.0
+            },
+            {
+                "comment_id": "oa478po",
+                "comment_body": "Depende a sua senioridade, stack, habilidade de vender… mas R$55 provavelmente está baixo. \n\nTenta considerar o teu tempo de prospecção, negociação e definição de escopo nesse cálculo, assim muitos projetos pequenos teu preço/hora deve ser maior, porque você precisa despender mais tempo pra fechar eles",
+                "comment_score": 3,
+                "comment_created_utc": 1773351834.0
+            },
+            {
+                "comment_id": "oaha47m",
+                "comment_body": "Defino. E deixo o valor de cada reunião extra - que é o valor de uma hora por reunião. Nem todos gostam, e quando é o caso, sugiro então aproveitarmos o máximo das reuniões já inclusas.",
+                "comment_score": 2,
+                "comment_created_utc": 1773528444.0
+            },
+            {
+                "comment_id": "oa7vfnu",
+                "comment_body": "A maioria dos meus clientes vieram através de recomendação, nunca gastei muito tempo procurando às cegas. Americanos são mais diretos e, não vão te deixar de molho analisando uma proposta por 3 semanas. Acredito que essa parte seja mais eficiente do que com clientes nacionais.\n\nFoi tranquilo mudar pro modelo de assinatura. Fiz uma proposta (1 página) pro meu maior cliente explicando o porquê da mudança e enviei no Slack. Aceitaram sem contestar nenhuma condição.",
+                "comment_score": 3,
+                "comment_created_utc": 1773407112.0
+            },
+            {
+                "comment_id": "oah08zs",
+                "comment_body": "Proposta de 1 página no Slack e aceitaram direto — isso mostra que quando o cliente confia no trabalho, o modelo importa menos que o relacionamento. Recomendação como canal principal de aquisição é o objetivo de todo freela. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773525177.0
+            },
+            {
+                "comment_id": "oamcgi2",
+                "comment_body": "Integração com bombas de abastecimento, em Delphi\n\n\nÉ um sistema que eu desenvolvi como fixo e depois saí fora.\n\n\nDepois dei algumas manutenções como freelance, então eu era um cara chave\n\n\nMas conheço gente que trabalhava a 90 reais também (inclusive foi referência pro meu valor)",
+                "comment_score": 1,
+                "comment_created_utc": 1773601800.0
+            },
+            {
+                "comment_id": "oaha1ev",
+                "comment_body": "No meu caso é 100% boca a boca mesmo mas sao serviços específicos do meu setor; vc até pode fazer uma prospecção ativa oferecendo pra resolver um problema simples procurando empresas pelo cnae na sua regiao. Te garanto que mesmo com home office é muito mais facil vender face a face, inspira muito mais confiança ",
+                "comment_score": 2,
+                "comment_created_utc": 1773528417.0
+            },
+            {
+                "comment_id": "oa4b6my",
+                "comment_body": "Então, eu hj não trabalho dessa forma, mas já trabalhei, vendendo hora vamos dizer assim. Como era presencial, entrei na empresa tava ganhando. Claro que só vc sabe da sua realidade, mas tem que ficar atento pra não pagar pra trabalhar.",
+                "comment_score": 1,
+                "comment_created_utc": 1773353028.0
+            },
+            {
+                "comment_id": "oa44osc",
+                "comment_body": "Peguei um freela e na semana seguinte fui aprovado na vaga. Mas eu calculei o valor do freela com base na media de custo/hora do meu nivel.",
+                "comment_score": 1,
+                "comment_created_utc": 1773351063.0
+            },
+            {
+                "comment_id": "oa40dlc",
+                "comment_body": "Hoje eu precifico por partes… vendo separado o Back/front e a integração com a API.\n\nAlém de cobrar pra agendar envios nas lojas, etc ",
+                "comment_score": 1,
+                "comment_created_utc": 1773349799.0
+            },
+            {
+                "comment_id": "oa3ahes",
+                "comment_body": "Tendii, eu so uso o fator e no anexo III",
+                "comment_score": 1,
+                "comment_created_utc": 1773342532.0
+            },
+            {
+                "comment_id": "oa40cep",
+                "comment_body": "sei bem como é, difícil até achar um bom contador nessas horas",
+                "comment_score": 1,
+                "comment_created_utc": 1773349789.0
+            },
+            {
+                "comment_id": "oa4fgf0",
+                "comment_body": "estou montando uma calculadora para fazer essas contas em poucos minutos, já com impostos por CNAE e benchmark por nicho. Acha que tem mercado pra isso?",
+                "comment_score": 1,
+                "comment_created_utc": 1773354356.0
+            },
+            {
+                "comment_id": "oa4eiec",
+                "comment_body": "É um bom objetivo para se colocar. Como escalou para o modelo atual? ",
+                "comment_score": 1,
+                "comment_created_utc": 1773354060.0
+            },
+            {
+                "comment_id": "oa4c169",
+                "comment_body": "usou alguma plataforma para ver essa média de custo/hora por nível?",
+                "comment_score": 1,
+                "comment_created_utc": 1773353290.0
+            },
+            {
+                "comment_id": "oa4d0h6",
+                "comment_body": "estou montando uma calculadora para fazer essas contas em poucos minutos, já com impostos por CNAE e benchmark por nicho, acha que pode ter mercado?",
+                "comment_score": 1,
+                "comment_created_utc": 1773353593.0
+            },
+            {
+                "comment_id": "oa408m7",
+                "comment_body": "ta chegando em um valor parecido ai?",
+                "comment_score": 1,
+                "comment_created_utc": 1773349758.0
+            },
+            {
+                "comment_id": "oa4orn9",
+                "comment_body": "Mercado tipo pagando? Não. Mas dá pra publicar gratuitamente e ganhar receita com ads",
+                "comment_score": 3,
+                "comment_created_utc": 1773357329.0
+            },
+            {
+                "comment_id": "oa4zhtj",
+                "comment_body": "Só pesquisei os salarios na minha região, calculei quanto seria por hora, adicionei um pouco por conta de nao ter garantias e beneficios (CLT) e pimba\n\nE se tiver preguiça, o ChatGPT faz uma pesquisa bem boa. Ai você só tem que quantificar as horas gastas no projeto, que é o maior desafio",
+                "comment_score": 2,
+                "comment_created_utc": 1773360885.0
+            },
+            {
+                "comment_id": "oa4eruw",
+                "comment_body": "Geralmente eu faço preço fixo...\n\n150 reais da publicação (por loja) para carregar a build na google e na apple.  \n400 reais para criar uma tela (back e front) - ou 200/300 pra modificar.  \n300 reais por endpoint de API.\n\nClaro que geralmente incluo um desconto para quando to fechando um contrato... Mas fiz um contrato pra uma tela nova e uma rota de API pra um app mobile e peguei quase 1000 reais pra 1 dia de serviço.",
+                "comment_score": 1,
+                "comment_created_utc": 1773354142.0
+            },
+            {
+                "comment_id": "oah0vh6",
+                "comment_body": "ChatGPT ajuda mesmo na pesquisa inicial. Tenho incluido custos reais, enquadramento fiscal e tempo não-faturável pra resposta ser um pouco menos genérico",
+                "comment_score": 1,
+                "comment_created_utc": 1773525372.0
+            }
+        ]
+    },
+    {
+        "post_id": "1rjuj4a",
+        "post_title": "Primeiro CLT apos anos de PJ",
+        "post_body": "Ola, gostaria de tirar uma duvida sobre uma questao basica de tributacao no brasil.\n\nComo diz no titulo, trabalhei a maior parte como PJ, meu salário tinha atingido um ponto onde eu teria que migrar de MEI pra simples e ja estava me doendo com os impostos que, pelo que vi agora no google, seria de 6% da renda.\n\nRecebi uma proposta CLT ganhando mais e claro que aceitei, mas estou vendonum valor brutal descontado na primeira folha de pagamento. OO imposto de renda pra todo clt que ganha acima de 3k  pode chegar a quase 30%. No meu caso foi embora 16% do meu salario mais 1000 reais de INSs obrigatorio.\n\nEssa é uma questao tao obvia que nao consegui nem achar alguma postagem aqui relacionada a isso? Vejo pessoas dizendo que nao querem ser taxados como PJ, mas me parece brm maior esse imposto para o  trabalhador CLT.\n\nEstou perdendo alguma informação aqui?",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1rjuj4a/primeiro_clt_apos_anos_de_pj/",
+        "is_self_post": true,
+        "post_created_utc": 1772556788.0,
+        "comments": [
+            {
+                "comment_id": "o8fw0j5",
+                "comment_body": "A primeira folha de pagamento sempre da aquele baque",
+                "comment_score": 9,
+                "comment_created_utc": 1772557939.0
+            },
+            {
+                "comment_id": "o8ftbpy",
+                "comment_body": "Clt é muito melhor no total compensation, mas tem que aprender a viver com menos no mes a mes. Comigo aconteceu a mesma coisa, dei sorte que meu vale refeiçao acabou ficando elas por elas. Mas em Total comp ganho hoje quase 40% a mais. Fora que se for demitido no pj tem que ter juntando dinheiro, clt voce recebe um bom valor",
+                "comment_score": 6,
+                "comment_created_utc": 1772557173.0
+            },
+            {
+                "comment_id": "o8fvx3w",
+                "comment_body": "O cara ta mais perdido do que cego em tiroteio... rsrs",
+                "comment_score": 5,
+                "comment_created_utc": 1772557912.0
+            },
+            {
+                "comment_id": "o8fyabb",
+                "comment_body": "Na dúvida pergunta pro RH, mas a conta deve estar certa sim. Não se esqueça que quando você era PJ, era sua responsabilidade guardar um valor próximo a esse. Por exemplo, você comentou de 1k de INSS, você guardava 1k por mês pra sua aposentadoria?",
+                "comment_score": 2,
+                "comment_created_utc": 1772558582.0
+            },
+            {
+                "comment_id": "o8fsy31",
+                "comment_body": "Eita rapaz",
+                "comment_score": 1,
+                "comment_created_utc": 1772557065.0
+            },
+            {
+                "comment_id": "o8fz5ru",
+                "comment_body": "Ta faltando botar na conta fgts, férias, 13°, inss (que obviamente você antes não contribuía nem perto dos 1000 ne?)\n\n\nÉ uma comparação burra você fazer a conta contando só o líquido que recebe agora e antes",
+                "comment_score": 1,
+                "comment_created_utc": 1772558830.0
+            },
+            {
+                "comment_id": "o8g0akg",
+                "comment_body": ">Recebi uma proposta CLT ganhando mais e claro que aceitei..\n\npera ai.. mais o ganhando a mais que você fala é bruto PJ vs bruto CLT?",
+                "comment_score": 1,
+                "comment_created_utc": 1772559152.0
+            },
+            {
+                "comment_id": "o8g3zqo",
+                "comment_body": "Sim ué, é maior no CLT, mas os seus direitos são bem maiores também...",
+                "comment_score": 1,
+                "comment_created_utc": 1772560199.0
+            },
+            {
+                "comment_id": "o8zh34n",
+                "comment_body": "Pô amigão, você não teve a curiosidade de usar uma calculadora de salário PJ x CLT para saber quanto você receberia líquido? É muito mirim.",
+                "comment_score": 1,
+                "comment_created_utc": 1772812855.0
+            },
+            {
+                "comment_id": "o8fwkuc",
+                "comment_body": "[removed]",
+                "comment_score": 0,
+                "comment_created_utc": 1772558101.0
+            },
+            {
+                "comment_id": "o8fz6v2",
+                "comment_body": "pq baque? considerando que seja um salário maior q o anterior.",
+                "comment_score": 1,
+                "comment_created_utc": 1772558838.0
+            },
+            {
+                "comment_id": "o8fvfd7",
+                "comment_body": "Dentro dessa compensacao voce inclui o PLR anual? Eu ainda preciso ficar mais um ano nessa empresa pra receber estes lucros. No meu caso juntando va e vr meu salario fica cerca de 20% maior que o antigo, mas o valor que cai na conta está ate um pouco menor. Fui pego um pouco de surpresa.",
+                "comment_score": 2,
+                "comment_created_utc": 1772557773.0
+            },
+            {
+                "comment_id": "o8giwe1",
+                "comment_body": "Por isso que quando planejava sair do CLT e ir pra um PJ, eu pedia uns 30/40% a mais (fora o aumento no líquido que buscava), já que esse valor seria a minha recisão, meu seguro desemprego e minhas férias remuneradas (que é difícil uma empresa que oferece PJ dar).  \nO ruim do CLT é que só recebe esse valor se for demitido, fora que o desconto do leão em folha é ridículamente alto, considerando todo o resto de imposto que pagamos.",
+                "comment_score": 1,
+                "comment_created_utc": 1772564337.0
+            },
+            {
+                "comment_id": "o8fvufr",
+                "comment_body": "Eu nunca vou entender essa de ter juntado um bom dinheiro, dá pra guardar o salário tranquilamente por 3 meses ter sua reserva de emergência a lá seguro desemprego.",
+                "comment_score": -4,
+                "comment_created_utc": 1772557891.0
+            },
+            {
+                "comment_id": "o8fz5kz",
+                "comment_body": "Honestamente, eu coloco tudo em BTC desde sempre. Eu nunca juntei nada no INSS e hoje ja estou na beira dos 30 anos, entao me parece desvantagem ser imposto a isso agora, mas eu só queria tirar essa dúvida porque nao tinha tomado esse reality check. Estou feliz com o meu CLT, entretanto.",
+                "comment_score": 1,
+                "comment_created_utc": 1772558829.0
+            },
+            {
+                "comment_id": "o8g2nn9",
+                "comment_body": "Sim, porem os beneficios tambem estavam sendo levados em consideracao. No todo, estou ganhando mais, só não levei em consideração estes impostos, e achei estranho que a percepcao que eu tinha era a de que um PJ na modalidade simples era taxado a mais do que um CLt",
+                "comment_score": 1,
+                "comment_created_utc": 1772559824.0
+            },
+            {
+                "comment_id": "o8g0r8w",
+                "comment_body": "Discussões e comentários de má-fé serão removidos, incluindo comentários sarcásticos ou irônicos, que pouco contribuem para o debate.",
+                "comment_score": 1,
+                "comment_created_utc": 1772559284.0
+            },
+            {
+                "comment_id": "o8g31d5",
+                "comment_body": "É um baque ver o tamanho da fatia que vai para a \"contribuição\"",
+                "comment_score": 7,
+                "comment_created_utc": 1772559932.0
+            },
+            {
+                "comment_id": "o8fwdia",
+                "comment_body": "Não coloco plr, coloco 13, férias e FGTS. Mas minha empresa tem plr tbm então seria mais ainda \n\nEu já sabia disso, usa calculadora pjxclt no Google e dá uma olhada",
+                "comment_score": 3,
+                "comment_created_utc": 1772558041.0
+            },
+            {
+                "comment_id": "o8fwx4x",
+                "comment_body": "Até pq todo mundo tem a mesma realidade né? /s eu nasci pobre, preciso pagar minha próprias contas, aluguel etc etc cada um tem a sua realidade, não tenho casa para morar com meus pais  ",
+                "comment_score": 5,
+                "comment_created_utc": 1772558197.0
+            },
+            {
+                "comment_id": "o8g2rfx",
+                "comment_body": "> Honestamente, eu coloco tudo em BTC desde sempre\n\nNo caminho certo pra perder tudo em meu chapa",
+                "comment_score": 2,
+                "comment_created_utc": 1772559854.0
+            },
+            {
+                "comment_id": "o8g0681",
+                "comment_body": "Nesse caso vai se um baque mesmo, mas mesmo que seja obrigatório, isso também vai acabar diversificando seus investimentos. Como é algo que não tem o que fazer, eu também nem me preocuparia. O que cair no bolso lá na frente tá ótimo.",
+                "comment_score": 1,
+                "comment_created_utc": 1772559118.0
+            },
+            {
+                "comment_id": "o8fxfkg",
+                "comment_body": "Claro, exceções existem. Mas não deixa de ser uma exceção.",
+                "comment_score": -2,
+                "comment_created_utc": 1772558341.0
+            },
+            {
+                "comment_id": "o8g3g4x",
+                "comment_body": "Você está considerando o INSS sendo a diversificacao? Bem, eu não sei quando eu iria me aposentar nesse ritmo iniciando no CLT aos 30. Nem me imagino estando no Brasil dentro de alguns anos. Mas é bola pra frente, como voce disse",
+                "comment_score": 1,
+                "comment_created_utc": 1772560047.0
+            },
+            {
+                "comment_id": "o8fxw7d",
+                "comment_body": "No Brasil exceção é conseguir guardar 3 meses do salário. Não entendi sua indagação ",
+                "comment_score": 7,
+                "comment_created_utc": 1772558471.0
+            },
+            {
+                "comment_id": "o8g4o8p",
+                "comment_body": "Sim, mas é bem como você falou, não tem muito o que fazer e no final vai ter pelo menos algum dinheiro lá. Pelo que eu pesquisei, PJ também paga INSS, então você já deve ter algum tempo de contribuição lá. Se cair um salário mínimo daqui a 30 anos já tá ótimo. \n\nDa última vez que eu vi alguém fazer a conta, em quase todos os cenários volta mais dinheiro do que você pagou. Só nos resta torcer pra existir aposentadoria até 2090!",
+                "comment_score": 1,
+                "comment_created_utc": 1772560387.0
+            }
+        ]
+    },
+    {
         "post_id": "1lpj6x4",
         "post_title": "Ajuda por favor, serei pejotizado",
         "post_body": "amigos devs me ajudem por favor, eu vou ser pejotizado e to completamente perdido\n\nposso abrir MEI, com CNAE de instalador de redes ou tecnico de manutencao, sei que nao tem nada a ver com dev mas eu pagaria so a guia das\n\ntem algum dev mei aqui que faz isso? ja deu merda?\n\nagora se eu for 100% dentro da lei, tenho que abrir ME. Sou obrigado a me pagar um pro labore e depois disso so posso retirar 32% do resto como lucro alem do pro labore. Vou ter que pagar inss em cima do pro labore e ainda lidar com uma aliquota mensal de 15%.\n\nconsiderando a merda de proposta que recebi\n\nmei (desconto)= 70 conto DAS\n\nme (tudo)= 15% + inss = isso da umas 600 pila e ainda ficaria uma grana presa la na conta pj que se eu quisesse retirar teria que contratar contador\n\nassim eu nao sei se o que falei ta certo, foi o que eu entendi e to me sentindo mto perdido, ainda preciso responder a empresa logo sobre o que farei",
@@ -16,7 +672,7 @@
             {
                 "comment_id": "n0vm92k",
                 "comment_body": "vai receber menos de 6750? abra um MEI, foda-se que não tem o CNAE de desenvolvedor, a receita tá cagando e se vc trampa pra uma empresa que quer te contratar PJ pagando menos que isso, eles tão cagando também.\n\nse for mais, vc tem que abrir ME. o imposto não eh tudo isso que tu falou, vc viajou firme.\n\nvc precisa de um contador para ter uma ME, abre uma conta no contabilizei e lá eles te informam de tudo. O imposto na nota do desenvolvedor eh algo em torno de 6% pra trampo no brasil. lá na contabilizei eles vão calcular o melhor pro labore pra vc pagar menos imposto. vc consegue tirar todas tuas dúvidas no chat deles.\n\nto escrevendo meio foda-se pq to no celular mas acho que deu pra entender, qq coisa me chama no privado aqui que amanhã eu consigo te ajudar mais",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1751425062.0
             },
             {
@@ -128,13 +784,13 @@
             {
                 "comment_id": "mnf1wi8",
                 "comment_body": "Kra tudo depende do lugar que você está e das pessoas que você trabalha.\n\nEu já fui demitido e já fui promovido. Não se sinta mal por estar no lugar errado convivendo com pessoas erradas.\n\nTodo mundo tem o seu valor quando está num lugar propício para o crescimento profissional",
-                "comment_score": 16,
+                "comment_score": 15,
                 "comment_created_utc": 1744815025.0
             },
             {
                 "comment_id": "mnf55dj",
                 "comment_body": "Cara eu passei por uma coisa parecida, eu também não conseguia fazer estágio pq eu tinha que trabalhar e pagar aluguel e me sustentar, é foda, e isso meio que impede vc de crescer na carreira e se posicionar no mercado, mas mesmo assim eu meti o Loko e entrei em um estágio, pedi demissão do meu emprego e usei todas minhas economias pra me manter, como eu pedi demissão eu não tive direito a auxílio desemprego e nem aí FGTS, e pensei até em vender meu carro pra me manter enquanto estagiava. Infelizmente o ambiente era uma merda também, um chefe que não manjava porra nenhuma de T.I, um gerente de projetos que não usava metodologia nenhuma e só ficava falando oq vc tem que fazer sem dar muitos detalhes, e quando vc n fazia EXATAMENTE o que ele queria pelo fato dele não ter dado muitos detalhes vc saia como o incompetente da parada, já me chamarem pra conversar pq eu cheguei 6 min atrasado !!! E enfim, não consegui me adequar e fui mandado embora em 3 meses de estágio. Depois de ser mandado embora, fiquei desempregado sem dinheiro pulando de bico em bico, até que meu antigo chefe me chamou pra trabalhar novamente com ele (eu acho que foi por dó), eu vendia baterias de carro e moto. Depois de ter quebrado a cara eu fiquei com medo, um bloqueio mental, eu não conseguia me imaginar trabalhando com programação novamente, eu tinha medo de sair do meu emprego atual e quebrar a cara novamente. Mas eu tinha um último trunfo na mão pra conseguir trabalhar em T.I (eu realmente amo a área), eu pensei que prestar concurso seria a minha saída, pq passando em um eu conseguia uma garantia de que eu não iria ser mandado embora por qualquer merda  e passar fome depois, por isso eu estudei constantemente e consegui passar em um concurso em um banco federal como técnico bancária da área de T.I, e com isso eu saí do meu emprego e mês que vem eu começo a trabalhar lá. O salário é top, tem PLR, plano de saúde, vale alimentação e tudo mais, e o melhor de tudo é que trabalha só 6h por dia de segunda a sexta.",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1744815980.0
             },
             {
@@ -208,19 +864,19 @@
             {
                 "comment_id": "m5ltemo",
                 "comment_body": "[deleted]",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1736118986.0
             },
             {
                 "comment_id": "m5mjwby",
                 "comment_body": "MEI não é uma opção válida pra desenvolvedor. Você até pode criar a empresa assim, mas vai estar irregular e pode em algum momento levar multa por isso. Não sei dizer se a possibilidade de isso acontecer é alta ou baixa.\nO certo é abrir uma ME, só que aí você vai obrigatoriamente precisar de um contador. O mais barato é contratar o Contabilizei ou similares. Um contador tradicional vai te cobrar 300 reais ou mais por mês.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1736127747.0
             },
             {
                 "comment_id": "m5n7i2m",
                 "comment_body": "MEI é furada na certa e te digo o porquê. Primeiro que é ilegal e você pode ser desenquadrado pela receita, pois não é abrangido pela categoria MEI uma atividade como de programação, já que se trata de atividade intelectual e extremamente qualificada. Segundo, o MEI não separa a PJ da PF, se tiver alguma merda no seu PJ, na verdade quem se ferra é você, porque MEI na prática não é PJ, justamente por isso não há essa distinção. MEI é uma gambiarra para pegar informais de baixa qualificação e obrigá-los a contribuir pro INSS. Terceiro problema, se você for alugar equipamentos, fazer leasing, qualquer coisa do tipo, ninguém atende MEI, nem pra você alugar um celular, vai ser atendido, porque o MEI tem um limite de ganho anual, que apresenta riscos para empresas firmarem contratos com você desse tipo, inclusive empréstimos em bancos também ficam superlimitados. Quarto, ser MEI faz com que você jogue seu salário pra baixo, pois tendo essa limitação anual de 81 mil, empresas que te contratariam como PJ, vão jogar seu salário dentro desse range, o que faz ganhar menos (inclusive esse é o motivo de ter uns chorões aqui reclamando de PJ ganhar mal, quase todos eles são MEI). Enfim, eu fiz essa merda, e tive que pedir o desenquadramento, hoje sou LTDA.\n\nSabendo de tudo isso, monte ou algo LTDA ou SLU (antiga EIRELI), contrate escritório decente de contabilidade, nada dessas merdas digitais, e faça um certificado digital e-cnpj e e-cpf pra não ter dor de cabeça.",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1736135740.0
             },
             {
@@ -302,10 +958,22 @@
                 "comment_created_utc": 1762210546.0
             },
             {
+                "comment_id": "o8kys8t",
+                "comment_body": "E qual escritório é este que você migrou?",
+                "comment_score": 1,
+                "comment_created_utc": 1772626597.0
+            },
+            {
                 "comment_id": "m9nhhjo",
                 "comment_body": "Alguém pode pasaar um código de indicação para ganhar o desconto?",
                 "comment_score": 1,
                 "comment_created_utc": 1738079209.0
+            },
+            {
+                "comment_id": "o8mtfw1",
+                "comment_body": "[removed]",
+                "comment_score": 1,
+                "comment_created_utc": 1772647350.0
             },
             {
                 "comment_id": "mr8jbhl",
@@ -318,6 +986,12 @@
                 "comment_body": "Vou te mandar no pv",
                 "comment_score": 1,
                 "comment_created_utc": 1738083953.0
+            },
+            {
+                "comment_id": "o8mtg25",
+                "comment_body": "**Conteúdo removido automaticamente**   \n\nPedidos para continuar a conversa por **mensagem privada (DM / inbox / chat)** não são permitidos nesta comunidade.   \nO Reddit é um **fórum público**: dúvidas e discussões devem acontecer nos comentários dos posts.  \nLevar a conversa para chats privados impede que as respostas **ajudem outros redditors**.   \n#### Todas as interações devem ocorrer **publicamente**, garantindo transparência e segurança para todos.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/brdev) if you have any questions or concerns.*",
+                "comment_score": 1,
+                "comment_created_utc": 1772647351.0
             },
             {
                 "comment_id": "my4szoq",
@@ -368,7 +1042,7 @@
             {
                 "comment_id": "jgskmdt",
                 "comment_body": "Esses benefícios para PJ só ajudam a caracterizar vínculo trabalhista e a empresa já pensa nos futuros processos que eles podem ter, então eles evitam isso mesmo. Mas se os outros ganham é algum acordo que eles fizeram ou pressão, tem que ver oq aconteceu com eles.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1681850538.0
             },
             {
@@ -398,7 +1072,7 @@
             {
                 "comment_id": "jgsy9cc",
                 "comment_body": "O vacilo meu foi ter aceitado no boca a boca, agora quero ficar tudo certinho compromete a questão de negociação :/",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1681855902.0
             },
             {
@@ -444,7 +1118,7 @@
             {
                 "comment_id": "gw1xb1r",
                 "comment_body": "Pra serviço de contador, tem a Contabilizei que é só R$89/mês. Eles pisam na bola às vezes, mas no geral o serviço é ok e compensa pela diferença de valor.\n\nSe a sua empresa se enquadrar no Simples, tem o esquema do Fator R também pra reduzir o imposto, não sei se é dele que o seu contador falou.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1619533346.0
             },
             {

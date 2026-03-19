@@ -1,5 +1,27 @@
 [
     {
+        "post_id": "1pu2g9x",
+        "post_title": "Emissão de NFSe Padrão Nacional com Laravel (Exemplo)",
+        "post_body": "Olá pessoal! Este projeto estava sendo criado para ser um curso completo sobre a emissão de **Nota Fiscal de Serviço Eletrônica (NFS-e) no padrão nacional com Laravel**.\n\nMas, sendo muito sincero, estou totalmente sem energia e saco para terminá-lo. E queria aproveitar e dar meu apoio a todos programadores que trabalham com documentos fiscais, pois é um assunto extremamente complexo e burocrático.\n\nEntão resolvi reunir o que já foi feito e disponibilizar como um pacote open source para a comunidade.\n\nAtualmente, o projeto consegue emitir algumas **NFSe simples em ambiente de homologação**.\n\nBoas festas e feliz ano novo para todos!",
+        "post_url": "https://github.com/TiagoSilvaPereira/laravel-nfse",
+        "is_self_post": false,
+        "post_created_utc": 1766517355.0,
+        "comments": [
+            {
+                "comment_id": "nvmig7c",
+                "comment_body": "Se for abrir issues, ajudo",
+                "comment_score": 2,
+                "comment_created_utc": 1766530454.0
+            },
+            {
+                "comment_id": "nvq1fk7",
+                "comment_body": "Top irmão, fique à vontade, inclusive seria um local bacana para discutirmos o aspecto tributário e melhorarmos o código. A maioria das APIs de terceiros são muito caras, então se tivermos pelo menos um emissor básico para Simples Nacional já vai ajudar uma penca de desenvolvedores Laravel/PHP por aí",
+                "comment_score": 1,
+                "comment_created_utc": 1766587211.0
+            }
+        ]
+    },
+    {
         "post_id": "1odilkc",
         "post_title": "Quanto vocês pagam de imposto?",
         "post_body": "Eu estou recebendo 5 mil dólares, o que dá uns 26–27 mil reais com a conversão. Tenho uma empresa do tipo *Simples Nacional* e pago cerca de R$ 1.800 de INSS e R$ 1.700 de IRRF, além de R$ 400 para a contadora. Gostaria de saber se isso está mais ou menos correto, porque, honestamente, eles são relutantes em me explicar as coisas direitinho. Quero fazer tudo certinho, de acordo com a lei. Esses valores fazem sentido pra vocês?",
@@ -10,7 +32,7 @@
             {
                 "comment_id": "nku57j4",
                 "comment_body": "> eles são relutantes em me explicar as coisas direitinho.\n\nHora de trocar de contador",
-                "comment_score": 50,
+                "comment_score": 52,
                 "comment_created_utc": 1761163086.0
             },
             {
@@ -22,7 +44,7 @@
             {
                 "comment_id": "nku72hu",
                 "comment_body": "Vamos lá...\n\nINSS: Pra vc estar pagando esse valor tão alto, devem estar declarando um pró-labore de uns 7k.\n\nSugestão: Faça um Pró-labore de 1 salário mínimo e o restante entra tudo como lucro. Assim vc vai pagar R$ 166 de INSS, que é o mínimo.\n\nIRRF: O valor está normal (em torno de 6%) mas vc poderia pagar menos se o seu contador fosse mais esperto: Quem exporta serviço para o exterior tem isenção de ISS, PIS e COFINS\n\nSugestão: Fale isso pro seu contador e vc consegue diminuir seu imposto pra uns 3%.\n\nContador: Vc consegue pagar uns R$ 120 numa contabilidade online. Mas aí é uma questão pessoal, tem gente que não confia e prefere um escritório. Mas no seu caso eles não estão valendo o valor pago não.",
-                "comment_score": 16,
+                "comment_score": 17,
                 "comment_created_utc": 1761163625.0
             },
             {
@@ -196,7 +218,7 @@
             {
                 "comment_id": "nku6o2c",
                 "comment_body": "🚩🚩🚩",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1761163508.0
             },
             {
@@ -208,7 +230,7 @@
             {
                 "comment_id": "nkuama0",
                 "comment_body": "Eu falei que quero ir lá falar com ela pra entender direito, mas em meio tempo, tem algum motivo para cololar of pró-labore mais alto que um salário mínimo? Porque ela faria isso? Obviamente eu falei pra ela que quero pagar o mínimo de imposto possível e não ligo a minima de me aposentar pelo inss.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1761164645.0
             },
             {
@@ -364,7 +386,7 @@
             {
                 "comment_id": "nkufgsj",
                 "comment_body": "Oxe, eu sou programador e tenho ME, com os CNAEs de programador mesmo. Até onde eu saiba para ME tem todos os CNAEs disponíveis, única coisa que é limitado a um faturamento até 360mil por ano, depois tem que ir para o lucro real/presumido. \n\nO que não pode programador é no MEI",
-                "comment_score": 7,
+                "comment_score": 9,
                 "comment_created_utc": 1761166013.0
             },
             {
@@ -394,7 +416,7 @@
             {
                 "comment_id": "nku8ti1",
                 "comment_body": "Quando fiz a empresa eu era novo no emprego e não tinha bandwidth pra entender isso ao mesmo tempo. Agora que tem alguns meses e as coisas tão calmas é isso que estou fazendo. Realmente é importante.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1761164130.0
             },
             {
@@ -454,7 +476,7 @@
             {
                 "comment_id": "nkunubp",
                 "comment_body": "Se estiver com um cnae do anexo 5 e quer usar o fator R, vem essa questão de 28% no prolabore",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1761168506.0
             },
             {
@@ -500,7 +522,7 @@
             {
                 "comment_id": "n7is6i9",
                 "comment_body": "Para quem quer saber a real, você paga impostos + cerca de 500 reais de contabilidade. A empresa gringa pode te pagar quanto ela quiser, e há zero direitos trabalhistas e benefícios extras. Você pode dar a sorte grande, ou comer o pão que o diabo amassou.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1754615033.0
             },
             {
@@ -610,9 +632,15 @@
                 "comment_created_utc": 1753722493.0
             },
             {
+                "comment_id": "o2gdhn6",
+                "comment_body": "Profissionais que prestam serviço de natureza intelectual em geral enquadram-se no anexo V do Simples Nacional. Nesse anexo (V) a aliquota de impostos sobre o faturamento começa em 15,5%. Porém se o Fator R, a relação (nos últimos 12 meses) entre gastos com folha de pagamento (pró-labore e outros) e faturamento for maior ou igual a 28%, a pessoa jurídica é enquadrada no anexo III do Simples (pagando aliquotas iniciais de 6%).\n\nNa maioria das vezes há economia considerável em impostos, mesmo recolhendo INSS e IR.\n\nPS.: tenho um Saas que faz esse cálculo e acompanhamento do fator R todo mês, otimizando a retirada de pró-labore, pagando o mínimo de imposto que a lei permite.",
+                "comment_score": 1,
+                "comment_created_utc": 1769710657.0
+            },
+            {
                 "comment_id": "n4xtsye",
                 "comment_body": "tem que ser simples... mei nao pode fazer dev\n\n  \npode fechar o topico",
-                "comment_score": -2,
+                "comment_score": -1,
                 "comment_created_utc": 1753379117.0
             },
             {
@@ -672,7 +700,7 @@
             {
                 "comment_id": "n52q5xr",
                 "comment_body": "cara repositor ou qualquer chão de fabrica ganha mais de 2k, porque diabos o cara vai se matar de estudar abrir empresa para ganhar 2k mes?",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1753446718.0
             },
             {
@@ -684,7 +712,7 @@
             {
                 "comment_id": "n52z3bi",
                 "comment_body": "[removed]",
-                "comment_score": -5,
+                "comment_score": -4,
                 "comment_created_utc": 1753449746.0
             },
             {

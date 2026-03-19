@@ -7,6 +7,9 @@ WORKDIR /home/src
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
+# Instala uma versão de Chromium para gerar gráficos na fase de análise de Tópicos
+RUN apt-get update && apt-get install -y chromium
+
 # Baixa o modelo do Spacy para português
 RUN python3 -m spacy download pt_core_news_sm
 

@@ -49,11 +49,11 @@ def analyze_sentiment(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
 
     pipe = load_model()
     
-    texts = data['text_clean'].fillna('').tolist()
+    texts = data['text_clean'].fillna('').astype(str).tolist()
     logging.info(f"Analyzing sentiment of {len(texts)} texts (Batch processing on GPU)...")
 
     try:
-        results = pipe(texts, batch_size=64)
+        results = pipe(texts, batch_size=16)
         
         labels = [r['label'] for r in results]
         scores = [r['score'] for r in results]
@@ -67,10 +67,10 @@ def analyze_sentiment(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             '1 star': 'Negative', '5 stars': 'Positive' 
         }
         
-        if data['sentiment'].iloc[0] in map_labels:
-             data['sentiment'] = data['sentiment'].map(map_labels).fillna(data['sentiment'])
+        data['sentiment'] = data['sentiment'].replace(map_labels)
 
-        cache_path = os.path.join(get_repo_path(), "cache_sentiment.parquet")
+        base_path = get_repo_path() if 'get_repo_path' in globals() else "."
+        cache_path = os.path.join(base_path, "cache_sentiment.parquet")
         data.to_parquet(cache_path)
         logging.info(f"Checkpoint saved at: {cache_path}")
         
