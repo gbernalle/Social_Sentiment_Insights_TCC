@@ -2,18 +2,148 @@ blocks:
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
-  downstream_blocks: []
+  downstream_blocks:
+  - export_desocupacao_ibge
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
   name: get_desocupacao_ibge
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: data_loader
   upstream_blocks: []
   uuid: get_desocupacao_ibge
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: export_desocupacao_ibge
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - get_desocupacao_ibge
+  uuid: export_desocupacao_ibge
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - search_tst_processos
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: get_processos_tst
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: get_processos_tst
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_processos_tst
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: search_tst_processos
+  retry_config: null
+  status: updated
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - get_processos_tst
+  uuid: search_tst_processos
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: export_processos_tst
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - search_tst_processos
+  uuid: export_processos_tst
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_ipca_metrics
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: get_ipca_metrics
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: get_ipca_metrics
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: export_ipca_metrics
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - get_ipca_metrics
+  uuid: export_ipca_metrics
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_divida
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: get_dividas_bc
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: get_dividas_bc
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: export_divida
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - get_dividas_bc
+  uuid: export_divida
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}

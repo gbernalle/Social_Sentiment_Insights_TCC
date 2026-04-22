@@ -4,6 +4,7 @@ import os
 import torch
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.express as px 
 from mage_ai.settings.repo import get_repo_path
 
 try:
@@ -147,51 +148,43 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         df_valid = data[data['category_tcc'] != 'Lixo/Off-Topic']
         total_valid_initial = len(df_valid)
         
+        base_path = get_repo_path() if 'get_repo_path' in globals() else "."
+        
         if total_valid_initial > 0:
             for t in thresholds_to_test:
-                # Pega apenas os textos que passaram neste limite
                 df_aprovados = df_valid[df_valid['category_score'] >= t]
-                
-                # Calcula a % de retenção
                 taxa = (len(df_aprovados) / total_valid_initial) * 100
                 retention_rates.append(taxa)
                 
-                # Calcula a MÉDIA de confiança dos que passaram
                 if len(df_aprovados) > 0:
                     media = df_aprovados['category_score'].mean() * 100
                 else:
                     media = 0
                 average_confidences.append(media)
             
-            # Criando o gráfico de Eixo Duplo
             fig, ax1 = plt.subplots(figsize=(10, 6))
             sns.set_theme(style="whitegrid")
             
-            # Eixo Y Primário (Esquerda) - Taxa de Retenção
             color1 = '#4C72B0'
             ax1.set_xlabel('Nível Mínimo de Confiança (Threshold)', fontsize=12)
             ax1.set_ylabel('Taxa de Retenção de Dados (%)', color=color1, fontsize=12)
             linha1 = ax1.plot(thresholds_to_test, retention_rates, marker='o', linewidth=2.5, color=color1, label='Volume Retido (%)')
             ax1.tick_params(axis='y', labelcolor=color1)
             
-            # Eixo Y Secundário (Direita) - Média de Confiança
             ax2 = ax1.twinx()  
             color2 = '#55A868'
             ax2.set_ylabel('Média de Confiança do Dataset (%)', color=color2, fontsize=12)
             linha2 = ax2.plot(thresholds_to_test, average_confidences, marker='s', linewidth=2.5, color=color2, linestyle='-.', label='Média de Confiança (%)')
             ax2.tick_params(axis='y', labelcolor=color2)
             
-            # Marcando o nosso ponto escolhido (0.55)
             linha_corte = ax1.axvline(x=0.55, color='red', linestyle='--', label='Corte Escolhido (0.55)')
             
-            # Juntando as legendas
             linhas = linha1 + linha2 + [linha_corte]
             labels = [l.get_label() for l in linhas]
             ax1.legend(linhas, labels, loc='center right')
             
             plt.title('Trade-off Metodológico: Volume de Dados vs. Qualidade Média', fontsize=14, pad=15)
             
-            base_path = get_repo_path() if 'get_repo_path' in globals() else "."
             plot_path = os.path.join(base_path, "grafico_sensibilidade_media_tcc.png")
             plt.savefig(plot_path, dpi=300, bbox_inches='tight')
             plt.close() 
@@ -203,29 +196,26 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             plt.figure(figsize=(12, 7))
             sns.set_theme(style="whitegrid")
             
-            # Ordena as categorias da maior para a menor mediana (para o gráfico ficar estético)
             ordem_categorias = df_valid.groupby('category_tcc')['category_score'].median().sort_values(ascending=False).index
             
-            # Gera o Boxplot com df_valid (mostrando os dados antes da exclusão)
             sns.boxplot(
                 data=df_valid, 
                 y='category_tcc', 
                 x='category_score', 
                 order=ordem_categorias,
-                palette="Blues_r", # Um degradê de azul
-                showmeans=True,    # Mostra um ponto indicando a média exata
+                palette="Blues_r",
+                showmeans=True,    
                 meanprops={"marker":"o", "markerfacecolor":"white", "markeredgecolor":"black", "markersize":"6"}
             )
             
-            # Desenha a nossa "Guilhotina" (a linha de corte)
             plt.axvline(x=0.55, color='red', linestyle='--', linewidth=2.5, label='Corte Escolhido (0.55)')
             
             plt.title('Distribuição da Confiança do Modelo Zero-Shot por Categoria', fontsize=15, pad=15)
             plt.xlabel('Score de Confiança (0.0 a 1.0)', fontsize=12)
-            plt.ylabel('', fontsize=12) # Deixa sem título no Y pois as labels já são autoexplicativas
+            plt.ylabel('', fontsize=12) 
             plt.legend(loc='lower right')
             
-            plt.tight_layout() # Garante que os nomes longos das categorias não fiquem cortados
+            plt.tight_layout() 
             
             plot_box_path = os.path.join(base_path, "grafico_distribuicao_categorias_tcc.png")
             plt.savefig(plot_box_path, dpi=300, bbox_inches='tight')
@@ -233,9 +223,9 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             
             logging.info(f"Gráfico de Boxplot salvo com sucesso em: {plot_box_path}")
         else:
-            logging.warning("Não há dados válidos suficientes para gerar o gráfico.")
+            logging.warning("Não há dados válidos suficientes para gerar os gráficos base.")
              
-        THRESHOLD = 0.55 # Limite mínimo de confiança de 55%
+        THRESHOLD = 0.55
         
         logging.info(f"Aplicando filtro de confiança. Limite mínimo aceito: {THRESHOLD * 100}%")
         
@@ -245,17 +235,61 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         descartados_qtd = mask_low_confidence.sum()
         logging.info(f"Registros reprovados por Baixa Confiança (< {THRESHOLD}): {descartados_qtd}")
         
-        # remove baixa confiança
         linhas_iniciais = len(data)
         data = data[~data['category_tcc'].isin(['Lixo/Off-Topic', 'Descartado - Baixa Confiança'])].copy()
         linhas_finais = len(data)
         
         logging.info(f"Limpeza Semântica concluída: de {linhas_iniciais} para {linhas_finais} registros úteis preservados.")
         
+        logging.info("Gerando Gráfico de Radar dos Contextos Booleanos...")
+        
+        colunas_esperadas = [
+            'das_context', 'tax_context', 'pj_context', 
+            'mei_context', 'uberizacao_context', 'precarious_context'
+        ] 
+        colunas_contexto = [col for col in colunas_esperadas if col in data.columns]
+        
+        if len(colunas_contexto) >= 3 and len(data) > 0:
+            frequencia = data[colunas_contexto].mean() * 100
+            
+            nomes_bonitos = {
+                'das_context': 'Guia DAS',
+                'tax_context': 'Impostos/Tributos',
+                'pj_context': 'Pejotização (PJ)',
+                'mei_context': 'MEI',
+                'uberizacao_context': 'Uberização e Apps',
+                'precarious_context': 'Precarização do Trabalho'
+            }
+            labels_radar = [nomes_bonitos.get(c, c) for c in colunas_contexto]
+            
+            df_radar = pd.DataFrame({
+                'Frequencia (%)': frequencia.values,
+                'Contexto': labels_radar
+            })
+            
+            df_radar = pd.concat([df_radar, df_radar.iloc[[0]]], ignore_index=True)
+            
+            fig_radar = px.line_polar(
+                df_radar, 
+                r='Frequencia (%)', 
+                theta='Contexto', 
+                line_close=True,
+                title="Composição da Base de Dados Filtrada (Frequência de Contextos)",
+                template="plotly_white"
+            )
+            
+            fig_radar.update_traces(fill='toself', line_color='#4C72B0') 
+            
+            plot_radar_path = os.path.join(base_path, "radar_contextos_tcc.png")
+            fig_radar.write_image(plot_radar_path, width=1100, height=800, scale=2)
+            logging.info(f"Gráfico de Radar salvo com sucesso em: {plot_radar_path}")
+        else:
+            logging.warning(f"Apenas {len(colunas_contexto)} colunas encontradas. O radar precisa de no mínimo 3 para fechar a teia.")
+        
+        # Limpeza final de colunas
         if 'category_raw' in data.columns:
             data = data.drop(columns=['category_raw'])
 
-        base_path = get_repo_path() if 'get_repo_path' in globals() else "."
         cache_path = os.path.join(base_path, "cache_semantic.parquet")
         data.to_parquet(cache_path)
         logging.info(f"Checkpoint saved at: {cache_path}")
