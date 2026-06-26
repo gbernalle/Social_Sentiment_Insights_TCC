@@ -49,7 +49,7 @@ class Reddit_Connection:
             return False
 
     def get_top_posts_and_comments(
-        self, subreddit_name: str, search_topics: str, limit: int = 1000
+        self, subreddit_name: str, search_topics: str, limit: int = 500
     ) -> list[dict]:
         if not self.reddit:
             logging.error("Unable to retrieve posts. Connection not established.")
@@ -68,7 +68,7 @@ class Reddit_Connection:
                     "comments": [],
                 }
                 try:
-                    post.comments.replace_more(limit=0)
+                    post.comments.replace_more(limit=5)
                 except Exception as e:
                     logging.error(
                         f"Error loading more comments for the post {post.id}: {e}"
@@ -104,7 +104,7 @@ class Reddit_Connection:
             logging.error(f"An error occurred: {e}")
             return False
 
-def scrape_and_save_task(task_params):
+def scrape_and_save_task(task_params) -> dict:
     top, word = task_params
     logging.info(f"[TASK STARTED] - Subreddit: {top}, Word: {word}")
     
@@ -113,40 +113,43 @@ def scrape_and_save_task(task_params):
     thread_client = Reddit_Connection()
     if not thread_client.connect_to_api_reddit():
         logging.error(f"[TASK FAILED] - Connection: {top} / {word}")
-        return f"FAILURE (Connection): {top} / {word}"
+        return {"status": "error", "reason": "connection", "posts_count": 0, "task": f"{top}/{word}"}
         
     try:
         top_posts = thread_client.get_top_posts_and_comments(top, word)
         
         if not top_posts:
             logging.warning(f"[TASK EMPTY] - No posts found for: {top} / {word}")
-            return f"OK (Empty): {top} / {word}"
+            return {"status": "empty", "posts_count": 0, "task": f"{top}/{word}"}
             
         safe_palavra = word.replace(" ", "_")
         filename = f"{top}_{safe_palavra}.json"
         thread_client.save_in_file(top_posts, filename)
         
         logging.info(f"[TASK COMPLETED] - Saved:{filename} ({len(top_posts)} posts)")
-        return f"OK (Saved): {filename}"
+        return {"status": "saved", "posts_count": len(top_posts), "task": f"{top}/{word}"}
         
     except Exception as e:
         logging.error(f"[TASK FAILED] - Error during execution {top} / {word}: {e}")
-        return f"FAILURE (Error): {top} / {word}"
+        return {"status": "error", "reason": str(e), "posts_count": 0, "task": f"{top}/{word}"}
 
 @data_loader #type: ignore
 def load_reddit_data(*args, **kwargs):
+    start_time = time.time()
     
     topics = [
-        "investimentos", "brasil",  "farialimabets", "empreendedorismo", "MicroEmpresas","devBR",
-        "brdev", "Empreendedor", "Liderança", "StartupsAjudaStartups", "Os Fundadores",
-        "crescermeunegócio", "capital de risco", "empreendedor avançado", "produtividade", 
-        "mídias sociais", "MicroEmpresas", "MeuNegocio","antitrampo"
+        "investimentos", "brasil",  "farialimabets", "empreendedorismo", 
+        "MicroEmpresas","devBR", "brdev", "Empreendedor", "Liderança", 
+        "StartupsAjudaStartups", "Os Fundadores", "crescermeunegócio",
+        "capital de risco", "empreendedor avançado", "produtividade", 
+        "mídias sociais", "MeuNegocio","antitrampo"
     ]
 
     keywords = [
-        "ME", "CNPJ", "MEI", "Simples Nacional", "abrir empresa", "imposto MEI", "imposto",
-        "imposto ME", "imposto CNPJ", "DAS", "INSS MEI", "governo+empresa", "IRPF",
-        "Uber", "iFood", "pj", "emprego","Uberização"
+        "ME", "CNPJ", "MEI", "Simples Nacional", "abrir empresa", 
+        "imposto MEI", "imposto", "imposto ME", "imposto CNPJ",
+        "DAS", "INSS MEI", "governo+empresa", "IRPF", "Uber", 
+        "iFood", "pj", "emprego","Uberização"
     ]
 
     check_client = Reddit_Connection()
@@ -158,20 +161,47 @@ def load_reddit_data(*args, **kwargs):
     
     MAX_WORKERS = 3
 
+    metrics = {
+        "expected_files": len(tasks),
+        "files_generated": 0,
+        "empty_results": 0,
+        "errors": 0,
+        "total_posts_extracted": 0
+    }
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         results = list(executor.map(scrape_and_save_task, tasks))
 
-    logging.info("All tasks have been processed.")
+    logging.info("All tasks have been processed. Calculating metrics...")
     
     for r in results:
-        if "FAILURE" in r:
-            logging.error(f"Final result: {r}")
-        else:
-            logging.info(f"Final result: {r}")
+        if r["status"] == "saved":
+            metrics["files_generated"] += 1
+            metrics["total_posts_extracted"] += r["posts_count"]
+        elif r["status"] == "empty":
+            metrics["empty_results"] += 1
+        elif r["status"] == "error":
+            metrics["errors"] += 1
+            logging.error(f"Final error on task {r.get('task')}: {r.get('reason')}")
+            
+    execution_time = round(time.time() - start_time, 2)
+    success_rate = round(((metrics["files_generated"] + metrics["empty_results"]) / metrics["expected_files"]) * 100, 2)
             
     base_path = get_repo_path()
     raw_data_path = os.path.join(base_path, "raw_data_reddit")
 
+    print(f"Total de combinações (Tópicos x Keywords): {metrics['expected_files']}")
+    print(f"Arquivos gerados com sucesso: {metrics['files_generated']}")
+    print(f"Consultas sem resultados (vazias): {metrics['empty_results']}")
+    print(f"Erros encontrados (falha de conexão/API): {metrics['errors']}")
+   
+    print(f"Total de posts extraídos: {metrics['total_posts_extracted']}")
+    print(f"Tempo total de execução: {execution_time} segundos")
+    print(f"Taxa de sucesso nas requisições: {success_rate}%")
+    
     logging.info(f"Dados brutos salvos em: {raw_data_path}")
     
-    return {"raw_data_path": raw_data_path}
+   return {
+        "raw_data_path": raw_data_path,
+        "extraction_metrics": metrics
+    }

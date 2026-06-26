@@ -1,5 +1,93 @@
 [
     {
+        "post_id": "1siwev9",
+        "post_title": "Como funciona a nova Declaração de Conteúdo Eletrônica (DC-e)?",
+        "post_body": "Fui aos Correios nesta última quinta para fazer um envio e o atendente me informou que passaria a ser obrigatória a emissão da nova declaração de conteúdo eletrônica.\n\nPelo que entendi, essa declaração eletrônica tornaria desnecessário imprimir qualquer declaração de conteúdo. Porque ela é registrada eletronicamente e fica associada ao CPF do emissor. Foi uma maneira que a Receita e os Correios arranjaram pra fiscalizarem melhor as vendas de pessoas que não têm ou declaram não ter CNPJ e não pagam os impostos por sua atividade.\n\nAí eu baixei o app que o atendente me orientou a baixar e vi que ele é bem simples. Serve tanto para emitir quanto para validar uma DC-e. A validação acontece pela leitura do QR que as declarações eletrônicas têm.\n\nAs minhas dúvidas são as seguintes:\n\nEu ainda preciso imprimir a declaração de conteúdo, agora sendo nesse novo modelo?\n\nNo caso de venda por marketplace, o site emite uma DACE, que é um documento auxiliar, como uma DC-e resumida. Eu preciso validar esse documento com o app? E eu preciso imprimir alguma coisa, seja a DACE ou a DC-e após a validação, para enviar com o pacote, seja qual for o método de envio? Pergunto isso porque acabei de fazer a venda de um livro pelo Olx e o envio será feito pela Jadlog.\n\nDesde já, agradeço qualquer esclarecimento.",
+        "post_url": "https://www.reddit.com/r/brasil/comments/1siwev9/como_funciona_a_nova_declaração_de_conteúdo/",
+        "is_self_post": true,
+        "post_created_utc": 1775945208.0,
+        "comments": [
+            {
+                "comment_id": "ofnpgs6",
+                "comment_body": "\\> Eu ainda preciso imprimir a declaração de conteúdo, agora sendo nesse novo modelo?  \n\\> E eu preciso imprimir alguma coisa, seja a DACE ou a DC-e após a validação, para enviar com o pacote, seja qual for o método de envio?\n\nSó precisa imprimir a DACE Resumida e cola-la no pacote.\n\n",
+                "comment_score": 5,
+                "comment_created_utc": 1775950220.0
+            },
+            {
+                "comment_id": "ofo1y79",
+                "comment_body": "Aproveitando o tópico, alguém sabe se na pré-postagem pelo app dos correios, a declaração que a gente preenche tem a mesma validade da DC-e?",
+                "comment_score": 2,
+                "comment_created_utc": 1775954630.0
+            },
+            {
+                "comment_id": "okqb7ng",
+                "comment_body": "Uma atualização: a pré postagem dos Correios, apesar de não dar para pagar por lá, resolve tudo isso, inclusivo gerando DC-e. No final, ele solta  um código / QR Code que, levando à Agência, eles conseguem imprimir a etiqueta com o endereço do destinatário e a DACE.\n\nVale a pena fazer cotação de envio de itens por lá e por outras plataformas integradoras, pois rotas menos usadas podem sair mais em conta.\n",
+                "comment_score": 1,
+                "comment_created_utc": 1778282057.0
+            },
+            {
+                "comment_id": "ofnui8s",
+                "comment_body": "Entendi. E aí o ideal é que esteja com o qr code aparente, né?",
+                "comment_score": 2,
+                "comment_created_utc": 1775951956.0
+            },
+            {
+                "comment_id": "ofo4czg",
+                "comment_body": "Pelo que o atendente dos Correios me falou, não mais. A partir de agora, só vale a DC-e. Você tem que baixar o app, logar com uma conta gov.br e emitir uma \n\nSeria bom se eles conseguissem integrar no sistema de pré postagem a emissão de DC-e. Mas já me surpreende você conseguir fazer pré postagem, porque eu nunca mais consegui.",
+                "comment_score": 2,
+                "comment_created_utc": 1775955501.0
+            },
+            {
+                "comment_id": "ofo9n1f",
+                "comment_body": "Sim, se nao me engane tem um QR Code e um código de barras. Deixe os dois aparentes.",
+                "comment_score": 5,
+                "comment_created_utc": 1775957405.0
+            },
+            {
+                "comment_id": "ofoc600",
+                "comment_body": "Eu perdi a paciência com o sistemas dos Correios e uso integradora de despache antônima de PiorRecebimento. Lá eles geram a etiqueta de despache, DC-e (se for o caso) e documentos auxiliares.",
+                "comment_score": 3,
+                "comment_created_utc": 1775958331.0
+            },
+            {
+                "comment_id": "ofoaml8",
+                "comment_body": "Na DACE só tem o QR code.\n\nNa DC-e o código de barras fica no topo da página e o QR code fica no final.",
+                "comment_score": 2,
+                "comment_created_utc": 1775957765.0
+            },
+            {
+                "comment_id": "ofoe4b4",
+                "comment_body": ">integradora de despache antônima de PiorRecebimento\n\nVocê fez isso pra não fazer propaganda? hahaha\n\nMas você trabalha com vendas? Porque eu não, então imagino que não faça muito sentido pra mim, já que eu só faço envios esporádicos.\n\nEdit: criei um cadastro lá pra ver como funciona e talvez seja vantajoso pra mim, pela facilidade da emissão da DC-e e porque eu talvez consiga ganhar uns reaisinhos de desconto em cada envio. Só que eu não vou conseguir usufruir das transportadoras que eles oferecem, com prazos e preços melhores, porque vi que a oferta de pontos de coleta da minha vizinhança, tanto do próprio site quanto das transportadoras, é horrível. Todos são meio longe, e o do próprio site, que é o mais próximo, tem uma localização bem complicada. Então faria envio pelos Correios mesmo.",
+                "comment_score": 2,
+                "comment_created_utc": 1775959052.0
+            },
+            {
+                "comment_id": "ofobx1i",
+                "comment_body": "Ah beleza. Achei uma etiqueta DACE Resumida por aqui que tem os dois mas ambos levam a mesma coisa... o código de barras tem a chave de acesso do DC-e e o QR code leva a uma URL para o DC-e, referenciando a chave anterior.",
+                "comment_score": 1,
+                "comment_created_utc": 1775958239.0
+            },
+            {
+                "comment_id": "ofreu1u",
+                "comment_body": "\\> Você fez isso pra não fazer propaganda?\n\nÉ pra não me comprometer. Eu também só faço esporádicos e as plataformas me atendem.",
+                "comment_score": 2,
+                "comment_created_utc": 1776005368.0
+            },
+            {
+                "comment_id": "ofoe66f",
+                "comment_body": "Ah tá. De qualquer forma, muito obrigado pela ajuda!",
+                "comment_score": 1,
+                "comment_created_utc": 1775959071.0
+            },
+            {
+                "comment_id": "oft3r4g",
+                "comment_body": "Ah, entendi. \n\nNovamente, muito obrigado pela ajuda!",
+                "comment_score": 2,
+                "comment_created_utc": 1776022321.0
+            }
+        ]
+    },
+    {
         "post_id": "1qttoah",
         "post_title": "É muito difícil ser empresário 100% correto no Brasil",
         "post_body": "Recentemente vim trabalhar com o meu pai, ele é marceneiro. Abri CNPJ, comecei a pagar imposto (declaro 50% do faturamento) aqui temos 1 funcionário. Meu próximo passo é registrar esse funcionário, ele trabalha há mais de 1 ano na diária. Porém os meus gastos com ele irá aumentar em até 70% ao virar CLT.\n\nÉ muito imposto! Eu mesmo não tenho salário formal, pegou um valor X semanal, mas nada registrado, pq se não seria ainda mais imposto. \n\nÉ desanimador, sou contrariado em não fazer tudo exatamente como está previsto na lei, mas se eu fizer isso, quebramos em poucos meses. \n\nAah, meu pai é marceneiro há mais de 20 anos, porém até antes de eu chegar ele não sabia fazer um Pix! Agora temos fluxo de caixa, orçamentos bem montados, melhorei o que pude para o nosso funcionário (13°, uniforme completo, kit higiênico), reformamos o galpão e agora temos água encanada, banheiro, também refiz a parte elétrica e comprei um carro para carregar móveis.\n\nO foda é quando vejo outras marcenarias top de linha, ambiente bem construído, máquinas boas, marketing bom, funcionário registrado. Fico receoso de não chegar lá.",
@@ -10,43 +98,43 @@
             {
                 "comment_id": "o358axj",
                 "comment_body": "Pequenos empreendimentos como o seu pagam uma quantidade abusiva de impostos, enquanto as grandes empresas pagam, relativo ao faturamento, pouquissimo",
-                "comment_score": 1587,
+                "comment_score": 1588,
                 "comment_created_utc": 1770035584.0
             },
             {
                 "comment_id": "o358hvl",
                 "comment_body": "Eu moro no interior, a maioria dos negócios aqui não gera renda o suficiente pra pagar uma CLT, então a maioria dos empregos são fora da CLT. Se um dia tiver uma fiscalização braba nos interiores do Brasil, as cidades tudo morre. \n\nPra ter noção você é considerado uma pessoa muito acima das demais só por que trabalha em um lugar com carteira assinada, é papo das mulheres te olharem diferente por trabalhar no Atacadão kkkkkkk",
-                "comment_score": 404,
+                "comment_score": 403,
                 "comment_created_utc": 1770035667.0
             },
             {
                 "comment_id": "o35argd",
                 "comment_body": "Sim, é. Eu tecnicamente não sou empresário, sou PJotizado. Recentemente desenquadrei do MEI (por coisa de 250 reais, mas desenquadrei). Todo mês eu pago uma NOTA de imposto e taxa pra pessoa que faz minha contabilidade. Empresas que faturam até 10 vezes mais que eu, pagam (proporcionalmente) menos que eu. Só porque eu queria ganhar melhor.",
-                "comment_score": 78,
+                "comment_score": 81,
                 "comment_created_utc": 1770036600.0
             },
             {
                 "comment_id": "o358kte",
                 "comment_body": "Deixe-me fazer um pequeno ajuste: \"É muito difícil ser micro-empresário no Brasil\"\n\nÉ um paraíso para médias e grandes empresas, no entanto. \n\nUm ajuste ainda mais fino seria \"é difícil ser da classe trabalhadora no Brasil\", porque no final, microempreendedor é um CLT sem a parte da segurança social.",
-                "comment_score": 357,
+                "comment_score": 358,
                 "comment_created_utc": 1770035701.0
             },
             {
                 "comment_id": "o35884z",
                 "comment_body": "[deleted]",
-                "comment_score": 228,
+                "comment_score": 229,
                 "comment_created_utc": 1770035550.0
             },
             {
                 "comment_id": "o358rdk",
                 "comment_body": "Se tem só um funcionário abre um mei talvez, ou um pra você e um pro seu pai \n\nGeralmente encargos CLT dá uns 40% sobre salário, não 70%.\n\nVocê tem como registrar seu pró labore até uns 3 mil por mês sem pagar imposto de renda (uma parte é isenta e a outra você pode pegar de volta na restituição), mas INSS vai pagar então talvez pode registrar pro labore de um salário mínimo apenas. E isso é bom pq garante aposentadoria pra vocês, pensão por morte, benefício em caso de doença ou acidente… \n\nSe for MEI não terá imposto nenhum pra registrar faturamento e ficará tudo dentro da lei.\n\nSe passar do limite mei, aí sim na prática pode ter vantagem em não declarar tudo mas conforme crescer a empresa vale a pena fazer tudo certinho pq o imposto pode ser entre 5 e 10% se fizer o enquadramento certo da sua PJ, não é tanto depois que crescer a empresa.\n\nPorém, concordo 100% com você que a impressão que fica é que quem quer fazer tudo correto só se fode e fica pra trás com a concorrência desleal. Boa sorte, você tá no caminho certo tentando fazer o correto pra empresa, você, seu pai, funcionário, todos…",
-                "comment_score": 113,
+                "comment_score": 114,
                 "comment_created_utc": 1770035779.0
             },
             {
                 "comment_id": "o35b3j9",
                 "comment_body": "Cara, tbm sou marceneiro e a realidade é essa mesmo. Estamos na mesma situação, já tentamos assinar as carteiras dos únicos dois funcionários que Temos, só que não deu certo nem pra nós e nem pra eles, nós estávamos pagando quase 3200 por funcionário ( incluindo o gasto com contador) e a Empresa tava pra quebrar, isso tbm decorre do material que tá muito caro e acaba diminuindo a quantidade de serviços fechados. Hoje tbm estamos na diária e conseguimos Pagar um bom salário com o diária de 150, mas o foda é o medo quando o cara sair",
-                "comment_score": 18,
+                "comment_score": 21,
                 "comment_created_utc": 1770036734.0
             },
             {
@@ -58,25 +146,25 @@
             {
                 "comment_id": "o359869",
                 "comment_body": "Marcenaria pode ser MEI, não?\n\nOu o faturamento extrapola o limite?\n\nSe vocês tiram na ordem de 50 mil por mês, é bom investir numa consultoria com contador.",
-                "comment_score": 18,
+                "comment_score": 19,
                 "comment_created_utc": 1770035972.0
             },
             {
                 "comment_id": "o35byta",
                 "comment_body": "Sim. Precisam olhar para a classe média que quer empreender com maior cuidado.\nMaior parte dos empresários são tb da classe trabalhadora. Pouquíssimas empresas são as de grande faturamento",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1770037077.0
             },
             {
                 "comment_id": "o3580i2",
                 "comment_body": "é muito difícil ser qualquer coisa 100% correto no Brasil, os caras pensam que ta fácil pra todo mundo, sistema (da elite) bom é aquele que só deixa 0,1% da pop. crescer e o sistema ta bom pra cacete...",
-                "comment_score": 15,
+                "comment_score": 14,
                 "comment_created_utc": 1770035459.0
             },
             {
                 "comment_id": "o35bdir",
                 "comment_body": "Grande parte do problema é estrutural, de uma política econômica que privilegia quem já concentra capital e poder produtivo, enquanto transfere o peso do sistema para a classe trabalhadora e para o pequeno produtor. Isso não é desvio, é consequência direta de um modelo econômico sustentado por uma democracia representativa capturada, cuja função principal deixou de ser mediação social e passou a ser a manutenção das condições de reprodução do próprio capitalismo.\n\nEsse sistema se sustenta por uma ficção conveniente, de que trabalhadores, pequenos empresários e grandes conglomerados são “iguais” diante do mercado e da lei. Essa igualdade formal serve para mascarar desigualdades materiais brutais. Fazer o marceneiro de bairro acreditar que seus interesses coincidem com os do dono da Todeschini, como se políticas que aliviam grandes grupos inevitavelmente o beneficiassem também. Na prática, ocorre o oposto: quem tem escala terceiriza custos, precariza vínculos, dilui impostos e influencia diretamente a formulação das regras. Quem não tem, paga proporcionalmente mais, enfrenta mais risco e opera no limite da sobrevivência.\n\nO resultado é um circuito fechado bem conhecido: poder econômico molda a política, a política molda a legislação, e a legislação reforça o poder econômico. Não é preciso um plano secreto para que isso funcione -- basta a lógica do sistema operando sem contrapontos reais.\n\nLeis \"neutras\", exigências burocráticas e padrões regulatórios que parecem razoáveis no papel tornam-se mecanismos de exclusão quando aplicados a negócios sem escala.\n\nO fracasso das marcenarias de bairro não é acidente nem simples incompetência individual. É uma tendência estrutural. Ou o pequeno negócio é comprado, absorvido ou sufocado até desaparecer. O destino provável é a concentração em poucos grandes grupos dominando cadeias inteiras -- Leo Madeiras, Todeschini, setores industriais de grandes varejistas tipo a Leroy Merlin -- enquanto o espaço para produção independente vai sendo progressivamente fechado.\n\nSem mudanças estruturais reais, o pequeno produtor não concorre, ele só resiste até onde dá, e quando cai, não é por falha moral ou falta de esforço, falta de projeto ou outra coisa assim, é porque o jogo foi desenhado para que poucos vençam e muitos sejam descartáveis.\n\nNo mais, vindo de um hobbista do mundo da madeira maciça, desejo a maior sorte do mundo pra vocês!",
-                "comment_score": 13,
+                "comment_score": 12,
                 "comment_created_utc": 1770036844.0
             },
             {
@@ -88,49 +176,49 @@
             {
                 "comment_id": "o370vg7",
                 "comment_body": "Post muito emocional, mas vamos aos fatos:\n\n\nSimples nacional tem alíquota de 4,5% para faturamento até 180 mil ao ano.\n\n\nISS, digamos, na cidade de São Paulo, pode chegar a 5%.\n\n\nSão 17,1 mil de imposto por ano, sobrariam162.900 por ano.\n\n\nCLT, não é que vc pagaria mais, é que vc está deixando de pagar os direitos do seu funcionário. Ele trabalha e vc não paga.\n\n\nEssa semana, e estamos na segunda feira, já vi uns 3 posts diferentes de uma galera falando sobre imposto. Parece organizado, parece post comprado.\n\n\nO ano eleitoral no Reddit começou, galera! Fiquem espertos aí.",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1770055335.0
             },
             {
                 "comment_id": "o35b8r8",
                 "comment_body": "sou pequeno empresário e realmente é difícil, mas é 100% possível\n\nfazemos tudo o que a lei prevê e pagamos todos os impostos que precisamos. pra isso, pensamos nos preços dos nossos produtos já calculando o imposto que pagaremos, então o imposto já tá previsto desde o começo da operação\n\numa dica que eu tenho pra te dar, pra tu continuar querendo pagar imposto e fazendo o certo, é: contrata um contador bom, um contador interessado e que realmente tá ali pra te ajudar\n\ngastamos 600 reais por mês com contador, mas é um cara que entende MUITO dentro do meu nicho e sempre faz a gente economizar uma boa grana\n\na grande indústria faz um malabarismo incrível para encaixar seus produtos dentro de categorias que pagam bem menos impostos que outras (bombom não existe mais e os sorvetes agora são só sobremesas), você com a ajuda de um bom contador pode fazer o mesmo - sem comprometer a qualidade do seu serviço, diferente do que a grande indústria faz\n\nboa sorte, companheiro!",
-                "comment_score": 16,
+                "comment_score": 18,
                 "comment_created_utc": 1770036792.0
             },
             {
                 "comment_id": "o35gwax",
                 "comment_body": "Estou na mesma situação em uma lanchonete de bairro da minha familia. A gente é MEI, mas vou ter que ir atrás pra fazer a transição pra ME, não sei como a gente vai se manter, sendo bem sincero, já vivemos no limite da % de lucro. O faturamento é considerado alto para MEI, mas ninguém ve o lucro, isso que eu acho injusto. Parece que o estado quer que vc se mantenha pequeno, sem crescer, vc é punido por está faturando mais. A quantidade de imposto que vamos ter que pagar a mais quando for pra ME é ridicula, nossa margem de lucro já é pequena e se aumentar perdemos pros concorrentes(pq provavelmente não estão fazendo as coisas da forma correta e nem impostos tão pagando). Vc ser certo no Brasil é ser punido. O limite do MEI anual é ridiculamente baixa, o dinheiro desvalorizou demais com o tempo, é preciso um reajuste com urgência.",
-                "comment_score": 11,
+                "comment_score": 9,
                 "comment_created_utc": 1770038906.0
             },
             {
                 "comment_id": "o35hsbn",
                 "comment_body": "Eu tenho uma pequena empresa com cinco funcionários. Pagamos tudo direitinho, declaramos 100% da receita, temos parte dos funcionários CLT e parte como PJ mas com tudo feito direitinho e considerando férias etc mesmo pra quem é PJ.\n\nUm ponto positivo disso é que a gente consegue crédito com uma certa facilidade. Tudo bem que juros no Brasil são altos e tal, mas só de ter acesso é muito bom. E também tem outro ponto: empresa organizada é mais difícil ser vítima de fraude por parte de funcionários, por exemplo. Empresa que esconde receita acaba deixando furos de controle que podem ocultar do próprio dono uma série de problemas como ineficiência, perdas ou até fraude e desvios. Então são coisas pra ponderar.\n\nOutro ponto é que clientes mais estruturados sempre vão querer ser atendidos por uma empresa que da nota fiscal. E isso é tão raro que quando a gente explica pra uma multinacional que a gente faz tudo certinho, eles até olham com incredulidade 😄\n\nTudo isso colocado, importante olhar detalhes dos regimes fiscais. Por exemplo, a diferença de custo de um funcionário CLT no simples não vai dar 70%, vai dar muito menos! Um bom contador pode te orientar nisso.\n\nNo mais parabéns e boa sorte. Depois que vc superar esses primeiros passos, vc verá que a coisa vai andar muito melhor.",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1770039218.0
             },
             {
                 "comment_id": "o365soe",
                 "comment_body": "Cara já trabalhei na área contábil, e o que eu mais ouvia eram relatos como o teu. Passava até semanas fazendo simulação para empresários e na maioria dos casos, era custo de produção alto e/ou margem de lucro baixa. Eu sei que ninguém quer abrir negócio para não ganhar dinheiro, mas isso deve ser estudado mais do que simplesmente imposto. As vezes por concorrência local, esses empresários vivem com margem bem mais baixa do que ideal, ai um simples aumento no insumo já dá problema lá no final.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1770046749.0
             },
             {
                 "comment_id": "o35bj1o",
                 "comment_body": "Essa é a porta de entrada que protege os grandes. Esse papo de \"liberal gosta de concorrência\" é pura balela, o grande empresariado AMA o monopólio e contam com ajuda do papai Estado pra tudo.\n\nContinue insistindo, OP. Você tá no caminho certo.",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1770036904.0
             },
             {
                 "comment_id": "o358o7p",
                 "comment_body": "É muito difícil, mas não é impossível.\n\nContinue o bom trabalho de modernização.",
-                "comment_score": 5,
+                "comment_score": 2,
                 "comment_created_utc": 1770035742.0
             },
             {
                 "comment_id": "o35dlfl",
                 "comment_body": "A glr nos comentários tem um desconhecimento brabo\n\nA tributação nn afeta uniformemente as empresas conforme o volume de faturamento, tanto q tem MTA empresa mto grande q se fode por causa de tributo (sei pq trabalho com isso)\n\nNa realidade, a tributação brasileira penaliza quem emprega e quem tem margem de lucro pequena\n\nMtas contribuições são calculadas conforme a folha ou o faturamento, ent tem um impacto desproporcional sobre as empresas cuja despesa envolve MTA mão de obra ou são de ramos onde a lucratividade é naturalmente mais baixa\n\nPor outro lado, empreendimentos nos quais a mão de obra é uma parcela menor das despesas sofrem bem menos com as msms contribuições \n\nEssa injustiça tributária existe independentemente do tamanho da empresaa",
-                "comment_score": 11,
+                "comment_score": 13,
                 "comment_created_utc": 1770037706.0
             },
             {
@@ -148,13 +236,13 @@
             {
                 "comment_id": "o35pn8u",
                 "comment_body": "cara, me desculpa a sinceridade, mas o problema não são os impostos e sim a falta de informação \n\ntodos os custos e problemas que você listou são sabidos de antemão, é impossível gerir um negócio de qualquer tamanho sem fluxo de caixa\n\nque bom que você pode ajudar ele agora",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1770041835.0
             },
             {
                 "comment_id": "o358fs5",
                 "comment_body": "Mei pode ter um funcionário registrado e o custo em impostos é bem menor daí. Se tu não for Mei, aí já não sei.",
-                "comment_score": 7,
+                "comment_score": 10,
                 "comment_created_utc": 1770035642.0
             },
             {
@@ -184,7 +272,7 @@
             {
                 "comment_id": "o35czyg",
                 "comment_body": "Cara, não dê um passo maior que a perna...\n\nSe seu funcionário, há 1 ano na diária, entrar na justiça, tua empresa vai quebrar.",
-                "comment_score": 6,
+                "comment_score": 3,
                 "comment_created_utc": 1770037478.0
             },
             {
@@ -196,19 +284,19 @@
             {
                 "comment_id": "o35cio2",
                 "comment_body": "Nessas horas eu sempre lembro de uma frase, o estado brasileiro funciona perfeitamente, ele é altamente eficiente e otimizado. Só não é pra VOCÊ.",
-                "comment_score": 6,
+                "comment_score": 3,
                 "comment_created_utc": 1770037292.0
             },
             {
                 "comment_id": "o35e90l",
                 "comment_body": "É dificil ser pobre em qualquer empreitada no brasil. Pro mega empresario é gozolandia. E só tende a melhorar.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1770037951.0
             },
             {
                 "comment_id": "o35fbcr",
                 "comment_body": "A carga tributária está em cima do pequeno empresário e a classe trabalhadora",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1770038341.0
             },
             {
@@ -216,12 +304,6 @@
                 "comment_body": "E ainda tem os juros absurdos que impedem que o pequeno empresário consiga crédito.",
                 "comment_score": 2,
                 "comment_created_utc": 1770036376.0
-            },
-            {
-                "comment_id": "o35f9ut",
-                "comment_body": "Pelo seu relato, aparenta estar formalizando mais do que o empreendimento suporta. E não me refiro às garantias trabalhistas. A própria contratação de funcionário pode não ser o ideal para o seu caso. Note que você precisou adaptar toda sua estrutura, desde reformas à utensílios e material de proteção, para ter apenas uma única mão de obra no negócio do seu pai?\n\nDemanda tanto assim de mais uma mão de obra no serviço?",
-                "comment_score": 2,
-                "comment_created_utc": 1770038327.0
             },
             {
                 "comment_id": "o35g14s",
@@ -322,7 +404,7 @@
             {
                 "comment_id": "o358f9g",
                 "comment_body": "Ao invés de registrar em carteira, faça um contrato de PJ para que ele também possa, de forma correta, buscar os direitos dele.",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1770035636.0
             },
             {
@@ -340,25 +422,19 @@
             {
                 "comment_id": "o358kre",
                 "comment_body": "Meio que a reposta tu ja deu. se tu n tem como pagar o funcionario corretamente, nào é pra ter funcionario. o problema n é imposto. o problema é que teu negocio não é sustentavel.\n\ne antes que diga que o negocio ta assim pelo imposto, não.  \nele ta assim porque mesmo sem saber. tu ta competindo com uma caralha de empresa de imovel com muito mais dinheiro no caixa, que trabalha pra fazer cada dia mais merda pra quem tenta ter negocio proprio.\n\nBoa sorte. espero que teu funcionario consiga uma trabalho digno um dia.",
-                "comment_score": 12,
+                "comment_score": 14,
                 "comment_created_utc": 1770035701.0
             },
             {
                 "comment_id": "o35a5k0",
                 "comment_body": "Tu precise de um bom contador que te ajude com isso.  as vezes seguir a rota do CLT pro funcionario não é sustentavel. \n\nSei disso pq contrato 1 pessoa hoje para ajudar com meu trabalho tb e fiz via PJ. o negocio e basta ter um bom contrato PJ e seguir as normas do PJ.",
-                "comment_score": 3,
-                "comment_created_utc": 1770036353.0
-            },
-            {
-                "comment_id": "o35dpql",
-                "comment_body": "Que imposto, amigo? Você quis dizer \"direitos dos trabalhador\", como FGTS, 13o, Férias? Aí não é imposto, é o mínimo de dignidade.",
                 "comment_score": 2,
-                "comment_created_utc": 1770037751.0
+                "comment_created_utc": 1770036353.0
             },
             {
                 "comment_id": "o35ogoq",
                 "comment_body": "Se seu negócio não pode pagar um funcionário, não tenha um funcionário. \n\nGalera fala de \"imposto\", como se quase todo esse encargo não voltasse pro funcionário. É o FGTS, vale transporte, férias, 13°....",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1770041449.0
             },
             {
@@ -400,7 +476,7 @@
             {
                 "comment_id": "o35dj1f",
                 "comment_body": "Sem contar que essas máquinas estão inadequadas.\nSe bater perito olhando isso, solicitando apreciação de risco e painel conforme nR 10. Nao só, vocês fecham, como vão presos.\n\n\nInclusive, qual é o CEP mesmo ?",
-                "comment_score": 3,
+                "comment_score": 0,
                 "comment_created_utc": 1770037681.0
             },
             {
@@ -850,13 +926,13 @@
             {
                 "comment_id": "o35pcae",
                 "comment_body": "[removed]",
-                "comment_score": 0,
+                "comment_score": 2,
                 "comment_created_utc": 1770041736.0
             },
             {
                 "comment_id": "o35ce6l",
                 "comment_body": "Essa é a realidade do pequeno empresário, é praticamente impossível seguir 100% da lei. Não se sinta mal por isso, continue trabalhando e fazendo o máximo que puder certo (ninguém quer chamar a atenção do governo).",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1770037244.0
             },
             {
@@ -1054,19 +1130,19 @@
             {
                 "comment_id": "o35az86",
                 "comment_body": "E muitas nem pagam e deixam virar dívida",
-                "comment_score": 475,
+                "comment_score": 474,
                 "comment_created_utc": 1770036686.0
             },
             {
                 "comment_id": "o35b87x",
                 "comment_body": "Comentário perfeito. O pequeno empresário é penalizado e o grande empresário é beneficiado.\n\nÉ como se o primeiro colocado de Mario Kart ganhasse os melhores itens para atrasar os demais.",
-                "comment_score": 372,
+                "comment_score": 369,
                 "comment_created_utc": 1770036786.0
             },
             {
                 "comment_id": "o35gajk",
                 "comment_body": "This\n\n\n\nTo na mesma situação que o op, também declaro uns 60%, sinceramente é mais os clientes que pedem NF mesmo\n\n\n\n\n\n\n\n\nNão sou contra imposto, sou contra o imposto abusivo a pequenos negócios enquanto grandes corporações ganham dinheiro do governo, \n\n\n\n\n\n\nfoda que no momento que vc fala que é empresária e sonega imposto vão te colocar no mesmo saco da extrema direita",
-                "comment_score": 156,
+                "comment_score": 157,
                 "comment_created_utc": 1770038693.0
             },
             {
@@ -1090,19 +1166,19 @@
             {
                 "comment_id": "o3681p8",
                 "comment_body": "Exato, povo brasileiro é feito de palhaço pelas multinacionais, é uma mistura de falta de investimento, que acaba com a concorrência interna em muito setores e ignorância produzida intencionalmente por um bando de político neo-liberal safado que faz lobby disfarçado de \"preocupação com a saude da economia\".\n\nEmpurram um monte de papo na população pra safar as multinacionais que exploram o pais e falam que não podem fazer nada porque se não \"elas vão sair do pais\", simplesmente ignoram que o governo tambem tem cartas na mesa quando se trata de negociar com multinacionais e uma das maiores delas é justamente o mercado consumidor, uma multinacional não vai simplesmente encerrar comércio dentro de um país inteiro por qualquer besteira, tem que ser algo mt extremo, o pessoal esquece que somos a 7ª maior população do mundo, não é um mercado consumidor que simplesmente se exclui da planilha e pronto.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1770047381.0
             },
             {
                 "comment_id": "o35n17j",
                 "comment_body": "E as pessoas aceitando ou não, isso define categoricamente o capitalismo.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1770040980.0
             },
             {
                 "comment_id": "o35jvu0",
                 "comment_body": "É o modus operandi do governo, extorsão dos pobres e passar a mão na cabeça dos ricos",
-                "comment_score": 15,
+                "comment_score": 13,
                 "comment_created_utc": 1770039932.0
             },
             {
@@ -1150,13 +1226,13 @@
             {
                 "comment_id": "o35mjtq",
                 "comment_body": "Não necessariamente. O pilantra do post só declara 50% da renda pra sonegar imposto.\n\nAposto que o docinho de coco especial que não pode pagar imposto reclama da \"roubalheira de Brasília\" sendo que ele mesmo tá usurpando dinheiro público quando sonega",
-                "comment_score": -11,
+                "comment_score": -10,
                 "comment_created_utc": 1770040818.0
             },
             {
                 "comment_id": "o35940n",
                 "comment_body": "Papo kk, moro numa cidade com 7k de habitantes e carteira assinada aqui é ouro. Já vi mulher que trabalha de atendente 6x1 receber só 800 reais por mês, isso a menos de 2 anos atrás.",
-                "comment_score": 136,
+                "comment_score": 141,
                 "comment_created_utc": 1770035925.0
             },
             {
@@ -1168,7 +1244,7 @@
             {
                 "comment_id": "o35c8mr",
                 "comment_body": "Kkkk",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1770037183.0
             },
             {
@@ -1186,19 +1262,19 @@
             {
                 "comment_id": "o35mf9g",
                 "comment_body": "Passou de 6k pra 7k por mês e deixou na mesa 1k de imposto + 450 da contabilidade né?\nSei como é, e no meu caso teve 20k de imposto retroativo pra pagar ainda, vermes",
-                "comment_score": 38,
+                "comment_score": 37,
                 "comment_created_utc": 1770040777.0
             },
             {
                 "comment_id": "o35d5vr",
                 "comment_body": "Não entendi. Você tem uma empresa sem ser MEI, mas trabalha exclusivamente para uma empresa?",
-                "comment_score": 10,
+                "comment_score": 8,
                 "comment_created_utc": 1770037541.0
             },
             {
                 "comment_id": "o35rmpz",
                 "comment_body": "Mas calma, desenquadrou do MEI mas virou ME no simples nacional né? \nO ideal é que voce vai pagar 6% em cima da nota, mais uns 3% de inss (que voce ja deveria estar pagando como MEI de qualquer modo) e a contabilidade, que se foi esperto pegou uma digital e ta pagando 100 conto por mes. É isso que voce fez, certo??",
-                "comment_score": 7,
+                "comment_score": 10,
                 "comment_created_utc": 1770042471.0
             },
             {
@@ -1210,19 +1286,19 @@
             {
                 "comment_id": "o35fhmq",
                 "comment_body": "Esse é o problema, micro e pequenos empresários se enxergam como \"grandes empresários que ainda não chegaram lá\" e atuam ativamente fazendo propaganda das pautas dos grandes empresários.",
-                "comment_score": 82,
+                "comment_score": 81,
                 "comment_created_utc": 1770038404.0
             },
             {
                 "comment_id": "o35dn8j",
                 "comment_body": "Perfeito comentário.",
-                "comment_score": 31,
+                "comment_score": 32,
                 "comment_created_utc": 1770037725.0
             },
             {
                 "comment_id": "o35w8ko",
                 "comment_body": "eu diria que é um paraíso para GRANDES empresas. minha mãe é contadora e às vezes vejo o quão absurda e desesperadora é a carga tributária de empresas médias que tentam ser certinhas. só a elite da elite se dá bem nesse país. se o empresário médio comete alguma cagada fiscal, noutro dia já está o leão da receita na porta dele.",
-                "comment_score": 10,
+                "comment_score": 12,
                 "comment_created_utc": 1770043917.0
             },
             {
@@ -1240,25 +1316,25 @@
             {
                 "comment_id": "o35abfg",
                 "comment_body": "Jesus era carpinteiro, ta ai uma ideia pro OP",
-                "comment_score": 81,
+                "comment_score": 79,
                 "comment_created_utc": 1770036419.0
             },
             {
                 "comment_id": "o35cce4",
                 "comment_body": "Obrigado. Minha meta é ganhar muita grana, mas pagar bem meus funcionários, tendo em vista que eu já fui CLT",
-                "comment_score": 37,
+                "comment_score": 40,
                 "comment_created_utc": 1770037225.0
             },
             {
                 "comment_id": "o35c685",
                 "comment_body": "Obrigado. Não posso ser MEI, o faturamento mensal fica entre 20 e 30 mil. E até onde vi, mesmo que eu declare somente o teto do MEI pode ser problemático, pois é mais fácil para a receita federal encontrar um MEI com faturamento incompatível com as transações bancárias do que alga empresa no simples nacional",
-                "comment_score": 24,
+                "comment_score": 23,
                 "comment_created_utc": 1770037157.0
             },
             {
                 "comment_id": "o35iwg4",
                 "comment_body": "Melhor comentário, deveria estar mais acima",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1770039600.0
             },
             {
@@ -1270,25 +1346,25 @@
             {
                 "comment_id": "o35dab1",
                 "comment_body": "Esse é o meu medo. Basta azedar o clima que ele pode nos processar e aí não tem discussão, estamos errados",
-                "comment_score": 15,
+                "comment_score": 17,
                 "comment_created_utc": 1770037587.0
             },
             {
                 "comment_id": "o361ycx",
                 "comment_body": "[removed]",
-                "comment_score": 10,
+                "comment_score": 8,
                 "comment_created_utc": 1770045638.0
             },
             {
                 "comment_id": "o36112j",
                 "comment_body": "Seria mais correto nos comparar com outros países de renda média, e não os da OCDE. Se for esse o critério, nossos encargos são bem mais altos.",
-                "comment_score": 4,
+                "comment_score": 2,
                 "comment_created_utc": 1770045366.0
             },
             {
                 "comment_id": "o35co7b",
                 "comment_body": "Faturamos entre 20 a 30 k",
-                "comment_score": 3,
+                "comment_score": 6,
                 "comment_created_utc": 1770037352.0
             },
             {
@@ -1306,7 +1382,7 @@
             {
                 "comment_id": "o35dfa8",
                 "comment_body": "Obrigado. Hoje pago R$300 para o meu contador, mas ele não entendeu que quero ter eficiência tributária",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1770037641.0
             },
             {
@@ -1347,7 +1423,7 @@
             },
             {
                 "comment_id": "o35iofz",
-                "comment_body": "\"Imposto a empresários deveria ser progressivo e proporcional ao faturamento e ao tamanho do empreendimento.\" kkkkkkkkkkkkkkkkkkkkkkkk \n\nEles simplesmente passam a pica pra frente, ou você acha que eles não embutem todos os impostos e custos no preço final de seus produtos e serviços?  \"Ain mas a concorrência\" eles também pagam os mesmo impostos. Provavelmente haveria uma corrida ao fundo do poço, as empresas mais ricas segurariam os preços até a concorrência falir, e depois repassariam os custos dos impostos.",
+                "comment_body": "[deleted]",
                 "comment_score": 0,
                 "comment_created_utc": 1770039525.0
             },
@@ -1370,51 +1446,45 @@
                 "comment_created_utc": 1770172659.0
             },
             {
-                "comment_id": "o35hp09",
-                "comment_body": "Há anos é pedido um aumento do teto do MEI, e o governo só taca o foda-se.",
-                "comment_score": 5,
-                "comment_created_utc": 1770039186.0
-            },
-            {
                 "comment_id": "o35cui3",
                 "comment_body": "O seu comentário é cruel e fatalista, mas real. A única forma de um negócio ser sustentável é com capital e fluxo de caixa suficientes pra pagar todos esses custos fixos (Salário CLT dentro da Lei, ambiente de trabalho seguro e salubre, todo o escopo de legislação), se não é trabalho amador. Automaticamente, isso significa que o dono da empresa, fatalmente, vai ter que lucrar muito mais do que paga seus funcionários, pro negócio começar a valer a pena. Triste é que negócios amadores são a única força de baixar preços no mercado brasileiro.",
-                "comment_score": 15,
+                "comment_score": 13,
                 "comment_created_utc": 1770037420.0
             },
             {
                 "comment_id": "o35bkqn",
                 "comment_body": "Esse aqui não entendeu a mensagem do post ☝🏻",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1770036922.0
             },
             {
                 "comment_id": "o35bsh1",
                 "comment_body": "Exatamente. Tem outros caminhos também que ele pode tomar, como abrir um MEI, de modo que pagará bem menos impostos pelo funcionário.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1770037008.0
             },
             {
                 "comment_id": "o35c8gy",
                 "comment_body": "Infelizmente você não sabe o a fala, marcenarias pequenas não se sustentam por \"não ser sustentável\" no sentido estrito da palavra, é justamente por conta do material ser muito caro e a população é pobre e não consegue Pagar o material em si, imagina a mão de obra, muitos sobrevivem de pegar serviços com pessoas ricas. E você, que gosta de imposto, não pode negar que um dos fatores que deixa as pessoas mais pobres é justamente a carga tributária alta no consumo, inclusive a carga tributária no mdf é muito abusiva",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1770037181.0
             },
             {
                 "comment_id": "o35cm9i",
                 "comment_body": "Calma aí Ian Neves. A realidade é bem diferente. A informalidade no Brasil é absurda. A quantidade de gente trabalhando sem ser CLT é gritante, ainda mais em pequenas empresas. A gente não está vivendo no mesmo mundo",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1770037332.0
             },
             {
                 "comment_id": "o35fpvc",
                 "comment_body": "Exatamente!\n\nSe não consegue arcar com o mínimo obrigatório o negócio não é sustentável e está atrapalhando a si mesmo e outros que estão faturando menos porque você está atraindo clientes com preços menores possíveis apenas por conta de corruptelas. Esse é o problema!\n\nHá necessidade urgente de uma fiscalização robusta para adequar o mercado, tornar o mercado justo e real. \n\nA cidade não se sustenta, ela precisa acabar, as pessoas precisam se mudar. Enquanto houver negócios funcionando na malandragem fica difícil adequar políticas públicas porque elas não entram no radar de maneira correta, atrapalha toda uma cadeia de ações e decisões.\n\nEu entendo perfeitamente a frustração em querer ter seu negócio próprio e não conseguir arcar com as legalidades, mas continuar na ilegalidade é uma dor de cabeça para toda a sociedade.\n\nÉ necessário urgentemente uma fiscalização robusta sufocando todo negócio que funciona de maneira ilegal, só assim vamos consertando discrepâncias, a lei precisa ser igual para todos, aí os preços passam a ser justos.\n\nOutra... Tu já pensou se um funcionário teu entra com processo trabalhista contra tua empresa? Ou se em uma fiscalização for descoberto irregularidades tudo que tu tem (deve ser pouco, carro e o imóvel da empresa no mínimo) for necessário liquidar pra pagar multas?\n\nGalera reclama do Brasil, mas o Brasil é um paraíso pra trambicagens, empresas que não deveriam existir por ser insustentáveis, funcionários que têm zero conhecimento de seus direitos e os que têm conhecimento morrem de medo do patrão e não entram com processos contra eles...",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1770038487.0
             },
             {
                 "comment_id": "o35hhoo",
                 "comment_body": "Depois todos os negócios locais morrem, vira tudo mega corporação e não sabe o porque né",
-                "comment_score": 1,
+                "comment_score": 3,
                 "comment_created_utc": 1770039116.0
             },
             {
@@ -1456,7 +1526,7 @@
             {
                 "comment_id": "o35ea9g",
                 "comment_body": "71349-76 - Xique Xique - Bahia",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1770037964.0
             },
             {
@@ -1552,7 +1622,7 @@
             {
                 "comment_id": "o35k5p7",
                 "comment_body": "Praticamente todos os \"custos\" são benefícios que retornam ao funcionário. Por isso eu falo que esse papo de que o salário seria maior sem os direitos trabalhistas é uma falácia.",
-                "comment_score": 5,
+                "comment_score": 8,
                 "comment_created_utc": 1770040022.0
             },
             {
@@ -1564,13 +1634,13 @@
             {
                 "comment_id": "o35bq5k",
                 "comment_body": "Esse é outro que não entendeu a mensagem do post ☝🏻",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1770036982.0
             },
             {
                 "comment_id": "o35h50w",
                 "comment_body": "Incorreto amigo, o sistema tributário lá é mais progressivo que o nosso, baixo imposto sobre consumo e alíquotas mais altas de IR pros mais ricos do que temos aqui no Brasil, sem contar outras coisas como imposto sobre herança bem maior também. Obviamente que menos progressivo que os sistemas tributários na Europa e países escandinavos, mas melhor que o nosso.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1770038990.0
             },
             {
@@ -1594,25 +1664,25 @@
             {
                 "comment_id": "o379tow",
                 "comment_body": "Fui pesquisar para encontrar fontes e descobri que recentemente foi derrubada uma negociação de dívida que o governo do RJ fez com para o Grupo Petrópolis - mas levou alguns anos pra isso acontecer. O acordo permitia que a dívida fosse paga em 2097 ANOS. Era uma dívida de R$1.2bi. Lendo a respeito, vi que a dívida não era do Grupo Petrópolis, e sim de uma distribuidora que trabalhava pra eles, ou algo do tipo. De qualquer jeito, a questão é a mesma: existem mecanismos pra facilitar a vida de quem deve bilhões de formas RIDÍCULAS. A gente que é pobre que se fode na mão dos bancos.",
-                "comment_score": 109,
+                "comment_score": 107,
                 "comment_created_utc": 1770057757.0
             },
             {
                 "comment_id": "o35jzah",
                 "comment_body": "\"Veja bem, se eu quebrar muitos empregos serão perdidos, a sua popularidade seja impactada Sr. [insira aqui o membro do executivo pertinente à abrangência geográfica da empresa]\"",
-                "comment_score": 78,
+                "comment_score": 77,
                 "comment_created_utc": 1770039963.0
             },
             {
                 "comment_id": "o35nmng",
                 "comment_body": "E o melhir: o imposto, ferramenta essencial pro pobre viver com o mínimo de dignidade, porque o paga des de sus até aposentadoria, fica como vilã, enquanto o mega empresário que inflaciona preço de matéria prima da risada.",
-                "comment_score": 63,
+                "comment_score": 64,
                 "comment_created_utc": 1770041178.0
             },
             {
                 "comment_id": "o379ytx",
                 "comment_body": "As pessoas ficam bravas com o Brasil ou com os políticos, reclamam que na gringa é melhor, mas é a elite empresarial que, por lobby, faz as coisas serem assim.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1770057796.0
             },
             {
@@ -1624,13 +1694,13 @@
             {
                 "comment_id": "o35ndzb",
                 "comment_body": "Exatamente, sou de esquerda, filiado a partido político. Mas acredito que os impostos prejudicam demais o pequeno empresário",
-                "comment_score": 79,
+                "comment_score": 76,
                 "comment_created_utc": 1770041098.0
             },
             {
                 "comment_id": "o35sxls",
                 "comment_body": "é completamente desproporcional que o pequeno empresario tenha a mesma carga tributaria de uma empresa grande",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1770042884.0
             },
             {
@@ -1642,7 +1712,7 @@
             {
                 "comment_id": "o35jbp5",
                 "comment_body": "a maioria que sonega imposto, tendem a ser da \"nova extrema direita\"",
-                "comment_score": 6,
+                "comment_score": 9,
                 "comment_created_utc": 1770039743.0
             },
             {
@@ -1684,7 +1754,7 @@
             {
                 "comment_id": "o35odbg",
                 "comment_body": "O problema é esse, criticar de forma despolitizada. Nao acho que seja o caso do Op, ele só ta desabafando mesmo. Nao sabemos se ele tem ciencia que o imposto dele é alto porque a empresa ao lado tem lobby no governo",
-                "comment_score": 7,
+                "comment_score": 10,
                 "comment_created_utc": 1770041419.0
             },
             {
@@ -1696,7 +1766,7 @@
             {
                 "comment_id": "o35ns2u",
                 "comment_body": "Se todos pequenos estabelecimentos do Brasil declarassem 100% eu aposto q a arrecadacao seria menor porque a maioria dos pequenos negocios iriam fechar",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1770041228.0
             },
             {
@@ -1708,13 +1778,13 @@
             {
                 "comment_id": "o35qq3l",
                 "comment_body": "*É muito difícil ser empresário 100% correto* - diz o empresário (no máximo, forçando muito a barra) 50% correto.\n\nIronicamente, a solução mais plausível para um caso assim é o OP perceber a hipocrisia na sua linha de raciocínio e contratar um profissional que o ajude a definir o mínimo que ele deve 'estar correto' para que o negócio seja sustentável (risco fiscal incluso).\n\nDito isso, desejo sucesso a ele em seus negócios, de verdade, marcenaria me parece um mercado bem cruel (para todos envolvidos).\n\nJá tive inúmeros problemas com esse tipo de serviço e o único que me apresentou um excelente trabalho (sem preço abusivo) acabou imigrando e pelo que acompanho me parece estar muito bem obrigado lá fora. \n\nps: sem viralatismo, tem negócios que funcionam bem melhor no Brasil que lá fora.",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1770042181.0
             },
             {
                 "comment_id": "o35c96k",
                 "comment_body": "Meu Deus",
-                "comment_score": 47,
+                "comment_score": 44,
                 "comment_created_utc": 1770037189.0
             },
             {
@@ -1756,7 +1826,7 @@
             {
                 "comment_id": "o35td5k",
                 "comment_body": "450 conto com contabilidade, tá vacilando muito, tem que usar contabilidade digital, é coisa de 120 reais",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1770043022.0
             },
             {
@@ -1774,13 +1844,13 @@
             {
                 "comment_id": "o35e9i5",
                 "comment_body": "Sim. Era pra eu ser CLT kkk",
-                "comment_score": 11,
+                "comment_score": 12,
                 "comment_created_utc": 1770037956.0
             },
             {
                 "comment_id": "o35qjn8",
                 "comment_body": "\"É raro mas acontece muito.\"",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1770042124.0
             },
             {
@@ -1792,7 +1862,7 @@
             {
                 "comment_id": "o35rwkk",
                 "comment_body": "Sim, fiz tudo isso menos a parte de pegar uma digital. Consegui uma indicação de um amigo em que eu pago coisa de 200 ao mês",
-                "comment_score": 7,
+                "comment_score": 4,
                 "comment_created_utc": 1770042557.0
             },
             {
@@ -1804,13 +1874,13 @@
             {
                 "comment_id": "o35k0yf",
                 "comment_body": "Exato!",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1770039978.0
             },
             {
                 "comment_id": "o36dfmy",
                 "comment_body": "Exato, muitas vezes a pessoa até tem uma vida confortável, aí pega o dinheiro que juntou a vida toda pra montar um negócio achando que vai virar um empresário rico, aí quando percebe tá ganhando menos do que ganhava como empregado de alguém, aí vai na internet chorar sobre como ninguém quer trabalhar pra receber um salário mínimo na escala 6x1.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1770048888.0
             },
             {
@@ -1822,13 +1892,13 @@
             {
                 "comment_id": "o35cd3u",
                 "comment_body": "Kkkkkkkk",
-                "comment_score": 22,
+                "comment_score": 23,
                 "comment_created_utc": 1770037233.0
             },
             {
                 "comment_id": "o364le5",
                 "comment_body": "OP, vocês fazem móveis customizados? Que tipo de coisas vocês trabalham exatamente?\n\nGosto muito de valorizar negócios que fazem coisas que duram pro resto da vida, ao invés de comprar essas porcariadas comerciais que quebram depois de poucos anos.\n\nSe importa de passar mais informações sobre o seu negócio pra mim no privado pra gente bater um papo? To querendo comprar uns móveis faz uns tempos já, mas o meu antigo marceneiro que fazia móveis customizados de acordo com o que eu pedia precisou amputar o pé por causa de diabetes, então desde então não consegui encontrar alguém que trabalhava com o que eu precisava.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1770046405.0
             },
             {
@@ -1846,25 +1916,19 @@
             {
                 "comment_id": "o35tna7",
                 "comment_body": "Quais são os seus custos para não conseguir pagar um funcionário CLT com 20 a 30 mil de faturamento mensal?",
-                "comment_score": 10,
+                "comment_score": 7,
                 "comment_created_utc": 1770043111.0
             },
             {
                 "comment_id": "o3685xl",
                 "comment_body": "[deleted]",
-                "comment_score": 4,
+                "comment_score": 2,
                 "comment_created_utc": 1770047414.0
-            },
-            {
-                "comment_id": "o35ek4p",
-                "comment_body": "Marcenaria no SIMPLES NACIONAL pode contratar Marceneiro MEI, desde que não exija horário, só resultado. Não sei se compensa, mas é melhor do que burlar a lei e depois tomar um processo.",
-                "comment_score": 18,
-                "comment_created_utc": 1770038066.0
             },
             {
                 "comment_id": "o35h9cs",
                 "comment_body": "Faz um contrato de pj, deixa claro que ele não tem um horário fixo e trata como realmente seria um pj, deixa tudo registrado e daí mesmo que ele tente processar vai dar bom pra você",
-                "comment_score": 11,
+                "comment_score": 9,
                 "comment_created_utc": 1770039033.0
             },
             {
@@ -1894,7 +1958,7 @@
             {
                 "comment_id": "o35k4gq",
                 "comment_body": "Tem que fazer uma consulta com um excelente contador.\n\nAntes disso, é preciso fazer um trabalho cuidadoso de contabilizar toda a entrada/saída da empresa, inclusive esses custos de modernizações, novos equipamentos, etc. Alguns gastos geram isenções ou compensações, e existem benefícios pra empresas que estão modernizando.\n\n(Até porque, pra te ajudar, o contador vai precisar disso.)\n\nTem que cair esse mito de que empresa paga 1000% de imposto. Se tá pagando demais, tem algo errado. Tipo, se você já paga até 13º pro seu funcionário por fora, tem alguma coisa muito errada em essa conversão pra CLT custar 70%, pois os \"custos\" são justamente coisas como o 13º e férias remuneradas.",
-                "comment_score": 18,
+                "comment_score": 21,
                 "comment_created_utc": 1770040011.0
             },
             {
@@ -1906,14 +1970,8 @@
             {
                 "comment_id": "o35dlmd",
                 "comment_body": "cara isso tá MUITO abaixo do que o MEI coloca como limite máximo, pode colocar como MEI tranquilinho. Achei que quando vc relatou no empreendedorismo tu tava falando de papo de 100k que é uma berlinda bem fudida (é muito pra ser mei mas tá quebrado demais pra aguentar a pica da pequena empresa)\n\nE sério, vê pelo menos de pagar por fora um seguro ou coisa do tipo pro funcionário, acidente em marcenaria é merda de aposentar pra vida e você vai ferrar muito seu pai se isso acontecer sem ter nenhum respaldo e todo irregular\n\n  \nEDIT: confundi mensal com anual, gente, vacilei. Se ele tira 30k mensal ele tá é muito acima",
-                "comment_score": -7,
+                "comment_score": -5,
                 "comment_created_utc": 1770037708.0
-            },
-            {
-                "comment_id": "o3668f9",
-                "comment_body": "Eficiência tributária é coisa de sonegador safado.",
-                "comment_score": 0,
-                "comment_created_utc": 1770046873.0
             },
             {
                 "comment_id": "o35m4ob",
@@ -1948,13 +2006,13 @@
             {
                 "comment_id": "o35ij42",
                 "comment_body": "Ele deve ser um concurseiro da Receita ja treinando o discurso",
-                "comment_score": 8,
+                "comment_score": 11,
                 "comment_created_utc": 1770039474.0
             },
             {
                 "comment_id": "o35m5hr",
                 "comment_body": "Se o material é caro e não tem cliente... o negócio é insustentável. A minuta exata do problema não afeta o argumento.\nO imposto tem sim de ser mais alto em rico, e maus baixo em pobre. Mas não é porquê sevé careca que precisa raspar o saco, entende? Antes de pensar em valor tributário, tem de pensar porquê o valor é alto.\n\nSe não tu vai acabar falando besteira m, xingando governo, enquanto a Leroy Merlinz mete fundo no teu cu.",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1770040687.0
             },
             {
@@ -1972,13 +2030,13 @@
             {
                 "comment_id": "o35kezu",
                 "comment_body": "O que o cu tem haver com as calça? Tipo, sério. Sim. Tem muita informalidade. Como que isso contradiz o que eu falei?",
-                "comment_score": 2,
+                "comment_score": 0,
                 "comment_created_utc": 1770040109.0
             },
             {
                 "comment_id": "o35n85a",
                 "comment_body": "Mas é exatamente isso. Acha que o cliente dele tá indo comprar aonde? Acha que a madeira tá 500 pau porquê? Quem acha que compra essa porta a granel a preço elevado justamente pra barrar competidor menor?",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1770041045.0
             },
             {
@@ -2026,19 +2084,19 @@
             {
                 "comment_id": "o35g48g",
                 "comment_body": "É que o que chamam de \"encargos trabalhistas\", na verdade, é:\n\n- 13º salário\n- férias remuneradas + adicional de 1/3 de férias\n- depósito de 8% do salário como FGTS\n   - FGTS deve ser considerado parte do salário do funcionário. Reclamar disso é sinal de administração ruim. Basta reduzir alguns reais do salário pra compensar o depósito do FGTS.\n\nSe o funcionário já recebe os dois primeiros, então converter pra CLT quase não gera nenhum gasto adicional.\n\nSe o OP tá no Simples Nacional, ele é isento de INSS patronal, etc.\n\nTem que conversar com um bom contador. Tem muitos mitos que acabam fazendo o empreendedor pagar mais imposto sem necessidade.",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1770038630.0
             },
             {
                 "comment_id": "o35kl8q",
                 "comment_body": "Então me diga a sua proposta. No caso do OP, ele deveria ser isento de pagar INSS, férias e 13° e FGTS? Pro negócio dele ficar de pé ele tem que poder escravizar o funcionário? \n\nSe for assim melhor fechar logo, é um negócio insustentável.",
-                "comment_score": 1,
+                "comment_score": 3,
                 "comment_created_utc": 1770040166.0
             },
             {
                 "comment_id": "o35cqed",
                 "comment_body": "Me desculpa se eu me importo com o trabalhador.",
-                "comment_score": -2,
+                "comment_score": -1,
                 "comment_created_utc": 1770037376.0
             },
             {
@@ -2050,49 +2108,49 @@
             {
                 "comment_id": "o37qsdx",
                 "comment_body": "Quando você deve 5 mil ao banco/governo o problema é seu\nQuando você deve 5 bi é problema deles",
-                "comment_score": 33,
+                "comment_score": 32,
                 "comment_created_utc": 1770062454.0
             },
             {
                 "comment_id": "o37ny8s",
                 "comment_body": "O sistema capitalista é feito pra burguesia/classe bilionária afinal de contas. Esses bilhões em \"dívidas\" é roubo puro do trabalhador Brasileiro, e o sistema capitalista é feito justamente pra isso mesmo: roubar o máximo possível da classe trabalhadora e colocar a culpa em tudo, nos políticos, nas empresas, até mesmo nos próprios trabalhadores falando que eles \"precisam votar melhor\" e coisas do tipo, enquanto deixando os bilionários como heróis do povo e \"criadores de emprego\" (quando é a demanda que gera a necessidade para empregos).\n\nEntão, até a classe trabalhadora se juntar e se organizar a burguesia vai continuar tomando tudo que é nosso ao máximo possível...",
-                "comment_score": 18,
+                "comment_score": 20,
                 "comment_created_utc": 1770061659.0
             },
             {
                 "comment_id": "o35ssdu",
                 "comment_body": "O mais engraçado é que o “custo” da CLT vai todo de benefício social para o funcionário",
-                "comment_score": 23,
+                "comment_score": 25,
                 "comment_created_utc": 1770042838.0
             },
             {
                 "comment_id": "o368zu7",
                 "comment_body": "Eu sempre achei que no rico tira muito mais retorno do imposto, não dá pra fazer essa concentração toda de renda e produção sem infraestrutura",
-                "comment_score": 16,
+                "comment_score": 15,
                 "comment_created_utc": 1770047649.0
             },
             {
                 "comment_id": "o37aat9",
                 "comment_body": "O mega empresário se beneficia do discurso. \"Vejam, o custo Brasil vai nos quebrar! Votem no meu político liberal na economia!\"",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1770057886.0
             },
             {
                 "comment_id": "o37n63o",
                 "comment_body": "Reclamam dos políticos e admiram justamente essa elite empresarial.",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1770061441.0
             },
             {
                 "comment_id": "o35tk0i",
                 "comment_body": "O sistema é montado pra beneficiar grandes empresas, e parte do \"beneficio\" é inviabilizar a criação de concorrencia. Esse imposto desumano que você paga é *essencial* pro sistema continuar funcionando pra eles.\n\nA jogada dos caras é fingir que a direita é contra impostos pra chegar no poder, abaixar impostos só pra eles (ou facilitar sonegação, que é a mesma coisa porque na maioria esmagadora das vezes pobre paga imposto direitinho) e jogar migalha simbólica pros pequenos empreendedores. Você só ganha uma fração do que eles ganham, e perde sempre. Isso é o que a direita defende na prática.",
-                "comment_score": 33,
+                "comment_score": 30,
                 "comment_created_utc": 1770043082.0
             },
             {
                 "comment_id": "o35nypv",
                 "comment_body": "Nós dois amigo, desejo muita sorte mesmo, nesse caminho vais encontrar muita gente de direita infelizmente \n\n\n\nse precisar de ajuda com marketing me manda mensagem que te ajudo\n\n\n\nEu faço a do meu próprio trabalho pra sair mais barato e ajuda dms, ah e pesquisa waseller, é uma extensão pro WhatsApp pra ajudar a atender mas sem ser caro e precisar de api",
-                "comment_score": 19,
+                "comment_score": 17,
                 "comment_created_utc": 1770041288.0
             },
             {
@@ -2104,7 +2162,7 @@
             {
                 "comment_id": "o35tb9d",
                 "comment_body": "Cara tu tem que ver o mercado que vc está inserido, tem regiões que estão saturadas, daí a sua margem é baixa , quem paga os impostos são os clientes, não vc, em um negócio sustentável é assim que funciona, a questão de fazer serviços sem nota é acontece, mas os preços dos serviços devem estar formulados de forma que os impostos estejam incluídos. Eu pago 16% do faturamento mensal, já faturei 900k em um mês, 144 Das, achei ruim? Não, tava com uma margem de 25% de lucro, então não me importo com os impostos, a questão é se a região que vc está, vale a pena ser cnpj, outra coisa se vc tem apenas um funcionário, provavelmente seu pai faz 80% do trabalho aí as vezes não justifica ter cnpj, seria melhor ele trabalhar sozinho logo, tipo fazer parceria pra transporte de materiais, e focar em trabalhos mais valorizados ( considerando que seu pai seja um ótimo profissional). Ou migrar de região, aqui no nortão vc não consegue nem orçamentos com menos de um mês de espera.",
-                "comment_score": 7,
+                "comment_score": 4,
                 "comment_created_utc": 1770043005.0
             },
             {
@@ -2152,7 +2210,7 @@
             {
                 "comment_id": "o35qpl9",
                 "comment_body": "Só posso criticar o que postou, por bem ou mal.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1770042177.0
             },
             {
@@ -2182,13 +2240,13 @@
             {
                 "comment_id": "o35ucwx",
                 "comment_body": "Kkkkkk eu não moro exatamente em Ipatinga, mas em um dos vários micro municípios da região que ficam bem próximos, botei Ipatinga na flair porque to sempre aí e moto perto, além de ser mais reconhecível.\n\nAqui onde moro nem supermercado grande tem, só aquelas mercearias de família mesmo, que ainda vendem fiado e deixam a notinha de cada cliente. O pessoal que quer ganhar mais que o mínimo sem muito estudo trabalha na roça ou em construção, fora isso só na base do concurso.",
-                "comment_score": 16,
+                "comment_score": 15,
                 "comment_created_utc": 1770043333.0
             },
             {
                 "comment_id": "o369048",
                 "comment_body": "Faz sentido Ipatinga ser Dubai porque foi construída com trabalho escravo puta que pariu",
-                "comment_score": 16,
+                "comment_score": 14,
                 "comment_created_utc": 1770047651.0
             },
             {
@@ -2200,7 +2258,7 @@
             {
                 "comment_id": "o3607uo",
                 "comment_body": "Pior que eu tô precisando desenquadrar e pensando em fazer esse ano justamente pra não tomar no cu do imposto retroativo. Tava apostando em mudarem o limite do mês mas o bagulho não aumenta kkkkkk. Ai tá difícil ficar falando que ganho 80k quando já tá uns 120. Preciso mesmo arrumar. Recebi uns aumentos no ano passado que na verdade até 120k já deve ser pouco, mesmo eu tendo perdido outra coisa\n\nComo você fez para desenquadrar do jeito certo? É possível recomendar o contador?",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1770045126.0
             },
             {
@@ -2218,7 +2276,7 @@
             {
                 "comment_id": "o35ogv3",
                 "comment_body": "Mas isso não dá problema? Não fica muito fácil você processar a empresa, pq está te exigindo horário de trabalho?",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1770041451.0
             },
             {
@@ -2248,7 +2306,7 @@
             {
                 "comment_id": "o3fxnwn",
                 "comment_body": "Esse contrato é literalmente inutil perante o judiciário \n\nSe tiver todos os requisitos que caracterizam um vínculo empregaticio, esquece\n\nContrato aceita qualquer coisa, nunca vai estar acima da lei.",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1770164700.0
             },
             {
@@ -2260,25 +2318,25 @@
             {
                 "comment_id": "o363m0p",
                 "comment_body": "Mais rico. Mas essa pergunta é boba, porque se for para reproduzir as condições de enriquecimento da maioria dos países da OCDE teríamos que voltar aos direitos trabalhistas e carga fiscal que esses países tinham nos idos de 1890. Quer?",
-                "comment_score": 3,
+                "comment_score": 1,
                 "comment_created_utc": 1770046121.0
             },
             {
                 "comment_id": "o35etbk",
                 "comment_body": "Mei o faturamento é pouco mais de 6 mil por mês, ele tá muito fora do teto de faturamento.",
-                "comment_score": 15,
+                "comment_score": 13,
                 "comment_created_utc": 1770038160.0
             },
             {
                 "comment_id": "o35f0bm",
                 "comment_body": "MEI só pode 6.750k por mês",
-                "comment_score": 6,
+                "comment_score": 9,
                 "comment_created_utc": 1770038231.0
             },
             {
                 "comment_id": "o35fxcr",
                 "comment_body": "o limite não é quase 7 mil por mês?",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1770038562.0
             },
             {
@@ -2296,19 +2354,13 @@
             {
                 "comment_id": "o35p8ul",
                 "comment_body": "Poxa, mas eu tenho namorada. Será que lá vai entender?",
-                "comment_score": -1,
+                "comment_score": 3,
                 "comment_created_utc": 1770041706.0
-            },
-            {
-                "comment_id": "o365mny",
-                "comment_body": "Exatamente porra, aumentou 20%, passa 20% pro cliente. E ainda sobra espaço pra um chorinho de 5% de lucro em cima e culpa o imposto.\n\nPobre não vive de consumo.\n\n![gif](giphy|89x4osEodHEoo)",
-                "comment_score": 0,
-                "comment_created_utc": 1770046702.0
             },
             {
                 "comment_id": "o35k1eb",
                 "comment_body": " Moro em nova York. Aqui é muito pior. Não existe mercadinho de bairro aqui pelo mesmo motivo.",
-                "comment_score": -1,
+                "comment_score": 0,
                 "comment_created_utc": 1770039982.0
             },
             {
@@ -2325,7 +2377,7 @@
             },
             {
                 "comment_id": "o35mh5h",
-                "comment_body": "OP e o pai são burgueses?",
+                "comment_body": "*Data Brokers don't stand a chance because I mass delete all of my content using [Redact](https://redact.dev) - No AI training on my data, thank you very much.*\n\nmarket wise office depend air pie marry reply butter rinse",
                 "comment_score": 0,
                 "comment_created_utc": 1770040794.0
             },
@@ -2350,13 +2402,13 @@
             {
                 "comment_id": "o35vdx3",
                 "comment_body": "O problema é quanto menor for o negócio mais seus concorrentes sonegam imposto, você tá competindo na precificação com pessoas que não seguem a lei e se você seguir estritamente sua empresa não dura 6 meses.",
-                "comment_score": 11,
+                "comment_score": 13,
                 "comment_created_utc": 1770043654.0
             },
             {
                 "comment_id": "o35lp7q",
                 "comment_body": "Tipo isso mkkkkkk .. o engraçado são aqueles jovens dizendo que é reparação, que o governo faz a mesma coisa, ... enfim.. reflexão",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1770040538.0
             },
             {
@@ -2374,7 +2426,7 @@
             {
                 "comment_id": "o360h11",
                 "comment_body": "cara, vc precisa, necessariamente, de um contador e de um certificado digital. Quem fez tudo foi minha contadora, então não sei o processo todo",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1770045203.0
             },
             {
@@ -2386,7 +2438,7 @@
             {
                 "comment_id": "o35ppp4",
                 "comment_body": "Era pra dar, mas se eu boto na justiça, no fim quem perde sou eu. Eu que paro na jurisprudência, perco meu emprego e não sou mais chamado",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1770041857.0
             },
             {
@@ -2408,15 +2460,9 @@
                 "comment_created_utc": 1770064841.0
             },
             {
-                "comment_id": "o3bo6dp",
-                "comment_body": "É pra isso que vale o registro e a diligência na documentação. Documentação que abunda não falta.",
-                "comment_score": 1,
-                "comment_created_utc": 1770117591.0
-            },
-            {
                 "comment_id": "o363x6o",
                 "comment_body": "Aliás, mesmo dentro da OCDE... o país com condições mais semelhantes ao Brasil é o México, com uma carga tributária de menos de 20% do PIB, enquanto nós temos mais de 30% (e crescendo a cada ano).",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1770046210.0
             },
             {
@@ -2436,12 +2482,6 @@
                 "comment_body": "Sim, a questão é que pra ficar no mercado, tem que se atualizar, não tem como trabalhar como antigamente, até tem mais não adianta reclamar da concorrência, se vc fizer sempre do mesmo jeito, vai ter sempre os mesmos resultados.",
                 "comment_score": 1,
                 "comment_created_utc": 1770058860.0
-            },
-            {
-                "comment_id": "o365qtu",
-                "comment_body": "Claro que vai, deixa eu passar essa pica pra ela, vai.",
-                "comment_score": 0,
-                "comment_created_utc": 1770046735.0
             },
             {
                 "comment_id": "o36soty",
@@ -2464,7 +2504,7 @@
             {
                 "comment_id": "o3608gk",
                 "comment_body": "Releia o que escrevi, em mercado saudável, os preços são calculados com o imposto, quando vc deixa de pagar, vc está aumentando sua margem de lucro, se a sua concorrência está trabalhando abaixo do valor de mercado em virtude da sonegação, vc está em um mercado podre. Embora cada pessoa vive a sua realidade, mas a galera que eu conheço que trabalha com moveis planejados estão fazendo 💰, tudo andando de carro top, barracão grande, casa top. Resumindo o problema não é a concorrência é o mercado aí que está ruim, ou vcs não evoluíram, a realidade da marcenaria hoje é outra.",
-                "comment_score": 2,
+                "comment_score": 1,
                 "comment_created_utc": 1770045131.0
             },
             {
@@ -2500,7 +2540,7 @@
             {
                 "comment_id": "o3681fz",
                 "comment_body": "Ou seja, no final das contas não haverá direitos trabalhistas e o imposto único será a corveia. \n\nTalvez dê certo depois de uma guerra civil, um colapso econômico e umas quatro ou cinco décadas de malabarismo social que permitam ter uma combinação de uma elite tecnocrática blindada da pressão popular e uma população empobrecida o suficiente para aceitar qualquer tipo de condição em troca de subsistência - e o mundo ter interesse em terceirizar atividades industriais para cá, já que não teremos qualquer tipo de proteção trabalhista e ambiental.",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1770047379.0
             },
             {
@@ -2558,13 +2598,13 @@
             {
                 "comment_id": "nmctrjn",
                 "comment_body": "PL sendo contra algo que preste = água sendo molhada",
-                "comment_score": 12,
+                "comment_score": 13,
                 "comment_created_utc": 1761911968.0
             },
             {
                 "comment_id": "nmcokgb",
                 "comment_body": "E quer apostar quanto que o Nikolas já tá colocando a camisetinha pra botar terror em geral mentindo que isso daí seria pra ir atrás do povão em vez de empresário picareta que fica sonegando grana alta?",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1761909764.0
             },
             {
@@ -2632,43 +2672,43 @@
             {
                 "comment_id": "n27gqr5",
                 "comment_body": "não precisa de uma cota máxima se o imposto sobre a renda é alto, progressivo e o Estado, dentro dos seus limites, busca e implementa formas de combate a sonegação e fuga de capital.\n\nquanto maior a renda além desse teto, mais se arrecada.\n\no problema é que o Brasil escolheu ter uma progressão pífia no imposto de renda e tributar pesadamente no consumo. isso interessa a elite.\n\nvocês já se perguntaram do por quê o governo estar considerando como *super rico* quem possui uma renda mensal a partir de R$ 50.000,00? porque o teto do funcionalismo público é em cerca de R$ 48.000,00 e não é novidade para ninguém que existem juizes tirando líquido mais de meio milhão de reais por mês através das verbas indenizatórias, que são ISENTAS DE IMPOSTO DE RENDA.\n\nenquanto vocês batem palma, quem realmente deveria estar pagando mais, tá rindo da cara de vocês.\n\nquer um exemplo de imposto sobre consumo?\n\nem uma moto de R$ 70.490,00 reais, eu paguei R$ 23.149,57 em impostos, federais e estaduais. com certeza existe bitributação em cima disso, onde o imposto estadual é calculado em cima da incidência do imposto federal. deixei meu aluguel anual para o governo e estado e ainda preciso pagar o IPVA em cima do valor final.\n\na tributação brasileira não faz o menor sentido e a reforma tributária deixou isso em evidência. maior IVA do planeta. pelo menos, agora acaba a bitributação.",
-                "comment_score": 21,
+                "comment_score": 23,
                 "comment_created_utc": 1752080434.0
             },
             {
                 "comment_id": "n27832r",
                 "comment_body": "Parabéns. Você se atreveu a pensar que pode haver alternativas de mundo diferentes. Não que eu concorde exatamente com o que vc sugeriu, mas vc saiu daquela fronteira do \"o mundo funciona assim\".",
-                "comment_score": 67,
+                "comment_score": 65,
                 "comment_created_utc": 1752078085.0
             },
             {
                 "comment_id": "n27dj6k",
                 "comment_body": "O Bradesco iria valer uns 10 milhões.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1752079582.0
             },
             {
                 "comment_id": "n27cija",
                 "comment_body": "Esse é exatamente o tipo de post que representa o ideal predominante aqui do r/brasil",
-                "comment_score": 11,
+                "comment_score": 12,
                 "comment_created_utc": 1752079305.0
             },
             {
                 "comment_id": "n27v3ak",
                 "comment_body": "Carai que ideia merda da porra mano kkkkk apaga isso ai pra evitar vergonha pfvr",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1752084282.0
             },
             {
                 "comment_id": "n27imcy",
                 "comment_body": "Cara, uma dúvida sincera baseada no meu total desconhecimento sobre como essas coisas funcionam: como ficaria com bancos e agências de seguro, por exemplo?\n\n\nDigo, uma das coisas que me passa segurança ao colocar meu dinheiro no banco é saber que ele tem muito dinheiro, de modo que se der qualquer merda lá, eles vão ter capacidade de me reembolsar; se eles podem ter só 10 milhões, considerando que provavelmente isso levaria a uma melhor distribuição de renda (e portanto não seria difícil me imaginar com um milhão), se eu deixar 500 mil lá, meu dinheiro já corresponde a 5% do valor do banco; se der qualquer merda por responsabilidade do banco, será que eles vão conseguir me devolver o meu dinheiro e o de tantas outras que terão sido vítimas junto?\n\n\nDa mesma forma, considerando que uma agência de seguro só vai poder ter 10 milhões, não fica muito arriscado de eu não receber meu dinheiro se der o azar de morrer ou me acidentar num momento que outros 5 segurados deles também morram?",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1752080941.0
             },
             {
                 "comment_id": "n2773hx",
                 "comment_body": " Uma vez vi um video nesse tópico, de acordo com eles, pesquisas montram que grande maioria concorda com isso. Dendê os gregas se considerava isso. E os fundadores dos EUA também (na época, estavam criando algo alternativo a monarquia). Obviamente os que detém o poder mantem esse tipo de pensamento como uma loucura e contra a liberdade.\n\nAcho que esse video:\nhttps://youtu.be/cu1kYmRIJ4U?si=R2fz4rYu8l3Gr3Gc&utm_source=MTQxZ",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1752077814.0
             },
             {
@@ -2686,7 +2726,7 @@
             {
                 "comment_id": "n27w4mu",
                 "comment_body": "[deleted]",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1752084570.0
             },
             {
@@ -2698,13 +2738,13 @@
             {
                 "comment_id": "n27bgmx",
                 "comment_body": "Uma dica pra você: leia um livro de economia antes de pensar nessas bobagens.",
-                "comment_score": 16,
+                "comment_score": 14,
                 "comment_created_utc": 1752079016.0
             },
             {
                 "comment_id": "n27jkmn",
                 "comment_body": "ironicamente jha existe estudo rpa isso.\n\ne eh 100milhoes o valor..\n\napos isso, a qualidade de vida de um individuo nao sobe mais.... ou seja, efetivamente pra vida dele partir disso eh indiferente",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1752081196.0
             },
             {
@@ -2728,13 +2768,13 @@
             {
                 "comment_id": "n27agvh",
                 "comment_body": "Certo, instantaneamente o que eu consigo ver disso é gente muito rica começando a ter vários filhos pra poder distribuir a renda própria em diferentes CPFs. Se você seguir tentando fechar as vias de elisão, a gente vai criando outras formas de evadir o fisco, como já é feito no mundo real.\n\nPra cada ideia mirabolante e simplista que uma pessoa comum tem, tem 10 planejadores financeiros estudando como burlar.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1752078740.0
             },
             {
                 "comment_id": "n27s8lu",
                 "comment_body": "Mas pq caralhos voces odeiam quem tem tanto dinheiro? Qual o problema nisso?",
-                "comment_score": 2,
+                "comment_score": 4,
                 "comment_created_utc": 1752083509.0
             },
             {
@@ -2794,7 +2834,7 @@
             {
                 "comment_id": "n27dxxe",
                 "comment_body": "De vez em quando eu vejo umas opiniões assim e me sinto bem melhor como pessoa.",
-                "comment_score": 3,
+                "comment_score": -1,
                 "comment_created_utc": 1752079691.0
             },
             {
@@ -2836,7 +2876,7 @@
             {
                 "comment_id": "n290v0z",
                 "comment_body": "Nossa mas é tão mais fácil e bonito odiar rico aqui, não me venha com raciocínios que fazem sentido",
-                "comment_score": 10,
+                "comment_score": 9,
                 "comment_created_utc": 1752095831.0
             },
             {
@@ -2854,7 +2894,7 @@
             {
                 "comment_id": "n27j8e1",
                 "comment_body": "Até uns x milhões acho que faz sentido essa justificativa - de que as pessoas guardam por motivos de sobrevivência, porque \"estão por conta própria\".\n\nMas tenho certeza que a partir de uma certa quantia (qual seria?) é puramente uma obsessão por poder.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1752081105.0
             },
             {
@@ -2878,7 +2918,7 @@
             {
                 "comment_id": "n27d53f",
                 "comment_body": "Achamos o milionário ",
-                "comment_score": -11,
+                "comment_score": -10,
                 "comment_created_utc": 1752079476.0
             },
             {
@@ -2908,7 +2948,7 @@
             {
                 "comment_id": "n279pv2",
                 "comment_body": "Faltou um /s no final do seu comentário",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1752078534.0
             },
             {
@@ -2932,7 +2972,7 @@
             {
                 "comment_id": "n293vxg",
                 "comment_body": "é a melhor win win situation de todas:\n\n\\- o rico tá cagando e andando. já conhece todos os subterfúgios e dribles fiscais. quem tem empresa, provavelmente já tem acesso a alguma zona franca ou domicílio fiscal na américa latina\n\n\\- o mamador do dinheiro público volta p sombra, porque não está sendo responsabilizado pela crise fiscal. volta e meia pega ai meio milhão liquido e usa a justificativa de que é para manter a área atrativa, quando vier a tona. orçamento secreto segue a todo vapor.\n\n\\- partidos governistas ganham o voto e movimentam a base dos mais desavisados e mais bem intencionados: veja bem, olha como eles estão ajudando o pobre e querem que o país cresça.\n\nsobra p quem? pro beta da classe média",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1752096704.0
             },
             {
@@ -2944,7 +2984,7 @@
             {
                 "comment_id": "n27ehyj",
                 "comment_body": "Pobre de direita*",
-                "comment_score": -1,
+                "comment_score": 0,
                 "comment_created_utc": 1752079840.0
             },
             {
@@ -2986,13 +3026,13 @@
             {
                 "comment_id": "n27bfge",
                 "comment_body": "Ideia top. Acho razoável até mesmo diminuir esse limite, mas já ia resolver o problema da desigualdade pra caramba",
-                "comment_score": -3,
+                "comment_score": -2,
                 "comment_created_utc": 1752079007.0
             },
             {
                 "comment_id": "n27k5jp",
                 "comment_body": "Ja pensou se ele descobre q O Capital eh um livro de economia, inclusive eh estudado por economistas, afinal eh uma das melhores e mais profundas analises do capitalismo que temos",
-                "comment_score": -2,
+                "comment_score": -3,
                 "comment_created_utc": 1752081352.0
             },
             {
@@ -3010,7 +3050,7 @@
             {
                 "comment_id": "n27vg82",
                 "comment_body": "Mas nada nO Capital propoe medida similar a do OP",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1752084381.0
             },
             {
@@ -3062,7 +3102,7 @@
             {
                 "comment_id": "m7syuru",
                 "comment_body": "[Benefícios tributários farão governo abrir mão de R$ 543 bi em receitas em 2025](https://oglobo.globo.com/economia/noticia/2024/09/20/beneficios-tributarios-farao-governo-abrir-mao-de-r-543-bi-em-receitas-em-2025.ghtml)\n\nEsses benefícios são para empresas bilionárias, se fizermos um cálculo basico com base no simples Nacional que representa as pequenas empresas, que tem um teto de 4.8 milhoes por ano de faturamento pro comércio:\n\nUma empresa que atinge o teto paga aproximadamente R$534.000,00 de impostos só do simples por ano. Por conhecidencia o valor dos benefícios fiscais são iguais, facilitando a conta de que algumas empresas estão recebendo um benefício de NÃO PAGAR impostos equivalente a UM MILHÃO DE EMPRESAS! ( Com lucro líquido de 80-120k por mês)\n\nO impacto nas contas públicas estão ai, nas renúncias fiscais, não na sonegação da pessoa física que recebe 20k num PJ, ou do dono de quitanda que sonega impostos no alface...",
-                "comment_score": 30,
+                "comment_score": 31,
                 "comment_created_utc": 1737209847.0
             },
             {
@@ -3080,13 +3120,13 @@
             {
                 "comment_id": "m7sxn75",
                 "comment_body": "O Brasil tem 3 problemas nesse quesito: 1) sistema tributário da idade da pedra 2) privilégios sem fim 3) cultura de informalidade e ilegalidade",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1737209398.0
             },
             {
                 "comment_id": "m7t82w7",
                 "comment_body": "Já fui inocente assim. Saudades, inclusive.\n\nOP, um dia você vai amadurecer e entender que, ainda que não tivesse sonegação, o governo estaria sempre tentando aumentar carga tributária.",
-                "comment_score": 15,
+                "comment_score": 16,
                 "comment_created_utc": 1737213071.0
             },
             {
@@ -3104,7 +3144,7 @@
             {
                 "comment_id": "m7tg746",
                 "comment_body": "Classe baixa tem que sonegar mesmo, legítima defesa",
-                "comment_score": 2,
+                "comment_score": 1,
                 "comment_created_utc": 1737215660.0
             },
             {
@@ -3128,7 +3168,7 @@
             {
                 "comment_id": "m7t6zc3",
                 "comment_body": "Vou colar parte de um comentário que fiz aqui no passado:\n\n>A Vale por exemplo recebeu em 2021 aproximadamente R$20B em subsídios e teve um lucro líquido de R$120B. *Poderia ter sido tributada normalmente e ainda teria lucrado limpo R$100B.* Sim, *UMA* empresa poderia ter lucrado o equivalente a 1% do PIB do Brasil e ao invés de cobrar impostos, resolvemos fazer a caridade de DOAR mais 0,2% pra ela.\n\nO Brasil já arrecada muito dinheiro, mas é uma máquina de dar o menor retorno possível sobre o imposto pro contribuinte. \n\nIsso que não estou nem entrando no mérito de subsídio pra agro (que não paga imposto com exportação) e judiciário. Vai 2% do PIB só aí.",
-                "comment_score": 20,
+                "comment_score": 21,
                 "comment_created_utc": 1737212701.0
             },
             {
@@ -3158,13 +3198,13 @@
             {
                 "comment_id": "m7teoe1",
                 "comment_body": "informalidade / ilegalidade é a consequencia do 1 e 2, infelizmente chega a ser a solução para se ter um minimo de qualidade de vida",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1737215191.0
             },
             {
                 "comment_id": "m7t9cxb",
                 "comment_body": "Informalidade e ilegalidade não é cultura, é projeto. A economia que foi construída em cima de trabalho escravo é a mesma que hoje quer trabalhador recebendo miséria e sem direito.\n\nQuanto mais formalidade tiver, maior a pressão do mercado pra ter desemprego.",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1737213491.0
             },
             {
@@ -3176,7 +3216,7 @@
             {
                 "comment_id": "m7t9tdi",
                 "comment_body": "Então tudo bem?",
-                "comment_score": 1,
+                "comment_score": -3,
                 "comment_created_utc": 1737213642.0
             },
             {
@@ -3188,7 +3228,7 @@
             {
                 "comment_id": "m7ubbrr",
                 "comment_body": "A galera desse sub virou ancap. Ja expliquei trocentas vezes aqui pq o OP tem razao.\n\nO imposto vai ser pago de uma forma ou outra. Se as pessoas sonegam, entao a arrecadacao vem de outra forma. Por exemplo sobre produtos e serviços. Nao existe outro cenário. E imposto sobre produtos recai mais sobre pobres do que sobre ricos.  Se as pessoas quizessem realmente um Brasil com menos desigual, iriam apoiar combate a sonegacao, a formalizaçao do mercado de trabalho. Pq só assim dá pra arrecadar encima do imposto de renda, e diminuir a carga tributaria sobre produto. Mas a galera aqui parece que é cega pra isso.",
-                "comment_score": 0,
+                "comment_score": 2,
                 "comment_created_utc": 1737224965.0
             },
             {
@@ -3200,7 +3240,7 @@
             {
                 "comment_id": "m7sx0cw",
                 "comment_body": "O governo acabou de sancionar a regulamentação da reforma tributária pra simplificar o sistema",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1737209161.0
             },
             {
@@ -3224,7 +3264,7 @@
             {
                 "comment_id": "m7ta4sl",
                 "comment_body": "Não tá tudo bem.\n\nMas a sua afirmação no título está errada, apesar de fazer sentido lógico, desconsidera o fator humano/governamental.",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1737213745.0
             },
             {
@@ -3260,19 +3300,19 @@
             {
                 "comment_id": "m7sxgmu",
                 "comment_body": "Melhor mesmo é bater de frente, tomar impeachment e repetir a experiência, né?",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1737209330.0
             },
             {
                 "comment_id": "m7tbyw8",
                 "comment_body": "Poderia elaborar?",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1737214337.0
             },
             {
                 "comment_id": "m7t14n0",
                 "comment_body": "Já foi aprovada, isso que significa o presidente sancionar. O único detalhe ainda a definir são as alíquotas do imposto seletivo. \n\nA implementação vai ser um processo gradual, começando em 2026 e concluindo conclusão em 2033.",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1737210668.0
             },
             {
@@ -3336,7 +3376,7 @@
             {
                 "comment_id": "l45amsy",
                 "comment_body": "Eh 1500 pra abrir, mensal: 500 INSS +300 contador + uns 100 de imposto DAS",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1715775985.0
             },
             {
@@ -3378,7 +3418,7 @@
             {
                 "comment_id": "l45wwvi",
                 "comment_body": "Se vc for manter o valor anual acima, então ja faz o pedido p subir (não é automatico mais) para evitar pagar % a mais na virada do ano.\n\nSe nao for manter o valor, tente receber via cpf para não virar ME.",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1715784596.0
             },
             {
@@ -3458,7 +3498,7 @@
             {
                 "comment_id": "jfh4zo5",
                 "comment_body": "Eu consultaria um contador experiente psra evitar problemas e ter uma opinião melhor.",
-                "comment_score": 34,
+                "comment_score": 33,
                 "comment_created_utc": 1680978804.0
             },
             {
@@ -3476,7 +3516,7 @@
             {
                 "comment_id": "jfh3w5d",
                 "comment_body": "1 - eu aprovisionaria o valor ao longo do ano e deixava pra pagar na declaração de ajuste\n\n2 - CNPJ paga beeeeem menos ir, mas tu vai ter que ter contador, tirar nota...",
-                "comment_score": 2,
+                "comment_score": 4,
                 "comment_created_utc": 1680978363.0
             },
             {
@@ -3588,19 +3628,19 @@
             {
                 "comment_id": "jcpa8h8",
                 "comment_body": "Acho que vai ter uma resistência grande no legislativo. 30 milhões por licença? Vai custar muito menos comprar o centrão e a nossa direita tão cristã. Já até imagino a desculpa. \"O PT QUER LEGALIZAR AS APOSTAS, MAS ISSO VAI CONTRA AS CRENÇAS CRISTÃS\". E mantém como está hoje, no limiar perfeito entre a ilegalidade, que permite não pagar impostos, e a legalidade, que não proíbe a existência dos sites.",
-                "comment_score": 167,
+                "comment_score": 169,
                 "comment_created_utc": 1679150949.0
             },
             {
                 "comment_id": "jcpf16d",
                 "comment_body": "Acho que está incompleto esse tweet.\n\n30 milhões é só o valor da licença. Ainda tem o imposto sobre o valor dos prêmios.\n\nA conta não fecha se for só a licença. Não tem como 30 milhões a cada 5 anos render 2 a 6 bilhões.",
-                "comment_score": 106,
+                "comment_score": 107,
                 "comment_created_utc": 1679152969.0
             },
             {
                 "comment_id": "jcpi58h",
                 "comment_body": "Isso significa que a blaze vai de arrasta pra cima? Ótimo. NN aguento mais Ad desse bglh em todo canto da internet.",
-                "comment_score": 70,
+                "comment_score": 69,
                 "comment_created_utc": 1679154232.0
             },
             {
@@ -3618,13 +3658,13 @@
             {
                 "comment_id": "jcpgc3j",
                 "comment_body": "Fiz o L pra isso mesmo",
-                "comment_score": 53,
+                "comment_score": 54,
                 "comment_created_utc": 1679153506.0
             },
             {
                 "comment_id": "jcp91h1",
                 "comment_body": "L",
-                "comment_score": 33,
+                "comment_score": 32,
                 "comment_created_utc": 1679150432.0
             },
             {
@@ -3636,13 +3676,13 @@
             {
                 "comment_id": "jcp1132",
                 "comment_body": "Ainnnn, o pt vai subir o preço do videogame, a fita de jogo vai ficar cara, ainnnn o pt é contra os nerdola, o mito era amigo dos gamer ainnnnnnn",
-                "comment_score": 76,
+                "comment_score": 74,
                 "comment_created_utc": 1679146747.0
             },
             {
                 "comment_id": "jcpv2ed",
                 "comment_body": "Triste dia para o r/farialimabets",
-                "comment_score": 7,
+                "comment_score": 5,
                 "comment_created_utc": 1679159453.0
             },
             {
@@ -3660,19 +3700,19 @@
             {
                 "comment_id": "jcprmdb",
                 "comment_body": "Com licença senhores, estarei fazendo o L nesse momento",
-                "comment_score": 21,
+                "comment_score": 19,
                 "comment_created_utc": 1679158101.0
             },
             {
                 "comment_id": "jcp6k55",
                 "comment_body": "A Consultoria Legislativa do Senado lançou um texto sobre esse assunto essa semana, caso alguém se interessar está aqui https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td315",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1679149330.0
             },
             {
                 "comment_id": "jcpseu5",
                 "comment_body": "Fiz o L pra isso, o quanto que me incomoda essa popularização de aposta que tá rolando na internet é de ficar muito puto.",
-                "comment_score": 6,
+                "comment_score": 8,
                 "comment_created_utc": 1679158400.0
             },
             {
@@ -3702,13 +3742,13 @@
             {
                 "comment_id": "jcp3hs8",
                 "comment_body": "Está certo em tributar, está errado no quanto vai conseguir receber.",
-                "comment_score": 10,
+                "comment_score": 12,
                 "comment_created_utc": 1679147939.0
             },
             {
                 "comment_id": "jcpa5km",
                 "comment_body": "Ótimo",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1679150913.0
             },
             {
@@ -3720,7 +3760,7 @@
             {
                 "comment_id": "jcpgeqn",
                 "comment_body": "Não curto o Haddad, mas concordo com esse projeto. Tomara que dê certo",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1679153535.0
             },
             {
@@ -3972,7 +4012,7 @@
             {
                 "comment_id": "jcpcob2",
                 "comment_body": "E como. Tem uma por aqui que patrocina ponto de moto táxi,   van de transporte ilegal, banca de Salgado, qualquer coisa maior que 1 palmo.",
-                "comment_score": 82,
+                "comment_score": 83,
                 "comment_created_utc": 1679151976.0
             },
             {
@@ -4026,13 +4066,13 @@
             {
                 "comment_id": "jcr1k1s",
                 "comment_body": "Eu também não aguento mais o Brazino jogo da galera me  atrapalhando ver os vídeos da Tigresa Vip",
-                "comment_score": 21,
+                "comment_score": 20,
                 "comment_created_utc": 1679177558.0
             },
             {
                 "comment_id": "jcqw2dx",
                 "comment_body": "30 milhões é troco de pão pra Blaze.",
-                "comment_score": 16,
+                "comment_score": 17,
                 "comment_created_utc": 1679175057.0
             },
             {
@@ -4050,13 +4090,13 @@
             {
                 "comment_id": "jcqefwk",
                 "comment_body": "Sem presença no Brasil, fica mais difícil para o consumidor processar.",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1679167423.0
             },
             {
                 "comment_id": "jcre9bu",
                 "comment_body": "Justamente por isso a medida é excelente. Quando tentarem comprar a licença, vão receber uma bela taxada de um juiz alegre pra tirar dinheiro dessas empresas e ainda assim bloquear a atuação delas no BR. Mal posso esperar.",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1679183360.0
             },
             {
@@ -4080,7 +4120,7 @@
             {
                 "comment_id": "jcqm4kz",
                 "comment_body": "Pro cara ser médico e pobre ao mesmo tempo ele têm que ser muito burro, francamente.",
-                "comment_score": 29,
+                "comment_score": 31,
                 "comment_created_utc": 1679170729.0
             },
             {
@@ -4104,25 +4144,25 @@
             {
                 "comment_id": "jcphyam",
                 "comment_body": "L",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1679154155.0
             },
             {
                 "comment_id": "jcti952",
                 "comment_body": "Site de aposta e videogame não é a mesma coisa kkkkkkk\n\n>!Se bem que com lootbox tá ficando!<",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1679232110.0
             },
             {
                 "comment_id": "jcpihog",
                 "comment_body": "Por que não curte o Haddad aliás?",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1679154371.0
             },
             {
                 "comment_id": "jcq5rgk",
                 "comment_body": "Sem regulacao viraria oligopolio com o tempo de todo jeito",
-                "comment_score": 2,
+                "comment_score": 4,
                 "comment_created_utc": 1679163813.0
             },
             {
@@ -4134,13 +4174,13 @@
             {
                 "comment_id": "jcpbfvi",
                 "comment_body": "Não são ilegais.\n\nAliás, operam no limite perfeito entre a legalidade e o pagamento de impostos.",
-                "comment_score": 13,
+                "comment_score": 14,
                 "comment_created_utc": 1679151456.0
             },
             {
                 "comment_id": "jcpcoz4",
                 "comment_body": "Por que cocaína é ilegal? Vai usar quem quer, certo?",
-                "comment_score": 10,
+                "comment_score": 12,
                 "comment_created_utc": 1679151984.0
             },
             {
@@ -4152,7 +4192,7 @@
             {
                 "comment_id": "jcpwumi",
                 "comment_body": "Isso vai impedir casa de aposta shady sem base nenhuma aparecendo adoidado. É o que mais tem.\n\nUm maluco abre uma casa de aposta na garagem dele, enche de propaganda pelo brasil, da golpe em um bando de otario e some.\n\nPra ter 30 milhões ao menos vai ter que ter alguém com cacife por traz investindo no longo prazo da parada.\n\nFora que não ta no post, mas isso é pra cobrar imposto, então elas vão pagar imposto, o que vai arrecadar muito mais.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1679160190.0
             },
             {
@@ -4206,7 +4246,7 @@
             {
                 "comment_id": "jcpwdgd",
                 "comment_body": "Isso foi muito especifico. Tudo bem com vc?",
-                "comment_score": 4,
+                "comment_score": 2,
                 "comment_created_utc": 1679159992.0
             },
             {
@@ -4224,7 +4264,7 @@
             {
                 "comment_id": "jcqniiq",
                 "comment_body": "Ele é... é uma pessoa burra, é meu primo e gosto dele, mas é uma pessoa burra, fez medicina pois teve quem pagar pra ele e não tem especialização de nada",
-                "comment_score": 16,
+                "comment_score": 14,
                 "comment_created_utc": 1679171325.0
             },
             {
@@ -4242,7 +4282,7 @@
             {
                 "comment_id": "jcpwlx5",
                 "comment_body": "Porque bicicleta",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1679160090.0
             },
             {
@@ -4338,13 +4378,13 @@
             {
                 "comment_id": "jcppf2s",
                 "comment_body": "Não, mas tenho certeza que o Centrão vai querer uma fatia de uma nova fonte de arrecadação, de alguma forma.",
-                "comment_score": 29,
+                "comment_score": 28,
                 "comment_created_utc": 1679157209.0
             },
             {
                 "comment_id": "jcqvjo2",
                 "comment_body": "Esse dinheiro vai pra um \"fundo qualquer coisa dos municípios\", ali os legisladores fazem a farra, duvida? Aposte no LegislaBet",
-                "comment_score": 9,
+                "comment_score": 11,
                 "comment_created_utc": 1679174822.0
             },
             {
@@ -4368,7 +4408,7 @@
             {
                 "comment_id": "jcpyoes",
                 "comment_body": "Tem. usam parceiros bancarios. Inclusive o lucro é taxado, ou deveria ser (lucro do usuario, pois caracteriza renda no carnê leao)  \nA questão é que nao existe regulamentação, entao nao é que se der merda o Brasil nao poderia fazer nada, é que nao tipificaram as merdas legalmente falando, logo, nao existe merda a dar. O crime é manter a casa de aposta no brasil, e isso eles nao estao fazendo. Apostar nao é crime.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1679160929.0
             },
             {
@@ -4454,13 +4494,13 @@
             {
                 "comment_id": "fhf7goe",
                 "comment_body": "[deleted]",
-                "comment_score": 10,
+                "comment_score": 9,
                 "comment_created_utc": 1581537767.0
             },
             {
                 "comment_id": "fhf684v",
                 "comment_body": "Abre uma Empresa Unipessoal LTDA, tem contabilidade online por R$ 89,90/mês. Como você vai fazer exportação (se for software por exemplo) você vai pagar em torno de 3% \\~ 4% do bruto no Simples Nacional + IRPF e INSS sobre o valor do teu pró-labore, o resto é lucro.\n\n&#x200B;\n\nE.g.: Custos para R$ 10k -> Pró-labore de 2800\n\nContabilidade online \\~R$ 89,90\n\nIRPF = R$ 44,10\n\nINSS = R$ 308,00\n\nSIMPLES \\~ R$ 400\n\n\\------\n\nTOTAL \\~ R$ 842,00\n\n\\+ Tarifa bancária",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1581537052.0
             },
             {
@@ -4638,7 +4678,7 @@
             {
                 "comment_id": "eywfv0r",
                 "comment_body": "Lógico que não, você não pode desvincular de uma pessoa jurídica as despesas relativas a ela e pagar sob outro CNPJ, isso é uma forma de sonegação",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1567528528.0
             },
             {
@@ -4787,7 +4827,7 @@
             {
                 "comment_id": "dqvfj4k",
                 "comment_body": "No BK sai por R$10,50, pelo menos ainda tem o refil.Sou pegar o refri fora.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1512599252.0
             },
             {
@@ -4811,7 +4851,7 @@
             {
                 "comment_id": "dqvf0yf",
                 "comment_body": "por aqui tem restaurante que cobra quase o mesmo pelo refri e pelo almoço. (almoço ~4 euros, refri ~2euros) Todo mundo vai pelo preço da comida, que é extremamente barata, daí acaba consumindo bebida tb e eles ganham pacaralho com isso.\n\nEu acho o preço da batata frita no BR surreal. Parece que é artigo de luxo.",
-                "comment_score": 1,
+                "comment_score": 3,
                 "comment_created_utc": 1512598741.0
             },
             {
@@ -4965,7 +5005,7 @@
             {
                 "comment_id": "dj7s1m8",
                 "comment_body": "Simplifica.\n\nImagine que vc esta no BR e uma empresa Polonesa quer um App.\n\n1. Vc faz a proposta comercial (https://blog.akop.com.br > modelo de proposta), o cliente aprova e vc manda bala no gohorse e crazy monkey testing\n\n2. O cara te paga via TransferWise, ou se vc tiver uma conta na Polonia, ele faz um PolonesDOC direto pra sua conta\n\n3. Vc emite uma NF normal, com os dados da empresa dele\n\n--------\n\nEu faço isao com o AdSense. Recebo do Google internacional e tenho que emitir NF em nome do Google americano.\n\n**Funcionários**\n\nPJ gringo. Ele emite uma invoice pra vc e vc paga via TransferWise.\n\nPJ Brasileiro: acho q vc já conhece o ritual. E será mais barato que um PJ Polonês.\n\n\nComo já te responderam, tb acho que abrir empresa na UE seria mto bom... maaaaasss... os impostos deles lhe comerão as tripas.\n\n\n\n",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1498074922.0
             },
             {

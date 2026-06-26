@@ -1,16 +1,19 @@
 import pandas as pd
+from mage_ai.settings.repo import get_repo_path
+import os
 
 if 'transformer' not in globals():
     from mage_ai.data_preparation.decorators import transformer
 if 'test' not in globals():
     from mage_ai.data_preparation.decorators import test
 
+base_path = get_repo_path() if 'get_repo_path' in globals() else "."
+
 @transformer
 def transform(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
     colunas_niveis = ['Nível 1', 'Nível 2', 'Nível 3', 'Nível 4', 'Nível 5', 'Nível 6']
     colunas_presentes = [col for col in colunas_niveis if col in data.columns]
     
-    # Preenche os espaços vazios (NaN) com string vazia para o texto não quebrar
     for col in colunas_presentes:
         data[col] = data[col].fillna('').astype(str)
         
@@ -39,4 +42,7 @@ def transform(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
     
     df_agrupado = df_agrupado.sort_values('ano').reset_index(drop=True)
         
+    dt_path = os.path.join(base_path,"df_tst_processos.csv")
+    df_agrupado.to_csv(dt_path,index=False)
+
     return df_agrupado

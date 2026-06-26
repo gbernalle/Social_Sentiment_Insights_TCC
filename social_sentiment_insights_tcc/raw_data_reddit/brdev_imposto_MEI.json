@@ -1,5 +1,223 @@
 [
     {
+        "post_id": "1t6o55i",
+        "post_title": "Imposto de Renda para \"MEI DEV\" e Simples Nacional - Palavras de um Contador",
+        "post_body": "Olá pessoal tudo bom? Estou vindo aqui novamente, sou Contador que atendo alguns desenvolvedores e ja falo na comunidade tem um tempo. \n\n  \nRecentemente eu estou vindo por causa de alguns problemas que estão surgindo no Imposto de Renda desse ano e gostaria de salientar vocês: \n\n\\-----------------------------------  \nSOBRE O MEI: \n\n\\- Recentemente peguei o Imposto de Renda de alguns desenvolvedores e vi algo estranho referente as antigas entregas de declaração deles. Eles colocaram todo o faturamento deles como \"Tributavel\". Eu quero que vocês saibam que mesmo no CNAE do Suporte Técnico vocês tem uma isenção de 32% sobre o valor do rendimento bruto declarado nas notas e declaração do MEI. \n\n  \nSOBRE O SIMPLES NACIONAL:\n\n\\- Recentemente o Governo decidiu extinguir a obrigação da DIRF, e tirar as informações diretamente do eSocial e EFD-Reinf. Dessa forma fazer o informe por parte dos contadores ficou complicado e muitas mudanças retroativas estão sendo promulgadas (Ex: EFD-Reinf de 12001 para 10001).\n\n\\- Entretanto vocês ainda podem ver o informe das empresas de vocês, inclusive pedir para o contador retirar para fazer a verificação dos dados e se esta batendo com as declarações. É só seguir na seguinte ordem: Google: Serviços Receita Federal > Negócios > Declarações > Consultar Rendimentos Pagos e Retenções. \\[OBS: Deve-se logar com a empresa de vocês\\]\n\n\\------------------------------------\n\n\n\nDe qualquer forma esse ano esta cheio de picuinha e muita gente está caindo na malha. Então se tiverem alguma duvida, só perguntar ",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1t6o55i/imposto_de_renda_para_mei_dev_e_simples_nacional/",
+        "is_self_post": true,
+        "post_created_utc": 1778189390.0,
+        "comments": [
+            {
+                "comment_id": "okkci6e",
+                "comment_body": "Ganho 33k PJ, cnae de desenvolver de software sob encomenda. Caio no anexo v, mas pagando 9k de pro labore e inss, vou pro anexo III. Isso me dá uns 11% de imposto e me dá a cobertura do INSS. Você vê algum risco ou mudaria alguma coisa?",
+                "comment_score": 3,
+                "comment_created_utc": 1778207282.0
+            },
+            {
+                "comment_id": "okiyybd",
+                "comment_body": "MEI DEV? pode isso? pensei que tinha que ser ao menos ME",
+                "comment_score": 5,
+                "comment_created_utc": 1778189696.0
+            },
+            {
+                "comment_id": "okjcn3a",
+                "comment_body": "Off-topic: o quão ruim é a contabilizei? Abri meu CNPJ por lá e estou operando há pouco mais de um mês, pagando o plano mais caro (400 reais) e não tem um fdp pra me atender em momento nenhum do dia. Já tô com vários chamados, ouvidoria e até reclame aqui abertos e nada. Eu tô sendo azarado? Não é possível que é assim com todo mundo.\n\nQuanto me custaria pagar um contador diretamente pra fazer o trabalho da Contabilizei? Calcular pro labore, emitir nota, DAS, conciliar a contabilidade em si etc.\n\nME de um sócio só, PJtinha padrão, nada complicado.",
+                "comment_score": 2,
+                "comment_created_utc": 1778194005.0
+            },
+            {
+                "comment_id": "okj05pt",
+                "comment_body": "Aproveitando o tema, não dá problema esse pessoal fazendo trampo de dev com CNAE de suporte? Eu tive ME por um tempo, mas de fato prestava serviço de suporte para uma empresa americana, tinha Support no cargo e tudo.\n\nPensando em possivelmente voltar pro PJ mas como dev mesmo, qual a diferença real na alíquota? Parece ser um risco grande pra uma diferença pequena, mas estou realmente curioso.\n\nEdit: Antes que venha o meme da receita federal, não quero saber a situação de ninguém, só to perguntando pro OP se ele já viu alguém rodar fazendo isso aí.",
+                "comment_score": 1,
+                "comment_created_utc": 1778190050.0
+            },
+            {
+                "comment_id": "okje7ss",
+                "comment_body": "Acompanhando ",
+                "comment_score": 1,
+                "comment_created_utc": 1778194528.0
+            },
+            {
+                "comment_id": "okr77v9",
+                "comment_body": "Oie! Obrigada por se dispor. Eu atuava apenas como dev mas agora fui pra gerência. Ainda codo, porém bem focada em liderança e gestão de pessoas e projetos além disso. Não alterei meu CNAE. Alguma consideração? ",
+                "comment_score": 1,
+                "comment_created_utc": 1778293783.0
+            },
+            {
+                "comment_id": "okmbrmw",
+                "comment_body": "Depende. No Brasil ou prestando serviço para o Exterior?",
+                "comment_score": 2,
+                "comment_created_utc": 1778240099.0
+            },
+            {
+                "comment_id": "okiz68t",
+                "comment_body": "Não não pode, mas você ficaria surpreso com quantos eu atendo kkkk",
+                "comment_score": 8,
+                "comment_created_utc": 1778189761.0
+            },
+            {
+                "comment_id": "okkc52k",
+                "comment_body": "quê isso, uso Contabilizei e acho simplesmente maravilhoso, sempre me atendem muito bem e rapidasso\n\nacho que vc foi azarado sim viu, tenta o atendimento pelo whatsapp ",
+                "comment_score": 4,
+                "comment_created_utc": 1778207151.0
+            },
+            {
+                "comment_id": "okk0fjh",
+                "comment_body": "Depende da região, 300-500",
+                "comment_score": 2,
+                "comment_created_utc": 1778202759.0
+            },
+            {
+                "comment_id": "okne4v7",
+                "comment_body": "Eu particularmente não acho ruim (Falando como Contador), mas tem gente que gosta de um acompanhamento mais pessoal sabe. \n\n  \nEu por exemplo, sou bem seletivo com meus clientes gosto de atender PJ que ganha até 20k e sem funcionario para que eu possa dar atenção a todos. E assim eu consigo lidar melhor com os clientes que preferem ter o contato direto do contador. Mas cada um é cada um, e a contabilizei faz um excelente trabalho de massa. ",
+                "comment_score": 2,
+                "comment_created_utc": 1778251809.0
+            },
+            {
+                "comment_id": "okme651",
+                "comment_body": "Tou pagando o plano mais básico de 132 e o atendimento é horrível. Mas no final das contas funciona e não reclamo porque não achei mais barato ",
+                "comment_score": 1,
+                "comment_created_utc": 1778240994.0
+            },
+            {
+                "comment_id": "okj1ekt",
+                "comment_body": "Vamos lá.\n\nSim, existe a chance de dar problema. Em especial em uma possível investigação ou quando a pessoa descreve ou coloca na nota fiscal um código tributário de programador ou analista de dados (Sim, isso acontece).\n\nSobre o fato de você ter trabalhado para gringa com o Suporte porque tinha Support no cargo, tome muito cuidado. O entendimento legal é sobre a função e não sobre o nome do cargo (Estou atendendo um Consultor de Designer, mas ele está fazendo função descrito pelo contrato de Promotor de Vendas)\n\nA diferença é que o DEV é Anexo V. Ou seja, para ter direito a pagar a mesma alíquota do Anexo III ele tem que ter 28% de folha de pagamento (quase sempre só pró-labore). Disso, se o valor for inferior a 5 mil, você vai pagar 11% dos 28%.",
+                "comment_score": 3,
+                "comment_created_utc": 1778190421.0
+            },
+            {
+                "comment_id": "okuefe9",
+                "comment_body": "Mesmo tirando nota com outro codigo mantenha o fator R de 28%, ele é feito sobre faturamento total da sua empresa. Logo mesmo executando funções de fora dele (O que eu acredito que possa ser, teria que analisar com calma) se você deixar de contribuir com os 28% não vai conseguir voltar com o beneficio do Anexo III quando for codar novamente. \n\nDe resto, talvez fosse bom uma alteração para inclusão de um CNAE relevante, mas se a empresa que vc presta serviço não reclama e você trabalha na mesma area...então fica por isso mesmo. ",
+                "comment_score": 2,
+                "comment_created_utc": 1778343249.0
+            },
+            {
+                "comment_id": "okmtk54",
+                "comment_body": "Brasil prestando serviço pra Brasil ",
+                "comment_score": 1,
+                "comment_created_utc": 1778246009.0
+            },
+            {
+                "comment_id": "okkv3vs",
+                "comment_body": "Já tentei o whatsapp 4 vezes, três demoraram mais de uma hora e meia pra me atender, e aí eu já não podia falar, e a outra literalmente ficou no \"vamos te conectar com um especialista\" pra sempre. No telefone a URA diz que não reconhece o meu número e desliga na minha cara. Na ouvidoria já tem 7 dias sem resposta. Tá complicado.\n\nEu usei o serviço deles por recomendação de um amigo que usa e disse que é muito tranquilo, por isso tô achando que sou azarado.",
+                "comment_score": 1,
+                "comment_created_utc": 1778214966.0
+            },
+            {
+                "comment_id": "okmuauf",
+                "comment_body": "Então não. Vale lembrar que com 9k você não paga só INSS, deve pagar o IRPF tbm...tente visualizar isso na guia de pagamento.\n\nMantenha o código tributário nacional em dia com a função exercida e vai estar tudo ok.",
+                "comment_score": 2,
+                "comment_created_utc": 1778246231.0
+            },
+            {
+                "comment_id": "okmv0eb",
+                "comment_body": "Ah, além disso pelo valor recebido, futuramente busque a possibilidade de contratar um amigo seu ou algo assim.\n\nPorque vc pode diminuir o seu pró-labore e dividir a carga de 28% com outra pessoa (já que o cálculo é sobre folha de pagamento).\n\nClaro...pode deixar essa ideia para um pouco no futuro, ja que ainda tem margem, mas hoje você já paga o teto do INSS então não vale a pena ficar somando pro-labore.",
+                "comment_score": 2,
+                "comment_created_utc": 1778246443.0
+            },
+            {
+                "comment_id": "okmwmjl",
+                "comment_body": "Ah, outra coisa kkkkk\n\nSe você ganha por causa de um Software, tá ok.\n\nAgora, se você ganha por causa de um colaborador PJ (ou seja, seus 33k é salário PJtinha) talvez você seja obrigado pelos seus colaboradores a mudar para Regime Híbrido de IBS e CBS ou Lucro Presumido. Nesse caso fica esperto pq vai pagar mais imposto.",
+                "comment_score": 2,
+                "comment_created_utc": 1778246923.0
+            },
+            {
+                "comment_id": "okmzf3j",
+                "comment_body": "Sou PJtinha unipessoal, obrigado pelas informações ",
+                "comment_score": 1,
+                "comment_created_utc": 1778247748.0
+            }
+        ]
+    },
+    {
+        "post_id": "1tcegth",
+        "post_title": "Abrir conta PJ como dev Junior",
+        "post_body": "arrumei meu primeiro trampo como dev junior PJ, preciso abrir uma conta ME ou MEI? meu salário vai ser de 4k então meu faturamento anual chega a 48k. Vi aqui que na CNAE de MEI não tem desenvolvedor de softwere e o pessoal recomenda colocar \"Instrutor de internet\". Mas na hora de emitir as notas, se eu colocar outros serviços que prestei, ao invés de desenvolvimento de API e etc, a empresa pode querer não pagar?\n\nnão quero abrir um ME só pra colocar na CNAE \"Consultor de tecnologia\" e pagar 15% de imposto + contador\n\nOBS: a empresa é grande então tô com medo delas não pagarem minha NF",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1tcegth/abrir_conta_pj_como_dev_junior/",
+        "is_self_post": true,
+        "post_created_utc": 1778709788.0,
+        "comments": [
+            {
+                "comment_id": "olocygo",
+                "comment_body": "Fala, amigo.  \nTenho um cliente que é DEV. O 15% de imposto se da pelo fator R, mas é possível fazer ele ir para 6% com a retirada de 28% de prolabore e o resto como distribuição de lucro.  \nPode me chamar que te explico melhor.",
+                "comment_score": 3,
+                "comment_created_utc": 1778720665.0
+            },
+            {
+                "comment_id": "olngvw7",
+                "comment_body": "Independente do que disserem não é permitido programadores serem MEIs por lei",
+                "comment_score": 2,
+                "comment_created_utc": 1778710122.0
+            },
+            {
+                "comment_id": "olnk5zh",
+                "comment_body": "Tem que ser ME por ser uma atividade intelectual. Eu uso a contabilizei e indiquei pra uma colega que começou como Jr também na empresa. O processo de abertura é ok. Vale a pena conversar com o financeiro ou RH da sua empresa, OP, eles vão saber mais sobre as regras que nós 😄\n\n",
+                "comment_score": 2,
+                "comment_created_utc": 1778711158.0
+            },
+            {
+                "comment_id": "ololqf0",
+                "comment_body": "Programador não pode ser MEI por lei, evite dor de cabeça ",
+                "comment_score": 2,
+                "comment_created_utc": 1778723606.0
+            },
+            {
+                "comment_id": "olngskv",
+                "comment_body": "Oi, tto na mesma que você. Porém entrei como estagiário na empresa que trabalho e só abri meu PJ ME, depois que entrei. Eles não aceitavam MEI então tive que abrir ME mesmo. Se eu fosse você perguntaria pra eles, se aceitam fazer essa esquema aí. Se der certo, boa! ",
+                "comment_score": 1,
+                "comment_created_utc": 1778710092.0
+            },
+            {
+                "comment_id": "olnklyd",
+                "comment_body": "Aí é só perguntando a empresa se eles aceitam qualquer descrição ou cnae. Algumas aceitam e outras não.",
+                "comment_score": 1,
+                "comment_created_utc": 1778711299.0
+            },
+            {
+                "comment_id": "olntxtg",
+                "comment_body": "Tem que saber se a empresa aceita MEI ou somente ME. No meu primeiro emprego e na empresa atual onde estou aceitam MEI.\n\n",
+                "comment_score": 1,
+                "comment_created_utc": 1778714345.0
+            },
+            {
+                "comment_id": "olovukp",
+                "comment_body": "Vai de MEI\n\nDica: use um e-mail apenas pro MEI. Vai chegar muuuuuuito golpe ",
+                "comment_score": 1,
+                "comment_created_utc": 1778727091.0
+            },
+            {
+                "comment_id": "omjcx5k",
+                "comment_body": "Cara, não vai nessa de “MEI de instrutor de informática” pra trabalhar como dev. Desenvolvimento de software não pode ser MEI e usar CNAE nada a ver só pra emitir NF pode te dar dor de cabeça depois, tanto com a prefeitura quanto com a empresa contratante.\n\nO caminho mais comum pra dev PJ hoje é abrir uma ME no Simples Nacional com CNAE de desenvolvimento/consultoria em TI. E não necessariamente você vai pagar 15% de imposto! Existe o Fator R, que pode reduzir bastante a alíquota dependendo do pró-labore e da folha. Tem muito dev pagando algo perto de 6% a 10% no Simples quando o enquadramento é feito certo.\n\nInclusive é aí que entra contratar uma boa contabilidade pra definir CNAE, regime tributário, pró-labore etc. Se errar isso no começo, você pode acabar pagando imposto à toa. Contabilidade online tipo a [Contabilizei](https://www.contabilizei.com.br/?utm_source=chatgpt.com) normalmente já faz essas simulações de Fator R e acompanha mês a mês pra manter o menor imposto possível dentro da lei.\n\nE sobre a empresa “não pagar” a NF: o mais importante é a nota estar emitida corretamente e o CNAE da empresa fazer sentido com o serviço prestado. Se você abrir como dev/consultoria de TI certinho, isso na verdade passa mais segurança pra empresa grande do que meter um MEI de atividade aleatória...",
+                "comment_score": 1,
+                "comment_created_utc": 1779132504.0
+            },
+            {
+                "comment_id": "olnlaz6",
+                "comment_body": "Abre um MEI e dale, conheco dezenas de devs que atuam como PJ e só trocaram pra ME quando passaram dos R$6750 mensais, nao vai dar problema, existe a possibilidade da empresa querer q vc fosse uma ME emitindo nota certinho por questões de compliance, pq isso afeta o valuation etc, mas te alertariam se fosse o caso\n\nBota la instrucao em informatica e fica tranquilo (mas tudo que falaram aqui sobre ser proibido é verdade)",
+                "comment_score": 0,
+                "comment_created_utc": 1778711523.0
+            },
+            {
+                "comment_id": "olopigs",
+                "comment_body": "Estagiário PJ? Quidiabeisso ",
+                "comment_score": 3,
+                "comment_created_utc": 1778724881.0
+            },
+            {
+                "comment_id": "olni1n5",
+                "comment_body": "Sim, pessoal esquece do principal que é a comunicação com empresa, trabalhando já vi gente regular, ME tirando nota no CNAE diferente para não ter pró labore, colocando no anexo errado, usando MEI; Enfim, cada caso é diferente.",
+                "comment_score": 2,
+                "comment_created_utc": 1778710484.0
+            },
+            {
+                "comment_id": "olr816y",
+                "comment_body": "Eu entrei como estagiário, recebia via PIX e quando fui efetivado virei PJ.",
+                "comment_score": 1,
+                "comment_created_utc": 1778764388.0
+            }
+        ]
+    },
+    {
         "post_id": "1rrxybt",
         "post_title": "Fiz a conta do meu valor/hora real como freelancer e quase caí da cadeira. Alguém mais já fez esse exercício?",
         "post_body": "Sou freelancer há um tempo e finalmente sentei pra calcular quanto eu realmente preciso cobrar por hora pra não sair no prejuízo.\n\nA conta que a maioria faz:\n\n\"Quero ganhar R$8.000/mês ÷ 160 horas = R$50/hora\"\n\nA conta real:\n\n\\- R$8.000 de renda desejada\n\n\\- + R$1.200 de impostos (MEI/Simples/INSS)\n\n\\- + R$800 de ferramentas e assinaturas\n\n\\- + R$600 de reserva pra férias e emergência\n\n= R$10.600 que você precisa faturar\n\nMas das 160h do mês, quantas são realmente faturáveis? Tira reunião, e-mail, prospecção, admin, proposta que não vira nada... sobram umas 96h faturáveis sendo otimista.\n\nR$10.600 ÷ 96h = R$110/hora\n\nEu estava cobrando R$55.\n\nQuando vi esse número quase desisti de fazer a conta. Mas pelo menos explica por que no fim do mês eu tinha a sensação de trabalhar muito e sobrar pouco.\n\nAlguém mais aqui já fez essa conta de verdade? Qual foi o susto? E como vocês lidaram com reajustar o preço pra clientes antigos que já estavam acostumados com o valor anterior?",
@@ -10,13 +228,13 @@
             {
                 "comment_id": "oa2xyib",
                 "comment_body": "O que mais me assusta é o primeiro parágrafo, o cara está fazendo freelance há algum tempo e só agora parou pra fazer essas contas kkkkkkkkkk",
-                "comment_score": 174,
+                "comment_score": 175,
                 "comment_created_utc": 1773339058.0
             },
             {
                 "comment_id": "oa2wnxl",
                 "comment_body": "Eu sempre faturo 8h por dia não importa se é reunião, alinhamento etc ",
-                "comment_score": 71,
+                "comment_score": 69,
                 "comment_created_utc": 1773338705.0
             },
             {
@@ -28,19 +246,19 @@
             {
                 "comment_id": "oa2zsco",
                 "comment_body": "Peguei meu primeiro freela para fazer um tempo atrás, até coloquei aqui no reddit. E cobrei 4k por um saas multi-tenancy inteiro, e sem definir escopo fechado de MVP, ai o cara já lançou que vai coletar feedbacks ainda e tals... Só de assinatura do claude já morrei 500 pila, mas ta bom, vivendo e aprendendo.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1773339563.0
             },
             {
                 "comment_id": "oa2xckd",
                 "comment_body": "Entendeu porque as reuniões são tão \"proibidas\" no mundo corporativo ?  São um custo que desaparece e não traz retorno nenhum.\n\nPor isso todos buscam tanto a produtividade máxima, pra tentar chegar o mais próximo possível do valor de R$55 que chegou.\n\nNo seu caso, se conseguisse aumentar pra umas 130 horas, chegava perto dos 80 reais. ",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1773338892.0
             },
             {
                 "comment_id": "oa320g5",
                 "comment_body": "Com quais ferramentas e assinaturas você tá contando nesses 800 R$?",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1773340179.0
             },
             {
@@ -52,13 +270,13 @@
             {
                 "comment_id": "oa3evhv",
                 "comment_body": "Se te consola, 60% (96h/160h) tá dentro do padrão da indústria pra profissional services pra quem trabalha com muitos projetos ao mesmo tempo.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1773343772.0
             },
             {
                 "comment_id": "oa72f7d",
                 "comment_body": "Vale a pena você calcular o valor da hora pra entender o quanto cobrar por um projeto fechado.\n\n\nMas pro cliente, jamais cobrar por hora. Sempre projeto fechado.\n\n\nEscopo bem definido, inclusive quantidade de reuniões por semana e de quanto tempo.\n\n\nComo dito por outros no post - se demora menos, cliente quer desconto; se demora mais, cliente quer o preço original.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1773394486.0
             },
             {
@@ -70,7 +288,7 @@
             {
                 "comment_id": "oa7arun",
                 "comment_body": "Bom, faz muito tempo que eu aprendi que pra trampar de freela tu tinha que cobrar o dobro do que tu ganhava de salário no momento, por conta justamente desses custos, hoje eu já sei incluir os impostos e tal, mas a base era isso, Seu salário almejado * 2 / 220 (carga horária padrão CLT). Aí chegava em um número e sempre me funcionou, hoje voltei a ser CLT, mas sempre que aparece algum bico eu vou nessa base...",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1773398817.0
             },
             {
@@ -148,7 +366,7 @@
             {
                 "comment_id": "oa3bx5h",
                 "comment_body": "realidade da maioria, infelizmente, qual tem sido a experiencia por ai?",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1773342934.0
             },
             {
@@ -160,7 +378,7 @@
             {
                 "comment_id": "oa3ctof",
                 "comment_body": "até pq qualquer reuniao que tenha a ver com o trabalho é trabalho e é produtivo (ou deveria ser kkkk)",
-                "comment_score": 34,
+                "comment_score": 33,
                 "comment_created_utc": 1773343190.0
             },
             {
@@ -172,7 +390,7 @@
             {
                 "comment_id": "oa3zic9",
                 "comment_body": "estabelecer esse limite parece um bom caminho mesmo, principalmente depois de certa experiencia",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1773349548.0
             },
             {
@@ -244,7 +462,7 @@
             {
                 "comment_id": "oagxsg8",
                 "comment_body": "Anualizar iria ajudar bastante a reduzir a sazonalidade e como critério de quais projetos priorizar. Você usa alguma ferramenta pra acompanhar essa meta anual ou faz na planilha?\n",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1773524390.0
             },
             {
@@ -310,7 +528,7 @@
             {
                 "comment_id": "oa3y7ev",
                 "comment_body": "Verdade, mas nao é assim com todo o tipo de trabalho? \n\nAcho que para os quem tem a orientação e disciplina certa pode ser um ótimo caminho  ",
-                "comment_score": 6,
+                "comment_score": 8,
                 "comment_created_utc": 1773349172.0
             },
             {
@@ -322,7 +540,7 @@
             {
                 "comment_id": "oa3yzgt",
                 "comment_body": "é um velho dilema, vale o que for combinado na fase negocial",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1773349396.0
             },
             {
@@ -358,7 +576,7 @@
             {
                 "comment_id": "oa3a8kv",
                 "comment_body": "rapaz por aqui nem se somar tudo que eu pago da isso ai, porém o contador é R$ 250",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1773342465.0
             },
             {
@@ -380,6 +598,12 @@
                 "comment_created_utc": 1773528444.0
             },
             {
+                "comment_id": "oax0lwf",
+                "comment_body": "Essa abordagem é algo que eu uso no meu trabalho. Eu sou contratado em um organismo internacional, então por aqui é tudo planejado e executado nessa ótica anual. Na minha situação eu criei um Dashboard que monitora essas questões usando como base o sistema transacional financeiro e uma tabela de metas que é desenhada junto com os meus gestores. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773749212.0
+            },
+            {
                 "comment_id": "oa7vfnu",
                 "comment_body": "A maioria dos meus clientes vieram através de recomendação, nunca gastei muito tempo procurando às cegas. Americanos são mais diretos e, não vão te deixar de molho analisando uma proposta por 3 semanas. Acredito que essa parte seja mais eficiente do que com clientes nacionais.\n\nFoi tranquilo mudar pro modelo de assinatura. Fiz uma proposta (1 página) pro meu maior cliente explicando o porquê da mudança e enviei no Slack. Aceitaram sem contestar nenhuma condição.",
                 "comment_score": 3,
@@ -388,7 +612,7 @@
             {
                 "comment_id": "oah08zs",
                 "comment_body": "Proposta de 1 página no Slack e aceitaram direto — isso mostra que quando o cliente confia no trabalho, o modelo importa menos que o relacionamento. Recomendação como canal principal de aquisição é o objetivo de todo freela. ",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1773525177.0
             },
             {
@@ -500,7 +724,7 @@
             {
                 "comment_id": "o8fw0j5",
                 "comment_body": "A primeira folha de pagamento sempre da aquele baque",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1772557939.0
             },
             {
@@ -512,7 +736,7 @@
             {
                 "comment_id": "o8fvx3w",
                 "comment_body": "O cara ta mais perdido do que cego em tiroteio... rsrs",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1772557912.0
             },
             {
@@ -578,7 +802,7 @@
             {
                 "comment_id": "o8fvufr",
                 "comment_body": "Eu nunca vou entender essa de ter juntado um bom dinheiro, dá pra guardar o salário tranquilamente por 3 meses ter sua reserva de emergência a lá seguro desemprego.",
-                "comment_score": -5,
+                "comment_score": -3,
                 "comment_created_utc": 1772557891.0
             },
             {
@@ -602,7 +826,7 @@
             {
                 "comment_id": "o8g31d5",
                 "comment_body": "É um baque ver o tamanho da fatia que vai para a \"contribuição\"",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1772559932.0
             },
             {
@@ -644,7 +868,7 @@
             {
                 "comment_id": "o8fxw7d",
                 "comment_body": "No Brasil exceção é conseguir guardar 3 meses do salário. Não entendi sua indagação ",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1772558471.0
             },
             {
@@ -808,13 +1032,13 @@
             {
                 "comment_id": "nyhande",
                 "comment_body": "Quando eu tinha CNPJ, pagava bem feliz pro contador e ele se virava com tudo. \"Ain mas tem o site seilaoque que gerencia tudo pra ti\"\n\nGerencia até tu ter um problema fiscal/contábil porque a plataforma não previu alguma coisa...",
-                "comment_score": 24,
+                "comment_score": 25,
                 "comment_created_utc": 1767909115.0
             },
             {
                 "comment_id": "nyi07jz",
                 "comment_body": "eles sabem tudo isso, eh q a maioria quer ser o \"espertão\" e dar golpe mesmo...  \n\"Não existe governo corrupto com povo honesto\"",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1767916468.0
             },
             {
@@ -830,16 +1054,22 @@
                 "comment_created_utc": 1767907802.0
             },
             {
+                "comment_id": "o7iwmum",
+                "comment_body": "cara, isso é MUITO real!!!! eu achava que dava pra ser MEI no começo, quase fui nessa de abrir rapidinho e pensar depois, ainda bem que pesquisei melhor antes de fazer besteira... se eu tivesse aberto sozinho provavelmente ia me enrolar bonito!! hoje tô com a contabilizei e, pra mim, resolveu porque eles já enquadraram certo desde o início e explicaram como funciona essa parte de pró-labore pra não cair direto no Anexo V pagando mais logo de cara, eu recomendo uma contabilidade mais especializada em devs mesmo, tipo a contabilizei, pra ajudar nessas questões do imposto et",
+                "comment_score": 3,
+                "comment_created_utc": 1772118343.0
+            },
+            {
                 "comment_id": "nyknw3m",
                 "comment_body": "Quando eu tava trabalhando PJ mandei mensagem pro contador falando quanto seria a renda mensal e falei: agora você se vira, a paz que eu tive foi surreal esse tempo, podendo gastar todas as minhas energias em apenas escrever palavrinhas no VSCode \n\nAté hoje não sei emitir uma nota fiscal",
                 "comment_score": 2,
                 "comment_created_utc": 1767954955.0
             },
             {
-                "comment_id": "o7iwmum",
-                "comment_body": "cara, isso é MUITO real!!!! eu achava que dava pra ser MEI no começo, quase fui nessa de abrir rapidinho e pensar depois, ainda bem que pesquisei melhor antes de fazer besteira... se eu tivesse aberto sozinho provavelmente ia me enrolar bonito!! hoje tô com a contabilizei e, pra mim, resolveu porque eles já enquadraram certo desde o início e explicaram como funciona essa parte de pró-labore pra não cair direto no Anexo V pagando mais logo de cara, eu recomendo uma contabilidade mais especializada em devs mesmo, tipo a contabilizei, pra ajudar nessas questões do imposto et",
+                "comment_id": "og5fijt",
+                "comment_body": "Esse contador me ajudou a montar a minha empresa. Já tinha sido sacaneada pela Contabilizei e precisava de uma contabilidade que eu pudesse ao menos conversar e que me explicasse os processos e ele foi muito solicito. Recomendo.",
                 "comment_score": 2,
-                "comment_created_utc": 1772118343.0
+                "comment_created_utc": 1776181106.0
             },
             {
                 "comment_id": "nyhrlsg",
@@ -896,6 +1126,12 @@
                 "comment_created_utc": 1771348098.0
             },
             {
+                "comment_id": "ob22tiy",
+                "comment_body": "Ola grande mestre da contabilidade, espero que me dê algumas dicas\nEstou pra abrir meu CNPJ :D Para receber logo, se Deus permitir, do esterior.... E durante minhas pesquisas para um faturamento dos sonhos bruto anual de 365k Aprox, 31k mês \nEstou pensando em abrir um simples nacional me, com CNAE 8219-9/99*: \"Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente\".\nSendo assim já estou no anexo III. Vou emitir no máximo duas notas por mês com CFOP5936, 6936, 5949 ou 6949\nSendo assim estou previsando um curto de 14% aproximado de imposto .\nE ai o que você acha ? Vê uma estratégia melhor ? \n",
+                "comment_score": 1,
+                "comment_created_utc": 1773804456.0
+            },
+            {
                 "comment_id": "nygzumf",
                 "comment_body": "My man",
                 "comment_score": 1,
@@ -914,21 +1150,33 @@
                 "comment_created_utc": 1767916578.0
             },
             {
+                "comment_id": "nyh3izz",
+                "comment_body": "Claro, dou uma olhada sim.",
+                "comment_score": 4,
+                "comment_created_utc": 1767907253.0
+            },
+            {
+                "comment_id": "o0vlzse",
+                "comment_body": "isso é muito necessário sempre vamos ter dúvidas relacionada a esse sentido. ",
+                "comment_score": 1,
+                "comment_created_utc": 1769012304.0
+            },
+            {
                 "comment_id": "nyhcaab",
                 "comment_body": "Clássico do Clássico...infelizmente.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1767909529.0
             },
             {
                 "comment_id": "nyhcodg",
                 "comment_body": "Conheci um Desenvolvedor que tinha uma contabilidade de uma certa empresa bem famosa que faz anuncios no Youtube dizendo ser especialista em Desenvolvedores. Que ficou quase 2 anos pagando no Anexo V, porque delegaram o trabalho para 5 pessoas em setores diferentes para cuidar da empresa dela e ninguem sabia de nada...infelizmente existe problema tanto em empresas que automatizam tudo e empresas que delegam tudo.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1767909629.0
             },
             {
                 "comment_id": "nyi785v",
                 "comment_body": "Lembro até hoje numa consultoria que trabalhava quando mudou uma regra do simples(ou mei, nao me recordo) por conta da galera prestar serviço em SP mas serem a maioria de outro município. Geral se ferrando tentando descobrir como resolver e eu pleno pois meu contador já tinha resolvido :)",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1767918626.0
             },
             {
@@ -938,15 +1186,21 @@
                 "comment_created_utc": 1767918808.0
             },
             {
+                "comment_id": "omo7iqb",
+                "comment_body": "Sim, e fazemos isso com gosto! Mas se você senti fetiche com impostos exorbitantes, tá tudo bem.",
+                "comment_score": 1,
+                "comment_created_utc": 1779198959.0
+            },
+            {
                 "comment_id": "nyh6w0c",
                 "comment_body": "Se você manter o seu Prolabore em 28% sim. Porem a função do desenvolvedor ele é tributado pelo Anexo V. Isso significa que se você for MEI, e tirar nota de desenvolvedor, se for desenquadrado é certo de pagar um imposto altíssimo.",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1767908130.0
             },
             {
                 "comment_id": "nyh7aep",
                 "comment_body": "É o caso de algumas empresas que estou pegando agora. O problema é que 3 delas, estavam como MEI tirando como nota desenvolvedor e foram desenquadradas retroativamente, logo como as notas estavam como desenvolvedor elas entrariam no Anexo V. \n\nEstou dando meus pulos para fazer o pro-labore retroativo. Mas não é o ideal, o ideal é começar como ME.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1767908232.0
             },
             {
@@ -1004,6 +1258,12 @@
                 "comment_created_utc": 1768000493.0
             },
             {
+                "comment_id": "obcoknm",
+                "comment_body": "Evita esse CNAE de principal. Olha, o ideal é colocar o CNAE de programador (caso seja o seu caso) para evitar problema. \n\nMASSSS, se vc for louco e quer arriscar perder tudo e tomar uma multa fudida: Coloca Suporte Tecnico mesmo, faça um contrato equivalente a prestação de suporte tecnico a aplicativos e programas (Ou seja, vc esta \"Prestando suporte a empresa nos codigos dos aplicativos e programas\" e não desenvolvendo) E não seja burro de tirar nota com codigo de programador e sim de suporte.\n\nDentro dos CFOP que vc indicou, todos levantam suspeita. Se quer enganar a receita (kkkkkkkk boa sorte) ao menos tem que parecer legitimo. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773946028.0
+            },
+            {
                 "comment_id": "nyh7q7i",
                 "comment_body": "A idéia é sempre pagar menos,, mas se for de forma errada e for pego, ai da problema... :/",
                 "comment_score": 16,
@@ -1012,7 +1272,7 @@
             {
                 "comment_id": "nyh7nvm",
                 "comment_body": "Ta loco defender imposto haha, eu sou Economista e Contador e sou libertário. Eu só ajudo desenvolvedores a não se lascarem mesmo pro Leão.",
-                "comment_score": -1,
+                "comment_score": 1,
                 "comment_created_utc": 1767908329.0
             },
             {
@@ -1026,6 +1286,12 @@
                 "comment_body": "Regras mudam o tempo todo, precisa ter uma malícia",
                 "comment_score": 1,
                 "comment_created_utc": 1767919211.0
+            },
+            {
+                "comment_id": "omqu68z",
+                "comment_body": "Já que você usou uma argumentação bosta (não argumentou nada), praticamente usou 3 técnicas de Schopenhauer, estratagemas 1, 12 e 38.  \nVou responder no mesmo nível que você: \"Você não sabe a diferença de 'sente' para 'senti' e quer tentar debater algo.\"\n\nOu, se quiser uma resposta mais lógica:  \n\"Você não rebateu o argumento, só inventou outro. Falei de gente querendo dar golpe, e você transformou isso em “fetiche por imposto”. Isso não é contra-argumento, é espantalho com sarcasmo.\"",
+                "comment_score": 1,
+                "comment_created_utc": 1779224552.0
             },
             {
                 "comment_id": "nykqjds",
@@ -1048,7 +1314,7 @@
             {
                 "comment_id": "nyh9meo",
                 "comment_body": "É só tirar pro labore de 28% do faturamento que virá anexo 3... Claro, vai pagar imposto na PF com esse pro labore. Mas é o mais correto do ponto de vista legal e ainda é muito menos imposto de alíquota efetiva (somando pf + pj) do que a tabela do IRPF com desconto na fonte sendo CLT",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1767908844.0
             },
             {
@@ -1070,15 +1336,27 @@
                 "comment_created_utc": 1768031273.0
             },
             {
+                "comment_id": "omrcgl5",
+                "comment_body": "kkkkkkkkkk aiinnnnn ela jogou a bolsa no chaummm kkkkkkkkkkk",
+                "comment_score": 1,
+                "comment_created_utc": 1779230046.0
+            },
+            {
                 "comment_id": "nyktmqj",
                 "comment_body": "A maioria dos serviços são tributados diretamente no anexo III, não é o caso dos desenvolvedores e de alguns outros.",
                 "comment_score": 1,
                 "comment_created_utc": 1767957873.0
             },
             {
+                "comment_id": "obcp4bp",
+                "comment_body": "O Prolabore tem que ser 28% ou 1 salario minimo. \n\nDesse valor vc vai pagar 11% (E o IR caso seja acima de 5 mil) e sim, conta como contribuição...porem dentro do valor do Pro-labore. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773946182.0
+            },
+            {
                 "comment_id": "nyiq6ud",
                 "comment_body": "O certo é a empresa contratante conferir as notas recebidas e assegurar que estão corretas. Se uma empresa ficar aceitando nota incompatível com o serviço executado (o que é o caso se o serviço demanda CNAE de ME e ela está aceitando CNAE de atividade incorreta de um MEI) pode despesa retirada de abatimento pela Receita, ela pode ser considerada corresponsável pela fraude...\n\nNão sei o quão comum é isso dar problema, mas faz sentido a empresa contratante não querer correr risco e exigir o CNAE certo na nota.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1767924638.0
             },
             {
@@ -1184,13 +1462,13 @@
             {
                 "comment_id": "ngqjwcy",
                 "comment_body": "As suas perguntas, embora sejam válidas, são irrelevantes pelo seguinte. Você já fez merda abrindo MEI e trabalhando como desenvolvedor. Eu já cansei de falar isso aqui, e repito novamente -- MEI não é \"PJ na prática\", repete isso pra si mesmo: MEI NÃO É \"PJ NA PRÁTICA\".\n\nVocê já começou errado ao trabalhar numa função não enquadrada por MEI (que enquadra atividades de pessoas com baixa qualificação), embora seja incomum pelo seu ganho baixo, a receita pode te desenquadrar de MEI e te multar por isso, ainda mais se seu faturamento começar a passar de 81k anual.\n\nOutro erro seu é falar de pejotização e reclamar de direitos. Cara, pelo amor de Deus, você abre um MEI, que na lei fala o seguinte: até 81k anual de faturamento é o limite para ser MEI. 81k de faturamente dá um pouco mais de 6 mil reais por mês. Você está dizendo para qualquer contratante te pagar até esse valor, porque nenhuma empresa vai ser imbecil de te contratar como MEI pagando 10k mensal e depois tomar multa da receita federal por sua causa. Outro problema é que o fato de você ser CNPJ não te faz empresa na prática, por isso que vemos um monte de gente achando que vai ser PJ e ter seus horários definidos por si mesmo, o que é uma loucura total sendo MEI ainda, e depois ficar reclamando que cumpre horário de CLT sem direitos algum. Isso acontece justamente porque a pessoa não entende que um PJ mesmo precisa ter outro tipo de estrutura e pensamento.\n\nQuanto ao fato de MEI não ser \"PJ na prática\" é muito simples... Quando aparece o seu nome na razão social, significa o seguinte: não há separação dos seus bens pessoais e de seus bens como pessoa jurídica, porque o MEI é uma PJ com responsabilidade ILIMITADA. Qualquer merda que venha a ocorrer com você sendo MEI, você responde com seus bens pessoais e acabou. Se, por exemplo, uma empresa que te contrata como PJ faz alguma merda trabalhista com algum funcionário CLT deles, se você como terceirizado tiver alguma relação de eventual prejuízo a esse terceiro (funcionário), você se fode respondendo a essa dívida trabalhista com seus bens pessoais (enquanto a empresa que te contratou não). \n\nQual o sentido de abrir um CNPJ que a responsabilização é igual a de uma PF (também ilimitada)? Não faz o menor sentido, vai ficar pagando DAS pra porra nenhuma? É mais barato ficar como PF. MEI é uma jabuticaba brasileira que não tem lógica, é mais jogo fazer como médicos fazem e abrir uma SLU. \n\n  \nObs. O real motivo do MEI é que ele só foi criado devido à alta informalidade no Brasil, para poder fazer nego ser contribuinte do INSS (uma pirâmide, diga-se de passagem), o governo inventou essa babaquice que é o MEI, algo sem sentido algum.",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1759101484.0
             },
             {
                 "comment_id": "ngqc76l",
                 "comment_body": "Bicho, se o cara acha que MEI é complicado, realmente tá complicado viu...",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1759098869.0
             },
             {
@@ -1474,7 +1752,7 @@
             {
                 "comment_id": "mlk209z",
                 "comment_body": "Se você puder tirar uma dúvida agradeço muito!\n\nOnde eu coloco o rendimento tributável e o rendimento isento através da plataforma online? Todos os tutoriais que encontro mostram através do programa, mas queria fazer pelo site mesmo.  \n  \nNo programa, pelo que encontrei, o rendimento isento ficaria em \"Rendimentos Isentos e Não Tributáveis” - código 09 (Lucros e dividendos recebidos), enquanto que o tributável ficaria em Rendimentos Tributáveis Recebidos de PJ. Mas e na plataforma online? Seria pelo \"Outros Rendimentos Tributáveis\" e \"Outros Rendimentos Isentos\"?",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1743868614.0
             },
             {
@@ -1616,7 +1894,7 @@
             {
                 "comment_id": "m5ltemo",
                 "comment_body": "[deleted]",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1736118986.0
             },
             {
@@ -1634,7 +1912,7 @@
             {
                 "comment_id": "m5q32c6",
                 "comment_body": "Uso a contabilizei. Estou enquadrado como ME no simplesNacional.\n\n\n\n\nO único trabalho que tenho é gerar a nota. O resto a contabilizei faz automático, e já deixo também os pagamentos em débito automático. Zero preocupação. ",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1736183646.0
             },
             {
@@ -1687,7 +1965,7 @@
             },
             {
                 "comment_id": "m5oc4pr",
-                "comment_body": "Tambem uso e recomendo a Adaflow",
+                "comment_body": "[removed]",
                 "comment_score": 1,
                 "comment_created_utc": 1736157626.0
             },
@@ -1735,7 +2013,7 @@
             },
             {
                 "comment_id": "m9nyc3d",
-                "comment_body": "Vou te mandar no pv",
+                "comment_body": "[removed]",
                 "comment_score": 1,
                 "comment_created_utc": 1738083953.0
             },
@@ -1782,7 +2060,7 @@
             {
                 "comment_id": "lyw2nj1",
                 "comment_body": "Mano não sei exatamente como funciona, mas, na PagSeguro e no Aasas vc não precisa de CNPJ p cobrar a galera. Além disso, tendo bons termos de serviço e comunicação muito clara, pouco provável vc receber cobrança de alguém por uma nota fiscal do seu produto.\n\nNo demais, se vc for estudante, no Github student pack tem parceria com a stripe para redução de taxas e ainda tem software p vc fazer o controle de licença do seu software.",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1732533892.0
             },
             {
@@ -1818,7 +2096,7 @@
             {
                 "comment_id": "lyw2dti",
                 "comment_body": "receber em bitcoin, naturalmente legalizado já que n tem lei",
-                "comment_score": 1,
+                "comment_score": 0,
                 "comment_created_utc": 1732533735.0
             },
             {
@@ -1830,13 +2108,13 @@
             {
                 "comment_id": "lyw31a1",
                 "comment_body": "Procurando pelo celular encontrei esse link aqui e me faz sentido.\n\nhttps://www.pereiramontenegro.com.br/blog/riscos-de-possuir-maquina-de-cartao-de-credito-no-cpf\n\nP.s. compartilha sua história de empreendimento e trajetória lá no r/meunegocio",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1732534115.0
             },
             {
                 "comment_id": "lywe5m5",
                 "comment_body": "Sou contador, querendo virar DEV e indico abrir o MEI com o CNAE digitador, tenho uma MEI assim\nVocê pode deixar de declarar SONEGAR tranquilamente \nO que tem de empresa com mais de 150 - 180 mil sonegando e não pagando NADA de impostos “não está escrito no papel”",
-                "comment_score": -1,
+                "comment_score": -3,
                 "comment_created_utc": 1732539688.0
             },
             {
@@ -1976,6 +2254,12 @@
                 "comment_created_utc": 1725559919.0
             },
             {
+                "comment_id": "oo451nk",
+                "comment_body": "Agora, com essa obrigação de emissão de nota fiscal, isso não funciona mais, correto?",
+                "comment_score": 1,
+                "comment_created_utc": 1779858529.0
+            },
+            {
                 "comment_id": "llpyf7p",
                 "comment_body": "Eu olhei na busca antes de postar e não achei nenhuma informação relevante sobre ITIN.",
                 "comment_score": 2,
@@ -2070,7 +2354,7 @@
             {
                 "comment_id": "k7jsmfj",
                 "comment_body": "Legalmente tu fez certo mas na prática a receita não vai atrás de alguém ganhando 3k/mês.",
-                "comment_score": 73,
+                "comment_score": 72,
                 "comment_created_utc": 1698953532.0
             },
             {
@@ -2082,19 +2366,19 @@
             {
                 "comment_id": "k7k3lxs",
                 "comment_body": "Como pode esse absurdo ser tão normalizado. Tem que ser muito merda pra contratar alguém como PJ e pagar menos de 5K. 2K PJ é um crime.\n\nPelo menos como ME você não está cometendo fraude. **Junte provas do seu vínculo trabalhista** e faça a empresa pagar tudo quando sair. Se você fosse MEI, estaria sonegando impostos e cometendo fraude, isso dificulta a sua vida.",
-                "comment_score": 44,
+                "comment_score": 45,
                 "comment_created_utc": 1698957476.0
             },
             {
                 "comment_id": "k7k94kh",
                 "comment_body": "Vai buscando outra coisa o mais rápido possível. Eu muito provavelmente processaria a empresa depois de sair também. 2k é menos do que a empresa pagaria pra um CLT com salário mínimo.",
-                "comment_score": 9,
+                "comment_score": 11,
                 "comment_created_utc": 1698959481.0
             },
             {
                 "comment_id": "k7jtsix",
                 "comment_body": "Acho que com esse salário era melhor ficar como CLT mesmo (estou escrevendo isso sem saber seu contexto e do ponto de vista de alguém que mora em São Paulo), como PJ pelo menos existe a possibilidade de vc ir atrás de outros contratos com outras empresas pelo menos.",
-                "comment_score": 10,
+                "comment_score": 12,
                 "comment_created_utc": 1698953957.0
             },
             {
@@ -2106,7 +2390,7 @@
             {
                 "comment_id": "k7mm1ge",
                 "comment_body": "Não sei onde foi que normalizaram PJ pra Jr ou Pleno. Antigamente era apenas pra sênior pra salários de 15K+ pq realmente fazia uma grande diferença.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1699002911.0
             },
             {
@@ -2118,7 +2402,7 @@
             {
                 "comment_id": "k7k17ry",
                 "comment_body": "3k por mês você não precisava sair do MEI. \n\nQuem te deu esse conselho pra ir pra ME? Esse aí merece uma surra pra deixar de ser FDP",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1698956621.0
             },
             {
@@ -2214,13 +2498,13 @@
             {
                 "comment_id": "k7mueeg",
                 "comment_body": "Você já pensou que o funcionário pode querer ser PJ? \n\nOlha como funciona nos EUA, um contrato de trabalho normal e muito mais parecido com um PJ aqui.\n\n\"Segurança e direitos\" de porra nenhuma, tem que colocar na planilha quanto vai ganhar no bolso e ir pra vaga independente do tipo de contratação",
-                "comment_score": -9,
+                "comment_score": -8,
                 "comment_created_utc": 1699009099.0
             },
             {
                 "comment_id": "k7lzgyk",
                 "comment_body": "> Junte provas do seu vínculo trabalhista e faça a empresa pagar tudo quando sair.\n\ncredo",
-                "comment_score": -17,
+                "comment_score": -19,
                 "comment_created_utc": 1698985520.0
             },
             {
@@ -2316,25 +2600,25 @@
             {
                 "comment_id": "k7mybmn",
                 "comment_body": "Esses PJ que trabalham das 8h~17h de Segunda-Sexta, batem ponto, faz hora extra, com certeza é mais vantajoso eles receberem PJ kkkkkkkkkkk. \n\nO importante é garantir que o empregador pague MENOS e demita a qualquer momento.\n\nVocê mesmo diz: FUNCIONÁRIO, não prestador de serviço que vai lá fazer coisa de horas ou alguns dias, ou no máximo semanas.\n\nE claro o poder de barganha do empregado (que precisa de 2~3k para SOBREVIVER) é o mesmo do empregador. CONFIA.\n\nEsse são os empreendedores né? 3k PJ e todo dia batendo ponto.",
-                "comment_score": 10,
+                "comment_score": 8,
                 "comment_created_utc": 1699011529.0
             },
             {
                 "comment_id": "k7mxx9c",
                 "comment_body": "O OP ganha 2K PJ, isso fica abaixo do salário mínimo. Deveria ser crime. Se uma empresa não tem condições de pagar um salário decente a um engenheiro de software, está mais do que claro que é uma empresa fracassada que nunca vai dar lucro. Na prática, a gente sabe que a empresa pode pagar, mas prefere precarizar o funcionário.\n\nUm PJ que ganha menos de um salário mínimo (tipo o OP) precisa documentar tudo e processar a empresa ao sair. Causa ganha. OP vai receber como se ganhasse 2K CLT, e ainda assim a empresa ainda vai sair no lucro.",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1699011296.0
             },
             {
                 "comment_id": "k7mz82s",
                 "comment_body": "2K PJ é menos de um salário mínimo. Não precisa se doer pela empresa, ela ainda vai sair no lucro quando indenizar o OP.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1699012045.0
             },
             {
                 "comment_id": "k7jygkw",
                 "comment_body": "as empresas tão montando em cima dessa galera com PJ, a maioria não sabe fazer a conta que precisa pagar seus impostos, refeição, transporte, férias, 13º, e ainda fazem o prestador de serviço trabalhar como um CLT, no final o cara fica com uns 800~900 conto, menos que um salário minimo",
-                "comment_score": 19,
+                "comment_score": 18,
                 "comment_created_utc": 1698955634.0
             },
             {
@@ -2388,13 +2672,13 @@
             {
                 "comment_id": "k7n09fk",
                 "comment_body": "Não estou preocupado com o lucro de fulano ou beltrano, muito menos me doendo por cicrano. Só acho bizonho como a palavra de vocês não vale uma nota de 3 reais. Quando eu aceito uma proposta de emprego e a outra parte cumpre o acordado, eu ajo de boa fé. Pelo visto vocês são bem diferentes de mim. Mas sim, estamos no Brasil, eu sei que sou o otário por cumprir o combinado e não tirar vantagem. Faz parte. Lei de Gerson impera. Posso falar com propriedade pois já ganhei um salário de merda como PJ e honrei minha parte mesmo assim.",
-                "comment_score": -3,
+                "comment_score": -4,
                 "comment_created_utc": 1699012615.0
             },
             {
                 "comment_id": "k7jzemv",
                 "comment_body": "A Dura realidade, mas na cabeça deles tá pegando os 2k limpo, o pior de tudo é ficar desempregado",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1698955974.0
             },
             {
@@ -2436,7 +2720,7 @@
             {
                 "comment_id": "k7k0bv7",
                 "comment_body": "Pois é, mano... sobra praticamente um salário mínimo depois de tirar todo o custo pra trabalhar (vaga é presencial), mas a alternativa seria ficar desempregado então as empresas se aproveitam disso",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1698956305.0
             }
         ]
@@ -2486,13 +2770,13 @@
             {
                 "comment_id": "jv83qn9",
                 "comment_body": "Recomendo você procurar um contador para te auxiliar nisso.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1691448684.0
             },
             {
                 "comment_id": "jv83fv3",
                 "comment_body": "Não aconselho virar MEI, pois as atividades do MEI não são compatíveis com atividades intelectuais, como MEI você teria que emitir nota como digitador ou suporte técnico. Se cair no pente fino da receita, tem que pagar multa e todo o imposto retroativo para todas notas fiscais.\n\nSe tua cidade tem  alguma contabilidade digital (tipo contabilizei) vai atrás deles, que eles fazem todo o processo de abertura da empresa pra ti, te explicam toda a questão contábil e de emissão de notas de acordo com seu estado e município.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1691448559.0
             },
             {
@@ -2562,13 +2846,13 @@
             {
                 "comment_id": "jq6hdjr",
                 "comment_body": "Que eu saiba, como MEI pelo Simples Nacional (pessoa jurídica) você só tem que pagar o DAS, que é por volta de 70 reais todo mês. Como pessoa física, você ainda tem que declarar Imposto de Renda se no ano-calendário o faturamento bruto da sua empresa subtraído do percentual não-tributável e das despesas dela ultrapassar R$28.559,70. Você pode ler mais sobre isso [aqui](https://www.contabilizei.com.br/contabilidade-online/como-declarar-imposto-de-renda-mei/).",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1688158095.0
             },
             {
                 "comment_id": "jq72z2v",
                 "comment_body": "Você tem que fazer a declaração anual do MEI, geralmente no mesmo período do Imposto de Renda",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1688167421.0
             }
         ]
@@ -2662,7 +2946,7 @@
             {
                 "comment_id": "jotthfq",
                 "comment_body": "Eles condicionam a prestação do serviço ao fornecimento do certificado digital da empresa do OP (ou seja, para todos efeitos eles serão donos da empresa). Não faça isso, OP.\n\nProcure uma empresa de contabilidade séria que saiba fazer o trabalho.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1687267406.0
             },
             {
@@ -2728,7 +3012,7 @@
             {
                 "comment_id": "jotb8tm",
                 "comment_body": "Entao é mais interessante abrir um CNPJ mesmo, pois o imposto a ser pago deve girar entre 4%~8%. Essa renda PF vai taxar no mínimo 15%.",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1687256300.0
             },
             {
@@ -2752,7 +3036,7 @@
             {
                 "comment_id": "jouq2r2",
                 "comment_body": "Você cria uma procuração digital no site da RF autorizando a empresa a atuar como seu contador.\n\nEm momento algum eles precisam do certificado. Minha empresa existe há anos e nunca entreguei meu certificado pra ninguém.\n\nQuem tem o certificado é o dono da empresa, a partir do certificado você pode assinar qualquer documento e esse documento vai valer mais que qualquer documento em papel pelo simples fato da assinatura digital ser “irrefutável”.\n\nO papel do certificado digital é justamente dizer “esse documento foi assinado inequivocamente por Fulano em nome da empresa ACME”. No momento que você entrega o certificado a um terceiro, isso é pior que uma procuração de amplos poderes.\n\nEdit: e piora. Se eles fizerem alguma cagada, eles não terão qualquer responsabilidade pois fizeram tudo em seu nome, então tudo foi feito, inequivocamente, por você. Você não tem nem do que reclamar pois legalmente foi você quem fez.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1687280957.0
             },
             {
@@ -2804,19 +3088,19 @@
             {
                 "comment_id": "jitrs20",
                 "comment_body": "Tem algumas coisas que vc não levou em consideração. CLT tem direito a 1/3 de férias, 13° salário, depósito do FGTS (que posteriormente vc pode usar pra financiamentos), tem mais segurança devido a multa de demissão. Posso ter esquecido mais alguns mas esse é o básico",
-                "comment_score": 19,
+                "comment_score": 20,
                 "comment_created_utc": 1683206185.0
             },
             {
                 "comment_id": "jiumns1",
                 "comment_body": "CLT com certeza, tem FGTS, 13°, 1/3 de férias, INSS, 1 mês de aviso prévio e 6 meses de seguro desemprego em caso de demissão.",
-                "comment_score": 9,
+                "comment_score": 7,
                 "comment_created_utc": 1683218704.0
             },
             {
                 "comment_id": "jiu56ei",
                 "comment_body": "Fica nos dois",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1683211891.0
             },
             {
@@ -2936,7 +3220,7 @@
             {
                 "comment_id": "jiuf3x9",
                 "comment_body": "Não esquece INSS, se tu ficar cega ou perder a mão. Um seguro privado é caríssimo.",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1683215783.0
             },
             {
@@ -3128,7 +3412,7 @@
             {
                 "comment_id": "jcyucko",
                 "comment_body": "O mais seguro é perguntar isso pra um contador experiente",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1679330222.0
             },
             {
@@ -3156,13 +3440,13 @@
             {
                 "comment_id": "igpvq42",
                 "comment_body": "Você vai precisar abrir uma empresa do Simples Nacional. Escolha um escritório bom, para que eles cuidem de tudo para você. Eles vão solicitar várias documentações e demora um tempo para abrir a empresa, então vá atrás disso o quanto antes.\n\nO imposto funciona da seguinte forma. Você precisa abrir uma conta CNPJ para trazer o seu dinheiro para o Brasil. Não misture o seu dinheiro com o da sua empresa, para não tem problema com a contábil.\n\nEsse dinheiro chegando no Brasil, você vai precisar entrar no site da prefeitura da sua cidade para emitir uma nota de serviço prestado. O imposto será entorno de 2,01% sobre o valor total da nota. \n\nDepois você tem duas opções.\n\n1 - Pró-labore de um salário mínimo e retirar o restante como provento, mas pagar 15% de imposto sobre o total que a sua empresa faturou.\n\n2 - Pro-labore de 28% do faturamento. O imposto vai cair de 15% para 6%. Você precisa de ajuda do escritório para ver o que compensa no seu caso. Pois nesse caso você vai pagar mais 11% do seu pró-labore em INSS e também tem o IRRF.\n\nEspero ter ajudado.\nSucesso mano!",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1658192913.0
             },
             {
                 "comment_id": "igp3s84",
                 "comment_body": "cara, basicamente considere 10% do teu rendimento bruto. Prestar serviço pro exterior tem umas isenções.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1658180741.0
             },
             {
@@ -3186,7 +3470,7 @@
             {
                 "comment_id": "igrka1k",
                 "comment_body": ">Pelo valor eu já imagino que eu tenha que passar a ser um ME ao invés de MEI\n\nNão, você não pode ser MEI porque não existe MEI programador, você já está atuando ilegalmente independentemente de valores.\n\nSobre contador: NÃO utilize nenhuma empresa de contabilidade que solicite seu certificado digital. É absurdo ter que dizer isso a uma pessoa que trabalha com TI, mas é inacreditável a quantidade de profissionais fazendo isso.\n\nIndependentemente dos mais que óbvios problemas de segurança que ceder um certificado digital causa, isso demonstra uma profunda falta de profissionalismo do contador que não sabe fazer seu trabalho da forma correta, demonstrando estar desatualizado e, portanto, sendo muito mais provável que vá fazer cagadas na sua contabilidade.\n\nVocê provavelmente verá gente comentando a seguir que sou paranoico e exagerado mas no fim das contas é, literalmente, sua empresa, reputação e dinheiro que estarão em jogo aqui.\n\nPor fim afirmo categoricamente: ***nenhum*** contador precisa de acesso ao seu certificado digital, que é pessoal e intransferível. Tenho empresa há anos, nunca um contador teve acesso ao meu certificado e está tudo em situação perfeitamente regular.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1658230581.0
             },
             {
@@ -3198,7 +3482,7 @@
             {
                 "comment_id": "igpf2wo",
                 "comment_body": "Dependendo da sua experiência 3,5k tá realmente bem barato. Vai dar coisa de uns 20k no máximo (com o dólar à 5,5). Se não tiver direito a férias acaba nem compensando.\n\nQuanto aos descontos, vai depender da atividade que você colocar na nota, mas os descontos vão variar entre 8 e 15%.\n\nMas realmente o que me preocupa são esses 3,5. Acho que o mínimo aceitável é 5k",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1658185490.0
             },
             {
@@ -3210,7 +3494,7 @@
             {
                 "comment_id": "igpivog",
                 "comment_body": "Não sei tu mas eu ganho nessa faixa e sonego. Faz 2 anos que não pago 1 centavo de imposto.",
-                "comment_score": 1,
+                "comment_score": 2,
                 "comment_created_utc": 1658187172.0
             },
             {
@@ -3252,7 +3536,7 @@
             {
                 "comment_id": "igrvig7",
                 "comment_body": "Isso é verdade. O contador fica registrado na prefeitura/estado, então ele pode fazer tudo com o certificado digital dele mesmo, não precisa do seu.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1658236511.0
             },
             {
@@ -3270,7 +3554,7 @@
             {
                 "comment_id": "igpjc62",
                 "comment_body": "18mil pra 3 anos de exp tá barato???? D:",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1658187374.0
             },
             {
@@ -3312,7 +3596,7 @@
             {
                 "comment_id": "igphhqp",
                 "comment_body": "Tô desde Fevereiro do ano passado trabalhando pra fora. Já trabalhei pra empresa da Austrália e dos EUA. Se quiser posso te fazer um apanhado geral com mais detalhes. Tem mto contador q n faz ideia de como fazer o planejamento tributário pra empresa que presta serviço pra fora. \n\nMe manda uma DM que te ajudo.",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1658186555.0
             },
             {
@@ -3324,13 +3608,13 @@
             {
                 "comment_id": "igp5lt4",
                 "comment_body": "Sim, é bem baixo em relação ao quanto a gente recebe. Poderia ser melhor ainda se a tabela do imposto de renda fosse corrigida pela inflação, mas ai é pedir d+ kkk.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1658181488.0
             },
             {
                 "comment_id": "igphmst",
                 "comment_body": "Tá ok esse salário, mas dá pra melhorar. Se eu fosse vc aproveitava essa oportunidade, pelo menos pra se inserir no mercado. Aí continua pesquisando outras empresas.",
-                "comment_score": 14,
+                "comment_score": 15,
                 "comment_created_utc": 1658186618.0
             },
             {
@@ -3372,7 +3656,7 @@
             {
                 "comment_id": "igrr6kl",
                 "comment_body": "[removed]",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1658234395.0
             },
             {
@@ -3420,7 +3704,7 @@
             {
                 "comment_id": "igpxa9h",
                 "comment_body": "Sim, da pra conseguir mais! Usa esse trampo como trampolim para um próximo! Ganha XP, aprende como é trampar remoto pra fora e pula pro próximo galho pra ganhar mais",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1658193624.0
             },
             {
@@ -3524,13 +3808,13 @@
             {
                 "comment_id": "hxhlzwn",
                 "comment_body": "Esse é o trampolim, não se preocupe tanto que o emprego é ruim. Sair do desemprego pra um trabalho é um grande passo, e cada dia que vc passa nesse trampo é um dia a mais de experiência no mercado de trabalho, e isso conta. O negócio é vc pegar esse trampo e estudar pra pegar outro melhor assim que puder.",
-                "comment_score": 16,
+                "comment_score": 17,
                 "comment_created_utc": 1645214698.0
             },
             {
                 "comment_id": "hxhpqti",
                 "comment_body": "Se esse for o primeiro emprego, va em frente. 6 meses ou 1 ano de experiência já fica mais fácil de ter maiores condições de negociação.\n\nPior coisa é você estar na inércia, não tendo prática da vida real, não adicionando tempo de experiência no perfil e viver preocupado com necessidades básicas. Vai poder também consegui pagar uma EAD simples de 100 reais aí só pra melhorar o currículo.\n\nE você vai pagar um valor bem tranquilo de imposto.",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1645216205.0
             },
             {
@@ -3548,25 +3832,25 @@
             {
                 "comment_id": "hxi3cd6",
                 "comment_body": "1) sim, sempre negocie ofertas. Não encuque muito com isso, pois é algo normal e nenhuma pessoa razoável vai achar ruim você tentar negociar. Sugiro apenas falar o que você quer: “oi fulano! Que ótimo que você quer me contratar blá-blá-blá. Em relação a oferta, tem como aumentar para 3k?” Ou algo do tipo… pior que acontece é receber um não.\n\n2) não sei responder\n\n3) esse papo de que não pode aceitar qualquer coisa é papo de quem tem grana no bolso. Aceita e se quiser algo melhor continua procurando.\n\n4) se fala sobre ser PJ não tenho muito o que dizer. Sobre a carreira em geral sempre esteja com currículo atualizado e faça entrevistas com certa frequência, mesmo que não esteja necessariamente procurando outro emprego. Isso te ajuda a ficar confiante para próximas entrevistas e de quebra você fica sabendo se tiver recebendo abaixo do mercado. Eu costumo fazer pelo menos 1 entrevista por ano.\n\n5) nunca de ultimatos. Sempre deixe claro pro seu chefe quando você estiver querendo um aumento: “oi chefe, fiz um trabalho muito bom esse ano blá-blá-blá. Gostaria de discutir a possibilidade de um aumento”\n\n5b) início de carreira é comum pular de emprego de 1 em 1 ano. Aumentos muito mais fáceis que ficar em uma mesma empresa. Mas se você conseguir entrar em uma empresa que te valorize e te de aumentos significativos c frequência é mais de boa (são raras)",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1645221615.0
             },
             {
                 "comment_id": "hxiiuh6",
                 "comment_body": "Meu primeiro emprego dev foi 2k PJ mano, meu segundo foi 6k CLT. O negócio é pegar experiência logo, oportunidade não dá em arvore.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1645228150.0
             },
             {
                 "comment_id": "hximtjk",
                 "comment_body": "Vai procurando outras oportunidades.\n\nNão tem essa de pedir aumento, com alguns meses você deve arrumar um trampo clt. Aí você vaza. \n\nPj só vale a pena ganhando bem",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1645229933.0
             },
             {
                 "comment_id": "hxhoer9",
                 "comment_body": "Semanas depois do seu primeiro emprego, vai ter recrutador te oferecendo mais",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1645215667.0
             },
             {
@@ -3596,7 +3880,7 @@
             {
                 "comment_id": "hxhnm7x",
                 "comment_body": "Mds dev já saturou",
-                "comment_score": -4,
+                "comment_score": -3,
                 "comment_created_utc": 1645215351.0
             },
             {
@@ -3608,7 +3892,7 @@
             {
                 "comment_id": "hxhril2",
                 "comment_body": "Pois é, OP precisa entender que tá sendo contratado como estagiário basicamente.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1645216920.0
             },
             {
@@ -3636,7 +3920,7 @@
             {
                 "comment_id": "gw1xb1r",
                 "comment_body": "Pra serviço de contador, tem a Contabilizei que é só R$89/mês. Eles pisam na bola às vezes, mas no geral o serviço é ok e compensa pela diferença de valor.\n\nSe a sua empresa se enquadrar no Simples, tem o esquema do Fator R também pra reduzir o imposto, não sei se é dele que o seu contador falou.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1619533346.0
             },
             {
@@ -3694,7 +3978,7 @@
             {
                 "comment_id": "guqz5ry",
                 "comment_body": ">(1.6k sem benefícios),\n\nEsse salário está abaixo do que pagam para estagiário. Mano acho que você está sendo explorado, sobretudo com a crescente oferta de emprego na área. Dev junior ganha no mínimo 4k (nomarlmente mais). Pelo menos pelo que vejo em SP e da pra trabalhar para empresa de SP remotamente de qualquer canto do país. ( meu caso)",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1618595134.0
             },
             {

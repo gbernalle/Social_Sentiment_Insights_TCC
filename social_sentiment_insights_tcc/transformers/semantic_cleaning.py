@@ -72,6 +72,8 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         logging.warning("Previous block returned empty DataFrame. Skipping.")
         return pd.DataFrame()
 
+    total_linhas_iniciais = len(data)
+
     classifier, tokenizer = load_models()
     
     logging.info(f"Calculando limites de tokens para Zero-Shot...")
@@ -111,8 +113,6 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         
         return tokenizer.decode(truncated_ids, skip_special_tokens=True)
 
-    logging.info(f"Starting Zero-Shot Classification on {len(data)} records...")
-    
     try:
         texts_raw = data['text_clean'].fillna('').astype(str).tolist()
         texts_to_classify = [truncate_text_by_tokens(t) for t in texts_raw]
@@ -139,11 +139,10 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         else:
              data['category_tcc'] = data['category_raw']
              
-        logging.info("Gerando gráfico de Análise de Sensibilidade (Retenção vs Média de Confiança)...")
-        
         thresholds_to_test = [0.0, 0.30, 0.40, 0.50, 0.55, 0.60, 0.70, 0.80]
         retention_rates = []
         average_confidences = []
+        metrics_report = {}
         
         df_valid = data[data['category_tcc'] != 'Lixo/Off-Topic']
         total_valid_initial = len(df_valid)
@@ -161,6 +160,10 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
                 else:
                     media = 0
                 average_confidences.append(media)
+
+                if t == 0.55:
+                    metrics_report['taxa_retencao_55'] = taxa
+                    metrics_report['media_confianca_55'] = media
             
             fig, ax1 = plt.subplots(figsize=(10, 6))
             sns.set_theme(style="whitegrid")
@@ -183,15 +186,9 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             labels = [l.get_label() for l in linhas]
             ax1.legend(linhas, labels, loc='center right')
             
-            plt.title('Trade-off Metodológico: Volume de Dados vs. Qualidade Média', fontsize=14, pad=15)
-            
             plot_path = os.path.join(base_path, "grafico_sensibilidade_media_tcc.png")
             plt.savefig(plot_path, dpi=300, bbox_inches='tight')
             plt.close() 
-            
-            logging.info(f"Gráfico com Médias salvo com sucesso em: {plot_path}")
-
-            logging.info("Gerando gráfico de Distribuição de Confiança por Categoria...")
             
             plt.figure(figsize=(12, 7))
             sns.set_theme(style="whitegrid")
@@ -207,10 +204,11 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
                 showmeans=True,    
                 meanprops={"marker":"o", "markerfacecolor":"white", "markeredgecolor":"black", "markersize":"6"}
             )
+
+            sns.despine(top=True, right=True, left=True, bottom=True)
             
             plt.axvline(x=0.55, color='red', linestyle='--', linewidth=2.5, label='Corte Escolhido (0.55)')
             
-            plt.title('Distribuição da Confiança do Modelo Zero-Shot por Categoria', fontsize=15, pad=15)
             plt.xlabel('Score de Confiança (0.0 a 1.0)', fontsize=12)
             plt.ylabel('', fontsize=12) 
             plt.legend(loc='lower right')
@@ -219,38 +217,39 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             
             plot_box_path = os.path.join(base_path, "grafico_distribuicao_categorias_tcc.png")
             plt.savefig(plot_box_path, dpi=300, bbox_inches='tight')
-            plt.close() 
-            
-            logging.info(f"Gráfico de Boxplot salvo com sucesso em: {plot_box_path}")
+            plt.close()     
         else:
             logging.warning("Não há dados válidos suficientes para gerar os gráficos base.")
              
         THRESHOLD = 0.55
-        
-        logging.info(f"Aplicando filtro de confiança. Limite mínimo aceito: {THRESHOLD * 100}%")
-        
+         
         mask_low_confidence = data['category_score'] < THRESHOLD
         data.loc[mask_low_confidence, 'category_tcc'] = 'Descartado - Baixa Confiança'
         
         descartados_qtd = mask_low_confidence.sum()
-        logging.info(f"Registros reprovados por Baixa Confiança (< {THRESHOLD}): {descartados_qtd}")
         
-        linhas_iniciais = len(data)
-        data = data[~data['category_tcc'].isin(['Lixo/Off-Topic', 'Descartado - Baixa Confiança'])].copy()
-        linhas_finais = len(data)
+        data_final = data[~data['category_tcc'].isin(['Lixo/Off-Topic', 'Descartado - Baixa Confiança'])].copy()
+        total_linhas_finais = len(data_final)
         
-        logging.info(f"Limpeza Semântica concluída: de {linhas_iniciais} para {linhas_finais} registros úteis preservados.")
-        
-        logging.info("Gerando Gráfico de Radar dos Contextos Booleanos...")
-        
+    
+        print(f"Total de registros recebidos do RegEx: {total_linhas_iniciais}")
+        print(f"Registros classificados como 'Lixo/Off-Topic': {total_linhas_iniciais - total_valid_initial}")
+
+        print(f" Média de Confiança Global Pós-Corte: {metrics_report.get('media_confianca_55', 0):.2f}%")
+        print(f" Taxa de Retenção de Dados Úteis: {metrics_report.get('taxa_retencao_55', 0):.2f}%")
+        print(f" Registros rejeitados (< {THRESHOLD}): {descartados_qtd}")
+       
+        print(f"REGISTROS FINAIS VALIDADOS (Aprovados): {total_linhas_finais}")
+        print(f"Perda no Funil NLP: {total_linhas_iniciais - total_linhas_finais} registros.")
+         
         colunas_esperadas = [
             'das_context', 'tax_context', 'pj_context', 
             'mei_context', 'uberizacao_context', 'precarious_context'
         ] 
-        colunas_contexto = [col for col in colunas_esperadas if col in data.columns]
+        colunas_contexto = [col for col in colunas_esperadas if col in data_final.columns]
         
-        if len(colunas_contexto) >= 3 and len(data) > 0:
-            frequencia = data[colunas_contexto].mean() * 100
+        if len(colunas_contexto) >= 3 and len(data_final) > 0:
+            frequencia = data_final[colunas_contexto].mean() * 100
             
             nomes_bonitos = {
                 'das_context': 'Guia DAS',
@@ -282,19 +281,17 @@ def filter_by_context(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             
             plot_radar_path = os.path.join(base_path, "radar_contextos_tcc.png")
             fig_radar.write_image(plot_radar_path, width=1100, height=800, scale=2)
-            logging.info(f"Gráfico de Radar salvo com sucesso em: {plot_radar_path}")
         else:
             logging.warning(f"Apenas {len(colunas_contexto)} colunas encontradas. O radar precisa de no mínimo 3 para fechar a teia.")
         
-        # Limpeza final de colunas
-        if 'category_raw' in data.columns:
-            data = data.drop(columns=['category_raw'])
+        if 'category_raw' in data_final.columns:
+            data_final = data_final.drop(columns=['category_raw'])
 
         cache_path = os.path.join(base_path, "cache_semantic.parquet")
-        data.to_parquet(cache_path)
+        data_final.to_parquet(cache_path)
         logging.info(f"Checkpoint saved at: {cache_path}")
 
-        return data
+        return data_final
 
     except RuntimeError as re:
         logging.error(f"RuntimeError (likely CUDA OOM or Shape Mismatch): {re}")

@@ -57,6 +57,10 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
         return pd.DataFrame()
 
     df = pd.DataFrame(all_data)
+    
+    linhas_iniciais = len(df)
+    logging.info(f"Quantidade de linhas após unir arquivos JSON: {linhas_iniciais}")
+    
     df = df.drop_duplicates(subset=['id'])
 
     df['created_at'] = pd.to_datetime(df['created_utc'], unit='s').dt.strftime('%Y-%m-%d')
@@ -91,5 +95,9 @@ def transform_raw_reddit_data(data_from_loader: dict, *args, **kwargs):
     ] + list(regex_dict.keys())
 
     df_final = df_with_keywords.reindex(columns=final_columns).reset_index(drop=True)
+    linhas_finais = len(df_final)
+    
+    logging.info(f"Quantidade de linhas após aplicar filtros de regex: {linhas_finais}")
+    logging.infO(f"Registros descartados no pré-processamento: {linhas_iniciais - linhas_finais}")
 
-    return df_final 
+    return df_final

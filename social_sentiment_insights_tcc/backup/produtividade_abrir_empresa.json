@@ -1,0 +1,11 @@
+[
+    {
+        "post_id": "1sp18mx",
+        "post_title": "Testers Android para app que grava contactos a partir de páginas web",
+        "post_body": "Desenvolvi uma app Android que ajuda a guardar contactos a partir do contexto de páginas web, como anúncios, diretórios de empresas, clínicas e páginas de imóveis.\n\nEstou a abrir um **closed testing** na Google Play e preciso de pelo menos alguns testers que:\n\n* usem Android\n* possam instalar a app pelo link de teste\n* a mantenham ativa durante o período de teste\n* deem feedback curto sobre o que funcionou bem ou mal\n\nA app tenta sugerir um nome de contacto útil a partir da página onde está o número, em vez de guardar apenas o número sem contexto.\n\nEstou especialmente interessado em feedback em páginas como:\n\n* imobiliário\n* diretórios de empresas\n* clínicas/saúde\n* classificados\n\nComo agradecimento, estou a pensar oferecer **1 mês grátis após o lançamento** aos testers que participarem de forma útil durante esta fase.\n\nSe quiseres participar, responde aqui ou envia-me mensagem e eu envio o formulário / link de acesso.",
+        "post_url": "https://www.reddit.com/r/produtividade/comments/1sp18mx/testers_android_para_app_que_grava_contactos_a/",
+        "is_self_post": true,
+        "post_created_utc": 1776527434.0,
+        "comments": []
+    }
+]

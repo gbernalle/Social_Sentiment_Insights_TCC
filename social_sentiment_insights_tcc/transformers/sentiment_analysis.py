@@ -2,6 +2,8 @@ import pandas as pd
 import logging
 import os
 import torch
+import matplotlib.pyplot as plt
+import seaborn as sns
 from mage_ai.settings.repo import get_repo_path
 
 try:
@@ -58,7 +60,7 @@ def analyze_sentiment(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
         labels = [r['label'] for r in results]
         scores = [r['score'] for r in results]
         
-        data['sentiment'] = labels
+        data['sentiment_raw'] = labels
         data['sentiment_score'] = scores
         
         map_labels = {
@@ -67,9 +69,102 @@ def analyze_sentiment(data: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
             '1 star': 'Negative', '5 stars': 'Positive' 
         }
         
-        data['sentiment'] = data['sentiment'].replace(map_labels)
-
+        data['sentiment'] = data['sentiment_raw'].replace(map_labels)
+        
         base_path = get_repo_path() if 'get_repo_path' in globals() else "."
+        
+        total_records = len(data)
+        sent_counts = data['sentiment'].value_counts()
+        sent_pct = data['sentiment'].value_counts(normalize=True) * 100
+
+        print(f"Total de registros analisados: {total_records}")
+        
+        for sent in ['Negative', 'Neutral', 'Positive']:
+            count = sent_counts.get(sent, 0)
+            pct = sent_pct.get(sent, 0)
+            print(f"{sent}: {count} registros ({pct:.2f}%)")
+            
+        print(f"Média de Confiança do Modelo: {(data['sentiment_score'].mean() * 100):.2f}%")
+        
+        paleta_sentimentos = {'Negative': '#E63946', 'Neutral': '#F4A261', 'Positive': '#2A9D8F'}
+        ordem_sentimentos = ['Negative', 'Neutral', 'Positive']
+
+        plt.figure(figsize=(8, 5))
+        sns.set_theme(style="whitegrid")
+        ax = sns.countplot(
+            data=data, 
+            x='sentiment', 
+            order=ordem_sentimentos, 
+            palette=paleta_sentimentos
+        )
+
+        sns.despine(top=True, right=True, left=True, bottom=True)
+        
+        plt.xlabel('Sentimento Inferido', fontsize=12)
+        plt.ylabel('Quantidade de Publicações', fontsize=12)
+        
+        for p in ax.patches:
+            height = p.get_height()
+            if height > 0:
+                ax.annotate(f'{int(height)}', (p.get_x() + p.get_width() / 2., height),
+                            ha='center', va='bottom', fontsize=11, color='black', xytext=(0, 5), textcoords='offset points')
+                
+        plot1_path = os.path.join(base_path, "grafico_sentimento_geral_tcc.png")
+        plt.savefig(plot1_path, dpi=300, bbox_inches='tight')
+        plt.close()
+
+        if 'category_tcc' in data.columns:
+            
+            cross_tab = pd.crosstab(data['category_tcc'], data['sentiment'], normalize='index') * 100
+            
+            if 'Negative' in cross_tab.columns:
+                cross_tab = cross_tab.sort_values(by='Negative', ascending=True)
+                
+            cols = [c for c in ordem_sentimentos if c in cross_tab.columns]
+            cross_tab = cross_tab[cols]
+            plot_colors = [paleta_sentimentos[c] for c in cols]
+
+            ax2 = cross_tab.plot(kind='barh', stacked=True, color=plot_colors, figsize=(12, 7), width=0.7)
+            
+            sns.despine(ax=ax2, top=True, right=True, left=True, bottom=True)
+            
+            plt.xlabel('Proporção (%)', fontsize=12)
+            plt.ylabel('Categoria Identificada', fontsize=12)
+
+            plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left')
+            
+            for c in ax2.containers:
+                labels = [f'{v.get_width():.1f}%' if v.get_width() > 5 else '' for v in c]
+                ax2.bar_label(c, labels=labels, label_type='center', color='white', weight='bold', fontsize=10)
+                
+            plt.tight_layout()
+            plot2_path = os.path.join(base_path, "grafico_sentimento_categoria_tcc.png")
+            plt.savefig(plot2_path, dpi=300, bbox_inches='tight')
+            plt.close()
+
+        plt.figure(figsize=(8, 5))
+        sns.boxplot(
+            data=data, 
+            x='sentiment', 
+            y='sentiment_score', 
+            order=ordem_sentimentos, 
+            palette=paleta_sentimentos,
+            showmeans=True,    
+            meanprops={"marker":"o", "markerfacecolor":"white", "markeredgecolor":"black", "markersize":"6"}
+        )
+
+        sns.despine(top=True, right=True, left=True, bottom=True)
+        
+        plt.xlabel('Sentimento Inferido', fontsize=12)
+        plt.ylabel('Score de Confiança (0.0 a 1.0)', fontsize=12)
+        
+        plot3_path = os.path.join(base_path, "grafico_sentimento_confianca_tcc.png")
+        plt.savefig(plot3_path, dpi=300, bbox_inches='tight')
+        plt.close()
+
+        if 'sentiment_raw' in data.columns:
+            data = data.drop(columns=['sentiment_raw'])
+
         cache_path = os.path.join(base_path, "cache_sentiment.parquet")
         data.to_parquet(cache_path)
         logging.info(f"Checkpoint saved at: {cache_path}")

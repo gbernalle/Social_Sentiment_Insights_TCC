@@ -16,7 +16,7 @@
             {
                 "comment_id": "n4eresq",
                 "comment_body": "Faça como o dono do restaurante Coco Bambu, tenha vários CNPJs.",
-                "comment_score": 10,
+                "comment_score": 11,
                 "comment_created_utc": 1753131255.0
             },
             {
@@ -34,7 +34,7 @@
             {
                 "comment_id": "n4gc3s4",
                 "comment_body": "Só um detalhe: o limite do MEI não são 81 mil anuais, são 6750/mes, que em 12 meses seriam 81 mil, é um pouco mais complicado do q vc tá imaginando, especialmente abrindo o MEI agora no final de julho.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1753149954.0
             },
             {
@@ -52,7 +52,7 @@
             {
                 "comment_id": "n4evcxe",
                 "comment_body": "Não abre nada, recebe na PF mesmo e vem ser feliz no r/farialimabets.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1753132409.0
             },
             {
@@ -94,7 +94,7 @@
             {
                 "comment_id": "n4espp3",
                 "comment_body": "Não há a possibilidade de simplesmente sonegar?",
-                "comment_score": -4,
+                "comment_score": -5,
                 "comment_created_utc": 1753131626.0
             },
             {
@@ -160,13 +160,13 @@
             {
                 "comment_id": "n4eq6fu",
                 "comment_body": "Se o limite declarado é 12k, nao tem nem oque se ponderar. Abre direto ME com um contador. Faturamento anual do mei é 81k durante os 12 meses, no entanto esse valor é proporcional. Por exemplo, hoje tu teria limite de 5/12 desse valo, ou seja, teu limite de faturamento de agosto à dezembro é de 33.750. \n\n\nEm 3 meses ja ultrapassa esse valor, e se ultrapassar acima de 10%, o desenquadramento do simei é retroativo, e com recolhimento do simples com juros e multa de cada competência desde janeiro.",
-                "comment_score": 11,
+                "comment_score": 13,
                 "comment_created_utc": 1753130904.0
             },
             {
                 "comment_id": "n4fcenh",
                 "comment_body": "https://preview.redd.it/yb70vi3r2bef1.png?width=1080&format=png&auto=webp&s=b4c5645bed9be3a4cbd658a594b8cbf1b203e044",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1753137795.0
             },
             {
@@ -184,7 +184,7 @@
             {
                 "comment_id": "n4eu78p",
                 "comment_body": "Porém o limite do MEI é proporcional, se ele abrir em julho por exemplo o limite é de R$ 40.500",
-                "comment_score": 12,
+                "comment_score": 14,
                 "comment_created_utc": 1753132063.0
             },
             {
@@ -286,34 +286,6 @@
         ]
     },
     {
-        "post_id": "1liy0d6",
-        "post_title": "Tributação ilegal?",
-        "post_body": "Procurei um contador para regularizar minha situação (recebimentos mensais na ordem de 31k) e ele disse para abrir uma MEI para os R$ 6.750 e, além disso, jogar R$ 33.000 anuais para a Pessoa Física pois não incide IR ou INSS sobre isso, e o resto deixar frio.\n\nIsso é furada?",
-        "post_url": "https://www.reddit.com/r/empreendedorismo/comments/1liy0d6/tributação_ilegal/",
-        "is_self_post": true,
-        "post_created_utc": 1750727369.0,
-        "comments": [
-            {
-                "comment_id": "mzfszot",
-                "comment_body": "Provavelmente ele quis dizer pra declarar esses R$33.000,00 como distribuição de lucros do MEI para a sua pessoa física, o que de fato não incide IR e INSS. Então o seu MEI teria um faturamento de R$81.000,00 anual e teria de lucro isento esse valor de 33k.\n\n  \nPorém, e quanto ao restante que você recebe? Pois se com o MEI só pode faturar 6.750,00 por mês, você não terá como emitir NF acima desse valor, então continuará de forma irregular. Claro, estará \"menos irregular\" do que a forma atual, mas não estará 100% resguardado. \n\n  \nO problema é a Receita te pegar futuramente, daqui 3 ou 4 anos. Porque daí é provável que considerem todo esse valor de 11k como faturamento do MEI, levando ao seu desenquadramento do regime e consequentemente farão a cobrança de todos os impostos como Simples Nacional, com multa e juros.",
-                "comment_score": 4,
-                "comment_created_utc": 1750729631.0
-            },
-            {
-                "comment_id": "mzgmfl8",
-                "comment_body": "Você até consegue fazer isso a partir da abertura do MEI, mas retroagir valores é fumo dos grandes. Além disso, tem vários fatores de risco envolvidos.\n\nSobre a distribuição de lucros isentos: sim, existem percentuais fixos - 8% para comércio e 32% para serviços - mas esses valores só são isentos se estiverem dentro do limite de R$ 81 mil por ano. Passou disso, começa a dar problema.\n\nEssa história de “jogar R$ 33 mil na PF porque não incide IR ou INSS” pode até parecer simples, mas na prática não é bem assim. Se não tiver comprovação de origem ou estiver fora das regras da Receita, você corre risco de malha fina, multa e até caracterização de omissão de receita. E ela pode te pegar amanhã, ou em 10 anos.",
-                "comment_score": 1,
-                "comment_created_utc": 1750741324.0
-            },
-            {
-                "comment_id": "mzoljw6",
-                "comment_body": "Antes de abrir uma MEI ou lançar valores de qualquer forma, seria prudente analisar a origem de cada movimentação e encontrar a melhor forma de regularizar com respaldo e segurança fiscal, pensando não só no agora, mas na hora que precisar fazer a declaração do IR.\n\nSempre opte por um Contador tenha conhecimento em legislação tributária.",
-                "comment_score": 1,
-                "comment_created_utc": 1750853002.0
-            }
-        ]
-    },
-    {
         "post_id": "1jrtzql",
         "post_title": "Recolhimento INSS via MEI",
         "post_body": "Alguém aqui que seja MEI e contribua via guia mensal de recolhimento do INSS, já precisou dar entrada no INSS por conta de doença? \n\nPara quem precisou, teve muita dificuldade? Foi tranquilo? ",
@@ -333,19 +305,19 @@
             {
                 "comment_id": "m3pgxft",
                 "comment_body": "Eu acredito que sim. Por conta de um vinculo familiar e de um beneficio ativo do governo em seu nome ! Mas é interessante você se informar em um posto do INSS ou um advogado ! \n\nEssa pensão que recebe não consegue manter seus custo com a faculdade é padrão de vida ou tu precisa sustentar sua mãe também ? Pois se for isso, talvez seja interessante achar outra pessoa pra ser sócio e abrir algo !",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1735110862.0
             },
             {
                 "comment_id": "m3p8e6y",
                 "comment_body": "r/conselhoslegais",
-                "comment_score": 7,
+                "comment_score": 5,
                 "comment_created_utc": 1735105433.0
             },
             {
                 "comment_id": "m3q3vo5",
                 "comment_body": "Olhei no site Contabilizei e não pode.\n\nhttps://www.contabilizei.com.br/contabilidade-online/aposentado-pode-abrir-empresa/#:~:text=Ademais%2C%20pensionista%20do%20INSS%20inv%C3%A1lido,ou%20administrador%20de%20outra%20empresa.\n\nBoa semana pra você!",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1735127701.0
             },
             {
@@ -379,13 +351,13 @@
             {
                 "comment_id": "lxdwauz",
                 "comment_body": "[deleted]",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1731731785.0
             },
             {
                 "comment_id": "lxfhfoa",
                 "comment_body": "Nova Thread do upgferreira merece até pipoca! Mal posso esperar pra ler todo o conteúdo",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1731764079.0
             },
             {

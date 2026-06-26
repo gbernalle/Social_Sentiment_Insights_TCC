@@ -1,5 +1,1075 @@
 [
     {
+        "post_id": "1t6o55i",
+        "post_title": "Imposto de Renda para \"MEI DEV\" e Simples Nacional - Palavras de um Contador",
+        "post_body": "Olá pessoal tudo bom? Estou vindo aqui novamente, sou Contador que atendo alguns desenvolvedores e ja falo na comunidade tem um tempo. \n\n  \nRecentemente eu estou vindo por causa de alguns problemas que estão surgindo no Imposto de Renda desse ano e gostaria de salientar vocês: \n\n\\-----------------------------------  \nSOBRE O MEI: \n\n\\- Recentemente peguei o Imposto de Renda de alguns desenvolvedores e vi algo estranho referente as antigas entregas de declaração deles. Eles colocaram todo o faturamento deles como \"Tributavel\". Eu quero que vocês saibam que mesmo no CNAE do Suporte Técnico vocês tem uma isenção de 32% sobre o valor do rendimento bruto declarado nas notas e declaração do MEI. \n\n  \nSOBRE O SIMPLES NACIONAL:\n\n\\- Recentemente o Governo decidiu extinguir a obrigação da DIRF, e tirar as informações diretamente do eSocial e EFD-Reinf. Dessa forma fazer o informe por parte dos contadores ficou complicado e muitas mudanças retroativas estão sendo promulgadas (Ex: EFD-Reinf de 12001 para 10001).\n\n\\- Entretanto vocês ainda podem ver o informe das empresas de vocês, inclusive pedir para o contador retirar para fazer a verificação dos dados e se esta batendo com as declarações. É só seguir na seguinte ordem: Google: Serviços Receita Federal > Negócios > Declarações > Consultar Rendimentos Pagos e Retenções. \\[OBS: Deve-se logar com a empresa de vocês\\]\n\n\\------------------------------------\n\n\n\nDe qualquer forma esse ano esta cheio de picuinha e muita gente está caindo na malha. Então se tiverem alguma duvida, só perguntar ",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1t6o55i/imposto_de_renda_para_mei_dev_e_simples_nacional/",
+        "is_self_post": true,
+        "post_created_utc": 1778189390.0,
+        "comments": [
+            {
+                "comment_id": "okkci6e",
+                "comment_body": "Ganho 33k PJ, cnae de desenvolver de software sob encomenda. Caio no anexo v, mas pagando 9k de pro labore e inss, vou pro anexo III. Isso me dá uns 11% de imposto e me dá a cobertura do INSS. Você vê algum risco ou mudaria alguma coisa?",
+                "comment_score": 3,
+                "comment_created_utc": 1778207282.0
+            },
+            {
+                "comment_id": "okiyybd",
+                "comment_body": "MEI DEV? pode isso? pensei que tinha que ser ao menos ME",
+                "comment_score": 5,
+                "comment_created_utc": 1778189696.0
+            },
+            {
+                "comment_id": "okjcn3a",
+                "comment_body": "Off-topic: o quão ruim é a contabilizei? Abri meu CNPJ por lá e estou operando há pouco mais de um mês, pagando o plano mais caro (400 reais) e não tem um fdp pra me atender em momento nenhum do dia. Já tô com vários chamados, ouvidoria e até reclame aqui abertos e nada. Eu tô sendo azarado? Não é possível que é assim com todo mundo.\n\nQuanto me custaria pagar um contador diretamente pra fazer o trabalho da Contabilizei? Calcular pro labore, emitir nota, DAS, conciliar a contabilidade em si etc.\n\nME de um sócio só, PJtinha padrão, nada complicado.",
+                "comment_score": 2,
+                "comment_created_utc": 1778194005.0
+            },
+            {
+                "comment_id": "okj05pt",
+                "comment_body": "Aproveitando o tema, não dá problema esse pessoal fazendo trampo de dev com CNAE de suporte? Eu tive ME por um tempo, mas de fato prestava serviço de suporte para uma empresa americana, tinha Support no cargo e tudo.\n\nPensando em possivelmente voltar pro PJ mas como dev mesmo, qual a diferença real na alíquota? Parece ser um risco grande pra uma diferença pequena, mas estou realmente curioso.\n\nEdit: Antes que venha o meme da receita federal, não quero saber a situação de ninguém, só to perguntando pro OP se ele já viu alguém rodar fazendo isso aí.",
+                "comment_score": 1,
+                "comment_created_utc": 1778190050.0
+            },
+            {
+                "comment_id": "okje7ss",
+                "comment_body": "Acompanhando ",
+                "comment_score": 1,
+                "comment_created_utc": 1778194528.0
+            },
+            {
+                "comment_id": "okr77v9",
+                "comment_body": "Oie! Obrigada por se dispor. Eu atuava apenas como dev mas agora fui pra gerência. Ainda codo, porém bem focada em liderança e gestão de pessoas e projetos além disso. Não alterei meu CNAE. Alguma consideração? ",
+                "comment_score": 1,
+                "comment_created_utc": 1778293783.0
+            },
+            {
+                "comment_id": "okmbrmw",
+                "comment_body": "Depende. No Brasil ou prestando serviço para o Exterior?",
+                "comment_score": 2,
+                "comment_created_utc": 1778240099.0
+            },
+            {
+                "comment_id": "okiz68t",
+                "comment_body": "Não não pode, mas você ficaria surpreso com quantos eu atendo kkkk",
+                "comment_score": 9,
+                "comment_created_utc": 1778189761.0
+            },
+            {
+                "comment_id": "okkc52k",
+                "comment_body": "quê isso, uso Contabilizei e acho simplesmente maravilhoso, sempre me atendem muito bem e rapidasso\n\nacho que vc foi azarado sim viu, tenta o atendimento pelo whatsapp ",
+                "comment_score": 4,
+                "comment_created_utc": 1778207151.0
+            },
+            {
+                "comment_id": "okk0fjh",
+                "comment_body": "Depende da região, 300-500",
+                "comment_score": 2,
+                "comment_created_utc": 1778202759.0
+            },
+            {
+                "comment_id": "okne4v7",
+                "comment_body": "Eu particularmente não acho ruim (Falando como Contador), mas tem gente que gosta de um acompanhamento mais pessoal sabe. \n\n  \nEu por exemplo, sou bem seletivo com meus clientes gosto de atender PJ que ganha até 20k e sem funcionario para que eu possa dar atenção a todos. E assim eu consigo lidar melhor com os clientes que preferem ter o contato direto do contador. Mas cada um é cada um, e a contabilizei faz um excelente trabalho de massa. ",
+                "comment_score": 2,
+                "comment_created_utc": 1778251809.0
+            },
+            {
+                "comment_id": "okme651",
+                "comment_body": "Tou pagando o plano mais básico de 132 e o atendimento é horrível. Mas no final das contas funciona e não reclamo porque não achei mais barato ",
+                "comment_score": 1,
+                "comment_created_utc": 1778240994.0
+            },
+            {
+                "comment_id": "okj1ekt",
+                "comment_body": "Vamos lá.\n\nSim, existe a chance de dar problema. Em especial em uma possível investigação ou quando a pessoa descreve ou coloca na nota fiscal um código tributário de programador ou analista de dados (Sim, isso acontece).\n\nSobre o fato de você ter trabalhado para gringa com o Suporte porque tinha Support no cargo, tome muito cuidado. O entendimento legal é sobre a função e não sobre o nome do cargo (Estou atendendo um Consultor de Designer, mas ele está fazendo função descrito pelo contrato de Promotor de Vendas)\n\nA diferença é que o DEV é Anexo V. Ou seja, para ter direito a pagar a mesma alíquota do Anexo III ele tem que ter 28% de folha de pagamento (quase sempre só pró-labore). Disso, se o valor for inferior a 5 mil, você vai pagar 11% dos 28%.",
+                "comment_score": 3,
+                "comment_created_utc": 1778190421.0
+            },
+            {
+                "comment_id": "okuefe9",
+                "comment_body": "Mesmo tirando nota com outro codigo mantenha o fator R de 28%, ele é feito sobre faturamento total da sua empresa. Logo mesmo executando funções de fora dele (O que eu acredito que possa ser, teria que analisar com calma) se você deixar de contribuir com os 28% não vai conseguir voltar com o beneficio do Anexo III quando for codar novamente. \n\nDe resto, talvez fosse bom uma alteração para inclusão de um CNAE relevante, mas se a empresa que vc presta serviço não reclama e você trabalha na mesma area...então fica por isso mesmo. ",
+                "comment_score": 2,
+                "comment_created_utc": 1778343249.0
+            },
+            {
+                "comment_id": "okmtk54",
+                "comment_body": "Brasil prestando serviço pra Brasil ",
+                "comment_score": 1,
+                "comment_created_utc": 1778246009.0
+            },
+            {
+                "comment_id": "okkv3vs",
+                "comment_body": "Já tentei o whatsapp 4 vezes, três demoraram mais de uma hora e meia pra me atender, e aí eu já não podia falar, e a outra literalmente ficou no \"vamos te conectar com um especialista\" pra sempre. No telefone a URA diz que não reconhece o meu número e desliga na minha cara. Na ouvidoria já tem 7 dias sem resposta. Tá complicado.\n\nEu usei o serviço deles por recomendação de um amigo que usa e disse que é muito tranquilo, por isso tô achando que sou azarado.",
+                "comment_score": 1,
+                "comment_created_utc": 1778214966.0
+            },
+            {
+                "comment_id": "okmuauf",
+                "comment_body": "Então não. Vale lembrar que com 9k você não paga só INSS, deve pagar o IRPF tbm...tente visualizar isso na guia de pagamento.\n\nMantenha o código tributário nacional em dia com a função exercida e vai estar tudo ok.",
+                "comment_score": 2,
+                "comment_created_utc": 1778246231.0
+            },
+            {
+                "comment_id": "okmv0eb",
+                "comment_body": "Ah, além disso pelo valor recebido, futuramente busque a possibilidade de contratar um amigo seu ou algo assim.\n\nPorque vc pode diminuir o seu pró-labore e dividir a carga de 28% com outra pessoa (já que o cálculo é sobre folha de pagamento).\n\nClaro...pode deixar essa ideia para um pouco no futuro, ja que ainda tem margem, mas hoje você já paga o teto do INSS então não vale a pena ficar somando pro-labore.",
+                "comment_score": 2,
+                "comment_created_utc": 1778246443.0
+            },
+            {
+                "comment_id": "okmwmjl",
+                "comment_body": "Ah, outra coisa kkkkk\n\nSe você ganha por causa de um Software, tá ok.\n\nAgora, se você ganha por causa de um colaborador PJ (ou seja, seus 33k é salário PJtinha) talvez você seja obrigado pelos seus colaboradores a mudar para Regime Híbrido de IBS e CBS ou Lucro Presumido. Nesse caso fica esperto pq vai pagar mais imposto.",
+                "comment_score": 2,
+                "comment_created_utc": 1778246923.0
+            },
+            {
+                "comment_id": "okmzf3j",
+                "comment_body": "Sou PJtinha unipessoal, obrigado pelas informações ",
+                "comment_score": 1,
+                "comment_created_utc": 1778247748.0
+            }
+        ]
+    },
+    {
+        "post_id": "1ryvvuh",
+        "post_title": "Cara, eu acho que estou usando para caixa 2",
+        "post_body": "Estou num trampo novo como engenheiro de IA, ganhando quase 20k (o que pra mim é muito dinheiro).\n\nA questão é que não tem demanda, o trampo, quando tem, é muito simples, a empresa que me contratou presta serviço pra outra empresa grande nacional, estou sentindo que estão me usando para cobrar adicional da empresa grande, isso existe?\n\nPor exemplo, eu cobro 20 deles, eles cobram 30 da empresa e fica por isso mesmo.\n\nSó estou meio maluco pq não vejo necessidade de eu existir (nem o outro eng. de IA, somos 2 ao todo)\n\nA esquizofrenia finalmente venceu ou faz sentido?",
+        "post_url": "https://www.reddit.com/r/brdev/comments/1ryvvuh/cara_eu_acho_que_estou_usando_para_caixa_2/",
+        "is_self_post": true,
+        "post_created_utc": 1774012359.0,
+        "comments": [
+            {
+                "comment_id": "obhctzh",
+                "comment_body": "[removed]",
+                "comment_score": 378,
+                "comment_created_utc": 1774012688.0
+            },
+            {
+                "comment_id": "obhe21y",
+                "comment_body": "A carne só cai no prato do vegano",
+                "comment_score": 269,
+                "comment_created_utc": 1774013088.0
+            },
+            {
+                "comment_id": "obhcump",
+                "comment_body": "Tenha em mente uma coisa: se você não for de fato essencial para eles, em algum momento você vai ser cortado, provavelmente vai demorar alguns anos. Enquanto isso, pega esse dinheiro e NÃO GASTA, põe numa reserva de emergência rendendo 100% do CDI, compra sua casa própria caso não tenha, guarda essa grana.\n\nNada de comprar carro zero, nada de comer puta, nada de investir na startup do cunhado.\n\nE sim, a esquizofrênia venceu.",
+                "comment_score": 186,
+                "comment_created_utc": 1774012694.0
+            },
+            {
+                "comment_id": "obhkpar",
+                "comment_body": "[removed]",
+                "comment_score": 46,
+                "comment_created_utc": 1774015147.0
+            },
+            {
+                "comment_id": "obhu86e",
+                "comment_body": "BIXO, PRA QUE VOCÊ QUER SE PREOCUPAR COM ISSO? A IGNORÂNCIA É UMA BENÇÃO, PEGA TEU SALÁRIO, COMPRA TUAS COISINHAS, FAZ TUAS VIAGENS E VIVE TUA VIDA.\n\n  \nse tu for parar pra pensar, 90% das funções existentes hoje não tem necessidade de existir.",
+                "comment_score": 26,
+                "comment_created_utc": 1774017906.0
+            },
+            {
+                "comment_id": "obhcigy",
+                "comment_body": "Pede demissão e me indica, assim você se poupa desse sofrimento.\n\n[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCuxaDN0wZ1YQjVAgH9Zp8aR7t6LrdKl7yvQ&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCuxaDN0wZ1YQjVAgH9Zp8aR7t6LrdKl7yvQ&s)",
+                "comment_score": 24,
+                "comment_created_utc": 1774012585.0
+            },
+            {
+                "comment_id": "obheo9q",
+                "comment_body": "Se 20k é muito para vc, viva com 5k, coloque 10k em renda fixa e 5k em renda variável todos os meses.\n\nO tempo que você estiver à toa, estude tudo o que puder, desenvolva coisas diferentes ainda que aparentemente inúteis, procure se relacionar mesmo virtualmente com pessoas que sabem mais do que você.\n\nSe for qualquer lavagem de dinheiro, você não tem muito tempo até a casa cair.\n\nSe for má gestão, você não tem muito tempo até a firma quebrar.\n\nSe for excesso de dinheiro, você não perde nada por se precaver.\n\nDaqui a dois anos você passa a viver com 15k e a guardar só 5k.\n\nEstará liberado para comprar carro zero e comer puta cara.",
+                "comment_score": 10,
+                "comment_created_utc": 1774013286.0
+            },
+            {
+                "comment_id": "obhlie8",
+                "comment_body": "Eu tô alocado escrevendo logs. Maior piada. \n\nMas é estranho né ? Tem gente ganhando grana com isso, a gente só não sabe como.\n\nBoa sorte. ",
+                "comment_score": 8,
+                "comment_created_utc": 1774015388.0
+            },
+            {
+                "comment_id": "obhouk5",
+                "comment_body": "deus te proteja da minha inveja",
+                "comment_score": 5,
+                "comment_created_utc": 1774016366.0
+            },
+            {
+                "comment_id": "obhsrpp",
+                "comment_body": "Na verdade isso é coisa mais normal do mundo. O preço que eu pago pra NTT Data Brasil em dólar por um dev senior aqui no Brasil é uma loucura. Mas o preço é tabelado pra empresa grande e ninguém liga. O dev em si não deve ficar nem com metade. Então se vc tá recebendo 20k, eles estão cobrando 40k do cliente. ",
+                "comment_score": 6,
+                "comment_created_utc": 1774017490.0
+            },
+            {
+                "comment_id": "obivehj",
+                "comment_body": "talvez seja o caso de eles estarem te pagando pelo o que você *representa*, não pelo o que você está fazendo. eles podem se vender pro cliente porque eles têm “dois AI Engineers altamente qualificados”",
+                "comment_score": 6,
+                "comment_created_utc": 1774028277.0
+            },
+            {
+                "comment_id": "obhv2cd",
+                "comment_body": "Já aconteceu várias vezes comigo durante a carreira. Tem empresa que deixa o profissional no banco de reservas mesmo, pois sabe que se precisar pode não conseguir de uma hora para outra, ou que mesmo que não tenha muito demanda, contratar alguém como consultor/freelancer para as eventuais demandas pode sair mais caro a hora que você coloca a disponibilidade e burocracia envolvida.\n\nMinha dica é a aproveitar para se manter atualizado, fazer uns projetos paralelos, estudar, escrever artigos, e outras coisas que eventualmente valorizem o seu passe no mercado tanto para não ficar parado quanto para se acontecer de você ser promovido a cliente em algum ponto, você já estar preparado para conseguir outra coisa rapidamente.",
+                "comment_score": 6,
+                "comment_created_utc": 1774018145.0
+            },
+            {
+                "comment_id": "obimiha",
+                "comment_body": "Um dia li uma frase mais ou menos assim, que bate com minha realidade inclusive.\n\n“já trabalhei mais do que devia ganhando menos do que merecia. Hoje trabalho menos que deveria e ganho mais do que merecia”.\nAproveita cara",
+                "comment_score": 6,
+                "comment_created_utc": 1774025808.0
+            },
+            {
+                "comment_id": "obitab7",
+                "comment_body": "Eu estive num emprego desses recentemente e fiz o que sugeriram. Não gastei praticamente nada e me preparei pra demissão provável, que veio. ",
+                "comment_score": 6,
+                "comment_created_utc": 1774027688.0
+            },
+            {
+                "comment_id": "obhslas",
+                "comment_body": "Opa, estão contratando? ",
+                "comment_score": 5,
+                "comment_created_utc": 1774017439.0
+            },
+            {
+                "comment_id": "obhtvvp",
+                "comment_body": "Sim, faz sentido e acontece muito. Basicamente é o modelo de negócios de consultoria. Se tu ganha 20k, então eles tão cobrando pelo menos 40k pra cima.\n\nNo episódio de amanhã vamos falar sobre mais-valia. Não percam.",
+                "comment_score": 10,
+                "comment_created_utc": 1774017807.0
+            },
+            {
+                "comment_id": "obhx4ii",
+                "comment_body": "Sinto a mesma coisa (empresa dos US).... Meu trabalho é participar de algumas reuniões pra discutir arquitetura. E ajudar algumas pessoas a com coisas que elas não conseguem fazer sozinhas (tipo configurar ferramentas e ambientes). \nMas isso leva menos que 12 horas semanais.\nEu não acho q seja pra caixa 2, mas estou sendo sub utilizado.",
+                "comment_score": 3,
+                "comment_created_utc": 1774018733.0
+            },
+            {
+                "comment_id": "obihrib",
+                "comment_body": "Esse é o golpe mais antigo na programação, conheço cara ai que foi para Europa e hoje está bem de vida só nesse esquema, cara tirava 5 a 10 mil dos bobos e pagava 500 reais para o aluno dele fazer qualquer coisa em javascript, o teu é um esquema bom em se os caras estão pagando 40k para dois devs devem estar tirando no mínimo 100k no esqueminha de lucro",
+                "comment_score": 3,
+                "comment_created_utc": 1774024504.0
+            },
+            {
+                "comment_id": "obhgeoc",
+                "comment_body": "E daí? Toda empresa grande no Brasil está envolvida em alguma falcatrua. Se você não quer participar de nada ilegal aqui, trabalha na mercearia do seu bairro.",
+                "comment_score": 2,
+                "comment_created_utc": 1774013835.0
+            },
+            {
+                "comment_id": "obhlz7i",
+                "comment_body": "A dica é: Nunca pergunte o que sua empresa ou a outra faz e fique na sua, curiosidade demais pode atrapalhar sua consciencia",
+                "comment_score": 2,
+                "comment_created_utc": 1774015528.0
+            },
+            {
+                "comment_id": "obhomqi",
+                "comment_body": "Se quiser sair me avisa, faço o sacrifício de te substituir",
+                "comment_score": 2,
+                "comment_created_utc": 1774016303.0
+            },
+            {
+                "comment_id": "obi31me",
+                "comment_body": "Hahahahahahhahahahahahahhaha… OP descobrindo comp certos cargos de compras ganham dinheiro…",
+                "comment_score": 2,
+                "comment_created_utc": 1774020415.0
+            },
+            {
+                "comment_id": "obil2vq",
+                "comment_body": "Eu tenho uma  pequena empresa que presta serviço para grandes empresas, muitos contratos \"enterprise\" cobram SLAs muito rigorosos e pouquíssima margem pra negociação. \n\nComo se resolve? Cobre por isso.\n\nFoi assim que entendi porque bancos e outras grandes empresas pagam muito por serviços \"meia-boca\", eles não querem ferramentas e soluções disruptivas, na visão deles (e aí tem ponto que concordo e que não concordo) eles precisam que resolvam um problema, sem criar novos problemas e estão dispostos a pagar muito por isso.\n\nVocê é um backup/redundância de um projeto maior, se quiser mais coisa para aprender, vá atrás. Se quiser buscar outro emprego para aprender e usar esse pra fazer sua poupança, sua escolha também.",
+                "comment_score": 2,
+                "comment_created_utc": 1774025415.0
+            },
+            {
+                "comment_id": "obin5be",
+                "comment_body": "simplesmente oferta e demanda. Alguma empresa precisa desse tipo de serviço, a sua empresa conseguiu encontrar esse pote de ouro e está aproveitando, se eu fosse você surfaria essa onda e sondaria outras vagas",
+                "comment_score": 2,
+                "comment_created_utc": 1774025981.0
+            },
+            {
+                "comment_id": "obiuj76",
+                "comment_body": "Me chama pra trabalhar com você rapidão só pra eu testar um negócio",
+                "comment_score": 2,
+                "comment_created_utc": 1774028034.0
+            },
+            {
+                "comment_id": "objsh2e",
+                "comment_body": "unica coisa que vc esta errado é em achar que eles cobram 30k do cliente\n\ndevem cobrar mais kkkkk",
+                "comment_score": 2,
+                "comment_created_utc": 1774037754.0
+            },
+            {
+                "comment_id": "obkpyvn",
+                "comment_body": "Já pensou que a situação é mais simples que vc imagina?\n\nO seu chefe terceiros o trabalho para vc, ou seja, \"quarteirizou\" o trabalho.\n\nEle cobra 30k do cliente, fica com 10k e te paga 20k.",
+                "comment_score": 2,
+                "comment_created_utc": 1774048046.0
+            },
+            {
+                "comment_id": "obl9co8",
+                "comment_body": "silêncio, o jovem descobriu o capitalismo e a maisvalia",
+                "comment_score": 2,
+                "comment_created_utc": 1774054734.0
+            },
+            {
+                "comment_id": "oboday2",
+                "comment_body": "amigo apaga esse post e fica quieto. eu no seu lugar ficaria aí até aposentar.",
+                "comment_score": 2,
+                "comment_created_utc": 1774105627.0
+            },
+            {
+                "comment_id": "obhhsqy",
+                "comment_body": "Isso não é o core de uma consultoria?",
+                "comment_score": 1,
+                "comment_created_utc": 1774014271.0
+            },
+            {
+                "comment_id": "obhj9ej",
+                "comment_body": "Oque exatamente um engenheiro de IA faz? Sim sou burro",
+                "comment_score": 1,
+                "comment_created_utc": 1774014718.0
+            },
+            {
+                "comment_id": "obhk6lk",
+                "comment_body": "Troca comigo pow\n\n",
+                "comment_score": 1,
+                "comment_created_utc": 1774014993.0
+            },
+            {
+                "comment_id": "obhld6v",
+                "comment_body": "Isso é normal. Você está trabalhando para uma consultoria. É assim que elas ganham dinheiro. Você está ganhando como CLT pelo menos? Ou PJ mesmo?",
+                "comment_score": 1,
+                "comment_created_utc": 1774015344.0
+            },
+            {
+                "comment_id": "obhnhq6",
+                "comment_body": "Eu sei que ta sem o que fazer, mas me indica la",
+                "comment_score": 1,
+                "comment_created_utc": 1774015972.0
+            },
+            {
+                "comment_id": "obhqlm2",
+                "comment_body": "sim é isso mesmo. vc tem que estar no quadro de pessoal porque o contrato existe e sim eles ganham uma parte por voce e ganham muito mais, milhoes pelo contrato todo e isso não tem nada de ilegal ou errado. sao exigencias da matriz . em algum tempo esse contrato acaba e não sera renovado por falta de necessidade, falta de demanda. aproveita e não fale nada porque senão colocam outro menos curioso. mas caso esteja insatisfeito eu posso te dar trabalho porque eu tambem presto serviço para a mesma empresa e estou sobrecarregado. vocé é Dev né? me passa o teu email por favor. tenho demanda para voce e boa para vc aprender coisas novas . sou Auditor viu mas voce vai ser meu brother entao tudo beleza. eles vão renovar contigo quando virem o que voce vai entregar colaborando com a Auditoria da empresa",
+                "comment_score": 1,
+                "comment_created_utc": 1774016867.0
+            },
+            {
+                "comment_id": "obi4qct",
+                "comment_body": "E eu tenho que lidar com técnico de quinta série que so fica de várzea o dia inteiro por muito menos, aproveita aí e boas.\n20k mês em alguns anos eu já aposentaria e viveria da renda.\nNão preciso de muito pra ser feliz e já tenho um padrão ok.\n\nEsquizofrenia bateu forte amigo ",
+                "comment_score": 1,
+                "comment_created_utc": 1774020884.0
+            },
+            {
+                "comment_id": "obi5j30",
+                "comment_body": "Eles estão te usando como argumento para ter verba em inovação, IA e etc. \n\ntenha cuidado com os finais de quarters, quando há cobrança de resultado. \n\nSe não tem demanda, cria, enfeita o pavão, amarra peido em cordão, arruma algo pra eles baterem palma.",
+                "comment_score": 1,
+                "comment_created_utc": 1774021105.0
+            },
+            {
+                "comment_id": "obi7fc3",
+                "comment_body": "No brasil oq nao falta eh gente em empresa grandne encostado e inutil. Principalmente se o salario for alto pra realidade brasileira mas baixo para um dev bom.\n\n\nO que provavelmente acontece eh que a empresa quer entrar na modinha da IA mas so tem braço curto que não quer levantar a mao se nao for forçado, e vc por mais quw seja caro nao custa tanto quanto abrir um novo departamento de dados.\n\n\nMas eventualmente vao perceber que nao ta trazendo retorno nenhum e vc vai pra rua quando o contrato for terminado, so tem que torcer pra que isso demore",
+                "comment_score": 1,
+                "comment_created_utc": 1774021631.0
+            },
+            {
+                "comment_id": "obi8spn",
+                "comment_body": "me indica que eu carrego esse fardo pra vc irmão ",
+                "comment_score": 1,
+                "comment_created_utc": 1774022010.0
+            },
+            {
+                "comment_id": "obidi2p",
+                "comment_body": "Tão contratando lá amigo?",
+                "comment_score": 1,
+                "comment_created_utc": 1774023307.0
+            },
+            {
+                "comment_id": "obiizky",
+                "comment_body": "https://preview.redd.it/aic7exyna8qg1.jpeg?width=1080&format=pjpg&auto=webp&s=9f8c04f52ce27c9a902d028ed5f6ef9997a7a686",
+                "comment_score": 1,
+                "comment_created_utc": 1774024842.0
+            },
+            {
+                "comment_id": "obikr86",
+                "comment_body": "isso era bem comum até em grandes empresas de consultoria quando empurravam mais funcionários que o necessário pra o cliente, ou quando o cliente simplesmente mudava de idea mas não queria fazer feio pra a gerência dela e mantinha o time pra mostrar que tava \"entregando\" alguma coisa e justificar uma cagada orçamentária. Tem ficado mais raro cair no limbo, aproveita, junta a grana e se prepara, que uma hora as coisas mudam, sempre mudam.",
+                "comment_score": 1,
+                "comment_created_utc": 1774025326.0
+            },
+            {
+                "comment_id": "obiqdf8",
+                "comment_body": "Parabéns, o uniforme que eles fornecem é o novo laranja?",
+                "comment_score": 1,
+                "comment_created_utc": 1774026875.0
+            },
+            {
+                "comment_id": "obivbuh",
+                "comment_body": "Que sorte. Eu trabalho com isso e tô que nem um condenado aqui trabalhando pra um povo que não entende de ia. ",
+                "comment_score": 1,
+                "comment_created_utc": 1774028257.0
+            },
+            {
+                "comment_id": "obj20vj",
+                "comment_body": "Situação estranha em. Se voce quiser eu posso ficar no seu lugar sem problemas",
+                "comment_score": 1,
+                "comment_created_utc": 1774030139.0
+            },
+            {
+                "comment_id": "objd1f6",
+                "comment_body": "Tem gente que não sabe mesmo ser feliz...",
+                "comment_score": 1,
+                "comment_created_utc": 1774033274.0
+            },
+            {
+                "comment_id": "objd59k",
+                "comment_body": "\"Por exemplo, eu cobro 20 deles, eles cobram 30 da empresa e fica por isso mesmo.\"  \nMas isso é normal pra consultoria.. onde eu trampava eles colocavam 50 porcenot mesmo.\n\nAs vezes a empresa que contratou é so desorganizada mesmo. Como disseram ai aproveita o tempo livre e vai estudanto e a grana pra ir guardando.\n\nPS: teve um amigo meu que na época das vacas gordas de ti que foi completamente esquecido durante um ano. Quando ele foi reclamar que ele existia o cortaram hahahaha",
+                "comment_score": 1,
+                "comment_created_utc": 1774033305.0
+            },
+            {
+                "comment_id": "objft8z",
+                "comment_body": "Eu tenho um cliente que me paga um valor fixo por mês. Eu mantenho os sistemas dele atualizados e funcionando, na minha própria rotina (tipo, eu decido se instalo uma atualização agora ou se deixo pra quando sair a próxima; ele não determina nem fiscaliza isso), e ele me aciona quando é algo urgente (e.g. algo saiu do ar ou começou a dar erro).\n\nNo começo, quando esse era meu único cliente, tinha vezes que eu passava o mês inteiro sem trabalhar mais do que 4 horas no total. E ele me pagava o valor combinado todo mês, mesmo assim.\n\nUm dia eu questionei ele, preocupado por ele ser minha única fonte de renda, se ele não decidiria um belo dia que o valor que ele me pagava não valia a pena considerando o pouco que eu vinha fazendo em cada mês. Ele me explicou que não, que ele não via o meu pagamento dessa forma. Ele via mais como o pagamento de um seguro, sabendo que, desde que ele pague aquele valor todo mês, caso ocorra qualquer situação emergencial, independente da gravidade, ele sabia que teria alguém familiarizado com os servidores, sistemas, e configurações, já a postos pra resolver.\n\nComo qualquer seguro, o pagamento é pela paz de espírito. Você sabe que, se ocorrer algo inesperado, você já vai ter que lidar com a situação em si, mas não vai ter além disso a preocupação de procurar alguém que consiga resolver e ainda arrumar uma forma de cobrir os custos imediatos.\n\nEntão, do ponto de vista dele, quanto menos eu trabalhasse no mês, melhor, porque significa que naquele mês tudo se manteve estável e sem maiores problemas.\n\nNão sei se é o seu caso, mas pode ser que o ritmo de demandas é variável e imprevisível, e imagina como seria se a empresa fosse esperar um aumento repentino nas demandas pra só então abrir e divulgar vagas, entrevistar e avaliar candidatos, fazer o onboarding, pra só depois de tudo isso poder **começar** a atender essas demandas adicionais.\n\nOu pode ser puramente questão contratual mesmo, totalmente *above board*. O contrato com o cliente pode determinar que a empresa mantenha à disposição uma equipe de *n* engenheiros dedicados exclusivamente a ele, sendo que o valor que ele paga é determinado pelo que a empresa manteve disponível pra ele naquele período, independente se o que ele efetivamente usou daquela capacidade foi 1% ou 100%.",
+                "comment_score": 1,
+                "comment_created_utc": 1774034078.0
+            },
+            {
+                "comment_id": "objicjd",
+                "comment_body": "Quer trocar? Tenho trampo pra caralho. ",
+                "comment_score": 1,
+                "comment_created_utc": 1774034814.0
+            },
+            {
+                "comment_id": "objpjve",
+                "comment_body": "se fosse no X eu ia te xingar muito, mas como não é... tá mamando e reclamando ",
+                "comment_score": 1,
+                "comment_created_utc": 1774036907.0
+            },
+            {
+                "comment_id": "objv496",
+                "comment_body": "tbm quero onde envio?",
+                "comment_score": 1,
+                "comment_created_utc": 1774038518.0
+            },
+            {
+                "comment_id": "objzpwz",
+                "comment_body": "Hora de você conseguir um outro emprego e mantendo os dois ao mesmo tempo enquanto der",
+                "comment_score": 1,
+                "comment_created_utc": 1774039850.0
+            },
+            {
+                "comment_id": "obk0mts",
+                "comment_body": "Dobro ou é o que eles cobram do cliente.",
+                "comment_score": 1,
+                "comment_created_utc": 1774040117.0
+            },
+            {
+                "comment_id": "obk5yvp",
+                "comment_body": "Isso é consultoria básica mano, markup em cima de recurso humano é o modelo de negócio mais antigo do setor. Enquanto pagarem, relaxa.",
+                "comment_score": 1,
+                "comment_created_utc": 1774041703.0
+            },
+            {
+                "comment_id": "obk9cbq",
+                "comment_body": "é a coisa que mais tem, meu pai trabalha numa consultoria que ta assim tbm kkkkkk (ganha uns 10k deles e o superior dele leva 100k por cabeça terceirizando função e socando mais funcionario pra cobrar mais)",
+                "comment_score": 1,
+                "comment_created_utc": 1774042708.0
+            },
+            {
+                "comment_id": "obkarua",
+                "comment_body": "meu amigo, se quiser me contratar aceito ",
+                "comment_score": 1,
+                "comment_created_utc": 1774043136.0
+            },
+            {
+                "comment_id": "obkcsgn",
+                "comment_body": "Ta na hora de meter o OE. consegue outro trampo 20k+ e toca tranquilamente ",
+                "comment_score": 1,
+                "comment_created_utc": 1774043752.0
+            },
+            {
+                "comment_id": "obkcx30",
+                "comment_body": "Amigo, se você quiser arrumar outro emprego, pode me indicar no seu lugar, tá? Eu posso fazer esse sacrifício por ti",
+                "comment_score": 1,
+                "comment_created_utc": 1774043791.0
+            },
+            {
+                "comment_id": "obkecrj",
+                "comment_body": "Ganha seus 20 tranquilo. A empresa deve estar ganhando uns 100k em cima. Nem se preocupa com isso. Onde um amigo trabalha o valor pj dele 10k, a empresa pegou o projeto por mais de 1M.",
+                "comment_score": 1,
+                "comment_created_utc": 1774044238.0
+            },
+            {
+                "comment_id": "obkf06y",
+                "comment_body": "Ahhhh mano é claro que eles estão ganhando dinheiro com vc, até ong de caridade os malucos ganham dinheiro, tu acha mesmo que eles te contrataram pra não ganhar nada em cima? Joga o jogo irmão, faz teu pé de meia, forma teu currículo e seja cobiçado no mercado de trabalho igual o último bacon na reunião de gordos. \nCasa quitada, carro com baixo custo de manutenção e dinheiro pra reserva de emergência. Se depois disso for possível um investimento pra pingar uma grana todo mês, não precisa ser muito, pode ser 1k por mês que já tá ótimo. ",
+                "comment_score": 1,
+                "comment_created_utc": 1774044445.0
+            },
+            {
+                "comment_id": "obkhtjk",
+                "comment_body": "Tem vaga? Aceito por 15k hahahaahah",
+                "comment_score": 1,
+                "comment_created_utc": 1774045362.0
+            },
+            {
+                "comment_id": "obkiq20",
+                "comment_body": "Basicamente[ bullshit jobs](https://davidgraeber.org/articles/on-the-phenomenon-of-bullshit-jobs-a-work-rant/), pelo menos o seu, para nossos padrões (ou seja padrões de pobres) é bem pago.",
+                "comment_score": 1,
+                "comment_created_utc": 1774045658.0
+            },
+            {
+                "comment_id": "obknemw",
+                "comment_body": "Ou é uma grande lavagem de dinheiro isso aí hahhah",
+                "comment_score": 1,
+                "comment_created_utc": 1774047203.0
+            },
+            {
+                "comment_id": "obks3fn",
+                "comment_body": "Tem vaga?",
+                "comment_score": 1,
+                "comment_created_utc": 1774048747.0
+            },
+            {
+                "comment_id": "obkww1a",
+                "comment_body": "Escuta meu conselho.\n\nCrie demandas, invente tarefas pra você mesmo fazer. Pareça estar ocupado, mostre utilidade.\n\nÉ o melhor caminho para não ser demitido e ficar um tempão na empresa.\n\n“Otimizei esse relatório”\n“Criei esse roadmap de atividades para o time para o ano”\n“Refatorei tal coisa”\n“Otimizei tal script, tá rodando X% mais rápido e economizando tanto”\n\nE por aí vai.\n",
+                "comment_score": 1,
+                "comment_created_utc": 1774050341.0
+            },
+            {
+                "comment_id": "oblqunx",
+                "comment_body": "Onde manda currículo?",
+                "comment_score": 1,
+                "comment_created_utc": 1774061301.0
+            },
+            {
+                "comment_id": "oblrk8t",
+                "comment_body": "Vc quer muito dá essa beiradinha tua, eu tô pagando 14.50 pra ir trabalhar , só falta levar o chicote se fude ",
+                "comment_score": 1,
+                "comment_created_utc": 1774061580.0
+            },
+            {
+                "comment_id": "obn4gel",
+                "comment_body": "Isso existe. Jogue o jogo. Faça o seu melhor e guarde dinheiro.",
+                "comment_score": 1,
+                "comment_created_utc": 1774087425.0
+            },
+            {
+                "comment_id": "obnbgjf",
+                "comment_body": "Se ta na internet, é verdade ",
+                "comment_score": 1,
+                "comment_created_utc": 1774091263.0
+            },
+            {
+                "comment_id": "obobcno",
+                "comment_body": "Voce agora esta percebendo como funciona o corporativismo. Os grandes salarios não são frutos de remuneração proporcional, é apenas um valor que alguem definiu e outra pessoa tem grana o suficiente pra pagar.  \nAproveite o momento e perceba como tudo funciona pra poder replicar em outro local caso seja necessário",
+                "comment_score": 1,
+                "comment_created_utc": 1774105009.0
+            },
+            {
+                "comment_id": "obp0xms",
+                "comment_body": "Entrega o que eles precisam da melhor maneira possível e nunca transpareça que você está subutilizado",
+                "comment_score": 1,
+                "comment_created_utc": 1774112886.0
+            },
+            {
+                "comment_id": "obp9giy",
+                "comment_body": "O jovem descobrindo o outsourcing ",
+                "comment_score": 1,
+                "comment_created_utc": 1774115489.0
+            },
+            {
+                "comment_id": "obpojwh",
+                "comment_body": "Acho que eu que vendi sua participação na empresa grande, porque faço isso como diretor de negócios de uma consultoria. Não tem segredo, amigo, te pagamos 20k e cobramos do cliente maior algo na casa de 55k. Ele não quer ter riscos ou ônus trabalhistas, por isso a contratação de gente usando esse sistema. E o fato de não ter trampo, bom pra você.",
+                "comment_score": 1,
+                "comment_created_utc": 1774120117.0
+            },
+            {
+                "comment_id": "obpz4nx",
+                "comment_body": "Tem vaga?",
+                "comment_score": 1,
+                "comment_created_utc": 1774123468.0
+            },
+            {
+                "comment_id": "obrxw34",
+                "comment_body": "cara voce vai fazer o seguinte, vai pegar meu curriculo, vai me indicar e quando eu entrar investigamos isso juntos, pode ser JR sem problema, ficarei mt feliz em ajudar voce a resolver esse misterio do caixa 2 askasdkasdkasd \n\n",
+                "comment_score": 1,
+                "comment_created_utc": 1774148049.0
+            },
+            {
+                "comment_id": "obsqy5r",
+                "comment_body": "Muito estranho amigo. Me deixe assumir o cargo, eu te passo 5 e fico com os 15, mas fico de olho aberto vigiando. ",
+                "comment_score": 1,
+                "comment_created_utc": 1774162163.0
+            },
+            {
+                "comment_id": "obtecxs",
+                "comment_body": "Qual curso vc fez pra conseguir ser eng de ia?",
+                "comment_score": 1,
+                "comment_created_utc": 1774175744.0
+            },
+            {
+                "comment_id": "obtmq8y",
+                "comment_body": "Estou aceitando indicações, viu? Queria essa mamata na minha vida",
+                "comment_score": 1,
+                "comment_created_utc": 1774180048.0
+            },
+            {
+                "comment_id": "obu4qqc",
+                "comment_body": "Se essa vaga for nacional, pela faixa deve ser sênior, e se isso for verdade, as vezes estão esperando que vc tenha autonomia para cadeira que foi contratado...",
+                "comment_score": 1,
+                "comment_created_utc": 1774187072.0
+            },
+            {
+                "comment_id": "obyb94w",
+                "comment_body": "O que você estudou para ser engenheiro de AI, algum curso específico? Tô vendo os cursos da Huggin Face pra entender mais da área.",
+                "comment_score": 1,
+                "comment_created_utc": 1774234093.0
+            },
+            {
+                "comment_id": "oc1nh5r",
+                "comment_body": "Amigo eu trabalho numa empresa que presta serviços também. Por vezes eu gasto três vezes mais do que ganho só com custos de deslocamento/equipe. O trampo em si é tão básico que me dá raiva do tanto de complicação que eles tem. Eu sinto isso também, também sinto uma impotência enorme por está acomodado nessa posição.",
+                "comment_score": 1,
+                "comment_created_utc": 1774284279.0
+            },
+            {
+                "comment_id": "oc2dhuj",
+                "comment_body": "Porra cara. Vc recebe 20k e ainda tá reclamando bixo? A bicho, vai transar mano ",
+                "comment_score": 1,
+                "comment_created_utc": 1774291429.0
+            },
+            {
+                "comment_id": "oc6rjnq",
+                "comment_body": "Se quiser ceder seu lugar pra mim sou firme ",
+                "comment_score": 1,
+                "comment_created_utc": 1774353046.0
+            },
+            {
+                "comment_id": "ocbeghk",
+                "comment_body": "manda 2 conto pra mim que eu carrego o fardo por vc\n\n",
+                "comment_score": 1,
+                "comment_created_utc": 1774402806.0
+            },
+            {
+                "comment_id": "obhf1z7",
+                "comment_body": "É que você tem uma visão míope, ou limitada, do que é geração de valor.\n\nGerar valor não é só colocar tijolo na parede. \n\nFornecer um selo de qualidade ou proficiência à obra também é valor (branding que vc construiu ao longo dos anos), se isso aumenta a percepção de qualidade e segurança para o cliente. \n\n",
+                "comment_score": 0,
+                "comment_created_utc": 1774013407.0
+            },
+            {
+                "comment_id": "obhhzca",
+                "comment_body": "Conheço um lugar que vai te contratar como estagiário pagando 6 reais a hora e te colocar em projetos que o cliente tá pagando 100 reais a hora, você vai poder ser feliz com 1100 reais por mês e um VR de 250",
+                "comment_score": 76,
+                "comment_created_utc": 1774014326.0
+            },
+            {
+                "comment_id": "objsupk",
+                "comment_body": "Op contrata esse cara por 10, assim cada um ganha 10k na cadeia de exploração.\n\n#stonks",
+                "comment_score": 6,
+                "comment_created_utc": 1774037863.0
+            },
+            {
+                "comment_id": "obji9sd",
+                "comment_body": "Exatamente hahaha.\nO tonto me posta no Reddit essa mamata, é brincadeira? ",
+                "comment_score": 31,
+                "comment_created_utc": 1774034792.0
+            },
+            {
+                "comment_id": "obhk95a",
+                "comment_body": "Seu comentario foi o que me fez perceber que não tava na farialimabets ",
+                "comment_score": 64,
+                "comment_created_utc": 1774015014.0
+            },
+            {
+                "comment_id": "obhe40r",
+                "comment_body": "Vou usar pra amortizar meu financiamento",
+                "comment_score": 58,
+                "comment_created_utc": 1774013105.0
+            },
+            {
+                "comment_id": "obhdbye",
+                "comment_body": "Nada, o bom de consultoria é que quando der merda nesse cliente é só realocar o OP kkkk (também sou de consultoria). Recomendo a ele apenas estudar muito a área dele que ele tá na área do sucesso",
+                "comment_score": 8,
+                "comment_created_utc": 1774012850.0
+            },
+            {
+                "comment_id": "obhm80y",
+                "comment_body": "Dependendo da idade dele, a hora para gastar com puta é agora. Nem que seja um pouco sempre vai fazer a diferença.  \n  \nUm vizinho meu não quis gastar enquanto estava num emprego parecido, quando ele perdeu o emprego tinha verba reservada para putaria, já que ele previa que teria bastante tempo para isso, só que ele acabou não gastando por ter ficado com medo de não ter novo emprego e com isso não ter dinheiro para o básico.  \n  \nFinal da história é que ele ficou dois meses desempregado, não gastou com putaria, no primeiro mês no novo emprego arrumou namorado, depois de uns anos casou e hoje diz que perdeu a única janela na vida para aproveitar putaria.",
+                "comment_score": 23,
+                "comment_created_utc": 1774015601.0
+            },
+            {
+                "comment_id": "obkei9s",
+                "comment_body": "Esse conselho receberia muito downvote na farialimabet",
+                "comment_score": 2,
+                "comment_created_utc": 1774044286.0
+            },
+            {
+                "comment_id": "obn95wu",
+                "comment_body": "Como assim não comer puta? \n\n\"E a minha felicidade ?\" -Adriano imperador ",
+                "comment_score": 1,
+                "comment_created_utc": 1774090041.0
+            },
+            {
+                "comment_id": "obhn9km",
+                "comment_body": "Mil thanks, já aliviou mt minha cabeça ",
+                "comment_score": 10,
+                "comment_created_utc": 1774015906.0
+            },
+            {
+                "comment_id": "obhv43u",
+                "comment_body": "Pode fechar o post",
+                "comment_score": 3,
+                "comment_created_utc": 1774018159.0
+            },
+            {
+                "comment_id": "obi36v4",
+                "comment_body": "HAUAHAUAUAUAUAUAHUAHAHAHAUHAHAHAHAHAHAHHA… olha, te ofereço um Tocantins nesse momento, pq Palmas não são suficientes ",
+                "comment_score": -2,
+                "comment_created_utc": 1774020456.0
+            },
+            {
+                "comment_id": "obhezmu",
+                "comment_body": "Graças a Deus\n\nEu to pensando em arrumar um segundo trampo, recebi uma proposta na gringa, 3k USD.\n\nQuanto a gastar, estou pagando meu financiamento, to pensando em amortizar violentamente, pra quando vier o inevitável futuro, eu tenha tirado algo, nem que seja meu apartamento quitado",
+                "comment_score": 10,
+                "comment_created_utc": 1774013386.0
+            },
+            {
+                "comment_id": "obink04",
+                "comment_body": "Rapaz, quem dera eu com um salário de 20k. Morandoncom os pais não gasto quase nada, só com namorada. Daria pra viver com 5k tranquilo e ainda sobrava",
+                "comment_score": 2,
+                "comment_created_utc": 1774026093.0
+            },
+            {
+                "comment_id": "obhnva9",
+                "comment_body": "Sou alocada pegando informações de uma plataforma e jogando em um relatório. Outra piada, serviço de estagiário. Mas não sou igual o OP. Nem ligo de tá ganhando bem pra fazer isso.",
+                "comment_score": 9,
+                "comment_created_utc": 1774016081.0
+            },
+            {
+                "comment_id": "obhnpwm",
+                "comment_body": "Eh cara, meus mano trampando até a noite pra ganhar 3k e eu aqui fazendo porra nenhuma, fico me sentindo meio impostor, meio aproveitador\n\nEu já estive lá, trabalhando de madrugada feito um fdp, ai vem isso agora e não parece justo sabe",
+                "comment_score": 7,
+                "comment_created_utc": 1774016038.0
+            },
+            {
+                "comment_id": "obngnsc",
+                "comment_body": "[https://www.youtube.com/watch?v=pmOrZ5hvcoE](https://www.youtube.com/watch?v=pmOrZ5hvcoE)",
+                "comment_score": 1,
+                "comment_created_utc": 1774093860.0
+            },
+            {
+                "comment_id": "obmq2ra",
+                "comment_body": "Trabalhei na NTT como Dev pleno e ganhava chorados R$ 6,5K e tenho certeza que eu era vendido como Senior por pelo menos uns 18K, mas o cliente acho que pagava uns 40K brincando. E olha que sempre me falavam que lá era uma empresa muito boa de se trabalhar, mas não foi muito bem o que vi. \n\nInfelizmente o cliente que eu estava fez umas movimentações estranhas, acabei ficando sem cliente. \n\nÚnica coisa \"boa\" que rolou na NTT foi que um Dev senior que trabalhava na minha equipe me indicou pra outra consultoria pra trabalhar em um banco (caótico), fiquei até mês passado pois infelizmente o projeto acabou. Agora sigo na luta pra encontrar outro trampo. Faz parte da vida.",
+                "comment_score": 3,
+                "comment_created_utc": 1774078821.0
+            },
+            {
+                "comment_id": "obj0odq",
+                "comment_body": "Eu acho que eh isso, tenho banco forte no currículo, acho que é isso ",
+                "comment_score": 3,
+                "comment_created_utc": 1774029757.0
+            },
+            {
+                "comment_id": "obj0i68",
+                "comment_body": "Em quanto tempo?",
+                "comment_score": 1,
+                "comment_created_utc": 1774029709.0
+            },
+            {
+                "comment_id": "obhgria",
+                "comment_body": "Mercearia do meu bairro foi pega em esquema de caça niqueis amigo. kakakakakaka",
+                "comment_score": 10,
+                "comment_created_utc": 1774013946.0
+            },
+            {
+                "comment_id": "obhmzp2",
+                "comment_body": "Eu já trampei em consultoria, e lá tinha bastante trampo ashuasuhsauh",
+                "comment_score": 1,
+                "comment_created_utc": 1774015826.0
+            },
+            {
+                "comment_id": "obhytit",
+                "comment_body": "Relevante: [https://www.youtube.com/watch?v=ymp4RoX1w9Y](https://www.youtube.com/watch?v=ymp4RoX1w9Y)",
+                "comment_score": 1,
+                "comment_created_utc": 1774019221.0
+            },
+            {
+                "comment_id": "obhlgvi",
+                "comment_body": "Abre um chat no Claude ou no ChatGPT e fica lá pedindo coisas",
+                "comment_score": 3,
+                "comment_created_utc": 1774015375.0
+            },
+            {
+                "comment_id": "obhnj6l",
+                "comment_body": "PJ",
+                "comment_score": 1,
+                "comment_created_utc": 1774015984.0
+            },
+            {
+                "comment_id": "obhfbcf",
+                "comment_body": "Então falar que tem 2 engenheiro de IA com anos de exp já é gain pra empresa?",
+                "comment_score": 3,
+                "comment_created_utc": 1774013489.0
+            },
+            {
+                "comment_id": "obhzds9",
+                "comment_body": "Aí sim, põe eu nessa kkkk",
+                "comment_score": 16,
+                "comment_created_utc": 1774019384.0
+            },
+            {
+                "comment_id": "obj2yqg",
+                "comment_body": "Ganha sonho de valsa no aniversário? ",
+                "comment_score": 10,
+                "comment_created_utc": 1774030408.0
+            },
+            {
+                "comment_id": "obilrqe",
+                "comment_body": "Onde deixo currículo ",
+                "comment_score": 5,
+                "comment_created_utc": 1774025605.0
+            },
+            {
+                "comment_id": "obkyp23",
+                "comment_body": "Tá bem, já vi ganhando 500 por mês, e deve ter gente na mesma ganhando zero com estágio obrigatório ",
+                "comment_score": 2,
+                "comment_created_utc": 1774050950.0
+            },
+            {
+                "comment_id": "obyn2nm",
+                "comment_body": "Caralho. Eu achei que tava",
+                "comment_score": 1,
+                "comment_created_utc": 1774239088.0
+            },
+            {
+                "comment_id": "obhfnj6",
+                "comment_body": "Peguei um emprego estranho que pagava muito, e fiz isso, fiquei 3 meses com um salário de deputado kkkkk",
+                "comment_score": 29,
+                "comment_created_utc": 1774013597.0
+            },
+            {
+                "comment_id": "objax6g",
+                "comment_body": "Seu financiamento tem juros aa maior que a Selic atual? Nao? Então guarda o dinheiro fi, casa com esse financiamento e amortiza só usando FGTS o dia que for CLT",
+                "comment_score": 10,
+                "comment_created_utc": 1774032673.0
+            },
+            {
+                "comment_id": "obnwtf4",
+                "comment_body": "Se o financiamento tem juros menor que a taxa de juros, não amortiza nada não, deixa rendendo",
+                "comment_score": 1,
+                "comment_created_utc": 1774100224.0
+            },
+            {
+                "comment_id": "obhmh04",
+                "comment_body": "r/farialimabets ",
+                "comment_score": 10,
+                "comment_created_utc": 1774015674.0
+            },
+            {
+                "comment_id": "obll0g8",
+                "comment_body": "KKKKKK esse sou eu, vi que tem umas bonitinhas no job e já investi logo depois de conseguir um novo emprego",
+                "comment_score": 1,
+                "comment_created_utc": 1774059048.0
+            },
+            {
+                "comment_id": "obhrbx4",
+                "comment_body": "pega outros serviços. vai aprender a usar IA para nao ser substituido pela IA. tenho serviço para usar IA voce quer? automatizar prompts de IA",
+                "comment_score": 7,
+                "comment_created_utc": 1774017077.0
+            },
+            {
+                "comment_id": "obhg82v",
+                "comment_body": "Faz o OE OP, parte você guarda de reserva e parte você amortiza. Dinheiro sempre é bom",
+                "comment_score": 5,
+                "comment_created_utc": 1774013777.0
+            },
+            {
+                "comment_id": "obknjyv",
+                "comment_body": "Porra já ganha 20 k e vai ganhar mais 15? Cara, não se empolgue que é rico, aproveite mas monta uma carteira boa de investimento pra ficar seguro por uns dois anos caso tudo acabe! Deus tem os escolhidos ",
+                "comment_score": 2,
+                "comment_created_utc": 1774047251.0
+            },
+            {
+                "comment_id": "obhlczg",
+                "comment_body": "Estude se não vale a apena colocar o dinheiro em renda fixa e só amortizar depois ",
+                "comment_score": 1,
+                "comment_created_utc": 1774015343.0
+            },
+            {
+                "comment_id": "obhocr7",
+                "comment_body": "Como vc conseguiu esse trabalho e quanto ganha?",
+                "comment_score": 3,
+                "comment_created_utc": 1774016222.0
+            },
+            {
+                "comment_id": "obimvf9",
+                "comment_body": "Ué, dá parte do seu salário pra eles\n\nhttps://preview.redd.it/lohkvwwtd8qg1.jpeg?width=320&format=pjpg&auto=webp&s=d7ae4d8ff8e6e20431a7a00934138598dace7067",
+                "comment_score": 5,
+                "comment_created_utc": 1774025906.0
+            },
+            {
+                "comment_id": "obhs190",
+                "comment_body": "o sistema é assim, totalmente injusto e sacana com a maioria e beneficia poucos que trabalham pouco. não acostuma porque uma hora te jogam no chão de fabrica no turno da madrugada de novo por 3k, guarda a grana. investe o tempo em aprender sobre IA especialistas porque elas vão acabar com todas essas vagas em poucos anos",
+                "comment_score": 3,
+                "comment_created_utc": 1774017279.0
+            },
+            {
+                "comment_id": "obilg4b",
+                "comment_body": "Da 7k pro seu irmão, ambos ficam com 10 e vc não vai se sentir mais assim ",
+                "comment_score": 1,
+                "comment_created_utc": 1774025516.0
+            },
+            {
+                "comment_id": "oc1uwk5",
+                "comment_body": "8 meses. \n\nmeu caso era o seguinte: concurso com prazo de 2 anos. Mas enquanto eu estava lá, comecei a tentar entender as chances de eu ficar, mesmo tendo que prestar outro concurso.   \nEu fui percebendo que meu serviço era pouco requisitado e partes dele seriam substituíveis por sistemas e IA. Outras partes do serviço já vinham naturalmente sendo redistribuidas internamente.   \nAi percebi isso, que logo iria acabar e não iriam repor o cargo. Por um motivo administrativo fui demitido em 8 meses, ao invés de 24. Mas sei que o cargo não foi criado novamente e nem será. \n\nE era um cargo de alta demanda e importância alguns anos antes.",
+                "comment_score": 1,
+                "comment_created_utc": 1774286303.0
+            },
+            {
+                "comment_id": "obhoern",
+                "comment_body": "Aí fodeu.",
+                "comment_score": 1,
+                "comment_created_utc": 1774016239.0
+            },
+            {
+                "comment_id": "obhwevi",
+                "comment_body": "Então sou engenheiro de IA e nem sabia.",
+                "comment_score": 1,
+                "comment_created_utc": 1774018529.0
+            },
+            {
+                "comment_id": "obhg59v",
+                "comment_body": "Total. PS: é claro que a mamata não vai durar para sempre, mas nada dura kaka ",
+                "comment_score": 2,
+                "comment_created_utc": 1774013753.0
+            },
+            {
+                "comment_id": "obj5wvy",
+                "comment_body": "No aniversário tem um café da manhã pro time, tem que chegar 2h mais cedo e levar algo pro pessoal comer",
+                "comment_score": 7,
+                "comment_created_utc": 1774031239.0
+            },
+            {
+                "comment_id": "obhzemh",
+                "comment_body": "Estranho como, exatamente?",
+                "comment_score": 5,
+                "comment_created_utc": 1774019390.0
+            },
+            {
+                "comment_id": "obkdrt3",
+                "comment_body": "Não leia isso aqui não OP. Dívida se paga o mais rápido possível. Se um cisne negro ocorrer, tua grana no SELIC ganhando alguns trocados vs juros do financiamento não vai adiantar nada. A propriedade ser realmente sua e não ter dívidas é o que pode te ajudar a lidar com um cisne negro  ;)",
+                "comment_score": 9,
+                "comment_created_utc": 1774044055.0
+            },
+            {
+                "comment_id": "obk7n5p",
+                "comment_body": "OP, leia isso aqui. Importante.",
+                "comment_score": 1,
+                "comment_created_utc": 1774042194.0
+            },
+            {
+                "comment_id": "obimewo",
+                "comment_body": "Como é esse serviço? ",
+                "comment_score": 1,
+                "comment_created_utc": 1774025781.0
+            },
+            {
+                "comment_id": "obhp3jf",
+                "comment_body": "Mentindo muito. Faço 12k bruto.\n\n\n\n\n Mas eu não achei que o serviço ia ser tão fácil assim. Aproveito pra estudar e fazer serviço de casa. ",
+                "comment_score": 12,
+                "comment_created_utc": 1774016437.0
+            },
+            {
+                "comment_id": "obi2nkc",
+                "comment_body": "Startup que fazia software pra site de aposta, entrei, fiquei 3 meses porque o clima era terrível, chefes ruins, e saí, 4 meses depois faliu, empresa ficava nas Bahamas mas os donos eram bielorussos, coisa boa",
+                "comment_score": 30,
+                "comment_created_utc": 1774020306.0
+            },
+            {
+                "comment_id": "ockf0ly",
+                "comment_body": "Existe as duas opniões e são válidas. Acho que vale mais essa discução no r/investimentos .  \nEu odeio divida, sempre gosto de eliminar, mas a estratégia de guardar é mais inteligente, porém menos emocional.  \nEu fiz o seguinte, guardei um valor X que me rende a quitação de uma amortização. E amorteço mais duas parcelas mês. O que dá ao fim 4 parcelas mês.  \n  \nCom isso tenho dinheiro guardado só para a casa e vou amortizando tbm, meio a meio. ",
+                "comment_score": 1,
+                "comment_created_utc": 1774526892.0
+            },
+            {
+                "comment_id": "obipcsj",
+                "comment_body": "criar prompts testados que façam a IA conseguir cumprir tarefas completas. \n",
+                "comment_score": 2,
+                "comment_created_utc": 1774026593.0
+            },
+            {
+                "comment_id": "obhz9zt",
+                "comment_body": "Legal. Eu tenho um pouco de dificuldade pra mentir kkk que tipo de mentira vc falava? Dicas? Kkk\n\nE como aplicou pra essa vaga? Foi via LinkedIn, via site da empresa, indicação ou o que?",
+                "comment_score": 4,
+                "comment_created_utc": 1774019353.0
+            },
+            {
+                "comment_id": "objpot8",
+                "comment_body": "E como você fazia na etapa de testes? Porque esse é o grande problema em mentir na área de TI e sempre fico apreensiva com essa parte (ainda que eu dê uma valorizada sim)",
+                "comment_score": 3,
+                "comment_created_utc": 1774036946.0
+            },
+            {
+                "comment_id": "obncw5x",
+                "comment_body": "Como tu achou essa porra? KKKKKK",
+                "comment_score": 3,
+                "comment_created_utc": 1774092009.0
+            },
+            {
+                "comment_id": "obnop2j",
+                "comment_body": "Isso é muito aleatório ou é natural pra vc? Pq genuinamente eu tô curioso pra saber como você foi parar nessa empresa!?",
+                "comment_score": 1,
+                "comment_created_utc": 1774097249.0
+            },
+            {
+                "comment_id": "ockqhn5",
+                "comment_body": "Cada um faz o que achar mais inteligente. Não iniciei a \"discussão\" neste sub e postagem, apenas vi alguém endossando a mensagem com \"OP, leia isso aqui\" e resolvi fazer um alerta, um contraponto. Tenho uma dívida atualmente e nem por isso uso cada centavo que tenho para amortização. Mas isso, a meu ver, é totalmente diferente de casar com a dívida e ficar aplicando em investimentos para ganhar na diferença entre SELIC atual e juros do financiamento. Rolar dívida faz parte em vários contextos, Estado tem dívida, empresas tem dívida, pessoas ricas também. Mas não acho inteligente uma pessoa teoricamente comum adotar a estratégia proposta. O que ele disse, sendo mais direto, foi: se você tem uma dívida de 100k com taxa de 8% e tem 100k guardados podendo aplicar na SELIC a 15%, não pague, fique ganhando a diferença. A pessoa vai correr o risco de perder o próprio teto caso ocorra o inimaginável/cisne negro. Leia-se como cisne negro ficar sem conseguir liquidar os investimentos, tomar um calote, ficar congelado, sem nada enquanto na outra ponta o banco pode tomar seu imóvel por causa da dívida. Parece absurdo o que estou dizendo, pois no exemplo seriam 7% limpos por ano, mas quando você analisa que praticamente todos os financiamentos imobiliários hoje em dia tem taxa de reajuste do saldo devedor (antes o tr era zerado), essa diferença na prática cai para um ganho ínfimo, é totalmente loucura se arriscar tanto (sua moradia) por tão pouco. Como eu disse, eu tenho uma dívida (financiamento imobiliário), mas se eu tivesse grana para quitar ela completamente, eu quitaria. Eu só brincaria de rolar dívida como PJ e responsabilidade limitada, como PF você pode arrumar um problema p/ vida toda no seu CPF.",
+                "comment_score": 1,
+                "comment_created_utc": 1774530746.0
+            },
+            {
+                "comment_id": "obipji1",
+                "comment_body": "Paga quanto? ",
+                "comment_score": 1,
+                "comment_created_utc": 1774026645.0
+            },
+            {
+                "comment_id": "obi2ggv",
+                "comment_body": "Falava que sabia mexer com X ou Y. Que fazia serviço tal e tal. Eu tenho todo um texto de apresentação com o trabalho que eu faço, geralmente eu dou um tapa antes das entrevistas, e sempre apresento os tópicos do que eu faço bem explicados pra evitar gerar dúvidas para o gestor.\n\n\n\n\nNão apliquei, me chamaram pelo LinkedIn e fui fazer entrevista. ",
+                "comment_score": 4,
+                "comment_created_utc": 1774020252.0
+            },
+            {
+                "comment_id": "objvwub",
+                "comment_body": "Quando tem testes, costumam ser de te dar uma situação, uma semana por exemplo e aí eu resolvo. IA, ajuda de amigos que fiz na jornada de trabalho...\n\n\nEssa eu consegui só no gogó mesmo, sem teste. ",
+                "comment_score": 2,
+                "comment_created_utc": 1774038747.0
+            },
+            {
+                "comment_id": "obokpff",
+                "comment_body": "Uma tech recruiter me achou no LinkedIn, eu na época trabalhava pra gringa já, fui convidado, a oferta era incrível, e a promessa era uma empresa de jogos em Malta...topei\n\nO escritório de fato era em Malta, mas a empresa era toda zoada, eu entrei como engenheiro de dados e na primeira semana foi alocado como dev backend, depois de umas 2 semanas percebi que era sistema de cassino (antes achava que era sistema de gacha, pq não sabia que tinha um time fazendo front).\n\nEra o caos na terra, pedi demissão assim que deu, pq sério, era muito ruim, logo depois mandaram todo mundo embora e fecharam, provavelmente pra abrir denovo...\n\nDestruiu minha carreira, não consegui voltar pra gringa, e agora tô como data engineer no Brasil, ganhando o que ganhava a 2 anos atrás ",
+                "comment_score": 4,
+                "comment_created_utc": 1774107904.0
+            },
+            {
+                "comment_id": "obis1ut",
+                "comment_body": "não paga, é para Dev que ganha bem e tem tempo livre e quer aprender mas dando resultado tem participação nos resultados ",
+                "comment_score": 1,
+                "comment_created_utc": 1774027347.0
+            },
+            {
+                "comment_id": "obijpmr",
+                "comment_body": "Cara eu fico com receio de dizer que sei mexer com Y e eles me perguntarem coisas mais técnicas sobre Y e eu não saber, vc nunca passou por isso?\n\nQue bacana que foram te chamando no LinkedIn, geralmente quem me chama por lá são tentativas de scam kkkk vc considera seu perfil no LinkedIn otimizado pra buscas? Ou tem alguma estratégia de postagens?",
+                "comment_score": 1,
+                "comment_created_utc": 1774025038.0
+            },
+            {
+                "comment_id": "obp36og",
+                "comment_body": "F",
+                "comment_score": 0,
+                "comment_created_utc": 1774113571.0
+            },
+            {
+                "comment_id": "obiunfs",
+                "comment_body": "Kkkk faz sentido ",
+                "comment_score": 2,
+                "comment_created_utc": 1774028067.0
+            }
+        ]
+    },
+    {
         "post_id": "1rks1mn",
         "post_title": "É possível entrar no mestrado da USP sendo um aluno \"mediano\", mas muito esforçado?",
         "post_body": "Tenho 22 anos e curso **Sistemas de Informação** na **UNOESTE (Universidade do Oeste Paulista), em Presidente Prudente**. Sei que não é uma universidade de grande prestígio nacional e menciono isso porque sei que existe certo preconceito com faculdades particulares.\n\nMesmo assim, tenho muito carinho pela universidade, pela infraestrutura e pelos professores. Inclusive, algumas vezes nosso time já foi **finalista da ICPC**, o que sempre achei muito legal para uma universidade do interior.\n\nHoje trabalho como **desenvolvedor pleno**, com **mais de 4 anos de experiência** na área. Minha rotina é pesada: trabalho **6x1**, faço faculdade e ainda tento visitar meu filho de 1 ano sempre que possível (a mãe dele mora em outro estado).\n\nNo meio disso tudo, no ano passado tive um **burnout forte por problemas pessoais**, o que acabou me fazendo repetir um termo na faculdade. Por causa disso, **minha graduação não vai terminar exatamente nos 4 anos previstos** — devo me formar em **dezembro deste ano**.\n\nEu não sou um aluno nota 10. Nunca fui o melhor da sala. Mas sou extremamente **esforçado e apaixonado por tecnologia**, especialmente engenharia de software e hacking.\n\nUltimamente tenho pensado muito na possibilidade de tentar **um mestrado na USP**. Sei que não é algo simples e talvez nem seja a decisão mais óbvia para a minha realidade, mas é algo que realmente tenho vontade de tentar.\n\nMeu plano seria o seguinte:\n\n* Terminar a graduação este ano\n* Em **2026 começar a me preparar seriamente**\n* Usar esse período para estudar mais, melhorar meu currículo acadêmico e tentar entrar em um mestrado\n* já possuo **cartas de recomendação** de professores que tive na UNOESTE e que fizeram **mestrado/doutorado na própria USP**\n\nMinha dúvida principal é bem direta:\n\n**Um aluno mediano, mas muito esforçado, sem experiência em pesquisa, teria alguma chance real de entrar em um mestrado na USP se se preparar por cerca de 2 anos?**\n\nE se sim:\n\n* O que eu deveria começar a fazer **agora** para aumentar minhas chances?\n* Vale a pena tentar **publicação, iniciação científica, projetos open source**?\n* O peso da universidade de origem realmente influencia muito?\n\nAgradeço qualquer conselho de quem já fez mestrado ou conhece o processo.",
@@ -16,13 +1086,13 @@
             {
                 "comment_id": "o8nuuaa",
                 "comment_body": "OP, a minha pergunta para você é: como você sente que conseguiria aguentar um mestrado já trabalhando em escala 6x1 como dev?\n\nOlhando para o que você descreveu, acredito que a maior preocupação da banca nem seria seu currículo, mas sim o quanto você consegue dedicar para o mestrado. Será que uma especialização não seria mais compatível com sua realidade?",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1772657927.0
             },
             {
                 "comment_id": "o8njk57",
-                "comment_body": "Primeiro, olhe no programa de pós graduação sobre o processo seletivo, lá tem a descrição de cada item que eles avaliam e a pontuação deles. Veja se tem entrevista e se tem prova de admissão.  Se tiver provas, veja a emenda da prova e o material de referência . Veja quem é da comissão de pós-graduação e a área de pesquisa deles, se tiver entrevista cite coisas que fazem parte da pesquisa deles, professor é um bicho com ego inflado, vai adorar um aluno que acha a área de pesquisa dele relevante .\n\nLembre-se que tudo deve ser comprovado, se participou de um congresso, mas não tem o comprovante, então não conta . \n\n ",
-                "comment_score": 4,
+                "comment_body": "[removed]",
+                "comment_score": 6,
                 "comment_created_utc": 1772654713.0
             },
             {
@@ -144,7 +1214,7 @@
             {
                 "comment_id": "o2cnpmc",
                 "comment_body": "Ai eu buguei, tu paga um contador e ele te fala \"Descobre ai se vale a pena estar em lucro presumido\"?\n\nSe vale ou não a pena é matemática, obvio que se seu faturamento flutuar vai influenciar mas é pegar o faturamento esperado do ano e calcular, o que você pagar menos imposto é só ir nele (ou se for praticamente igual SN, ta no nome, é mais simples)",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1769659509.0
             },
             {
@@ -274,7 +1344,7 @@
             {
                 "comment_id": "o42nxpk",
                 "comment_body": "Galera, isso é um fórum. Exponham tudo nos comentários do post kkkkkkk",
-                "comment_score": 2,
+                "comment_score": 4,
                 "comment_created_utc": 1770469532.0
             }
         ]
@@ -438,19 +1508,19 @@
             {
                 "comment_id": "o1xhkvb",
                 "comment_body": "Desculpa nao responder suas peeguntas, mas vou deixar aqui oque eu falo pra quem ta comecando nessa e eu queria ter ouvido. Continue com contador. Tem contadores que são especializados nessa galera que é contractor pra fora. eles podem de ajudar se o seu contador nao tem exp.\nContalibilizei e essas plataformas que vc faz as coisas e eles assinam é usar mal seu tempo. Embora seja importante vc saber oque ta rolando, essa nao e sua profissão, vc n precisa ser especialista.\nFoque em fica melhor no seu trampo invés de gasta seu tempo livre se preocupando com imposto. Tem um monte de gente que ja faz isso, a não ser essa seja sua brisa.\npq vc vai otimizar 10% do seu ganho, pra ser sei la 9, 8% enquanto se vc ganhar uma promoção, troca de trampo etc vc vai ganhar mt mais. Até aprender investir e uma ideia mt melhor que vc gasta SEU tempo com isso. Use o tempo dos outros, pague alguem que ja estudou isso.",
-                "comment_score": 24,
+                "comment_score": 25,
                 "comment_created_utc": 1769475312.0
             },
             {
                 "comment_id": "o1x3nqj",
                 "comment_body": "Valores aproximados:\n1. Husky: 1%\n2. DAS: 4,8%\n3. DARF: 7%\n4. Contabilidade: 1%",
-                "comment_score": 23,
+                "comment_score": 24,
                 "comment_created_utc": 1769471038.0
             },
             {
                 "comment_id": "o1x4ij9",
                 "comment_body": "Tech FX cobra spread de 0.5%\n\nPega um contador que tenha experiência com empresas de tecnologia e exportação de serviços",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1769471303.0
             },
             {
@@ -462,7 +1532,7 @@
             {
                 "comment_id": "o1xya30",
                 "comment_body": "Simples Nacional com Fator R 100% exportação de serviço\n\nCNAE de desenvolvimento deprogramas de computador + consultoria\n\n6% + 250 do contador + 0.5% da plataforma que recebo (TechFX se quiser mando link de afiliado pra você pagar 0.1%)",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1769480760.0
             },
             {
@@ -570,7 +1640,7 @@
             {
                 "comment_id": "o1xjqxx",
                 "comment_body": "Rtzao, usando cnae de area sem propriedade intelectual tirando 6% de imposto so",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1769476004.0
             },
             {
@@ -588,13 +1658,13 @@
             {
                 "comment_id": "o1xmel7",
                 "comment_body": "Não precisa desculpar, eu curti muito o que falou e absolvi mto! Obrigado :)",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1769476866.0
             },
             {
                 "comment_id": "o202skh",
                 "comment_body": "Ta pagando bem caro de imposto",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1769515502.0
             },
             {
@@ -642,13 +1712,13 @@
             {
                 "comment_id": "o1xm3m8",
                 "comment_body": "Obrigado :D\n\nJava 10 anos  \nGo 5 anos\n\nHj trabalho num bancão, o q impulsionou um pouco a vaga.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1769476767.0
             },
             {
                 "comment_id": "o1xo94p",
                 "comment_body": "Obrigado! Mas tenho certeza de que já, já você consegue também.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1769477473.0
             },
             {
@@ -660,13 +1730,13 @@
             {
                 "comment_id": "o1xq1oy",
                 "comment_body": "Fui abordado diretamente pelo LinkedIn. A dica de ouro (que vale uma mentoria, mas é de graça) é a seguinte: seja autêntico, mas abuse dos bullet points para descrever suas experiências. Isso facilita muito para os recrutadores.\n\nQuanto à negociação, eu pedi 7k. O segredo é ser direto: fale 'quero tanto' e pergunte 'qual o budget da vaga?'. Daí eles vão negociar. Podem dizer 'ah, não conseguimos, quer tentar com X dólares mesmo assim?' ou vão fazer uma contraproposta, que foi exatamente o meu caso.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1769478066.0
             },
             {
                 "comment_id": "o1xlk6p",
                 "comment_body": "Qual CNAE, por exxemplo?",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1769476592.0
             },
             {
@@ -774,13 +1844,13 @@
             {
                 "comment_id": "o1xn771",
                 "comment_body": "Nesses primeiros meses, devo fazer um OE até porque tenho dois períodos de férias marcadas. Caso eu sinta segurança no projeto (por mais que, pelo que pesquisei, é uma ótima empresa), aí devo largar o CLT.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1769477128.0
             },
             {
                 "comment_id": "o20p62z",
                 "comment_body": "CNAE: 6311-9/00 - Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet: https://www.contabilizei.com.br/consulta-cnae/atividades-de-prestacao-de-servicos-de-informacao/6311900-tratamento-de-dados-provedores-de-servicos-de-aplicacao-e-servicos-de-hospedagem-na-internet/?psafe_param=1&utm_device=m&utm_term&utm_source=google&utm_medium=cpc&utm_campaign=%5BMAX%5D_Performance_SP&hsa_cam=13991176771&hsa_grp&hsa_mt&hsa_src=x&hsa_ad&hsa_acc=1466761651&hsa_net=adwords&hsa_kw&hsa_tgt&hsa_ver=3&gad_source=1&gad_campaignid=13993674425&gclid=Cj0KCQiA4eHLBhCzARIsAJ2NZoKE7P1YS47nhvQ0KMikg9jA6AWAGcgduXgzeT0JCuvREJpnP5vibKEaAohFEALw_wcB\n\nConsigo ver alguém de dados dando esse migué, mas desenvolvedor pode dar ruim, não?",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1769523398.0
             },
             {
@@ -874,13 +1944,13 @@
             {
                 "comment_id": "nyhande",
                 "comment_body": "Quando eu tinha CNPJ, pagava bem feliz pro contador e ele se virava com tudo. \"Ain mas tem o site seilaoque que gerencia tudo pra ti\"\n\nGerencia até tu ter um problema fiscal/contábil porque a plataforma não previu alguma coisa...",
-                "comment_score": 26,
+                "comment_score": 24,
                 "comment_created_utc": 1767909115.0
             },
             {
                 "comment_id": "nyi07jz",
                 "comment_body": "eles sabem tudo isso, eh q a maioria quer ser o \"espertão\" e dar golpe mesmo...  \n\"Não existe governo corrupto com povo honesto\"",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1767916468.0
             },
             {
@@ -892,8 +1962,14 @@
             {
                 "comment_id": "nyh5n2y",
                 "comment_body": "Usei mei até estourar o teto. A empresa permitia que emitisse nota como manutenção de computadores. Quando entrei em uma mais organizada precisei ir pra ME. Pagava ~6% da nf + contador + inss\n\nAcho que no mês dava uns 1200",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1767907802.0
+            },
+            {
+                "comment_id": "o7iwmum",
+                "comment_body": "cara, isso é MUITO real!!!! eu achava que dava pra ser MEI no começo, quase fui nessa de abrir rapidinho e pensar depois, ainda bem que pesquisei melhor antes de fazer besteira... se eu tivesse aberto sozinho provavelmente ia me enrolar bonito!! hoje tô com a contabilizei e, pra mim, resolveu porque eles já enquadraram certo desde o início e explicaram como funciona essa parte de pró-labore pra não cair direto no Anexo V pagando mais logo de cara, eu recomendo uma contabilidade mais especializada em devs mesmo, tipo a contabilizei, pra ajudar nessas questões do imposto et",
+                "comment_score": 3,
+                "comment_created_utc": 1772118343.0
             },
             {
                 "comment_id": "nyknw3m",
@@ -902,10 +1978,10 @@
                 "comment_created_utc": 1767954955.0
             },
             {
-                "comment_id": "o7iwmum",
-                "comment_body": "cara, isso é MUITO real!!!! eu achava que dava pra ser MEI no começo, quase fui nessa de abrir rapidinho e pensar depois, ainda bem que pesquisei melhor antes de fazer besteira... se eu tivesse aberto sozinho provavelmente ia me enrolar bonito!! hoje tô com a contabilizei e, pra mim, resolveu porque eles já enquadraram certo desde o início e explicaram como funciona essa parte de pró-labore pra não cair direto no Anexo V pagando mais logo de cara, eu recomendo uma contabilidade mais especializada em devs mesmo, tipo a contabilizei, pra ajudar nessas questões do imposto et",
+                "comment_id": "og5fijt",
+                "comment_body": "Esse contador me ajudou a montar a minha empresa. Já tinha sido sacaneada pela Contabilizei e precisava de uma contabilidade que eu pudesse ao menos conversar e que me explicasse os processos e ele foi muito solicito. Recomendo.",
                 "comment_score": 2,
-                "comment_created_utc": 1772118343.0
+                "comment_created_utc": 1776181106.0
             },
             {
                 "comment_id": "nyhrlsg",
@@ -962,6 +2038,12 @@
                 "comment_created_utc": 1771348098.0
             },
             {
+                "comment_id": "ob22tiy",
+                "comment_body": "Ola grande mestre da contabilidade, espero que me dê algumas dicas\nEstou pra abrir meu CNPJ :D Para receber logo, se Deus permitir, do esterior.... E durante minhas pesquisas para um faturamento dos sonhos bruto anual de 365k Aprox, 31k mês \nEstou pensando em abrir um simples nacional me, com CNAE 8219-9/99*: \"Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente\".\nSendo assim já estou no anexo III. Vou emitir no máximo duas notas por mês com CFOP5936, 6936, 5949 ou 6949\nSendo assim estou previsando um curto de 14% aproximado de imposto .\nE ai o que você acha ? Vê uma estratégia melhor ? \n",
+                "comment_score": 1,
+                "comment_created_utc": 1773804456.0
+            },
+            {
                 "comment_id": "nygzumf",
                 "comment_body": "My man",
                 "comment_score": 1,
@@ -976,19 +2058,31 @@
             {
                 "comment_id": "nyi0kbb",
                 "comment_body": "o certo é clt e pagar 27,5% de imposto \n\nqq coisa alem disso é sonegação está roubando recursos do sus\n\nviva o sus",
-                "comment_score": -7,
+                "comment_score": -6,
                 "comment_created_utc": 1767916578.0
+            },
+            {
+                "comment_id": "nyh3izz",
+                "comment_body": "Claro, dou uma olhada sim.",
+                "comment_score": 4,
+                "comment_created_utc": 1767907253.0
+            },
+            {
+                "comment_id": "o0vlzse",
+                "comment_body": "isso é muito necessário sempre vamos ter dúvidas relacionada a esse sentido. ",
+                "comment_score": 1,
+                "comment_created_utc": 1769012304.0
             },
             {
                 "comment_id": "nyhcaab",
                 "comment_body": "Clássico do Clássico...infelizmente.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1767909529.0
             },
             {
                 "comment_id": "nyhcodg",
                 "comment_body": "Conheci um Desenvolvedor que tinha uma contabilidade de uma certa empresa bem famosa que faz anuncios no Youtube dizendo ser especialista em Desenvolvedores. Que ficou quase 2 anos pagando no Anexo V, porque delegaram o trabalho para 5 pessoas em setores diferentes para cuidar da empresa dela e ninguem sabia de nada...infelizmente existe problema tanto em empresas que automatizam tudo e empresas que delegam tudo.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1767909629.0
             },
             {
@@ -1004,6 +2098,12 @@
                 "comment_created_utc": 1767918808.0
             },
             {
+                "comment_id": "omo7iqb",
+                "comment_body": "Sim, e fazemos isso com gosto! Mas se você senti fetiche com impostos exorbitantes, tá tudo bem.",
+                "comment_score": 1,
+                "comment_created_utc": 1779198959.0
+            },
+            {
                 "comment_id": "nyh6w0c",
                 "comment_body": "Se você manter o seu Prolabore em 28% sim. Porem a função do desenvolvedor ele é tributado pelo Anexo V. Isso significa que se você for MEI, e tirar nota de desenvolvedor, se for desenquadrado é certo de pagar um imposto altíssimo.",
                 "comment_score": 6,
@@ -1012,7 +2112,7 @@
             {
                 "comment_id": "nyh7aep",
                 "comment_body": "É o caso de algumas empresas que estou pegando agora. O problema é que 3 delas, estavam como MEI tirando como nota desenvolvedor e foram desenquadradas retroativamente, logo como as notas estavam como desenvolvedor elas entrariam no Anexo V. \n\nEstou dando meus pulos para fazer o pro-labore retroativo. Mas não é o ideal, o ideal é começar como ME.",
-                "comment_score": 7,
+                "comment_score": 5,
                 "comment_created_utc": 1767908232.0
             },
             {
@@ -1070,9 +2170,15 @@
                 "comment_created_utc": 1768000493.0
             },
             {
+                "comment_id": "obcoknm",
+                "comment_body": "Evita esse CNAE de principal. Olha, o ideal é colocar o CNAE de programador (caso seja o seu caso) para evitar problema. \n\nMASSSS, se vc for louco e quer arriscar perder tudo e tomar uma multa fudida: Coloca Suporte Tecnico mesmo, faça um contrato equivalente a prestação de suporte tecnico a aplicativos e programas (Ou seja, vc esta \"Prestando suporte a empresa nos codigos dos aplicativos e programas\" e não desenvolvendo) E não seja burro de tirar nota com codigo de programador e sim de suporte.\n\nDentro dos CFOP que vc indicou, todos levantam suspeita. Se quer enganar a receita (kkkkkkkk boa sorte) ao menos tem que parecer legitimo. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773946028.0
+            },
+            {
                 "comment_id": "nyh7q7i",
                 "comment_body": "A idéia é sempre pagar menos,, mas se for de forma errada e for pego, ai da problema... :/",
-                "comment_score": 14,
+                "comment_score": 15,
                 "comment_created_utc": 1767908346.0
             },
             {
@@ -1092,6 +2198,12 @@
                 "comment_body": "Regras mudam o tempo todo, precisa ter uma malícia",
                 "comment_score": 1,
                 "comment_created_utc": 1767919211.0
+            },
+            {
+                "comment_id": "omqu68z",
+                "comment_body": "Já que você usou uma argumentação bosta (não argumentou nada), praticamente usou 3 técnicas de Schopenhauer, estratagemas 1, 12 e 38.  \nVou responder no mesmo nível que você: \"Você não sabe a diferença de 'sente' para 'senti' e quer tentar debater algo.\"\n\nOu, se quiser uma resposta mais lógica:  \n\"Você não rebateu o argumento, só inventou outro. Falei de gente querendo dar golpe, e você transformou isso em “fetiche por imposto”. Isso não é contra-argumento, é espantalho com sarcasmo.\"",
+                "comment_score": 1,
+                "comment_created_utc": 1779224552.0
             },
             {
                 "comment_id": "nykqjds",
@@ -1136,10 +2248,22 @@
                 "comment_created_utc": 1768031273.0
             },
             {
+                "comment_id": "omrcgl5",
+                "comment_body": "kkkkkkkkkk aiinnnnn ela jogou a bolsa no chaummm kkkkkkkkkkk",
+                "comment_score": 1,
+                "comment_created_utc": 1779230046.0
+            },
+            {
                 "comment_id": "nyktmqj",
                 "comment_body": "A maioria dos serviços são tributados diretamente no anexo III, não é o caso dos desenvolvedores e de alguns outros.",
                 "comment_score": 1,
                 "comment_created_utc": 1767957873.0
+            },
+            {
+                "comment_id": "obcp4bp",
+                "comment_body": "O Prolabore tem que ser 28% ou 1 salario minimo. \n\nDesse valor vc vai pagar 11% (E o IR caso seja acima de 5 mil) e sim, conta como contribuição...porem dentro do valor do Pro-labore. ",
+                "comment_score": 1,
+                "comment_created_utc": 1773946182.0
             },
             {
                 "comment_id": "nyiq6ud",
@@ -1244,7 +2368,7 @@
             {
                 "comment_id": "nvm526q",
                 "comment_body": "Rapaz tive que desenvolver toda a reforma tributária inclusive o layout da nota de serviço padrão nacional, eu já tô no limite kkkkkk preciso urgentemente de férias",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1766526137.0
             },
             {
@@ -1264,6 +2388,12 @@
                 "comment_body": "Bah, eu fiz o meu em laravel também, para o meu trampo, foda é a documentação é confusa, tipo eu to lendo um xlsx ai ali diz uma coisa, ai fui bater o xsd e lá diz outra, em resumo não consigo cancelar a nota ksksks. Que sofrimento pqp.",
                 "comment_score": 1,
                 "comment_created_utc": 1767372809.0
+            },
+            {
+                "comment_id": "olhfj20",
+                "comment_body": "Esse projeto permite emitir NFSe sem preencher as informações do cliente, por exemplo, apenas digitando o CPF/CNPJ do cliente o sistema já consegue puxar os dados Nome/Razão social? como é feito nas emissões dentro do portal nacional?",
+                "comment_score": 1,
+                "comment_created_utc": 1778635361.0
             },
             {
                 "comment_id": "nvq13wx",
@@ -1396,7 +2526,7 @@
             {
                 "comment_id": "nsl6b2z",
                 "comment_body": "É igual qualquer outra empresa. Sem CNPJ, você pode receber, mas vai receber como autônomo. Resumindo, você vai pagar a tarifa do IRPF + ISS da sua cidade no mínimo. Pega a aliquota do ISS da sua cidade, usa algum site que calcule aliquota efetiva de IRPF com base no rendimento e veja como fica. Spoiler: Fica horrível, pois todo valor que entra na sua conta vira rendimento, mesmo que você use boa parte para pagar servidores e serviços que seu software use. Como exemplo, na minha cidade, depois da nova tabela, após receber 5.900 no total (não só do seu app!, todos rendimentos) vocẽ pagaria 29,5% de imposto sobre todo o dinheiro que entrar.\n\nNa minha CNPJ, como licenciamento de software se enquadra no Fator R, apenas cerca de 10 - 15% sobre o lucro (após deduzir todos os custos).\n\nContinha de padaria:\n\nSupondo que vc recebeu 10.000 e supondo ISS de 2% (aliquota da minha cidade):  \nPF: alíquota efetiva de 16,98% + 2% = 18,98% ou 1.898 reais de impostos (fora INSS)  \nCNPJ: alíquota efetiva: 9,08% aplicando Fator R com pró-labore de 2.800, e já com INSS nesse valor do pró-labore (308,00 de contribuição previdenciaria.) ou 908 reais (incluso INSS).\n\nAumentando para 20.000:  \nPF: Alíquota efetiva: 22,24% + 2% = 24,24% ou 4.848 (sem INSS)  \nCNPJ: Alíquota efetiva: 12,69% ou 2.537,87 (sendo 616,00 de INSS com pró-labore de 5.600).\n\nLembrando que na PF os valores são do que vc recebe, pois não deduz custos (posso estar errado nisso, mas quando pesquisei era assim), na PJ você pode deduzir os custos se tiver uma entrada suficiente pra valer a pena, regras tributárias.\n\nBom, é isso, se você pretende apenas testar, ver se consegue alguns usuários, e não tem outras rendas que vão bater as isenções da PF, pode valer a pena. Mas acho que é melhor você abrir uma MEI, que mesmo que na teoria não admita desenvolvimento de software, tem alguns códigos que se equiparam.  \n  \nDo contrário, procure um contador e abra uma PJ, não é tão caro hj em dia (abri uma segunda PJ dia desses e com todos os custos foi uns 1.500 e pago 200 mensalmente para uma contabilidade online).",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1765026334.0
             },
             {
@@ -1490,7 +2620,7 @@
             {
                 "comment_id": "nlw6fhz",
                 "comment_body": "Cara, melhor falar com um contador. Mas algo a se considerar é fazer o simples so ano q vem pra vc nao ter q pagar uma nota de imposto nesses dois ultimos meses.\n\nSobre a empresa querer seus dados logo, ela que tem q esperar a burocracia do estado kkkkkk Voce pode comecar a trabalhar enquanto isso se resolve",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1761684282.0
             },
             {
@@ -1584,7 +2714,7 @@
             {
                 "comment_id": "nkp3l70",
                 "comment_body": "eu uso o do artigo 3, um amigo usava a do fator r mas desistiu pra ficar pelo artigo 3 tambem",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1761093015.0
             },
             {
@@ -1654,13 +2784,13 @@
             {
                 "comment_id": "nkttdgs",
                 "comment_body": "Largaria o CLT e ficaria com o pj 5k dol. Paz no coração e muito dinheiro no bolso não tem preço.\n\nEm menos de 2 anos vc sobre pra 6 ou 7 sem problemas.",
-                "comment_score": 88,
+                "comment_score": 87,
                 "comment_created_utc": 1761159656.0
             },
             {
                 "comment_id": "nktztw9",
                 "comment_body": "pra mim OE é delirio e faz até empregos tetinhas ficarem extremamente irritantes\n\neu pessoalmente me fodi tentando fazer, nao conheço pessoalmente quem faça mas aqui no sub nego fala como se fosse trivial\n\nenfim. pegava o 5k pj e começava a construir essa carreira fora programar pro brasil n vale a pena financeiramente",
-                "comment_score": 38,
+                "comment_score": 43,
                 "comment_created_utc": 1761161546.0
             },
             {
@@ -1678,31 +2808,31 @@
             {
                 "comment_id": "nktuejg",
                 "comment_body": "Arriscado pegar duas coisas novas sem saber como vai ser o ritmo, se são viáveis como OE e tal.\n\nO caminho seguro é manter o CLT (o diabo que você conhece) + a melhor proposta PJ. Daqui a seis meses você pensa se adiciona mais alguma coisa ou troca.\n\nEDIT: ah, o CLT é híbrido né. Infelizmente você vai precisar ajudar a cuidar da sua vovozinha e só pode ficar se puder ser full remoto. Pode contar uma história triste que só seria por um período até você contornar a situação e que não for assim você vai pedir demissão sem aviso prévio.",
-                "comment_score": 17,
+                "comment_score": 16,
                 "comment_created_utc": 1761159964.0
             },
             {
                 "comment_id": "nkuem8w",
                 "comment_body": "Cara CLT híbrido com OE? \n\n\nNunca vi ninguém que dure mais de um mês nisso. A não ser que você more do lado da empresa. \n\nEu pegaria o PJ de 5k e vida que segue, não pede conta do CLT mas já iria me preparando pra ser desligado.\n\n\nBurnout pode sair bem caro.",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1761165767.0
             },
             {
                 "comment_id": "nkuis12",
                 "comment_body": "Eu mantenho 2 PJ pra gringa, é chato não conseguir férias e tals, perder alguns benefícios, mas to vendo de construir minha casa dos sonhos, num valor de uns 2M, jamais poderia ter isso de outra forma \n\nEu só acho BO vc começar em 2 novos simultâneos, eu ficaria no CLT e no de 5k usd, espera uns 6 meses, sente o clima, aprende a regra de negócio, e dai sim começaria a procurar um outro de uns 5k tbm, dai seriam 2 PJ de 5k, 10k USD/mês",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1761166960.0
             },
             {
                 "comment_id": "nkubqug",
                 "comment_body": "Receita pra Burnout com certeza é, se mantiver isso a longo prazo, mas tem algumas perguntas que precisariam ser respondidas (na tua cabeça): quantos anos você tem? Tem família? Possui um objetivo em mente, e um plano de saída? Eu não me prenderia a CLT, os “benefícios” não são relevantes comparado ao incremento salarial que vc terá.",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1761164961.0
             },
             {
                 "comment_id": "nkuol37",
                 "comment_body": "Não faça 2 onboarding ao mesmo tempo, estabiliza em um trampo antes de acumular outro. É uma das regras de ouro do OE",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1761168741.0
             },
             {
@@ -1894,13 +3024,13 @@
             {
                 "comment_id": "nkuq57b",
                 "comment_body": "considerando q ele fique 2 anos né? na gringa vc pode facilmente ser chutado com 3 meses, e mt instável",
-                "comment_score": -3,
+                "comment_score": -1,
                 "comment_created_utc": 1761169234.0
             },
             {
                 "comment_id": "nku0wk1",
                 "comment_body": "Pra mim OE ou termina em um burnout em 6 meses ou em demissão pq o cara não entrega nada.",
-                "comment_score": 20,
+                "comment_score": 19,
                 "comment_created_utc": 1761161858.0
             },
             {
@@ -1912,13 +3042,13 @@
             {
                 "comment_id": "nkvp3d9",
                 "comment_body": "Mano, achava isso tb, mas tô há 5 meses em OE e zero a reclamar. Como sou muito rápida (não é pra me achar, só pra contexto) consigo fazer as tasks da semana do CLT em 2\\~3 dias e o resto da semana faço no outro emprego (trabalho seg-sab). Em 5 meses do emprego em dol tirei 55k, sendo que fiquei umas semanas sem trabalhar. Meu emprego clt é +- 8k/mes.\n\nMinha renda subiu mais de 100% e tô trabalhando umas 8 a 10h / semana a mais só. Antes só performava melhor que os outros e engolia tarefa de quem não fazia.\n\nMas como disseram, tem que ter as manhas em parecer ocupado e as vezes tankar muitas horas direto quando o CLT tem urgências.\n\nSinceramente, tá valendo a pena. Em 1 ano largo com 120k a mais na conta.",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1761181483.0
             },
             {
                 "comment_id": "nku0vs2",
                 "comment_body": "Parece um bom caminho",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1761161852.0
             },
             {
@@ -1930,13 +3060,13 @@
             {
                 "comment_id": "nktzya7",
                 "comment_body": "EU não faria onboarding de duas empresas ao mesmo tempo, acho loucura com ENORMES chances de dar merda. O ideal para fazer OE é uma empresa que vc domina os processos e consegue fazer seu trampo de boas e que te sobre tempo. Se o seu CLT é assim, náo tem porque largar ele pra pegar um gringo que pague 2 ou 3k (é praticamente a mesma coisa, mas sem a segurança do clt). Acho que a sua dúvida deve ser qual PJ aceitar. Se você tiver oferta para as 3, pegue o que paga mais.\n\nEdit: Vi aqui que teu CLT é hibrido. Nesse caso, pego o PJ que pagar mais e, após uns 6 meses,q uando vc estiver confortável e entende bem o nível de trabalho, procuro outro CLT ou PJ",
-                "comment_score": 13,
+                "comment_score": 14,
                 "comment_created_utc": 1761161583.0
             },
             {
                 "comment_id": "nku0bx5",
                 "comment_body": "O que complica é os dois dias no escritório do CLT",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1761161693.0
             },
             {
@@ -2014,13 +3144,13 @@
             {
                 "comment_id": "nkvgp55",
                 "comment_body": "No Brasil é bem mais estável, tipo no Itaú",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1761178460.0
             },
             {
                 "comment_id": "nkvgwei",
                 "comment_body": "São profissionais na arte da enrolação e pra fazer uma tarefa trivial parecer algo super complexo sem parecer que é um preguiçoso",
-                "comment_score": 7,
+                "comment_score": 5,
                 "comment_created_utc": 1761178532.0
             },
             {
@@ -2086,7 +3216,7 @@
             {
                 "comment_id": "nkxe3z3",
                 "comment_body": "Sim, Itaú é a única empresa que paga CLT no Brasil para desenvolvedores. Não existem outros bancos, nem outras empresas de tecnologia, nem big techs, somente Itaú.\n\nBrasil não tem Amazon, Uber, Google, Netflix, nada disso....\n\nItaú deixou um péssimo exemplo, mas tem muitas empresas mais estáveis no Brasil que oferecendo CLT. Não podemos pegar a excessão e fazer dela a regra",
-                "comment_score": 2,
+                "comment_score": 3,
                 "comment_created_utc": 1761210894.0
             },
             {
@@ -2168,7 +3298,7 @@
             {
                 "comment_id": "nhh4645",
                 "comment_body": "Fiz pela contabilizei (contabilidade online/digital), não tive nenhum problema com eles",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1759457332.0
             },
             {
@@ -2238,7 +3368,7 @@
             {
                 "comment_id": "n4idpmj",
                 "comment_body": "WordPress com Elementor ou Wix\n\nPega uma solução pronta que vai ter pouca dor de cabeça e algumas já vem com integração nativa do Mercado Pago ou PagSeguro.\n\nWix tem plano por R$ 32,00 mensais.",
-                "comment_score": 16,
+                "comment_score": 14,
                 "comment_created_utc": 1753185506.0
             },
             {
@@ -2302,13 +3432,13 @@
             {
                 "comment_id": "n29xbqg",
                 "comment_body": "Talvez a parte da acessibilidade (?) mas não sei como é o outro site em termos de acessibilidade...",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1752106088.0
             },
             {
                 "comment_id": "n28xwxo",
                 "comment_body": "*What was posted here has been permanently deleted. [Redact](https://redact.dev/home) was the tool used, possibly for privacy, opsec, security, or limiting exposure to data collectors.*\n\ncorrect smile waiting simplistic cautious violet cable sense growth amusing",
-                "comment_score": -18,
+                "comment_score": -17,
                 "comment_created_utc": 1752095005.0
             },
             {
@@ -2320,7 +3450,7 @@
             {
                 "comment_id": "n29zlj1",
                 "comment_body": "Eu pensei que poderia ser sobre isso quando o post começou falando que o OP era deficiente visual, mas parece que foi uma coisa meio aleatória no post dado que em nenhum outro momento ele menciona isso de novo?\n\nSe for o caso acho super bacana, mas seria mais interessante exaltar essas features de acessibilidade no post então, porque é algo bem bacana de ver como um deficiente adapta o ambiente para que ele fique totalmente acessível ao seu uso, acho que bastante gente que já pensou em desenvolver de forma mais inclusiva para deficientes de vários tipos gostaria de ver quais as features que agregam mais valor na prática.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1752106872.0
             },
             {
@@ -2342,7 +3472,7 @@
             {
                 "comment_id": "n54dgsx",
                 "comment_body": "Quando você presta serviço pra empresa de fora, o cliente estrangeiro não pede aquele detalhamento enorme na nota como acontece com clientes do Brasil.\n\nPor isso dá pra usar um CNAE como Treinamento em Informática (8599-6/03) e emitir a nota com algo bem genérico, tipo: “Serviços prestados para empresa estrangeira”.  \n  \nIsso não é fraude porque: \n\n* O CNAE tá no seu CNPJ, então formalmente bate com a atividade.\n* A descrição genérica continua dentro do que você declarou como atividade.\n* E como o tomador é de fora, a Receita não tem muito como implicar com a nota.\n\nE aqui vem o ponto: a Receita não diz claramente que é proibido usar o Anexo III com um CNAE como Treinamento em Informática pra quem presta serviço de tecnologia pro exterior… mas também não diz que pode. Não existe lei, instrução normativa ou jurisprudência que proíba diretamente isso.\n\nAgora, sobre alternativas: dá pra ir pelo Anexo V (alíquota maior, a partir de 10%), tentar o Fator R (que pode baixar pra \\~3%, mas exige pró-labore alto) ou até Lucro Presumido (que pode valer mais a pena se o faturamento for maior).",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1753464167.0
             },
             {
@@ -2364,7 +3494,7 @@
             {
                 "comment_id": "mupz11h",
                 "comment_body": "Só toma cuidado para não ser a famosa contra proposta até te substituírem, é bem comum na área",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1748448319.0
             },
             {
@@ -2498,7 +3628,7 @@
             {
                 "comment_id": "mr4ftu9",
                 "comment_body": "Primeiro: em 90% dos casos vc vai ser contratado similar a um PJ no Brasil, obrigação de CLT, contrato de PJ sem os direitos. Então vc não tem tanta margem para negociar como vc deve imaginar\n\nSegundo: sim, vc vai querer ter um CNPJ para pagar menos impostos, pode trabalhar como PF também, mas se vc pode pagar 3% de imposto, pq pagar 27,5%?\n\nTerceiro: não é ilegal ser CLT e ter uma empresa, mas a depender do compliance da tua empresa, pode sim não ser permitido. Imagina que você trabalha numa empresa e é dono de uma empresa que é tecnicamente concorrente da empresa onde vc trabalha, entende o conflito?\n\nQuarto: em teoria, programador não pode ser MEI, mas todo mundo faz, e é como 90% do pessoal começou. Mas faça por sua conta e risco.\n\nQuinto: sim, passar nas entrevistas exige muito preparo, foque no inglês e em resolução dos testes técnicos.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1746647526.0
             },
             {
@@ -2544,7 +3674,7 @@
             {
                 "comment_id": "mks60jf",
                 "comment_body": "Negativo. O W8-BEN-E é pra tu declarar que não reside nos EUA, portanto ele vai (no teu caso) te isentar do pagamento de impostos de lá.\n\nÉ parecido com o w8ben, só que pra empresas, eu preenchi ele todo com ajuda do chatgpt.\n\nSe tu é uma empresa limitada, ME, etc, o tipo de entidade é Corporation.",
-                "comment_score": 6,
+                "comment_score": 8,
                 "comment_created_utc": 1743468548.0
             },
             {
@@ -2574,7 +3704,7 @@
             {
                 "comment_id": "mkskub5",
                 "comment_body": "Tu mora no Brasil, certo?\n\nEu preenchi esse formulário fazem alguns anos, mas na época pesquisei cada campo e vi como deveria preencher. No meu caso, eu não paguei nenhum real de imposto para os EUA. Pode ter mudado algo com essa eleição do Trump, ou alguma coisa nos últimos anos, mas acho mais provável que tu esteja preenchendo o formulário de forma errada do que realmente seja esse o caso.\n\nSegue a orientação do chatgpt.\n\nParte I – Identificação da Entidade\n\n1. Nome da organização que é o beneficiário efetivo:\nExemploTech Soluções Digitais LTDA\n\n\n2. País de constituição:\nBrazil\n\n\n3. Tipo de entidade:\nMarque Corporation\n(mesmo sendo LTDA no Brasil, para fins fiscais dos EUA, geralmente se classifica como Corporation)\n\n\n4. Capítulo 3 Status:\nMarque Corporation\n\n\n5. Capítulo 4 Status (FATCA):\nMarque Active NFFE\n\n\n6. Endereço permanente (não pode ser caixa postal):\nRua das Inovações, 123, Bairro Centro, São Paulo, SP, 01000-000, Brazil\n\n\n7. Endereço de correspondência (se diferente):\n(Deixe em branco ou repita, se for o mesmo do campo 6)\n\n\n8. U.S. TIN (opcional):\n(Deixe em branco, a menos que tenha)\n\n\n9. Foreign TIN (CNPJ):\n12.345.678/0001-99\n\n\n10. Número GIIN:\n(Deixe em branco se for Active NFFE)\n\n\n\n\n---\n\nParte III – Status FATCA: Active NFFE\n\nMarque a caixa que diz:\n\"The entity identified in Part I is an Active NFFE...\"\n\n\n\n---\n\nParte XXV – Benefícios de tratado tributário (opcional, se aplicável)\n\nSe quiser aplicar a redução de impostos (com base no tratado Brasil-EUA), preencha:\n\n14a. Marque a caixa\n14b. Escreva:\nBrazil\nE selecione o tipo de rendimento (por exemplo, “Services” ou “Other income”)\n\n15. Preencha a cláusula do tratado (por exemplo, Article 7 – Business Profits)\nE escreva:\n\"The beneficial owner has no permanent establishment in the United States.\"\n\n\n\n\n---\n\nParte XXX – Certificação\n\nAssine e coloque:\n\nNome do signatário (representante legal da empresa)\n\nCargo (por exemplo, Sócio Administrador)\n\nData\n\nE marque a caixa: \"I certify that I have the capacity to sign for the entity...\"",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1743474082.0
             },
             {
@@ -2638,31 +3768,31 @@
             {
                 "comment_id": "mh16ezi",
                 "comment_body": "A questão é simples: Fator R depende do quanto você aloca de pró-labore. Pra ser considerado no anexo III, você precisa que 28% do seu faturamento seja de massa salarial.\n\nQuanto mais dinheiro você ganha, menos vale a pena. Porque sua DARF do INSS vai vir cada vez maior, diretamente relacionada ao valor do seu pró-labore.\n\nDepos de determinada faixa, vale a pena você simplesmente alocar um salário mínimo como pró-labore, e distribuir o resto como lucro e pagar somente o IRPJ/CSLL/etc sobre o valor que entra na conta.\n\nFaça as contas junto ao contador, existe um range considerável onde Fator R vale a pena, acima de determinado valor, já não vale mais. E se o valor for ainda maior, existe também o universo de Simples Nacional versus Lucro Presumido. (Ou seja, como tudo na vida de um programador: depende)",
-                "comment_score": 45,
+                "comment_score": 46,
                 "comment_created_utc": 1741619275.0
             },
             {
                 "comment_id": "mh1cadv",
                 "comment_body": "Não é assim que funciona, os CNAEs de TI são por natureza Anexo V, o que acontece é que caso você cumpra determinados requisitos do Fator-R, você consegue se enquadrar no Anexo III.\n\nVia de regra é mais vantajoso você tirar um pró-labore maior pra atender o Fator-R porque os impostos na PF ainda serão menores do que na PJ do Anexo V.",
-                "comment_score": 11,
+                "comment_score": 10,
                 "comment_created_utc": 1741621032.0
             },
             {
                 "comment_id": "mh0w223",
                 "comment_body": "Eu tenho empresa aberta no Simples Nacional desde 2020 e uso o anexo V atualmente, mas de 2020 a 2023 usei o anexo III. Porém o anexo III são para serviços mais \"manuais\" digamos assim, que no nosso caso seria manutenção de hardware, suporte técnico, essas coisas. Já o anexo V é para atividade intelectual que é o nosso caso.\n\nComecei usando o anexo III ciente disso, mas quando ia emitir a NF colocava que prestava serviços de manutenção. Troquei ideia com meu contador sobre e ele disse que o risco seria a receita vir me fiscalizar e perceber que na verdade eu faço atividade intelectual (risco baixo pois sou uma empresa com faturamento baixo em relação à grandes empresas) e eu ter que pagar uma multa e imposto sobre a diferença.\n\nQuando mudei de empresa, fiz o calculo para ver se valeria a pena usar o fator R, mas como eu já tinha empresa aberta há um tempo, teria que pagar quase 100k de imposto pra poder me enquadrar.\n\nHoje uso o anexo V pq não to a fim de ficar me arriscando mais não rs, mas se quiser assumir o risco pode usar o anexo III, só troca uma ideia com seu contador antes.\n\n  \nEDIT: Caso vc preste serviço pra gringa, vc vai emitir uma nota de exportação que é isento de ISS.",
-                "comment_score": 22,
+                "comment_score": 20,
                 "comment_created_utc": 1741615907.0
             },
             {
                 "comment_id": "mh13nl6",
                 "comment_body": "Pq o CNAE de dev (desenvolvimento de software sob medida) é do Anexo V, simples assim 😂.\n\nQuem usa direto o Anexo III (eu incluso) é pq bota outro CNAE que não se encaixa exatamente no trabalho de dev (como “Treinamento em Informática”)",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1741618397.0
             },
             {
                 "comment_id": "mh310be",
                 "comment_body": "Esse fio devia ser fixado, porque é utilidade publica e todos os contrapontos fazem sentido, esse que é o problema.",
-                "comment_score": 8,
+                "comment_score": 6,
                 "comment_created_utc": 1741638232.0
             },
             {
@@ -2672,21 +3802,21 @@
                 "comment_created_utc": 1741626879.0
             },
             {
-                "comment_id": "mh1osqu",
-                "comment_body": "Porque desenvolvimento é atividade do anexo V. Emitir nota no anexo III como “suporte técnico” ou coisas afim, é jeitinho. E, sendo jeitinho, acaba deixando a bunda na janela no caso de alguma fiscalização (chance remota, mas vai que deus te pega pra exemplo?).\n\nComo já disseram, desenvolvimento pode entrar no anexo III dependendo do fator R (28% da RBT12). Mas a quantidade de imposto que tu vai pagar em cima de um pró-labore alto, dependendo do faturamento, vai te desanimar de fazer do jeito certo. Vai pagar IRPF, e até aí tudo bem. Mas pagar 11% pro INSS pra não ter retorno e não contar nem como tempo de serviço pra aposentadoria é dolorido (sem contar que se tu for <35, vai se aposentar 1 dia antes de morrer por causas naturais, com sorte).",
-                "comment_score": 3,
-                "comment_created_utc": 1741624581.0
-            },
-            {
                 "comment_id": "mh206dg",
                 "comment_body": "Vamos lá, primeira voisa, um disclaimer: eu não sou contador, sou dev como vc, mas provavelmente como faço isso a mais tempo, eu acabei aprendendo um pouco.\n\n1. Não é a empresa que se enquadra no anexo V ou anexo III, são as atividades que se enquadram. A empresa possui uma atividade principal e mais outras tantas secundárias, e elas individualmente podem se enquadrar nos anexos III  ou V (ou nos outros anexos, que dizem respeito a indústria e comércio, se não me engano). O imposto será calculado individualmente para cada nota, dependendo de qual anexo o serviço ali discriminado se enquadrar.\n\n2. Existe a tal regra do fator R que permite vc enquadrar um CNAE do anexo V na tabela do anexo III, mas no geral fica seis por meia-dúzia. Principalmente para valores maiores.\n\n3. Aqui entra a importância de uma contabilidade especializada: qual o CNAE vc usaria para se enquadrar no anexo III sem descaracterizar o serviço que você está prestando? Vc possui este CNAE na sua listagem? Na prática existe uma resposta pronta para esta pergunta, mas teoricamente isso depende do serviço q vc presta.\n\n4. Além do anexo, existem diversas outras maneiras (LEGAIS!) de recuperar impostos ou pagar menos. E dificilmente vc saberá todas, se o teu foco é o teu trabalho.",
-                "comment_score": 4,
+                "comment_score": 6,
                 "comment_created_utc": 1741627755.0
+            },
+            {
+                "comment_id": "mh1osqu",
+                "comment_body": "Porque desenvolvimento é atividade do anexo V. Emitir nota no anexo III como “suporte técnico” ou coisas afim, é jeitinho. E, sendo jeitinho, acaba deixando a bunda na janela no caso de alguma fiscalização (chance remota, mas vai que deus te pega pra exemplo?).\n\nComo já disseram, desenvolvimento pode entrar no anexo III dependendo do fator R (28% da RBT12). Mas a quantidade de imposto que tu vai pagar em cima de um pró-labore alto, dependendo do faturamento, vai te desanimar de fazer do jeito certo. Vai pagar IRPF, e até aí tudo bem. Mas pagar 11% pro INSS pra não ter retorno e não contar nem como tempo de serviço pra aposentadoria é dolorido (sem contar que se tu for <35, vai se aposentar 1 dia antes de morrer por causas naturais, com sorte).",
+                "comment_score": 4,
+                "comment_created_utc": 1741624581.0
             },
             {
                 "comment_id": "mh0tvrn",
                 "comment_body": "bom tópico OP, acompanhando",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1741615165.0
             },
             {
@@ -2716,7 +3846,7 @@
             {
                 "comment_id": "mh1cz01",
                 "comment_body": "O correto é ser anexo V, pois programação é considerado trabalho intelectual. As pessoas colocam anexo III porque paga menos imposto, mas está tecnicamente errado ",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1741621231.0
             },
             {
@@ -2758,7 +3888,7 @@
             {
                 "comment_id": "mh0voph",
                 "comment_body": "Anexo 3 é exportação de conhecimento, anexo 5 é nacional… até onde sei.",
-                "comment_score": -17,
+                "comment_score": -16,
                 "comment_created_utc": 1741615783.0
             },
             {
@@ -2770,7 +3900,7 @@
             {
                 "comment_id": "mh0wivp",
                 "comment_body": "É isso aí \nIII menos intelectual \nV intelectual mas com maior taxa\nCom o fator R pode utilizar a III",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1741616061.0
             },
             {
@@ -2792,9 +3922,15 @@
                 "comment_created_utc": 1741620920.0
             },
             {
+                "comment_id": "ocbhqie",
+                "comment_body": "Quais essas diversas outras maneiras de recuperar impostos ou pagar menos? Aponta pelo menos a direção por favor 😅",
+                "comment_score": 1,
+                "comment_created_utc": 1774403918.0
+            },
+            {
                 "comment_id": "mh1da1s",
                 "comment_body": "Para o Lucro Presumido valer a pena tem que trabalhar na gringa e ganhar muito bem mesmo, tipo >30k.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1741621321.0
             },
             {
@@ -2806,7 +3942,7 @@
             {
                 "comment_id": "mh19qkm",
                 "comment_body": "Seu contador é burro.\n\nAinda mais se for pra prestar serviço pra gringa.\n\nOu então tu é a fonte do meme eu amo pagar imposto.",
-                "comment_score": 2,
+                "comment_score": 0,
                 "comment_created_utc": 1741620304.0
             },
             {
@@ -2830,7 +3966,7 @@
             {
                 "comment_id": "mh1xnwq",
                 "comment_body": "sao dois inss, o que voce paga no das de acordo com o faturamento da empresa, o que voce paga pro funcionario/patrao junto com o salario. a aliquota do patrao e 11%, salario minimo vai pagar 166.32 por mes, no teto (8157.41) vai pagar 951.62",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1741627046.0
             },
             {
@@ -2860,7 +3996,7 @@
             {
                 "comment_id": "mh1hw2a",
                 "comment_body": "Po meu colega, se pudesse elaborar um pouco mais sua resposta, eu agradeceria. Chamar meu contador de \"burro\", assim do nada. Meio fraco né \n\nMe ajuda ai. As vezes estou pagando mais do que deveria mesmo...",
-                "comment_score": 9,
+                "comment_score": 11,
                 "comment_created_utc": 1741622644.0
             },
             {
@@ -2890,7 +4026,7 @@
             {
                 "comment_id": "mh26q0j",
                 "comment_body": "Ninguem disse que era.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1741629607.0
             },
             {
@@ -2969,7 +4105,7 @@
             {
                 "comment_id": "mbnbw93",
                 "comment_body": "Eu sou um deles, tô na reserva do bcb, e vou ser chamado para ATI, mas não vou aceitar, vou aguardar o bcb chamar ou estudar para outro se não chamarem, mas não vou me mudar para Brasília com o salário de ATI.",
-                "comment_score": 24,
+                "comment_score": 25,
                 "comment_created_utc": 1739017200.0
             },
             {
@@ -2981,7 +4117,7 @@
             {
                 "comment_id": "mbpzjnd",
                 "comment_body": "E sabe como o governo vai resolver isso? Dificultando a vida de quem quer trabalhar remoto pra fora. Pode ter ctz ainda que vão usar os sindicatos de ti para dizer \"olha como essas empresas gringas exploram o trabalhador brasileiro sem dar nada em troca\"",
-                "comment_score": 14,
+                "comment_score": 13,
                 "comment_created_utc": 1739047587.0
             },
             {
@@ -2999,31 +4135,31 @@
             {
                 "comment_id": "mboq8qu",
                 "comment_body": "Computeiro e o unico ser humano br que esnoba ser funça.\n\n\nEu acho isso otimo.",
-                "comment_score": 13,
+                "comment_score": 14,
                 "comment_created_utc": 1739034493.0
             },
             {
                 "comment_id": "mbp5k6f",
                 "comment_body": "Não entendi nada",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1739038909.0
             },
             {
                 "comment_id": "mbqcxdq",
                 "comment_body": "É bom que esnobem o serviço público mesmo. Assim dá tempo de eu terminar de me formar e conseguir meu cargo sem problemas. Daqui a 20-30 anos quem esnobou o serviço público vai estar chorando e quem escolheu a estabilidade vai estar na boa. Foi assim todas as vezes em que as pessoas preferiram o setor privado por qualquer motivo que fosse",
-                "comment_score": -5,
+                "comment_score": -3,
                 "comment_created_utc": 1739051577.0
             },
             {
                 "comment_id": "mbqrqe0",
                 "comment_body": "Artigo ruim. A desistência não é por causa dos salários. Se fosse por isso não teriam 800 pessoas por vaga a cada edital. Vão ver o que os sindicatos estão propondo de valorização para o setor de TI. Daqui a 10 anos quando forem substituídos por IA vão ir pianinho fazer prova de concurso, mas aí vai ser tarde demais, pq vão ter trocentos neguinhos fazendo o mesmo. Passem enquanto é tempo. Amanhã o dólar cai pra 4 reais e tudo isso vai pelos ares. Emprego gringo tem 0 estabilidade, ninguém tá nem aí pra vc. E o pessoal aqui vive numa bolha achando que todo mundo ganha 20k por mês.",
-                "comment_score": -2,
+                "comment_score": -3,
                 "comment_created_utc": 1739056254.0
             },
             {
                 "comment_id": "mbo051y",
                 "comment_body": "Vi um que vai abandonar a academia por um cargo de 25k no CNU.",
-                "comment_score": 11,
+                "comment_score": 9,
                 "comment_created_utc": 1739026672.0
             },
             {
@@ -3035,7 +4171,7 @@
             {
                 "comment_id": "mbnzfuz",
                 "comment_body": "Banco Central deu uma piorada boa na carreira pra quem entrar no próximo concurso. 20 anos pra ir de 18k a 36k. Quem passou nesse vai começar com 25k em 2026. Aí sim, paizão.",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1739026442.0
             },
             {
@@ -3047,7 +4183,7 @@
             {
                 "comment_id": "mbr00n5",
                 "comment_body": "Mas pra chegar em 20k na iniciativa privada vc tbm vai levar no mínimo 10 anos, isso se vc ganhar isso kkkkkk",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1739059025.0
             },
             {
@@ -3089,7 +4225,7 @@
             {
                 "comment_id": "mbocnon",
                 "comment_body": "E ainda é pouco (considerando as possibilidades de carreira internacional). Apesar de normalmente esses professores terem pouca exp no mercado de trabalho tradicional, todo mundo parece um completo imbecil perto deles. Infelizmente há uma desvalorização moral grande da carreira acadêmica, mas mestrado e pós em instituição séria não é brincadeira. A galera que tem MBA entra em choque.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1739030511.0
             },
             {
@@ -3101,13 +4237,13 @@
             {
                 "comment_id": "mbqqmou",
                 "comment_body": "ganhar 36k no Brasil é ruim aonde? puta merda. a bolha Reddit é foda mesmo. ganhar 18k 20 anos atrás.....é cada coisa que leio.",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1739055893.0
             },
             {
                 "comment_id": "mbnxuyl",
                 "comment_body": "Serpro é CLT igual a maioria de concursos em TI. Mais estabilidade que iniciativa privada mas bem menos que estatutário.\n\nFora o risco de privatização que vai vir forte no próximo governo",
-                "comment_score": 18,
+                "comment_score": 19,
                 "comment_created_utc": 1739025881.0
             },
             {
@@ -3125,7 +4261,7 @@
             {
                 "comment_id": "mbqqaia",
                 "comment_body": "o povo daki é completamente fora da realidade. 90% dos devs brasileiros devem ganhar menos que 10k.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1739055782.0
             },
             {
@@ -3137,7 +4273,7 @@
             {
                 "comment_id": "mbqqx4z",
                 "comment_body": "não é pouco. carreira internacional paga miséria estando no Brasil em comparação com americanos. e se for pra fora o custo de vida é muito alto. são poucas as pessoas que conseguem um salario bom. e ainda assim a estabilidade é zero com risco de layoff.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1739055989.0
             },
             {
@@ -3273,13 +4409,13 @@
             {
                 "comment_id": "m5n7i2m",
                 "comment_body": "MEI é furada na certa e te digo o porquê. Primeiro que é ilegal e você pode ser desenquadrado pela receita, pois não é abrangido pela categoria MEI uma atividade como de programação, já que se trata de atividade intelectual e extremamente qualificada. Segundo, o MEI não separa a PJ da PF, se tiver alguma merda no seu PJ, na verdade quem se ferra é você, porque MEI na prática não é PJ, justamente por isso não há essa distinção. MEI é uma gambiarra para pegar informais de baixa qualificação e obrigá-los a contribuir pro INSS. Terceiro problema, se você for alugar equipamentos, fazer leasing, qualquer coisa do tipo, ninguém atende MEI, nem pra você alugar um celular, vai ser atendido, porque o MEI tem um limite de ganho anual, que apresenta riscos para empresas firmarem contratos com você desse tipo, inclusive empréstimos em bancos também ficam superlimitados. Quarto, ser MEI faz com que você jogue seu salário pra baixo, pois tendo essa limitação anual de 81 mil, empresas que te contratariam como PJ, vão jogar seu salário dentro desse range, o que faz ganhar menos (inclusive esse é o motivo de ter uns chorões aqui reclamando de PJ ganhar mal, quase todos eles são MEI). Enfim, eu fiz essa merda, e tive que pedir o desenquadramento, hoje sou LTDA.\n\nSabendo de tudo isso, monte ou algo LTDA ou SLU (antiga EIRELI), contrate escritório decente de contabilidade, nada dessas merdas digitais, e faça um certificado digital e-cnpj e e-cpf pra não ter dor de cabeça.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1736135740.0
             },
             {
                 "comment_id": "m5q32c6",
                 "comment_body": "Uso a contabilizei. Estou enquadrado como ME no simplesNacional.\n\n\n\n\nO único trabalho que tenho é gerar a nota. O resto a contabilizei faz automático, e já deixo também os pagamentos em débito automático. Zero preocupação. ",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1736183646.0
             },
             {
@@ -3332,14 +4468,14 @@
             },
             {
                 "comment_id": "m5oc4pr",
-                "comment_body": "Tambem uso e recomendo a Adaflow",
+                "comment_body": "[removed]",
                 "comment_score": 1,
                 "comment_created_utc": 1736157626.0
             },
             {
                 "comment_id": "m5m7q4a",
                 "comment_body": "e lembre de perguntar qual categoria a empresa que você vai prestar serviço aceita",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1736123673.0
             },
             {
@@ -3380,7 +4516,7 @@
             },
             {
                 "comment_id": "m9nyc3d",
-                "comment_body": "Vou te mandar no pv",
+                "comment_body": "[removed]",
                 "comment_score": 1,
                 "comment_created_utc": 1738083953.0
             },
@@ -3475,13 +4611,13 @@
             {
                 "comment_id": "lyw31a1",
                 "comment_body": "Procurando pelo celular encontrei esse link aqui e me faz sentido.\n\nhttps://www.pereiramontenegro.com.br/blog/riscos-de-possuir-maquina-de-cartao-de-credito-no-cpf\n\nP.s. compartilha sua história de empreendimento e trajetória lá no r/meunegocio",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1732534115.0
             },
             {
                 "comment_id": "lywe5m5",
                 "comment_body": "Sou contador, querendo virar DEV e indico abrir o MEI com o CNAE digitador, tenho uma MEI assim\nVocê pode deixar de declarar SONEGAR tranquilamente \nO que tem de empresa com mais de 150 - 180 mil sonegando e não pagando NADA de impostos “não está escrito no papel”",
-                "comment_score": -2,
+                "comment_score": -3,
                 "comment_created_utc": 1732539688.0
             },
             {
@@ -3611,13 +4747,13 @@
             {
                 "comment_id": "lfp7ylc",
                 "comment_body": "disclaimer: tenho uma newsletter sobre esse assunto.\n\nTrabalho pra empresas americanas desde 2020.\n\nA realidade é que o mercado está apertado. Até 2 anos atrás (quando começaram essas mentorias, eu acho), era mais simples conseguir vagas pra fora. A demanda estava muito alta, e não havia pessoas suficientes para preencher.\n\nHoje em dia, após múltiplos layoffs, tem muita gente qualificada no mercado. Então as vagas passam a ficar muito mais competitivas.\n\nDá uma olhada nessa [seção desse artigo que escrevi](https://devnagringa.substack.com/i/146847859/como-eu-procuraria-por-vagas-se-estivesse-comecando-hoje) mostrando como eu faria se tivesse começando hoje. Acho que resume algumas das coisas que você quer saber.\n\nMas, respondendo suas perguntas:\n\n1 e 2: Sim, tem algo que você não está fazendo: procurando por vagas. Não adianta você otimizar o seu LinkedIn e adicionar recrutadores se você não está aplicando. Essa parte ajuda você a ser localizado por recrutadores, mas como te disse, o mercado está competitivo. Então você precisa aplicar diretamente para as vagas.\n\n3: Não tenho cidadania, mas acho que só faz sentido se você quiser mudar de país. Porque na maioria das vagas você vai ser um contractor.\n\n4: Ache jeitos diferentes de se destacar na fase de currículo. Mande mensagem direto pro CEO/founder se for uma empresa pequena/média. Sugira features ou reporte algum bug. Mostre que você quer o trabalho, e que sabe fazer ele.\n\n5: [Conheço a minha newsletter](https://devnagringa.substack.com/)😅 meu conteúdo é todo gratuito, mas tenho uma mentoria mensal em grupo de R$10 por mês pra quem tiver dúvidas mais específicas. Isso a parte, sempre tento responder todo mundo [no Discord também](https://discord.gg/n9m9ebfEnk).",
-                "comment_score": 12,
+                "comment_score": 13,
                 "comment_created_utc": 1722368643.0
             },
             {
                 "comment_id": "lfq3jqt",
                 "comment_body": "Cara, a dica que eu dou é não se desesperar, não ter pressa e criar ansiedade pra trabalhar na gringa que isso pode te desmotivar. O que você tem que fazer é o básico bem feito e não ter pressa, aproveita que você tem trampo estavel pra preparar bastante que ora ou outra a oportunidade chega eai você tem que estar pronto. \n\nEu comecei a me preparar pra trabalhar na gringa lá em 2021 depois que acabei a faculdade, já tinha uns 3 anos de exp. Eu foquei muito no inglês que era meu ponto mais fraco, fazendo 4 aulas por semana, depois um tempo de leet code. Aí em 2023 me senti confiante fiz entrevista com 3 empresas e passei em uma que estou trabalhando agora recebendo 7500$.\n\nVocê pode aplicar pra 1000 empresas fazer uma caralhada de entrevista, otimizar sei la oq se tiver pressa e tal, mas eu acho que isso gera uma ansiedade que não vale a pena, do tipo \"preciso disso e logo senão não vou ser feliz\", isso não faz bem pra mim, prefiro usar esse tempo pra me desenvolver que as oportunidades chegam. \nBoa sorte.\n\n\nEdit: acho que não fui muito objetivo, quando comecei a procurar trampo eu só ajeitei meu CV e linkedin (somente em inglês, sem a opção de página em português) e botei lá aquele open to work sem ser na foto e fui buscar vaga nos site de consultoria, tipo toptal e etc que a barra de entrada é mais baixa do que empresa mesmo, eu acho que as vagas do linkedin sao muito saturadas, mas é basicamente isso, e nao subestime o leetcode, é uma boca de funil que corta uma galera enorme.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1722378945.0
             },
             {
@@ -3659,7 +4795,7 @@
             {
                 "comment_id": "lfop692",
                 "comment_body": "Aceito as duas! Se for uma proposta legal, qualquer das duas opções é valida!",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1722362756.0
             },
             {
@@ -3677,7 +4813,7 @@
             {
                 "comment_id": "lfp1mre",
                 "comment_body": "Sem querer falar o obvio, mais ja falando, nao sei quanto vc ganha na sua posiçao como senior, mais existe uma diferença gritante entre ganhar ums 20.000,00 dolares  morando no Brasil e ganhar isso morando nos EUA\nno primeiro caso vc vive como um rei, e no segundo e um cidadao de classe media e ne chega a ser alta",
-                "comment_score": 9,
+                "comment_score": 8,
                 "comment_created_utc": 1722366631.0
             },
             {
@@ -3701,7 +4837,7 @@
             {
                 "comment_id": "lfr4abo",
                 "comment_body": "Não to buscando vida de rico!",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1722392812.0
             },
             {
@@ -3723,19 +4859,19 @@
             {
                 "comment_id": "leec6ki",
                 "comment_body": "Ótimo resumo.\n\nAdicionaria que atualmente alguns bancos fazem o canal bancario pra receber diretamente remessa de pagamento do exterior por eles (eu uso a conta PJ do banco Inter, mas o banco da propria Contabilizei agora tem essa funcionalidade, facilita pois a conciliacao bancaria usando ele eh automatica).",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1721663821.0
             },
             {
                 "comment_id": "legzid4",
                 "comment_body": "Engraçado, esse tipo de conteúdo informativo é o que menos dão valor aqui no sub.\n\nEsse tipo de informação tinha que ser fixada e ficar na wiki...\n\nMuito bom, OP, obrigado pelas dicas.",
-                "comment_score": 13,
+                "comment_score": 11,
                 "comment_created_utc": 1721695564.0
             },
             {
                 "comment_id": "leev2lj",
                 "comment_body": "Seu tesudo.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1721669849.0
             },
             {
@@ -3813,7 +4949,7 @@
             {
                 "comment_id": "leeeykd",
                 "comment_body": "Eu uso o Nubank PJ, e a Contabilizei tem uma extensão que já sincroniza o extrato da conta automaticamente, sem precisar enviar o extrato todo mês.\n\nSobre usar o banco pra receber a remessa, o spread não fica um pouco mais alto? Mas as vezes vale pela comodidade também.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1721664723.0
             },
             {
@@ -3867,7 +5003,7 @@
             {
                 "comment_id": "leh1kwm",
                 "comment_body": "> O melhor jeito de procurar vagas é se conectando com as pessoas. Participe de comunidades, converse com pessoas no LinkedIn. Faça parte de marketplaces ([G2i](https://g2i.co/), [Turing](https://turing.com/), [X-Team](https://x-team.com/)). Procure por vagas no [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=3945871483&eBP=NOT_ELIGIBLE_FOR_CHARGING&f_WT=2&geoId=92000000&keywords=software%20engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refId=465teWZTvpTjXI3WAceSHQ%3D%3D&refresh=true&trackingId=XsLeXXWvQ6bBmNfKzHm67A%3D%3D), [Remoteok](https://remoteok.com/remote-engineer-jobs?location=BR,Worldwide,region_LA) e [Wellfound](https://wellfound.com/jobs).\n\ncom base na minha experiência",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1721696362.0
             },
             {
@@ -3933,12 +5069,6 @@
                 "comment_body": "Você tem que ter uma conta num serviço de câmbio, em nome da sua PJ. De lá você vai mandar o dinheiro (em reais) pra uma conta corrente também da sua PJ. Aí você gera a nota, paga impostos, INSS, contador e manda o restante pra uma conta corrente pessoa física.\n\nServiço de câmbio não é conta corrente. Os bancos podem até fingir que é a mesma coisa, mas não é. No final das contas você vai usar dois serviços separados deles. Alternativamente, você pode usar um serviço de câmbio e de lá mandar o dinheiro convertido pra sua conta PJ.\n\nEu já usei as seguintes:\n\n* Câmbio: Husky, BTG Empresas e Travelex\n* Conta corrente PJ: BTG Empresas, Nubank\n\nO melhor câmbio é da Travelex (somente 0,5% de taxa). O do BTG é o mais rápido (antes do meio dia eu já tava com o dinheiro na mão), mas a taxa era de mais de 2%.\n\nConta corrente PJ eu acho Nubank e BTG equivalentes. BTG é bem melhor pra empresas \"de verdade\", mas no nosso caso as funcionalidades que eles oferecem (boleto automatizado, capital de giro, etc.) são desnecessárias, então dá no mesmo usar Nubank.",
                 "comment_score": 3,
                 "comment_created_utc": 1718132492.0
-            },
-            {
-                "comment_id": "lbo6z8i",
-                "comment_body": "Para receber pagamento do exterior, uso a Husky que acredito ser a mais barata e com menos burocracia. Dps mando o dinheiro para minha conta PJ do Inter que não possui tarifas  \n  \nSegue link para criação de conta Husky que garante 1 recebimento grátis e outros 3 com 50% off:\n\n[https://app.husky.io/onboarding?ref=a5dd0bf5-9dbb-469e-94f2-bd39dc47fa8d](https://app.husky.io/onboarding?ref=a5dd0bf5-9dbb-469e-94f2-bd39dc47fa8d)",
-                "comment_score": 3,
-                "comment_created_utc": 1720136888.0
             },
             {
                 "comment_id": "l85mpkq",
@@ -4025,7 +5155,7 @@
             {
                 "comment_id": "l3v6bcx",
                 "comment_body": "Fora o nome meio descontextualizado, a vaga me parece legal. Bons benefícios.\n\nE por mais que o título do cargo seja meio inflacionado, também ajuda a inflacionar o currículo no futuro, ainda mais se eles botarem assim na carteira, kkkk.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1715615539.0
             },
             {
@@ -4061,19 +5191,19 @@
             {
                 "comment_id": "l3unwg4",
                 "comment_body": "Me chamo de pedreiro digital",
-                "comment_score": 45,
+                "comment_score": 47,
                 "comment_created_utc": 1715608876.0
             },
             {
                 "comment_id": "l3vya31",
                 "comment_body": "garoto de programa",
-                "comment_score": 16,
+                "comment_score": 15,
                 "comment_created_utc": 1715625158.0
             },
             {
                 "comment_id": "l3udm6g",
                 "comment_body": "Eu concordo com vc, não há nd de errado com a descrição e sim com o título. Isso é cargo de suporte não analista.\n\nOutra coisa que me pega é a mudança de nomes pra engrandecer sendo que vai pagar 1 salário e olhe lá.\n\nE isso é um fenômeno que já vem acontecendo a algum tempo. Um exemplo é Secretário(a) virou auxiliar administrativo ou auxiliar de negócios nas vagas e por ai vai.\n\nSó achei curioso que um suporte em informática ou auxiliar em informática ganhou o título de Analista de Infra JR sendo que não é.",
-                "comment_score": -3,
+                "comment_score": 0,
                 "comment_created_utc": 1715604645.0
             },
             {
@@ -4085,13 +5215,13 @@
             {
                 "comment_id": "l3v404v",
                 "comment_body": "12 anos trabalhando com suporte, infra e variantes, e todos os dias é um leão pra ser morto. Tenho um sonho muito antigo já esquecido, onde quando eu vou iniciar um dia de trabalho, é só fazer o que eu faço todos os dias, sem ter um ataque cardíaco de ansiedade e medo. Se pudesse voltar no tempo daria tudo pra ter aqueles trabalho de tia da administração, que fica 40 anos no mesmo trabalho só mexendo com papelada e coisa aleatória da empresa.",
-                "comment_score": 14,
+                "comment_score": 13,
                 "comment_created_utc": 1715614730.0
             },
             {
                 "comment_id": "l3v1d7z",
                 "comment_body": "Se vc sabe centralizar no word, por em negrito e mudar a fonte já sabe muito mais que muita gente kkkkkk",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1715613797.0
             },
             {
@@ -4121,7 +5251,7 @@
             {
                 "comment_id": "l3xbjf8",
                 "comment_body": "Caraca menó, tá tudo bem? kk",
-                "comment_score": 4,
+                "comment_score": 5,
                 "comment_created_utc": 1715642766.0
             },
             {
@@ -4197,7 +5327,7 @@
             {
                 "comment_id": "kra4pj8",
                 "comment_body": "Hehe só ele colocar no Anexo lll e não tem problema nenhum…\nSeu contador que quer ser muito certinho mesmo, você está pagando caro em meu amigo, poderia estar pagando apenas 6% no anexo lll",
-                "comment_score": 6,
+                "comment_score": 4,
                 "comment_created_utc": 1708430620.0
             },
             {
@@ -4296,8 +5426,8 @@
             },
             {
                 "comment_id": "ku2xd7n",
-                "comment_body": "Uma coisa você já percebeu : não vai crescer se continuar aí .\n  Você diz que não se sente desafiado ? Vai parecer papo de coach, mas quem tem que te desafiar é você mesmo . A empresa não vai te jogar algo que talvez você não consiga fazer e se fizer e a ideia do desafio é fazer algo que você nunca fez antes e possivelmente não consiga de primeira  .\n  Então vai e acha algo que você olha e diz: \"que negócio top, quero ser capaz de fazer algo igual\" e começar a se movimentar por conta própria . E quando surgir a oportunidade de usar, vai lá e brilha .",
-                "comment_score": 12,
+                "comment_body": "[removed]",
+                "comment_score": 13,
                 "comment_created_utc": 1709998006.0
             },
             {
@@ -4309,25 +5439,25 @@
             {
                 "comment_id": "ku2v3fu",
                 "comment_body": "Eu vejo o backend como mais recompensador. Me sinto melhor desenvolvedor quando atuo no backend. Aos poucos fui pegando ranço do frontend. Muita gente ruim inflando o mercado. No backend a regua é mais alta, porem se você alcança-la o sucesso é progressivo. \n\nAtuo hoje como fullstack node, react, react native, mas to me especializando no backend com java.",
-                "comment_score": 19,
+                "comment_score": 18,
                 "comment_created_utc": 1709997176.0
             },
             {
                 "comment_id": "ku2tio3",
                 "comment_body": "Agradeça que vc tem um trabalho",
-                "comment_score": 42,
+                "comment_score": 40,
                 "comment_created_utc": 1709996583.0
             },
             {
                 "comment_id": "ku3t61e",
                 "comment_body": "Amigo, você tem que parar de pensar em linguagens e stacks, e passar a pensar em produtos e soluções. Também trabalho com a mesma stack que você, mas 3 anos atrás minhas ferramentas e linguagens eram outras.   \n  \nO que vai dizer quais libs e linguagens vou utilizar é o mercado vigente. O que se passa na minha cabeça é qual solução vou criar e como isso vai ajudar as pessoas da empresa onde trabalho ou meus possíveis clientes caso eu esteja desenvolvendo um produto.\n\nO mercado atual é diferente, os programadores precisam pensar em negócios, não em bibliotecas ou linguagens, isso fica no fim da lista, depois que você entendeu qual problema precisa ser resolvido e o que tem de melhor na sua mesa pra utilizar.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1710008815.0
             },
             {
                 "comment_id": "ku2wx3j",
                 "comment_body": "Eu também to querendo pular fora de front-end React. O mercado tá saturando demais e eu sempre me sinto mais redundante e substituível na função do que se fosse back-end ou fullstack. Infelizmente, ainda não tive a oportunidade de migrar porque as empresas que eu trabalhei cagam pra front-end e preferem sobrecarregar poucos devs, então não sobra recursos pra me deixarem aprender e trabalhar com outra coisa.\n\n>o pessoal ficava bem feliz vendo alguns truques que aprendi no decorrer do caminho (era impagável ver estagiário e junior feliz por eu ter ensinando alguma coisa nova para eles\n\nDá um exemplo?",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1709997842.0
             },
             {
@@ -4393,7 +5523,7 @@
             {
                 "comment_id": "ku3p40u",
                 "comment_body": "Boa galera... Saim do frontend e vão para o backend mesmo, tá na hora de saturar o back tb! /S",
-                "comment_score": 3,
+                "comment_score": 2,
                 "comment_created_utc": 1710007463.0
             },
             {
@@ -4417,7 +5547,7 @@
             {
                 "comment_id": "ku3i3qp",
                 "comment_body": "Não, não estamos falando de desenvolvimento",
-                "comment_score": 15,
+                "comment_score": 16,
                 "comment_created_utc": 1710005133.0
             },
             {
@@ -4465,13 +5595,13 @@
             {
                 "comment_id": "ku34fym",
                 "comment_body": "pináculo do capitalismo",
-                "comment_score": 29,
+                "comment_score": 27,
                 "comment_created_utc": 1710000508.0
             },
             {
                 "comment_id": "ku2zjvc",
                 "comment_body": "Todos os dias 🙌",
-                "comment_score": 2,
+                "comment_score": 1,
                 "comment_created_utc": 1709998797.0
             },
             {
@@ -4489,7 +5619,7 @@
             {
                 "comment_id": "ku364em",
                 "comment_body": "É complicado, ao mesmo tempo que está saturado. Está saturado de gente ruim. Alias fullstack já tem um tendencia foda de botarem um backend que derrete toda vez que tem que criar css. Enxe o código de useEffect inútil. Não componentiza o código. Cria 12 fontes da verdade diferentes nos estados. Enfia !important em todas as propriedades da classe css. Não sabe debugar performance, nem pensa nela.\n\n\nMas sei lá, eu trabalho em ferramenta interna, então meio que fdasse UX, UI, perf, responsividade. Mas me doi ver código assim.\n\n\nTemos um déficit brabo de frontend bom. E assim eu não sou. Sou Jr. Mas pelo menos eu busco ser.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1710001090.0
             },
             {
@@ -4567,13 +5697,13 @@
             {
                 "comment_id": "ku4kwbr",
                 "comment_body": "Duas áreas distintas, com focos distintos, formas de atuação totalmente diferente. Desculpe, mas seu comentário não faz o menor sentido.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1710018199.0
             },
             {
                 "comment_id": "ku38r7g",
                 "comment_body": "Em certos momentos de escacez infelizmente a filosofia tem que ser essa",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1710001994.0
             },
             {
@@ -4585,7 +5715,7 @@
             {
                 "comment_id": "ku3j8sd",
                 "comment_body": "Deram down vote no cara por ele ser grato ao trabalho KKKKKKKK",
-                "comment_score": -2,
+                "comment_score": -1,
                 "comment_created_utc": 1710005508.0
             },
             {
@@ -4689,7 +5819,7 @@
             {
                 "comment_id": "kewqxw7",
                 "comment_body": "Relaxa que é com amor",
-                "comment_score": 12,
+                "comment_score": 11,
                 "comment_created_utc": 1703540591.0
             },
             {
@@ -4725,7 +5855,7 @@
             {
                 "comment_id": "kex3kgy",
                 "comment_body": "Tomara, ae da pra aliviar consumo",
-                "comment_score": -14,
+                "comment_score": -15,
                 "comment_created_utc": 1703546342.0
             },
             {
@@ -4737,13 +5867,13 @@
             {
                 "comment_id": "kewjorh",
                 "comment_body": "Se aumentarem muito a % das alíquotas e eliminarem a isenção sobre lucros, offshore será uma alternativa? Acho que da pra abrir uma empresa LLC nos EUA por exemplo. Se receber PJ gringo e seu cliente estiver disposto a pagar pra conta bancária nos EUA via LLC, vc pode optar talvez deixar toda a grana lá e só trazer pra cá o necessário. Dessa forma você não paga imposto nem lá (por não morar lá) e nem aqui (por não emitir NF). Eu não sou contador e nem advogado, então não sei se isso que falei é viável e/ou legal.",
-                "comment_score": 8,
+                "comment_score": 7,
                 "comment_created_utc": 1703537440.0
             },
             {
                 "comment_id": "kexmhc6",
                 "comment_body": "Simplesmente o homem uma máquina de elisão fiscal, meus parabéns kkkkk\n\nSalvando suas respostas aqui para começar a avaliar as possibilidades e aplicabilidade",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1703555081.0
             },
             {
@@ -4755,7 +5885,7 @@
             {
                 "comment_id": "kextqeo",
                 "comment_body": "O grosso veio forte kkkk",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1703558503.0
             },
             {
@@ -4767,7 +5897,7 @@
             {
                 "comment_id": "kewzun2",
                 "comment_body": "\"Caozeiro\" é tu. Talvez isso iria colocar no r/Brasil",
-                "comment_score": 9,
+                "comment_score": 10,
                 "comment_created_utc": 1703544643.0
             },
             {
@@ -4791,7 +5921,7 @@
             {
                 "comment_id": "kex4zap",
                 "comment_body": "[deleted]",
-                "comment_score": 21,
+                "comment_score": 20,
                 "comment_created_utc": 1703546985.0
             },
             {
@@ -4917,7 +6047,7 @@
             {
                 "comment_id": "kexia0t",
                 "comment_body": "Sim, por enquanto, o problema é q tem muito oq arrecadar para tapar o rombo e tem o taxadd",
-                "comment_score": 1,
+                "comment_score": 0,
                 "comment_created_utc": 1703553139.0
             },
             {
@@ -4929,7 +6059,7 @@
             {
                 "comment_id": "kex1mmk",
                 "comment_body": "Vc vai querer ter uma PJ no Brasil pagando entre 6\\~10% de imposto pq é a forma mais barata de trazer o dinheiro de forma legal, outra opção é como PF e vai pagar 27.5% no Carne-leão, não compensa.\n\nMas vc não é obrigado a ter empresa no Brasil, se quiser deixar o dinheiro lá fora pra sempre vc pode, e nunca ter que pagar imposto ou declarar a existencia dessa empresa pra Receita Federal.\n\nVamos supor que vc pretende um dia morar fora e já quer acumular capital e deixar nos EUA/Canadá, vc deixa na empresa, eventualmente sai do Brasil e faz a declaração de saida definitiva, saca todo o dinheiro como PF no EUA/Canadá (pagando o respectivo imposto de dividendos), e se um dia decidir voltar pro Brasil não tem qu e pagar nada pois vai ser considerado que todo o dinheiro foi ganho enquanto morava fora.\n\n&#x200B;\n\nNão sabia que a Australia tinha isso, mas isso não existe no Brasil, e por favor não de ideia pro Taxxad ou ele vai querer fazer igual.",
-                "comment_score": 6,
+                "comment_score": 8,
                 "comment_created_utc": 1703545453.0
             },
             {
@@ -4960,13 +6090,13 @@
             {
                 "comment_id": "jq6hdjr",
                 "comment_body": "Que eu saiba, como MEI pelo Simples Nacional (pessoa jurídica) você só tem que pagar o DAS, que é por volta de 70 reais todo mês. Como pessoa física, você ainda tem que declarar Imposto de Renda se no ano-calendário o faturamento bruto da sua empresa subtraído do percentual não-tributável e das despesas dela ultrapassar R$28.559,70. Você pode ler mais sobre isso [aqui](https://www.contabilizei.com.br/contabilidade-online/como-declarar-imposto-de-renda-mei/).",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1688158095.0
             },
             {
                 "comment_id": "jq72z2v",
                 "comment_body": "Você tem que fazer a declaração anual do MEI, geralmente no mesmo período do Imposto de Renda",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1688167421.0
             }
         ]
@@ -4982,7 +6112,7 @@
             {
                 "comment_id": "jotpezj",
                 "comment_body": "Fala com um contador. Nesse valor ai, daria pra ter um MEI, só não dizer q eh dev.\n\nMas tbm nao vai perder mto se continuar como PF, eu acho q nao vale a burocracia de abrir um CNPJ.\n\nSe vc ganhar um salario de R$5700, vai pagar R$500 e pouco de IR com carnê leão. Só procurar no google “calculadora de IR” q vc vai ver.\n\nSó recomendo vc gerar o carnê leao todo mes referente ao q recebeu e pagar certinho.\n\nResumindo, com esse salário, eu não abriria um CNPJ, pq a soma Contador+imposto, vai ser maior e mais burocrático do que vc só gerar um carnê leao todo mês e pagar os 9% de imposto.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1687265362.0
             },
             {
@@ -5060,7 +6190,7 @@
             {
                 "comment_id": "jotthfq",
                 "comment_body": "Eles condicionam a prestação do serviço ao fornecimento do certificado digital da empresa do OP (ou seja, para todos efeitos eles serão donos da empresa). Não faça isso, OP.\n\nProcure uma empresa de contabilidade séria que saiba fazer o trabalho.",
-                "comment_score": 6,
+                "comment_score": 5,
                 "comment_created_utc": 1687267406.0
             },
             {
@@ -5162,7 +6292,7 @@
             {
                 "comment_id": "jotpqp8",
                 "comment_body": "se ele receber R$5700 por mês (U$1200), vai pagar 8.9% de imposto como pessoa física. Cada faixa de IR tem uma alíquota, mas a % efetiva da 8.96%.\n\nSe abrir CNPJ vai pagar contador + imposto, e vai sair tudo elas por elas.",
-                "comment_score": 5,
+                "comment_score": 6,
                 "comment_created_utc": 1687265530.0
             },
             {
@@ -5202,19 +6332,19 @@
             {
                 "comment_id": "jos5vlq",
                 "comment_body": "Acabei de iniciar num trabalho para o exterior, então tô com isso fresco na mente.\n\n1. Com toda certeza vale a pena receber como PJ. Recebendo como PF você vai pagar uma carga de impostos que imagino ser em torno de 27%, sendo PJ você consegue algo em torno de 5/7.5%, mas fale com um contador que ele vai te dar o racional de como chegar nesse valor sendo PJ.\n\n2. Conta americana não considero ser uma opção, melhor opção é utilizar plataformas na qual eles recebem o valor e fazem a transferência pra você já em BRL. Tem a Husky, Deel, Payoneer e é bom consultar a empresa pra ver se ela já não tem algum contrato com essas plataformas, eu mesmo estou usando a Husky e o fluxo é empresa paga husky > husky te paga e cai na sua conta em BRL.\n\n3. É pessoal, mas eu no seu lugar iria com certeza. Você ganha atualmente um salário já bom, provável que tenha uma reserva de dinheiro então caso rolasse algum problema você conseguiria se segurar até arrumar outro emprego. Fora que 5500 dólares por 6 meses já vão te dar uma boa segurança.\n\n4. Um contador consegue te auxiliar, mas, resumindo - Sua empresa transfere para a Husky por exemplo > Husky te transfere (com uma taxa que varia entre 1/2%) > Você recebe o dinheiro em BRL > emite sua nota fiscal com o valor que caiu > paga os impostos referentes a nota > o que sobrar é seu e você pode transferir pra sua conta de pessoa física e utilizar normalmente.\n\nRecomendo que nesse processo procure por um contador que já tenha trabalhado com devs pro exterior ou utilize plataformas online que façam esse serviço! Acho mais válido do que tentar fazer tudo sozinho :)\n\nAbraços e boa sorte!",
-                "comment_score": 13,
+                "comment_score": 14,
                 "comment_created_utc": 1687226853.0
             },
             {
                 "comment_id": "jot5y5d",
                 "comment_body": "O pessoal já deu boas respostas, só queria deixar claro: **jamais** receba via PayPal a menos que seja uma grana que você esteja disposto a perder.\n\nJá ouvi muita história de terror onde o PayPal simplesmente roubou uma galera porque desconfiou que eles estivessem fazendo algo errado, mas não possibilitaram nenhuma oportunidade para recurso.\n\nRecentemente quando precisei entrar em contato com eles, o suporte foi extremamente despreparado e a segurança deles em si é péssima. Eles sequer entendem como security keys devem ser usadas e queriam me forçar a desabilitar 2FA e passar a usar SMS para receber OTP.",
-                "comment_score": 7,
+                "comment_score": 8,
                 "comment_created_utc": 1687251817.0
             },
             {
                 "comment_id": "jos5760",
                 "comment_body": "3. O atual emorego é presencial? Tenta estudar uma forma de ficar nos dois, pelo menos no inicio, pra voce sentir como é o novo emprego e depois faz a transiçao.",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1687226501.0
             },
             {
@@ -5350,7 +6480,7 @@
             {
                 "comment_id": "jnf7j73",
                 "comment_body": "Bah, já vou abrir o processo. Muito obrigado por avisar.",
-                "comment_score": 3,
+                "comment_score": 5,
                 "comment_created_utc": 1686246219.0
             },
             {
@@ -5490,7 +6620,7 @@
             {
                 "comment_id": "j5ualzy",
                 "comment_body": "Manda nada não ou troca de contabilidade. Se a tua não tá te ajudando a encontrar brechas legais no sistema, ela não tá fazendo um bom trabalho",
-                "comment_score": 26,
+                "comment_score": 27,
                 "comment_created_utc": 1674665508.0
             },
             {
@@ -5548,37 +6678,37 @@
             {
                 "comment_id": "ivuyplu",
                 "comment_body": "Banco estrangeiro + linguagem própria = Goldman Sachs. Salário bom pra Júnior fora das Big Techs hein.",
-                "comment_score": 31,
+                "comment_score": 30,
                 "comment_created_utc": 1668111391.0
             },
             {
                 "comment_id": "ivumgad",
                 "comment_body": "Se a empresa média fosse CLT eu até pensaria, mas sendo PJ eu vejo que você tem muito mais benefícios estando onde você está.\n\nAcredito que você pode receber oportunidades melhores no futuro.",
-                "comment_score": 39,
+                "comment_score": 37,
                 "comment_created_utc": 1668106516.0
             },
             {
                 "comment_id": "ivuss5h",
                 "comment_body": "Neste momento eu permaneceria onde você está. O mercado de TI está começando a passar por um período mais complicado, muitas empresas estão fechando as contratações ou demitindo.\n\nO negócio da linguagem ser proprietária tem os dois lados, por um lado pode dificultar uma recolocação no futuro, mas por outro te garante um pouco sua posição.\n\nUma coisa importante nestes casos é importante olhar em volta e ver a longevidade dos seu colegas mais seniors. Se a empresa tem muita gente que está lá há 5,10,15 anos pode ser algo positivo. Se não for o caso, você pode eventualmente estudar outra coisa em paralelo para caso aconteça algo, mas eu acho melhor esperar um pouco. O mercado deu uma virada meio brusca nós últimos meses e está meio arriscado sair neste momento.",
-                "comment_score": 14,
+                "comment_score": 15,
                 "comment_created_utc": 1668109026.0
             },
             {
                 "comment_id": "ivuvy64",
                 "comment_body": "Eu queria era saber a empresa pra mandar currículo, com esse bônus todos aí, tá doido hahaha\n\nEdit : Se trabalhar com linguagem padrão, cheia de tutorial, YouTube e os caralho na internet as vezes é complicado, imagina uma super fechada e proprietária? Caraio aí é foda.\n\nOP, se tu gosta daí fica. Se não, vaza. Pq pode parecer muito, mas 11k CLT trabalhando em uma LINGUAGEM PROPRIETÁRIA, onde tu vai ter que aprender muita coisa de novo ao sair daí, me parece pouco até.\n\nE tem gente que reclama de código legado/software proprietário, linguagem então é literalmente um \"pain the ass\".",
-                "comment_score": 11,
+                "comment_score": 12,
                 "comment_created_utc": 1668110287.0
             },
             {
                 "comment_id": "ivvnqzd",
                 "comment_body": "Você não tem um problema. Seu sortudo filho de uma puta.",
-                "comment_score": 16,
+                "comment_score": 15,
                 "comment_created_utc": 1668121726.0
             },
             {
                 "comment_id": "ivv7ait",
-                "comment_body": "Fica aí mano, linguagem é só uma ferramenta, se vc sabe programar de vdd vc aprende outra linguagem facilmente e no futuro troca de empresa, e vamos ser sinceros, 11k pra júnior é um puta salário em? \n\n17k PJ tem várias empresas por aí, sem falar que seus bônus anuais já te deixam BEM perto desse valor, eu não trocaria. Remoto é uma maravilha sim (pra mim é o melhor modelo de trabalho) mas eu não passaria a oportunidade que vc tá tendo de fazer uma carreira legal num dos maiores bancos do mundo sendo que vc já tá acostumado ao modelo híbrido, qualquer coisa pede um aumento e vai morar mais perto da empresa, pra minimizar esse gasto de tempo",
-                "comment_score": 7,
+                "comment_body": "[removed]",
+                "comment_score": 8,
                 "comment_created_utc": 1668114780.0
             },
             {
@@ -5590,7 +6720,7 @@
             {
                 "comment_id": "ivvn0oz",
                 "comment_body": "cara, se ta perto de você virar senior, fica na sua empresa até virar senior e depois pensa em sair. Goldman Sachs tem um peso do caralho, principalmente para exterior.\n\nE claro, nada impede você ter projetos no git em outro linguagem que vai te ajudar a fazer a transição mais na frente.\n\nSe ta muito longe de virar sênior, fala com o seu chefe que recebeu uma proposta boa, mas gostaria de ficar e pede uma contra-proposta. (mas nesse caso esteja pronto para sair caso eles não queiram conversa)",
-                "comment_score": 5,
+                "comment_score": 7,
                 "comment_created_utc": 1668121402.0
             },
             {
@@ -5602,7 +6732,7 @@
             {
                 "comment_id": "ivw7chf",
                 "comment_body": "Acredito que ficar na empresa que paga mais, tem mais benefícios e onde você já tem relevância é o ideal. Mesmo sendo uma stack de baixa demanda, é a stack que suporta um banco e isso brilha os olhos de qualquer RH.\n\nAo mesmo tempo, nada o impede de fazer projetinhos com stacks modernas no seu tempo livre e ir arredondando sua \"plenitude\" pra não virar o cara do Cobol.",
-                "comment_score": 5,
+                "comment_score": 3,
                 "comment_created_utc": 1668130734.0
             },
             {
@@ -5704,7 +6834,7 @@
             {
                 "comment_id": "ivunnsa",
                 "comment_body": "O maior problema é que se eu ficar no meu emprego no longo prazo, provavelmente terei que apostar todas as minhas fichas (ir \"all-in\") e trabalhar a vida inteira. Como eu trabalharia bastante com a linguagem proprietária, caso me demitam ou eu queira sair depois de 5\\~10+ anos por outra razão, pode ser bem difícil me realocar no mercado para posições de experiência comparável.",
-                "comment_score": 12,
+                "comment_score": 13,
                 "comment_created_utc": 1668106983.0
             },
             {
@@ -5716,7 +6846,7 @@
             {
                 "comment_id": "ivuyu1n",
                 "comment_body": "É o Goldman Sachs. Eles usam Slang, uma linguagem proprietária.",
-                "comment_score": 8,
+                "comment_score": 9,
                 "comment_created_utc": 1668111440.0
             },
             {
@@ -5848,7 +6978,7 @@
             {
                 "comment_id": "ivv7yoe",
                 "comment_body": "Mano, o conhecimento de \"saber uma linguagem\" é pifio, isso não interfere em nada na sua senioridade. A parada é o quão bom você é em resolver problemas.",
-                "comment_score": 7,
+                "comment_score": 6,
                 "comment_created_utc": 1668115051.0
             },
             {
@@ -5878,7 +7008,7 @@
             {
                 "comment_id": "ivvs9su",
                 "comment_body": "Mais um ponto para levar em conta, o peso da empresa no currículo.\nOutro ponto, como já foi dito em outros comentários, linguagem é o de menos, empresas que exigem tempo de experiência em linguagem específica são em maioria pequenas/médias, não deveria ser o seu alvo",
-                "comment_score": 5,
+                "comment_score": 4,
                 "comment_created_utc": 1668123744.0
             },
             {
@@ -5920,13 +7050,13 @@
             {
                 "comment_id": "ivv99lb",
                 "comment_body": "Errado. Vai ser mais difícil recolocação sim.",
-                "comment_score": 16,
+                "comment_score": 14,
                 "comment_created_utc": 1668115574.0
             },
             {
                 "comment_id": "ivwb2nc",
                 "comment_body": "Fala isso pros recruiters, se você não tem x experiência na linguagem y os caras não tão nem aí, vão te descartar pq o “cliente” quer alguém com esses x anos de experiência. O único jeito que eu vejo de se dar bem é com currículo direto pra empresa mas ainda tem chance do Rh mal preparado fazer a mesma coisa.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1668132484.0
             },
             {
@@ -5980,13 +7110,13 @@
             {
                 "comment_id": "ivva438",
                 "comment_body": "Claro que a recolocação vai ser mais dificil se comparado com alguém saindo de uma empresa com uma stack X pra trampar em outra com a mesma stack, mas não é algo impossivel e eu não me preocuparia muito com isso não.",
-                "comment_score": 3,
+                "comment_score": 4,
                 "comment_created_utc": 1668115916.0
             },
             {
                 "comment_id": "ivvaafx",
                 "comment_body": "Tenho que discordar. \n\nEssa mentalidade só é válida se você vai ser um \"programador\" pra sempre. \n\nSou especialista, que é um nível acima de \"sênior\" aqui na empresa, e o conhecimento da tecnologia importa bem pouco. \n\nValem muito mais as experiências com problemas/soluções e as características de negócios com que você já trabalhou (no meu caso, finanças e tributário/impostos).\n\nTudo depende do que ele quer como carreira no longo prazo.",
-                "comment_score": 4,
+                "comment_score": 3,
                 "comment_created_utc": 1668115988.0
             },
             {
@@ -6022,7 +7152,7 @@
             {
                 "comment_id": "ivvbfqe",
                 "comment_body": "Títulos não significam nada. Especialista pode ser um cargo extremamente dependente de tecnologia.",
-                "comment_score": 6,
+                "comment_score": 7,
                 "comment_created_utc": 1668116454.0
             },
             {

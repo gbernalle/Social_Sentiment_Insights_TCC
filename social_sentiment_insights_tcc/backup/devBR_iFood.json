@@ -1,0 +1,1349 @@
+[
+    {
+        "post_id": "1rz95qr",
+        "post_title": "Mudança de stack ou transição de carreira? Backend Golang",
+        "post_body": "Basicamente título.\n\n  \nCaros, ano passado eu passei pelo famigerado evento canônico de qualquer desenvolvedor e fui layoffado. Tenho faculdade federal de CC e 5 anos de XP como backend usando Golang e estou tentando continuar nesse ecossistema, mas cara, tá foda. Quase não tem vaga de Golang e quando tem é sênior pra cima. As pouquíssimas vagas de pleno que aparecem ou é misturado (pedem experiência em outras linguagens), ou eu acabo me fodendo na entrevista e perdendo a vaga (já estou trabalhando pra melhorar essa parte).\n\n  \nComo a situação tá ficando feia aqui em casa, eu pensei em duas possibilidades:\n\nA primeira é estudar outra linguagem de computação e continuar na backend (o qual eu gosto bastante) pra continuar nessa carreira. Anotando aqui as vagas que aparecem pra back, reparei que as linguagens que mais aparecem é PHP e Java, depois vem .NET e TypeScript. Compensa uma delas pra quem já trabalhou com GO? \n\n  \nA segunda opção é eu simplesmente trocar de carreira. Estive pensando em analista/cientista de dados, já que fiz iniciação científica relacionada a área durante a faculdade e gostei bastante. Estou tentando achar uma pós em estatística pra fazer aqui onde eu moro mas tá difícil, e não sei se estou disposto a fazer outra graduação (tô quase chegando nos 40 e estou muito sem saco pra lidar com os coleguinhas de 20 anos). Será que os caras de dados pegam currículo de desenvolvedor back ou eles nem olham?\n\n  \nQuem tiver algo a dizer pra me ajudar aí eu agradeço bastante. Se estiver disposto eu posso conversar pelo zap/discord também, aí se quiser te pago um lanche no ifood ou um joguinho na steam pela 'consultoria'. Enfim é isso, estou quase endoidando aqui e o meu psicólogo já está de saco cheio de me ouvir falar sobre esse problema. ",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1rz95qr/mudança_de_stack_ou_transição_de_carreira_backend/",
+        "is_self_post": true,
+        "post_created_utc": 1774042815.0,
+        "comments": [
+            {
+                "comment_id": "obknx1d",
+                "comment_body": "Java normalmente vai pra Go. O oposto também é válido. \nEntão só aplicar feito louco. \n\nGFT procure recrutadores deles. Dependendo do seu nível de Go você consegue até me substituir aqui. Hahaha. \n\nJá te aviso que no Itaú tão migrando de Java para go. \nNormalmente em Go tu conseguiria trampo internacional. Bairesdev tenta também. \n\nBoa sorte. ",
+                "comment_score": 6,
+                "comment_created_utc": 1774047370.0
+            },
+            {
+                "comment_id": "obla5hx",
+                "comment_body": "Pô mano, guarda o dinheiro do lanche aí. Tá foda pra todos os lados. Javeiro aqui.\n\nAs vagas que tem pra Java são Sr pra cima tbm e algumas pedem Typescript, NextJS, ou no mínimo um full stack com Angular ou React, etc.\n\nNão tá fácil pra ninguém. E não é nem querer coisa fácil, é que o fácil não existe mais. Ou vc sabe ou sabe.\n\nNo momento to desempregado e fiz algumas entrevistas, e a maioria não focou no meu querido Java com spring. Focaram em resolver problema de arquitetura, design system, performance, volumetria.\n\nAcabou o Dev que sabia escrever um bom código usando um design pattern favorito, usando lambdas e streams, multi threads, etc.",
+                "comment_score": 3,
+                "comment_created_utc": 1774055025.0
+            },
+            {
+                "comment_id": "obkdf4c",
+                "comment_body": "Java e Go é um combo que vejo bastante. Node.js e Go tb. \n\n.NET e PHP tu vai ter que saber TypeScript tb para aumentar suas chances.",
+                "comment_score": 2,
+                "comment_created_utc": 1774043946.0
+            },
+            {
+                "comment_id": "obknvzm",
+                "comment_body": "Nada te impede de ir fazendo as duas coisas, só não dá para fazer do dia para a noite.\n\nNão é comum trabalhar com uma única linguagem em aplicação moderna, ainda mais no Brasil, onde culturalmente todo mundo tem que fazer de tudo um pouco.\n\nTalvez você já tenha nível sênior em Go, mas está pedalando porque está engessado trabalhando sempre com as mesmas coisas e está com a mentalidade de que é uma coisa ou outra, quando na verdade as empresas esperam tudo e mais um pouco.\n\nTypeScript pode ser sua melhor aposta a curto prazo, visto que é o mais utilizado no front-end (inclusive com Go no backend) e também tem uso no back-end.\n\nMas vai aprendendo o que cair no seu colo. Depois de se virar com umas duas linguagens, o que vier depois fica mais tranquilo. Outra coisa é que a maioria das empresas está usando IA de alguma forma, e mesmo algo \"simples\" como o Copilot facilita muito alternar entre linguagens. Você começa escrevendo aberrações funcionais, tentando impor conceitos da sua linguagem principal na nova, mas com o tempo aprende e se adequa aos padrões.\n\nSendo formado em CC, você não deve ter grandes impedimentos para migrar para dados e sua experiência deve agregar bastante, mas tem que aprender as ferramentas que as empresas pedem para essas vagas. Uma pós mais específica ajudaria.\n\nAh, e não esqueça de adequar seu CV para cada tipo de vaga. Se for aplicar em uma vaga em outra linguagem, é bom listar sua experiência em Go de forma mais vaga e coisa do tipo, além de fazer a famigerada \"otimização para ATS\".",
+                "comment_score": 2,
+                "comment_created_utc": 1774047360.0
+            },
+            {
+                "comment_id": "oblqeaw",
+                "comment_body": "O f que depois que vc entra nessas stack, voltar pras merda dos java da vida é difícil, tava no koltin suave e me jogaram na merda do Java, service, serviceimpl, factory, adapter, tudo final, pra fazer um if e ainda aguentar ego de programador PNC engessado nos livrinho. Go e python é vida, simplicidade com performance. \n\nDizem que Go tá bem forte na gringa, se tiver bom o inglês vale a pena tentar.",
+                "comment_score": 2,
+                "comment_created_utc": 1774061120.0
+            },
+            {
+                "comment_id": "obkfpnr",
+                "comment_body": "Acredito que o impeditivo é você só ter XP/conhecimento em GO, o que realmente é dificil achar vagas.   \nMas se você souber JAVA + GO e/ou node/typescript e GO, vai ser bem mais fácil",
+                "comment_score": 1,
+                "comment_created_utc": 1774044673.0
+            },
+            {
+                "comment_id": "obkj6re",
+                "comment_body": "Go e Java cara. Você ja tem a experiência na área e a base do backend, apenas aplique isso no Java.",
+                "comment_score": 1,
+                "comment_created_utc": 1774045812.0
+            },
+            {
+                "comment_id": "obky9ip",
+                "comment_body": "Go é a lang mais easy de todas, real",
+                "comment_score": 1,
+                "comment_created_utc": 1774050802.0
+            },
+            {
+                "comment_id": "obnd5i1",
+                "comment_body": "se for pivotar pra dados, faça pra engenharia de dados ao invés de análise / ciência, acho que a transição vai ser mais natural. \n  \nou a tal da nova \"engenharia de ia\" tbm",
+                "comment_score": 1,
+                "comment_created_utc": 1774092139.0
+            },
+            {
+                "comment_id": "obox1u1",
+                "comment_body": "Infelizmente stack focada é só um nome e só opção de empresa pra empresa. Vc tem que acabar se tornando agnóstico à linguagem de programação, saber programar em qualquer linguagem e stack que for alocado, atualmente generalista é o mais comum hj em dia...",
+                "comment_score": 1,
+                "comment_created_utc": 1774111706.0
+            },
+            {
+                "comment_id": "ocazhgw",
+                "comment_body": "Mano! Se Java tah osso, imagine outras linguagens!\n\n😮‍💨🤌🏼",
+                "comment_score": 1,
+                "comment_created_utc": 1774397812.0
+            }
+        ]
+    },
+    {
+        "post_id": "1r957ft",
+        "post_title": "API grátis para sites que não tinham API (iFood, Mercado Livre, Booking, Webmotors)",
+        "post_body": "",
+        "post_url": "/r/datasciencebr/comments/1r8jq6k/api_grátis_para_sites_que_não_tinham_api_ifood/",
+        "is_self_post": false,
+        "post_created_utc": 1771521618.0,
+        "comments": [
+            {
+                "comment_id": "o6d9kw3",
+                "comment_body": "Quero testar, Discord: 77turco",
+                "comment_score": 1,
+                "comment_created_utc": 1771561892.0
+            }
+        ]
+    },
+    {
+        "post_id": "1q7rnbg",
+        "post_title": "Fiz um app e to em duvida em como fazer a parte de pagamentos.",
+        "post_body": "Fiz um app e se alguém me ajudar a por onde eu começo alem de estudar mais do que ja estudo.\n\nO app é igual o ifood, e tem a parte dos motoboys fiz duas funcoes quando atinge um valor o motoboy se ele quiser pode pedir um saque com 1,99% de taxa.\n\nE a cada 7 dias é feito de forma \"automático\" no caso o administrador mesmo que vai fazer o pagamento.\n\nNo dia do pagamento eu gostaria de gerar um Qrcode para conseguir agilizar o pagamento mas pelo que tentei nao consegui de forma rapida e objetiva.\n\nAlguma luz?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1q7rnbg/fiz_um_app_e_to_em_duvida_em_como_fazer_a_parte/",
+        "is_self_post": true,
+        "post_created_utc": 1767914645.0,
+        "comments": [
+            {
+                "comment_id": "nylk79i",
+                "comment_body": "Tambem tenho essa duvida, tenho um monte de app pronto e site, mas a parte de fazer o pagamento me quebra, nunca sei como fazer, ate mesmo procurando na internet ou com ia",
+                "comment_score": 2,
+                "comment_created_utc": 1767967941.0
+            },
+            {
+                "comment_id": "nyi5uul",
+                "comment_body": "Gerar um qr code pra você pagar o entregador?",
+                "comment_score": 1,
+                "comment_created_utc": 1767918204.0
+            },
+            {
+                "comment_id": "nykfyli",
+                "comment_body": "Qualquer gateway de pagamento (gosto do asaas) + cron job",
+                "comment_score": 1,
+                "comment_created_utc": 1767950635.0
+            },
+            {
+                "comment_id": "nyloikb",
+                "comment_body": "Eu ja consegui fazer mas tipo a parte do cliente com o mercado pago, foi bem difícil acertar.",
+                "comment_score": 2,
+                "comment_created_utc": 1767969262.0
+            },
+            {
+                "comment_id": "nyiv23g",
+                "comment_body": "Sim.. uma forma ainda manual mais rapida do que ficar olhando no sistema o valor, digitando o pix do entregador, conferindo o valor, e etc...",
+                "comment_score": 1,
+                "comment_created_utc": 1767926200.0
+            }
+        ]
+    },
+    {
+        "post_id": "1ojom6m",
+        "post_title": "A saga da recolocação pós layoff do Itaú",
+        "post_body": "Fui um dos demitidos por \"produtividade\" em setembro e venho caçando trampo desesperadamente desde então. Eu era Analytics Engineer pleno lá com 5 anos de banco entre estágio e CLT. Eu fiz tudo que tinha que fazer: arrumei o LinkedIn (não fiz post de despedida), o CV e venho aplicando pras vagas. Participei/estou participando de alguns processos pra Data Engineer/Analytics Engineer Sênior(ifood, hotmart, G4, compass uol, dataside). Em algumas das entrevistas a galera perguntou se eu tinha saído pelo layoff e eu nunca desmenti quando questionado. Por mais que eu avance nos processos, não recebi nenhuma proposta e tenho receio do quanto isso me prejudicou no mercado de fato.\n\nPra galera que também rodou no layoff de setembro do itaú:\n- Vocês também sentem que ficaram \"queimados\" por ter saído assim?\n\nPra geral:\n- Ouvi dizer de uma lista de empresas que \"bloquearam\" a galera layoffada. Isso é real?\n- Pra quem ta no mercado de dados em outras empresas, alguma outra experiência/dica pra compartilhar pra um desesperado por trampo?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1ojom6m/a_saga_da_recolocação_pós_layoff_do_itaú/",
+        "is_self_post": true,
+        "post_created_utc": 1761792841.0,
+        "comments": [
+            {
+                "comment_id": "nm58ijv",
+                "comment_body": "Deve ser foda ficar com a fama de ser o cara que não mexia o mouse.",
+                "comment_score": 91,
+                "comment_created_utc": 1761802967.0
+            },
+            {
+                "comment_id": "nm5d42l",
+                "comment_body": "Já disseram aqui, mas vale reiterar. Enfia um job fake ali como se vc fosse consultor independente, pra dizer que continua ativo.  \nOutra coisa: mentir. Layoff rolou? Beleza. Todo mundo sabe. Até o RH pegar tua CLT, ninguém sabe da data da sua saída. Muda isso. Diz que saiu 2 meses antes por iniciativa própria, pra ser “consultor independente”. Limpa sua barra.",
+                "comment_score": 64,
+                "comment_created_utc": 1761805689.0
+            },
+            {
+                "comment_id": "nm4p10o",
+                "comment_body": "Talvez seja hora de mentir. Não faço ideia se você pode estar sendo prejudicado pelo motivo do layoff do Itaú, mas eu tenho certeza que te ajudar isso não vai. Então não tem porque correr o risco.\n\n  \nInventa que foi demitido uns 2 meses antes ou depois e segue sua vida.",
+                "comment_score": 44,
+                "comment_created_utc": 1761793804.0
+            },
+            {
+                "comment_id": "nm4r373",
+                "comment_body": "pra que falar a verdade sobre ter saído no layoff? tem nada a ganhar com isso e eu chutaria que tá fortemente envolvido com o fato de não ter respostas positivas",
+                "comment_score": 13,
+                "comment_created_utc": 1761794611.0
+            },
+            {
+                "comment_id": "nm4ys8m",
+                "comment_body": "Altera a data de saida do Itau, adiciona um novo trampo “migué” fingindo estar trabalhando. Nunca coloque o selo “open to work”.",
+                "comment_score": 13,
+                "comment_created_utc": 1761797907.0
+            },
+            {
+                "comment_id": "nm637rs",
+                "comment_body": "O Itaú queimou 1k de pessoas com esse motivo \"Improdutivo\"...",
+                "comment_score": 10,
+                "comment_created_utc": 1761821002.0
+            },
+            {
+                "comment_id": "nm66j4z",
+                "comment_body": "Não desista. Eu tive um amigo que também foi demitido nesse layoff. Ele conseguiu emprego agora a pouco para começar em dezembro. É a sua oportunidade de buscar emprego na gringa também. Eles não sabem o que aconteceu aqui.",
+                "comment_score": 9,
+                "comment_created_utc": 1761822580.0
+            },
+            {
+                "comment_id": "nm59rfc",
+                "comment_body": "nao sei se vai te ajudar mas eu juntei bastante vaga pra data analyst no meu site, ve se te dah uma animada https://fridayglee.com/jobs?country=brazil&q=data&jobType=remote",
+                "comment_score": 8,
+                "comment_created_utc": 1761803692.0
+            },
+            {
+                "comment_id": "nm6ax7z",
+                "comment_body": "A ideia era justamente sujar a reputação dos layoffados quando justificaram que o problema era produtividade. Vão recontratar vocês mais baratos depois.",
+                "comment_score": 5,
+                "comment_created_utc": 1761824529.0
+            },
+            {
+                "comment_id": "nm6h4lv",
+                "comment_body": "Segue o que a galera falou. Vc saiu 2 meses antes do layoff pq recebeu uma proposta pra trabalhar pra uma empresa nos EUA com contrato de 1 ano (pagando mais e praticando o ingles). Esta buscando vaga no BR por conta de estabilidade. Coloca qualquer empresa pequena no CV como experiência e ja era.",
+                "comment_score": 4,
+                "comment_created_utc": 1761826964.0
+            },
+            {
+                "comment_id": "nm64onm",
+                "comment_body": "[deleted]",
+                "comment_score": 5,
+                "comment_created_utc": 1761821712.0
+            },
+            {
+                "comment_id": "nm5st4o",
+                "comment_body": "É engraçado, mas eu ouvi já duas empresas distintas de dois gerentes diferentes (network e n entrevista ou procurando por emprego) que eles preferem quem está trabalhando, por que dizem eles: “pessoas que estão sem emprego vão tentar de qualquer maneira se encaixar na vaga, possivelmente até mentir, e, se bobear, ficam 3 meses só porque encontraram o que queriam”. \n\nNão vou adicionar tantos detalhes dessa conversa, mas, pelo ponto de vista deles, fez sentido total. \n\nO que eu aconselharia é “não ficar desempregado”, no sentido de CV mesmo… mete uns projetos, diz que faz consultoria, diz que quer sair da consultoria porque nao se acostumou, mas os projetos “fakes” precisam ser de “ponta a ponta”, qual era o projeto, o que ele fazia, o que vc era responsável, etc.\n\nArranje uma empresa bem menor que essas que esta fazendo processo seletivo pra ir “testando”, mas tente nao ficar “parado” em termos de CV",
+                "comment_score": 4,
+                "comment_created_utc": 1761815302.0
+            },
+            {
+                "comment_id": "nm5fhg3",
+                "comment_body": "Cara, eu estou realmente curioso para entender como isso foi feito.\n\nEles tinham um bot monitorando o uso das máquinas? E então criaram um benchmark privado para julgar o que é produtividade ou não?\n\nEu me pergunto se esses profissionais estavam entregando seus projetos no prazo, cumprindo metas e, ainda assim, foram demitidos por causa de um bot. Isso é muito estranho.\n\nEm 30 anos de TI, eu nunca passei — ou mesmo vi — uma empresa que assumisse publicamente algo assim. E, sinceramente, eu nunca vi performance ser medida dessa maneira. Performance é KPI; se está fácil demais, **\"nois aumenta us KPI\"**. Agora… monitorar clique?\n\nEditado com chatgpt.",
+                "comment_score": 3,
+                "comment_created_utc": 1761807130.0
+            },
+            {
+                "comment_id": "nm5i5hq",
+                "comment_body": "Olhe as vagas da AB-InBev",
+                "comment_score": 1,
+                "comment_created_utc": 1761808758.0
+            },
+            {
+                "comment_id": "nm6cgsm",
+                "comment_body": "A galera de desenvolvimento que conhecia lá já se realocou, não sei muito como tá sendo pra galera do seu segmento. \n\nMas acho que seria uma boa tentar um networking inclusive com a galera que foi demitida tb",
+                "comment_score": 1,
+                "comment_created_utc": 1761825165.0
+            },
+            {
+                "comment_id": "nm6hf3d",
+                "comment_body": "Se é loko, só as dicas cabulosas, top.\n\nEm ultimo caso, também tem a opção de se tornar um hero, igual um caso passado ai.",
+                "comment_score": 1,
+                "comment_created_utc": 1761827074.0
+            },
+            {
+                "comment_id": "nm6ohpd",
+                "comment_body": "Diga que saiu pq ficou sobrecarregado após os layoffs",
+                "comment_score": 1,
+                "comment_created_utc": 1761829533.0
+            },
+            {
+                "comment_id": "nm6p5qz",
+                "comment_body": "Fala que vc ainda tá no Itaú e quer trocar de empresa",
+                "comment_score": 1,
+                "comment_created_utc": 1761829756.0
+            },
+            {
+                "comment_id": "nm6qngn",
+                "comment_body": "Imagina eu que já teve semana que eu fiquei 3 dias fora do PC só em reuniões e respondendo email pelo celular \n\nOu imagina eu que mexo no Excel praticamente sem mouse",
+                "comment_score": 1,
+                "comment_created_utc": 1761830243.0
+            },
+            {
+                "comment_id": "nm7a1g2",
+                "comment_body": "Eu duvido que esse seja um fator determinante. Claro, sempre pode ter alguém do RH, ou algum chefe que vai te excluir por qualquer motivo esdrúxulo. Eu tô ajudando no processo de contratar alguém pra equipe onde eu trabalho, faço entrevistas técnicas, e não me importo nem um pouco do porquê tal candidato saiu de tal empresa.  Tento avaliar se o conhecimento técnico do candidato se encaixa com a vaga. E tem um monte de candidato que tem o CV ótimo, mas chega na entrevista e na verdade não é bem o que tá no papel. Ou tem vezes onde o candidato é realmente muito bom, mas existe alguma necessidade específica da vaga que ele não tem tão forte. Ou simplesmente o candidato é ótimo e caberia na vaga, mas conversamos com mais gente e teve outro melhor. Enfim, existe uma infinidade de motivos pra você não ser contratado, mesmo que o layoff te tire de uma ou outra vaga, não é isso que vai definir seu futuro. Mantenha-se persistente que uma hora a oportunidade aparece.",
+                "comment_score": 1,
+                "comment_created_utc": 1761836129.0
+            },
+            {
+                "comment_id": "nm7na18",
+                "comment_body": "sobre a lista, acredito que exista uma interna. mas as outras empresas não sabem que você saiu (a menos que faça um post/comente sobre).\n\nCom o tempo a oportunidade aparece. Mas ainda está fresco na memória de todos",
+                "comment_score": 1,
+                "comment_created_utc": 1761839903.0
+            },
+            {
+                "comment_id": "nm7p601",
+                "comment_body": "Só uma dúvida: pq caralhos você não processou o Itaú?\n\nNossa, eu teria colocado eles no pau por muito menos.",
+                "comment_score": 1,
+                "comment_created_utc": 1761840441.0
+            },
+            {
+                "comment_id": "nm7s4xq",
+                "comment_body": "Oque eu faria, manteria que ainda estou no Itaú, e que está querendo sair pra sair do híbrido, ou se está tentando outro híbrido, dar outra desculpa, se passar no processo, na hora de mandar os dados da carteira, ninguém olha isso.",
+                "comment_score": 1,
+                "comment_created_utc": 1761841286.0
+            },
+            {
+                "comment_id": "nm7ykkp",
+                "comment_body": "Eu acho que o mercado está dificil pra todo mundo, independente de ter sido layoffado pelo Itaú nessa leva ou não. Óbvio que isso marca, e mentir é o único caminho. Tem muita gente boa desempregada, a concorrência está brutal.\n\nEu colocaria no LinkedIn o desligamento como uns 30 ou 60 dias antes, e mentiria descaradamente e foda-se. Depois que vier a proposta e você compartilhar a sua carteira de trabalho digital, ninguém vai olhar isso, só o arrombado do entrevistador que quer saber isso pra te descartar logo.",
+                "comment_score": 1,
+                "comment_created_utc": 1761843133.0
+            },
+            {
+                "comment_id": "nm8oz0u",
+                "comment_body": "aulas e palestras aqui. ✍️",
+                "comment_score": 1,
+                "comment_created_utc": 1761850659.0
+            },
+            {
+                "comment_id": "nma66am",
+                "comment_body": "Quanto você ganhava?",
+                "comment_score": 1,
+                "comment_created_utc": 1761867185.0
+            },
+            {
+                "comment_id": "nmcjqhy",
+                "comment_body": "Como é 5 anos, põe que saiu uns 6 meses antes pra se aperfeiçoar e tentar construir alguma startup/ver como funciona as coisas lá no vale do silício. É bater e valer.",
+                "comment_score": 1,
+                "comment_created_utc": 1761907476.0
+            },
+            {
+                "comment_id": "nmcmrn8",
+                "comment_body": "Minta para conseguir uma nova vaga mas lembre-se de não ficar mais tanto tempo ocioso em tempo de trabalho pra não ser demitido novamente. Boa sorte",
+                "comment_score": 1,
+                "comment_created_utc": 1761908932.0
+            },
+            {
+                "comment_id": "nmco1ac",
+                "comment_body": "Mas não tá fácil mesmo o mercado. Você tem só 1 mês que tá parado, demorei 4 meses pra me realocar. A demora pode não ser essa questão com o banco.",
+                "comment_score": 1,
+                "comment_created_utc": 1761909520.0
+            },
+            {
+                "comment_id": "nmkb5nx",
+                "comment_body": "Cara, mesmo não sendo ideal,  é melhor não colocar no perfil ou no currículo que você saiu e dá outro motivo por estar procurando vaga, assim você não fica queimado e vida que segue. ",
+                "comment_score": 1,
+                "comment_created_utc": 1762017867.0
+            },
+            {
+                "comment_id": "nmr4n7v",
+                "comment_body": "Pelo o que conversei com algumas pessoas, não é possivel saber se você pediu demissão ou foi demitido só pela carteira. Gostei da ideia do colega de falar que foi abrir uma startup. Ou fala que tinha uma promessa de trabalho fora e você saiu mas a vaga foi cencelada, enfim.",
+                "comment_score": 1,
+                "comment_created_utc": 1762111203.0
+            },
+            {
+                "comment_id": "node5m1",
+                "comment_body": "Eu fui demitida um mês após o layoff, meu chefe disse que eu não estava entregando o esperado, mas o ódio que eu tô é descomunal, um mês antes eu pedi pra mudar de time e meu coordenador pediu pra eu ficar e \"dar uma chance pro time\", porque desde que eu voltei de licença maternidade em maio eu havia sido alocada no legado.",
+                "comment_score": 1,
+                "comment_created_utc": 1762905857.0
+            },
+            {
+                "comment_id": "nm4xvrh",
+                "comment_body": "[deleted]",
+                "comment_score": -7,
+                "comment_created_utc": 1761797494.0
+            },
+            {
+                "comment_id": "nm76506",
+                "comment_body": "Melhor ainda: diz que saiu pra criar sua propria startup. Galera do jogo corporativo gosta disso. Cria um projeto maluco com Lovable e, caso tenha abertura, mostre o projeto.",
+                "comment_score": 16,
+                "comment_created_utc": 1761834979.0
+            },
+            {
+                "comment_id": "nm9m7af",
+                "comment_body": "Tem a chance de sair pela culatra porque o RH pode pedir pra ver a carteira e lá tá que foi demissão. Mas o RH e a area de recrutamento nã conversam tanto até onde eu sei. Será que tem alguem do RH pra tirar essa duvida? \n\nEu já fiz isso de mentir sobre demissão, fiquei com o cu na mão, mas não deu em nada. \n\nNo meu caso eu tinha sido demitido mas não falei na entrevista, fiz como se tivesse contratado ainda. Quando mandaram a oferta, ainda pedi 1 mês na malandragem pra dizer que tava cumprindo o aviso previo. Usei esse 1 mes de “ferias” com o seguro desemprego",
+                "comment_score": 7,
+                "comment_created_utc": 1761860443.0
+            },
+            {
+                "comment_id": "odfeuex",
+                "comment_body": "E quando checarem não dá ruim? ",
+                "comment_score": 1,
+                "comment_created_utc": 1774923036.0
+            },
+            {
+                "comment_id": "nm82y79",
+                "comment_body": "Baixa atividade digital",
+                "comment_score": 2,
+                "comment_created_utc": 1761844403.0
+            },
+            {
+                "comment_id": "nmaebjl",
+                "comment_body": "Canalhas demais.",
+                "comment_score": 1,
+                "comment_created_utc": 1761870018.0
+            },
+            {
+                "comment_id": "nm73wz5",
+                "comment_body": "Manin que site foda, obrigado por compartilhar.",
+                "comment_score": 4,
+                "comment_created_utc": 1761834315.0
+            },
+            {
+                "comment_id": "nm81414",
+                "comment_body": "Exatamente! Depois que o cara conseguir a proposta, e pedirem a carteira de trabalho digital, dificilmente vão tumultuar SE lerem algo.",
+                "comment_score": 1,
+                "comment_created_utc": 1761843866.0
+            },
+            {
+                "comment_id": "nm80q1w",
+                "comment_body": "Processar pra que? Pra ser mais uma tatuagem na paleta do cara? Além de ser um dos demitidos por produtividade ainda vai ficar marcado por processar as empresas que demitem ele.\n\nDesse jeito o cara vai ter que viver da arte dele na praia.\n\nInfelizmente é assim que funciona, não estou dizendo que é certo.",
+                "comment_score": 1,
+                "comment_created_utc": 1761843750.0
+            },
+            {
+                "comment_id": "nm67xh1",
+                "comment_body": "Pela lógica desses babacas ai o desempregado não merece trabalhar?",
+                "comment_score": 6,
+                "comment_created_utc": 1761823214.0
+            },
+            {
+                "comment_id": "nm697sg",
+                "comment_body": "Benchmark? Não seja tão inocente amigo, não teve nada disso. Itaú só queria demitir uma galera, talves pra reduzir custos, e precisava de uma desculpa pra tentar não queimar a imagem do banco demitindo 1000 pessoas sem motivo, inventaram que não estavam produzindo o suficiente.\n\nPra quem conhece o Itaú, não tem nada de estranho, sempre foi uma empresa de cultura zuada. Todo mundo processa eles quando sai de lá e todos ex-funcionários que eu já conheci conseguiram tirar uma grana dos caras.\n\nEsses sistemas de monitoramento estão ai há muito tempo e são usados por várias empresas, principalmente as que contratam 100% remoto. Monitoram uso do mouse, teclado, e tiram screenshots da sua tela em intervalos aleaórios. O que me espanta é isso ser novidade pra tanta gente",
+                "comment_score": 3,
+                "comment_created_utc": 1761823790.0
+            },
+            {
+                "comment_id": "nm8389x",
+                "comment_body": "Tinha um bot monitorando atividade digital. Não foi uma ação baseada em produtividade.",
+                "comment_score": 1,
+                "comment_created_utc": 1761844482.0
+            },
+            {
+                "comment_id": "nm7sf9o",
+                "comment_body": "Isso.",
+                "comment_score": 1,
+                "comment_created_utc": 1761841369.0
+            },
+            {
+                "comment_id": "o2gnfv9",
+                "comment_body": "Do Itaú também?",
+                "comment_score": 1,
+                "comment_created_utc": 1769713337.0
+            },
+            {
+                "comment_id": "nm5cvew",
+                "comment_body": "Errou bem nessa, man",
+                "comment_score": 2,
+                "comment_created_utc": 1761805546.0
+            },
+            {
+                "comment_id": "nmax6ba",
+                "comment_body": "Recrutador aqui. Não, RH e recrutamento quase não conversam em empresa grande e estruturada. E a questão do background check, 95% das vezes fica com RH.",
+                "comment_score": 4,
+                "comment_created_utc": 1761876728.0
+            },
+            {
+                "comment_id": "nm9vx0e",
+                "comment_body": "Uma vez que a produtividade é medida por operações digitais...",
+                "comment_score": 1,
+                "comment_created_utc": 1761863713.0
+            },
+            {
+                "comment_id": "nm7v35g",
+                "comment_body": "obrigado :) . se precisar de algo no site ou tver uma sugestao eh soh falar!!!",
+                "comment_score": 4,
+                "comment_created_utc": 1761842136.0
+            },
+            {
+                "comment_id": "nm68bsv",
+                "comment_body": "O sistema é foda meu parça",
+                "comment_score": 5,
+                "comment_created_utc": 1761823394.0
+            },
+            {
+                "comment_id": "nm68jnv",
+                "comment_body": "Pior de tudo é que eu já passei por dois desempregos, e parece ser true (apesar de essa conversa que eu mencionei ter sido bem mais recente)",
+                "comment_score": 4,
+                "comment_created_utc": 1761823492.0
+            },
+            {
+                "comment_id": "nm7cevl",
+                "comment_body": "ah, cada ser humano é um.. mas do que eu ja vi, é literalmente isso kkk não que a pessoa esteja errada em tentar se encaixar numa vaga q não necessariamente se encaixe, mas parece ser uma unanimidade entre RH preferirem pessoas alocadas",
+                "comment_score": 2,
+                "comment_created_utc": 1761836821.0
+            },
+            {
+                "comment_id": "nm76wlb",
+                "comment_body": "Interessante! Valeu pelo esclarecemento.  \nNao consigo entender eh pq me dao downvote por uma pergunta sincera.",
+                "comment_score": 1,
+                "comment_created_utc": 1761835208.0
+            },
+            {
+                "comment_id": "nm805md",
+                "comment_body": "Sim, sem dúvida, certeza que alguém lá dentro falou: precisamos demitir 1000 funcionários\n\nAlgum Jênio pensou: já sei! vamos buscar as nossas métricas de monitoramento, os 1000 piores a gente manda embora e tudo certo!\n\nIsso dai saiu bem pela culatra pro Itaú na época, deu uma manchada boa na imagem do banco. Repito, na época. Agora a manchete é outra e vida que segue. Sempre vai ser assim.",
+                "comment_score": 1,
+                "comment_created_utc": 1761843586.0
+            },
+            {
+                "comment_id": "nmazlba",
+                "comment_body": "E você é mt inocente ou tem mt fé no capitalismo.",
+                "comment_score": 1,
+                "comment_created_utc": 1761877605.0
+            },
+            {
+                "comment_id": "o2gnz69",
+                "comment_body": "Sim. \nEu senti 2 coisas\n1. Tem empresa que tá bloqueando a galera do layoff\n2. Ninguém acredita que eu não sai no layoff",
+                "comment_score": 1,
+                "comment_created_utc": 1769713488.0
+            },
+            {
+                "comment_id": "nm9xywc",
+                "comment_body": "Se você é pago para trabalhar e estar disponível 8 horas por dia e você está trabalhando duas horas você não está cumprindo a atividade combinada.\n Nenhuma relação com produtividade.\nNenhuma demissão teve a ver com produtividade.",
+                "comment_score": 1,
+                "comment_created_utc": 1761864423.0
+            },
+            {
+                "comment_id": "nm7os2y",
+                "comment_body": "Curioso ver esse relato\n\nCai de paraquedas nesse post, sou tecnico em eletrônica, tava numa empresa merda e fiz várias entrevistas em empresas tops, deram prioridade da vaga para os profissionais que estavam parados\n\nCada área tem suas peculiaridades",
+                "comment_score": 1,
+                "comment_created_utc": 1761840331.0
+            },
+            {
+                "comment_id": "nmazdkk",
+                "comment_body": "Não foi alguém lá dentro, foi uma das \"big four\" da consultoria estratégica, esse tipo de decisão sempre vem validada externamente. E o motivo no geral foi redução de custos, o banco já vem demitindo o pessoal das agências e fechando as mesmas já faz um tempo, agora chegou a vez do corporativo. E sim, a questão da métrica de atividade digital foi só um bode expiatório, inclusive, teve gente que tinha acabado de receber PRAD e foi de ralo, líder direto tentando salvar e não adiantando nada.",
+                "comment_score": 2,
+                "comment_created_utc": 1761877527.0
+            },
+            {
+                "comment_id": "nmdeqsj",
+                "comment_body": "Não é sobre fé, é sobre ter informação.",
+                "comment_score": 1,
+                "comment_created_utc": 1761919239.0
+            },
+            {
+                "comment_id": "o2gogbz",
+                "comment_body": "Fui demitida de lá um pouco antes do layoff, alegaram baixa performance mas na verdade foi politicagem, alguns colegas não gostavam do meu jeito e se juntaram pra me queimar",
+                "comment_score": 2,
+                "comment_created_utc": 1769713621.0
+            },
+            {
+                "comment_id": "nmcmlj3",
+                "comment_body": "Colega tome cuidado, falar a verdade aqui não é bem-vindo e daqui a pouco a galera ta vindo em peso te esculachar.\n\nUm cara fez uma postagem uma vez falando que tomou layoff e no feedback informaram que ele tinha 58% de tempo ativo de trabalho, e ele mesmo admitia no post que ficava mais horas dormindo, almoçando, fazendo outras atividades e etc. Eu comentei que se o cara não tivesse ficado um tempo tão absurdo ocioso, não teria sido demitido e tomei milhares de downvotes, ainda ficaram me xingando.",
+                "comment_score": 0,
+                "comment_created_utc": 1761908852.0
+            },
+            {
+                "comment_id": "ogomty0",
+                "comment_body": "eu fui conseguir me realocar em março e foi mentindo que não sai no layoff.\nteve entrevista para outro banco que na fase final quando o diretor (fase apenas de check praticamente) viu que sai no layoff a cara mudou completamente, boa sorte pra vcs.",
+                "comment_score": 1,
+                "comment_created_utc": 1776419850.0
+            },
+            {
+                "comment_id": "nmde9r9",
+                "comment_body": "Pois é, só foram demitidas pessoas com baixa atividade digital E realização de horas extras no mesmo dia. Caracterizando uma problema ético e quebra da confiança na relação de trabalho. Mas é mais fácil se vitimizar falando que foi injustiçado.",
+                "comment_score": 1,
+                "comment_created_utc": 1761919091.0
+            },
+            {
+                "comment_id": "nmdfaty",
+                "comment_body": "Já tamo tomando downvote pelos nossos comentários. Não te falei? kkkkkkkkkkkkkkkkkkkkkkkk",
+                "comment_score": 1,
+                "comment_created_utc": 1761919412.0
+            }
+        ]
+    },
+    {
+        "post_id": "1lv3aey",
+        "post_title": "Mercado Livre ou iFood?",
+        "post_body": "Trabalho há 4 anos no Mercado Livre, atualmente sou desenvolvedor pleno com promessas de me tornar senior no início do ano que vem. No entanto estou um pouco desgastado e saturado da equipe e da empresa. Recentemente recebi uma proposta para trabalhar no iFood, a vaga era para senior mas fui classificado como pleno na entrevista, ou seja, o salário vai se manter o mesmo basicamente. No entanto gostei muito do clima da empresa, das pessoas, dos benefícios e dos desafios que foram apresentados. Agora estou bastante dividido, ficar no ML e ser promovido mais rápido, ou ir para o iFood e vivenciar novos ares?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1lv3aey/mercado_livre_ou_ifood/",
+        "is_self_post": true,
+        "post_created_utc": 1752016185.0,
+        "comments": [
+            {
+                "comment_id": "n23l3xe",
+                "comment_body": "Tenho 4 amigos que trabalham no ifood e nenhum fala bem de lá kkkkkk. É muito fogo pra apagar, mas tbm vai depender da sua sorte de cair em uma área que seja boa (isso vale pra qualquer empresa grande). No Meli tenho outros 3 colegas que falam bem.",
+                "comment_score": 10,
+                "comment_created_utc": 1752025925.0
+            },
+            {
+                "comment_id": "n23tyw9",
+                "comment_body": "Depende , o quão saturado você está?\nDá pra confiar nessa promoção ou é só promessa maluca?\nTrocar de emprego pra receber o mesmo nem vale a pena, você tá trocando estabilidade por instabilidade, a não ser que você esteja ficando doente por conta do trabalho, aí ok",
+                "comment_score": 10,
+                "comment_created_utc": 1752028973.0
+            },
+            {
+                "comment_id": "n23xg17",
+                "comment_body": "Eu só trocaria se estiver MUITO ruim no ML, aí já te conhecem e vai ser mais fácil conseguir essa vaga de srnior.\n\nSó aceitaria uma outra proposta se fosse ou pra receber mais como pleno mesmo, ou se for pra ser contratado direto como senior. E sempre se lembre que o jeito mais efetivo de conseguir aumento é trocando de empresa.",
+                "comment_score": 7,
+                "comment_created_utc": 1752030240.0
+            },
+            {
+                "comment_id": "n232oob",
+                "comment_body": "Você vai ter que construir sua jornada do zero, tá sabendo né?\n\nEnquanto no meli o pessoal já conhece seu trabalho, na empresa nova vai ser totalmente diferente. Talvez até espere mais 4 anos pra te promoverem 😬",
+                "comment_score": 11,
+                "comment_created_utc": 1752019690.0
+            },
+            {
+                "comment_id": "n25jmf9",
+                "comment_body": "Trabalhei no Meli 2 anos e meio, fiquei na promessa de promoção que não veio. Aí fiz o processo pro banco laranjão. Fui com a promessa de desafios, pessoas legais... e de fato isso existia, mas a burocracia do banco me desmotivou a ponto de eu retornar ao Meli (dessa vez já \"promovida\").\n\nEu no seu lugar, iria, deixando a porta aberta para que se o clima no Ifood for ruim, você consiga voltar para o Meli. \n\nConheço pessoas que trabalharam no Ifood e é muito fogo pra se apagar. E eu também pensaria a longo prazo já que a concorrente deles, a Meituan/Keeta, está vindo com caminhões de dinheiro pra tomar a hegemonia deles. Pode rolar layoff no futuro?? (Fica a pergunta)",
+                "comment_score": 3,
+                "comment_created_utc": 1752058954.0
+            },
+            {
+                "comment_id": "n22zm6u",
+                "comment_body": "oi! nao consigo te ajudar com isso pq nunca trabalhei em nenhuma das duas, mas se puder compartilhar brevemente oq fez pra conseguir sua vaga no ML ficaria feliz :)",
+                "comment_score": 7,
+                "comment_created_utc": 1752018670.0
+            },
+            {
+                "comment_id": "n2r2dp6",
+                "comment_body": "Pelo o que entendi o seu descontentamento com o Meli não é tão grande, como o Meli é enorme talvez vc consiga encontrar esse desafio que procura através de uma rotação interna, vale avaliar esse cenário.",
+                "comment_score": 3,
+                "comment_created_utc": 1752338133.0
+            },
+            {
+                "comment_id": "n25q61t",
+                "comment_body": "Conheço bastante gente que foi pro ML. A impressão que tenho é que a empresa tá em alta, uma boa oportunidade. Estranho você querer sair. Talvez pode arriscar, informando que recebeu uma proposta, pra poder acelerar sua promoção. Mas é um risco.",
+                "comment_score": 2,
+                "comment_created_utc": 1752061675.0
+            },
+            {
+                "comment_id": "n26ug8u",
+                "comment_body": "Pega esses 5/6 meses até 2026 e continua buscando entrevistas, se está sênior/quase sênior estuda mais um pouco pra entrevistas, que boto fé que vc já tá no nível de sênior,  mas nas perguntas especificas de entrevista acaba faltando um ou outro detalhe técnico e aí te jogam pra pleno.\n\nPq se trocar agora pro Ifood vai levar anos pra te colocarem como sênior, se ficar no mercado livre pode ser que te promovam, pode ser que não, se não tem nada documentado de gestor em e-mail ou texto sobre. Plus ia continuar a mesma coisa saturada.\n\nBoto fé que mais um ou dois meses procurando e estudando tú acha uma vaga de sênior num lugar daora que te pague o que vc merece, boa sorte aí OP",
+                "comment_score": 2,
+                "comment_created_utc": 1752074347.0
+            },
+            {
+                "comment_id": "n2969ov",
+                "comment_body": "Não vai! Eu fiz isso e me arrependo até o último fio do meu cabelo e voltaria para o meli de joelhos",
+                "comment_score": 2,
+                "comment_created_utc": 1752097405.0
+            },
+            {
+                "comment_id": "n27skuo",
+                "comment_body": "Jamais mude pelo mesmo salario, o titulo em si nao importa mas o salario sim, se nao vai ter um aumento de uns 30% eh melhor vc continuar onde esta.",
+                "comment_score": 1,
+                "comment_created_utc": 1752083600.0
+            },
+            {
+                "comment_id": "n29484z",
+                "comment_body": "Nos dois lugares você vai ter promessa de promoção que não vai chegar, ou vão te cozinhar em banho maria por um bom tempo.\n\nDito isso, eu trocaria de empresa sim porque acho 4 anos um tempo legal pra sair de uma empresa. Você vai conviver com pessoas diferentes, novos processos, novos problema de negócio, formas diferentes de resolver problemas técnicos… e ainda vai ganhar um aumento maior do que ganharia se ficasse esperando por uma promoção.\n\nEu acho que mudar de empresa faz bem pro profissional pelos fatores que mencionei mas também existem outros. No geral você ganha mais  amadurecimento.",
+                "comment_score": 1,
+                "comment_created_utc": 1752096804.0
+            },
+            {
+                "comment_id": "nlth9bw",
+                "comment_body": "E aí, o que você decidiu? Espero que tenha ido pro iFood porque eu já trabalhei lá e amava. Hoje estou no Meli, tenho as mesmas percepções que você sobre times fracos e estagnação, nisso aí te digo que iFood dá um vanho. E mais, não confio nessa conversa de promoção ano que vem, fiquei sabendo que vão congelar contratações. Será que vão querer promover alguém? É muito fácil a liderança falar isso agora e no ano que vem dizer que não rolou...",
+                "comment_score": 1,
+                "comment_created_utc": 1761655178.0
+            },
+            {
+                "comment_id": "n265nxj",
+                "comment_body": "iFood 100x",
+                "comment_score": 0,
+                "comment_created_utc": 1752067114.0
+            },
+            {
+                "comment_id": "n24c14v",
+                "comment_body": "Ou espere mais 4 anos no meli, porque vai saber quando exatamente vão promover o cara. O OP tem é que caçar vaga de sênior, que pague mais, em algum canto",
+                "comment_score": 8,
+                "comment_created_utc": 1752036183.0
+            },
+            {
+                "comment_id": "n283pmk",
+                "comment_body": "Então, esse plano de sair e voltar parece bom. De repente 1 ano no iFood me daria uma experiência que ainda não tive nesses 4 anos no Meli. Tenho certeza que conseguiria voltar em um cargo maior ou até mesmo tentar vagas para fora do Brasil.",
+                "comment_score": 2,
+                "comment_created_utc": 1752086683.0
+            },
+            {
+                "comment_id": "n25zpwu",
+                "comment_body": "Olá! Entrei no ML em uma das primeiras turmas do bootcamp lá na época da pandemia. Naquele período a régua era baixíssima, literalmente contratavam pessoas em transição de carreira de qualquer área, dentistas, advogados, etc. Infelizmente hoje as coisas mudaram bastante em questão de critérios e concorrência, estão dando preferência para contratação de pessoas com mais experiência.",
+                "comment_score": 5,
+                "comment_created_utc": 1752065145.0
+            },
+            {
+                "comment_id": "n24c3gh",
+                "comment_body": "Up pra krl",
+                "comment_score": 3,
+                "comment_created_utc": 1752036211.0
+            },
+            {
+                "comment_id": "n2roaxr",
+                "comment_body": "Eu já fiz rotação interna no Meli há mais ou menos um ano atrás, infelizmente não mudou muita coisa, na verdade até piorou um pouco. A minha sensação é que no Meli nunca vou sair de um desenvolvedor mediano justamente por causa do Fury. E agora com as cobranças para o uso de IA de forma indiscriminada, não tenho uma visão muito otimista do que pode acontecer no futuro da empresa",
+                "comment_score": 3,
+                "comment_created_utc": 1752344845.0
+            },
+            {
+                "comment_id": "n262t7g",
+                "comment_body": "Da mesma forma que tem pessoas entrando tem pessoas saindo. Pra quem vem de fora realmente o ML é um paraíso, é uma empresa que se destaca bastante no mercado, salário alto, benefícios bons, ferramentas que auxiliam o dia a dia do dev. No entanto com o tempo é bem difícil você não se sentir estagnado, não temos nenhum contato com recursos da cloud porque o Fury abstrai tudo, cultura Argentina com cobrança e decisões sem sentido, equipes fracas, etc etc",
+                "comment_score": 6,
+                "comment_created_utc": 1752066185.0
+            },
+            {
+                "comment_id": "n27o4g4",
+                "comment_body": "Obrigado u/eden_walker_ :) De fato optando pelo iFood estarei tomando uma decisão pensando muito no curto prazo. Mas sei lá, os desafios do iFood parecem tão mais atrativos que às vezes o cargo e o salário não é nem o que falam mais alto. Uma coisa também que penso é que o meu possível cargo de senior do ML não quer dizer nada, se eu não estiver preparado para um processo seletivo de senior posso fazer várias entrevistas e ser nivelado para baixo, mesmo já tendo esse cargo aqui.",
+                "comment_score": 2,
+                "comment_created_utc": 1752082415.0
+            },
+            {
+                "comment_id": "n29cwsv",
+                "comment_body": "Eita :/ Por que se arrependeu tanto?",
+                "comment_score": 1,
+                "comment_created_utc": 1752099427.0
+            },
+            {
+                "comment_id": "n27m0zf",
+                "comment_body": "Por que u/KidBackpack? Já trabalhou em alguma das empresas?",
+                "comment_score": 1,
+                "comment_created_utc": 1752081853.0
+            },
+            {
+                "comment_id": "n2544wa",
+                "comment_body": "Eu concordo com você.\n\nNão acho uma boa ideia procurar vaga de pleno em outro canto.\n\nO certo seria ter essa conversa mais francamente com a liderança dele.\n\nMeli eh uma puta empresa.",
+                "comment_score": 2,
+                "comment_created_utc": 1752051018.0
+            },
+            {
+                "comment_id": "n29tfay",
+                "comment_body": "Sem dúvidas a experiência é diferente, principalmente na parte técnica. \nVai mexer muito com Kafka Streams, K8s, configurando tudo na mão, mexendo em cloud... coisa que o Fury acaba abstraindo.\nVale a vivência sim.",
+                "comment_score": 2,
+                "comment_created_utc": 1752104772.0
+            },
+            {
+                "comment_id": "n2comqp",
+                "comment_body": "Parabéns pela humildade e sinceridade, OP. \n\nO que mais vejo no LinkedIn é gente que entrou na área durante o boom da pandemia e tá pagando de Mestre dos Magos da TI, dando mil e uma dicas de como conseguir a primeira oportunidade (dicas que simplesmente não funcionam mais pq o cenário agora é completamente diferente) e às vezes até vendendo essas dicas via mentorias superfaturadas. \n\nPra essas pessoas parece que tira pedaço admitir que também houve o fator sorte. Ego delas é elevadíssimo.\n\nEdit: respondendo ao post, não acho que compensa trocar seis por meia dúzia. Tenta subir direto como sênior na nova empresa e tenha certeza que o salário é compatível com o que você ganharia no ML. Considerando seu tempo de experiência e os relatos do sub, uma vaga com salário inicial na gringa também não estaria fora de cogitação.",
+                "comment_score": 4,
+                "comment_created_utc": 1752150434.0
+            },
+            {
+                "comment_id": "n2675tr",
+                "comment_body": "Bacana. Agradeço por compartilhar seu ponto de vista",
+                "comment_score": 1,
+                "comment_created_utc": 1752067588.0
+            },
+            {
+                "comment_id": "n265xc3",
+                "comment_body": "Fury é piada demais",
+                "comment_score": 0,
+                "comment_created_utc": 1752067197.0
+            },
+            {
+                "comment_id": "n29evs0",
+                "comment_body": "O ifood é extremamente bagunçado, as metas que você tem que cumprir para promoção são agressivas, e tem o principal a avaliação para promoção depende só do seu gestor e o ifood tem objetivo de redução de custo sempre o que torna promoção difícil, e como é bagunçado complica que você não sabe o que fazer para subir de cargo, mas fica tranquilo que vai acabar descobrindo na avaliação de desempenho, ali é o único momento que vc descobri o que tem que ser feito, tardiamente é um ciclo!\nSem contar que os gestores lá são fracos pra cacete e vão te atrapalhar no que puderem!\nEu não sairia do meli",
+                "comment_score": 2,
+                "comment_created_utc": 1752100056.0
+            },
+            {
+                "comment_id": "n27nl34",
+                "comment_body": "Já trabalhei.",
+                "comment_score": 1,
+                "comment_created_utc": 1752082272.0
+            },
+            {
+                "comment_id": "nl2i029",
+                "comment_body": "[deleted]",
+                "comment_score": 1,
+                "comment_created_utc": 1761273079.0
+            },
+            {
+                "comment_id": "n29nakd",
+                "comment_body": "Você descreveu como foram todas as equipes pelas quais passei dentro do Meli, extremamente bagunçadas e com gestores fracos. Mas ainda com o agravante de que no Meli não depende somente do seu gestor a promoção, mas dele convencer outras pessoas em uma mesa de calibração, sendo que essas pessoas não fazem ideia de quem você é 😅",
+                "comment_score": 3,
+                "comment_created_utc": 1752102785.0
+            },
+            {
+                "comment_id": "nl6k311",
+                "comment_body": "Quase 9 meses",
+                "comment_score": 1,
+                "comment_created_utc": 1761331102.0
+            },
+            {
+                "comment_id": "n29o4vj",
+                "comment_body": "Você está em uma situação difícil... Já pensou em rotacionar dentro do meli mesmo?",
+                "comment_score": 2,
+                "comment_created_utc": 1752103057.0
+            },
+            {
+                "comment_id": "n29sjd6",
+                "comment_body": "Já fiz isso hehe",
+                "comment_score": 2,
+                "comment_created_utc": 1752104481.0
+            },
+            {
+                "comment_id": "n2erpmu",
+                "comment_body": "voce que sabe, se quer chorar no chuveiro todo dia vai la... rs",
+                "comment_score": 2,
+                "comment_created_utc": 1752172278.0
+            }
+        ]
+    },
+    {
+        "post_id": "1lcdil5",
+        "post_title": "Como vcs replicam projetos existentes?",
+        "post_body": "Eu quero por exemplo, fazer uma copia de sites e aplicações que ja existem.\nQuero copiar o ifood, Spotify entre outras, simplesmente pra treinar codigo, arquitetura e colocar no meu portfolio no github. Eu sou dev backend e faria em .net e python.\nO que vcs acham? ",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1lcdil5/como_vcs_replicam_projetos_existentes/",
+        "is_self_post": true,
+        "post_created_utc": 1750028293.0,
+        "comments": [
+            {
+                "comment_id": "mxzm4ff",
+                "comment_body": "Ctrl C Ctrl V",
+                "comment_score": 8,
+                "comment_created_utc": 1750028656.0
+            },
+            {
+                "comment_id": "mxzpkwc",
+                "comment_body": "Analisa os videos explicando os designs e arquiteturas dos sites que você quer copiar, se baseia nisso e faz uma aplicação parecida",
+                "comment_score": 3,
+                "comment_created_utc": 1750029853.0
+            },
+            {
+                "comment_id": "mxzpblq",
+                "comment_body": "Faz um fork pô",
+                "comment_score": 2,
+                "comment_created_utc": 1750029764.0
+            },
+            {
+                "comment_id": "mxzyq8s",
+                "comment_body": "Quer copiar o iFood e spotify.... então copia ué, pesquisa sobre, as ferramentas, as infraestruturas, só tentar replicar. Só vai aprender quando começar a errar :/",
+                "comment_score": 2,
+                "comment_created_utc": 1750033156.0
+            },
+            {
+                "comment_id": "my043dy",
+                "comment_body": "Frontend vai ser a parte facial",
+                "comment_score": 1,
+                "comment_created_utc": 1750035193.0
+            },
+            {
+                "comment_id": "my4kzdb",
+                "comment_body": "Realmente não entendi qual a dúvida \n\nToda replica tem um intuito e esse intuito vai ditar o \"como\"\n\nNão existe fórmula mágica",
+                "comment_score": 1,
+                "comment_created_utc": 1750099310.0
+            },
+            {
+                "comment_id": "my2ou1v",
+                "comment_body": "E isso é ruim? Ate onde eu saiba, programadores copiam mts codigos e nao criam soluções que ja existem UÉ",
+                "comment_score": 1,
+                "comment_created_utc": 1750079323.0
+            },
+            {
+                "comment_id": "my03c5j",
+                "comment_body": "po, tu recomenda algum canal em especifico que faz esse tipo de analise?",
+                "comment_score": 1,
+                "comment_created_utc": 1750034903.0
+            },
+            {
+                "comment_id": "my2outa",
+                "comment_body": "Como assim",
+                "comment_score": 1,
+                "comment_created_utc": 1750079330.0
+            },
+            {
+                "comment_id": "my51rew",
+                "comment_body": "Certo mas, como fazer esse “como”, pq quero entender se replico sozinha os componentes do sistema e criando um modelo proprio ou se tem outra forma de verificar a arquitetura e tudo o que vai nesse sistema.",
+                "comment_score": 1,
+                "comment_created_utc": 1750104156.0
+            },
+            {
+                "comment_id": "my0mrwv",
+                "comment_body": "Considero, esses canais, a nata dessas análises:\n\nBytebytego: https://youtube.com/shorts/BOL7gudzXyw \nhttps://youtu.be/nH4qjmP2KEE\nhttps://youtu.be/O3PwuzCvAjI\n\nBytemonk: https://youtube.com/shorts/q07BGZBDo7g\n\nCoding with Lewis:\nhttps://youtu.be/lLrzoyU4BPc\n\nEsse parece ser bom também: https://youtu.be/xynXjChKkJc\n\nNão conheço nenhum em português, para esse tipo de coisa",
+                "comment_score": 3,
+                "comment_created_utc": 1750042290.0
+            },
+            {
+                "comment_id": "my2pdgz",
+                "comment_body": "É uma piada, tipo forkear um repo do github, é literalmente copiar o codigo open source para um repositório seu",
+                "comment_score": 2,
+                "comment_created_utc": 1750079511.0
+            },
+            {
+                "comment_id": "my5347r",
+                "comment_body": "Ah sim, não há como verificar a arquitetura do sistema e em muitos casos nem precisa \n\nSistemas grandes assim possuem soluções de arquitetura pra lidar com problemas de escala, de disponibilidade, de desempenho, de segurança e muitos outros tipos de problemas \n\nGeralmente a gente acaba sabendo parte dessas soluções mas a nível de aprendizado/poc dificilmente vale a pena replicar TODA a arquitetura \n\nPor isso o \"como\" é importante, as vezes eles passaram por mais de uma solução durante a vida deles pra um mesmo problema eventualmente uma solução deixa de fazer sentido \n\nA nível de aprendizado, qualquer problema que você demonstre uma solução já é algo que vale ser replicado, as vezes até fazendo diferente mas chegando na mesma solução do original, se não for pública",
+                "comment_score": 2,
+                "comment_created_utc": 1750104554.0
+            },
+            {
+                "comment_id": "my65eji",
+                "comment_body": "Legal, vc me ajudou a refletir melhor! Obrigada pela resposta!",
+                "comment_score": 1,
+                "comment_created_utc": 1750116249.0
+            }
+        ]
+    },
+    {
+        "post_id": "1k9vr55",
+        "post_title": "Faculdade EAD é horrível",
+        "post_body": "Comecei análise e desenvolvimento de sistemas em uma faculdade bem conhecida aí, tinha ganhado uma bolsa por ser entregador parceiro do Ifood e decidi voltar a estudar.\n\nEu já sei o básico de front end, mas faz uns 2 anos que parei de estudar por acasos da vida, e cara, como o ensino é ruim e ultrapassado; \n\nOs vídeos são muito simples, os professores ao mesmo tempo que tem um ritmo devagar, que é bom pra aprender, tornam o conteúdo massante e cansativo, coisa que em 5 minutos seria bem explicado, leva 15 minutos de vídeo.\n\nSendo só realmente útil os textos de apoio.\nTô bem no começo aprendendo rede de computadores e só sai pulando tudo e vendo em 2x pra depois revisar com vídeos no YouTube, que eu aprendi sem quebrar a cabeça.\n\nE eu sinto que só tô atrás do diploma, porque parece que os 2 anos que vou passar cursando vão ser só vendo as aulas e em seguida vendo vídeos no YouTube explicando.\nE é foda, pq já tô aprendendo coisas que nunca estudei por conta própria por fora da faculdade e tá sendo bem mais rápido 🤓\n\nEnfim, só um desabafo",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1k9vr55/faculdade_ead_é_horrível/",
+        "is_self_post": true,
+        "post_created_utc": 1745847490.0,
+        "comments": [
+            {
+                "comment_id": "mphdjzm",
+                "comment_body": "Eu me formei agora EAD pela PUC Minas, antes eu tive uma experiência com o EAD nesses moldes aí que você mencionou. A PUC Minas foi a única que eu vi que tem uma metodologia diferente, tem as aulas mas tem um acompanhamento semanal com professor.\n\nMas chega na pós deles (que estou fazendo agora), volta o: assiste vídeo > teste > assiste vídeo > teste > assiste todos os vídeos > prova.\n\nMas sinceramente, na minha graduação presencial era a mesma coisa, professor falava horas de um assunto e parecia que estava falando com as paredes, ninguém prestava atenção porque era cansativo.",
+                "comment_score": 16,
+                "comment_created_utc": 1745848143.0
+            },
+            {
+                "comment_id": "mphcdwh",
+                "comment_body": "Cara essas faculdades ead são somente pra pegar diploma, não vais aprender e nem se desenvolver.\n\nProcure estágios logo cedo, o que não falta é gente que fez uma EAD não foi atrás e depois vem reclamar no sub.",
+                "comment_score": 12,
+                "comment_created_utc": 1745847752.0
+            },
+            {
+                "comment_id": "mphd2d9",
+                "comment_body": "A questão de ser repetitivo ou lento tbm é pq os alunos são fracos. Te falo pq muito amigo meu em curso presencial tinha dificuldades absurdas que eu ficava sem entender como não aprendiam.",
+                "comment_score": 5,
+                "comment_created_utc": 1745847980.0
+            },
+            {
+                "comment_id": "mphxkq0",
+                "comment_body": "EAD vale apena só pelo diploma mesmo. Agr se tu quer se desenvolver passar em um vestibular fihote",
+                "comment_score": 4,
+                "comment_created_utc": 1745854376.0
+            },
+            {
+                "comment_id": "mphzwpo",
+                "comment_body": "essa matéria de rede de computadores é cansativa e massante mesmo, também pulei a maioria dos conteúdos e estudei por fora",
+                "comment_score": 2,
+                "comment_created_utc": 1745855065.0
+            },
+            {
+                "comment_id": "mphwlhr",
+                "comment_body": "Pelo que meus colegas de trabalho dizem, única que presta é a PUC.\n\nEu fiz presencial, bem melhor.",
+                "comment_score": 1,
+                "comment_created_utc": 1745854084.0
+            },
+            {
+                "comment_id": "mpia4ri",
+                "comment_body": "Qualquer curso EAD é basicamente isso, você só está atrás do diploma, só vai de fato aprender algo quando começar a fazer atividade de extensão, mas ai tu vai ter que ir atrás de aprender sozinho.",
+                "comment_score": 1,
+                "comment_created_utc": 1745858108.0
+            },
+            {
+                "comment_id": "mpidrmr",
+                "comment_body": "Existem boas faculdades EAD principalmente as que são semi presenciais de federais. Mas o importante é tentar conseguir um estágio o mais rapido possível",
+                "comment_score": 1,
+                "comment_created_utc": 1745859174.0
+            },
+            {
+                "comment_id": "mpiowwt",
+                "comment_body": "EAD é só pagar pelo papel mesmo, depois temos que estudar bastante por fora...",
+                "comment_score": 1,
+                "comment_created_utc": 1745862394.0
+            },
+            {
+                "comment_id": "mpjm7s3",
+                "comment_body": "ead é só diploma, unico que falam minimamente bem eh as graduações da fiap",
+                "comment_score": 1,
+                "comment_created_utc": 1745872362.0
+            },
+            {
+                "comment_id": "mpk32th",
+                "comment_body": "Eu concordo. Por mais que as faculdades presenciais tb n são lá o exemplo de conteúdos didáticos e tudo mais, mas em compensação vc tem maiores chances de entrar em projetos de pesquisa/extensão, estágio, palestras,workshops,rodas de conversas... Eu percebo q EAD só funciona, na maioria dos casos,pra cursos curtos, especializações(aquelas mais teóricas) e de capacitação, fora isso, acho a maioria dessas uniesquinas barca furada",
+                "comment_score": 1,
+                "comment_created_utc": 1745877736.0
+            },
+            {
+                "comment_id": "mpnk396",
+                "comment_body": "Essa faculdade é a Estácio? Na P4ND3MLA eu ingressei na EAD por conta do valor acessível, mas eu não pude dar continuidade por questões particulares. Ao mesmo tempo eu finalizei o Técnico em Informática para Internet (que é programação superficial pelo SENAI) e fiz outros cursos paralelos. Em 02/2025 entrei na faculdade pública, o conteúdo é bem puxado.",
+                "comment_score": 1,
+                "comment_created_utc": 1745932418.0
+            },
+            {
+                "comment_id": "mqcqgca",
+                "comment_body": "Faculdade é isso, você tem uma base rasa de um pouco de tudo. Para se especializar em assuntos específicos tem que buscar fora mesmo. Rede por exemplo é um assunto muito importante, um Dev tem que minimamente entender como a internet chega na sua casa e como ela funciona. Tal como arquitetura de computadores, matemática aplicada, estrutura de dados e algoritmos, etc. Isso vai fazer a diferença em como pensar soluções. Faculdades normalmente não vão te tornar expert nesses assuntos, mas te dão um cheirinho pra vc entender e ir atrás sobre o que aprender.",
+                "comment_score": 1,
+                "comment_created_utc": 1746270965.0
+            },
+            {
+                "comment_id": "o9vzt2k",
+                "comment_body": "se vc está aprendendo isso que importa! a faculdade EAD é assim mesmo didática! talvez a didática do professor é ruim! mais aí vc arruma uma didática boa mais fácil no YouTube sobre o assunto, mais fácil de aprender! isso é genial! mais aí se vc aprendeu o conteúdo da aulas! isso não é por causa do diploma! vc aprendeu ! o negócio é aprender as disciplinas! agora o EAD mudou tbm vc vai ter que fazer as provas no polo ! estuda online! ",
+                "comment_score": 1,
+                "comment_created_utc": 1773250058.0
+            },
+            {
+                "comment_id": "mpighu7",
+                "comment_body": "\"dar aula\" é uma habilidade super difícil de masterizar. São poucos os professores que buscam melhorar sua didática ao longo da sua profissão e assim é comum um video gravado ser melhor do que uma aula ao vivo de um professor ruim.\n\n  \nPorém, uma boa aula ao vivo de um professor bom é a melhor coisa que tem. Na minha graduação eu acho que 30% dos meus professores eram excelentes e de altíssimo nível, sou muito grato pela dedicação deles.",
+                "comment_score": 7,
+                "comment_created_utc": 1745859963.0
+            },
+            {
+                "comment_id": "mpkkp44",
+                "comment_body": "Estou cursando Sistemas de Informação EAD pela PUC Minas. Por enquanto estou curtindo muito.  Gosto do modelo deles e sinceramente, não perde nada pras faculdades federais em que já estive anteriormente, onde haviam muitas disciplinas pra encher linguiça... isso quando não faltavam professores, não abriam turmas extras, etc...",
+                "comment_score": 3,
+                "comment_created_utc": 1745883750.0
+            },
+            {
+                "comment_id": "mplitfr",
+                "comment_body": "Eis que vc descobre que vai a aula apenas pra assistir aula. Mas estudar e aprender mesmo, só com livro e exercícios.",
+                "comment_score": 2,
+                "comment_created_utc": 1745895823.0
+            },
+            {
+                "comment_id": "mpi4xwp",
+                "comment_body": "Complicado, eu já tô correndo atrás de fazer uns projetinhos pra pegar um estágio logo e pegar experiência",
+                "comment_score": 3,
+                "comment_created_utc": 1745856559.0
+            },
+            {
+                "comment_id": "o9w1blb",
+                "comment_body": "não aprendiam ! porque não gostavam da área!  quando a pessoa estuda um assunto porque gosta! o aprendizado é mais fácil! estuda um assunto que não gosto só por causa do dinheiro é ruim! uma hora não vai aprender nada! mesma coisa eu fazer medicina se eu não gosto! mais paga bem! eu gosto mais é de programação e marketing! ",
+                "comment_score": 1,
+                "comment_created_utc": 1773250480.0
+            },
+            {
+                "comment_id": "o9w2a83",
+                "comment_body": " vai acontecer mesma coisa ! tenho parente que passou na federal! depois não aprendeu nada ! desistiu depois de um ano ! ou seja não gostou da área e profissão! o que manda não é a faculdade é o aluno! para sociedade a faculdade ter o MEC isso que vale ! tem muitos profissionais que fez faculdade privada com reconhecimento do MEC estão trabalhando! ",
+                "comment_score": 1,
+                "comment_created_utc": 1773250749.0
+            },
+            {
+                "comment_id": "ncxvar1",
+                "comment_body": "Estou a pensar em fazer esse mesmo curso na PUC Minas. Como posso entrar em contacto contigo ?",
+                "comment_score": 1,
+                "comment_created_utc": 1757267021.0
+            },
+            {
+                "comment_id": "o8pbuii",
+                "comment_body": "Estou fazendo esse curso também, estou no primeiro período. ",
+                "comment_score": 1,
+                "comment_created_utc": 1772674545.0
+            },
+            {
+                "comment_id": "o9w09c5",
+                "comment_body": "verdade!!! as federais coloca muitas, matérias pra encher linguiça! ",
+                "comment_score": 1,
+                "comment_created_utc": 1773250183.0
+            }
+        ]
+    },
+    {
+        "post_id": "1ii14rt",
+        "post_title": "Avalie o projeto do colega :)",
+        "post_body": "Bom, quero convidar vocês a entender um pouco do projeto, e avalia-lo, ficarei feliz com qualquer feedback :)\n\nCriei uma SaaS junto a um amigo, que tem como seu principal foco solucionar o grande problema que micro e pequenos empreendedores enfrentam em ter um cardápio no ifood, onde a plataforma coleta cerca de 27,5% do faturamento bruto dele, fora a mensalidade... Também existem outras plataformas como OlaClick, Anotaai e dguests, que oferecem a experiência de cardápio de forma mais simples, porém todas com interfaces muitas vezes ultrapassada, dashboards um pouco complicados, e preços que não agradam ao pequeno e micro empreendedor...\n\nVisto isso criamos algo que solucione de forma prática, trazendo o essencial que os concorrentes tem, pra uma plataforma por assinatura para gerenciamento de cardápio digital, conta com controle de estoque, acompanhamento de pedido por notificações via sms, cadastro de clientes com nome e sms, com confirmação de token, entre outras funcionalidades, demorou um tempinho bom pra ficar do padrão que está agora, cerca de 1 ano de desenvolvimento, e queria coletar uma séria opinião/crítica/sugestão da comunidade da plataforma, o link é [papum.app](http://papum.app), e para experienciarem o uso do cardápio como um cliente de uma loja, criei um cardápio demonstrativo pra que vocês consigam interagir etc, nesse link aq: [papum.app/ligeirinho](http://papum.app/ligeirinho) \n\nEnfim, qualquer feedback é bem vindo, agradeço desde já!",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1ii14rt/avalie_o_projeto_do_colega/",
+        "is_self_post": true,
+        "post_created_utc": 1738727054.0,
+        "comments": [
+            {
+                "comment_id": "mblxt0x",
+                "comment_body": "Man, sua lp é bem legal e fluida. Ideia interessante, único problema é ter que concorrer com grandes :(\n\nSe o seu app tiver localization, da uma olhada nesse sub aqui: r/microsaas lá o pessoal da bastante feedback",
+                "comment_score": 2,
+                "comment_created_utc": 1738989717.0
+            }
+        ]
+    },
+    {
+        "post_id": "1ibnx9z",
+        "post_title": "não sei muito de programação mas sou meio curioso pra perguntar: o quão \"feio\" é deixar esse erro chegar no cliente final?",
+        "post_body": "basicamente isso é um item promocional do ifood que só aparece quem assina o bagulho lá. parece que esqueceram de digitar alguma linha e acabou esse erro chegando até mim, o consumidor final.\na minha dúvida é quando esse tipo de erro acontece, geralmente o que se precede? o dev toma advertência, ou demitido etc?",
+        "post_url": "https://i.redd.it/qggtpgimimfe1.jpeg",
+        "is_self_post": false,
+        "post_created_utc": 1738021627.0,
+        "comments": [
+            {
+                "comment_id": "m9jq87m",
+                "comment_body": "[removed]",
+                "comment_score": 23,
+                "comment_created_utc": 1738022349.0
+            },
+            {
+                "comment_id": "m9nuikl",
+                "comment_body": "é mais engraçado do que feio",
+                "comment_score": 5,
+                "comment_created_utc": 1738082897.0
+            },
+            {
+                "comment_id": "m9jus6j",
+                "comment_body": "Eu lembro de um erro que deu uma vez na mão do cliente,  basicamente se você fizesse update no banco mobile offline varias vezes, o dado perdia a porcaria do id. Obs - erro impossível de replicar em celulares mais novos, arrumaram um j6 explodido para testarmos e ainda assim tivemos que testar umas mil vezes  para replicar o erro.",
+                "comment_score": 3,
+                "comment_created_utc": 1738023814.0
+            },
+            {
+                "comment_id": "m9m11n7",
+                "comment_body": "“Feio” não é a palavra correta! Acontece e é normal.",
+                "comment_score": 2,
+                "comment_created_utc": 1738057364.0
+            },
+            {
+                "comment_id": "m9o9ufu",
+                "comment_body": "Isso só acontece na página da loja, se vc clicar no Cheeseburger vai aparecer corretamente o selo da promoção.",
+                "comment_score": 1,
+                "comment_created_utc": 1738087179.0
+            },
+            {
+                "comment_id": "m9q5cb3",
+                "comment_body": "É raro mas acontece sempre.",
+                "comment_score": 1,
+                "comment_created_utc": 1738106028.0
+            },
+            {
+                "comment_id": "m9q5rh8",
+                "comment_body": "as loja de aplicativo demoram pra aceitar updates",
+                "comment_score": 1,
+                "comment_created_utc": 1738106158.0
+            },
+            {
+                "comment_id": "mc0gtki",
+                "comment_body": "Valeu mano! Você viu isso antes do meu chefe. Agora ta liso 🤘",
+                "comment_score": 1,
+                "comment_created_utc": 1739194581.0
+            },
+            {
+                "comment_id": "m9kjl68",
+                "comment_body": "Se eu tivesse que chutar, eu diria que algum animal aceitou um PR de outro animal que esqueceu de fechar um componente ( n tenho ideia como funciona em mobile) e aí subiu pra produção, o problema é que pra resolver esse problema tem que fazer uma porrada de updates pra subir pra produção de novo, então se foi erro mesmo, alguém vai ser demitido.",
+                "comment_score": -4,
+                "comment_created_utc": 1738031803.0
+            },
+            {
+                "comment_id": "m9k1oug",
+                "comment_body": "https://preview.redd.it/ijoewzbovmfe1.jpeg?width=1080&format=pjpg&auto=webp&s=2b0ea71daab546b2f4b2e82ab3c8d60836addaa7\n\nentrei de novo agora continua lá kk parece ser um bug bem difícil de resolver, ou simplesmente deixaram pra lá do jeito que o ifood é não duvido nada",
+                "comment_score": 4,
+                "comment_created_utc": 1738026016.0
+            },
+            {
+                "comment_id": "m9yb1rs",
+                "comment_body": "Na teoria, isso é verdade. Mas na prática, o dev fica mal visto na empresa, podendo ser demitido.\n\nIsso aconteceu comigo, inclusive. Juntaram tudo que é motivo pra me mandar embora, e um deles foi um bug em produção num código que eu fiz, mas quem devia testar não testou e deram o okay pra subir.",
+                "comment_score": 1,
+                "comment_created_utc": 1738208937.0
+            },
+            {
+                "comment_id": "m9oln5j",
+                "comment_body": "Ainda mais quando só buga a UI, dando pra fazer as compras normal a correção é só na proxima release",
+                "comment_score": 2,
+                "comment_created_utc": 1738090389.0
+            },
+            {
+                "comment_id": "m9oa08x",
+                "comment_body": "Provavelmente o erro é por causa da truncagem do texto. Acontece muito com URL, o MeetUp tem um erro desse tipo a meses nas descrições dos eventos e não arrumaram ainda.",
+                "comment_score": 1,
+                "comment_created_utc": 1738087223.0
+            },
+            {
+                "comment_id": "mc0pgjp",
+                "comment_body": "pô mano se puder arrumar a aba dos cupons que fica bugando e não mostra os restaurantes direito eu agradeço 🤟🏼",
+                "comment_score": 1,
+                "comment_created_utc": 1739197764.0
+            },
+            {
+                "comment_id": "m9m14xy",
+                "comment_body": "Simplesmente não viram. Ou até o restaurante colocou algo ali que não deveria. O último “culpado” aí é o dev.",
+                "comment_score": 6,
+                "comment_created_utc": 1738057424.0
+            }
+        ]
+    },
+    {
+        "post_id": "1i6sd9f",
+        "post_title": "Criei um aplicativo de finanças pessoais integrado com ChatGPT",
+        "post_body": "Fala pessoal!\n\nQueria compartilhar minha experiência e os desafios que tive empreendendo um app mobile com IA. Espero que inspire outros devs que têm o sonho de criar algo próprio, seja como um projeto part-time ou até fundar uma startup. Bora lá!\n\nSempre fui apaixonado por empreender e mais ainda por modelos de negócios B2C, mesmo que seja mais difícil, é muito empolgante ver uma ideia sua auxiliando milhares de pessoas na prática.\n\nEm pouco mais de 6 meses, alcançamos **7.5k usuários no app** e já tivemos **530 usuários pagantes.**\n\nComo surgiu a ideia?\n\nCom o hype da IA, eu comecei a analisar possíveis aplicações da tecnologia em modelos de negócios já existentes. Percebi que muitos apps de controles financeiros ainda não adotaram os modelos de IAs para inovar na forma de ajudar os usuários.\n\nCom base nisso, definimos as duas principais funcionalidades da Centz:\n\n* **Gestão financeira:** Analisar os gastos dos usuários, enviar insights automáticos direto no WhatsApp e permitir que ele “converse com suas finanças”, por exemplo perguntando: “quanto eu gastei de ifood esse mês?”\n* **Poupar Centavos**: Arredondar centavos automaticamente a cada compra feita no cartão de crédito e investir esse valor. Permitindo que o usuário poupe pequenas quantias de dinheiro sem perceber.\n\nO diferencial é que é tudo automático, os usuários conectam seus gastos com o Open Banking e não precisa preencher nenhum gasto manualmente, já recebem análises sobre os seus gastos. Utilizamos a IA para nos ajudar com a categorização dos gastos, a formular os insights e a responder dúvidas dos usuários sobre as suas próprias finanças.\n\nMês passado, decidimos deixar nossa IA no WhatsApp gratuita para todos os usuários, mesmo sabendo que isso aumenta nossos custos mensais com Open Banking e OpenAI. Está sendo uma aposta para melhorar a retenção e o engajamento.\n\n**Stack:**\n\n* Backend: Node.js e FastAPI (Python)\n* Frontend: React Native\n* Banco de dados: Supabase (Postgres)\n* AI: OpenAI API\n* Open Banking: Pluggy - Autorizado pelo Banco Central\n* WhatsApp: API oficial da Meta\n\nOs **desafios para 2025**:\n\n1. Escalar a base de usuários.\n2. Aumentar o ticket médio.\n3. Lançar novos produtos e funcionalidades.\n\nAtualmente, a empresa ainda não consegue cobrir todos os custos da operação. Nosso maior desafio agora é aumentar o valor percebido e lançar funcionalidades para poder aumentar o ticket médio!\n\nPoderiam me dar o feedback de vocês tecnicamente sobre o nosso produto?\n\nAdoraria receber insights de vocês sobre o nosso app, o que acham da solução e de como podemos melhorar! Toda sugestão é super bem-vinda! O site é: [www.centz.com.br](http://www.centz.com.br)\n\nValeu demais!",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1i6sd9f/criei_um_aplicativo_de_finanças_pessoais/",
+        "is_self_post": true,
+        "post_created_utc": 1737491240.0,
+        "comments": [
+            {
+                "comment_id": "m8fvttz",
+                "comment_body": "Parabens, ja tive essa idéia a algum tempo mas na epoca não achei uma forma viavel de conectar com o OpenBanking, muito sucesso ! 🚀🚀\n\n  \ncaso precise de dev freela pra back/cloud me chama na DM 🎉",
+                "comment_score": 2,
+                "comment_created_utc": 1737501979.0
+            },
+            {
+                "comment_id": "m8ex01g",
+                "comment_body": "Qual foi a experiência dos teus usuários com a Pluggy?\n\nTive a impressão dos dados do OpenFinance ainda estarem um pouco inconsistentes dependendo da instituição ",
+                "comment_score": 1,
+                "comment_created_utc": 1737492180.0
+            },
+            {
+                "comment_id": "m8gk9kr",
+                "comment_body": "Muito legal, parabéns! Uma dúvida, quais estratégias adotatas para conseguir os primeiros usuários?",
+                "comment_score": 1,
+                "comment_created_utc": 1737509640.0
+            },
+            {
+                "comment_id": "m8gpxb6",
+                "comment_body": "Muito legal. \n\nEu tava atrás de algo pra trabalhar com Open Banking também e não conhecia essa Pluggy.",
+                "comment_score": 1,
+                "comment_created_utc": 1737511458.0
+            },
+            {
+                "comment_id": "m97gcbo",
+                "comment_body": "Primeiramente parabéns pela iniciativa!\nNão sou da área de desenvolvimento, pelo menos não ainda. Mas eu uso aplicativos de controle financeiro desde 2017. Atualmente pago o anual do Mobills.\nSobre o seu app, vou te dizer algo que me veio à mente assim que vi o site:\n\n1- Sua proposta de valor (seu diferencial) não está muito atrativo. Ninguém quer poupar centavos. Poderia ser algo como: “Com a Centz você controla seus gastos e ainda poupa sem nem perceber.” Isso é só um exemplo bem tosco.\nEntenda o seguinte: poupar automaticamente os centavos é a explicação de como é feito, mas isso não deve ser o foco na apresentação do site.\n\n2- Aumente o preço de assinatura!!! Tá tão barato que o usuário fica na dúvida se isso funciona mesmo ou não. Não tente batalhar com os outros aplicativos consolidados na base do preço, batalhe pelos seus diferenciais. R$ 9,90 ou 14,90 no mínimo.\n\n3- Não sei se você tem uma equipe, mas você precisa de alguém bom em marketing e vendas pra poder alcançar mais possíveis clientes.",
+                "comment_score": 1,
+                "comment_created_utc": 1737861261.0
+            },
+            {
+                "comment_id": "mjh7k94",
+                "comment_body": "Bom dia , como foi tua experiência com a WhatsApp: API oficial da Meta?",
+                "comment_score": 1,
+                "comment_created_utc": 1742824324.0
+            },
+            {
+                "comment_id": "m8h1kfu",
+                "comment_body": "cara, se eu te falar, eu to com essa ideia desde janeiro de 2024, mas não tive tempo de por em prática, até levantei os requisitos de negócios, realmente os concorrentes tem um web app mt fácil de por upgrades e oferecer algo melhor, parabéns pela iniciativa, admiro mt!! Fonte de inspiração, as vezes deixamos a ideia passar e alguém executa",
+                "comment_score": 0,
+                "comment_created_utc": 1737515295.0
+            },
+            {
+                "comment_id": "m8inj80",
+                "comment_body": "Boa, muito obrigado!",
+                "comment_score": 1,
+                "comment_created_utc": 1737544154.0
+            },
+            {
+                "comment_id": "m8ex7jh",
+                "comment_body": "O que provavelmente nao é um problema da Pluggy em si, e sim das instituições enviando os dados hehe",
+                "comment_score": 2,
+                "comment_created_utc": 1737492236.0
+            },
+            {
+                "comment_id": "m8exa8a",
+                "comment_body": "Por enquanto tá sendo bem positiva. Tem um delay de 1 dia para poder receber os dados, mas fora isso, não notamos inconsistências não!",
+                "comment_score": 2,
+                "comment_created_utc": 1737492256.0
+            },
+            {
+                "comment_id": "m8inmca",
+                "comment_body": "Redes sociais ajudaram bastante com os primeiros",
+                "comment_score": 2,
+                "comment_created_utc": 1737544203.0
+            },
+            {
+                "comment_id": "m8inn5m",
+                "comment_body": "Vale a pena! Somos satisfeitos com eles",
+                "comment_score": 1,
+                "comment_created_utc": 1737544216.0
+            },
+            {
+                "comment_id": "m8inl5i",
+                "comment_body": "Hehehe é verdade! Valeu pelas palavras!!",
+                "comment_score": 2,
+                "comment_created_utc": 1737544185.0
+            }
+        ]
+    },
+    {
+        "post_id": "1hwn2x1",
+        "post_title": "Quanto ganha em média um dev senior nas FANGs e BigTechs internacionais no Brasil ?",
+        "post_body": "A dúvida é relacionada a essas empresas:\n- Google\n- Meta\n- Microsoft\n- Amazon\n- Uber\n\nComo todas híbridas e/ou presenciais, eu queria entender se o salário vale a pena quando comparado a bigtechs nacionais como Nubank, Mercado Livre e iFood.",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1hwn2x1/quanto_ganha_em_média_um_dev_senior_nas_fangs_e/",
+        "is_self_post": true,
+        "post_created_utc": 1736350974.0,
+        "comments": [
+            {
+                "comment_id": "m62clfh",
+                "comment_body": "No glassdoor deve ter dados que dêem uma boa noção",
+                "comment_score": 4,
+                "comment_created_utc": 1736351572.0
+            },
+            {
+                "comment_id": "m67h7fv",
+                "comment_body": "Amazon, dev de 27 anos: 23k (nao sei se sujo ou limpo). Isso eh um familiar meu. Os pulos de júnior pra pleno e pleno pra sênior são mto altos, mas imagino que agora comece a diminuir a velocidade dos aumentos\n\nEdit: ela recebe shares de bônus anualmente tbm, mas eh um valor irrisório (2-3k USD/ano). Recebe tbm bônus semestral em $$ se nao me engano, com valores mais legais do que o equivalente em ações",
+                "comment_score": 3,
+                "comment_created_utc": 1736420928.0
+            },
+            {
+                "comment_id": "m62n7an",
+                "comment_body": "[removed]",
+                "comment_score": 2,
+                "comment_created_utc": 1736354725.0
+            },
+            {
+                "comment_id": "m63muco",
+                "comment_body": "Vale porque o boom no seu cv é completamente direto , existem muitas startups grandes que pagam muito e são remotos , no br a que mais paga conhecidamente pelo público é a brex acho que pleno está 40K brl clt por mês e senior 58 algo assim",
+                "comment_score": 2,
+                "comment_created_utc": 1736365175.0
+            },
+            {
+                "comment_id": "m62eg49",
+                "comment_body": "Tem vários posts sobre esse assunto no sub: https://www.reddit.com/r/brdev/comments/15u7a4g/estes_sal%C3%A1rios_est%C3%A3o_mesmo_certos/",
+                "comment_score": 1,
+                "comment_created_utc": 1736352124.0
+            },
+            {
+                "comment_id": "m64k9l8",
+                "comment_body": "Sênior (que seria especialista nas outras empresas)\nSalário: 33k+\nBônus: 1 ou 2 salários\nAções: 2-4k usd / mês",
+                "comment_score": 1,
+                "comment_created_utc": 1736374900.0
+            },
+            {
+                "comment_id": "m63qymp",
+                "comment_body": "Ninguém GANHA salário.",
+                "comment_score": -3,
+                "comment_created_utc": 1736366368.0
+            },
+            {
+                "comment_id": "m62vov3",
+                "comment_body": "A variação não passa confiança, tem casos que variam de 20 a 60k, me pareceu muito estranho para o mesmo nível de sênior dentro da mesma empresa",
+                "comment_score": 4,
+                "comment_created_utc": 1736357338.0
+            },
+            {
+                "comment_id": "m62nw93",
+                "comment_body": "Os salários registrados lá são internacionais, bem diferentes dos que as mesmas empresas pagam aqui",
+                "comment_score": 3,
+                "comment_created_utc": 1736354928.0
+            },
+            {
+                "comment_id": "m62txrj",
+                "comment_body": "Os salários da MS são bem baixos",
+                "comment_score": 1,
+                "comment_created_utc": 1736356826.0
+            },
+            {
+                "comment_id": "m62vl6q",
+                "comment_body": "Obrigado, esse post vai ajudar bem",
+                "comment_score": 1,
+                "comment_created_utc": 1736357308.0
+            },
+            {
+                "comment_id": "m64lenn",
+                "comment_body": "Tem o filtro por país. Lá da o salário nacional",
+                "comment_score": 1,
+                "comment_created_utc": 1736375248.0
+            },
+            {
+                "comment_id": "m62wwj0",
+                "comment_body": "E aí? Acha que vale a pena???",
+                "comment_score": 1,
+                "comment_created_utc": 1736357694.0
+            },
+            {
+                "comment_id": "m63333b",
+                "comment_body": "Agora preciso saber dessas aqui para entender se vale a pena kkk  \nNubank, Mercado Livre e iFood.",
+                "comment_score": 1,
+                "comment_created_utc": 1736359486.0
+            },
+            {
+                "comment_id": "m63a7bm",
+                "comment_body": "Para engenheiro senior, dificilmente passará dos 25. Obviamente existem exceções",
+                "comment_score": 1,
+                "comment_created_utc": 1736361526.0
+            }
+        ]
+    },
+    {
+        "post_id": "1e76s4l",
+        "post_title": "Tive uma ideia de ajudar que tá iniciando",
+        "post_body": " \n\n\nA ideia consiste  em criar projetos, mas não  vou ensinar  estrutura  de dados nem algoritmo.Eu também  sou iniciante.\n\nEstou criando  umas coisas usando  docker,fiz alguns teste de estágio  e gostaria  de juntar algumas pessoas e desenvolver projetos  juntos!\n\nNão  vamos criar um ifood,PELO AMOR DE DEUS NÉ.\nVamos desenvolver formulários, Projetos  se gestão,alguns projetos mais simples.\n\nE usar muito ChatGPT porque não  vou pegar na sua mão e te dar os projetos a gente vai aprender  juntos.\n\nEU SÓ  QUERO COMIGO QUEM TEM VONTADE DE APRENDER!\n\nE o projeto a gente vai desenvolver  juntos, conversando, em CALL, pelo discord  ou outro que for mais fácil.\n\nQuem quiser chama DM ",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1e76s4l/tive_uma_ideia_de_ajudar_que_tá_iniciando/",
+        "is_self_post": true,
+        "post_created_utc": 1721403637.0,
+        "comments": [
+            {
+                "comment_id": "ldzuc6i",
+                "comment_body": "Pablo marçal da ti",
+                "comment_score": 2,
+                "comment_created_utc": 1721425797.0
+            },
+            {
+                "comment_id": "ldzypti",
+                "comment_body": "??? Como assim??",
+                "comment_score": 1,
+                "comment_created_utc": 1721427426.0
+            },
+            {
+                "comment_id": "le0dj5m",
+                "comment_body": "Esse desbloqueou o código.",
+                "comment_score": 1,
+                "comment_created_utc": 1721433215.0
+            }
+        ]
+    },
+    {
+        "post_id": "1avi6xs",
+        "post_title": "Pesquisa para DEVs + sorteio voucher de R$ 200,00 iFood",
+        "post_body": "Oi pessoal, tudo bem?  \n\n\nEstou fazendo uma pesquisa sobre o tema Futuro do Trabalho, focado EXCLUSIVAMENTE para as pessoas que atuam na área de TECNOLOGIA, sejam DEVs, DBAs, Analistas de sistemas e outras mais técnicos.  \n\n\nAo responder, você pode concorrer a um voucher de R$ 200,00 do iFood! 🤤🍳🥗🍕🍔🫕🥨  \n\n\nÉ só você deixar seus dados ao final da pesquisa, se assim desejar. Contudo, precisamos ter no mínimo 100 respostas e o sorteio será feito agora em Março. 🥹❤️  \n\n\nSegue o link: [https://docs.google.com/forms/d/e/1FAIpQLSfjo-SRvTxlIAFJs7yjiUFWvOJBZmT2SkIHRcRqg3ftv4afdQ/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfjo-SRvTxlIAFJs7yjiUFWvOJBZmT2SkIHRcRqg3ftv4afdQ/viewform)  \n\n\nAgradeço imensamente sua ajuda e se eu puder ajudar em algo relacionado a UX e UI, estou à disposição também!   \n\n\nValeu! 🙏🙏🙏 ",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1avi6xs/pesquisa_para_devs_sorteio_voucher_de_r_20000/",
+        "is_self_post": true,
+        "post_created_utc": 1708437309.0,
+        "comments": []
+    }
+]

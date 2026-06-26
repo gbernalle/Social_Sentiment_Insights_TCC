@@ -1,0 +1,1367 @@
+[
+    {
+        "post_id": "1ti8vnz",
+        "post_title": "Momento de carreira estagnado, não cresço na empresa (sou PJ), tenho um projeto mas não tenho cliente final",
+        "post_body": "Galera pra entender um pouco e espero que eu consiga algo, já vi e pesquisei sobre bastante coisas, não tenho tantos anos de experiência no mercado, mas já atingi um nível de senioridade que não consigo mais subir, me sinto estagnado, o trabalho já está bem chato até a demanda mais complexa se tornou demanda de alguns dias, tipo 1,5 ou 2 pra resolver, tentei mostrar meu trabalho meu esforço até foi reconhecido mas não teve diferença, deci meu nível e estou trabalhando atualmente como pleno na área, eu sei que consigo mais, mas prefiro ficar aqui e focar em outra coisa.\n\nEu tenho um projeto que tem uma dor real, e que muitos apps online podem ter em separado mas um que tenha resolvido três dessas dores não (não quero dar muitos detalhes pq acho que nem precisa) e aí eu tenho uma parceira de negócio em que posso extrair esses requisitos e tbm testar e validar, mas não será ela que vai gerar renda pra mim.\n\nE agora estou com esse projeto parado e a carreira que não tem como subir, não posso mudar de emprego pq acho que se eu pegar uma senioridade maior ou trabalhar como líder hj em dia, estaria sendo mais escravizado do que bem remunerado, e o projeto tem potencial, mas não sei oq fazer, se eu deveria correr atrás de clientela ou fazer network, ou se deveria estudar mais, mas o tecninez já é muito fácil eu só não entendo muito de negócio então as vezes acho que preciso de alguém pra conversar sobre essa área sabe? Deixar de ser dev pra ser empreendedor, eu curto muito as conversas de primeira etapa de um requisito penso debato falo sobre possibilidades e tals, mas não sei como ganhar dinheiro de vdd com isso \n\nEu tenho o sonho de ter uma squad de desenvolvimento, uma pequena equipe mesmo, pelo menos de início, enfim, preciso ganhar mais dinheiro, mas o mundo é muito escravizado ultimamente então não vejo a ideia de liderar uma equipe trabalhando para uma empresa ser boa ideia pra mim, acho que tenho capacidade de liderar e gerenciar um produto ou até mesmo vários, quero dar oportunidade para as pessoas tbm mas não sei como conciliar tudo isso\n\nEntão galera conseguem ajudar o amigo aqui, quero ser empreendedor e continuar sendo dev nesse empreendimento, oq eu ainda não fiz? Estou com a faca e o queijo na mão pra desenvolver um MVP mas não sei como vender a ideia, sei que o mercado precisa, mas não sei como chegar nele e conseguir um dinheiro justo mas que consiga melhorar minha vida\n\nAtualmente ganho 8000 no PJ, pagando contador e impostos e tudo mais nesse quesito fica 7000 líquidos ou um pouquinho +\n\nTbm não sei se vale a pena perder o enprego atual queria manter as duas coisas pra quando eu tiver uma renda boa, eu colocar alguém de confiança onde eu não conseguir cobrir ou pelo menos pra me dar uma folga \n\nSó um detalhe, nesse emprego eu sinceramente fico bem mais tranquilo geralmente, não tem tantas demandas, então tem dias que nem fazemos nada, é um motivo de não querer sair tbm, apesar de chato é confortável e até que vivo bem mas, vou casar e não quero ficar assim pra sempre estou trabalhando com eles a 2 anos ",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1ti8vnz/momento_de_carreira_estagnado_não_cresço_na/",
+        "is_self_post": true,
+        "post_created_utc": 1779245665.0,
+        "comments": []
+    },
+    {
+        "post_id": "1tay1u4",
+        "post_title": "Estou em busca de me inserir no mercado de trabalho de T.I efetivamente estava pensando entrar na area de Suporte N1 ou N2, O pessoal que já trabalha com essa area nesse reddit oque preciso ter no meu curriculo para adentrar nessa area?",
+        "post_body": "Um mini-contexto do porque estou pensando em me inserir nessa area tão temida/odiada da T.I: Bem eu trabalho como assit. adm. em uma empresa e por está em formação em um curso de Sistema de informação venho realizando alguns desvios de funçoes impostos a mim, como por exemplo codar algumas automações basicas em python e realizar abertura de chamados e auxiliar/ dar suporte aos usuarios, e por mais que seja uma area um pouco desgastante é uma porta mais facil para entrar no mercado, principalmente por já ter contato com o pessoal  então posso tentar arrumar um QI(quem indica) nessa area, então eu gostaria de saber de quem está ou já esteve na area de suporte oque tem mais peso no curriculo? Se possivel me passar algumas dicas de como sobreviver na area, e do resto do pessoal do reddit se tem alguma outra area que seja uma \"porta mais facil\" para entrar no mercado para quem nao tem uma vasta experiencia.\n\nP.S: Desculpe-me pelo post muito grande.",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1tay1u4/estou_em_busca_de_me_inserir_no_mercado_de/",
+        "is_self_post": true,
+        "post_created_utc": 1778583344.0,
+        "comments": [
+            {
+                "comment_id": "olckjx3",
+                "comment_body": "mete no cv: windows, pacote office, redes basicas, ad, itil, atendimento ao usuario, abertura e fechamento de chamado, remoto, documentação. cola isso com o que vc já faz hoje e bota resultado concreto. tira uns certificados baratos tipo hdijek-curso-basico, ajuda a passar na triagem. e já pede pra galera te indicar, nessa area pesa muito mais que cv. e mesmo assim ta osso arrumar vaga hoje",
+                "comment_score": 3,
+                "comment_created_utc": 1778583799.0
+            },
+            {
+                "comment_id": "olgqcu0",
+                "comment_body": "Suporte varia de empresa para empresa, depende muito do que você vai dar suporte. Pode ser suporte de redes, cloud, banco de dados, informática em geral, entre outros. Mas o básico mesmo é: sistemas operacionais Linux e Windows, redes de computadores, Pacote Office e atendimento ao usuário. Se você quiser pegar umas vagas de suporte melhorzinha e fugir dessas vaga de técnico de escritório que fica vendo impressora e formatando computador eu recomendaria focar em redes e aprender SQL. No geral, não tem muito segredo. Suporte/help desk eu acho bem tranquilo. Eu entrei como N1 sem qualquer experiência na área de TI, e meu último cargo antes disso era de caixa. Depois virei N2 e, após isso, passei a trabalhar mais com infraestrutura e automação.",
+                "comment_score": 1,
+                "comment_created_utc": 1778627025.0
+            },
+            {
+                "comment_id": "oljv8sc",
+                "comment_body": "É uma boa área, quem começa nela tem muitos ensinamentos importantes para o currículo e para o profissional em si.\n\nResolução de problemas, entendimento e conseguir falar coisas mais técnicas para pessoas não técnicas.\n\nEu veria oq pedem em vagas e estudaria sobre.",
+                "comment_score": 1,
+                "comment_created_utc": 1778673652.0
+            },
+            {
+                "comment_id": "ole3k7o",
+                "comment_body": "Tem tanta coisa errada ai....\n\n\\>> trabalho como assit. adm + venho realizando alguns desvios de funçoes impostos a mim, como por exemplo codar algumas automações basicas em python e realizar abertura de chamados e auxiliar/ dar suporte aos usuarios\n\nPorra vc está com uma puta chance no prato e está reclamando de desvio de função! PQP! OP! Acorda.\n\nA porta mais fácil, vc está fechando com essa mentalidade tacanha. Aproveita a chance, estuda, entende o que da para melhorar e fazer na tua empresa. \n\nAGORA vc não tem que se preocupar com certificação nada, tem que aprender. Como é o ambiente ai? Tudo on-prem? Tem cloud? Vai se enfiando e aprendendo conforme a necessidade. ",
+                "comment_score": 0,
+                "comment_created_utc": 1778600667.0
+            },
+            {
+                "comment_id": "olclz80",
+                "comment_body": "Há algum certificado que você me aconselha tirar assim de imediato?",
+                "comment_score": 1,
+                "comment_created_utc": 1778584375.0
+            },
+            {
+                "comment_id": "olelx9c",
+                "comment_body": "Então cara meio que é assim eu trabalho como assistente administrativo para uma empresa terceirizada q presta serviços para órgãos governamentais, nesta empresa nao tem espaço para a área de suporte entao oq ru faço é um desvio, o único contato q tenho com o pessoal de suporte e de outra empresa terceirizada que presta suporte para esse órgão, entao nao tem como eu ter noção do ambiente sendo q minha coordenação nao trabalha com isso entende amigo?",
+                "comment_score": 2,
+                "comment_created_utc": 1778605527.0
+            },
+            {
+                "comment_id": "oleqlsd",
+                "comment_body": "Em nenhum momento o autor do post reclamou da chance de aprender ou desmereceu a experiência que está adquirindo. O que ele apontou foi algo objetivo: está executando atividades fora da função para a qual foi contratado, o que é sim um desvio de função. Reconhecer isso não significa ingratidão, significa apenas relatar a realidade.\n\nPelo texto, fica claro que a intenção dele não era “fechar portas” e sim buscar direcionamento de quem já passou pela área, entender o que pesa no currículo.\n\nSe a sua ideia foi ajudar, talvez fosse mais produtivo orientar sem atacar. Experiência se compartilha melhor com respeito do que com arrogância.",
+                "comment_score": 1,
+                "comment_created_utc": 1778606742.0
+            },
+            {
+                "comment_id": "olfwt5m",
+                "comment_body": "OK.. Então vai lá e reclama do desvio de função e fecha a porta! ",
+                "comment_score": 0,
+                "comment_created_utc": 1778618109.0
+            },
+            {
+                "comment_id": "oll8qkf",
+                "comment_body": "Sua ignorância é hilária. ",
+                "comment_score": 2,
+                "comment_created_utc": 1778688072.0
+            }
+        ]
+    },
+    {
+        "post_id": "1t5mev4",
+        "post_title": "Carreira de Dados ou BI na Espanha",
+        "post_body": "Fala pessoal,\n\nEstou me organizando pra ir pra Espanha ainda este ano e queria ouvir de quem já conhece o mercado de dados/BI por lá, na prática mesmo.\n\nTenho +5 anos com BI e dados, já montei área do zero, trabalho com SQL, Python, GCP, ETL e dashboards (Power BI, Looker etc.), sempre focado em impacto de negócio como margem, eficiência e KPIs executivos.\n\nHoje estou CLT ganhando na faixa de 6k, mas resolvi mudar o jogo. Cansei um pouco do modo hard brasileiro, onde a gente trabalha, paga imposto e ainda assim a picanha que prometeram continua difícil de comprar kkk. Já estou me organizando financeiramente e vendi minhas coisas pra viabilizar a mudança.\n\nTambém estou fazendo um doble máster online na Espanha em Big Data & BI + Gestión de Proyectos, 144 ECTS, e meu espanhol está em nível B1, evoluindo.\n\nQueria ouvir de quem já trabalhou com o mercado espanhol ou pra lá:\n\nComo está o mercado de Data/BI hoje?  \nPerfil mais de negócio ou mais técnico pesa mais?  \nEspanhol B1 segura ou costuma travar?  \nFora Madrid e Barcelona, tem outros polos interessantes?  \nAlguma dica prática que só aprende depois que chega?\n\nValeu demais pra quem puder compartilhar a visão real",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1t5mev4/carreira_de_dados_ou_bi_na_espanha/",
+        "is_self_post": true,
+        "post_created_utc": 1778094105.0,
+        "comments": [
+            {
+                "comment_id": "okb2099",
+                "comment_body": "fala com consultoria pequena local, eles conhecem bem o mercado e indicam vaga escondida. b1 funciona, mas nego prefere quase nativo, então treina muito. tenta mirar madrid primeiro, resto é mais devagar",
+                "comment_score": 3,
+                "comment_created_utc": 1778094425.0
+            },
+            {
+                "comment_id": "okccp93",
+                "comment_body": "Pq a Espanha e não países como Alemanha/Holanda?",
+                "comment_score": 2,
+                "comment_created_utc": 1778107558.0
+            },
+            {
+                "comment_id": "omnwmkl",
+                "comment_body": "Também tenho vontade disso a longo prazo, qual área de dados especificamente vc atua?",
+                "comment_score": 2,
+                "comment_created_utc": 1779195610.0
+            },
+            {
+                "comment_id": "okd2h3i",
+                "comment_body": "Tenho um amigo que foi fazer master de dados na Espanha (trabalhava com BI no Brasil). Ai desse master ele conseguiu entrar no BNP Paribas. \n\nEntão acho que é só você continuar seu master e ir aplicando pra vaga por lá. Sabe se tem indicações no seu master? ",
+                "comment_score": 1,
+                "comment_created_utc": 1778116136.0
+            },
+            {
+                "comment_id": "okd534w",
+                "comment_body": "Pode começar a aplicar pra vagas remotas na Espanha (ou na Europa em geral) pra Já ir empregado. \n\n6k é um salário bem ruim. Um Contractor de 2K EUA já vai dobrar teus rendimentos.",
+                "comment_score": 1,
+                "comment_created_utc": 1778117034.0
+            },
+            {
+                "comment_id": "okcdft4",
+                "comment_body": "Porque faço o master lá, pretendo fazer um oficial depois e um doutorado.  \nAo mesmo tempo que trabalhar e morar na Espanha em 2 anos me dá direito a cidadania.\n\nAlém de ter praias lindas e um clima que agrada minha família.",
+                "comment_score": 1,
+                "comment_created_utc": 1778107795.0
+            },
+            {
+                "comment_id": "omnx45f",
+                "comment_body": "Cara meu master é voltado pra BI, porém entendo um pouco de cada área. Não é um conhecimento aprofundado, mas preciso entender. ",
+                "comment_score": 1,
+                "comment_created_utc": 1779195770.0
+            }
+        ]
+    },
+    {
+        "post_id": "1sml3yp",
+        "post_title": "Pj para clt",
+        "post_body": "Pra quem é PJ e aparece uma oportunidade de migrar pra CLT. Olhando de forma superficial, o único benefício claro que vejo é férias de 30 dias. Fora isso, me parece que o imposto (até 27,5%) acaba com a vantagem.\n\nPra quem já fez essa transição:\n\n\\- Valeu a pena financeiramente?\n\n\\- O que vocês consideraram no cálculo real (benefícios, bônus, segurança, etc.)?\n\n\\- Existe algum “número mágico” de salário CLT que compense sair do PJ?\n\nQuero entender como vocês comparam de forma prática, porque só olhar salário bruto não parece suficiente.\n\nSe puderem compartilhar exemplos reais ou como fizeram a conta, ajuda muito.",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1sml3yp/pj_para_clt/",
+        "is_self_post": true,
+        "post_created_utc": 1776292012.0,
+        "comments": [
+            {
+                "comment_id": "ogfr8az",
+                "comment_body": "14 salários (Ferias + 13o)  \nFGTS + INSS  \nConvênio - se vc tem filhos, esse é um peso enorme. Eu sou velho (50) e tenho 2 filhos. Pagar convênio do bolso é pesado. É tipo uma mensalidade do colégio fácil que eu economizo.   \nCusto para demitir um PJ é infinitamente menor do que para demitir um CLT (mas não é garantido)\n\nTroquei 30K PJ por 20K CLT sorrindo!\n\nMas vai da tua idade e momento de vida OP!",
+                "comment_score": 4,
+                "comment_created_utc": 1776301654.0
+            },
+            {
+                "comment_id": "ogfyu9n",
+                "comment_body": "Posto esse link todo dia aqui.\n  \nhttps://www.nagringa.dev/calculadora-clt-vs-pj",
+                "comment_score": 3,
+                "comment_created_utc": 1776304290.0
+            },
+            {
+                "comment_id": "ogfj68a",
+                "comment_body": "Fiz o oposto. Fui pra PJ, tenho 21 dias de “descaso” remunerado, plano de saúde e ajuda home office. Pago 6% de imposto. To feliz. ",
+                "comment_score": 1,
+                "comment_created_utc": 1776298896.0
+            },
+            {
+                "comment_id": "oggw01k",
+                "comment_body": "Sendo sincero, tem poucas empresas no BR em que se compensa ser PJ.  \nDito isso, não existe nenhum problema com o regime de PJ, o problema é que as empresas se NEGAM a pagar o valor justo para PJ.  \nA maioria das empresas não vê vantagem em ter alguém como PJ se for para pagar o valor justo.  \nAs empresas são estúpidas e preferem pagar mais imposto pro governo do que ter um empregado mais feliz por estar ganhando mais.  \nBasicamente isso.",
+                "comment_score": 1,
+                "comment_created_utc": 1776317498.0
+            },
+            {
+                "comment_id": "ogub0jh",
+                "comment_body": "Calcula o líquido anual de ambos e vê o que vale a pena. É isso.",
+                "comment_score": 1,
+                "comment_created_utc": 1776486257.0
+            },
+            {
+                "comment_id": "ogfpgpg",
+                "comment_body": "Cara, sinceramente, não tem benefício nenhum, principalmente quando você já tem um certo patamar de salário.\n\nQuanto maior o salário, mais a CLT vai ficando negativa, todos esses \"benefícios\" que o pessoal coloca não valem a pena perto do dinheiro na conta. Já tive uma migração dessas meio que forçada para CLT e fiquei incomodado até voltar para PJ, com dinheiro extra você monta uma reserva gorda muito rápido, perder um carro por ano por conta de segurança é fogo. Esse desconto de quase 30% do salário é surreal.",
+                "comment_score": 1,
+                "comment_created_utc": 1776301056.0
+            },
+            {
+                "comment_id": "ogi3ld6",
+                "comment_body": "Vdd, sou PJ só de plano de saúde são 2900 pra 4. Meu irmão são 5 e o plano dele é bem mais caro q o meu, chega a uns 12 k. Só isso muda a conta bastante. Tem CLT q tem muito benéfico a ponto de bater de frente com ofertas lá fora (carro, gasolina, alimentação, mercado... Meu irmão mesmo tem quase um salário de benefício)",
+                "comment_score": 2,
+                "comment_created_utc": 1776339292.0
+            },
+            {
+                "comment_id": "ogfzc13",
+                "comment_body": "Tenho 35, um filho 5 anos. ",
+                "comment_score": 1,
+                "comment_created_utc": 1776304462.0
+            },
+            {
+                "comment_id": "ogfjfgv",
+                "comment_body": "Pago 6% também, mas férias 10 dias no ano e só.\nO que me pega são as férias.",
+                "comment_score": -1,
+                "comment_created_utc": 1776298982.0
+            },
+            {
+                "comment_id": "ogfz02d",
+                "comment_body": "Sim e 0 retorno. \nEles estão migrando, mas não é válido, não cobre o valor perdido de 27,5 mesmo contando com 13 e FGTS ",
+                "comment_score": 3,
+                "comment_created_utc": 1776304346.0
+            },
+            {
+                "comment_id": "ogi3vrw",
+                "comment_body": "Depende muito, o q falei ali. Tem CLT q da muito beneficio e ainda dá bônus pra contorna imposto. Conheço gente q pra sair de CLT precisa de uma proposta de PJ acima de 50 k ( beeeeem difícil tu ver isso no Brasil)",
+                "comment_score": 1,
+                "comment_created_utc": 1776339405.0
+            },
+            {
+                "comment_id": "oggj6bw",
+                "comment_body": "o meu plano sozinho pago o da sua familia toda =) ",
+                "comment_score": 2,
+                "comment_created_utc": 1776311936.0
+            },
+            {
+                "comment_id": "ogg198x",
+                "comment_body": "Se for forçado a fazer é um saco. Lógico, é melhor fazer do que ficar procurando emprego agora num momento meio ruim do mercado, mas a empresa quando quer fazer isso já é sinal que vão encher o saco e estão suspeitando que tem muita gente fazendo OE e enrolando as entregas.\n\nTem grandes chances de ficarem olhando se vcs continuam com o CNPJ aberto depois de migrar.",
+                "comment_score": 1,
+                "comment_created_utc": 1776305136.0
+            },
+            {
+                "comment_id": "oh5dy0d",
+                "comment_body": "E o que muda?",
+                "comment_score": 1,
+                "comment_created_utc": 1776633929.0
+            }
+        ]
+    },
+    {
+        "post_id": "1sk9gfh",
+        "post_title": "deem dica pra quem ta começando a estudar",
+        "post_body": "Moro no Brasil, tenho 19 anos, farei 20 em novembro, e trabalho em uma empresa de gestão penitenciária onde estou desde os 17. Estou no departamento de logística, atualmente como estagiário, e ganho cerca de 2.000 reais com todos os benefícios inclusos. Apesar disso, aqui no Brasil esse é um emprego pouco acima do salário mínimo — mas isso muda se eu for contratado em tempo integral em cerca de 1 ano e 9 meses. SE EU FOR CONTRATO MEU SALARIO AINDA DIMINUI POIS PAGARIA VARIOS IMPOSTOS 😁🤭\n\nEnfim, definitivamente não gosto do meu emprego atual, mas é o que paga as contas agora. No entanto, como estou ficando esgotado nessa área, decidi começar a estudar para entrar em programação/engenharia de software — mas tudo o que vejo são pessoas reclamando da área. Honestamente, vou correr o risco do declínio total da área de qualquer maneira, porque não aguento mais meu trabalho e continuarei estudando como tenho feito nessas últimas semanas.\n\nEstou aberto a qualquer conselho sincero porque me sinto um pouco perdido. Não sei se devo largar meu emprego para estudar em tempo integral — parece arriscado, especialmente porque tenho uma namorada um pouco mais velha que eu e que ganha muito bem. Se eu fizer isso, não conseguirei acompanhá-la financeiramente.\n\nEscolhi programação e engenharia de software porque é uma área com histórico de bons salários, e meu sonho é viajar pelo mundo. Também tenho muita afinidade por computadores e tecnologia, então pensei que poderia usar isso para finalmente me dedicar à área. Minha família sempre me disse para estudar nessa área por causa dessa afinidade, mas eu nunca dei muita atenção — agora as palavras deles fazem todo o sentido.\n\nO que me assusta são os vários vídeos e posts reclamando das áreas que mencionei, tudo por causa da IA",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1sk9gfh/deem_dica_pra_quem_ta_começando_a_estudar/",
+        "is_self_post": true,
+        "post_created_utc": 1776083562.0,
+        "comments": [
+            {
+                "comment_id": "ofxkpk8",
+                "comment_body": "Óbvio que você só vê gente reclamando... Porquê alguém que está indo bem e está achando de boas vai se dar o trabalho de sair falando por aí na internet? Um post de alguém desempregado passando dificuldade é um desabafo, já o post de alguém empregado e com a carreira seguindo seu rumo é... Desnecessário.\n\n\nEnfim, o que você está falando é um papo bem comum de quem muda de área achando que vai mudar de vida na mesma hora. Cara, você vai entrar num mercado que pessoas estudam 4-5 anos de faculdade pra começar e entrar com um estágio/extensão... dá pra seguir sem faculdade? Claro que sim, conheço muita gente que fez isso, mas é aquela coisa, você tá competindo com gente que vai se esforçar MUITO pra atingir isso.\n\n\nTem gente que passa vários anos pra conseguir um trabalho bem fraco, tem gente que dá mais sorte, mas a maioria que consegue com certeza estudou MUITO e por MUITO tempo. Pessoal acha que vai entrar na TI e vai ser campo de flores e ganhar bem, mas muitos DEVs que arrumou um negócio bacana tiveram muita experiência no mercado e muito preparo técnico. É Normal ter que ficar meses enviando currículo pra +100.lugares pra ter 5 entrevistas. Não vai ser só maravilhas, mas é igual qualquer outra profissão, você precisa estar disposto a jogar o jogo do mercado.\n\n\n**Então minha dica pra você:** se preparar pra uma jornada longa e ir com calma. Eu não largaria o emprego ainda, você nem botou o pé na água pra ver se está gelada, não vai se jogar de uma vez. EU GOSTO DE TI, eu gosto de estudar programação, esse é o meu bagulho! Se eu tivesse que fazer tudo o que eu fiz até hoje achando ruim, eu estaria acabado... Veja se você gosta primeiro, monta um plano pé no chão e começa.",
+                "comment_score": 2,
+                "comment_created_utc": 1776085701.0
+            },
+            {
+                "comment_id": "ofy8zf1",
+                "comment_body": "Se largar o emprego atual vai ficar desempregado por um bom tempo, se atente a isso.",
+                "comment_score": 1,
+                "comment_created_utc": 1776092678.0
+            },
+            {
+                "comment_id": "ofzc13n",
+                "comment_body": "você não consegue nem escrever um post sem usar IA. \n\nTipo o que te diferencia de outra pessoa usando IA ? saca?   \nO mercado foi po krl, agora se você não tiver alguem para te indicar fudeu. ",
+                "comment_score": 1,
+                "comment_created_utc": 1776102998.0
+            },
+            {
+                "comment_id": "ofzgnnm",
+                "comment_body": "\\>> SE EU FOR CONTRATO MEU SALARIO AINDA DIMINUI POIS PAGARIA VARIOS IMPOSTOS  \nMe diz quais \"vários impostos são esses\"  \n\\>> mas tudo o que vejo são pessoas reclamando da área  \nPorque vc fica demais aqui no Reddit cheio de fudido.  \n\\>> Estou aberto a qualquer conselho sincero porque me sinto um pouco perdido  \nFaculdade + Inglês.  \n\\>> tenho muita afinidade por computadores e tecnologia  \nGostar de \"ficar no computador jogando e vendo youtube\" não é afinidade. Foda-se o que sua família diz. Você foi pesquisar e entender o que se faz na área de TI? Vc foi pesquisar os diversos ramos - TI não é somente dev - que existem na área de TI?  \n\\>> O que me assusta são os vários vídeos e posts reclamando das áreas que mencionei, tudo por causa da IA.  \nEstá olhando da maneira errada! A AI é só mais uma ferramenta. Quem souber aproveitar, vai se dar bem!\n\nVocê já está em Logistica, porque não segue isso? ",
+                "comment_score": 1,
+                "comment_created_utc": 1776104235.0
+            },
+            {
+                "comment_id": "og4qpms",
+                "comment_body": "Conselho sincero: Não largue seu emprego. Procure um emprego que te agrade e mude, mas não largue o seu emprego antes de tudo. ",
+                "comment_score": 1,
+                "comment_created_utc": 1776174253.0
+            },
+            {
+                "comment_id": "ofxkvgj",
+                "comment_body": "Meu conselho pra área de ti é entrar no mercado. Estágio não remunerado o que for. Existe demanda sim, mas não é fácil. Enfim, muitos estudos e um tempo dedicado à procura desse primeiro emprego.",
+                "comment_score": 0,
+                "comment_created_utc": 1776085753.0
+            },
+            {
+                "comment_id": "og0cxx9",
+                "comment_body": "nao sao varios impostos o ponto e que meu salario que ja e pouco vai diminuir, me expressei errado, como eu nao estagiário eu recebo o salario bruto quando eu efetivar vou ganhar menos pois vou pegar ele liquido de pois de ter os descontos da carteira assinada ",
+                "comment_score": 1,
+                "comment_created_utc": 1776112991.0
+            },
+            {
+                "comment_id": "og0dcn6",
+                "comment_body": "eu gostava muito de mecher com linux muito mesmo( foi o mais proximo de programar que eu cheguei mesmo sendo totalmente diferente de programação)era meio que um trabalho não remunerado nao e so o fato de derreter o cerebro no computador que contribui com minha afinidade ",
+                "comment_score": 1,
+                "comment_created_utc": 1776113106.0
+            },
+            {
+                "comment_id": "og0dkn6",
+                "comment_body": "pq nao sigo em logistica, e um trabalho mal remunerado e estressante sem chance de me dar direito a home office mesmo com anos dedicados a carreira",
+                "comment_score": 1,
+                "comment_created_utc": 1776113170.0
+            },
+            {
+                "comment_id": "og1kho5",
+                "comment_body": "Puta pensamento tacanha... ",
+                "comment_score": 1,
+                "comment_created_utc": 1776126579.0
+            },
+            {
+                "comment_id": "og1km73",
+                "comment_body": "\"mecher\" com Linux... çey  \nA verdade é... vc não tem a mínima idéia do que é trabalhar na área e nem se deu ao trabalho de pesquisar.   \n\\>> Escolhi programação e engenharia de software porque é uma área com histórico de bons salários, e meu sonho é viajar pelo mundo. \n\nVocê não deve escolher uma área somente porque \"ouviu dizer que tem bons salários\". Bons salários tem em qualquer profissão para quem é competente e gosta do que faz. Escolher só baseado nisso é roubada.",
+                "comment_score": 1,
+                "comment_created_utc": 1776126623.0
+            },
+            {
+                "comment_id": "og1ks1t",
+                "comment_body": "e quem te falou que em TI vc vai trabalhar de Home Office?   \nAcho que a tua visão está muito errada de tudo. Mas é isso ai.. 19 anos. Boa sorte e sucesso",
+                "comment_score": 1,
+                "comment_created_utc": 1776126681.0
+            },
+            {
+                "comment_id": "og3m8m8",
+                "comment_body": "com certeza as chances sao maiores do que em logistica",
+                "comment_score": 1,
+                "comment_created_utc": 1776158539.0
+            }
+        ]
+    },
+    {
+        "post_id": "1qombph",
+        "post_title": "Dar baixa em CNPJ",
+        "post_body": "Peguei um projeto PJ como renda extra, durou uns 4 meses e acabou agora em janeiro. Como eles tinham pressa pra eu começar, acabei abrindo um CNPJ como ME pela Contabilizei mesmo\n\nO problema é que agora não tenho mais interesse em pegar outros trampos PJ e quero dar baixa no CNPJ, mas a Contabilizei tá cobrando 1300 reais pra encerrar \n\nQueria saber de quem já passou por isso: vale mais a pena realmente dar baixa no CNPJ ou tem alguma forma de manter ele ativo pagando o mínimo possível? Hoje só tô pagando a mensalidade da Contabilizei e os impostos dos meses em que emiti nota\n\nSe a melhor opção for encerrar mesmo, faz sentido pagar esse valor ou compensa procurar outro contador ou até tentar fazer tudo por conta própria?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1qombph/dar_baixa_em_cnpj/",
+        "is_self_post": true,
+        "post_created_utc": 1769538947.0,
+        "comments": [
+            {
+                "comment_id": "o22gjbb",
+                "comment_body": "BEM-VINDO a pegadinha dessas contabilidades \"Self-Service\" que são baratinhas.",
+                "comment_score": 5,
+                "comment_created_utc": 1769540264.0
+            },
+            {
+                "comment_id": "o22icse",
+                "comment_body": "Eu tinha um contador particular que eu pagava 300 por mês de mensalidade, quando fui fechar a empresa me cobrou quase 900 reais. Todos fazem isso.",
+                "comment_score": 5,
+                "comment_created_utc": 1769540734.0
+            },
+            {
+                "comment_id": "o23lhjo",
+                "comment_body": "Que eu saiba, tem custos para baixar cnpj de ME. A diferença entre eles e outros contadores serão as taxas que cobrarão por intermediar o serviço",
+                "comment_score": 2,
+                "comment_created_utc": 1769551207.0
+            },
+            {
+                "comment_id": "o24c9q6",
+                "comment_body": "vc realmente paga pra dar baixa em CNPJ, mas da pra manter ativo sem pagar imposto sim. só manter o cnpj como inativo/sem movimento, mas aí vc não pode fazer nenhuma movimentação financeira e tem que entregar as declarações zeradas",
+                "comment_score": 2,
+                "comment_created_utc": 1769559156.0
+            },
+            {
+                "comment_id": "o25smny",
+                "comment_body": "Ou então você simplesmente da baixa por conta própria \n\n\n\n\nNo mundo real quem não tem dinheiro aprende e faz sozinho \n\n\nDar baixa de mei é de graça... Me eu nunca fiz mas imagino que no máximo vai ter que pagar algo na junta comercial então bota aí 200 reais ",
+                "comment_score": 2,
+                "comment_created_utc": 1769576387.0
+            },
+            {
+                "comment_id": "o2798m5",
+                "comment_body": "eu já usei esse aqui pela comodidade [https://www.baixacnpj.com/](https://www.baixacnpj.com/)\n\nmas acredito que vc consiga fazer sem problemas, no portal do govbr tem o passo a passo  \n[https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cnpj/solicitacao-de-atos-perante-o-cnpj-por-meio-da-internet/baixa-de-inscricao-de-estabelecimento-matriz](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cnpj/solicitacao-de-atos-perante-o-cnpj-por-meio-da-internet/baixa-de-inscricao-de-estabelecimento-matriz)",
+                "comment_score": 2,
+                "comment_created_utc": 1769602466.0
+            },
+            {
+                "comment_id": "o22cxz9",
+                "comment_body": "Eles tem um esquema pra hibernar sua empresa pagando um valor menor. Mas o imposto continua.",
+                "comment_score": 1,
+                "comment_created_utc": 1769539357.0
+            },
+            {
+                "comment_id": "o25wpjc",
+                "comment_body": "Cobraram mais barato que meu contador… cobrou 2.200 pra dar baixa kkk",
+                "comment_score": 1,
+                "comment_created_utc": 1769578074.0
+            },
+            {
+                "comment_id": "o27jt8o",
+                "comment_body": "A agilize por exemplo tem um plano de congelamento , que só mantém ativo, fiquei 3 meses pagando 75 reais, mas no meu caso eu ainda tinha interesse em pegar projetos PJ no futuro, então compensou",
+                "comment_score": 1,
+                "comment_created_utc": 1769606468.0
+            },
+            {
+                "comment_id": "o379hdq",
+                "comment_body": "Os cara nao tem um plano de manutenção? Na Adaflow eu sei que tem",
+                "comment_score": 1,
+                "comment_created_utc": 1770057664.0
+            },
+            {
+                "comment_id": "o9vpplu",
+                "comment_body": "Normal, aqui no escritório o contador cobra a partir de R$1.200,00, todos pensam que é fácil, mas não é não, tem que fechar todos os órgãos incluindo prefeitura/jucesp, isso se a empresa não tiver pendencia, se tiver pendencia pode reservar R$2.000,00",
+                "comment_score": 1,
+                "comment_created_utc": 1773247260.0
+            },
+            {
+                "comment_id": "o27qyos",
+                "comment_body": "Qualquer contador tem custo para encerrar a empresa",
+                "comment_score": 1,
+                "comment_created_utc": 1769608764.0
+            },
+            {
+                "comment_id": "o22ilx3",
+                "comment_body": "pse tava dando uma pesquisa e aparentemente é normal mesmo, so nao sabia kkk",
+                "comment_score": 1,
+                "comment_created_utc": 1769540800.0
+            }
+        ]
+    },
+    {
+        "post_id": "1oua28c",
+        "post_title": "Seria útil criar conteúdos sobre como trabalhar para o exterior?",
+        "post_body": "Queria a opinião e visão de vocês sobre uma ideia. TLDR no final\n\nContexto: Sou Product Designer (ux/ui),trabalho para os EUA tem um pouco mais de um ano e nesse tempo cheguei a sofrer layoff, mas atualmente trabalho em mais de um emprego (estou em 3 e fiz alguns posts no reddit sobre como isso me fez ganhar 12x mais do que ganhava no Brasil).\n\nTodas as vagas que consegui para fora foi 100% na marra, nenhuma foi por indicação ou por recrutador me mandando mensagem, foi encontrando as vagas, aplicando no site, mandando mensagem pro recrutador e etc.\n\nDito isso, minha ideia (e também sugestão de alguns de vocês) é criar conteúdos sobre como é trabalhar nesse mercado, como eu fiz para conseguir, dicas, impostos e demais assuntos relacionados a esse meio. Também já considerei dar mentoria para a galera da minha área ou fazer mentoria relacionado a como ir para o mercado do exterior.\n\nDúvida: O que vocês acham dessas ideias? É algo que poderia gerar algum engajamento? Teriam interesse?\n\nPenso em fazer para ajudar a galera que quer trilhar um caminho parecido, mas com certeza também seria interessante ter uma renda extra com esses conteúdos.\n\nDetalhe: também vou viajar o mundo e posso gravar vídeos sobre isso, trabalho + viajar e coisas do tipo.\n\nObrigado de antemão!!\n\nTLDR: Trabalho para fora a mais de um ano e no momento em 3 empregos, estou pensando em criar conteúdos sobre como conseguir entrar nesse mercado e queria a opinião de vocês sobre isso.",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1oua28c/seria_útil_criar_conteúdos_sobre_como_trabalhar/",
+        "is_self_post": true,
+        "post_created_utc": 1762869327.0,
+        "comments": [
+            {
+                "comment_id": "noa7rd1",
+                "comment_body": "[removed]",
+                "comment_score": 2,
+                "comment_created_utc": 1762870420.0
+            },
+            {
+                "comment_id": "noaej1o",
+                "comment_body": "Eu tenho interesse, super consumiria teu conteúdo. Toda vez que vou pesquisar sobre isso é um mar de informações espalhadas e tbem tem muita desinformação, daí acabo desistindo",
+                "comment_score": 2,
+                "comment_created_utc": 1762872725.0
+            },
+            {
+                "comment_id": "noowwgc",
+                "comment_body": "Quando fizer me avisa, meu sonho trabalhar overemployed pra gringa",
+                "comment_score": 1,
+                "comment_created_utc": 1763065390.0
+            },
+            {
+                "comment_id": "noxwhzw",
+                "comment_body": "Se tu precisa perguntar com. Certeza tu não vai fazer sucesso ",
+                "comment_score": 1,
+                "comment_created_utc": 1763189054.0
+            },
+            {
+                "comment_id": "noa9aw7",
+                "comment_body": "Muito obrigado pelo incentivo! Estou muito inclinado a fazer, algum sugestão de qual formato ou plataforma usar?",
+                "comment_score": 2,
+                "comment_created_utc": 1762870963.0
+            },
+            {
+                "comment_id": "noag7c9",
+                "comment_body": "Faz sentido! Tem muita informação e sinto que meu caso é muito válido porque foi na tentativa e erro, na marra mesmo kk\n\nEDIT: Tem algum ponto que tu tem mais dúvidas/curiosidade ou dificuldade?",
+                "comment_score": 2,
+                "comment_created_utc": 1762873270.0
+            },
+            {
+                "comment_id": "noa9p6x",
+                "comment_body": "[removed]",
+                "comment_score": 1,
+                "comment_created_utc": 1762871099.0
+            },
+            {
+                "comment_id": "noacr8d",
+                "comment_body": "Você é um guerreiro, 3 empregos e ainda quer criar conteúdo sobre, a ideia é monetizar ou apenas ajudar? Se for pela ajuda, acredito que seja uma ótima iniciativa, mas se for monetizar, tendo 3 empregos, já quero esse curso!",
+                "comment_score": 1,
+                "comment_created_utc": 1762872132.0
+            },
+            {
+                "comment_id": "nr3zuyl",
+                "comment_body": "Oi, desculpa a demora, não uso muito o Reddit.\n\nMas tenho sim algumas dúvidas, especialmente na parte legal da coisa, como se precisa abrir conta PJ, que tipo de conta e impostos sobre ou se tem algum outro regime, se precisa ter alguma autorização ou cadastro no outro país para poder trabalhar, enfim, todo o trâmite do início ao fim para que dê tudo certo a partir de alguém que hoje em dia só possui CLT.\n\nTambém tenho dúvidas sobre como você encontrou as vagas, como se preparou para o processo seletivo, dicas nesse sentido, se você teve algum choque cultural ou dificuldades no início, quais as diferenças para os processos seletivos no Brasil, nível de exigência em comparação com vagas do Brasil",
+                "comment_score": 1,
+                "comment_created_utc": 1764275750.0
+            },
+            {
+                "comment_id": "noa9zt0",
+                "comment_body": "Justo, acho que dá para testar ambos e ver o que rola, muito obrigado!",
+                "comment_score": 1,
+                "comment_created_utc": 1762871197.0
+            },
+            {
+                "comment_id": "noadkf3",
+                "comment_body": "Cara é os 2, é um assunto que gosto de falar sobre e fiz até post no reddit e dei várias dicas, mas se vou investir meu tempo nisso, melhor ainda lucrar um pouco kkk",
+                "comment_score": 1,
+                "comment_created_utc": 1762872404.0
+            },
+            {
+                "comment_id": "nr43fux",
+                "comment_body": "Sobre a parte legal: você pode fazer tanto como PJ ou como PF, PJ é o ideal, já que você pagar de 3% a 6% de imposto ao invés dos 27.5% do CLT. Não precisa de nenhuma autorização ou cadastro.\n\nEu encontrei as vagas principalmente no linkedin e sites de vagas específicos para minha área (tipo behance e dribbble), sempre olhava as vagas mais recentes (últimas 24hrs) todo dia e usava a aplicação simplificada para conseguir aplicar o máximo possível.\n\nAchar o site da empresa e aplicar nele também é uma boa. Mas pesquisa mais você acha job boards bons, canais no discord ou slack para sua stack e afins, tem que pesquisar muito para achar os que funcionam para você. \n\nSobre choques e processo: a galera lá é muito mais direta e acho muito mais tranquila de lidar do que mo Brasil, como é algo novo e surreal, no início sempre ficava com aquele medo de ser mandado embora do nada ou do inglês, mas são medos bobos e rapidinho tu percebe que não é assim.\n\nEu acho o nível exigido lá fora muito menor que no Brasil, eles são bem mais realistas do que aqui que pedem um superhumano com 500 funções, eles trabalham num ritmo bem mais leve no geral (tirando startup que pode ter momentos de correria pra caramba, mas isso é em qualquer lugar) e brasileiro normalmente se destaca muito porque somos ágeis, pensamos fora da caixa e fáceis de lida.\n\nEu não pretendo voltar a trabalhar no mercado brasileiro nem tão cedo, até porque não vejo muitas oportunidades que conseguiriam cobrir o salário que recebo lá",
+                "comment_score": 2,
+                "comment_created_utc": 1764276966.0
+            },
+            {
+                "comment_id": "noadxos",
+                "comment_body": "Eu apoio demais, se for bom, vou consumir.. Se for muito bom, vou pagar",
+                "comment_score": 1,
+                "comment_created_utc": 1762872526.0
+            },
+            {
+                "comment_id": "nr7ud4u",
+                "comment_body": "Muito obrigada pelo retorno! Me ajudou bastante, tinham muitas coisas nubladas pada mim rsrs.\n\nSua resposta me deu coragem para começar a trilhar esse caminho de trabalhar para fora também. Você acha que ter uma graduação pesa muito ou eles são de boas com isso? Porque ainda não terminei a minha",
+                "comment_score": 1,
+                "comment_created_utc": 1764338381.0
+            },
+            {
+                "comment_id": "noag98p",
+                "comment_body": "Kkkkk vou te manter atualizado!\n\nEDIT: Tem algum ponto que tu tem mais dúvidas/curiosidade ou dificuldade?",
+                "comment_score": 1,
+                "comment_created_utc": 1762873287.0
+            },
+            {
+                "comment_id": "nr7wflh",
+                "comment_body": "Tmj cara! Vai dar certo\n\nOlha no geral eles consideram mais skills do que a faculdade, a minha primeira eu não tinha formado ainda",
+                "comment_score": 1,
+                "comment_created_utc": 1764339168.0
+            }
+        ]
+    },
+    {
+        "post_id": "1onx906",
+        "post_title": "3.500 EUROS/mês em LONDRES na Inglaterra via COOPERATIVA BR (5% taxa) – é golpe ou o futuro do nearshoring??",
+        "post_body": "Fala, galera!\n\nAcabei de receber uma proposta **insana** de uma empresa de **Londres (Inglaterra)**:\n\n**Cargo:** Analista de Dados (full remote)  \n**Salário:** **€3.500/mês** (\\~R$ 21.000)  \n**Modelo:** **Cooperativa de São Paulo** (sem precisar abrir CNPJ)\n\nA empresa oferece **PJ normal**, mas **recomenda fortemente o modelo cooperado**:\n\n* **Taxa administrativa: 5%**\n* **Vs. \\~15,5% de impostos no PJ**\n* **+ Seguro de vida + Plano de saúde com coparticipação**\n* **Zero burocracia:** não precisa CNPJ, nota fiscal, contador, Carnê-Leão, nada!\n\nEles dizem que a cooperativa cuida de **tudo**: invoice, câmbio, contratos, exportação de serviço e etc.\n\nAté então, eu só conhecia **CLT** e **PJ**. Nunca ouvi falar de **modelo cooperado.**\n\n**Alguém aqui já trabalhou assim?**\n\n* Funciona mesmo?\n* É regulado pelo BC?\n* Tem pegadinha fiscal ou risco de malha fina?\n* Vale mais que PJ com exportação (6-8% de imposto)?\n\n**Me contem tudo nos comentários!**  \nSe tiver alguém que já passou por isso, marca aí ou manda DM.\n\n*(Se rolar interesse, posso até criar um grupo pra gente trocar ideia sobre isso – quem topa?)*",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1onx906/3500_eurosmês_em_londres_na_inglaterra_via/",
+        "is_self_post": true,
+        "post_created_utc": 1762227680.0,
+        "comments": [
+            {
+                "comment_id": "nn117xh",
+                "comment_body": "Euro em Londres? Tá no mínimo estranho isso ai.",
+                "comment_score": 13,
+                "comment_created_utc": 1762245477.0
+            },
+            {
+                "comment_id": "nn04qb7",
+                "comment_body": "Só toma cuidado para não fazer a besteira que eu fiz: entrei de \"sócio\" em uma empresa com mais umas 30 pessoas. Dessa forma a gente podia prestar serviços para uma grande empresa sem criar vínculo empregatício.\nPara fechar essa empresa foi um parto, até achar essas 30 pessoas e pedir para assinar o distrato, foram anos. Chegamos a pensar em entrar na Justiça para fechar a empresa, mas era tudo muito caro.",
+                "comment_score": 5,
+                "comment_created_utc": 1762228596.0
+            },
+            {
+                "comment_id": "nn0zr50",
+                "comment_body": "Cooperativa? Cagada.\n\n1828499219 sócios nessa porra. Você vai colocar seu nome em risco com um monte de gente.",
+                "comment_score": 4,
+                "comment_created_utc": 1762244548.0
+            },
+            {
+                "comment_id": "nn72k6n",
+                "comment_body": "Trabalho PJ pra gringa e pago menos de 4% de imposto. \n\nCNAE 85.99-6-03 - Treinamento em informática.",
+                "comment_score": 2,
+                "comment_created_utc": 1762324009.0
+            },
+            {
+                "comment_id": "nn1ed2f",
+                "comment_body": "Vc sabe que Inglaterra não usa euros, né? \n\n\nO que vc acharia se uma empresa do México de pagasse em kwanzas?",
+                "comment_score": 3,
+                "comment_created_utc": 1762253437.0
+            },
+            {
+                "comment_id": "nn18775",
+                "comment_body": "Pela natureza da cooperativa, se ela der prejuízo você tem que tirar do bolso para cobrir.\n\nPode ser ótimo, o sicoob é uma cooperativa que nunca deu prejuízo, até onde me consta.\n\nSe ela der lucro, ele também é repartido entre os associados. É estranho que a proposta não tenha mencionado isso.\n\nSe não estão te oferecendo CLT e nem PJ, e nem estão te oferecendo para se associar, então que modalidade de contrato é essa?\n\nSó digo para estudar bastante no que tá entrando, talvez com auxílio de consultoria de um contador.",
+                "comment_score": 1,
+                "comment_created_utc": 1762249846.0
+            },
+            {
+                "comment_id": "nn1iddx",
+                "comment_body": "Gorpeeee",
+                "comment_score": 1,
+                "comment_created_utc": 1762255576.0
+            },
+            {
+                "comment_id": "nn21l2e",
+                "comment_body": "Como assim não precisa de carne pra receita? Pingou na conta tem IRPF ajustado até os 27%, não?",
+                "comment_score": 1,
+                "comment_created_utc": 1762265353.0
+            },
+            {
+                "comment_id": "nn2c563",
+                "comment_body": "Estuda como é o sistema de cooperado na Inglaterra, porque é como já mencionaram, se der lucro, você ganha (ou deveria), se der prejuízo, você paga.\n\nAlém disso, é como falaram, Londres a moeda é Libra, não Euro.",
+                "comment_score": 1,
+                "comment_created_utc": 1762268680.0
+            },
+            {
+                "comment_id": "nn5dicg",
+                "comment_body": "Vc vai morar lá ou trabalhar daqui?\n\nNão é tanto golpe, mas estariam tirando vantagem de vc.\n\nMais vantagem vc mesmo abrir uma empresa lá.",
+                "comment_score": 1,
+                "comment_created_utc": 1762300523.0
+            },
+            {
+                "comment_id": "nn5sy73",
+                "comment_body": "O valor está baixo.\nSer em euros não é problema.\nJá recebi em euros trabalhando pra UK e hoje recebo em dólar trabalhando pra Ucrânia.... tudo vai do acordo.\nCooperativa funciona sim e o esquema é isso que você descreveu. Só pesquisa a reputação deles porque vai de quem administra... se for gente honesta é tranquilo. \nRisco de malha fina sempre tem... vai das tuas rotinas de passar tudo pro contador e da competência dele. Mas até aí até CLT pode cair rs\n\nFora isso da pra tirar até uns 5k euro trabalhando remoto PJ pra Europa. \nPega esse trampo e já começa a procurar o próximo.",
+                "comment_score": 1,
+                "comment_created_utc": 1762305807.0
+            },
+            {
+                "comment_id": "nn1l6od",
+                "comment_body": "Cooperativa é um modelo excelente. É comum em outras indrústrias. Provavelmente existe uma cooperativa de taxi na sua cidade.",
+                "comment_score": 0,
+                "comment_created_utc": 1762256939.0
+            },
+            {
+                "comment_id": "nn1vpfb",
+                "comment_body": "👀",
+                "comment_score": 2,
+                "comment_created_utc": 1762263402.0
+            },
+            {
+                "comment_id": "nn0zsun",
+                "comment_body": "Mesmo esquema que estão colocando nele.",
+                "comment_score": 3,
+                "comment_created_utc": 1762244578.0
+            },
+            {
+                "comment_id": "nn9oliz",
+                "comment_body": "Eu uso o de digitados e da na mesma, menos de 4%, recomendo muito",
+                "comment_score": 1,
+                "comment_created_utc": 1762362838.0
+            },
+            {
+                "comment_id": "nn21nij",
+                "comment_body": "Melhor pegar PJ direto pra fora q sai na casa de 10~11% de impostos ",
+                "comment_score": 1,
+                "comment_created_utc": 1762265376.0
+            },
+            {
+                "comment_id": "nn2dhre",
+                "comment_body": "Ele vai trabalhar no Brasil pra uma cooperativa brasileira cara, da uma lida com atenção. O OP só tem que pesquisar como essa cooperativa vai funcionar, nunca trabalhei assim, então não tem como dar opinião.",
+                "comment_score": 1,
+                "comment_created_utc": 1762269085.0
+            },
+            {
+                "comment_id": "nn9obxi",
+                "comment_body": "PJ pra fora, EUA pelo menos é 3.05%",
+                "comment_score": 1,
+                "comment_created_utc": 1762362764.0
+            },
+            {
+                "comment_id": "nn9s8j2",
+                "comment_body": "Digo 10% com todos os trâmites, contabilidade + INSS + IRPF do pró-labore + INSS patronal, etc\n\nImposto mesmo fica de fato na faixa de 3~6% dependendo do cnae",
+                "comment_score": 1,
+                "comment_created_utc": 1762363873.0
+            }
+        ]
+    },
+    {
+        "post_id": "1mj52ah",
+        "post_title": "DEV PJ: Abrir um MEI ou ME?",
+        "post_body": "Vi uma postagem sobre remunerações da área da tecnologia, e por mais que não tenhamos essa visão sobre o mercado CLT, diariamente atendemos devs/programadores com uma oferta PJ em mãos, analisando o melhor caminho a seguir, e em se tratando de remunerações menores a possibilidade do MEI é sempre é uma questão levantada.\n\n# O que vocês já sabem:\n\nAs atividades da área da tecnologia não são permitidas ao MEI, então seu CNPJ como MEI não conterá um CNAE vinculado a área de desenvolvimento/consultoria em T.I. O que muitos acabam fazendo é colocando uma atividade genérica, como preparação de documentos, instrutor de informática independente, enfim, mas neste cenário é importante avaliar alguns pontos.\n\n# O que vocês talvez ainda não saibam:\n\n**1. VALIDAÇÃO DA EMPRESA**\n\nÉ importante confirmar com a empresa contratante se eles possuem algum problema com relação a você ser contratado através de um MEI, pois a sua nota fiscal não será compatível com o serviço que você realmente executa, e algumas empresas possuem restrições quanto a essa formalização.\n\n**2. LIMITE DE FATURAMENTO**\n\nO MEI possui um limite anual de faturamento de 81K, ou seja, equivalente a uma remuneração mensal de aproximadamente R$ 6.750,00. Neste ponto é importante saberem de algumas informações:\n\n* Se a sua remuneração for superior a R$ 6.750,00/mês e estiver pensando em abrir o MEI de início e depois migrar para ME, precisa ficar muito atento ao faturamento, pois se você extrapolar o limite e for desequadrado pela Receita Federal de forma automática, precisará fazer a contabilidade retroativa e pagar impostos como ME desde os efeitos do desenquadramento.\n* Além disso, o teto de 81K é calculado considerando o período de 12 meses. Se o MEI for aberto na metade do ano, o teto será proporcional ao período, ex.: MEI aberto em 01/08, logo, o teto de faturamento será de R$ 33.750,00 neste ano.\n* O MEI está sendo cada vez mais monitorado, e não é somente o faturamento em notas fiscais emitidas que conta. É importante estar atento a toda movimentação que passa na sua conta (PJ e PF).\n\n**3. RISCOS DO ENQUADRAMENTO**\n\nPor último, é importante que esteja ciente dos riscos dessa manobra: por ser uma atividade não permitida ao MEI, se for identificado este enquadramento incorreto para minimizar os tributos, a Receita poderá **desconsiderar a existência dos seu MEI e te fazer tributar todos os recebimentos como pessoa física, o que pode fazer com que o imposto chegue a até 27,5%, sendo que como ME é de somente 6%.** Abrir um MEI de forma indevida é um risco, e é necessário estar ciente e analisar todos estes pontos para fazê-lo com consciência.\n\nDe qualquer modo, se optar pela abertura do MEI e depois o faturamento aumentar, sempre recomendamos a baixa do MEI e abertura de novo CNPJ, para deixar esse \"passado de irregularidades\" para trás e iniciar uma nova jornada. Mas se a abertura de uma ME for uma possibilidade, sem dúvidas é o caminho mais seguro, e que apresenta alternativas legais de diminuição de imposto.\n\nSe estiver nessa fase de escolha ou já passou por isso, comenta aqui. Tô por aqui pra responder o que puder — e sem empurrar serviço, juro. 😄",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1mj52ah/dev_pj_abrir_um_mei_ou_me/",
+        "is_self_post": true,
+        "post_created_utc": 1754487842.0,
+        "comments": [
+            {
+                "comment_id": "n78q8a3",
+                "comment_body": "Falou chát gpt",
+                "comment_score": 8,
+                "comment_created_utc": 1754492208.0
+            },
+            {
+                "comment_id": "n78j59j",
+                "comment_body": "Sempre abra ME, quem abre MEI sendo dev não pode reclamar de político safado",
+                "comment_score": 11,
+                "comment_created_utc": 1754490171.0
+            },
+            {
+                "comment_id": "n78urw9",
+                "comment_body": "Nunca MEI.\n\n\nConverse com um contador pra fazer da forma mais correta possível.",
+                "comment_score": 4,
+                "comment_created_utc": 1754493503.0
+            },
+            {
+                "comment_id": "n78rfr6",
+                "comment_body": "Um post informativo e alertando algo importante pra maioria de quem posta aqui e no brdev que comenta que faz MEI em vez de ME e já começa levando downvote?",
+                "comment_score": 2,
+                "comment_created_utc": 1754492553.0
+            },
+            {
+                "comment_id": "n78cusq",
+                "comment_body": "Se você ganha menos de 130 mil reais por ano (novo teto do MEI) abre MEI e bota qualquer coisa próxima das suas atividades\n\nSe ganha mais de 130 mil reais por ano abre ME\n\n\nEdit: 81 mil",
+                "comment_score": 2,
+                "comment_created_utc": 1754488275.0
+            },
+            {
+                "comment_id": "n78mqoy",
+                "comment_body": "Depende do faturamento",
+                "comment_score": 2,
+                "comment_created_utc": 1754491220.0
+            },
+            {
+                "comment_id": "n7j0fed",
+                "comment_body": "A sua dúvida é?",
+                "comment_score": 1,
+                "comment_created_utc": 1754618015.0
+            },
+            {
+                "comment_id": "n7vyva6",
+                "comment_body": "Migrar de mei para me, tem maior risco? Vi casos que deram baixa no mei e vieram cobrar anos depois.",
+                "comment_score": 1,
+                "comment_created_utc": 1754798686.0
+            },
+            {
+                "comment_id": "nb5vj14",
+                "comment_body": "Amore os centavos que o banco colocar na sua conta Do MEI coloca junto aos valores que recebe de venda ? Quando for fazer a declaração mensal, anual e um imposto de renda de pessoa física??\n\nhttps://preview.redd.it/d2kh2fzijslf1.jpeg?width=1024&format=pjpg&auto=webp&s=711a336871c0be2678bf66da40aad3bd5145058d",
+                "comment_score": 1,
+                "comment_created_utc": 1756400191.0
+            },
+            {
+                "comment_id": "n7ee2ag",
+                "comment_body": "MEI é coisa de muito pobre, pq se for pensar q a margem de lucro é no máximo 50% sobra nem 4k por mês, q em um ano é tipo ganhar um salário mínimo",
+                "comment_score": 0,
+                "comment_created_utc": 1754566567.0
+            },
+            {
+                "comment_id": "n78uwdj",
+                "comment_body": "Da preguiça, né?",
+                "comment_score": 2,
+                "comment_created_utc": 1754493539.0
+            },
+            {
+                "comment_id": "n79dzei",
+                "comment_body": "Que pena que você tenha interpretado como chat :( Escrevi cada etapa da explicação, com muita atenção para não deixar passar nada. Nosso intuito é trazer informação para vocês, e aqui trouxe mais do que a IA pode oferecer: trouxe experiências reais e nosso conhecimento técnico, mas entendo sua visão \n\nTrouxe o perfil da contabilidade recentemente para essa plataforma, justamente com o intuito de nos aproximarmos mais de vocês, e ainda estou aprendendo a melhor forma de colocar os conteúdos e como a plataforma funciona. Espero que em breve nos vejam como uma mão amiga, e saibam que tem uma pessoa real aqui cuidando de cada resposta/conteúdo, mesmo com erros e acertos :)",
+                "comment_score": 1,
+                "comment_created_utc": 1754498911.0
+            },
+            {
+                "comment_id": "n78jhua",
+                "comment_body": "Isso aqui",
+                "comment_score": 3,
+                "comment_created_utc": 1754490274.0
+            },
+            {
+                "comment_id": "n78z2l7",
+                "comment_body": "se os impostos fossem menores não ira precisar abrir 1 mei ou 2 para pagar menos",
+                "comment_score": 2,
+                "comment_created_utc": 1754494721.0
+            },
+            {
+                "comment_id": "n795d1r",
+                "comment_body": "Quê? Por quê? Reduzir custos com impostos é um dever cível, ainda mais nesse país. \n\nA propósito, tu gastou quanto e gasta quanto, com uma ME? O custo é sempre o percentual que vem do simples nacional, mais custos com contador, correto?",
+                "comment_score": -3,
+                "comment_created_utc": 1754496467.0
+            },
+            {
+                "comment_id": "n78z5nx",
+                "comment_body": "e pro cara que esta ganhando 3.5k ou menos como pj vai fazer o que?",
+                "comment_score": 4,
+                "comment_created_utc": 1754494745.0
+            },
+            {
+                "comment_id": "n78dctk",
+                "comment_body": "Cuidado! Tramita atualmente um projeto para aumentar o limite de faturamento do MEI para 130K, mas ainda não está em vigor! Atualmente o teto ainda é de 81K. Essa possibilidade de aumento do teto circula há algum tempo, mas ainda não há aprovação oficial dessa proposta",
+                "comment_score": 2,
+                "comment_created_utc": 1754488432.0
+            },
+            {
+                "comment_id": "n85xisr",
+                "comment_body": "Nós geralmente recomendamos a baixa do MEI justamente para já cessar o vínculo com esse CNPJ, e afastar ao máximo possível esse passado de irregularidades. Com o CNPJ permanecendo ativo, ele permanece no \"radar\" da Receita Federal, tendo maiores chances de existir uma fiscalização",
+                "comment_score": 1,
+                "comment_created_utc": 1754940994.0
+            },
+            {
+                "comment_id": "n7f78v9",
+                "comment_body": "MEI foi pensado pra isso mesmo, só pra começar, depois vai pra ME",
+                "comment_score": 1,
+                "comment_created_utc": 1754576069.0
+            },
+            {
+                "comment_id": "n79mrbr",
+                "comment_body": "Eu recomendo a todo mundo a contabilizei\n\n\nNem uso eles porque eu faço a minha própria contabilidade \n\n\nCoisa que nenhuma empresa de contabilidade do Brasil diz que é possível... \n\n\nMás esse negócio de sair fazendo spam em rede social?? Jogo de empresa pobre \n\n\nGoogle ads é super barato ",
+                "comment_score": 2,
+                "comment_created_utc": 1754501309.0
+            },
+            {
+                "comment_id": "n7958a1",
+                "comment_body": "Fazer o correto conforme o comentário do rapaz.",
+                "comment_score": 2,
+                "comment_created_utc": 1754496430.0
+            },
+            {
+                "comment_id": "n78elsr",
+                "comment_body": "www25.senado.leg.br/web/atividade/materias/-/materia/149107",
+                "comment_score": 2,
+                "comment_created_utc": 1754488816.0
+            },
+            {
+                "comment_id": "n78fm7d",
+                "comment_body": "Já foi aprovada pelo senado. Mas o trâmite não terminou, tem que ter aprovação do presidente da República, deve demorar algum tempo ainda. Então até pro ano que vem melhor considerar 81k mesmo",
+                "comment_score": 2,
+                "comment_created_utc": 1754489121.0
+            },
+            {
+                "comment_id": "n7f7x8d",
+                "comment_body": "Na vdd n, foi pra ter alguma formalidade em coisas q galera trabalhava por conta e pra ter vínculo com o INSS pq os q n tem MEI acabam por n ter direito nenhum pela falta de contribuição \n\nPor isso profissões intelectuais não estão no MEI, só está aquelas q tu pode começar sem especialização e eram informais antes disso. Muita gente usa errado o MEI e nós q usam certo muitos poucos evoluem pra ME infelizmente",
+                "comment_score": 1,
+                "comment_created_utc": 1754576273.0
+            },
+            {
+                "comment_id": "n7vz2iw",
+                "comment_body": "É muito complicado? Alem da nota o que eles fazem? Eu pago 400 pau por mês para emitem uma nota mês.",
+                "comment_score": 1,
+                "comment_created_utc": 1754798777.0
+            },
+            {
+                "comment_id": "n7a66b4",
+                "comment_body": "u/MaestroLizard “O correto” que você diz é passar necessidade com menos dinheiro para poder encher o bolso de burocratas?  \nSe for isso, que bela definição de “correto” você trouxe para a mesa, meus parabéns!",
+                "comment_score": 4,
+                "comment_created_utc": 1754506755.0
+            },
+            {
+                "comment_id": "n79teiy",
+                "comment_body": "O correto seria nunca MEI pra essa pessoa ganhando 3.5k então?",
+                "comment_score": 1,
+                "comment_created_utc": 1754503118.0
+            },
+            {
+                "comment_id": "n78fot2",
+                "comment_body": "Exatamente... parado desde 2021. Foi aprovado pelo Senado e tramita na Câmara dos Deputados.   Se alguém faturar 130K no MEI acreditando neste projeto, terá problemas de desenquadramento.",
+                "comment_score": 2,
+                "comment_created_utc": 1754489143.0
+            },
+            {
+                "comment_id": "n78vern",
+                "comment_body": "De uma forma ou de outra, ainda é pertinente o aviso sobre informar o CNAE errado e o eventual problema com a receita e ser multado retroativamente pelo tempo usado com esse CNAE.",
+                "comment_score": 2,
+                "comment_created_utc": 1754493682.0
+            },
+            {
+                "comment_id": "n7fd0r1",
+                "comment_body": ">Na vdd n, foi pra ter alguma formalidade em coisas q galera trabalhava por conta e pra ter vínculo com o INSS pq os q n tem MEI acabam por n ter direito nenhum pela falta de contribuição \n\n\nFoi exatamente isso que eu quis dizer.\n\n> MEI é coisa de muito pobre, pq se for pensar q a margem de lucro é no máximo 50% sobra nem 4k por mês, q em um ano é tipo ganhar um salário mínimo\n\n> MEI foi pensado pra isso mesmo, só pra começar, depois vai pra ME",
+                "comment_score": 1,
+                "comment_created_utc": 1754577754.0
+            },
+            {
+                "comment_id": "n7vzfe8",
+                "comment_body": "Se você vem aqui me perguntar ao invés de ir no Google buscar.... Bom significa que pra você é impossível fszer sozinho ",
+                "comment_score": 0,
+                "comment_created_utc": 1754798941.0
+            },
+            {
+                "comment_id": "n7a7mya",
+                "comment_body": "Não, o \"correto\", *ao meu ver*, é sim estar de acordo com o que a lei define e estabelece para a empresa se encaixar em algum processo. Se você pensa diferente, faça o que você considera correto.\n\nIndependente do ganho, se o CNAE ou outra condição se encaixa em um determinado parâmetro pra você se encaixar, independente de gostar ou não, é o que deve ser seguido, em tese, pra não ter nenhum problema. \n\nSobre encher bolso de burocrata, ao meu ver, não está errado e concordo com você no ponto de ser errado uma pessoa, sob essas condições, ter que se encaixar como ME. Mas como disse, independente de gostar ou não, a lei corrente define algo e, se for pra fazer algo, principalmente relacionado a trabalho, que seja feito com base nela e não em gosto pessoal.",
+                "comment_score": 1,
+                "comment_created_utc": 1754507166.0
+            },
+            {
+                "comment_id": "n7a6frf",
+                "comment_body": "o correto é vc conseguir ganhar dinheiro e pagar menos impostos",
+                "comment_score": 2,
+                "comment_created_utc": 1754506830.0
+            },
+            {
+                "comment_id": "n79tm1g",
+                "comment_body": "Prestador de serviço para os CNAES indicados pra desenvolvimento de software sob demanda?\n\nSim",
+                "comment_score": 0,
+                "comment_created_utc": 1754503176.0
+            },
+            {
+                "comment_id": "n78gb53",
+                "comment_body": "Não tá parado desde 2021, esse site é uma merda. Entra no \"tramitação bicameral\". Lá está atualizado! A última atualização foi em abril de 2025, dando um parecer favorável da câmera dos deputados (quem iniciou foi o senado). Mas a tramitação na Câmara dos deputados não terminou e ainda falta o presidente. Então vai levar um tempo ainda",
+                "comment_score": 2,
+                "comment_created_utc": 1754489330.0
+            },
+            {
+                "comment_id": "n7913we",
+                "comment_body": "A chance disso acontecer é mínima pra não dizer impossível. Como que eles vão provar que você não faz o que tá no CNAE? Você acha que vão despender uma equipe de investigação e fazer uma auditoria na empresa pra descobrir se o cara que fatura 3k por mês realmente atua como técnico de equipamentos informáticos ou se ele escreve código? Que delírio.\n\nO que realmente é um dilema é saber se vale a pena pagar contabilidade pra não pagar imposto de renda de pessoa física ou se você simplesmente declara tudo como não tributável e mete o louco, já que você provavelmente só vai ficar nessa situação por no máximo 2 anos, depois vai ter q abrir ME de qualquer jeito.",
+                "comment_score": 2,
+                "comment_created_utc": 1754495283.0
+            },
+            {
+                "comment_id": "n7vzmfs",
+                "comment_body": "Pesquisei já.\nDefis, dcft, você faz?",
+                "comment_score": 1,
+                "comment_created_utc": 1754799031.0
+            },
+            {
+                "comment_id": "n7a8qnn",
+                "comment_body": "Concordo que o caminho correto deva ser seguido, mas isso vale para quem está recebendo um valor adequado. Mandar alguém que ganha R$ 3,5 mil como PJ abrir uma ME é praticamente condená-lo a um suicídio financeiro. Uma empresa no modelo ME paga muito mais impostos do que um MEI, cuja taxa mensal é de cerca de R$ 80. É mais sábio começar como MEI e, quando a renda aumentar, migrar para ME, caso contrário, a pessoa vai trabalhar apenas para pagar impostos. Além disso as empresas não ligam se vc é MEI ou ME o que importa para elas e o trabalho ter sido feito e a nota ser enviada no dia correto",
+                "comment_score": 2,
+                "comment_created_utc": 1754507478.0
+            },
+            {
+                "comment_id": "n7a96qz",
+                "comment_body": "u/MaestroLizard Tentar ser 100% correto no Brasil é dar um tiro nos dois pés: os maus chegam ao topo, e os bonzinhos são condenados ao fundo do limbo.",
+                "comment_score": 1,
+                "comment_created_utc": 1754507605.0
+            },
+            {
+                "comment_id": "n78j0v5",
+                "comment_body": "Simm, entendi sua colocação! Foi equivocado o uso do termo \"parado\" queria dizer de ter tido essa aprovação do Senado há tanto tempo e ainda estar em trâmite na Câmara dos Deputados, pois é algo que se estende a muito tempo... 2021 foi a ultima aprovação oficial. Infelizmente ainda precisamos considerar o teto de 81K para não ter problemas - o que não extingue também os problemas de enquadramento incompatível com a função",
+                "comment_score": 3,
+                "comment_created_utc": 1754490135.0
+            },
+            {
+                "comment_id": "n796kq1",
+                "comment_body": "Cara, se eles quiserem, eles vão descobrir, mas realmente, CNAE serve só pra estatísticas e possivelmente alimentar modelos estatísticos de aprendizado de máquina (ML), e no fim, é tudo pra processar mais empresas e em um menor espaço de tempo, para garantir o dinheiro da receita federal, o órgão mais poderoso do país.",
+                "comment_score": 2,
+                "comment_created_utc": 1754496811.0
+            },
+            {
+                "comment_id": "n7ai17x",
+                "comment_body": "Só de contabilidade a pessoa vai pagar um salário do mês inteiro (para mais), não tem conta que fecha para fazer ME ganhando 3.5k.",
+                "comment_score": 2,
+                "comment_created_utc": 1754510143.0
+            },
+            {
+                "comment_id": "n7b4w67",
+                "comment_body": "É isso que estou tentando dizer, porém a galera não gosta da verdade prefere ser enganada pela mentira.",
+                "comment_score": 1,
+                "comment_created_utc": 1754516749.0
+            }
+        ]
+    },
+    {
+        "post_id": "1kc5y9c",
+        "post_title": "Macbook no Paraguai?",
+        "post_body": "Oi, pessoal! Trabalho remotamente para uma startup dos EUA (Califórnia) e eles decidiram me dar um MacBook (seria meu mesmo), já que vou precisar bastante no trabalho. A ideia inicial era eles me enviarem o computador diretamente, mas aí comentei sobre o problema das taxas e impostos no Brasil.\n\nNo site da Apple nos EUA, o modelo escolhido custa cerca de US$ 3.000, mas aqui no Brasil o mesmo modelo sai por quase US$ 7.000 na loja da Apple, o que é um absurdo.\n\nEles então perguntaram se haveria alguma forma de conseguirmos o mesmo MacBook por volta dos US$ 3.000, seja comprando de outra forma ou em outro lugar. Fiquei de ver a possibilidade de comprar no Paraguai ( não sei se seria melhor passar na fronteira de carro ou ir de avião direto trazendo notebook como item pessoal) até mesmo se eles me enviarem direto dos EUA de alguma forma mais viável.\n\nAlguém aqui tem experiência com isso? Comprar no Paraguai compensa mesmo? Ou existe alguma forma segura de receber dos EUA sem cair em taxas?",
+        "post_url": "https://www.reddit.com/r/devBR/comments/1kc5y9c/macbook_no_paraguai/",
+        "is_self_post": true,
+        "post_created_utc": 1746097336.0,
+        "comments": [
+            {
+                "comment_id": "mpzzhcj",
+                "comment_body": "Lá no Paraguai acho que não consegues o mesmo modelo pelos 3k. Talvez o melhor seja usar o serviço da Saspy Express, que é uma mistura de redirecionador com courier. A sua empresa manda o laptop pro depósito da Saspy nos EUA e você escolhe em qual agência do Paraguai retira. Outra empresa que eu conheço que faz o mesmo serviço é a Fixo Cargo. Na verdade existem várias empresas fazendo isso, mas as duas que tive referências são estas.",
+                "comment_score": 8,
+                "comment_created_utc": 1746097848.0
+            },
+            {
+                "comment_id": "mq016dq",
+                "comment_body": "Oq eu fiz foi usar a minha máquina por uns meses até a primeira reunião presencial, aí busquei o Mac lá fora",
+                "comment_score": 3,
+                "comment_created_utc": 1746098647.0
+            },
+            {
+                "comment_id": "mq0amzx",
+                "comment_body": "Conheço uma pessoa que fez esse role de ir pro Paraguai recentemente e deu certo, mas eu acho que o jeito mais fácil e barato seria arranjar alguém de confiança da tua cidade que seja especializado nisso. Por outro lado, se quiser NF da pra usar um site tipo a goimports pra comprar, é um pouco mais caro mas tudo regularizado (aparentemente), ja comprei um macbook la enquanto tava ma mesma situação que você e veio na velocidade da luz pelo sedex",
+                "comment_score": 3,
+                "comment_created_utc": 1746102624.0
+            },
+            {
+                "comment_id": "mq2nx65",
+                "comment_body": "Meu macbook atual foi comprado no Paraguai.\n\nPaguei metade do preço do que seria no Brasil",
+                "comment_score": 3,
+                "comment_created_utc": 1746128548.0
+            },
+            {
+                "comment_id": "mq02k18",
+                "comment_body": "Para evitar caracterização de crime e a perda do equipamento na entrada do país é necessário seguir essas normativas: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel\n\nO ideal é que vc compre e a empresa te der reembolse. \n\nÉ preciso caracterizar que o bem adquirido é compatível com as circunstâncias da viagem (geralmente usado, fora da caixa, etc) daí fica fora da cota de 1.000U$. \n\nO mais seguro é vc declarar a entrada e pagar o imposto em cima dos 2k U$ que excede a cota normal.\n\nOs voos de Assunção e Foz são bem visado pra isso.",
+                "comment_score": 3,
+                "comment_created_utc": 1746099266.0
+            },
+            {
+                "comment_id": "mq0yjen",
+                "comment_body": "Se é o melhor eu não sei, mas falando sobre o que sei de apple no Paraguai é que uma das poucas marcas que realmente vale a pena pra notebook. Outras marcas tbm são baratas, mas se der BO, leva prejuízo. Ja a Apple, desde que vc compre um lacrado, ao ativar o icloud tem 1 ano de garantia GLOBAL apple, então se comprou lá e deu BO aqui a complicação e o preju é menor",
+                "comment_score": 2,
+                "comment_created_utc": 1746110594.0
+            },
+            {
+                "comment_id": "mq2v25b",
+                "comment_body": "Paraguai acho limitado as ofertas de MacBook la, tipo não tem todos os modelos. Você pode entrar em contato com as lojas e vê se tem disponível. O preço lá é igual dos eua pelo menos dos modelos que eu vi, passei duas vezes pela fronteira e foi super tranquilo, pega um táxi pra voltar que eles se comunicam e sabem quando estão parando, além de ser bem mais rápido. Outra opção seria uma empresa de envio para Paraguai mas não sei como funciona o imposto lá",
+                "comment_score": 2,
+                "comment_created_utc": 1746130601.0
+            },
+            {
+                "comment_id": "mq3rtqs",
+                "comment_body": "Se conseguir ir a Ponta Porã, no Mato Grosso do Sul, vale a pena. Faz fronteira seca com o Paraguai (você atravessa a rua e está lá). E no Shopping China vende a um preço muito mais acessível do que no Brasil.",
+                "comment_score": 2,
+                "comment_created_utc": 1746140921.0
+            },
+            {
+                "comment_id": "mq7pllw",
+                "comment_body": "Na época que comprei o meu, paguei 12500 em um MacBook Pro m1 512gb, o cara trouxe do Paraguai. Zero km. Só que ele tava com o produto na loja, só fui buscar. Se você procurar, tem lojas hoje no mesmo esquema, mas cuidado com preços muito baixos ou ofertas tentadoras, pode ser golpe, na época que estava comprando vi muitos.",
+                "comment_score": 2,
+                "comment_created_utc": 1746200431.0
+            },
+            {
+                "comment_id": "mq112l4",
+                "comment_body": "Já viu no Monaco Mac?",
+                "comment_score": 1,
+                "comment_created_utc": 1746111345.0
+            },
+            {
+                "comment_id": "mq1by5v",
+                "comment_body": "Comprei vários MacBooks no Paraguai. Fui, atravessei a ponte a pé, ok! Só que se eles vão pagar veja se vale a pena o perrengue. Já pedi pra muambeiro trazer por 20% a mais do preço de lá e paguei felizao. Veja ofertas boas no Mercadolivre ou outros lugares que são muito mais baratos que os oficiais.",
+                "comment_score": 1,
+                "comment_created_utc": 1746114538.0
+            },
+            {
+                "comment_id": "mq2qt41",
+                "comment_body": "A compra envolve a sua empresa, melhor pagar um pouco a mais e garantir nota fiscal. Ano passado comprei um macbook pro m3 pagando 6k a menos no ML do que no site da Apple, pesquisando rapidamente vi que hoje vc consegue o m4 pro +- na mesma faixa de preço.\n\nJá que sua empresa está ajudando, melhor ir pela alternativa mais cara e segura, é improvável mas, vai que vc tá passando pela fronteira e a PF te para? Melhor não servir de exemplo e aproveitar que a moeda deles é forte e eles estão dispostos a te ajudar kk",
+                "comment_score": 1,
+                "comment_created_utc": 1746129373.0
+            },
+            {
+                "comment_id": "mqcug94",
+                "comment_body": "Compra e paga a entrada mesmo. Assim voce vai poder viajar pra fora com ele com tranquilidade. Não vale a pena evitar agora, acredito. Se você trabalha pra lá a tarifa não será tão relevante para você.",
+                "comment_score": 1,
+                "comment_created_utc": 1746272902.0
+            },
+            {
+                "comment_id": "mqdiw9x",
+                "comment_body": "Tenta achar um meio termo no modelo e pede para eles comprarem na Amazon da vida, 4-5k dolares da para pegar um muito bom e tem garantia, pode viajar sem risco de ser taxado etc",
+                "comment_score": 1,
+                "comment_created_utc": 1746282275.0
+            },
+            {
+                "comment_id": "mq3k9o6",
+                "comment_body": "Manda eles comprarem na Apple Brasil pelo valor que for e te darem pq se não ainda vai te dar trabalho ou BO depois.",
+                "comment_score": 1,
+                "comment_created_utc": 1746138346.0
+            },
+            {
+                "comment_id": "mq00mdn",
+                "comment_body": "Dos Estados Unidos para o Paraguai não há impostos? E de avião de Assunção para Sp por exemplo, será que corro algum risco se trouxer sem caixa, como uso pessoal?",
+                "comment_score": 2,
+                "comment_created_utc": 1746098388.0
+            },
+            {
+                "comment_id": "mq02djf",
+                "comment_body": "Boa! Eles até comentaram que vai ter uma reunião presencial, mas não vai ser nos EUA :(",
+                "comment_score": 2,
+                "comment_created_utc": 1746099186.0
+            },
+            {
+                "comment_id": "niffcpt",
+                "comment_body": "e conseguiu entrar de boa com ele sem pagar imposto?",
+                "comment_score": 1,
+                "comment_created_utc": 1759934057.0
+            },
+            {
+                "comment_id": "mq0bdfg",
+                "comment_body": "Mas existe como comprovar que de lá é original? (Desculpe pela pergunta, sempre fui usuária linux, não sei muito bem sobre essas particularidades da apple)",
+                "comment_score": 2,
+                "comment_created_utc": 1746102914.0
+            },
+            {
+                "comment_id": "mq2o8ia",
+                "comment_body": "👏 você passou pela fronteira de carro? Pegou avião depois?",
+                "comment_score": 2,
+                "comment_created_utc": 1746128637.0
+            },
+            {
+                "comment_id": "mq05n0a",
+                "comment_body": "E de carro/ônibus, será que é mais tranquilo? É uso pessoal, pretendia trazer sem caixa, já com tudo da empresa instalado para mostrar caso seja parada....",
+                "comment_score": 2,
+                "comment_created_utc": 1746100598.0
+            },
+            {
+                "comment_id": "mvhpz93",
+                "comment_body": "se eu voltar da europa com 2 você acha que daria problema?",
+                "comment_score": 1,
+                "comment_created_utc": 1748816636.0
+            },
+            {
+                "comment_id": "niffw6w",
+                "comment_body": "tem alguma loja que eu consiga fazer uma pesquisa de preço online?",
+                "comment_score": 1,
+                "comment_created_utc": 1759934222.0
+            },
+            {
+                "comment_id": "mq2vie7",
+                "comment_body": "Muito obrigada!!!",
+                "comment_score": 1,
+                "comment_created_utc": 1746130730.0
+            },
+            {
+                "comment_id": "n30rk7u",
+                "comment_body": "o taxista chega a comentar com o passageiro? tipo, \"olha, tão parando la, se quiser esperar um pouco e tal bla bla bla\"... eles são gente boa assim? kkk dúvida honesta mesmo. to pensando em comprar meu macbook la, instalar as parada do trampo (sou desenvolvedor) e colocar na mochila sem caixa. passar a pé era a minha opção, mas né... sei não.",
+                "comment_score": 1,
+                "comment_created_utc": 1752466823.0
+            },
+            {
+                "comment_id": "mq46z1k",
+                "comment_body": "Já ouvi falar de Ponta Porã. Mas aí o pessoal dá esse rolezão até Ciudaded del Leste?",
+                "comment_score": 1,
+                "comment_created_utc": 1746146171.0
+            },
+            {
+                "comment_id": "mq4oxdc",
+                "comment_body": "É de boa comprar por lá? Já vi o preço, super vale a pena",
+                "comment_score": 1,
+                "comment_created_utc": 1746152604.0
+            },
+            {
+                "comment_id": "o8eyyzq",
+                "comment_body": "que dica foda ! Valeu de mais",
+                "comment_score": 1,
+                "comment_created_utc": 1772548285.0
+            },
+            {
+                "comment_id": "ogm1xi8",
+                "comment_body": "Tô buscando infos nessa Monaco Mac e não encontro nada recente além de três reclamações no Reclame Aqui. Ainda é um lugar confiável pra comprar Macs?",
+                "comment_score": 1,
+                "comment_created_utc": 1776380161.0
+            },
+            {
+                "comment_id": "mq28uny",
+                "comment_body": "Você já veio de avião? Se sim, por onde?",
+                "comment_score": 1,
+                "comment_created_utc": 1746124123.0
+            },
+            {
+                "comment_id": "ni8juqk",
+                "comment_body": "em qual loja vc compra?",
+                "comment_score": 1,
+                "comment_created_utc": 1759841045.0
+            },
+            {
+                "comment_id": "njh5pzb",
+                "comment_body": "Aaaa, me ajuda! Tô precisando de um muambeiro, me chama no pv??",
+                "comment_score": 1,
+                "comment_created_utc": 1760461073.0
+            },
+            {
+                "comment_id": "nli1fyt",
+                "comment_body": "Pode me dizer onde conseguir um muambeiro desse? Tô querendo viajar pra foz e queria comprar um.\n\nValeu!",
+                "comment_score": 1,
+                "comment_created_utc": 1761496881.0
+            },
+            {
+                "comment_id": "mq017gi",
+                "comment_body": "Sim, há impostos e no valor que a Saspy vai te cobrar eles estarão inclusos. Dificilmente vai dar problema na volta aérea. Faz duas semanas que voltei de Assunção por Viracopos. Como eu demorei muito pra passar pela Fiscalização (estava atendendo um chamado da empresa), acho que isso chamou a atenção da RF e me mandaram passar no raio-x. Fizeram duas ou 3 perguntas e me liberaram.",
+                "comment_score": 2,
+                "comment_created_utc": 1746098661.0
+            },
+            {
+                "comment_id": "mqmc5oq",
+                "comment_body": "Não existe isso de uso pessoal.\n\nOs únicos bens que não entram na cota são relógio e câmera fotográfica.\n\nEstando acima da cota de mil dólares, você poderá ser taxado. Principalmente por se tratar de um computador novinho em folha, que é facilmente identificado pela receita federal.",
+                "comment_score": 2,
+                "comment_created_utc": 1746401416.0
+            },
+            {
+                "comment_id": "mq4r7i5",
+                "comment_body": "Se não me engano paguei coisa de 100-150 dólares quando importei assim. Acho que já era com o frete. Foi por essa Saspsy",
+                "comment_score": 1,
+                "comment_created_utc": 1746153420.0
+            },
+            {
+                "comment_id": "mq036lo",
+                "comment_body": "Pede pra alguém levar ué. Eu tbm busquei em outro pais, o gerente levou na mala dele kk\n\nPelo menos onde eu trabalho eles preferiram economizar 3k USD e me deixar uns meses no Pc pessoal",
+                "comment_score": 2,
+                "comment_created_utc": 1746099545.0
+            },
+            {
+                "comment_id": "nilclxu",
+                "comment_body": "sim, voltei com ele na bagagem de mão e só roupa na bagagem despachada, ainda tava com um notebook pessoal na mesma mochila, nem deu nada",
+                "comment_score": 1,
+                "comment_created_utc": 1760016248.0
+            },
+            {
+                "comment_id": "mq0bwe1",
+                "comment_body": "Não é muito comum ter Macbook falso por aí, mas se você for pessoalmente, pesquisa as lojas mais confiáveis, geralmente abrem e testam na sua frente.",
+                "comment_score": 2,
+                "comment_created_utc": 1746103120.0
+            },
+            {
+                "comment_id": "mq2oi4p",
+                "comment_body": "Isso.\nFiquei uns dias em foz do iguaçu, combinei com um cara para me levar la, fiz as compras, coloquei no porta-malas deles e voltei pro hotel com tudo\n\nFoi supee tranquilo",
+                "comment_score": 3,
+                "comment_created_utc": 1746128714.0
+            },
+            {
+                "comment_id": "mq42h34",
+                "comment_body": "Fui tem 3 semanas, nunca atravesse do Paraguai para o Brasil de ônibus ou Van, pegue um táxi, custa 45 reais pra ele atravessar. \n\nNunca fui parado mas cansei de ver bus e Van sendo parada",
+                "comment_score": 3,
+                "comment_created_utc": 1746144562.0
+            },
+            {
+                "comment_id": "mq0qq0p",
+                "comment_body": "É mais difícil de fiscalizaram só um notebook na mochila, mas se pararem e pagarem o rombo é maior pq a isenção é só de 500U$",
+                "comment_score": 3,
+                "comment_created_utc": 1746108221.0
+            },
+            {
+                "comment_id": "mq0c91z",
+                "comment_body": "Sempre tem a chance de te pararem e se pararem ai tem multa e td. Todo dia tem gente passando, mas tem o risco",
+                "comment_score": 2,
+                "comment_created_utc": 1746103254.0
+            },
+            {
+                "comment_id": "n32apcn",
+                "comment_body": "o que eu peguei falou que tava tranquilo e quando passamos ele mandou msg para os outros falando que ainda não tinha ngm parando. Pelo o que percebi tem horas que não tem nenhum fiscal na área fiscalização e ai eles se comunicam nessas brechas, mas a chance de ser parada é muito baixa tanto andando quando de carro, vi muitas motos sendo parada",
+                "comment_score": 1,
+                "comment_created_utc": 1752495459.0
+            },
+            {
+                "comment_id": "mq4mky7",
+                "comment_body": "O Shopping China fica na cidade vizinha, chamada Pedro Juan Caballero (fronteira seca, como eu disse, você atravessa a rua e está em outra cidade). Não é em Ciudade del Leste (talvez tenha um Shopping China lá também, mas estou falando do de Pedro Juan Caballero mesmo).",
+                "comment_score": 2,
+                "comment_created_utc": 1746151752.0
+            },
+            {
+                "comment_id": "mq7em7e",
+                "comment_body": "De boa. O lugar é super arrumado, organizado, limpo, atendimento excelente. E é gigante, tem muita coisa boa pra comprar: brinquedos pra criança, coisas pra casa, roupas, eletrônicos, bicicleta, artigos de camping, bebidas (vinho, muito vinho). Tem de tudo.\n\nTem uma área onde você pode abrir o produto e testar antes de ir embora, pra ver se está funcionando.\n\nQuem mora ou já morou no Mato Grosso do Sul conhece. Dizem que existe uma pequena chance de você ser parado na rodovia saindo de Ponta Porã, mas eu já fui algumas vezes e nunca fui.",
+                "comment_score": 2,
+                "comment_created_utc": 1746197307.0
+            },
+            {
+                "comment_id": "mq2t6cg",
+                "comment_body": "Nao. Me hospedava em Foz, ou fazia bate-e-volta (moro no PR).",
+                "comment_score": 2,
+                "comment_created_utc": 1746130058.0
+            },
+            {
+                "comment_id": "ni90r11",
+                "comment_body": "Lojas grandes. Já comprei no Shopping China e na Nissei.",
+                "comment_score": 1,
+                "comment_created_utc": 1759846689.0
+            },
+            {
+                "comment_id": "nljcurd",
+                "comment_body": "Se você vai viajar pra Foz, é só ir lá e pegar. Eu arriscaria. Só não dar muita bandeira nem levantar suspeitas. Faz as contas quanto seria o imposto, para estar preparado psicologicamente caso seja pego. Tem algumas lojas que entregam do lado brasileiro por uma taxa a mais (20%, algo assim).",
+                "comment_score": 1,
+                "comment_created_utc": 1761510646.0
+            },
+            {
+                "comment_id": "mvhpr4p",
+                "comment_body": "então se eu tiver 2 mac mini voltando de um país da europa que morei por quase 2 anos não posso alegar que um é de uso pessoal e outro pra uso da empresa? ambos abaixo de mil dólares cada",
+                "comment_score": 1,
+                "comment_created_utc": 1748816556.0
+            },
+            {
+                "comment_id": "mq7zum1",
+                "comment_body": "Isso. É relativamente baixo o custo de frete e imposto.",
+                "comment_score": 1,
+                "comment_created_utc": 1746203344.0
+            },
+            {
+                "comment_id": "nimdydd",
+                "comment_body": "otimo, vou tentar isso com certeza...",
+                "comment_score": 1,
+                "comment_created_utc": 1760027676.0
+            },
+            {
+                "comment_id": "mq2s4gn",
+                "comment_body": "Legal! De Foz do Iguaçu para sua cidade você precisou pegar avião? Tenho receio nessa etapa",
+                "comment_score": 2,
+                "comment_created_utc": 1746129752.0
+            },
+            {
+                "comment_id": "ni8jhm4",
+                "comment_body": "se incomoda de falar qual foi a loja, campeão? eu já comprei um iphone lá numa loja bastante confiável, mas não vi macs por lá",
+                "comment_score": 1,
+                "comment_created_utc": 1759840913.0
+            },
+            {
+                "comment_id": "ni8jkan",
+                "comment_body": "e se for a pé com mochila?",
+                "comment_score": 1,
+                "comment_created_utc": 1759840940.0
+            },
+            {
+                "comment_id": "ni92175",
+                "comment_body": "fiquei com uma má impressão do Shopping China pq lá tem umas lojinhas fajutas vendendo aparelhos recondicionados sem deixar isso claro",
+                "comment_score": 1,
+                "comment_created_utc": 1759847080.0
+            },
+            {
+                "comment_id": "njj87tf",
+                "comment_body": "Na saída de Foz é bom evitar aeroporto né ? Tipo ir de ônibus ou alugar carro até o Curitiba e embarcar por lá.",
+                "comment_score": 1,
+                "comment_created_utc": 1760484327.0
+            },
+            {
+                "comment_id": "nlk0f71",
+                "comment_body": "Dizem que as blitz no caminho de volta na br são um problema também né",
+                "comment_score": 1,
+                "comment_created_utc": 1761518141.0
+            },
+            {
+                "comment_id": "mvid340",
+                "comment_body": "Se você morou fora do Brasil por mais de um ano a regra é outra.\n\nMas, de modo geral, a cota é sobre o valor total que está sendo trazido, pouco importa que ambos custem menos de mil dólares. Se o somatório deu mais de mil, incide imposto.\n\nE, de novo, os únicos bens considerados de uso pessoal que cada pessoa pode trazer um são celular, câmera fotográfica e relógio. Se trouxer mais de um poderá ser taxado.",
+                "comment_score": 2,
+                "comment_created_utc": 1748824846.0
+            },
+            {
+                "comment_id": "mq2s9bj",
+                "comment_body": "Peguei sim\nMas dentro do Brasil ninguem olha nada",
+                "comment_score": 2,
+                "comment_created_utc": 1746129792.0
+            },
+            {
+                "comment_id": "ni8x2sg",
+                "comment_body": "Alfa Tech dentro do Shopping Paris",
+                "comment_score": 1,
+                "comment_created_utc": 1759845556.0
+            },
+            {
+                "comment_id": "nj74uhu",
+                "comment_body": "Ja fui, recomendo táxi, menor chance de ser parado",
+                "comment_score": 2,
+                "comment_created_utc": 1760317267.0
+            },
+            {
+                "comment_id": "ni931t5",
+                "comment_body": "A “Shopping China” que eu to dizendo é uma loja enorme que chama assim, não tem lojinhas dentro. Fica no shopping Paris.",
+                "comment_score": 2,
+                "comment_created_utc": 1759847384.0
+            },
+            {
+                "comment_id": "ni93xwm",
+                "comment_body": "Eu curtia que Shopping China te dá uns pontinhos e o valor de um MacBook já garantia algum brinde legal. Mas desta vez preferi economizar 10 dólares e comprar na Nissei.",
+                "comment_score": 2,
+                "comment_created_utc": 1759847655.0
+            },
+            {
+                "comment_id": "njjvjw3",
+                "comment_body": "Não sei dizer. Ouvi dicas diferentes. Uma dica é o canal do Math Terê, que ele fala de várias alternativas.",
+                "comment_score": 1,
+                "comment_created_utc": 1760492851.0
+            },
+            {
+                "comment_id": "nlkgmfj",
+                "comment_body": "Até onde vi, nem tanto. Da última vez entraram no ônibus com cachorro, e procuram quem leve muita muamba. Acho que coube na mochila tá tranquilo. A fiscalização é mais em cima de ônibus de sacoleiros.",
+                "comment_score": 1,
+                "comment_created_utc": 1761523793.0
+            },
+            {
+                "comment_id": "mvjtwoo",
+                "comment_body": "estou morando na irlanda desde fevereiro/24, poderia me dizer onde consigo maiores informações sobre qual regra eu melhor me encaixaria? \n\npq parece piada q eu não possa levar um computador ou notebook como item pessoal... tipo??? se bem q escrevendo isso me toquei q se tratando de brasil nada é impossível com relação a impostos",
+                "comment_score": 1,
+                "comment_created_utc": 1748848796.0
+            },
+            {
+                "comment_id": "nifevzr",
+                "comment_body": "Então um morador do US vem passar ferias no Brasil e decide trazer um macbook de \"uso pessoal\" não vai passar?",
+                "comment_score": 1,
+                "comment_created_utc": 1759933913.0
+            },
+            {
+                "comment_id": "mq9dtw6",
+                "comment_body": "Dentro do Brasil há diversas operações. Claro que o foco não é um macbook mas não é livre de riscos.",
+                "comment_score": 1,
+                "comment_created_utc": 1746217840.0
+            },
+            {
+                "comment_id": "ni91ud3",
+                "comment_body": "obg o/",
+                "comment_score": 2,
+                "comment_created_utc": 1759847022.0
+            },
+            {
+                "comment_id": "ni9c2xt",
+                "comment_body": "Ahhhh ok",
+                "comment_score": 1,
+                "comment_created_utc": 1759850055.0
+            },
+            {
+                "comment_id": "njlm0dt",
+                "comment_body": "Entrei no canal vlw. Ele recomenda uso de real em espécie ou pagamento em dólar pela Nomad, pois dólar em espécie os caras implicam querendo achar defeito.",
+                "comment_score": 1,
+                "comment_created_utc": 1760525281.0
+            },
+            {
+                "comment_id": "nlkibqo",
+                "comment_body": "Valeu pelas informações mano!",
+                "comment_score": 1,
+                "comment_created_utc": 1761524402.0
+            },
+            {
+                "comment_id": "nifnzpu",
+                "comment_body": "Se a receita achar que ele vai vender esse MACBOOK aqui, pode deixar registrado e checar, quando ele estiver indo embora, se está, de fato, levando o computador embora.",
+                "comment_score": 2,
+                "comment_created_utc": 1759936599.0
+            },
+            {
+                "comment_id": "myw2qh0",
+                "comment_body": "quem mais vai ai de floripa? aloooo meu povo kkk, bora marcar dee ir junto",
+                "comment_score": 1,
+                "comment_created_utc": 1750457806.0
+            },
+            {
+                "comment_id": "nlkp648",
+                "comment_body": "Por nada! Da uma pesquisada pq bom, são minhas experiências, podem acontecer outras coisas.",
+                "comment_score": 1,
+                "comment_created_utc": 1761526842.0
+            },
+            {
+                "comment_id": "nigil6m",
+                "comment_body": "ai é foda viu, que pais maldito",
+                "comment_score": 1,
+                "comment_created_utc": 1759945476.0
+            }
+        ]
+    }
+]
